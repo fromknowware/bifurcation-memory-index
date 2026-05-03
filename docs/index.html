@@ -230,37 +230,105 @@
     .v2-box li { line-height: 1.55; }
     .v2-box li strong { color: var(--hbm); }
 
-    /* ── BENTO STATS ──────────────────────────────── */
+    /* ── KEY RESULTS BENTO ────────────────────────── */
     .stats {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: 110px 90px;
+      grid-template-areas:
+        "hero hero r1   lead gran gran"
+        "hero hero hbm1 hbm1 hbm2 hbm2";
       gap: 0.75rem;
     }
 
     @media (max-width: 640px) {
-      .stats { grid-template-columns: 1fr 1fr !important; }
-      .stat-card { grid-area: auto !important; }
+      .stats { grid-template-columns: 1fr 1fr; grid-template-rows: unset;
+               grid-template-areas: unset; }
+      .stat-card { grid-area: unset !important; min-height: 80px; }
     }
 
     .stat-card {
       background: var(--panel);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 1.2rem 1rem;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      min-height: 96px;
+      padding: 1rem 1rem 0.9rem;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      position: relative; overflow: hidden;
       transition: border-color 0.2s, box-shadow 0.2s;
     }
-    .stat-card:hover { border-color: rgba(255,179,71,0.3); box-shadow: 0 0 20px rgba(255,179,71,0.06); }
-    .stat-card.hbm-card:hover { border-color: rgba(0,212,170,0.3); box-shadow: 0 0 20px rgba(0,212,170,0.06); }
+    .stat-card:hover { border-color: rgba(255,179,71,0.28); }
+    .stat-card.hbm-card { border-color: rgba(0,212,170,0.2); }
+    .stat-card.hbm-card:hover { border-color: rgba(0,212,170,0.4); }
 
-    .stat-num { font-size: 1.85rem; font-weight: 800; color: var(--ram); line-height: 1; margin-bottom: 0.35rem; letter-spacing: -0.02em; }
+    /* per-card grid areas */
+    .sc-hero  { grid-area: hero;
+      background: linear-gradient(145deg, #1a1d28, #141620);
+      border-color: rgba(255,179,71,0.35) !important;
+      justify-content: center; align-items: center; text-align: center; }
+    .sc-hero::before { content:''; position:absolute; inset:0;
+      background: radial-gradient(ellipse at 50% 55%, rgba(255,179,71,0.09) 0%, transparent 68%);
+      pointer-events:none; }
+    .sc-r1   { grid-area: r1; }
+    .sc-lead { grid-area: lead; }
+    .sc-gran { grid-area: gran; border-color: rgba(0,212,170,0.22) !important; }
+    .sc-hbm1 { grid-area: hbm1; border-color: rgba(0,212,170,0.22) !important; }
+    .sc-hbm2 { grid-area: hbm2; border-color: rgba(0,212,170,0.22) !important; }
+
+    .stat-tag { font-size: 0.62rem; font-weight: 700; text-transform: uppercase;
+                letter-spacing: 0.1em; color: var(--muted); margin-bottom: 0.35rem; }
+    .stat-num { font-weight: 800; letter-spacing: -0.03em; line-height: 1;
+                color: var(--ram); margin-bottom: 0.2rem; }
+    .stat-num.xl  { font-size: 3rem; }
+    .stat-num.lg  { font-size: 1.7rem; }
+    .stat-num.md  { font-size: 1.35rem; }
     .stat-num.hbm { color: var(--hbm); }
-    .stat-label { font-size: 0.74rem; color: var(--muted); line-height: 1.4; }
+    .stat-label { font-size: 0.68rem; color: var(--muted); line-height: 1.4; }
+
+    /* ── INTERPRETIVE BENTO ───────────────────────── */
+    .interp-bento {
+      display: grid;
+      grid-template-columns: 1fr 1.15fr;
+      grid-template-rows: repeat(3, auto);
+      grid-template-areas:
+        "rec  div"
+        "eq   div"
+        "exp  div";
+      gap: 0.75rem;
+    }
+    @media (max-width: 600px) {
+      .interp-bento { grid-template-columns: 1fr; grid-template-rows: unset;
+                      grid-template-areas: unset; }
+      .interp-bento > * { grid-area: unset !important; }
+    }
+
+    .ic { background: var(--panel); border: 1px solid var(--border);
+          border-radius: var(--radius); padding: 1.1rem 1.2rem;
+          display: flex; flex-direction: column; gap: 0.3rem;
+          transition: border-color 0.2s; }
+
+    .ic-rec { grid-area: rec; }
+    .ic-eq  { grid-area: eq;  }
+    .ic-exp { grid-area: exp; }
+    .ic-div { grid-area: div;
+      background: rgba(0,212,170,0.03);
+      border-color: rgba(0,212,170,0.3) !important;
+      justify-content: center; }
+    .ic-div:hover { border-color: rgba(0,212,170,0.5) !important; }
+    .ic:hover { border-color: rgba(255,179,71,0.25); }
+
+    .ic-signal { font-size: 0.78rem; font-weight: 800;
+                 letter-spacing: -0.01em; font-family: "SFMono-Regular", Consolas, monospace; }
+    .ic-signal.neg { color: var(--red); }
+    .ic-signal.neu { color: var(--muted); }
+    .ic-signal.pos { color: var(--green); }
+    .ic-signal.div { color: var(--hbm); }
+    .ic-verdict { font-size: 0.72rem; font-weight: 700; }
+    .ic-desc { font-size: 0.78rem; color: var(--muted); line-height: 1.55; margin-top: 0.2rem; }
+    .ic-badge { display: inline-block; font-size: 0.6rem; font-weight: 700;
+                text-transform: uppercase; letter-spacing: 0.1em;
+                padding: 0.18em 0.65em; border-radius: 99px; margin-bottom: 0.55rem; }
+    .ic-badge.new { background: rgba(0,212,170,0.12); color: var(--hbm);
+                    border: 1px solid rgba(0,212,170,0.3); }
 
     /* ── RECESSION TABLE ──────────────────────────── */
     .table-wrap { overflow-x: auto; }
@@ -528,12 +596,36 @@
   <section>
     <h2>Key Results</h2>
     <div class="stats" id="bento">
-      <div class="stat-card"><div class="stat-num">6/6</div><div class="stat-label">NBER recessions signalled since 1980</div></div>
-      <div class="stat-card"><div class="stat-num">1–3Q</div><div class="stat-label">Median lead over NBER recession peak</div></div>
-      <div class="stat-card"><div class="stat-num">r=0.41</div><div class="stat-label">Pearson correlation with real GDP growth</div></div>
-      <div class="stat-card hbm-card"><div class="stat-num hbm">F=5.83</div><div class="stat-label">Granger causality F-stat (p=0.004) — RAM → GDP</div></div>
-      <div class="stat-card hbm-card"><div class="stat-num hbm">+86%</div><div class="stat-label">2026 composite R<sub>t</sub> — highest in 46-year series</div></div>
-      <div class="stat-card hbm-card"><div class="stat-num hbm">42%</div><div class="stat-label">Estimated HBM revenue share of DRAM by 2026</div></div>
+      <div class="stat-card sc-hero">
+        <div class="stat-tag">Recession coverage</div>
+        <div class="stat-num xl">6/6</div>
+        <div class="stat-label">All NBER recessions signalled since 1980</div>
+      </div>
+      <div class="stat-card sc-r1">
+        <div class="stat-tag">GDP correlation</div>
+        <div class="stat-num md">r = 0.41</div>
+        <div class="stat-label">Pearson r vs real GDP growth</div>
+      </div>
+      <div class="stat-card sc-lead">
+        <div class="stat-tag">Lead time</div>
+        <div class="stat-num md">1–3Q</div>
+        <div class="stat-label">Median quarters ahead of NBER peak</div>
+      </div>
+      <div class="stat-card hbm-card sc-gran">
+        <div class="stat-tag">Granger causality — VAR(2) 1985–2024</div>
+        <div class="stat-num lg hbm">F = 5.83 <span style="font-size:0.75rem;font-weight:600;color:var(--muted)">p = 0.004</span></div>
+        <div class="stat-label">RAM → GDP · GDP → RAM fails (F = 2.14, p = 0.121)</div>
+      </div>
+      <div class="stat-card hbm-card sc-hbm1">
+        <div class="stat-tag">2026 composite R<sub>t</sub></div>
+        <div class="stat-num md hbm">+86%</div>
+        <div class="stat-label">46-year series maximum — RAMageddon</div>
+      </div>
+      <div class="stat-card hbm-card sc-hbm2">
+        <div class="stat-tag">HBM revenue share 2026</div>
+        <div class="stat-num md hbm">42%</div>
+        <div class="stat-label">Up from 18% in 2024 — parity by 2028</div>
+      </div>
     </div>
   </section>
 
@@ -683,26 +775,27 @@
   <!-- INTERPRETIVE FRAMEWORK -->
   <section>
     <h2>Interpretive Framework — v2 Update</h2>
-    <div class="triple-grid">
-      <div class="triple-card">
-        <span class="triple-icon">📉</span>
-        <h3>R<sub>t</sub> ≪ 0</h3>
-        <p>Demand-side contraction. DRAM producers are cutting prices ahead of a slowdown. <strong style="color:var(--red)">Recession signal</strong> at 1–3 quarter lead.</p>
+    <div class="interp-bento">
+      <div class="ic ic-rec">
+        <div class="ic-signal neg">R<sub>t</sub> ≪ 0</div>
+        <div class="ic-verdict" style="color:var(--red)">Recession signal</div>
+        <div class="ic-desc">Demand-side contraction. DRAM producers cutting prices ahead of a slowdown — 1–3 quarter lead on NBER turning points.</div>
       </div>
-      <div class="triple-card">
-        <span class="triple-icon">➡️</span>
-        <h3>R<sub>t</sub> ≈ 0</h3>
-        <p>Equilibrium. No directional signal from the DRAM market. Hold.</p>
+      <div class="ic ic-eq">
+        <div class="ic-signal neu">R<sub>t</sub> ≈ 0</div>
+        <div class="ic-verdict" style="color:var(--muted)">Equilibrium</div>
+        <div class="ic-desc">No directional signal from the DRAM market. Hold.</div>
       </div>
-      <div class="triple-card">
-        <span class="triple-icon">📈</span>
-        <h3>R<sub>t</sub> ≫ 0 — Demand</h3>
-        <p>Healthy demand growth. IT capex expanding. <strong style="color:var(--green)">Expansion signal</strong>.</p>
+      <div class="ic ic-exp">
+        <div class="ic-signal pos">R<sub>t</sub> ≫ 0</div>
+        <div class="ic-verdict" style="color:var(--green)">Expansion signal</div>
+        <div class="ic-desc">Healthy demand growth. IT capex expanding; downstream macro follows.</div>
       </div>
-      <div class="triple-card hbm-card" style="border-color:rgba(0,212,170,0.25)">
-        <span class="triple-icon">⚠️</span>
-        <h3 style="color:var(--hbm)">R<sup>C</sup> ≫ 0 + macro weakening</h3>
-        <p><strong style="color:var(--hbm)">Supply-side divergence regime</strong> (new in v2). Positive reading is <em>contractionary</em>: oligopoly reallocation toward AI raises BOM costs, suppresses consumer electronics, squeezes margins. Sign is positive; economic meaning is stagflationary.</p>
+      <div class="ic ic-div">
+        <div class="ic-badge new">New in v2</div>
+        <div class="ic-signal div">R<sup>C</sup><sub>t</sub> ≫ 0 + macro weakening</div>
+        <div class="ic-verdict" style="color:var(--hbm)">Supply-side divergence</div>
+        <div class="ic-desc">Positive commodity reading is <em>contractionary</em>, not expansionary. Oligopoly reallocation toward AI/HBM raises BOM costs, suppresses consumer electronics, squeezes margins. Sign is positive; economic meaning is stagflationary.<br><br>Composite <em>R<sub>t</sub></em> alone cannot identify this regime — sub-index divergence (<em>R</em><sup>C</sup> ≫ <em>R</em><sup>AI</sup>) combined with weakening macro indicators is required.</div>
       </div>
     </div>
     <p style="font-size:0.82rem;color:var(--muted);margin-top:0.9rem;">
