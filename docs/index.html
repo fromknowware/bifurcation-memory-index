@@ -336,6 +336,42 @@
     .ic-badge.new { background: rgba(0,212,170,0.12); color: var(--hbm);
                     border: 1px solid rgba(0,212,170,0.3); }
 
+    /* ── AUDIO PLAYER ────────────────────────────── */
+    .audio-player {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 0.65rem 0.9rem;
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 10px; margin-top: 1.1rem;
+    }
+    .ap-btn {
+      flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%;
+      border: 1px solid rgba(255,179,71,0.35); background: rgba(255,179,71,0.08);
+      color: var(--ram); cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; transition: background 0.15s; line-height: 1;
+    }
+    .ap-btn:hover { background: rgba(255,179,71,0.18); }
+    .ap-track { flex: 1; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+    .ap-label { color: var(--muted); font-size: 0.7rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .ap-bar-wrap { height: 3px; background: var(--border); border-radius: 999px; cursor: pointer; position: relative; }
+    .ap-bar { height: 100%; width: 0%; border-radius: 999px; background: var(--ram); pointer-events: none; }
+    .ap-time { flex-shrink: 0; font-size: 0.7rem; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 76px; text-align: right; }
+    .ap-top { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
+    .ap-speeds { display: flex; gap: 3px; flex-shrink: 0; }
+    .ap-speed { font-size: 0.62rem; padding: 1px 6px; border-radius: 4px; border: 1px solid var(--border); background: transparent; color: var(--muted); cursor: pointer; transition: all 0.12s; line-height: 1.7; }
+    .ap-speed.on { border-color: rgba(255,179,71,0.45); color: var(--ram); background: rgba(255,179,71,0.07); }
+    .transcript-wrap { margin-top: 0.6rem; }
+    .transcript-toggle { font-size: 0.7rem; color: var(--muted); background: none; border: 1px solid var(--border); border-radius: 6px; padding: 3px 10px; cursor: pointer; transition: color 0.15s, border-color 0.15s; }
+    .transcript-toggle:hover { color: var(--text); border-color: rgba(255,255,255,0.15); }
+    .transcript-panel { max-height: 0; overflow: hidden; transition: max-height 0.38s ease; }
+    .transcript-panel.open { max-height: 230px; }
+    .transcript-body { overflow-y: auto; max-height: 220px; padding: 0.8rem 0.1rem 0.4rem; font-size: 0.74rem; line-height: 1.7; color: var(--muted); }
+    .ts-seg { padding: 2px 0; transition: color 0.18s; cursor: pointer; }
+    .ts-seg:hover { opacity: 1 !important; color: var(--text); }
+    .ts-seg.ts-past { opacity: 0.42; }
+    .ts-seg.ts-active { color: var(--text); }
+    .ts-seg.ts-anchored::before { content: '·'; color: rgba(255,179,71,0.65); margin-right: 3px; vertical-align: middle; }
+
     /* ── RECESSION TABLE ──────────────────────────── */
     .table-wrap { overflow-x: auto; }
 
@@ -596,6 +632,33 @@
         <li><strong>Photonic disruption risk</strong> — Fiber-optic delay-line and co-packaged optics assessed; material disruption not before 2028&ndash;2030</li>
         <li><strong>Robustness checks</strong> — Spot vs. contract, measurement window shifts, NAND flash placebo (3/6 vs. 6/6)</li>
       </ol>
+    </div>
+  </section>
+
+  <section>
+    <h2>Podcast</h2>
+    <div class="audio-player">
+      <button class="ap-btn" id="apPlayBtn" aria-label="Play">&#9654;</button>
+      <div class="ap-track">
+        <div class="ap-top">
+          <span class="ap-label">Podcast · Why DRAM Prices Predict the Global Economy</span>
+          <div class="ap-speeds">
+            <button class="ap-speed" data-rate="0.75">Slow</button>
+            <button class="ap-speed on" data-rate="1">1×</button>
+            <button class="ap-speed" data-rate="1.5">Fast</button>
+            <button class="ap-speed" data-rate="2">Faster</button>
+          </div>
+        </div>
+        <div class="ap-bar-wrap" id="apBarWrap"><div class="ap-bar" id="apBar"></div></div>
+      </div>
+      <span class="ap-time" id="apTime">0:00 / --:--</span>
+      <audio id="apAudio" src="Why_DRAM_prices_predict_the_global_economy.mp3" preload="metadata"></audio>
+    </div>
+    <div class="transcript-wrap">
+      <button class="transcript-toggle" id="transcriptToggle">▸ Transcript</button>
+      <div class="transcript-panel" id="transcriptPanel">
+        <div class="transcript-body" id="transcriptBody"></div>
+      </div>
     </div>
   </section>
 
@@ -902,6 +965,94 @@
 </footer>
 
 <script>
+/* ── audio player ────────────────────────────────────────── */
+(function () {
+  var audio = document.getElementById('apAudio');
+  var btn   = document.getElementById('apPlayBtn');
+  var bar   = document.getElementById('apBar');
+  var wrap  = document.getElementById('apBarWrap');
+  var time  = document.getElementById('apTime');
+
+  function fmt(s) {
+    if (!isFinite(s)) return '--:--';
+    var m = Math.floor(s / 60), ss = Math.floor(s % 60);
+    return m + ':' + (ss < 10 ? '0' : '') + ss;
+  }
+
+  btn.addEventListener('click', function () {
+    if (audio.paused) { audio.play(); btn.innerHTML = '&#9646;&#9646;'; }
+    else              { audio.pause(); btn.innerHTML = '&#9654;'; }
+  });
+  audio.addEventListener('timeupdate', updateProgress);
+  audio.addEventListener('loadedmetadata', function () {
+    time.textContent = '0:00 / ' + fmt(audio.duration);
+    buildTranscript();
+  });
+  audio.addEventListener('ended', function () { btn.innerHTML = '&#9654;'; });
+  wrap.addEventListener('click', function (e) {
+    if (!audio.duration) return;
+    var r = wrap.getBoundingClientRect();
+    audio.currentTime = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)) * audio.duration;
+  });
+
+  function updateProgress() {
+    if (!audio.duration) return;
+    bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    time.textContent = fmt(audio.currentTime) + ' / ' + fmt(audio.duration);
+    syncTranscript();
+  }
+
+  document.querySelectorAll('.ap-speed').forEach(function (b) {
+    b.addEventListener('click', function () {
+      document.querySelectorAll('.ap-speed').forEach(function (x) { x.classList.remove('on'); });
+      b.classList.add('on');
+      audio.playbackRate = parseFloat(b.dataset.rate);
+    });
+  });
+
+  /* transcript toggle */
+  document.getElementById('transcriptToggle').addEventListener('click', function () {
+    var panel = document.getElementById('transcriptPanel');
+    var open  = panel.classList.toggle('open');
+    this.textContent = (open ? '▾' : '▸') + ' Transcript';
+  });
+
+  /* ── Transcript ─────────────────────────────────────────── */
+  var TRANSCRIPT = ``;   /* ← paste transcript text here */
+
+  var segs = [];
+
+  function buildTranscript() {
+    var body = document.getElementById('transcriptBody');
+    if (!TRANSCRIPT.trim()) {
+      body.innerHTML = '<span style="color:var(--muted);font-style:italic">Transcript coming soon.</span>';
+      return;
+    }
+    segs = TRANSCRIPT.trim().split(/\n+/).map(function (t) { return t.trim(); }).filter(Boolean);
+    body.innerHTML = segs.map(function (t, i) {
+      return '<div class="ts-seg" data-i="' + i + '">' + t + '</div>';
+    }).join('');
+    body.querySelectorAll('.ts-seg').forEach(function (el) {
+      el.addEventListener('click', function () {
+        if (audio.duration) audio.currentTime = (parseInt(el.dataset.i) / segs.length) * audio.duration;
+      });
+    });
+  }
+
+  function syncTranscript() {
+    if (!segs.length || !audio.duration) return;
+    var idx = Math.floor((audio.currentTime / audio.duration) * segs.length);
+    document.querySelectorAll('.ts-seg').forEach(function (el, i) {
+      el.classList.toggle('ts-active', i === idx);
+      el.classList.toggle('ts-past',   i < idx);
+    });
+    var active = document.querySelector('.ts-seg.ts-active');
+    if (active) active.scrollIntoView({ block: 'nearest' });
+  }
+
+  buildTranscript();
+})();
+
 /* ── scroll progress ─────────────────────────────────────── */
 (function () {
   var bar = document.getElementById('progress');
