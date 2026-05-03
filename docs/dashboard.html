@@ -113,26 +113,99 @@
     display: block; width: 100%; background: var(--panel);
   }
 
-  /* ── STATS ROW ────────────────────────────────────── */
-  .stats-row {
+  /* ── STATS BENTO ─────────────────────────────────── */
+  .stats-bento {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 120px 100px;
+    grid-template-areas:
+      "hero hero r1   r2   gran gran"
+      "hero hero hbm1 hbm1 hbm2 hbm2";
+    gap: 10px;
+  }
+  @media (max-width: 700px) {
+    .stats-bento {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: unset;
+      grid-template-areas: unset;
+    }
+    .stats-bento > * { grid-area: unset !important; }
   }
 
-  .stat {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
+  .sb { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
+        display: flex; flex-direction: column; justify-content: flex-end; padding: 14px 16px;
+        position: relative; overflow: hidden; transition: border-color 0.2s; }
+  .sb:hover { border-color: rgba(255,179,71,0.28); }
+  .sb.hbm   { border-color: rgba(0,212,170,0.2); }
+  .sb.hbm:hover { border-color: rgba(0,212,170,0.4); }
+
+  .sb-hero { grid-area: hero;
+    background: linear-gradient(145deg, #1a1d28, #141620);
+    border-color: rgba(255,179,71,0.35) !important;
+    justify-content: center; align-items: center; text-align: center; }
+  .sb-hero::before { content:''; position:absolute; inset:0;
+    background: radial-gradient(ellipse at 50% 60%, rgba(255,179,71,0.08) 0%, transparent 70%);
+    pointer-events: none; }
+  .sb-r1   { grid-area: r1; }
+  .sb-r2   { grid-area: r2; }
+  .sb-gran { grid-area: gran; border-color: rgba(0,212,170,0.2) !important; }
+  .sb-hbm1 { grid-area: hbm1; border-color: rgba(0,212,170,0.2) !important; }
+  .sb-hbm2 { grid-area: hbm2; border-color: rgba(0,212,170,0.2) !important; }
+
+  .sb-num  { font-weight: 800; letter-spacing: -0.03em; line-height: 1; color: var(--ram); }
+  .sb-num.xl  { font-size: 52px; }
+  .sb-num.lg  { font-size: 28px; }
+  .sb-num.md  { font-size: 22px; }
+  .sb-num.hbm { color: var(--hbm); }
+  .sb-tag  { font-size: 10px; font-weight: 700; text-transform: uppercase;
+             letter-spacing: 0.1em; color: var(--muted); margin-bottom: 6px; }
+  .sb-label{ font-size: 11px; color: var(--muted); line-height: 1.4; margin-top: 4px; }
+
+  /* ── RAMAGEDDON KPIs ──────────────────────────────── */
+  .ram-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px 100px 100px 80px;
+    grid-template-areas:
+      "qoq  qoq  yoy  yoy"
+      "quad oa   prem prem"
+      "quad oa   inv  inv"
+      "drop drop nb   nb";
+    gap: 10px;
     padding: 14px 16px;
-    display: flex; flex-direction: column; gap: 4px;
   }
-  .stat.hbm { border-color: rgba(0,212,170,0.2); }
+  @media (max-width: 600px) {
+    .ram-kpi-grid {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: unset;
+      grid-template-areas: unset;
+    }
+    .ram-kpi-grid > * { grid-area: unset !important; }
+  }
 
-  .stat-val { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; color: var(--ram); }
-  .stat-val.hbm { color: var(--hbm); }
-  .stat-val.neg { color: var(--red); }
-  .stat-label { font-size: 11px; color: var(--muted); line-height: 1.4; }
+  .bk { background: var(--panel2); border: 1px solid var(--border2); border-radius: var(--radius);
+        display: flex; flex-direction: column; justify-content: center;
+        padding: 12px 16px; overflow: hidden; position: relative; }
+
+  .bk-qoq  { grid-area: qoq;  border-color: rgba(248,113,113,0.3); }
+  .bk-yoy  { grid-area: yoy;  border-color: rgba(248,113,113,0.2); }
+  .bk-quad { grid-area: quad; border-color: rgba(248,113,113,0.3); justify-content: space-around; }
+  .bk-oa   { grid-area: oa;   border-color: rgba(0,212,170,0.3); }
+  .bk-prem { grid-area: prem; }
+  .bk-inv  { grid-area: inv;  border-color: rgba(0,212,170,0.2); }
+  .bk-drop { grid-area: drop; border-color: rgba(248,113,113,0.15); }
+  .bk-nb   { grid-area: nb;   border-color: rgba(248,113,113,0.15); }
+
+  .bk-num { font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+  .bk-num.xl  { font-size: 36px; color: var(--red); }
+  .bk-num.lg  { font-size: 28px; color: var(--red); }
+  .bk-num.md  { font-size: 22px; color: var(--red); }
+  .bk-num.hbm { color: var(--hbm); }
+  .bk-num.muted { color: var(--muted); font-size: 14px; }
+  .bk-label { font-size: 10px; color: var(--muted); line-height: 1.45; margin-top: 5px; }
+  .bk-label.top { margin-top: 0; margin-bottom: 5px; }
+  .bk-tag { font-size: 9px; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.1em; color: var(--muted); margin-bottom: 4px; }
 
   /* ── DIVERGENCE PANEL ─────────────────────────────── */
   .diverge-grid {
@@ -228,31 +301,37 @@
 
 <main>
 
-  <!-- ── STATS ROW ── -->
-  <div class="stats-row">
-    <div class="stat">
-      <div class="stat-val">6/6</div>
-      <div class="stat-label">NBER recessions signalled since 1980</div>
+  <!-- ── STATS BENTO ── -->
+  <div class="stats-bento">
+    <div class="sb sb-hero">
+      <div class="sb-tag">Recession coverage</div>
+      <div class="sb-num xl">6/6</div>
+      <div class="sb-label">All NBER recessions correctly<br>signalled since 1980</div>
     </div>
-    <div class="stat">
-      <div class="stat-val">r = 0.41</div>
-      <div class="stat-label">Pearson corr with real GDP growth</div>
+    <div class="sb sb-r1">
+      <div class="sb-tag">GDP correlation</div>
+      <div class="sb-num md">r = 0.41</div>
+      <div class="sb-label">Pearson r vs real GDP growth</div>
     </div>
-    <div class="stat">
-      <div class="stat-val">r = −0.52</div>
-      <div class="stat-label">Pearson corr with Δ unemployment</div>
+    <div class="sb sb-r2">
+      <div class="sb-tag">Labour correlation</div>
+      <div class="sb-num md">r = −0.52</div>
+      <div class="sb-label">Pearson r vs Δ unemployment</div>
     </div>
-    <div class="stat hbm">
-      <div class="stat-val hbm">F = 5.83</div>
-      <div class="stat-label">Granger causality F-stat (p = 0.004)</div>
+    <div class="sb sb-gran hbm">
+      <div class="sb-tag">Granger causality — VAR(2)</div>
+      <div class="sb-num lg hbm">F = 5.83 <span style="font-size:13px;font-weight:600;color:var(--muted)">p = 0.004</span></div>
+      <div class="sb-label">RAM → GDP at 1–3 quarter lead · GDP → RAM fails (F = 2.14)</div>
     </div>
-    <div class="stat hbm">
-      <div class="stat-val hbm">+86%</div>
-      <div class="stat-label">2026 composite R<sub>t</sub> — 46-yr max</div>
+    <div class="sb sb-hbm1 hbm">
+      <div class="sb-tag">2026 composite R<sub>t</sub></div>
+      <div class="sb-num md hbm">+86%</div>
+      <div class="sb-label">46-year series maximum — RAMageddon</div>
     </div>
-    <div class="stat hbm">
-      <div class="stat-val hbm">42%</div>
-      <div class="stat-label">Estimated HBM DRAM revenue share 2026</div>
+    <div class="sb sb-hbm2 hbm">
+      <div class="sb-tag">HBM revenue share</div>
+      <div class="sb-num md hbm">42%</div>
+      <div class="sb-label">Estimated DRAM revenue, 2026 est.</div>
     </div>
   </div>
 
@@ -422,38 +501,83 @@
       <span class="card-title" style="color:var(--red)">RAMageddon — 2025–2026 Episode KPIs</span>
     </div>
     <div class="ram-kpi-grid">
-      <div class="ram-kpi">
-        <div class="ram-kpi-val">+90–95%</div>
-        <div class="ram-kpi-label">Contract DRAM price change, Q1 2026 QoQ</div>
+
+      <!-- qoq — wide, top-left -->
+      <div class="bk bk-qoq">
+        <div class="bk-tag">Q1 2026 QoQ contract price surge</div>
+        <div class="bk-num xl">+90–95%</div>
+        <div class="bk-label">Largest quarterly DRAM contract price increase on record</div>
       </div>
-      <div class="ram-kpi">
-        <div class="ram-kpi-val">4×</div>
-        <div class="ram-kpi-label">DDR5 chip price ($6.84→$27.20) in 3 months</div>
+
+      <!-- yoy — wide, top-right -->
+      <div class="bk bk-yoy">
+        <div class="bk-tag">Full-year 2026 vs 2025 (composite)</div>
+        <div class="bk-num xl">+130–144%</div>
+        <div class="bk-label">TrendForce vs Gartner range · most positive R<sub>t</sub> in 46-year series</div>
       </div>
-      <div class="ram-kpi">
-        <div class="ram-kpi-val">+130–144%</div>
-        <div class="ram-kpi-label">Composite DRAM price YoY 2026 vs 2025</div>
+
+      <!-- quad — tall, left -->
+      <div class="bk bk-quad">
+        <div>
+          <div class="bk-tag">DDR5 chip · Dec 2025</div>
+          <div class="bk-num lg">4×</div>
+          <div class="bk-label">$6.84 → $27.20 in three months</div>
+        </div>
+        <div style="border-top:1px solid var(--border2);padding-top:10px;margin-top:4px">
+          <div class="bk-tag">Q2 2026 projected QoQ</div>
+          <div class="bk-num md">+58–63%</div>
+          <div class="bk-label">Momentum slowing but historically extreme</div>
+        </div>
       </div>
-      <div class="ram-kpi">
-        <div class="ram-kpi-val hbm">40%</div>
-        <div class="ram-kpi-label">Global DRAM production secured by OpenAI</div>
+
+      <!-- oa — tall, second column -->
+      <div class="bk bk-oa">
+        <div class="bk-tag">OpenAI DRAM capture</div>
+        <div class="bk-num lg hbm">40%</div>
+        <div class="bk-label" style="margin-top:6px">Estimated share of global DRAM production secured for long-term AI infrastructure · Oct 2025</div>
+        <div style="margin-top:10px;border-top:1px solid rgba(0,212,170,0.15);padding-top:8px">
+          <div class="bk-tag">Micron exit</div>
+          <div class="bk-num muted hbm" style="font-size:12px;color:var(--hbm)">Consumer → AI only</div>
+          <div class="bk-label">Withdrew from Crucial RAM &amp; SSD · late 2025</div>
+        </div>
       </div>
-      <div class="ram-kpi">
-        <div class="ram-kpi-val">+230%</div>
-        <div class="ram-kpi-label">Apple premium for LPDDR5X, iPhone 17 Pro</div>
+
+      <!-- prem — wide, mid-right top -->
+      <div class="bk bk-prem">
+        <div class="bk-tag">Apple · iPhone 17 Pro · LPDDR5X premium</div>
+        <div class="bk-num lg">+230%</div>
+        <div class="bk-label">Memory cost premium over prior generation</div>
       </div>
-      <div class="ram-kpi">
-        <div class="ram-kpi-val hbm">$2.10/Gb</div>
-        <div class="ram-kpi-label">DDR4 spot price — exceeds HBM3e ($1.70/Gb)</div>
+
+      <!-- inv — wide, mid-right bottom -->
+      <div class="bk bk-inv">
+        <div class="bk-tag">Legacy price inversion — Q1 2026</div>
+        <div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap">
+          <div>
+            <div class="bk-num md" style="color:var(--red)">$2.10<span style="font-size:12px;font-weight:600">/Gb DDR4</span></div>
+          </div>
+          <div style="color:var(--muted);font-size:18px;font-weight:300">&gt;</div>
+          <div>
+            <div class="bk-num md hbm">$1.70<span style="font-size:12px;font-weight:600">/Gb HBM3e</span></div>
+          </div>
+        </div>
+        <div class="bk-label">Older commodity memory now costs more than cutting-edge HBM — a residue-degree anomaly</div>
       </div>
-      <div class="ram-kpi">
-        <div class="ram-kpi-val">−4.9%</div>
-        <div class="ram-kpi-label">IDC projected PC market decline 2026</div>
+
+      <!-- drop — wide, bottom-left -->
+      <div class="bk bk-drop">
+        <div class="bk-tag">IDC 2026 PC market projection</div>
+        <div class="bk-num md">−4.9% <span style="font-size:13px;font-weight:500;color:var(--muted)">to −8.9%</span></div>
+        <div class="bk-label">Memory-driven BOM increases suppressing consumer electronics</div>
       </div>
-      <div class="ram-kpi">
-        <div class="ram-kpi-val">−14.8%</div>
-        <div class="ram-kpi-label">Notebook shipments projected YoY decline</div>
+
+      <!-- nb — wide, bottom-right -->
+      <div class="bk bk-nb">
+        <div class="bk-tag">Notebook shipments YoY 2026</div>
+        <div class="bk-num md">−14.8%</div>
+        <div class="bk-label">Downstream ramification of supply-side divergence</div>
       </div>
+
     </div>
   </div>
 
