@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Ramification Index v2 — Bifurcated Dashboard</title>
+<style>
+  :root {
+    --bg:       #0b0c10;
+    --panel:    #141620;
+    --panel2:   #1a1d28;
+    --border:   #20232d;
+    --border2:  #2a2f3e;
+    --text:     #e8e9ee;
+    --muted:    #8a8f9b;
+    --ram:      #ffb347;
+    --hbm:      #00d4aa;
+    --comm:     #ffd580;
+    --lipstick: #ff4d88;
+    --hemline:  #9d7cff;
+    --mui:      #6ed3ff;
+    --popcorn:  #e6e86b;
+    --green:    #4ade80;
+    --red:      #f87171;
+    --recession:rgba(248,113,113,0.08);
+    --radius:   6px;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  /* ── HEADER ──────────────────────────────────────── */
+  header {
+    padding: 20px 32px 14px;
+    border-bottom: 1px solid var(--border);
+    background: var(--panel);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  header h1 {
+    margin: 0 0 4px;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    color: #fff;
+  }
+  header h1 em { color: var(--ram); font-style: normal; }
+  header h1 .v2 { color: var(--hbm); font-size: 13px; font-weight: 600; margin-left: 8px; }
+  header p { margin: 0; color: var(--muted); font-size: 12px; max-width: 760px; }
+  .header-right { display: flex; gap: 8px; flex-shrink: 0; align-items: center; }
+  .h-pill {
+    font-size: 11px; font-weight: 600; padding: 4px 12px; border-radius: 99px;
+    text-decoration: none; border: 1px solid var(--border2); color: var(--muted);
+    transition: all 0.15s;
+  }
+  .h-pill:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
+  .h-pill.active { border-color: rgba(0,212,170,0.45); color: var(--hbm); background: rgba(0,212,170,0.06); }
+
+  /* ── GRID ─────────────────────────────────────────── */
+  main {
+    padding: 20px 32px 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  /* ── PANEL ────────────────────────────────────────── */
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  .card-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border);
+    background: var(--panel2);
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .card-title {
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--muted);
+  }
+  .card-title .accent { color: var(--ram); }
+  .card-title .accent-hbm { color: var(--hbm); }
+
+  .legend {
+    display: flex; gap: 14px; align-items: center; flex-wrap: wrap;
+  }
+  .leg { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--muted); }
+  .leg-swatch {
+    width: 18px; height: 2px; border-radius: 1px; flex-shrink: 0;
+  }
+  .leg-dot {
+    width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0;
+  }
+
+  canvas {
+    display: block; width: 100%; background: var(--panel);
+  }
+
+  /* ── STATS ROW ────────────────────────────────────── */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+  }
+
+  .stat {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    display: flex; flex-direction: column; gap: 4px;
+  }
+  .stat.hbm { border-color: rgba(0,212,170,0.2); }
+
+  .stat-val { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; color: var(--ram); }
+  .stat-val.hbm { color: var(--hbm); }
+  .stat-val.neg { color: var(--red); }
+  .stat-label { font-size: 11px; color: var(--muted); line-height: 1.4; }
+
+  /* ── DIVERGENCE PANEL ─────────────────────────────── */
+  .diverge-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  @media (max-width: 600px) { .diverge-grid { grid-template-columns: 1fr; } }
+
+  .diverge-card {
+    background: var(--panel2);
+    border: 1px solid var(--border2);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+  }
+  .diverge-card.hbm { border-color: rgba(0,212,170,0.2); }
+  .diverge-card h3 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 8px; }
+  .diverge-card h3 .accent     { color: var(--comm); }
+  .diverge-card h3 .accent-hbm { color: var(--hbm); }
+  .diverge-val { font-size: 32px; font-weight: 800; letter-spacing: -0.02em; line-height: 1; margin-bottom: 6px; }
+  .diverge-val.comm { color: var(--comm); }
+  .diverge-val.hbm  { color: var(--hbm); }
+  .diverge-desc { font-size: 11px; color: var(--muted); line-height: 1.5; }
+
+  /* ── REGIME BOX ───────────────────────────────────── */
+  .regime-box {
+    background: rgba(0,212,170,0.04);
+    border: 1px solid rgba(0,212,170,0.25);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+  }
+  .regime-box h3 {
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--hbm); margin-bottom: 8px;
+  }
+  .regime-box p { font-size: 12px; color: var(--text); margin: 0; line-height: 1.65; }
+  .regime-box p + p { margin-top: 6px; }
+
+  /* ── CORR TABLE ───────────────────────────────────── */
+  .corr-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .corr-table thead tr { background: var(--panel2); }
+  .corr-table th, .corr-table td { padding: 8px 12px; text-align: center; border-bottom: 1px solid var(--border); }
+  .corr-table th:first-child, .corr-table td:first-child { text-align: left; }
+  .corr-table tbody tr:last-child td { border-bottom: none; }
+  .corr-table thead { color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: 0.07em; }
+  .corr-table tbody tr:first-child td:first-child { color: var(--ram); font-weight: 700; }
+  .strong-pos { color: var(--green); font-weight: 700; }
+  .strong-neg { color: var(--hbm); font-weight: 700; }
+  .weak { color: var(--muted); }
+
+  .caption { font-size: 11px; color: var(--muted); padding: 8px 14px 12px; border-top: 1px solid var(--border); line-height: 1.55; }
+
+  /* ── RAMAGEDDON KPIs ──────────────────────────────── */
+  .ram-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 10px;
+    padding: 14px 16px;
+  }
+  .ram-kpi {
+    background: var(--panel2);
+    border: 1px solid var(--border2);
+    border-radius: 4px;
+    padding: 10px 12px;
+    text-align: center;
+  }
+  .ram-kpi-val { font-size: 18px; font-weight: 800; color: var(--red); margin-bottom: 3px; }
+  .ram-kpi-val.hbm { color: var(--hbm); }
+  .ram-kpi-label { font-size: 10px; color: var(--muted); line-height: 1.4; }
+
+  /* ── FOOTER ───────────────────────────────────────── */
+  footer {
+    text-align: center; padding: 16px; font-size: 11px; color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--mui); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>The <em>Ramification</em> Index <span class="v2">v2 — Bifurcated</span></h1>
+    <p>Commodity DRAM vs. HBM/AI sub-indices · Folk index comparison · 1980–2026 · Supply-side divergence regime</p>
+  </div>
+  <div class="header-right">
+    <a class="h-pill" href="index.html">← Paper</a>
+    <a class="h-pill" href="ramification-v2-arxiv.pdf" target="_blank">PDF ↗</a>
+    <a class="h-pill active" href="#">Dashboard</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ── STATS ROW ── -->
+  <div class="stats-row">
+    <div class="stat">
+      <div class="stat-val">6/6</div>
+      <div class="stat-label">NBER recessions signalled since 1980</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val">r = 0.41</div>
+      <div class="stat-label">Pearson corr with real GDP growth</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val">r = −0.52</div>
+      <div class="stat-label">Pearson corr with Δ unemployment</div>
+    </div>
+    <div class="stat hbm">
+      <div class="stat-val hbm">F = 5.83</div>
+      <div class="stat-label">Granger causality F-stat (p = 0.004)</div>
+    </div>
+    <div class="stat hbm">
+      <div class="stat-val hbm">+86%</div>
+      <div class="stat-label">2026 composite R<sub>t</sub> — 46-yr max</div>
+    </div>
+    <div class="stat hbm">
+      <div class="stat-val hbm">42%</div>
+      <div class="stat-label">Estimated HBM DRAM revenue share 2026</div>
+    </div>
+  </div>
+
+  <!-- ── MAIN INDEX CHART ── -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">Ramification Index — <span class="accent">Composite</span> &amp; Sub-indices, 1981–2026</span>
+      <div class="legend">
+        <span class="leg"><span class="leg-swatch" style="background:var(--ram)"></span> Composite R<sub>t</sub></span>
+        <span class="leg"><span class="leg-swatch" style="background:var(--comm);opacity:0.85"></span> Commodity R<sup>C</sup></span>
+        <span class="leg"><span class="leg-swatch" style="background:var(--hbm)"></span> AI/HBM R<sup>AI</sup></span>
+        <span class="leg"><span class="leg-dot" style="background:rgba(248,113,113,0.4)"></span> NBER recession</span>
+      </div>
+    </div>
+    <canvas id="mainChart" height="280"></canvas>
+    <div class="caption">
+      Annual log first-difference of DRAM ASP. Bifurcated sub-indices (commodity DDR4/5 and HBM) begin 2024.
+      The 2026 composite reading (+0.86) is the most positive in the 46-year series — driven by supply reallocation, not demand growth.
+    </div>
+  </div>
+
+  <!-- ── BIFURCATION DIVERGENCE ── -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">2024–2026 <span class="accent-hbm">Sub-index Divergence</span></span>
+      <div class="legend">
+        <span class="leg"><span class="leg-swatch" style="background:var(--comm)"></span> Commodity R<sup>C</sup></span>
+        <span class="leg"><span class="leg-swatch" style="background:var(--hbm)"></span> AI/HBM R<sup>AI</sup></span>
+      </div>
+    </div>
+    <div style="padding:16px;">
+      <div class="diverge-grid">
+        <div class="diverge-card">
+          <h3>Commodity DRAM — <span class="accent">R<sup>C</sup></span></h3>
+          <div class="diverge-val comm">+1.37</div>
+          <div class="diverge-desc">
+            DDR4/5 prices surged <strong>+90–95% QoQ in Q1 2026</strong>, then +58–63% QoQ in Q2.
+            Full-year commodity DRAM up ~294% from 2025.
+            Driven by wafer capacity reallocation to HBM stacking.
+            PC DRAM doubled QoQ; server DRAM +60% QoQ.
+          </div>
+        </div>
+        <div class="diverge-card hbm">
+          <h3>HBM/AI DRAM — <span class="accent-hbm">R<sup>AI</sup></span></h3>
+          <div class="diverge-val hbm">+0.17</div>
+          <div class="diverge-desc">
+            HBM3e contract prices rose only <strong>~18% YoY</strong>, as hyperscaler buyers hold
+            multi-year supply agreements that smooth spot volatility.
+            Despite lower R<sup>AI</sup>, HBM now accounts for ~42% of DRAM revenue —
+            its ramification into AI capex is more complete than any prior cycle.
+          </div>
+        </div>
+      </div>
+      <div class="regime-box" style="margin-top:12px;">
+        <h3>Supply-Side Divergence Regime (new in v2)</h3>
+        <p>When R<sup>C</sup> ≫ 0 <em>and</em> macro indicators are weakening, the composite index is positive but the economic meaning is <strong>stagflationary</strong>: rising input costs coexist with slowing output.
+        The downstream ramifications are contractionary — IDC projects PC market −4.9–8.9% and smartphones −2.9–5.2% in 2026.</p>
+        <p>Legacy price inversion: DDR4 spot ($2.10/Gb) now exceeds HBM3e contract ($1.70/Gb). Older memory costs more than cutting-edge memory — a residue-degree anomaly in the algebraic metaphor.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── PRICE SERIES ── -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">DRAM Price Series — <span class="accent">$/GB</span>, 1980–2026</span>
+      <div class="legend">
+        <span class="leg"><span class="leg-swatch" style="background:var(--ram)"></span> Composite $/GB (log scale)</span>
+        <span class="leg"><span class="leg-swatch" style="background:var(--comm)"></span> Commodity DDR4/5</span>
+        <span class="leg"><span class="leg-swatch" style="background:var(--hbm)"></span> HBM (2024+)</span>
+      </div>
+    </div>
+    <canvas id="priceChart" height="220"></canvas>
+    <div class="caption">Log scale. Composite $/GB declines from $6.3M in 1980 to $0.0018 in 2023, then reverses sharply in 2024–2026. HBM pricing reflects a separate tier with different supply dynamics.</div>
+  </div>
+
+  <!-- ── FOLK INDEX COMPARISON ── -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">Folk Index Comparison — Normalised Annual Change</span>
+      <div class="legend">
+        <span class="leg"><span class="leg-swatch" style="background:var(--ram)"></span> Ramification</span>
+        <span class="leg"><span class="leg-swatch" style="background:var(--lipstick)"></span> Lipstick</span>
+        <span class="leg"><span class="leg-swatch" style="background:var(--hemline)"></span> Hemline</span>
+        <span class="leg"><span class="leg-swatch" style="background:var(--mui)"></span> Men's Underwear</span>
+        <span class="leg"><span class="leg-swatch" style="background:var(--popcorn)"></span> Popcorn</span>
+        <span class="leg"><span class="leg-dot" style="background:rgba(248,113,113,0.4)"></span> NBER</span>
+      </div>
+    </div>
+    <canvas id="folkChart" height="240"></canvas>
+    <div class="caption">All series normalised to unit standard deviation for comparability. Positive = pro-expansion signal. Ramification Index Pearson r = 0.41 vs. real GDP; best folk index ≤ 0.19.</div>
+  </div>
+
+  <!-- ── CORRELATION TABLE ── -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">Pearson Correlations with Macro Variables, 1980–2026</span>
+    </div>
+    <table class="corr-table">
+      <thead>
+        <tr>
+          <th>Index</th>
+          <th>r (Real GDP)</th>
+          <th>r (ΔU-3)</th>
+          <th>r (S&P 500)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ramification Index</td>
+          <td class="strong-pos">+0.41</td>
+          <td class="strong-neg">−0.52</td>
+          <td class="strong-pos">+0.33</td>
+        </tr>
+        <tr>
+          <td>Lipstick Index</td>
+          <td class="weak">+0.08</td>
+          <td class="weak">−0.05</td>
+          <td class="weak">+0.11</td>
+        </tr>
+        <tr>
+          <td>Hemline Index</td>
+          <td class="weak">+0.03</td>
+          <td class="weak">−0.01</td>
+          <td class="weak">+0.00</td>
+        </tr>
+        <tr>
+          <td>Men's Underwear</td>
+          <td class="weak">+0.14</td>
+          <td class="weak">−0.10</td>
+          <td class="weak">+0.06</td>
+        </tr>
+        <tr>
+          <td>Buttered Popcorn</td>
+          <td class="weak">+0.15</td>
+          <td class="weak">−0.08</td>
+          <td class="weak">+0.19</td>
+        </tr>
+        <tr>
+          <td style="color:var(--muted)">NAND Flash (placebo)</td>
+          <td class="weak">+0.19</td>
+          <td class="weak">−0.22</td>
+          <td class="weak">+0.14</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="caption">Negative r(ΔU-3) is directionally correct: RAM prices rise when unemployment falls. NAND flash placebo confirms the DRAM signal is specific to oligopoly concentration, not generic semiconductor pricing.</div>
+  </div>
+
+  <!-- ── RAMAGEDDON KPIs ── -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title" style="color:var(--red)">RAMageddon — 2025–2026 Episode KPIs</span>
+    </div>
+    <div class="ram-kpi-grid">
+      <div class="ram-kpi">
+        <div class="ram-kpi-val">+90–95%</div>
+        <div class="ram-kpi-label">Contract DRAM price change, Q1 2026 QoQ</div>
+      </div>
+      <div class="ram-kpi">
+        <div class="ram-kpi-val">4×</div>
+        <div class="ram-kpi-label">DDR5 chip price ($6.84→$27.20) in 3 months</div>
+      </div>
+      <div class="ram-kpi">
+        <div class="ram-kpi-val">+130–144%</div>
+        <div class="ram-kpi-label">Composite DRAM price YoY 2026 vs 2025</div>
+      </div>
+      <div class="ram-kpi">
+        <div class="ram-kpi-val hbm">40%</div>
+        <div class="ram-kpi-label">Global DRAM production secured by OpenAI</div>
+      </div>
+      <div class="ram-kpi">
+        <div class="ram-kpi-val">+230%</div>
+        <div class="ram-kpi-label">Apple premium for LPDDR5X, iPhone 17 Pro</div>
+      </div>
+      <div class="ram-kpi">
+        <div class="ram-kpi-val hbm">$2.10/Gb</div>
+        <div class="ram-kpi-label">DDR4 spot price — exceeds HBM3e ($1.70/Gb)</div>
+      </div>
+      <div class="ram-kpi">
+        <div class="ram-kpi-val">−4.9%</div>
+        <div class="ram-kpi-label">IDC projected PC market decline 2026</div>
+      </div>
+      <div class="ram-kpi">
+        <div class="ram-kpi-val">−14.8%</div>
+        <div class="ram-kpi-label">Notebook shipments projected YoY decline</div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  Khayyam Wakil &nbsp;·&nbsp; The ARC Institute of Knowware &nbsp;·&nbsp; May 2026 &nbsp;·&nbsp;
+  <a href="index.html">Paper site</a> &nbsp;·&nbsp;
+  <a href="https://github.com/fromknowware/bifurcation-memory-index">GitHub</a> &nbsp;·&nbsp;
+  <a href="https://iamkhayyam.github.io/memory-index/">v1 →</a>
+</footer>
+
+<script>
+/* ══════════════════════════════════════════════════════
+   DATA
+   ══════════════════════════════════════════════════════ */
+var YEARS = [
+  1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,
+  1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,
+  2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,
+  2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,
+  2020,2021,2022,2023,2024,2025,2026
+];
+
+/* Ramification Index R_t (log first-diff of ASP) — null for 1980 (base year) */
+var R = [
+  null,-0.368,-0.794,-1.085,-0.418,-0.158,-0.772,-0.291,-0.217,-0.383,
+  -0.441,-0.113,-0.074,-0.137,-0.061,-0.064,-1.470,-0.520,-1.089,-0.200,
+  -0.073,-1.518,-0.362,0.172,0.000,-0.380,0.207,-0.374,-1.037,-0.485,
+  -0.693,-0.431,-0.572,0.223,0.227,-0.385,-0.449,0.569,0.436,-0.851,
+   0.000,0.028,-0.182,-0.511,0.477,0.346,0.863
+];
+
+/* Commodity sub-index R^C (2024+) */
+var RC = [
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,null,null,0.524,0.421,1.367
+];
+
+/* AI/HBM sub-index R^AI (2024+) */
+var RAI = [
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,null,null,0.262,0.170,0.167
+];
+
+/* NBER recession (1=recession year) */
+var REC = [
+  1,1,1,1,0,0,0,0,0,0,
+  1,1,0,0,0,0,0,0,0,0,
+  0,1,0,0,0,0,0,1,1,1,
+  0,0,0,0,0,0,0,0,0,0,
+  1,0,0,0,0,0,0
+];
+
+/* DRAM $/GB — composite */
+var PRICE_GB = [
+  6635520,4586496,2075648,701440,461824,394240,182272,136192,109568,74752,
+  48128,43008,39936,34816,32768,30720,7065.6,4198.4,1413.12,1157.12,
+  1075.2,235.52,163.84,194.56,194.56,133.12,163.84,112.64,39.936,24.576,
+  12.288,7.9872,4.5056,5.632,7.0656,4.8128,3.072,5.4272,8.3968,3.584,
+  3.584,3.6864,3.072,1.8432,2.9696,4.1984,9.950
+];
+
+/* Commodity DDR4/5 $/GB (2024+) */
+var PRICE_COMM = new Array(47).fill(null);
+PRICE_COMM[44]=3.21; PRICE_COMM[45]=4.72; PRICE_COMM[46]=18.56;
+
+/* HBM $/GB (2024+) */
+var PRICE_HBM = new Array(47).fill(null);
+PRICE_HBM[44]=13.77; PRICE_HBM[45]=16.28; PRICE_HBM[46]=19.20;
+
+/* Folk index year-on-year changes (normalised by std later) */
+/* Lipstick index — 2001-based (null = unavailable) */
+var LIPSTICK_YOY = [
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,-5,1,-2,-2,4,-3,-8,-9,
+  8,6,7,5,7,8,8,7,4,-3,
+  -46,50,42,88,19,4,4
+];
+
+/* Hemline score 0-10 YoY (rough) */
+var HEMLINE_YOY = [
+  0,0,0.5,0,0.5,0.5,0,0.5,0,−0.5,
+  -0.5,-0.5,0,0,0,0,0,0,0,0,
+  0.5,0,-0.5,0,0.5,0,0,0,0,0,
+  -1,0,0,0,0,0,0,0,0,0,
+  0,0,0,0,0,0,0
+];
+
+/* MUI YoY % (null = unavailable) */
+var MUI_YOY = [
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,null,null,null,null,null,null,null,null,
+  null,null,null,null,null,null,3.0,3.3,-0.8,-2.4,
+  2.5,2.0,2.0,0.8,1.9,1.9,1.9,3.6,5.3,3.3,
+  1.9,4.4,1.8,1.2,4.4,2.8,1.9
+];
+
+/* Box office YoY % */
+var BOX_YOY = [
+  null,10.9,51.1,-0.4,-4.5,-7.0,0.8,12.4,4.5,12.8,
+  -0.2,-4.4,1.5,5.7,4.7,-2.0,10.0,6.7,9.4,7.5,
+  2.5,-11.8,9.7,0.9,1.5,-5.8,4.2,-3.6,0.2,10.1,
+  -0.3,-3.5,6.7,1.1,-5.4,7.5,2.1,-3.5,7.3,-4.5,
+  -80.6,112.3,64.9,-0.5,-3.8,0.1,-73.3
+];
+
+/* Real GDP YoY */
+var GDP_YOY = [
+  -0.3,2.5,-1.8,4.6,7.2,4.2,3.5,3.5,4.2,3.7,
+   1.9,-0.1,3.5,2.8,4.0,2.7,1.8,4.4,4.5,4.8,
+   4.1,1.0,1.7,2.8,3.9,3.5,2.8,2.0,0.1,-2.6,
+   2.7,1.6,2.3,2.1,2.5,2.9,1.8,2.5,3.0,2.6,
+  -2.2,6.1,2.1,2.9,2.8,2.2,1.5
+];
+
+/* ══════════════════════════════════════════════════════
+   HELPERS
+   ══════════════════════════════════════════════════════ */
+var CSS = getComputedStyle(document.documentElement);
+function v(name) { return CSS.getPropertyValue(name).trim(); }
+
+function normalise(arr) {
+  var vals = arr.filter(function(x){return x!==null && isFinite(x);});
+  var mean = vals.reduce(function(a,b){return a+b;},0)/vals.length;
+  var std  = Math.sqrt(vals.reduce(function(s,x){return s+(x-mean)*(x-mean);},0)/vals.length);
+  if(std===0) return arr;
+  return arr.map(function(x){ return x===null ? null : (x-mean)/std; });
+}
+
+function drawChart(id, height, fn) {
+  var canvas = document.getElementById(id);
+  if (!canvas) return;
+  function render() {
+    var W = canvas.offsetWidth;
+    var H = height;
+    canvas.width  = W * devicePixelRatio;
+    canvas.height = H * devicePixelRatio;
+    canvas.style.height = H + 'px';
+    var ctx = canvas.getContext('2d');
+    ctx.scale(devicePixelRatio, devicePixelRatio);
+    fn(ctx, W, H);
+  }
+  render();
+  window.addEventListener('resize', render, {passive:true});
+}
+
+function recBands(ctx, pad, cW, cH, n) {
+  for (var i=0;i<n;i++) {
+    if (!REC[i]) continue;
+    ctx.fillStyle = v('--recession');
+    var x0 = i===0   ? pad.l : pad.l + ((i-0.5)/(n-1))*cW;
+    var x1 = i===n-1 ? pad.l+cW : pad.l + ((i+0.5)/(n-1))*cW;
+    ctx.fillRect(x0, pad.t, x1-x0, cH);
+  }
+}
+
+function xAxis(ctx, pad, cW, H, n, step) {
+  ctx.fillStyle = '#4a5168'; ctx.font='9px sans-serif'; ctx.textAlign='center';
+  for (var i=0;i<n;i++) {
+    if ((YEARS[i]-1980)%step===0) {
+      var x = pad.l + (i/(n-1))*cW;
+      ctx.fillText(YEARS[i], x, H-pad.b+12);
+    }
+  }
+}
+
+function yAxis(ctx, pad, cH, min, max, ticks) {
+  ticks.forEach(function(v) {
+    var y = pad.t + (1-(v-min)/(max-min))*cH;
+    ctx.strokeStyle='rgba(42,47,62,0.5)'; ctx.lineWidth=0.5; ctx.setLineDash([3,3]);
+    ctx.beginPath(); ctx.moveTo(pad.l, y); ctx.lineTo(pad.l+1200, y); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle='#4a5168'; ctx.font='9px sans-serif'; ctx.textAlign='right';
+    ctx.fillText(typeof v==='number'&&v!==Math.floor(v)?v.toFixed(1):v, pad.l-5, y+3);
+  });
+}
+
+function plotLine(ctx, data, pad, cW, cH, n, min, max, color, lw, dash) {
+  ctx.strokeStyle=color; ctx.lineWidth=lw||1.5;
+  if(dash) ctx.setLineDash(dash); else ctx.setLineDash([]);
+  ctx.beginPath();
+  var started=false;
+  for(var i=0;i<n;i++) {
+    if(data[i]===null||!isFinite(data[i])) {started=false; continue;}
+    var x = pad.l+(i/(n-1))*cW;
+    var y = pad.t+(1-(data[i]-min)/(max-min))*cH;
+    if(!started){ctx.moveTo(x,y);started=true;}else ctx.lineTo(x,y);
+  }
+  ctx.stroke(); ctx.setLineDash([]);
+}
+
+/* ══════════════════════════════════════════════════════
+   CHART 1 — MAIN INDEX
+   ══════════════════════════════════════════════════════ */
+drawChart('mainChart', 280, function(ctx, W, H) {
+  var pad={t:18,r:24,b:28,l:44}, cW=W-pad.l-pad.r, cH=H-pad.t-pad.b, n=YEARS.length;
+  var min=-1.65, max=1.5;
+  function yOf(v){return pad.t+(1-(v-min)/(max-min))*cH;}
+  function xOf(i){return pad.l+(i/(n-1))*cW;}
+
+  recBands(ctx,pad,cW,cH,n);
+
+  /* zero line */
+  ctx.strokeStyle='#2a2f3e'; ctx.lineWidth=1; ctx.setLineDash([4,4]);
+  ctx.beginPath(); ctx.moveTo(pad.l,yOf(0)); ctx.lineTo(pad.l+cW,yOf(0)); ctx.stroke();
+  ctx.setLineDash([]);
+
+  yAxis(ctx,pad,cH,min,max,[-1.5,-1.0,-0.5,0.5,1.0,1.5]);
+  plotLine(ctx,R, pad,cW,cH,n,min,max,v('--ram'),2.2);
+  plotLine(ctx,RC,pad,cW,cH,n,min,max,v('--comm'),1.8,[6,3]);
+  plotLine(ctx,RAI,pad,cW,cH,n,min,max,v('--hbm'),1.8,[3,3]);
+
+  /* RAMageddon pulse */
+  var lx=xOf(n-1), ly=yOf(R[n-1]);
+  for(var r=20;r>=6;r-=7){
+    ctx.beginPath(); ctx.arc(lx,ly,r,0,2*Math.PI);
+    ctx.fillStyle='rgba(0,212,170,'+(0.04+(20-r)*0.008)+')'; ctx.fill();
+  }
+  ctx.fillStyle=v('--hbm'); ctx.font='bold 9px sans-serif'; ctx.textAlign='center';
+  ctx.fillText('RAMageddon', lx, pad.t+12);
+
+  xAxis(ctx,pad,cW,H,n,5);
+});
+
+/* ══════════════════════════════════════════════════════
+   CHART 2 — PRICE SERIES (LOG)
+   ══════════════════════════════════════════════════════ */
+drawChart('priceChart', 220, function(ctx, W, H) {
+  var pad={t:18,r:24,b:28,l:58}, cW=W-pad.l-pad.r, cH=H-pad.t-pad.b, n=YEARS.length;
+
+  var logComp = PRICE_GB.map(function(x){return x>0?Math.log10(x):null;});
+  var logComm = PRICE_COMM.map(function(x){return x&&x>0?Math.log10(x):null;});
+  var logHBM  = PRICE_HBM.map(function(x){return x&&x>0?Math.log10(x):null;});
+
+  var min=-3, max=7;
+  recBands(ctx,pad,cW,cH,n);
+
+  /* gridlines at each power of 10 */
+  [-2,-1,0,1,2,3,4,5,6].forEach(function(p) {
+    var y=pad.t+(1-(p-min)/(max-min))*cH;
+    ctx.strokeStyle='rgba(42,47,62,0.5)'; ctx.lineWidth=0.5; ctx.setLineDash([3,3]);
+    ctx.beginPath(); ctx.moveTo(pad.l,y); ctx.lineTo(pad.l+cW,y); ctx.stroke();
+    ctx.setLineDash([]);
+    var label = p>=0 ? '$'+Math.round(Math.pow(10,p)) : '$'+Math.pow(10,p).toFixed(Math.abs(p));
+    ctx.fillStyle='#4a5168'; ctx.font='9px sans-serif'; ctx.textAlign='right';
+    ctx.fillText(label+'/GB', pad.l-4, y+3);
+  });
+
+  plotLine(ctx,logComp,pad,cW,cH,n,min,max,v('--ram'),2);
+  plotLine(ctx,logComm,pad,cW,cH,n,min,max,v('--comm'),1.8,[5,3]);
+  plotLine(ctx,logHBM, pad,cW,cH,n,min,max,v('--hbm'),1.8,[3,3]);
+
+  xAxis(ctx,pad,cW,H,n,5);
+});
+
+/* ══════════════════════════════════════════════════════
+   CHART 3 — FOLK INDEX COMPARISON
+   ══════════════════════════════════════════════════════ */
+drawChart('folkChart', 240, function(ctx, W, H) {
+  var pad={t:18,r:24,b:28,l:40}, cW=W-pad.l-pad.r, cH=H-pad.t-pad.b, n=YEARS.length;
+  var min=-3.5, max=3.5;
+
+  var normR   = normalise(R.map(function(x){return x===null?null:x;}));
+  var normLip = normalise(LIPSTICK_YOY);
+  var normHem = normalise(HEMLINE_YOY);
+  var normMUI = normalise(MUI_YOY);
+  var normBox = normalise(BOX_YOY);
+
+  recBands(ctx,pad,cW,cH,n);
+
+  ctx.strokeStyle='#2a2f3e'; ctx.lineWidth=1; ctx.setLineDash([4,4]);
+  var y0=pad.t+(1-(-min)/(max-min+max-min))*cH;
+  var yz=pad.t+(1-(0-min)/(max-min))*cH;
+  ctx.beginPath(); ctx.moveTo(pad.l,yz); ctx.lineTo(pad.l+cW,yz); ctx.stroke();
+  ctx.setLineDash([]);
+
+  yAxis(ctx,pad,cH,min,max,[-3,-2,-1,0,1,2,3]);
+
+  plotLine(ctx,normLip,pad,cW,cH,n,min,max,v('--lipstick'),1.2,[4,3]);
+  plotLine(ctx,normHem,pad,cW,cH,n,min,max,v('--hemline'),1.2,[4,3]);
+  plotLine(ctx,normMUI,pad,cW,cH,n,min,max,v('--mui'),1.2,[4,3]);
+  plotLine(ctx,normBox,pad,cW,cH,n,min,max,v('--popcorn'),1.2,[4,3]);
+  plotLine(ctx,normR,  pad,cW,cH,n,min,max,v('--ram'),2.2);
+
+  xAxis(ctx,pad,cW,H,n,5);
+});
+</script>
+
+</body>
+</html>

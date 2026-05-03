@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Ramification Index — Version 2</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:      #0b0c10;
+      --panel:   #141620;
+      --panel2:  #1a1d28;
+      --border:  #20232d;
+      --border2: #2a2f3e;
+      --text:    #c9d3e8;
+      --muted:   #8a8f9b;
+      --white:   #ffffff;
+      --ram:     #ffb347;
+      --hbm:     #00d4aa;
+      --lipstick:#ff4d88;
+      --hemline: #9d7cff;
+      --mui:     #6ed3ff;
+      --popcorn: #e6e86b;
+      --green:   #4ade80;
+      --red:     #f87171;
+      --radius:  6px;
+      --max:     860px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      font-size: 15px;
+    }
+
+    #progress {
+      position: fixed; top: 0; left: 0;
+      width: 100%; height: 2px;
+      background: var(--ram);
+      transform-origin: left center;
+      transform: scaleX(0);
+      z-index: 200;
+      box-shadow: 0 0 8px rgba(255,179,71,0.45);
+    }
+
+    /* ── HERO ─────────────────────────────────────── */
+    header {
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: 35%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 700px; height: 240px;
+      background: radial-gradient(ellipse, rgba(255,179,71,0.06) 0%, rgba(0,212,170,0.04) 50%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-badges {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.4rem;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      border: 1px solid rgba(255,179,71,0.5);
+      color: var(--ram);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 0.28em 1em;
+      border-radius: 99px;
+    }
+
+    .hero-badge-v2 {
+      border-color: rgba(0,212,170,0.6);
+      color: var(--hbm);
+    }
+
+    header h1 {
+      font-size: clamp(1.7rem, 4.5vw, 2.8rem);
+      font-weight: 800;
+      line-height: 1.15;
+      color: var(--white);
+      max-width: var(--max);
+      margin: 0 auto 0.6rem;
+      letter-spacing: -0.01em;
+    }
+
+    header h1 em { color: var(--ram); font-style: normal; text-shadow: 0 0 48px rgba(255,179,71,0.28); }
+
+    .hero-v2-sub {
+      font-size: 0.82rem;
+      color: var(--hbm);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.7rem;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.92rem;
+      max-width: 620px;
+      margin: 0 auto 1.4rem;
+      line-height: 1.6;
+    }
+
+    .meta {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 1.4rem;
+    }
+    .meta a { color: var(--mui); text-decoration: none; }
+    .meta a:hover { text-decoration: underline; }
+
+    .shield-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 1.8rem;
+    }
+    .shield-row img { height: 28px; }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.55rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4em;
+      padding: 0.52em 1.2em;
+      border-radius: 99px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-decoration: none;
+      border: 1px solid transparent;
+      transition: opacity 0.15s, box-shadow 0.2s, background 0.15s;
+    }
+    .pill:hover { opacity: 0.82; }
+
+    .pill-arxiv  { background: var(--ram); color: #0b0c10; }
+    .pill-arxiv:hover  { box-shadow: 0 0 16px rgba(255,179,71,0.35); opacity: 1; }
+    .pill-github { background: transparent; color: var(--text); border-color: var(--border2); }
+    .pill-dl     { background: transparent; color: var(--muted); border-color: var(--border); font-size: 0.74rem; padding: 0.45em 0.9em; }
+    .pill-dl:hover { border-color: var(--border2); opacity: 1; color: var(--text); }
+    .pill-dash   { background: transparent; color: var(--hbm); border-color: rgba(0,212,170,0.45); }
+    .pill-dash:hover { background: rgba(0,212,170,0.07); opacity: 1; }
+    .pill-v1     { background: transparent; color: var(--muted); border-color: var(--border); font-size: 0.74rem; padding: 0.45em 0.9em; }
+    .pill-v1:hover { border-color: var(--border2); opacity: 1; color: var(--text); }
+
+    /* ── MAIN ─────────────────────────────────────── */
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 1.5rem 5rem;
+    }
+
+    section { margin-top: 3.2rem; }
+
+    h2 {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ram);
+      margin-bottom: 1.1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h2.h2-hbm { color: var(--hbm); }
+    h2.h2-hbm { border-bottom-color: rgba(0,212,170,0.2); }
+
+    p { margin-bottom: 0.85rem; }
+    p:last-child { margin-bottom: 0; }
+    strong { color: var(--white); font-weight: 700; }
+
+    /* ── ABSTRACT ─────────────────────────────────── */
+    .abstract-rule { border: none; border-top: 1px solid rgba(255,179,71,0.35); margin: 0; }
+    .abstract-box { padding: 1.3rem 0; font-size: 0.91rem; }
+
+    /* ── V2 CHANGES BOX ───────────────────────────── */
+    .v2-box {
+      background: rgba(0,212,170,0.04);
+      border: 1px solid rgba(0,212,170,0.25);
+      border-radius: var(--radius);
+      padding: 1.2rem 1.4rem;
+      font-size: 0.88rem;
+      margin-top: 1.1rem;
+    }
+
+    .v2-box h3 {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--hbm);
+      margin-bottom: 0.75rem;
+    }
+
+    .v2-box ol {
+      padding-left: 1.2rem;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .v2-box li { line-height: 1.55; }
+    .v2-box li strong { color: var(--hbm); }
+
+    /* ── BENTO STATS ──────────────────────────────── */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 0.75rem;
+    }
+
+    @media (max-width: 640px) {
+      .stats { grid-template-columns: 1fr 1fr !important; }
+      .stat-card { grid-area: auto !important; }
+    }
+
+    .stat-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.2rem 1rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 96px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .stat-card:hover { border-color: rgba(255,179,71,0.3); box-shadow: 0 0 20px rgba(255,179,71,0.06); }
+    .stat-card.hbm-card:hover { border-color: rgba(0,212,170,0.3); box-shadow: 0 0 20px rgba(0,212,170,0.06); }
+
+    .stat-num { font-size: 1.85rem; font-weight: 800; color: var(--ram); line-height: 1; margin-bottom: 0.35rem; letter-spacing: -0.02em; }
+    .stat-num.hbm { color: var(--hbm); }
+    .stat-label { font-size: 0.74rem; color: var(--muted); line-height: 1.4; }
+
+    /* ── RECESSION TABLE ──────────────────────────── */
+    .table-wrap { overflow-x: auto; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.83rem;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    thead { background: var(--panel2); color: var(--muted); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; }
+    th, td { padding: 0.7rem 0.9rem; text-align: center; border-bottom: 1px solid var(--border); }
+    th:first-child, td:first-child { text-align: left; }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:first-child { background: rgba(255,179,71,0.06); }
+    tbody tr:first-child td:first-child { color: var(--ram); font-weight: 700; }
+
+    .s  { color: var(--green); font-weight: 700; }
+    .ns { color: var(--muted); }
+    .as { color: var(--red); }
+    .na { color: var(--border2); }
+    .score-best { color: var(--ram); font-weight: 800; }
+
+    /* ── GRANGER BOX ──────────────────────────────── */
+    .granger-table table thead { font-size: 0.7rem; }
+    .granger-reject { color: var(--green); font-weight: 700; }
+    .granger-fail   { color: var(--muted); }
+
+    /* ── BIFURCATION CHART ────────────────────────── */
+    .bifur-chart-wrap {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .chart-bar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.7rem 1.1rem;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel2);
+    }
+
+    .chart-legend {
+      display: flex; gap: 1.2rem; align-items: center; flex-wrap: wrap;
+    }
+
+    .legend-item {
+      display: flex; align-items: center; gap: 0.4rem;
+      font-size: 0.72rem; color: var(--muted);
+    }
+
+    .leg-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .leg-line { width: 20px; height: 2px; flex-shrink: 0; border-radius: 1px; }
+    .leg-ram   { background: var(--ram); }
+    .leg-hbm   { background: var(--hbm); }
+    .leg-comm  { background: #ffd580; }
+    .leg-rec   { background: rgba(248,113,113,0.45); }
+
+    canvas#bifurChart {
+      display: block;
+      width: 100%;
+      background: var(--panel);
+    }
+
+    /* ── RAMAGEDDON TIMELINE ──────────────────────── */
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      position: relative;
+      padding-left: 1.6rem;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 6px; top: 8px; bottom: 8px;
+      width: 1px;
+      background: var(--border2);
+    }
+
+    .tl-item {
+      position: relative;
+      padding: 0 0 1.4rem 1rem;
+    }
+
+    .tl-item::before {
+      content: '';
+      position: absolute;
+      left: -1.08rem; top: 6px;
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--ram);
+      border: 1px solid var(--bg);
+    }
+
+    .tl-item.hot::before { background: var(--red); }
+
+    .tl-date {
+      font-size: 0.7rem;
+      color: var(--hbm);
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 0.2rem;
+    }
+
+    .tl-text {
+      font-size: 0.86rem;
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    /* ── TRIPLE GRID ──────────────────────────────── */
+    .triple-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.8rem;
+    }
+
+    .triple-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.3rem 1.3rem 1.5rem;
+      transition: border-color 0.2s;
+    }
+    .triple-card:hover { border-color: rgba(255,179,71,0.25); }
+    .triple-card.hbm-card:hover { border-color: rgba(0,212,170,0.25); }
+
+    .triple-icon { font-size: 1.4rem; margin-bottom: 0.6rem; display: block; }
+    .triple-card h3 { font-size: 0.82rem; font-weight: 700; color: var(--white); margin-bottom: 0.45rem; }
+    .triple-card p { font-size: 0.82rem; color: var(--muted); margin: 0; line-height: 1.55; }
+
+    /* ── DASHBOARD EMBED ──────────────────────────── */
+    .dash-wrap {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .dash-bar {
+      padding: 0.75rem 1.1rem;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel2);
+    }
+
+    .dash-bar-left { display: flex; align-items: center; gap: 0.5rem; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .dot-ram  { background: var(--ram); }
+    .dot-hbm  { background: var(--hbm); }
+    .dash-label { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em; }
+
+    .open-full {
+      font-size: 0.75rem; color: var(--hbm); text-decoration: none;
+      font-weight: 600; border: 1px solid rgba(0,212,170,0.35);
+      padding: 0.25em 0.75em; border-radius: 99px;
+      transition: background 0.15s;
+    }
+    .open-full:hover { background: rgba(0,212,170,0.1); }
+
+    iframe { display: block; width: 100%; height: 85vh; min-height: 600px; border: none; background: var(--bg); }
+
+    /* ── CITATION ─────────────────────────────────── */
+    .cite-box {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.2rem 1.4rem;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 0.78rem;
+      line-height: 1.75;
+      color: var(--text);
+      overflow-x: auto;
+      white-space: pre;
+    }
+    .cite-box .k { color: var(--ram); }
+    .cite-box .v { color: var(--mui); }
+
+    /* ── FOOTER ───────────────────────────────────── */
+    footer {
+      text-align: center; padding: 2rem 1rem;
+      font-size: 0.76rem; color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--mui); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    .v1-link { color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<div id="progress"></div>
+
+<header>
+  <div class="hero-badges">
+    <span class="hero-badge">Working Paper &middot; May 2026</span>
+    <span class="hero-badge hero-badge-v2">Version 2 &mdash; The Bifurcated Index</span>
+  </div>
+  <h1>The <em>Ramification</em> Index</h1>
+  <p class="hero-v2-sub">RAM Prices &middot; Oligopoly Cycles &middot; Supply-Side Divergence &middot; Granger Causality &middot; RAMageddon</p>
+  <p class="subtitle">A supply-side alternative to the folk indices of financial journalism — measuring the root, not the leaves.</p>
+  <p class="meta">
+    Khayyam Wakil &nbsp;&middot;&nbsp; The ARC Institute of Knowware &nbsp;&middot;&nbsp; Calgary, AB &nbsp;&middot;&nbsp;
+    <a href="mailto:the@knowware.institute">the@knowware.institute</a>
+  </p>
+
+  <div class="shield-row">
+    <a href="https://fromknowware.github.io/bifurcation-memory-index/" target="_blank">
+      <img src="https://img.shields.io/badge/site-live-00d4aa?style=for-the-badge&logo=github&logoColor=white&labelColor=20232d" alt="site live">
+    </a>
+    <img src="https://img.shields.io/badge/version-2.0-ffb347?style=for-the-badge&logo=arxiv&logoColor=white&labelColor=20232d" alt="version 2">
+    <a href="https://github.com/fromknowware/bifurcation-memory-index/commits/main" target="_blank">
+      <img src="https://img.shields.io/github/last-commit/fromknowware/bifurcation-memory-index?style=for-the-badge&logo=github&logoColor=white&labelColor=20232d&color=6ed3ff" alt="last commit">
+    </a>
+    <img src="https://img.shields.io/badge/data-1980–2026-4a7cc7?style=for-the-badge&labelColor=20232d" alt="data coverage">
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+      <img src="https://img.shields.io/badge/license-CC%20BY%204.0-8b949e?style=for-the-badge&logo=creativecommons&logoColor=white&labelColor=20232d" alt="CC BY 4.0">
+    </a>
+  </div>
+
+  <div class="pill-row">
+    <a class="pill pill-arxiv" href="ramification-v2-arxiv.pdf" target="_blank">⎙&nbsp; arXiv v2</a>
+    <a class="pill pill-dl"   href="ramification-v2-arxiv.pdf" download>↓</a>
+    <a class="pill pill-github" href="https://github.com/fromknowware/bifurcation-memory-index" target="_blank">⌥&nbsp; GitHub</a>
+    <a class="pill pill-dash"  href="dashboard.html" target="_blank">Bifurcated Dashboard ↗</a>
+    <a class="pill pill-v1"   href="https://iamkhayyam.github.io/memory-index/" target="_blank">↩ v1 site</a>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <h2>Abstract</h2>
+    <hr class="abstract-rule">
+    <div class="abstract-box">
+      <p>Informal economic indicators — the Lipstick Index, the Hemline Index, the Men's Underwear Index, and the Buttered Popcorn Index — have circulated in financial journalism for nearly a century as heuristic substitutes for orthodox recession signals. Each is built on consumer-demand folk psychology, and each has failed structurally at least once in the past two decades.</p>
+      <p>We propose a supply-side alternative: the <strong>Ramification Index</strong>. The name carries three registers: the commodity (RAM), the economic ramifications of oligopoly pricing decisions cascading through the IT stack, and the algebraic ramification index <em>e</em>(𝔓|𝔭) from number theory — the formal invariant measuring how a prime ideal branches through a field extension.</p>
+      <p>This second version extends the original in seven ways. We bifurcate the index into Commodity (<em>R<sup>C</sup></em>) and AI (<em>R<sup>AI</sup></em>) sub-indices. We establish Granger causality from the index to quarterly GDP growth at 1&ndash;3 quarter lags. We document the 2025&ndash;2026 "RAMageddon" episode — the sharpest positive reading in 46 years, driven not by demand expansion but by oligopoly supply reallocation toward AI infrastructure — and define a new <strong>supply-side divergence regime</strong>. We assess photonic disruption risk. We provide robustness checks.</p>
+    </div>
+    <hr class="abstract-rule">
+
+    <div class="v2-box">
+      <h3>Seven new contributions in Version 2</h3>
+      <ol>
+        <li><strong>Bifurcated index</strong> — Commodity (<em>R<sup>C</sup></em>) and AI-HBM (<em>R<sup>AI</sup></em>) sub-indices capturing the structural decoupling since 2024</li>
+        <li><strong>Granger causality</strong> — <em>F</em> = 5.83, <em>p</em> = 0.004; RAM leads quarterly GDP at 1&ndash;3 quarter lags in a VAR(2)</li>
+        <li><strong>RAMageddon (2025&ndash;2026)</strong> — 90&ndash;95% QoQ surge; 130&ndash;144% YoY; sharpest reading in 46-year series history</li>
+        <li><strong>Supply-side divergence regime</strong> — New interpretive state where positive index reading is contractionary, not expansionary</li>
+        <li><strong>Algebraic formalisation of bifurcation</strong> — HBM/DDR split as prime splitting in field extension <em>L</em>/<em>K</em>/ℚ</li>
+        <li><strong>Photonic disruption risk</strong> — Fiber-optic delay-line and co-packaged optics assessed; material disruption not before 2028&ndash;2030</li>
+        <li><strong>Robustness checks</strong> — Spot vs. contract, measurement window shifts, NAND flash placebo (3/6 vs. 6/6)</li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <h2>Key Results</h2>
+    <div class="stats" id="bento">
+      <div class="stat-card"><div class="stat-num">6/6</div><div class="stat-label">NBER recessions signalled since 1980</div></div>
+      <div class="stat-card"><div class="stat-num">1–3Q</div><div class="stat-label">Median lead over NBER recession peak</div></div>
+      <div class="stat-card"><div class="stat-num">r=0.41</div><div class="stat-label">Pearson correlation with real GDP growth</div></div>
+      <div class="stat-card hbm-card"><div class="stat-num hbm">F=5.83</div><div class="stat-label">Granger causality F-stat (p=0.004) — RAM → GDP</div></div>
+      <div class="stat-card hbm-card"><div class="stat-num hbm">+86%</div><div class="stat-label">2026 composite R<sub>t</sub> — highest in 46-year series</div></div>
+      <div class="stat-card hbm-card"><div class="stat-num hbm">42%</div><div class="stat-label">Estimated HBM revenue share of DRAM by 2026</div></div>
+    </div>
+  </section>
+
+  <!-- BIFURCATED CHART -->
+  <section id="bifurcation">
+    <h2 class="h2-hbm">The Bifurcated Index — Commodity vs. HBM/AI</h2>
+    <div class="bifur-chart-wrap">
+      <div class="chart-bar">
+        <div class="chart-legend">
+          <span class="legend-item"><span class="leg-line leg-ram"></span> Composite R<sub>t</sub></span>
+          <span class="legend-item"><span class="leg-line" style="background:#ffd580"></span> Commodity R<sup>C</sup></span>
+          <span class="legend-item"><span class="leg-line leg-hbm"></span> AI/HBM R<sup>AI</sup></span>
+          <span class="legend-item"><span class="leg-dot" style="background:rgba(248,113,113,0.55);width:10px;height:10px;border-radius:2px"></span> NBER recession</span>
+        </div>
+        <a class="open-full" href="dashboard.html" target="_blank">Full dashboard ↗</a>
+      </div>
+      <canvas id="bifurChart" height="260"></canvas>
+    </div>
+    <p style="font-size:0.73rem;color:var(--muted);margin-top:0.6rem;">
+      Log first-difference of DRAM ASP (composite) and sub-indices. Bifurcated series begins 2024.
+      The 2026 reading is the most positive in the 46-year history of the composite index —
+      but the <em>source</em> is supply-side reallocation, not demand-driven expansion.
+    </p>
+  </section>
+
+  <section>
+    <h2>Recession Scorecard</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Index</th><th>1980–82</th><th>1990–91</th><th>2001</th><th>2008–09</th><th>2020</th><th>Score</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ramification Index</td>
+            <td class="s">S</td><td class="s">S</td><td class="s">S</td><td class="s">S</td><td class="s">S</td>
+            <td class="score-best">6 / 6</td>
+          </tr>
+          <tr>
+            <td>Buttered Popcorn</td>
+            <td class="s">S</td><td class="ns">NS</td><td class="s">S</td><td class="s">S</td><td class="as">AS</td>
+            <td>3 / 6</td>
+          </tr>
+          <tr>
+            <td>Hemline (lagged)</td>
+            <td class="s">S</td><td class="s">S</td><td class="ns">NS</td><td class="s">S</td><td class="ns">NS</td>
+            <td>3 / 6</td>
+          </tr>
+          <tr>
+            <td>Lipstick</td>
+            <td class="na">n/a</td><td class="na">n/a</td><td class="s">S</td><td class="as">AS</td><td class="as">AS</td>
+            <td>1 / 3</td>
+          </tr>
+          <tr>
+            <td>Men's Underwear</td>
+            <td class="na">n/a</td><td class="na">n/a</td><td class="na">n/a</td><td class="s">S</td><td class="as">AS</td>
+            <td>1 / 3</td>
+          </tr>
+          <tr>
+            <td>NAND Flash (placebo)</td>
+            <td class="ns">NS</td><td class="s">S</td><td class="s">S</td><td class="s">S</td><td class="ns">NS</td>
+            <td>3 / 6</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:0.73rem;color:var(--muted);margin-top:0.6rem;">
+      S = Signalled &nbsp;&middot;&nbsp; NS = No signal &nbsp;&middot;&nbsp; AS = Anti-signal &nbsp;&middot;&nbsp; n/a = series unavailable.
+      NAND flash placebo confirms the signal is specific to DRAM oligopoly structure, not generic semiconductor pricing.
+    </p>
+  </section>
+
+  <!-- GRANGER -->
+  <section>
+    <h2 class="h2-hbm">Granger Causality — VAR(2), 1985Q1–2024Q4</h2>
+    <div class="table-wrap granger-table">
+      <table>
+        <thead>
+          <tr><th>Null hypothesis</th><th>F-statistic</th><th>p-value</th><th>Decision</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><em>R<sub>t</sub></em> does not Granger-cause <em>y<sub>t</sub></em></td>
+            <td>5.83</td>
+            <td>0.004</td>
+            <td class="granger-reject">Reject at 1%</td>
+          </tr>
+          <tr>
+            <td><em>y<sub>t</sub></em> does not Granger-cause <em>R<sub>t</sub></em></td>
+            <td>2.14</td>
+            <td>0.121</td>
+            <td class="granger-fail">Do not reject</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:0.83rem;color:var(--text);margin-top:0.9rem;">
+      The causal direction runs <strong>from DRAM pricing to the macroeconomy</strong>, not the reverse. GDP growth does not Granger-cause the Ramification Index at conventional significance levels. The result is robust to lag orders <em>p</em> ∈ {1, 2, 3, 4}, COVID quarter exclusion, the Toda-Yamamoto procedure, and substitution of industrial production for GDP.
+    </p>
+    <p style="font-size:0.83rem;color:var(--muted)">
+      An orthogonalised impulse response function shows a one-standard-deviation positive shock to <em>R<sub>t</sub></em> produces a statistically significant increase in GDP growth 1–3 quarters later, peaking at quarter 2. The 90% confidence band excludes zero through quarter 3.
+    </p>
+  </section>
+
+  <!-- RAMAGEDDON -->
+  <section>
+    <h2 class="h2-hbm">RAMageddon — The 2025–2026 Episode</h2>
+    <p style="font-size:0.86rem;margin-bottom:1.1rem;">
+      The sharpest positive Ramification Index reading in 46 years. Unlike the 2016–18 supercycle, which coincided with healthy expansion, this episode is occurring against slowing GDP growth, rising unemployment, and weakening leading indicators — defining the <strong style="color:var(--hbm)">supply-side divergence regime</strong>: oligopoly reallocation toward AI creates price inflation whose downstream ramifications are contractionary.
+    </p>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-date">October 2025</div>
+        <div class="tl-text">OpenAI secures an estimated <strong>40% of global DRAM production</strong> for long-term AI infrastructure.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Late 2025</div>
+        <div class="tl-text">Micron announces <strong>full withdrawal from consumer Crucial RAM and SSD</strong> to focus exclusively on AI and enterprise buyers.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">November 2025</div>
+        <div class="tl-text">Japanese electronics retailers (Tsukumo, Sofmap) <strong>limit purchases</strong> of standalone RAM and SSDs to prevent panic stockpiling.</div>
+      </div>
+      <div class="tl-item hot">
+        <div class="tl-date">December 2025</div>
+        <div class="tl-text">DDR5 chip prices <strong>quadruple: $6.84 → $27.20</strong> in three months.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">January 2026</div>
+        <div class="tl-text">Korean media reports US tech executives staying near Samsung and SK Hynix fabs — industry dubs them <strong>"DRAM beggars."</strong> Microsoft executives fly to Seoul; one reportedly storms out after learning of allocation constraints.</div>
+      </div>
+      <div class="tl-item hot">
+        <div class="tl-date">Q1 2026</div>
+        <div class="tl-text">TrendForce: DRAM contract prices <strong>+90–95% QoQ</strong>. PC DRAM doubles QoQ. Server DRAM +60% QoQ. Apple pays a <strong>230% premium</strong> for LPDDR5X in iPhone 17 Pro.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Q1 2026</div>
+        <div class="tl-text"><strong>Legacy price inversion</strong>: DDR4 spot prices ($2.10/Gb) exceed HBM3e contract prices ($1.70/Gb). Older memory now costs more than cutting-edge memory.</div>
+      </div>
+      <div class="tl-item hot">
+        <div class="tl-date">Q2 2026</div>
+        <div class="tl-text">TrendForce projects further <strong>+58–63% QoQ</strong> in conventional DRAM. Conference Board LEI −0.6% in March. IDC projects PC market −4.9–8.9%; smartphones −2.9–5.2%.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERPRETIVE FRAMEWORK -->
+  <section>
+    <h2>Interpretive Framework — v2 Update</h2>
+    <div class="triple-grid">
+      <div class="triple-card">
+        <span class="triple-icon">📉</span>
+        <h3>R<sub>t</sub> ≪ 0</h3>
+        <p>Demand-side contraction. DRAM producers are cutting prices ahead of a slowdown. <strong style="color:var(--red)">Recession signal</strong> at 1–3 quarter lead.</p>
+      </div>
+      <div class="triple-card">
+        <span class="triple-icon">➡️</span>
+        <h3>R<sub>t</sub> ≈ 0</h3>
+        <p>Equilibrium. No directional signal from the DRAM market. Hold.</p>
+      </div>
+      <div class="triple-card">
+        <span class="triple-icon">📈</span>
+        <h3>R<sub>t</sub> ≫ 0 — Demand</h3>
+        <p>Healthy demand growth. IT capex expanding. <strong style="color:var(--green)">Expansion signal</strong>.</p>
+      </div>
+      <div class="triple-card hbm-card" style="border-color:rgba(0,212,170,0.25)">
+        <span class="triple-icon">⚠️</span>
+        <h3 style="color:var(--hbm)">R<sup>C</sup> ≫ 0 + macro weakening</h3>
+        <p><strong style="color:var(--hbm)">Supply-side divergence regime</strong> (new in v2). Positive reading is <em>contractionary</em>: oligopoly reallocation toward AI raises BOM costs, suppresses consumer electronics, squeezes margins. Sign is positive; economic meaning is stagflationary.</p>
+      </div>
+    </div>
+    <p style="font-size:0.82rem;color:var(--muted);margin-top:0.9rem;">
+      The bifurcated index is necessary to distinguish demand-driven expansion from supply-driven cost-push.
+      Composite <em>R<sub>t</sub></em> alone cannot make this distinction; sub-index divergence + weakening macro indicators together identify the new regime.
+    </p>
+  </section>
+
+  <!-- WHY RAMIFICATION -->
+  <section>
+    <h2>Why "Ramification"?</h2>
+    <div class="triple-grid">
+      <div class="triple-card">
+        <span class="triple-icon">💾</span>
+        <h3>RAM</h3>
+        <p>Dynamic random-access memory — the commodity whose average selling price forms the index. The abbreviation is the anchor.</p>
+      </div>
+      <div class="triple-card">
+        <span class="triple-icon">🌐</span>
+        <h3>Ramification (colloquial)</h3>
+        <p>The downstream consequences of a price shock at the oligopoly level, branching outward through every layer of the IT stack into the macroeconomy.</p>
+      </div>
+      <div class="triple-card hbm-card">
+        <span class="triple-icon">𝔓</span>
+        <h3>Ramification index <em>e</em>(𝔓|𝔭)</h3>
+        <p>The algebraic number theory invariant measuring how a prime ideal branches in a field extension. The bifurcation of HBM from commodity DDR corresponds exactly to a prime splitting further in <em>L/K/</em>ℚ — where <em>e'</em><sub>HBM</sub> &gt; <em>e'</em><sub>DDR</sub>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DASHBOARD EMBED -->
+  <section id="dashboard">
+    <h2 class="h2-hbm">Bifurcated Index Dashboard</h2>
+    <div class="dash-wrap">
+      <div class="dash-bar">
+        <div class="dash-bar-left">
+          <span class="dot dot-ram"></span>
+          <span class="dot dot-hbm"></span>
+          <span class="dash-label">Composite · Commodity · HBM/AI · Folk Indices · 1980–2026</span>
+        </div>
+        <a class="open-full" href="dashboard.html" target="_blank">Open full ↗</a>
+      </div>
+      <iframe src="dashboard.html" title="Bifurcated Ramification Index Dashboard" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- CITE -->
+  <section>
+    <h2>Citation</h2>
+    <div class="cite-box"><span class="k">@unpublished</span>{Wakil2026Ramification,
+  <span class="k">author</span>  = {<span class="v">Wakil, Khayyam</span>},
+  <span class="k">title</span>   = {<span class="v">The Ramification Index: RAM Prices, Oligopoly Cycles,
+            and the Downstream Consequences of Semiconductor
+            Pricing as an Economic Signal</span>},
+  <span class="k">note</span>    = {<span class="v">Version 2: The Bifurcated Index, Granger Causality,
+            and the 2025--2026 Supply-Side Divergence</span>},
+  <span class="k">year</span>    = {<span class="v">2026</span>},
+  <span class="k">month</span>   = {<span class="v">May</span>},
+  <span class="k">institution</span> = {<span class="v">The ARC Institute of Knowware</span>},
+  <span class="k">url</span>     = {<span class="v">https://fromknowware.github.io/bifurcation-memory-index/</span>}
+}</div>
+  </section>
+
+</main>
+
+<footer>
+  <p>
+    Khayyam Wakil &nbsp;&middot;&nbsp; The ARC Institute of Knowware &nbsp;&middot;&nbsp; May 2026 &nbsp;&middot;&nbsp;
+    <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+  </p>
+  <p style="margin-top:0.4rem;">
+    <a href="https://github.com/fromknowware/bifurcation-memory-index">GitHub</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://iamkhayyam.github.io/memory-index/" class="v1-link">Version 1 site</a>
+    &nbsp;&middot;&nbsp;
+    <a href="mailto:the@knowware.institute">the@knowware.institute</a>
+  </p>
+</footer>
+
+<script>
+/* ── scroll progress ─────────────────────────────────────── */
+(function () {
+  var bar = document.getElementById('progress');
+  window.addEventListener('scroll', function () {
+    var pct = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+    bar.style.transform = 'scaleX(' + Math.min(pct, 1) + ')';
+  }, { passive: true });
+})();
+
+/* ── bento shuffle ───────────────────────────────────────── */
+(function () {
+  var cols = [[1,1],[2,1],[2,2],[1,2],[2,1],[1,1]];
+  var cards = document.querySelectorAll('#bento .stat-card');
+  cards.forEach(function (c, i) {
+    if (cols[i]) c.style.gridColumn = 'span ' + cols[i][0];
+  });
+})();
+
+/* ── bifurcated chart ────────────────────────────────────── */
+(function () {
+  var canvas = document.getElementById('bifurChart');
+  if (!canvas) return;
+
+  /* data: [year, R_composite, R_commodity, R_ai, recession] */
+  var data = [
+    [1981,-0.368,null,null,1],[1982,-0.794,null,null,1],[1983,-1.085,null,null,1],
+    [1984,-0.418,null,null,0],[1985,-0.158,null,null,0],[1986,-0.772,null,null,0],
+    [1987,-0.291,null,null,0],[1988,-0.217,null,null,0],[1989,-0.383,null,null,0],
+    [1990,-0.441,null,null,1],[1991,-0.113,null,null,1],[1992,-0.074,null,null,0],
+    [1993,-0.137,null,null,0],[1994,-0.061,null,null,0],[1995,-0.064,null,null,0],
+    [1996,-1.470,null,null,0],[1997,-0.520,null,null,0],[1998,-1.089,null,null,0],
+    [1999,-0.200,null,null,0],[2000,-0.073,null,null,0],[2001,-1.518,null,null,1],
+    [2002,-0.362,null,null,0],[2003,0.172,null,null,0],[2004,0.000,null,null,0],
+    [2005,-0.380,null,null,0],[2006,0.207,null,null,0],[2007,-0.374,null,null,1],
+    [2008,-1.037,null,null,1],[2009,-0.485,null,null,1],[2010,-0.693,null,null,0],
+    [2011,-0.431,null,null,0],[2012,-0.572,null,null,0],[2013,0.223,null,null,0],
+    [2014,0.227,null,null,0],[2015,-0.385,null,null,0],[2016,-0.449,null,null,0],
+    [2017,0.569,null,null,0],[2018,0.436,null,null,0],[2019,-0.851,null,null,0],
+    [2020,0.000,null,null,1],[2021,0.028,null,null,0],[2022,-0.182,null,null,0],
+    [2023,-0.511,null,null,0],
+    [2024,0.477,0.524,0.262,0],
+    [2025,0.346,0.421,0.170,0],
+    [2026,0.863,1.367,0.167,0]
+  ];
+
+  var years   = data.map(function(d){return d[0];});
+  var rComp   = data.map(function(d){return d[1];});
+  var rComm   = data.map(function(d){return d[2];});
+  var rAI     = data.map(function(d){return d[3];});
+  var recYear = data.map(function(d){return d[4];});
+
+  function draw() {
+    var W = canvas.offsetWidth;
+    var H = 260;
+    canvas.width  = W * window.devicePixelRatio;
+    canvas.height = H * window.devicePixelRatio;
+    canvas.style.height = H + 'px';
+    var ctx = canvas.getContext('2d');
+    ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+
+    var pad = { t: 18, r: 24, b: 32, l: 44 };
+    var cW = W - pad.l - pad.r;
+    var cH = H - pad.t - pad.b;
+
+    var n   = years.length;
+    var min = -1.6, max = 1.5;
+
+    function xOf(i) { return pad.l + (i / (n - 1)) * cW; }
+    function yOf(v) { return pad.t + (1 - (v - min) / (max - min)) * cH; }
+
+    /* recession bands */
+    for (var i = 0; i < n; i++) {
+      if (!recYear[i]) continue;
+      ctx.fillStyle = 'rgba(248,113,113,0.08)';
+      var x0 = (i === 0) ? xOf(i) : (xOf(i-1) + xOf(i)) / 2;
+      var x1 = (i === n-1) ? xOf(i) : (xOf(i) + xOf(i+1)) / 2;
+      ctx.fillRect(x0, pad.t, x1 - x0, cH);
+    }
+
+    /* zero line */
+    ctx.strokeStyle = '#2a2f3e';
+    ctx.lineWidth = 1;
+    ctx.setLineDash([4, 4]);
+    ctx.beginPath();
+    ctx.moveTo(pad.l, yOf(0));
+    ctx.lineTo(pad.l + cW, yOf(0));
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    /* grid lines */
+    ctx.strokeStyle = 'rgba(42,47,62,0.6)';
+    ctx.lineWidth = 0.5;
+    [-1.5,-1.0,-0.5,0.5,1.0,1.5].forEach(function(v) {
+      ctx.beginPath();
+      ctx.moveTo(pad.l, yOf(v));
+      ctx.lineTo(pad.l + cW, yOf(v));
+      ctx.stroke();
+      ctx.fillStyle = '#4a5168';
+      ctx.font = '9px sans-serif';
+      ctx.textAlign = 'right';
+      ctx.fillText(v.toFixed(1), pad.l - 5, yOf(v) + 3);
+    });
+
+    function drawLine(vals, color, lw, dash) {
+      ctx.strokeStyle = color;
+      ctx.lineWidth = lw || 1.5;
+      if (dash) ctx.setLineDash(dash);
+      ctx.beginPath();
+      var started = false;
+      for (var i = 0; i < n; i++) {
+        if (vals[i] === null) { started = false; continue; }
+        var x = xOf(i), y = yOf(vals[i]);
+        if (!started) { ctx.moveTo(x, y); started = true; }
+        else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+      ctx.setLineDash([]);
+    }
+
+    drawLine(rComp, '#ffb347', 2.0);
+    drawLine(rComm, '#ffd580', 1.5, [5, 3]);
+    drawLine(rAI,   '#00d4aa', 1.5, [3, 3]);
+
+    /* RAMageddon annotation */
+    var lastX = xOf(n - 1);
+    var lastY = yOf(rComp[n - 1]);
+    ctx.fillStyle = 'rgba(0,212,170,0.12)';
+    ctx.beginPath();
+    ctx.arc(lastX, lastY, 14, 0, 2 * Math.PI);
+    ctx.fill();
+    ctx.fillStyle = '#00d4aa';
+    ctx.font = 'bold 9px sans-serif';
+    ctx.textAlign = 'right';
+    ctx.fillText('RAMageddon', lastX - 2, pad.t + 12);
+
+    /* x-axis labels */
+    ctx.fillStyle = '#4a5168';
+    ctx.font = '9px sans-serif';
+    ctx.textAlign = 'center';
+    [1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2026].forEach(function(yr) {
+      var idx = years.indexOf(yr);
+      if (idx < 0) return;
+      ctx.fillText(yr, xOf(idx), H - pad.b + 14);
+    });
+  }
+
+  draw();
+  window.addEventListener('resize', draw, { passive: true });
+})();
+</script>
+
+</body>
+</html>
