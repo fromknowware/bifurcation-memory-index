@@ -234,7 +234,7 @@
     .stats {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: 130px 100px 72px;
+      grid-template-rows: 130px 100px 104px;
       grid-template-areas:
         "hero hero r1   lead gran gran"
         "hero hero hbm1 hbm1 gran gran"
@@ -276,7 +276,7 @@
     .sc-hbm1 { grid-area: hbm1; border-color: rgba(0,212,170,0.22) !important; }
     .sc-rama { grid-area: rama; border-color: rgba(0,212,170,0.22) !important;
                flex-direction: row; align-items: center; justify-content: space-between;
-               padding: 0 1.4rem; gap: 2rem; }
+               padding: 0 1.4rem; gap: 2rem; overflow: visible; }
     .sc-rama .rama-block { display: flex; flex-direction: column; gap: 0.15rem; }
     .sc-rama .rama-divider { width: 1px; height: 60%; background: var(--border); flex-shrink: 0; }
 
