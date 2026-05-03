@@ -234,10 +234,11 @@
     .stats {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: 110px 90px;
+      grid-template-rows: 130px 100px 72px;
       grid-template-areas:
         "hero hero r1   lead gran gran"
-        "hero hero hbm1 hbm1 hbm2 hbm2";
+        "hero hero hbm1 hbm1 gran gran"
+        "rama rama rama rama rama rama";
       gap: 0.75rem;
     }
 
@@ -270,9 +271,14 @@
       pointer-events:none; }
     .sc-r1   { grid-area: r1; }
     .sc-lead { grid-area: lead; }
-    .sc-gran { grid-area: gran; border-color: rgba(0,212,170,0.22) !important; }
+    .sc-gran { grid-area: gran; border-color: rgba(0,212,170,0.22) !important;
+               justify-content: center; }
     .sc-hbm1 { grid-area: hbm1; border-color: rgba(0,212,170,0.22) !important; }
-    .sc-hbm2 { grid-area: hbm2; border-color: rgba(0,212,170,0.22) !important; }
+    .sc-rama { grid-area: rama; border-color: rgba(0,212,170,0.22) !important;
+               flex-direction: row; align-items: center; justify-content: space-between;
+               padding: 0 1.4rem; gap: 2rem; }
+    .sc-rama .rama-block { display: flex; flex-direction: column; gap: 0.15rem; }
+    .sc-rama .rama-divider { width: 1px; height: 60%; background: var(--border); flex-shrink: 0; }
 
     .stat-tag { font-size: 0.62rem; font-weight: 700; text-transform: uppercase;
                 letter-spacing: 0.1em; color: var(--muted); margin-bottom: 0.35rem; }
@@ -617,14 +623,34 @@
         <div class="stat-label">RAM → GDP · GDP → RAM fails (F = 2.14, p = 0.121)</div>
       </div>
       <div class="stat-card hbm-card sc-hbm1">
-        <div class="stat-tag">2026 composite R<sub>t</sub></div>
-        <div class="stat-num md hbm">+86%</div>
-        <div class="stat-label">46-year series maximum — RAMageddon</div>
+        <div class="stat-tag">Best folk index</div>
+        <div class="stat-num md hbm">3/6</div>
+        <div class="stat-label">Hemline · Popcorn · NAND Flash — all at 3/6 max</div>
       </div>
-      <div class="stat-card hbm-card sc-hbm2">
-        <div class="stat-tag">HBM revenue share 2026</div>
-        <div class="stat-num md hbm">42%</div>
-        <div class="stat-label">Up from 18% in 2024 — parity by 2028</div>
+      <div class="stat-card hbm-card sc-rama">
+        <div class="rama-block">
+          <div class="stat-tag">RAMageddon 2025–2026</div>
+          <div class="stat-num md hbm">+86%</div>
+          <div class="stat-label">Composite R<sub>t</sub> — 46-year series max</div>
+        </div>
+        <div class="rama-divider"></div>
+        <div class="rama-block">
+          <div class="stat-tag">YoY composite ASP</div>
+          <div class="stat-num md hbm">+137%</div>
+          <div class="stat-label">130–144% range · sharpest in series history</div>
+        </div>
+        <div class="rama-divider"></div>
+        <div class="rama-block">
+          <div class="stat-tag">HBM revenue share 2026</div>
+          <div class="stat-num md hbm">42%</div>
+          <div class="stat-label">Up from 18% in 2024 · parity by 2028</div>
+        </div>
+        <div class="rama-divider"></div>
+        <div class="rama-block">
+          <div class="stat-tag">Supply-side divergence</div>
+          <div class="stat-num md hbm">R<sup>C</sup> ≫ R<sup>AI</sup></div>
+          <div class="stat-label">R<sup>C</sup> = +1.37 · R<sup>AI</sup> = +0.17</div>
+        </div>
       </div>
     </div>
   </section>
@@ -885,14 +911,6 @@
   }, { passive: true });
 })();
 
-/* ── bento shuffle ───────────────────────────────────────── */
-(function () {
-  var cols = [[1,1],[2,1],[2,2],[1,2],[2,1],[1,1]];
-  var cards = document.querySelectorAll('#bento .stat-card');
-  cards.forEach(function (c, i) {
-    if (cols[i]) c.style.gridColumn = 'span ' + cols[i][0];
-  });
-})();
 
 /* ── bifurcated chart ────────────────────────────────────── */
 (function () {
