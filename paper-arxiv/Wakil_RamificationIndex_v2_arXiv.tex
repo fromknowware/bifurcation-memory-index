@@ -639,6 +639,84 @@ Thanks to the maintainers of the McCallum memory-price archive, AI Impacts, Tren
 The author declares no competing interests. The author holds no financial positions in Samsung, SK~hynix, Micron, or any memory-related security.
 
 
+\appendix
+
+%% ================================================================
+\section{Supplementary: The Demand Side of the Ramification Tree}
+\label{app:datacenters}
+%% ================================================================
+
+The Ramification Index measures the \emph{supply-side} price signal from the DRAM oligopoly. This appendix documents the \emph{demand side}: the physical infrastructure consuming the memory whose pricing the index tracks. The data is drawn from public facility disclosures, NVIDIA reference architectures, and industry reporting as of Q2~2026.
+
+\subsection{The ten largest AI data center builds}
+
+Table~\ref{tab:datacenters} summarises the ten largest currently announced or operating AI data center campuses by power capacity. Where hardware is publicly disclosed, we include the accelerator model, count, and implied VRAM. Where the bill of materials is not public, we mark the entry accordingly.
+
+\begin{table}[H]
+\centering
+\caption{Ten largest AI data center builds by power capacity, Q2~2026. VRAM estimates are derived from disclosed accelerator counts and per-device HBM specifications. ``Not public'' indicates the operator has not disclosed the hardware configuration. Sources: Microsoft \cite{MSFairwater2025}, Terakraft \cite{Terakraft2026}, Orennia \cite{Orennia2026}, NVIDIA \cite{NVIDIASuperpod2024}.}
+\label{tab:datacenters}
+\small
+\begin{tabular}{@{}rlllrrrl@{}}
+\toprule
+\textbf{Rank} & \textbf{Site} & \textbf{Operator} & \textbf{Location} & \textbf{Power} & \textbf{Accel.} & \textbf{VRAM} & \textbf{Status} \\
+ & & & & \textbf{(MW)} & \textbf{count} & \textbf{(PB)} & \\
+\midrule
+1 & Hypergrid & Fermi America & Amarillo, TX & 11{,}000 & n/p & n/p & Planned \\
+2 & Project Jade & Crusoe + Tallgrass & Wyoming & 10{,}000 & n/p & n/p & Planned \\
+3 & Fairwater & Microsoft & Wisconsin & $>$1{,}000 & $\sim$300k & $\sim$57.6 & Operating \\
+4 & Stargate & OpenAI + Crusoe & Abilene, TX & $\sim$200 & $\sim$100k & $\sim$19.2 & Expanding \\
+5 & Colossus 1 & xAI & Memphis, TN & $\sim$300 & $\sim$230k & $\sim$29.9 & Operating \\
+6 & AWS AI & Amazon & Canton, MS & $>$300 & $\sim$500k & N/A$^*$ & Developing \\
+7 & Prometheus & Meta & n/p & 1{,}000 & n/p & n/p & Planned \\
+8 & Fayetteville & Microsoft & n/p & 1{,}000 & n/p & n/p & Planned \\
+9 & New Carlisle & Anthropic + Amazon & Indiana & 1{,}000 & n/p & n/p & Planned \\
+10 & Colossus 2 & xAI & Memphis, TN & 1{,}000 & n/p & n/p & Planned \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\footnotesize n/p = not public. $^*$Amazon's Trainium~2 is an ASIC; VRAM is not the applicable memory metric. \\
+VRAM estimates: H100 = 80~GB HBM2e; H200 = 141~GB HBM3e; GB200/B200 = 192~GB HBM3e per device. \\
+Microsoft Fairwater: 72 Blackwell GPUs per rack with 14~TB pooled memory per rack.
+\end{table}
+
+\subsection{Memory demand at facility scale}
+
+The three sites with publicly disclosed hardware---Microsoft Fairwater, OpenAI Stargate, and xAI Colossus~1---represent approximately 107 petabytes of accelerator VRAM across roughly 630{,}000 GPUs. Each Blackwell-class GB200 device carries 192~GB of HBM3e, manufactured exclusively by SK~hynix and Samsung on dedicated wafer lines.
+
+Seven additional 1~GW-class campuses are planned with undisclosed hardware. If each were equipped at comparable accelerator density to the disclosed sites, the implied additional HBM demand would be measured in hundreds of petabytes---representing multi-year forward commitments of oligopoly wafer capacity.
+
+To place this in context: the entire global DRAM industry shipped approximately 18 exabytes (18{,}000~PB) in 2025 across all product categories---commodity DDR, server DDR, mobile LPDDR, and HBM combined \cite{TrendForce2025AI}. The ten facilities in Table~\ref{tab:datacenters} collectively represent a non-trivial fraction of global memory output, concentrated in the highest-margin HBM tier, allocated to fewer than ten purchasing entities.
+
+\subsection{Implications for the Ramification Index}
+
+This demand concentration has three consequences for the index:
+
+\begin{enumerate}[itemsep=4pt]
+\item \textbf{Oligopsony meets oligopoly.} Three memory producers face five to ten hyperscale buyers. The negotiation dynamics---visible in the ``DRAM beggars'' episode documented in Section~\ref{sec:ramageddon}---are not competitive market clearing. They are bilateral oligopoly bargaining, and the resulting contract prices are the raw input to the Ramification Index. The index reads the \emph{output} of these negotiations.
+
+\item \textbf{The ``not public'' rows are the index's future.} Seven of the ten largest builds have undisclosed hardware configurations. The DRAM purchase orders behind those facilities have not been publicly allocated. When they are---when Meta, Microsoft, Anthropic, and xAI sign multi-year HBM supply agreements for their 1~GW campuses---each contract will represent a discrete, measurable impulse to the Ramification Index. The index's forward-looking power depends on the fact that DRAM capacity decisions are made 18--24 months before shipment; these planned facilities are the 2027--2028 signal forming now.
+
+\item \textbf{Power-to-memory density defines the ramification depth.} A 1~GW data center consuming 8.76~TWh per year exists primarily to keep memory hot. DRAM requires constant refresh---every cell, every 64 milliseconds, whether it is being read or not. The power budget is dominated by compute, but the memory subsystem is the binding constraint on what compute can actually run. When a DRAM price shock propagates into the capital expenditure of a 1~GW campus, it ramifies more deeply than it did into a 10~MW enterprise data center in 2015. The ramification index $e_i$ of the AI prime ideal $\mathfrak{P}_{\text{AI}}$ is increasing with facility scale.
+\end{enumerate}
+
+\subsection{The memory hierarchy at rack scale}
+
+NVIDIA's reference architecture for the DGX SuperPOD provides the most detailed public view of memory at rack scale \cite{NVIDIASuperpod2024}. A 127-node H100 SuperPOD contains:
+
+\begin{itemize}[itemsep=2pt]
+\item \textbf{Accelerator VRAM:} 127 $\times$ 8 $\times$ 80~GB = 81.3~TB of HBM2e (the GPU working memory).
+\item \textbf{System RAM:} 127 $\times$ 2~TB DDR5 = 254~TB (the CPU-attached main memory).
+\item \textbf{Storage:} 5 compute-storage servers with NVMe arrays (capacity not standardised).
+\item \textbf{Networking:} 4 fabric switches, multiple management switches, InfiniBand or high-speed Ethernet.
+\end{itemize}
+
+The system RAM (DDR5) is approximately 3$\times$ the accelerator VRAM (HBM) by capacity---but it is the HBM that commands the premium pricing and constrains the build schedule. A single H100 SuperPOD's HBM content represents roughly \$4--8~million in memory cost at 2026 HBM3e contract prices. For a 1~GW campus with thousands of equivalent pods, the memory bill of materials alone runs into the billions of dollars.
+
+This is the physical substrate of the Ramification Index: three firms, manufacturing the memory that fills these racks, pricing it quarterly, with each price movement ramifying outward through the capital budgets of the world's largest technology companies and ultimately into the macroeconomy.
+
+
 \bibliographystyle{plain}
 \bibliography{references}
 
