@@ -1,4 +1,9 @@
-%% references.bib — Ramification Index v2
+%% references.bib — Ramification Index v2 (verified 2026-05-05)
+%% All entries independently verified against primary sources.
+%% Corrections applied:
+%%   - ChoyLeongTay2006 to ChowChoy2006 (wrong authors fixed: Chow & Choy, not Choy, Leong & Tay)
+%%   - Aizcorbe2006: reclassified as techreport (was Fed working paper, not journal article)
+%%   - Schor1999 to Schor1998 (original Basic Books edition; Harper Perennial was 1999 reprint)
 
 %% === Algebraic Number Theory ===
 
@@ -105,11 +110,13 @@
 
 %% === Folk Indices: Other ===
 
-@book{Schor1999,
+@book{Schor1998,
   author    = {Schor, Juliet B.},
   title     = {The Overspent American: Why We Want What We Don't Need},
-  publisher = {Harper Perennial},
-  year      = {1999}
+  publisher = {Basic Books},
+  address   = {New York},
+  year      = {1998},
+  note      = {Paperback reprint: Harper Perennial, 1999}
 }
 
 %% === DRAM Data Sources ===
@@ -136,11 +143,15 @@
   year         = {2020}
 }
 
-@article{Aizcorbe2006,
-  author  = {Aizcorbe, Ana and Oliner, Stephen D. and Sichel, Daniel E.},
-  title   = {Shifting trends in semiconductor prices and the pace of technological progress},
-  journal = {FEDS 2006-44, Board of Governors of the Federal Reserve System},
-  year    = {2006}
+@techreport{Aizcorbe2006,
+  author      = {Aizcorbe, Ana and Oliner, Stephen D. and Sichel, Daniel E.},
+  title       = {Shifting trends in semiconductor prices and the pace of technological progress},
+  institution = {Board of Governors of the Federal Reserve System},
+  type        = {Finance and Economics Discussion Series},
+  number      = {2006-44},
+  year        = {2006},
+  url         = {https://www.federalreserve.gov/pubs/feds/2006/200644/200644pap.pdf},
+  note        = {Published version: \textit{Business Economics}, 43(3):23--39, 2008}
 }
 
 @misc{TrendForce2026,
@@ -355,14 +366,15 @@
   year    = {1995}
 }
 
-@article{ChoyLeongTay2006,
-  author  = {Choy, Keen Meng and Leong, Kenneth and Tay, Anthony S.},
+@article{ChowChoy2006,
+  author  = {Chow, Hwee Kwan and Choy, Keen Meng},
   title   = {Forecasting the global electronics cycle with leading indicators: A {B}ayesian {VAR} approach},
   journal = {International Journal of Forecasting},
   volume  = {22},
   number  = {2},
-  pages   = {301--316},
-  year    = {2006}
+  pages   = {301--315},
+  year    = {2006},
+  doi     = {10.1016/j.ijforecast.2005.07.002}
 }
 
 %% === Macro / Leading Indicators ===

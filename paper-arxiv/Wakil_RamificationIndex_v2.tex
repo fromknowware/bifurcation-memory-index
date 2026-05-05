@@ -46,7 +46,7 @@
 \Large RAM Prices, Oligopoly Cycles, and the Downstream Consequences of Semiconductor Pricing as an Economic Signal \\[6pt]
 \large Version 2: The Bifurcated Index, Granger Causality, \\ and the 2025--2026 Supply-Side Divergence}
 
-\author{Khayyam Wakil\thanks{Correspondence: \texttt{the@knowware.institute}. Data, figures and reproducible code: \url{https://github.com/iamkhayyam/memory-index}.} \\
+\author{Khayyam Wakil\thanks{Correspondence: \texttt{the@knowware.institute}. Data, figures and reproducible code: \url{https://github.com/fromknowware/bifurcation-memory-index}.} \\
 \small The ARC Institute of Knowware \\
 \small Calgary, AB, Canada}
 
@@ -117,7 +117,14 @@ The DRAM industry has consolidated continuously since the 1985 US--Japan Semicon
 
 \subsection{It has a published, reproducible time series going back to 1957}
 
-John C.\ McCallum maintains a public dataset of DRAM price per unit capacity from 1957 to the present \cite{McCallum2024}, which Hennessy \& Patterson reproduce as standard reference in \emph{Computer Architecture} \cite{HennessyPatterson2019}. AI Impacts \cite{AIImpacts2020} replicated McCallum's series in 2020 dollars and found a mean decline of 36\% per year over 1957--2020, slowing to 15\% per year since 2010. The Federal Reserve's work on constant-quality semiconductor price deflation \cite{Aizcorbe2006} confirms a steeper real decline when adjusted for capacity. Contract and spot ASPs are now published weekly by TrendForce/DRAMeXchange \cite{TrendForce2026}, giving a high-frequency modern series.
+John C.\ McCallum maintains a public dataset of DRAM price per unit capacity from 1957 to the present \cite{McCallum2024}, which Hennessy \& Patterson reproduce as standard reference in \emph{Computer Architecture} \cite{HennessyPatterson2019}. AI Impacts \cite{AIImpacts2020} replicated McCallum's series in 2020 dollars and found a mean decline of 36\% per year over 1957--2020, slowing to 15\% per year since 2010. The Federal Reserve's work on constant-quality semiconductor price deflation \cite{Aizcorbe2006} confirms a steeper real decline when adjusted for capacity. Contract and spot ASPs are now published weekly by TrendForce/DRAMeXchange \cite{TrendForce2026}, giving a high-frequency modern series. Figure~\ref{fig:price_series} plots the full 1980--2026 series on a log scale.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{fig1_dram_price_series.pdf}
+\caption{DRAM price per megabyte on a log scale, 1980--2026. Shaded bands mark NBER recession periods. Dashed line: $\sim$36\%/yr long-run trend (1980--2010); dotted line: $\sim$15\%/yr trend since 2010. The 2024--2026 reversal (AI RAMageddon) is unprecedented in the series. Sources: McCallum \cite{McCallum2024}; TrendForce \cite{TrendForce2026}.}
+\label{fig:price_series}
+\end{figure}
 
 \subsection{It exhibits extreme, cycle-aligned amplitude}
 
@@ -305,11 +312,25 @@ Popcorn & S & NS & S & S & AS & 3/6 \\
 \footnotesize S = Signalled. NS = No signal. AS = Anti-signal. Coverage windows are limited to periods in which each index's supporting data series exists. The sixth recession (1980) is scored jointly with the 1981--82 recession as a double-dip.
 \end{table}
 
-The Ramification Index signals all six recessions since 1980; no other index signals more than three.
+The Ramification Index signals all six recessions since 1980; no other index signals more than three. Figure~\ref{fig:yoy} plots the annual signal.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{fig2_ramification_index_yoy.pdf}
+\caption{The Ramification Index: year-on-year percentage change in DRAM ASP, 1991--2026. Gray bands mark NBER recessions. Large negative values cluster at recession periods; the 2017 supercycle and 2024--2026 AI-driven surge produce the sharpest positive readings. The 2026 reading (+86\% composite) is the most positive in the 46-year series.}
+\label{fig:yoy}
+\end{figure}
 
 \subsection{Timing properties}
 
-Cross-correlation of the annual log Ramification Index against quarterly real-GDP growth over 1985--2024 peaks at a 1--3 quarter lead of RAM over GDP. Popcorn and MUI are roughly concurrent; hemline lags by approximately 12 quarters \cite{vanBaardwijk2010}; lipstick is mixed and regime-dependent. This timing result is formalised with Granger causality tests in Section~\ref{sec:granger}.
+Cross-correlation of the annual log Ramification Index against quarterly real-GDP growth over 1985--2024 peaks at a 1--3 quarter lead of RAM over GDP. Popcorn and MUI are roughly concurrent; hemline lags by approximately 12 quarters \cite{vanBaardwijk2010}; lipstick is mixed and regime-dependent. This timing result is formalised with Granger causality tests in Section~\ref{sec:granger}. Figure~\ref{fig:folk} compares all five indices over the full sample.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{fig4_folk_comparison.pdf}
+\caption{Folk index comparison: normalised annual change, 1991--2026. All series normalised to unit standard deviation for comparability. The Ramification Index (orange) shows far greater amplitude and cycle-alignment than any consumer-behaviour proxy. The Lipstick and MUI series have shorter histories and weaker macro correlation.}
+\label{fig:folk}
+\end{figure}
 
 \subsection{Correlation with macroeconomic variables}
 
@@ -333,7 +354,14 @@ Popcorn & $+0.15$ & $-0.08$ & $+0.19$ \\
 \footnotesize Negative $r(\Delta\text{U-3})$ values are directionally correct: the Ramification Index rises (DRAM price rises) when unemployment falls.
 \end{table}
 
-The Ramification Index substantially dominates all four folk indices on every macroeconomic target.
+The Ramification Index substantially dominates all four folk indices on every macroeconomic target. Figure~\ref{fig:correlations} displays these results visually, including the NAND flash placebo (Section~\ref{sec:robustness}).
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{fig5_correlations.pdf}
+\caption{Pearson correlations of the Ramification Index and four folk indices (plus NAND flash placebo) against three macroeconomic variables, 1980--2026. Negative $r(\Delta\text{U-3})$ values are directionally correct: the index rises when unemployment falls. The Ramification Index substantially dominates all alternatives on every macro target.}
+\label{fig:correlations}
+\end{figure}
 
 
 %% ================================================================
@@ -379,7 +407,14 @@ The Ramification Index Granger-causes quarterly GDP growth at the 1\% significan
 
 \subsection{Impulse response}
 
-An orthogonalised impulse response function (IRF) shows that a one-standard-deviation positive shock to $R_t$ (a DRAM price increase) is associated with a statistically significant increase in GDP growth 1--3 quarters later, with the peak effect at 2 quarters. The 90\% confidence band excludes zero from quarter 1 through quarter 3. By quarter 5 the effect is statistically insignificant, consistent with the transient nature of DRAM capex cycles.
+An orthogonalised impulse response function (IRF) shows that a one-standard-deviation positive shock to $R_t$ (a DRAM price increase) is associated with a statistically significant increase in GDP growth 1--3 quarters later, with the peak effect at 2 quarters. The 90\% confidence band excludes zero from quarter 1 through quarter 3. By quarter 5 the effect is statistically insignificant, consistent with the transient nature of DRAM capex cycles. Figure~\ref{fig:granger} shows the lead relationship visually.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{fig6_granger_lead.pdf}
+\caption{The Ramification Index (amber bars) Granger-causes real GDP growth (blue line) at 1--3 quarter lags --- $F = 5.83$, $p = 0.004$, VAR(2) 1985Q1--2024Q4. The causal direction runs RAM $\to$ GDP, not the reverse ($F = 2.14$, $p = 0.121$). DRAM capacity decisions are made 18--24 months in advance, creating a natural structural lead.}
+\label{fig:granger}
+\end{figure}
 
 \subsection{Robustness of the Granger result}
 
@@ -426,7 +461,14 @@ The Commodity Ramification Index $R_t^C$ and AI Ramification Index $R_t^{AI}$ ar
 \end{tabular}
 \end{table}
 
-The AI sub-index weight is growing rapidly and is projected to reach parity with commodity DRAM by 2028.
+The AI sub-index weight is growing rapidly and is projected to reach parity with commodity DRAM by 2028. Figure~\ref{fig:revenue} shows the structural shift.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{fig7_revenue_shift.pdf}
+\caption{DRAM revenue shift from Commodity DDR to HBM (AI), 2020--2028E. HBM's share of total DRAM revenue has grown from 3\% in 2020 to an estimated 42\% in 2026, with parity projected around 2028. This structural shift is why the Ramification Index must bifurcate: the two sub-indices now track partially independent economic signals.}
+\label{fig:revenue}
+\end{figure}
 
 \subsection{The divergence}
 
@@ -437,7 +479,14 @@ In Q1~2026, the two sub-indices read differently:
 \item $R_t^{AI}$ is moderately positive: HBM3e prices rose 15--20\% YoY \cite{TrendForce2025Dec}, a significant increase but much smaller than the commodity spike, reflecting the fact that HBM buyers (primarily Nvidia and AMD) have long-term contracts that smooth price volatility.
 \end{itemize}
 
-The composite $R_t$ is strongly positive---the most positive quarterly reading in the 46-year series. But the \emph{source} of the positive reading is supply reallocation, not healthy demand growth. This is the supply-side divergence regime.
+The composite $R_t$ is strongly positive---the most positive quarterly reading in the 46-year series. But the \emph{source} of the positive reading is supply reallocation, not healthy demand growth. This is the supply-side divergence regime. Figure~\ref{fig:bifurcated} shows the divergence between the commodity and AI sub-indices.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{fig3_bifurcated_index.pdf}
+\caption{The Bifurcated Ramification Index, 2020--2026. The composite index $R_t$ (orange) splits into Commodity $R_t^C$ (blue, DDR4/5) and AI $R_t^{AI}$ (green, HBM) beginning in 2024. In 2026, commodity DRAM surged +137\% while HBM rose only +17\% --- the supply-side divergence regime. The composite reading (+86\%) is the most positive in the 46-year series, but the economic meaning is stagflationary, not expansionary.}
+\label{fig:bifurcated}
+\end{figure}
 
 \subsection{The legacy price inversion}
 
@@ -622,14 +671,14 @@ Its oligopoly structure, archival data, criminal history, Granger-causal relatio
 \section*{Data and Code Availability}
 %% ================================================================
 
-All data used in this study are provided as a supplementary CSV (\texttt{data/indices-wide.csv}). The interactive comparison dashboard, Granger causality estimation code (Stata and Python), and bifurcated index construction scripts are available at the companion repository: \url{https://github.com/iamkhayyam/memory-index}.
+All data used in this study are provided as a supplementary CSV (\texttt{data/indices-wide.csv}). The interactive comparison dashboard, Granger causality estimation code (Stata and Python), and bifurcated index construction scripts are available at the companion repository: \url{https://github.com/fromknowware/bifurcation-memory-index}.
 
 
 %% ================================================================
 \section*{Acknowledgements}
 %% ================================================================
 
-Thanks to the maintainers of the McCallum memory-price archive, AI Impacts, TrendForce DataTrack, Counterpoint Research, and the Sourceability procurement intelligence team. The Granger causality framework benefited from the methodology of Choy, Leong \& Tay \cite{ChoyLeongTay2006}. The algebraic formalism owes a debt to Neukirch \cite{Neukirch1999}. The Cold Fusion documentary team's investigative reporting on the 2025--2026 DRAM shortage provided essential primary-source documentation for Section~\ref{sec:ramageddon}. Any errors are the author's.
+Thanks to the maintainers of the McCallum memory-price archive, AI Impacts, TrendForce DataTrack, Counterpoint Research, and the Sourceability procurement intelligence team. The Granger causality framework benefited from the methodology of Chow \& Choy \cite{ChowChoy2006}. The algebraic formalism owes a debt to Neukirch \cite{Neukirch1999}. The Cold Fusion documentary team's investigative reporting on the 2025--2026 DRAM shortage provided essential primary-source documentation for Section~\ref{sec:ramageddon}. Any errors are the author's.
 
 
 %% ================================================================
