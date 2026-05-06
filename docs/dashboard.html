@@ -804,7 +804,9 @@ drawChart('mainChart', 280, function(ctx, W, H) {
     ctx.fillStyle='rgba(0,212,170,'+(0.04+(20-r)*0.008)+')'; ctx.fill();
   }
   ctx.fillStyle=v('--hbm'); ctx.font='bold 9px sans-serif'; ctx.textAlign='center';
-  ctx.fillText('RAMageddon', lx, pad.t+12);
+  var _lw=ctx.measureText('RAMageddon').width;
+  var _tx=Math.min(lx, W-pad.r-_lw/2);
+  ctx.fillText('RAMageddon', _tx, pad.t+12);
 
   xAxis(ctx,pad,cW,H,n,5);
 });
