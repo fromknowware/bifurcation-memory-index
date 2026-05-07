@@ -38,15 +38,18 @@ Version 2 extends the original in seven ways:
 ```
 bifurcation-memory-index/
 ├── paper-arxiv/
-│   ├── Wakil_RamificationIndex_v2_arXiv.pdf
-│   ├── Wakil_RamificationIndex_v2_arXiv.tex
+│   ├── Wakil_RamificationIndex_v2.bib
+│   ├── Wakil_RamificationIndex_v2.pdf
+│   ├── Wakil_RamificationIndex_v2.tex
 │   └── references.bib
 ├── data/
 │   └── indices-wide.csv        ← 1980–2026, includes bifurcated sub-index columns
 └── docs/                       ← GitHub Pages root
     ├── index.html
     ├── dashboard.html
-    └── ramification-v2-arxiv.pdf
+    ├── Wakil_RamificationIndex_v2.pdf
+    └── Why_DRAM_prices_predict_the_global_economy.mp3
+    
 ```
 
 ---
