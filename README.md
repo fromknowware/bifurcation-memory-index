@@ -10,10 +10,10 @@
 
 ### Paper
 
-- **arXiv edition:** [`paper-arxiv/Wakil_RamificationIndex_v2_arXiv.pdf`](paper-arxiv/Wakil_RamificationIndex_v2_arXiv.pdf)  
+- **Paper 2:** [Wakil_RamificationIndex_v2.pdf](https://fromknowware.github.io/bifurcation-memory-index/Wakil_RamificationIndex_v2.pdf)  
 - **Web:** https://fromknowware.github.io/bifurcation-memory-index/  
 - **Dashboard:** https://fromknowware.github.io/bifurcation-memory-index/dashboard.html  
-- **v1 site:** https://iamkhayyam.github.io/memory-index/
+- **v1 site:** https://fromknowware.github.io/memory-index/
 
 ---
 
