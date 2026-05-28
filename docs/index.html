@@ -1384,7 +1384,10 @@ That is the tension right there. When three executives can sit in a room and dec
       el.classList.toggle('ts-past',   i < idx);
     });
     var active = document.querySelector('.ts-seg.ts-active');
-    if (active) active.scrollIntoView({ block: 'nearest' });
+    if (active) {
+      var body = document.getElementById('transcriptBody');
+      if (body) body.scrollTop = active.offsetTop - body.offsetTop - body.clientHeight / 2 + active.clientHeight / 2;
+    }
   }
 
   buildTranscript();
