@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Ramification Index v2 — Bifurcated Dashboard</title>
+<title>Ramification Index v2: Bifurcated Dashboard</title>
 <style>
   :root {
     --bg:       #0b0c10;
@@ -289,8 +289,8 @@
 
 <header>
   <div>
-    <h1>The <em>Ramification</em> Index <span class="v2">v2 — Bifurcated</span></h1>
-    <p>Commodity DRAM vs. HBM/AI sub-indices · Folk index comparison · 1980–2026 · Supply-side divergence regime</p>
+    <h1>The <em>Ramification</em> Index <span class="v2">v2: Bifurcated</span></h1>
+    <p>DRAM price signal as macroeconomic leading indicator — composite, commodity, and AI/HBM sub-indices, 1980–2026</p>
   </div>
   <div class="header-right">
     <a class="h-pill" href="index.html">← Paper</a>
@@ -305,7 +305,7 @@
     <div class="sb sb-hero">
       <div class="sb-tag">Recession coverage</div>
       <div class="sb-num xl">6/6</div>
-      <div class="sb-label">All NBER recessions correctly<br>signalled since 1980</div>
+      <div class="sb-label">Every NBER-dated U.S. recession<br>signalled since 1980</div>
     </div>
     <div class="sb sb-r1">
       <div class="sb-tag">GDP correlation</div>
@@ -320,17 +320,17 @@
     <div class="sb sb-gran hbm">
       <div class="sb-tag">Granger causality — VAR(2)</div>
       <div class="sb-num lg hbm">F = 5.83 <span style="font-size:13px;font-weight:600;color:var(--muted)">p = 0.004</span></div>
-      <div class="sb-label">RAM → GDP at 1–3 quarter lead · GDP → RAM fails (F = 2.14)</div>
+      <div class="sb-label">RAM → GDP at 1–3 quarter lead · GDP → RAM does not hold (F = 2.14)</div>
     </div>
     <div class="sb sb-hbm1 hbm">
       <div class="sb-tag">2026 composite R<sub>t</sub></div>
       <div class="sb-num md hbm">+86%</div>
-      <div class="sb-label">46-year series maximum — RAMageddon</div>
+      <div class="sb-label">46-year series maximum (RAMageddon)</div>
     </div>
     <div class="sb sb-hbm2 hbm">
       <div class="sb-tag">HBM revenue share</div>
       <div class="sb-num md hbm">42%</div>
-      <div class="sb-label">Estimated DRAM revenue, 2026 est.</div>
+      <div class="sb-label">Estimated share of DRAM revenue, 2026</div>
     </div>
   </div>
 
@@ -347,8 +347,8 @@
     </div>
     <canvas id="mainChart" height="280"></canvas>
     <div class="caption">
-      Annual log first-difference of DRAM ASP. Bifurcated sub-indices (commodity DDR4/5 and HBM) begin 2024.
-      The 2026 composite reading (+0.86) is the most positive in the 46-year series — driven by supply reallocation, not demand growth.
+      Year-on-year DRAM price change (log first-difference of average selling price). Bifurcated sub-indices (commodity DDR4/5 and HBM) begin 2024.
+      The 2026 composite reading (+0.86) is the highest in the 46-year series — driven by supply reallocation toward AI, not demand growth.
     </div>
   </div>
 
@@ -367,7 +367,7 @@
           <h3>Commodity DRAM — <span class="accent">R<sup>C</sup></span></h3>
           <div class="diverge-val comm">+1.37</div>
           <div class="diverge-desc">
-            DDR4/5 prices surged <strong>+90–95% QoQ in Q1 2026</strong>, then +58–63% QoQ in Q2.
+            DDR4/5 prices surged <strong>+90–95% quarter-over-quarter (QoQ) in Q1 2026</strong>, then +58–63% QoQ in Q2.
             Full-year commodity DRAM up ~294% from 2025.
             Driven by wafer capacity reallocation to HBM stacking.
             PC DRAM doubled QoQ; server DRAM +60% QoQ.
@@ -377,7 +377,7 @@
           <h3>HBM/AI DRAM — <span class="accent-hbm">R<sup>AI</sup></span></h3>
           <div class="diverge-val hbm">+0.17</div>
           <div class="diverge-desc">
-            HBM3e contract prices rose only <strong>~18% YoY</strong>, as hyperscaler buyers hold
+            HBM3e contract prices rose only <strong>~18% year-over-year (YoY)</strong>, as hyperscaler buyers hold
             multi-year supply agreements that smooth spot volatility.
             Despite lower R<sup>AI</sup>, HBM now accounts for ~42% of DRAM revenue —
             its ramification into AI capex is more complete than any prior cycle.
@@ -388,7 +388,7 @@
         <h3>Supply-Side Divergence Regime (new in v2)</h3>
         <p>When R<sup>C</sup> ≫ 0 <em>and</em> macro indicators are weakening, the composite index is positive but the economic meaning is <strong>stagflationary</strong>: rising input costs coexist with slowing output.
         The downstream ramifications are contractionary — IDC projects PC market −4.9–8.9% and smartphones −2.9–5.2% in 2026.</p>
-        <p>Legacy price inversion: DDR4 spot ($2.10/Gb) now exceeds HBM3e contract ($1.70/Gb). Older memory costs more than cutting-edge memory — a residue-degree anomaly in the algebraic metaphor.</p>
+        <p>Legacy price inversion: DDR4 spot ($2.10/Gb) now exceeds HBM3e contract ($1.70/Gb). Older commodity memory costs more than cutting-edge AI memory — supply has inverted the normal price hierarchy.</p>
       </div>
     </div>
   </div>
@@ -421,7 +421,7 @@
       </div>
     </div>
     <canvas id="folkChart" height="240"></canvas>
-    <div class="caption">All series normalised to unit standard deviation for comparability. Positive = pro-expansion signal. Ramification Index Pearson r = 0.41 vs. real GDP; best folk index ≤ 0.19.</div>
+    <div class="caption">All series normalised to unit standard deviation for comparability. Positive values indicate a pro-expansion signal. Ramification Index Pearson r = 0.41 vs. real GDP; best folk index ≤ 0.19.</div>
   </div>
 
   <!-- ── GDP GRANGER CHART ── -->
@@ -448,7 +448,7 @@
         <tr>
           <th>Index</th>
           <th>r (Real GDP)</th>
-          <th>r (ΔU-3)</th>
+          <th>r (ΔU-3, unemployment)</th>
           <th>r (S&P 500)</th>
         </tr>
       </thead>
@@ -543,7 +543,7 @@
 
       <!-- prem — wide, mid-right top -->
       <div class="bk bk-prem">
-        <div class="bk-tag">Apple · iPhone 17 Pro · LPDDR5X premium</div>
+        <div class="bk-tag">Apple · iPhone 17 Pro · mobile RAM premium</div>
         <div class="bk-num lg">+230%</div>
         <div class="bk-label">Memory cost premium over prior generation</div>
       </div>
@@ -560,14 +560,14 @@
             <div class="bk-num md hbm">$1.70<span style="font-size:12px;font-weight:600">/Gb HBM3e</span></div>
           </div>
         </div>
-        <div class="bk-label">Older commodity memory now costs more than cutting-edge HBM — a residue-degree anomaly</div>
+        <div class="bk-label">Older commodity memory now costs more than cutting-edge HBM — supply has inverted the normal price hierarchy</div>
       </div>
 
       <!-- drop — wide, bottom-left -->
       <div class="bk bk-drop">
-        <div class="bk-tag">IDC 2026 PC market projection</div>
+        <div class="bk-tag">IDC (industry analyst) 2026 PC market projection</div>
         <div class="bk-num md">−4.9% <span style="font-size:13px;font-weight:500;color:var(--muted)">to −8.9%</span></div>
-        <div class="bk-label">Memory-driven BOM increases suppressing consumer electronics</div>
+        <div class="bk-label">Memory-driven bill-of-materials increases suppressing consumer electronics</div>
       </div>
 
       <!-- nb — wide, bottom-right -->
@@ -586,7 +586,7 @@
   Khayyam Wakil &nbsp;·&nbsp; The ARC Institute of Knowware &nbsp;·&nbsp; May 2026 &nbsp;·&nbsp;
   <a href="index.html">Paper site</a> &nbsp;·&nbsp;
   <a href="https://github.com/fromknowware/bifurcation-memory-index">GitHub</a> &nbsp;·&nbsp;
-  <a href="https://iamkhayyam.github.io/memory-index/">v1 →</a>
+  <a href="https://fromknowware.github.io/memory-index/">Version 1 ↗</a>
 </footer>
 
 <script>
