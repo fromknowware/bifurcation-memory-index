@@ -617,6 +617,109 @@
     footer a:hover { text-decoration: underline; }
 
     .v1-link { color: var(--muted); }
+
+    /* ── ANIMATIONS ─────────────────────────────────────── */
+    :root {
+      --ease-out-expo:  cubic-bezier(0.16, 1, 0.3, 1);
+      --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    /* Hero entrance */
+    header .hero-badges,
+    header h1,
+    header .hero-v2-sub,
+    header .subtitle,
+    header .meta,
+    header .shield-row,
+    header .pill-row {
+      opacity: 0;
+      transform: translateY(22px);
+    }
+    header.hero-loaded .hero-badges,
+    header.hero-loaded h1,
+    header.hero-loaded .hero-v2-sub,
+    header.hero-loaded .subtitle,
+    header.hero-loaded .meta,
+    header.hero-loaded .shield-row,
+    header.hero-loaded .pill-row {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 750ms var(--ease-out-expo), transform 750ms var(--ease-out-expo);
+    }
+    header.hero-loaded .hero-badges  { transition-delay:   0ms; }
+    header.hero-loaded h1            { transition-delay:  80ms; }
+    header.hero-loaded .hero-v2-sub  { transition-delay: 160ms; }
+    header.hero-loaded .subtitle     { transition-delay: 220ms; }
+    header.hero-loaded .meta         { transition-delay: 280ms; }
+    header.hero-loaded .shield-row   { transition-delay: 350ms; }
+    header.hero-loaded .pill-row     { transition-delay: 420ms; }
+
+    /* Section scroll reveal */
+    main section {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 700ms var(--ease-out-expo), transform 700ms var(--ease-out-expo);
+    }
+    main section.revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Stat card stagger — @keyframes avoids conflicting with hover transitions */
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .stat-card { opacity: 0; }
+    main section.revealed .stat-card {
+      animation: fadeSlideUp 520ms var(--ease-out-expo) both;
+    }
+    main section.revealed .stat-card:nth-child(1) { animation-delay:  60ms; }
+    main section.revealed .stat-card:nth-child(2) { animation-delay: 115ms; }
+    main section.revealed .stat-card:nth-child(3) { animation-delay: 170ms; }
+    main section.revealed .stat-card:nth-child(4) { animation-delay: 225ms; }
+    main section.revealed .stat-card:nth-child(5) { animation-delay: 280ms; }
+    main section.revealed .stat-card:nth-child(6) { animation-delay: 335ms; }
+
+    /* Timeline stagger */
+    @keyframes slideInLeft {
+      from { opacity: 0; transform: translateX(-20px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    .tl-item { opacity: 0; }
+    main section.revealed .tl-item {
+      animation: slideInLeft 500ms var(--ease-out-expo) both;
+    }
+    main section.revealed .tl-item:nth-child(1) { animation-delay:  50ms; }
+    main section.revealed .tl-item:nth-child(2) { animation-delay: 110ms; }
+    main section.revealed .tl-item:nth-child(3) { animation-delay: 170ms; }
+    main section.revealed .tl-item:nth-child(4) { animation-delay: 230ms; }
+    main section.revealed .tl-item:nth-child(5) { animation-delay: 290ms; }
+    main section.revealed .tl-item:nth-child(6) { animation-delay: 350ms; }
+    main section.revealed .tl-item:nth-child(7) { animation-delay: 410ms; }
+    main section.revealed .tl-item:nth-child(8) { animation-delay: 470ms; }
+
+    /* CTA pill hover lift */
+    .pill {
+      transition: opacity 0.18s, box-shadow 0.22s, background 0.18s,
+                  border-color 0.18s, transform 0.22s var(--ease-out-quint);
+    }
+    .pill:hover { transform: translateY(-3px); opacity: 1; }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      header .hero-badges,
+      header h1,
+      header .hero-v2-sub,
+      header .subtitle,
+      header .meta,
+      header .shield-row,
+      header .pill-row { opacity: 1 !important; transform: none !important; }
+      main section { opacity: 1 !important; transform: none !important; transition: none !important; }
+      .stat-card    { opacity: 1 !important; animation: none !important; }
+      .tl-item      { opacity: 1 !important; animation: none !important; }
+      .pill         { transition: none !important; transform: none !important; }
+    }
   </style>
 </head>
 <body>
@@ -1534,6 +1637,30 @@ That is the tension right there. When three executives can sit in a room and dec
 
   draw();
   window.addEventListener('resize', draw, { passive: true });
+})();
+
+/* ── entrance animations ─────────────────────────────────── */
+(function () {
+  /* Hero sequence — trigger on next frame so CSS picks up initial state first */
+  requestAnimationFrame(function () {
+    requestAnimationFrame(function () {
+      document.querySelector('header').classList.add('hero-loaded');
+    });
+  });
+
+  /* Section scroll reveal */
+  var revealObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.07, rootMargin: '0px 0px -32px 0px' });
+
+  document.querySelectorAll('main section').forEach(function (el) {
+    revealObserver.observe(el);
+  });
 })();
 </script>
 

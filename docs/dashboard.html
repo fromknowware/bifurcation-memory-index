@@ -283,6 +283,59 @@
   }
   footer a { color: var(--mui); text-decoration: none; }
   footer a:hover { text-decoration: underline; }
+
+  /* ── ANIMATIONS + LEGEND TOGGLES ───────────────────── */
+  :root {
+    --ease-out-expo:  cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  /* Legend toggle affordance */
+  .leg[data-series] {
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.2s;
+  }
+  .leg[data-series]:hover { opacity: 0.7; }
+  .leg[data-series].off   { opacity: 0.28; }
+  .legend[data-chart]::after {
+    content: "click to isolate";
+    font-size: 9px;
+    color: var(--border2);
+    letter-spacing: 0.06em;
+    margin-left: 6px;
+    align-self: center;
+  }
+
+  /* Stats bento stagger */
+  @keyframes sbFadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .sb { opacity: 0; }
+  .stats-bento.revealed .sb {
+    animation: sbFadeUp 500ms var(--ease-out-expo) both;
+  }
+  .stats-bento.revealed .sb:nth-child(1) { animation-delay:  40ms; }
+  .stats-bento.revealed .sb:nth-child(2) { animation-delay:  90ms; }
+  .stats-bento.revealed .sb:nth-child(3) { animation-delay: 140ms; }
+  .stats-bento.revealed .sb:nth-child(4) { animation-delay: 190ms; }
+  .stats-bento.revealed .sb:nth-child(5) { animation-delay: 240ms; }
+  .stats-bento.revealed .sb:nth-child(6) { animation-delay: 290ms; }
+
+  /* Card scroll reveal */
+  .card {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 650ms var(--ease-out-expo), transform 650ms var(--ease-out-expo);
+  }
+  .card.revealed { opacity: 1; transform: translateY(0); }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .sb   { opacity: 1 !important; animation: none !important; }
+    .card { opacity: 1 !important; transform: none !important; transition: none !important; }
+  }
 </style>
 </head>
 <body>
@@ -338,11 +391,11 @@
   <div class="card">
     <div class="card-header">
       <span class="card-title">Ramification Index — <span class="accent">Composite</span> &amp; Sub-indices, 1981–2026</span>
-      <div class="legend">
-        <span class="leg"><span class="leg-swatch" style="background:var(--ram)"></span> Composite R<sub>t</sub></span>
-        <span class="leg"><span class="leg-swatch" style="background:var(--comm);opacity:0.85"></span> Commodity R<sup>C</sup></span>
-        <span class="leg"><span class="leg-swatch" style="background:var(--hbm)"></span> AI/HBM R<sup>AI</sup></span>
-        <span class="leg"><span class="leg-dot" style="background:rgba(248,113,113,0.4)"></span> NBER recession</span>
+      <div class="legend" data-chart="mainChart">
+        <span class="leg" data-series="composite"><span class="leg-swatch" style="background:var(--ram)"></span> Composite R<sub>t</sub></span>
+        <span class="leg" data-series="commodity"><span class="leg-swatch" style="background:var(--comm);opacity:0.85"></span> Commodity R<sup>C</sup></span>
+        <span class="leg" data-series="hbm"><span class="leg-swatch" style="background:var(--hbm)"></span> AI/HBM R<sup>AI</sup></span>
+        <span class="leg" data-series="nber"><span class="leg-dot" style="background:rgba(248,113,113,0.4)"></span> NBER recession</span>
       </div>
     </div>
     <canvas id="mainChart" height="280"></canvas>
@@ -397,10 +450,10 @@
   <div class="card">
     <div class="card-header">
       <span class="card-title">DRAM Price Series — <span class="accent">$/GB</span>, 1980–2026</span>
-      <div class="legend">
-        <span class="leg"><span class="leg-swatch" style="background:var(--ram)"></span> Composite $/GB (log scale)</span>
-        <span class="leg"><span class="leg-swatch" style="background:var(--comm)"></span> Commodity DDR4/5</span>
-        <span class="leg"><span class="leg-swatch" style="background:var(--hbm)"></span> HBM (2024+)</span>
+      <div class="legend" data-chart="priceChart">
+        <span class="leg" data-series="composite"><span class="leg-swatch" style="background:var(--ram)"></span> Composite $/GB (log scale)</span>
+        <span class="leg" data-series="commodity"><span class="leg-swatch" style="background:var(--comm)"></span> Commodity DDR4/5</span>
+        <span class="leg" data-series="hbm"><span class="leg-swatch" style="background:var(--hbm)"></span> HBM (2024+)</span>
       </div>
     </div>
     <canvas id="priceChart" height="220"></canvas>
@@ -411,13 +464,13 @@
   <div class="card">
     <div class="card-header">
       <span class="card-title">Folk Index Comparison — Normalised Annual Change</span>
-      <div class="legend">
-        <span class="leg"><span class="leg-swatch" style="background:var(--ram)"></span> Ramification</span>
-        <span class="leg"><span class="leg-swatch" style="background:var(--lipstick)"></span> Lipstick</span>
-        <span class="leg"><span class="leg-swatch" style="background:var(--hemline)"></span> Hemline</span>
-        <span class="leg"><span class="leg-swatch" style="background:var(--mui)"></span> Men's Underwear</span>
-        <span class="leg"><span class="leg-swatch" style="background:var(--popcorn)"></span> Popcorn</span>
-        <span class="leg"><span class="leg-dot" style="background:rgba(248,113,113,0.4)"></span> NBER</span>
+      <div class="legend" data-chart="folkChart">
+        <span class="leg" data-series="ram"><span class="leg-swatch" style="background:var(--ram)"></span> Ramification</span>
+        <span class="leg" data-series="lipstick"><span class="leg-swatch" style="background:var(--lipstick)"></span> Lipstick</span>
+        <span class="leg" data-series="hemline"><span class="leg-swatch" style="background:var(--hemline)"></span> Hemline</span>
+        <span class="leg" data-series="mui"><span class="leg-swatch" style="background:var(--mui)"></span> Men's Underwear</span>
+        <span class="leg" data-series="popcorn"><span class="leg-swatch" style="background:var(--popcorn)"></span> Popcorn</span>
+        <span class="leg" data-series="nber"><span class="leg-dot" style="background:rgba(248,113,113,0.4)"></span> NBER</span>
       </div>
     </div>
     <canvas id="folkChart" height="240"></canvas>
@@ -428,10 +481,10 @@
   <div class="card">
     <div class="card-header">
       <span class="card-title">Granger Lead — <span class="accent-hbm">R<sub>t</sub></span> vs Real GDP Growth (1-year lag shown)</span>
-      <div class="legend">
-        <span class="leg"><span class="leg-swatch" style="background:var(--ram)"></span> Ramification Index R<sub>t</sub></span>
-        <span class="leg"><span class="leg-swatch" style="background:var(--hbm)"></span> Real GDP growth (%) — right axis</span>
-        <span class="leg"><span class="leg-dot" style="background:rgba(248,113,113,0.4)"></span> NBER recession</span>
+      <div class="legend" data-chart="gdpChart">
+        <span class="leg" data-series="ram"><span class="leg-swatch" style="background:var(--ram)"></span> Ramification Index R<sub>t</sub></span>
+        <span class="leg" data-series="gdp"><span class="leg-swatch" style="background:var(--hbm)"></span> Real GDP growth (%) — right axis</span>
+        <span class="leg" data-series="nber"><span class="leg-dot" style="background:rgba(248,113,113,0.4)"></span> NBER recession</span>
       </div>
     </div>
     <canvas id="gdpChart" height="240"></canvas>
@@ -706,6 +759,15 @@ var GDP_YOY = [
 var CSS = getComputedStyle(document.documentElement);
 function v(name) { return CSS.getPropertyValue(name).trim(); }
 
+/* ── series visibility state ── */
+var VIS = {
+  mainChart:  { composite:true, commodity:true, hbm:true, nber:true },
+  priceChart: { composite:true, commodity:true, hbm:true },
+  folkChart:  { ram:true, lipstick:true, hemline:true, mui:true, popcorn:true, nber:true },
+  gdpChart:   { ram:true, gdp:true, nber:true }
+};
+var RENDERS = {};
+
 function normalise(arr) {
   var vals = arr.filter(function(x){return x!==null && isFinite(x);});
   var mean = vals.reduce(function(a,b){return a+b;},0)/vals.length;
@@ -727,6 +789,7 @@ function drawChart(id, height, fn) {
     ctx.scale(devicePixelRatio, devicePixelRatio);
     fn(ctx, W, H);
   }
+  RENDERS[id] = render;
   render();
   window.addEventListener('resize', render, {passive:true});
 }
@@ -780,12 +843,13 @@ function plotLine(ctx, data, pad, cW, cH, n, min, max, color, lw, dash) {
    CHART 1 — MAIN INDEX
    ══════════════════════════════════════════════════════ */
 drawChart('mainChart', 280, function(ctx, W, H) {
+  var vis=VIS.mainChart;
   var pad={t:18,r:24,b:28,l:44}, cW=W-pad.l-pad.r, cH=H-pad.t-pad.b, n=YEARS.length;
   var min=-1.65, max=1.5;
   function yOf(v){return pad.t+(1-(v-min)/(max-min))*cH;}
   function xOf(i){return pad.l+(i/(n-1))*cW;}
 
-  recBands(ctx,pad,cW,cH,n);
+  if(vis.nber) recBands(ctx,pad,cW,cH,n);
 
   /* zero line */
   ctx.strokeStyle='#2a2f3e'; ctx.lineWidth=1; ctx.setLineDash([4,4]);
@@ -793,20 +857,22 @@ drawChart('mainChart', 280, function(ctx, W, H) {
   ctx.setLineDash([]);
 
   yAxis(ctx,pad,cW,cH,min,max,[-1.5,-1.0,-0.5,0.5,1.0,1.5]);
-  plotLine(ctx,R, pad,cW,cH,n,min,max,v('--ram'),2.2);
-  plotLine(ctx,RC,pad,cW,cH,n,min,max,v('--comm'),1.8,[6,3]);
-  plotLine(ctx,RAI,pad,cW,cH,n,min,max,v('--hbm'),1.8,[3,3]);
+  if(vis.composite) plotLine(ctx,R,  pad,cW,cH,n,min,max,v('--ram'),2.2);
+  if(vis.commodity)  plotLine(ctx,RC, pad,cW,cH,n,min,max,v('--comm'),1.8,[6,3]);
+  if(vis.hbm)        plotLine(ctx,RAI,pad,cW,cH,n,min,max,v('--hbm'),1.8,[3,3]);
 
   /* RAMageddon pulse */
-  var lx=xOf(n-1), ly=yOf(R[n-1]);
-  for(var r=20;r>=6;r-=7){
-    ctx.beginPath(); ctx.arc(lx,ly,r,0,2*Math.PI);
-    ctx.fillStyle='rgba(0,212,170,'+(0.04+(20-r)*0.008)+')'; ctx.fill();
+  if(vis.composite || vis.hbm) {
+    var lx=xOf(n-1), ly=yOf(R[n-1]);
+    for(var r=20;r>=6;r-=7){
+      ctx.beginPath(); ctx.arc(lx,ly,r,0,2*Math.PI);
+      ctx.fillStyle='rgba(0,212,170,'+(0.04+(20-r)*0.008)+')'; ctx.fill();
+    }
+    ctx.fillStyle=v('--hbm'); ctx.font='bold 9px sans-serif'; ctx.textAlign='center';
+    var _lw=ctx.measureText('RAMageddon').width;
+    var _tx=Math.min(lx, W-pad.r-_lw/2);
+    ctx.fillText('RAMageddon', _tx, pad.t+12);
   }
-  ctx.fillStyle=v('--hbm'); ctx.font='bold 9px sans-serif'; ctx.textAlign='center';
-  var _lw=ctx.measureText('RAMageddon').width;
-  var _tx=Math.min(lx, W-pad.r-_lw/2);
-  ctx.fillText('RAMageddon', _tx, pad.t+12);
 
   xAxis(ctx,pad,cW,H,n,5);
 });
@@ -835,9 +901,10 @@ drawChart('priceChart', 220, function(ctx, W, H) {
     ctx.fillText(label+'/GB', pad.l-4, y+3);
   });
 
-  plotLine(ctx,logComp,pad,cW,cH,n,min,max,v('--ram'),2);
-  plotLine(ctx,logComm,pad,cW,cH,n,min,max,v('--comm'),1.8,[5,3]);
-  plotLine(ctx,logHBM, pad,cW,cH,n,min,max,v('--hbm'),1.8,[3,3]);
+  var visp=VIS.priceChart;
+  if(visp.composite) plotLine(ctx,logComp,pad,cW,cH,n,min,max,v('--ram'),2);
+  if(visp.commodity)  plotLine(ctx,logComm,pad,cW,cH,n,min,max,v('--comm'),1.8,[5,3]);
+  if(visp.hbm)        plotLine(ctx,logHBM, pad,cW,cH,n,min,max,v('--hbm'),1.8,[3,3]);
 
   xAxis(ctx,pad,cW,H,n,5);
 });
@@ -846,6 +913,7 @@ drawChart('priceChart', 220, function(ctx, W, H) {
    CHART 3 — FOLK INDEX COMPARISON
    ══════════════════════════════════════════════════════ */
 drawChart('folkChart', 240, function(ctx, W, H) {
+  var visf=VIS.folkChart;
   var pad={t:18,r:24,b:28,l:40}, cW=W-pad.l-pad.r, cH=H-pad.t-pad.b, n=YEARS.length;
   var min=-3.5, max=3.5;
 
@@ -855,7 +923,7 @@ drawChart('folkChart', 240, function(ctx, W, H) {
   var normMUI = normalise(MUI_YOY);
   var normBox = normalise(BOX_YOY);
 
-  recBands(ctx,pad,cW,cH,n);
+  if(visf.nber) recBands(ctx,pad,cW,cH,n);
 
   ctx.strokeStyle='#2a2f3e'; ctx.lineWidth=1; ctx.setLineDash([4,4]);
   var yz=pad.t+(1-(0-min)/(max-min))*cH;
@@ -864,11 +932,11 @@ drawChart('folkChart', 240, function(ctx, W, H) {
 
   yAxis(ctx,pad,cW,cH,min,max,[-3,-2,-1,0,1,2,3]);
 
-  plotLine(ctx,normLip,pad,cW,cH,n,min,max,v('--lipstick'),1.2,[4,3]);
-  plotLine(ctx,normHem,pad,cW,cH,n,min,max,v('--hemline'),1.2,[4,3]);
-  plotLine(ctx,normMUI,pad,cW,cH,n,min,max,v('--mui'),1.2,[4,3]);
-  plotLine(ctx,normBox,pad,cW,cH,n,min,max,v('--popcorn'),1.2,[4,3]);
-  plotLine(ctx,normR,  pad,cW,cH,n,min,max,v('--ram'),2.2);
+  if(visf.lipstick) plotLine(ctx,normLip,pad,cW,cH,n,min,max,v('--lipstick'),1.2,[4,3]);
+  if(visf.hemline)  plotLine(ctx,normHem,pad,cW,cH,n,min,max,v('--hemline'),1.2,[4,3]);
+  if(visf.mui)      plotLine(ctx,normMUI,pad,cW,cH,n,min,max,v('--mui'),1.2,[4,3]);
+  if(visf.popcorn)  plotLine(ctx,normBox,pad,cW,cH,n,min,max,v('--popcorn'),1.2,[4,3]);
+  if(visf.ram)      plotLine(ctx,normR,  pad,cW,cH,n,min,max,v('--ram'),2.2);
 
   xAxis(ctx,pad,cW,H,n,5);
 });
@@ -877,6 +945,7 @@ drawChart('folkChart', 240, function(ctx, W, H) {
    CHART 4 — GDP GROWTH vs RAMIFICATION INDEX
    ══════════════════════════════════════════════════════ */
 drawChart('gdpChart', 240, function(ctx, W, H) {
+  var visg=VIS.gdpChart;
   var pad={t:18,r:52,b:28,l:44}, cW=W-pad.l-pad.r, cH=H-pad.t-pad.b, n=YEARS.length;
   var minR=-1.65, maxR=1.5;
   var minG=-4, maxG=8;
@@ -885,18 +954,20 @@ drawChart('gdpChart', 240, function(ctx, W, H) {
   function yOfR(v) { return pad.t + (1-(v-minR)/(maxR-minR))*cH; }
   function yOfG(v) { return pad.t + (1-(v-minG)/(maxG-minG))*cH; }
 
-  recBands(ctx,pad,cW,cH,n);
+  if(visg.nber) recBands(ctx,pad,cW,cH,n);
 
   /* GDP bars */
-  var barW = Math.max(2, cW/n - 1);
-  for (var i=0;i<n;i++) {
-    if (GDP_YOY[i]===null) continue;
-    var x = xOf(i);
-    var y0g = yOfG(0);
-    var y1g = yOfG(GDP_YOY[i]);
-    var barColor = GDP_YOY[i] >= 0 ? 'rgba(0,212,170,0.35)' : 'rgba(248,113,113,0.35)';
-    ctx.fillStyle = barColor;
-    ctx.fillRect(x - barW/2, Math.min(y0g,y1g), barW, Math.abs(y1g-y0g));
+  if(visg.gdp) {
+    var barW = Math.max(2, cW/n - 1);
+    for (var i=0;i<n;i++) {
+      if (GDP_YOY[i]===null) continue;
+      var x = xOf(i);
+      var y0g = yOfG(0);
+      var y1g = yOfG(GDP_YOY[i]);
+      var barColor = GDP_YOY[i] >= 0 ? 'rgba(0,212,170,0.35)' : 'rgba(248,113,113,0.35)';
+      ctx.fillStyle = barColor;
+      ctx.fillRect(x - barW/2, Math.min(y0g,y1g), barW, Math.abs(y1g-y0g));
+    }
   }
 
   /* GDP zero line */
@@ -927,7 +998,7 @@ drawChart('gdpChart', 240, function(ctx, W, H) {
   });
 
   /* Ramification Index line */
-  plotLine(ctx, R, pad, cW, cH, n, minR, maxR, v('--ram'), 2.2);
+  if(visg.ram) plotLine(ctx, R, pad, cW, cH, n, minR, maxR, v('--ram'), 2.2);
 
   /* axis labels */
   ctx.fillStyle='rgba(255,179,71,0.7)'; ctx.font='bold 9px sans-serif'; ctx.textAlign='right';
@@ -937,6 +1008,35 @@ drawChart('gdpChart', 240, function(ctx, W, H) {
 
   xAxis(ctx,pad,cW,H,n,5);
 });
+/* ── legend toggle ──────────────────────────────────────── */
+document.querySelectorAll('.leg[data-series]').forEach(function(el) {
+  el.addEventListener('click', function() {
+    var legend = el.closest('[data-chart]');
+    if (!legend) return;
+    var chartId = legend.getAttribute('data-chart');
+    var series  = el.getAttribute('data-series');
+    if (!VIS[chartId] || VIS[chartId][series] === undefined) return;
+    VIS[chartId][series] = !VIS[chartId][series];
+    el.classList.toggle('off', !VIS[chartId][series]);
+    if (RENDERS[chartId]) RENDERS[chartId]();
+  });
+});
+
+/* ── scroll reveal ──────────────────────────────────────── */
+(function () {
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -24px 0px' });
+
+  document.querySelectorAll('.card, .stats-bento').forEach(function(el) {
+    obs.observe(el);
+  });
+})();
 </script>
 
 </body>
