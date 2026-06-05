@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px; height: 630px; overflow: hidden;
+    background: #0b0c10;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #e8eaf0;
+  }
+
+  /* Grid noise texture overlay */
+  body::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,179,71,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,179,71,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+  }
+
+  .wrap {
+    position: relative;
+    width: 1200px; height: 630px;
+    padding: 58px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* Top bar */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .badge {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #ffb347;
+    border: 1px solid rgba(255,179,71,0.4);
+    border-radius: 20px;
+    padding: 5px 14px;
+  }
+  .badge-teal {
+    color: #00d4aa;
+    border-color: rgba(0,212,170,0.4);
+  }
+  .org {
+    font-size: 12px;
+    color: #5a6070;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  /* Title block */
+  .title-block { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+  h1 {
+    font-size: 76px;
+    font-weight: 800;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  h1 span { color: #ffb347; }
+  .sub {
+    font-size: 20px;
+    color: #8892a4;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+  .sub strong { color: #00d4aa; font-weight: 600; }
+
+  /* Stats row */
+  .stats {
+    display: flex;
+    gap: 0;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    padding-top: 32px;
+    align-items: flex-start;
+  }
+  .stat {
+    flex: 1;
+    padding-right: 32px;
+    border-right: 1px solid rgba(255,255,255,0.07);
+    margin-right: 32px;
+  }
+  .stat:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+  .stat-val {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #ffb347;
+  }
+  .stat-val.teal { color: #00d4aa; }
+  .stat-val.white { color: #ffffff; }
+  .stat-label {
+    font-size: 12px;
+    color: #5a6070;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 6px;
+    font-weight: 600;
+  }
+
+  /* Right accent bar */
+  .accent-bar {
+    position: absolute;
+    right: 0; top: 0; bottom: 0;
+    width: 6px;
+    background: linear-gradient(180deg, #ffb347 0%, #00d4aa 100%);
+    border-radius: 0 0 0 0;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div style="display:flex;gap:10px;">
+      <span class="badge">Working Paper · May 2026</span>
+      <span class="badge badge-teal">Version 2 — The Bifurcated Index</span>
+    </div>
+    <span class="org">The ARC Institute of Knowware · Calgary, AB</span>
+  </div>
+
+  <div class="title-block">
+    <h1>The <span>Ramification</span> Index</h1>
+    <p class="sub">RAM prices as a macroeconomic signal — <strong>supply-side divergence, Granger causality &amp; RAMageddon</strong></p>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-val">6/6</div>
+      <div class="stat-label">NBER recessions covered</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val">r = 0.41</div>
+      <div class="stat-label">Correlation w/ real GDP</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val teal">+137%</div>
+      <div class="stat-label">RAMageddon YoY 2026</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val white">F = 5.83</div>
+      <div class="stat-label">Granger causality p = 0.004</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val">1980–2026</div>
+      <div class="stat-label">46-year series</div>
+    </div>
+  </div>
+</div>
+<div class="accent-bar"></div>
+</body>
+</html>
