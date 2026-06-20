@@ -1825,7 +1825,11 @@ async function loadFeed(){
     container.innerHTML = entries.map(e=>{
       const title   = e.querySelector('title')?.textContent || '';
       const url     = e.querySelector('link')?.getAttribute('href') || '#';
-      const summary = e.querySelector('summary')?.textContent || '';
+      const rawSummary = e.querySelector('summary')?.textContent || '';
+      const riSplit = rawSummary.indexOf(' RI implication: ');
+      const excerpt = riSplit >= 0 ? rawSummary.slice(0, riSplit) : rawSummary;
+      const riImpl  = riSplit >= 0 ? rawSummary.slice(riSplit + 17) : '';
+      const summary = excerpt + (riImpl ? ` <em>RI implication:</em> ${riImpl}` : '');
       const updated = e.querySelector('updated')?.textContent || '';
       const author  = e.querySelector('name')?.textContent || '';
       const cats    = Array.from(e.querySelectorAll('category')).map(c=>c.getAttribute('term')||'');
