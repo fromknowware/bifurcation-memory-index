@@ -640,6 +640,7 @@ audio{
 .fi-ann{
   font-size:11px;color:var(--muted);line-height:1.65;
   padding-left:12px;border-left:1px solid var(--line2);
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
 }
 .fi-ann em{color:var(--ram);font-style:normal;font-weight:600;}
 .feed-aside{padding:20px;overflow-y:auto;}
@@ -1882,8 +1883,18 @@ async function loadFeed(){
       const url     = e.querySelector('link')?.getAttribute('href') || '#';
       const rawSummary = e.querySelector('summary')?.textContent || '';
       const riSplit = rawSummary.indexOf(' RI implication: ');
-      const excerpt = riSplit >= 0 ? rawSummary.slice(0, riSplit) : rawSummary;
+      const dirtyExcerpt = riSplit >= 0 ? rawSummary.slice(0, riSplit) : rawSummary;
       const riImpl  = riSplit >= 0 ? rawSummary.slice(riSplit + 17) : '';
+      // Normalize: collapse whitespace/newlines, fix common encoding corruption
+      const excerpt = dirtyExcerpt
+        .replace(/<[^>]*>/g, ' ')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/[\r\n\t]+/g, ' ')
+        .replace(/\s{2,}/g, ' ')
+        .replace(/¢/g, "'")
+        .replace(/â€™/g, "'").replace(/â€œ/g, '“').replace(/â€/g, '”')
+        .replace(/ /g, ' ')
+        .trim();
       const summary = excerpt + (riImpl ? ` <em>RI implication:</em> ${riImpl}` : '');
       const updated = e.querySelector('updated')?.textContent || '';
       const author  = e.querySelector('name')?.textContent || '';
