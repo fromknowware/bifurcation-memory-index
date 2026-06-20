@@ -43,6 +43,7 @@ export async function scoreItems(
   items: FeedItem[],
   anthropicApiKey: string,
   thesis?: string,
+  implicitOnly = false,
 ): Promise<ScoredItem[]> {
   if (items.length === 0) return [];
 
@@ -99,6 +100,15 @@ ${batch.map((item, i) => `${i + 1}. "${item.title}" — ${item.excerpt.slice(0, 
     }
   }
 
-  // Keep signal >= 6
-  return scored.filter((item) => item.signal >= 6);
+  // Keep signal >= 6 unless implicitOnly (editorial picks — always publish, just need the RI implication)
+  return implicitOnly ? scored : scored.filter((item) => item.signal >= 6);
+}
+
+// Convenience wrapper for editorial picks: scores for RI implication only, no signal gate
+export async function annotateItems(
+  items: FeedItem[],
+  anthropicApiKey: string,
+  thesis?: string,
+): Promise<ScoredItem[]> {
+  return scoreItems(items, anthropicApiKey, thesis, true);
 }
