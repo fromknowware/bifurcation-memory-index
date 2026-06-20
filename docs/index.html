@@ -15,6 +15,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="alternate" type="application/atom+xml" title="The RAM Index — Memory Market Intelligence" href="/feed.xml">
 <style>
 :root {
   --bg:      #07090d;
@@ -225,7 +226,8 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 .chart-wrap canvas{display:block;width:100%;height:100%;min-height:160px;}
 
 /* ── MARKET SIGNALS ──────────────────────────────── */
-#sec-signals table{width:100%;border-collapse:collapse;}
+.sig-table-wrap{flex:1;min-height:0;overflow-y:auto;}
+#sec-signals table{width:100%;border-collapse:collapse;height:100%;}
 #sec-signals thead tr{border-bottom:2px solid var(--line2);}
 #sec-signals th{
   font-family:var(--mono);font-size:9px;font-weight:700;
@@ -234,15 +236,18 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
   border-right:1px solid var(--line);
 }
 #sec-signals th:last-child{border-right:none;}
+#sec-signals tbody{height:100%;}
 #sec-signals tbody tr{
   border-bottom:1px solid var(--line);
   transition:background 0.1s;
+  height:1%;
 }
 #sec-signals tbody tr:hover{background:var(--bg1);}
 #sec-signals td{
-  padding:12px 16px;
+  padding:16px 16px;
   border-right:1px solid var(--line);
   font-family:var(--mono);font-size:12px;
+  vertical-align:middle;
 }
 #sec-signals td:last-child{border-right:none;}
 .type-dot{
@@ -263,6 +268,7 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 }
 
 /* ── EQUITIES TABLE ──────────────────────────────── */
+#eq-wrap{flex:1;min-height:0;overflow-y:auto;}
 #eq-table{width:100%;border-collapse:collapse;}
 .eq-tier-header td{
   font-family:var(--mono);font-size:9px;font-weight:700;
@@ -340,7 +346,8 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 .ln-tag.advanced{color:var(--hemline);}
 .ln-tag.methodology{color:var(--mui);}
 .ln-title{font-size:11px;color:var(--text);line-height:1.4;margin-top:2px;}
-.learn-body{padding:32px 40px;max-width:700px;overflow-y:auto;}
+.learn-body{padding:32px 40px;max-width:700px;overflow-y:auto;display:flex;flex-direction:column;}
+
 .lb-counter{
   font-family:var(--mono);font-size:10px;color:var(--muted);
   letter-spacing:0.08em;margin-bottom:10px;
@@ -372,6 +379,7 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 .lb-nav{
   display:flex;align-items:center;gap:10px;
   padding-top:24px;border-top:1px solid var(--line);
+  margin-top:auto;
 }
 .lb-nav-btn{
   background:none;border:1px solid var(--line);
@@ -387,9 +395,10 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 /* ── RESEARCH ────────────────────────────────────── */
 .research-layout{
   display:grid;grid-template-columns:1fr 360px;
-  flex:1;min-height:0;
+  flex:1;min-height:0;overflow:hidden;
 }
-.research-main{border-right:1px solid var(--line);padding:32px 36px;}
+.research-main{border-right:1px solid var(--line);padding:32px 36px;overflow-y:auto;}
+.research-sidebar{overflow-y:auto;}
 .rc-type{
   font-family:var(--mono);font-size:9px;font-weight:700;
   letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
@@ -439,6 +448,35 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 .rs-item:last-child{border-bottom:none;}
 .rs-item-lbl{color:var(--muted);}
 .rs-item-val{color:var(--text);font-weight:600;text-align:right;}
+.rs-version{padding:10px 0;border-bottom:1px solid var(--line);}
+.rs-version:last-child{border-bottom:none;}
+.rs-ver-num{font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:0.08em;color:var(--sub);margin-bottom:4px;}
+.rs-ver-desc{font-size:11px;color:var(--muted);line-height:1.5;}
+.rs-link-row{padding:6px 0;border-bottom:1px solid var(--line);}
+.rs-link-row:last-child{border-bottom:none;}
+.rs-link{font-family:var(--mono);font-size:11px;color:var(--ram);}
+.rs-link:hover{text-decoration:underline;}
+.rc-divider{border:none;border-top:1px solid var(--line);margin:24px 0;}
+.rc-section-h{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+  margin-bottom:14px;
+}
+.rc-sources{display:flex;flex-direction:column;gap:12px;margin-bottom:4px;}
+.rc-source-row{display:flex;gap:14px;align-items:flex-start;}
+.rc-source-tag{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.08em;text-transform:uppercase;color:var(--sub);
+  flex-shrink:0;width:80px;padding-top:2px;
+}
+.rc-source-desc{font-size:11px;color:var(--muted);line-height:1.6;}
+.rc-cite{
+  font-size:12px;color:var(--sub);line-height:1.7;
+  border:1px solid var(--line);padding:12px 14px;
+  background:rgba(232,164,40,0.03);
+  font-family:var(--sans);
+}
+.rc-cite em{font-style:italic;}
 audio{
   width:100%;margin-top:8px;
   accent-color:var(--ram);height:32px;
@@ -493,6 +531,56 @@ audio{
 }
 .watch-item:last-child{border-bottom:none;}
 .watch-icon{flex-shrink:0;margin-top:1px;}
+.fi-divider{
+  padding:8px 20px;
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.14em;text-transform:uppercase;color:var(--dim);
+  border-bottom:1px solid var(--line);
+  background:var(--bg);
+  display:flex;align-items:center;gap:10px;
+}
+.fi-divider::after{content:'';flex:1;height:1px;background:var(--line);}
+.fi-link{display:block;color:var(--bright);text-decoration:none;}
+.fi-link:hover{color:var(--ram);}
+.fi-src{
+  font-family:var(--mono);font-size:9px;color:var(--dim);
+  margin-top:5px;letter-spacing:0.04em;
+}
+.fi-empty{
+  padding:32px 20px;
+  font-family:var(--mono);font-size:11px;color:var(--muted);
+  text-align:center;line-height:1.8;
+}
+.fi-loading{
+  padding:20px;
+  font-family:var(--mono);font-size:10px;color:var(--dim);
+  letter-spacing:0.08em;
+}
+.subscribe-block{
+  border:1px solid var(--line);padding:14px;margin-top:4px;
+}
+.subscribe-row{
+  display:flex;gap:6px;margin-top:10px;
+}
+.subscribe-input{
+  flex:1;background:var(--bg);border:1px solid var(--line2);
+  color:var(--text);font-family:var(--mono);font-size:10px;
+  padding:6px 8px;outline:none;
+}
+.subscribe-input:focus{border-color:var(--ram);}
+.subscribe-btn{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.08em;text-transform:uppercase;
+  padding:6px 12px;border:1px solid var(--ram);
+  color:var(--ram);background:transparent;cursor:pointer;
+  transition:background 0.1s;
+}
+.subscribe-btn:hover{background:rgba(232,164,40,0.08);}
+.subscribe-rss{
+  display:flex;align-items:center;gap:6px;margin-top:8px;
+  font-family:var(--mono);font-size:9px;color:var(--muted);
+}
+.subscribe-rss a{color:var(--ram);}
 
 /* ── SCROLLBAR ───────────────────────────────────── */
 ::-webkit-scrollbar{width:4px;height:4px;}
@@ -858,7 +946,7 @@ audio{
     <div class="sh-rule"></div>
     <span class="sh-meta">DRAM spot proxies · directional estimates · updated with index refresh</span>
   </div>
-  <table id="sig-table">
+  <div class="sig-table-wrap"><table id="sig-table">
     <thead>
       <tr>
         <th style="width:220px">Product</th>
@@ -903,7 +991,7 @@ audio{
         <td class="sig-price-cell" style="color:var(--hbm)">$19.20</td>
         <td class="sig-yoy up">+18%</td>
         <td class="sig-yoy up">+4%</td>
-        <td class="sig-spark-cell"><canvas id="sk-hbm" width="120" height="32"></canvas></td>
+        <td class="sig-spark-cell"><canvas id="sk-hbm" width="140" height="44" ></canvas></td>
         <td style="color:var(--sub);font-size:11px;">Sole input to R<sub>AI</sub> sub-index</td>
       </tr>
       <tr>
@@ -915,7 +1003,7 @@ audio{
         <td class="sig-price-cell">$9.85</td>
         <td class="sig-yoy up">+142%</td>
         <td class="sig-yoy up">+29%</td>
-        <td class="sig-spark-cell"><canvas id="sk-lpddr" width="120" height="32"></canvas></td>
+        <td class="sig-spark-cell"><canvas id="sk-lpddr" width="140" height="44" ></canvas></td>
         <td style="color:var(--sub);font-size:11px;">Mobile proxy; feeds downstream signal</td>
       </tr>
       <tr>
@@ -927,7 +1015,7 @@ audio{
         <td class="sig-price-cell">$22.40</td>
         <td class="sig-yoy up">+217%</td>
         <td class="sig-yoy up">+52%</td>
-        <td class="sig-spark-cell"><canvas id="sk-srv" width="120" height="32"></canvas></td>
+        <td class="sig-spark-cell"><canvas id="sk-srv" width="140" height="44" ></canvas></td>
         <td style="color:var(--sub);font-size:11px;">Enterprise leading indicator</td>
       </tr>
       <tr>
@@ -939,11 +1027,11 @@ audio{
         <td class="sig-price-cell" style="color:var(--sub)">$0.082</td>
         <td class="sig-yoy up">+38%</td>
         <td class="sig-yoy up">+9%</td>
-        <td class="sig-spark-cell"><canvas id="sk-nand" width="120" height="32"></canvas></td>
+        <td class="sig-spark-cell"><canvas id="sk-nand" width="140" height="44" ></canvas></td>
         <td style="color:var(--sub);font-size:11px;">Storage cycle co-moves with DRAM</td>
       </tr>
     </tbody>
-  </table>
+  </table></div>
   <div class="data-note">
     Prices are proxy estimates derived from Micron/Samsung/SK Hynix earnings guidance, DRAMeXchange trend reports, and Amazon spot pricing. Exact contract prices are proprietary. These figures track directional movement; the commodity spike (DDR4/5 +188–293%) vs moderated HBM (+18%) defines the 2026 bifurcation.
   </div>
@@ -1033,6 +1121,18 @@ audio{
         <a class="rc-btn" href="paper.html">Read on web →</a>
         <a class="rc-btn" href="dashboard.html">Interactive dashboard →</a>
       </div>
+      <div class="rc-divider"></div>
+      <div class="rc-section-h">Data Sources</div>
+      <div class="rc-sources">
+        <div class="rc-source-row"><span class="rc-source-tag">DRAM prices</span><span class="rc-source-desc">DRAMeXchange / TrendForce quarterly $/GB averages; Amazon spot pricing as proxy; earnings guidance from Micron, Samsung, SK Hynix</span></div>
+        <div class="rc-source-row"><span class="rc-source-tag">GDP series</span><span class="rc-source-desc">U.S. BEA real GDP YoY growth, annualized; FRED series GDPC1; quarterly data 1980–2026</span></div>
+        <div class="rc-source-row"><span class="rc-source-tag">Recessions</span><span class="rc-source-desc">NBER Business Cycle Dating Committee official start/end dates; 6 cycles covered (1980, 1981, 1990, 2001, 2007, 2020)</span></div>
+        <div class="rc-source-row"><span class="rc-source-tag">HBM data</span><span class="rc-source-desc">SK Hynix, Samsung, Micron quarterly earnings; IDC server DRAM shipment data; Omdia HBM revenue estimates</span></div>
+        <div class="rc-source-row"><span class="rc-source-tag">Equities</span><span class="rc-source-desc">Yahoo Finance via yfinance; 10-stock panel: MU, 005930.KS, 000660.KS, NVDA, TSM, AMD, INTC, QCOM, WDC, STX</span></div>
+      </div>
+      <div class="rc-divider"></div>
+      <div class="rc-section-h">How to Cite</div>
+      <div class="rc-cite">Wakil, K. (2025). <em>The Ramification Index v2: The Bifurcated Index.</em> ARC Institute of Knowware. ram-index.com</div>
     </div>
     <div class="research-sidebar">
       <div class="rs-block">
@@ -1047,6 +1147,23 @@ audio{
         <div class="rs-item"><span class="rs-item-lbl">Granger F-stat</span><span class="rs-item-val" style="color:var(--hbm)">5.83 (p&lt;.01)</span></div>
         <div class="rs-item"><span class="rs-item-lbl">2026 RI reading</span><span class="rs-item-val" style="color:var(--ram)">0.863</span></div>
         <div class="rs-item"><span class="rs-item-lbl">Bifurcation gap</span><span class="rs-item-val">R_C − R_AI = 1.20</span></div>
+      </div>
+      <div class="rs-block">
+        <div class="rs-h">Version History</div>
+        <div class="rs-version">
+          <div class="rs-ver-num" style="color:var(--ram)">v2 · 2025</div>
+          <div class="rs-ver-desc">Bifurcated index: R<sub>C</sub> + R<sub>AI</sub> sub-indices. HBM weight ω introduced. RAMageddon 2026 documented.</div>
+        </div>
+        <div class="rs-version">
+          <div class="rs-ver-num">v1 · 2023</div>
+          <div class="rs-ver-desc">Original composite index. 40 years of data. 6/6 recession signal established. Granger causality confirmed.</div>
+        </div>
+      </div>
+      <div class="rs-block">
+        <div class="rs-h">Related</div>
+        <div class="rs-link-row"><a class="rs-link" href="paper.html">Full paper →</a></div>
+        <div class="rs-link-row"><a class="rs-link" href="dashboard.html">Interactive dashboard →</a></div>
+        <div class="rs-link-row"><a class="rs-link" href="#" onclick="document.querySelector('.np[data-sec=learn]').click();return false;">Learn: read the primer →</a></div>
       </div>
     </div>
   </div>
@@ -1096,6 +1213,8 @@ audio{
         <div class="fi-hl">CHIPS Act: Micron breaks ground on New York fab — 40,000 jobs, $50B investment over 20 years</div>
         <div class="fi-ann">Zero near-term supply relief. <em>RI implication:</em> Fabs take 3–4 years to produce wafers. This is a 2029+ story; important for MU's strategic premium and the RI's long-run trajectory.</div>
       </div>
+      <div class="fi-divider">Live Feed</div>
+      <div id="feed-live-items"><div class="fi-loading">Loading live feed…</div></div>
     </div>
     <div class="feed-aside">
       <div class="fa-block">
@@ -1115,6 +1234,21 @@ audio{
         <div class="fa-row"><span class="fa-key">GDP 2026P</span><span class="fa-val dn">+1.5%</span></div>
         <div class="fa-row"><span class="fa-key">S&amp;P 500 YTD</span><span class="fa-val dn">−1.5%</span></div>
         <div class="fa-row"><span class="fa-key">HBM Weight ω</span><span class="fa-val">0.42</span></div>
+      </div>
+      <div class="fa-block">
+        <div class="fa-h">Subscribe</div>
+        <div class="subscribe-block">
+          <div style="font-family:var(--mono);font-size:10px;color:var(--muted);line-height:1.6;">Memory market intelligence, curated and scored for RAM Index signal.</div>
+          <div class="subscribe-row">
+            <input class="subscribe-input" type="email" placeholder="your@email.com" id="sub-email">
+            <button class="subscribe-btn" onclick="handleSubscribe()">→</button>
+          </div>
+          <div class="subscribe-rss">
+            <span>RSS:</span>
+            <a href="/feed.xml" target="_blank">/feed.xml</a>
+            <span style="color:var(--dim)">· Atom feed</span>
+          </div>
+        </div>
       </div>
       <div class="fa-block">
         <div class="fa-h">Watch Conditions</div>
@@ -1514,6 +1648,67 @@ function renderLearn(idx){
   });
 }
 
+// ── LIVE FEED ─────────────────────────────────────────────
+function guessTag(sourceFeed, title){
+  const t = (sourceFeed+' '+title).toLowerCase();
+  if(/earnings|guidance|revenue|profit|margin|quarter/.test(t)) return {cls:'earnings',label:'EARNINGS'};
+  if(/hbm|ai memory|bandwidth|nvidia|blackwell|gpu/.test(t))    return {cls:'demand',  label:'DEMAND'};
+  if(/tariff|trade|gdp|macro|inflation|fomc|fed|policy/.test(t))return {cls:'macro',   label:'MACRO'};
+  if(/fab|capacity|yield|ramp|nm|wafer|foundry/.test(t))        return {cls:'fab',     label:'FAB'};
+  return {cls:'supply', label:'SUPPLY'};
+}
+
+async function loadFeed(){
+  const container = document.getElementById('feed-live-items');
+  if(!container || container.dataset.loaded) return;
+  container.dataset.loaded = '1';
+  try{
+    const r = await fetch('/feed.xml?_='+Date.now());
+    if(!r.ok) throw new Error(r.status);
+    const text = await r.text();
+    const doc = new DOMParser().parseFromString(text,'application/xml');
+    const entries = Array.from(doc.querySelectorAll('entry'));
+    if(!entries.length){
+      container.innerHTML = '<div class="fi-empty">Feed populates automatically every 6 hours.<br>Check back soon.</div>';
+      return;
+    }
+    container.innerHTML = entries.map(e=>{
+      const title   = e.querySelector('title')?.textContent || '';
+      const url     = e.querySelector('link')?.getAttribute('href') || '#';
+      const summary = e.querySelector('summary')?.textContent || '';
+      const updated = e.querySelector('updated')?.textContent || '';
+      const author  = e.querySelector('name')?.textContent || '';
+      const cats    = Array.from(e.querySelectorAll('category')).map(c=>c.getAttribute('term')||'');
+      const isPick  = cats.includes('editorial-pick');
+      const srcFeed = cats.find(c=>c && c!=='editorial-pick') || '';
+      const tag     = guessTag(srcFeed, title);
+      const dateStr = updated ? updated.slice(0,10) : '';
+      return `<div class="fi">
+        <div class="fi-top">
+          <span class="fi-date">${dateStr}</span>
+          <span class="fi-tag ${tag.cls}">${tag.label}</span>
+          ${isPick?'<span class="fi-tag" style="color:var(--ram);border:1px solid rgba(232,164,40,0.3)">★ PICK</span>':''}
+        </div>
+        <a href="${url}" target="_blank" rel="noopener" class="fi-hl fi-link">${title}</a>
+        ${summary?`<div class="fi-ann">${summary}</div>`:''}
+        <div class="fi-src">${author}</div>
+      </div>`;
+    }).join('');
+  }catch{
+    container.innerHTML = '<div class="fi-empty">Live feed unavailable — check back shortly.</div>';
+  }
+}
+
+function handleSubscribe(){
+  const input = document.getElementById('sub-email');
+  const email = input?.value?.trim();
+  if(!email||!email.includes('@')) return;
+  navigator.clipboard?.writeText('https://ram-index.com/feed.xml').catch(()=>{});
+  input.value = '';
+  input.placeholder = 'Noted — newsletter coming soon';
+  setTimeout(()=>{ if(input) input.placeholder = 'your@email.com'; }, 4000);
+}
+
 // ── NAVIGATION ────────────────────────────────────────────
 document.querySelectorAll('.np').forEach(btn=>{
   btn.addEventListener('click',()=>{
@@ -1524,6 +1719,7 @@ document.querySelectorAll('.np').forEach(btn=>{
     if(btn.dataset.sec==='index'){
       requestAnimationFrame(()=>{drawChart('chart-ri-mini',120,false);drawChart('chart-ri-full',240,true);});
     }
+    if(btn.dataset.sec==='feed') loadFeed();
   });
 });
 
