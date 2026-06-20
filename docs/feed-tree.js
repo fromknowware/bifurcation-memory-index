@@ -272,9 +272,9 @@ class FeedTree extends HTMLElement {
       btn.dataset.lens = lens.id;
       btn.style.cssText = [
         'font-family:monospace;font-size:9px;letter-spacing:0.08em;',
-        'padding:3px 8px;border-radius:2px;cursor:pointer;',
+        'padding:7px 12px;border-radius:2px;cursor:pointer;',
         'border:1px solid var(--line2,rgba(255,255,255,0.12));',
-        'background:none;transition:all 0.12s;',
+        'background:none;transition:all 0.12s;-webkit-tap-highlight-color:transparent;',
       ].join('');
       btn.addEventListener('click', () => {
         this._lens = lens.id;
