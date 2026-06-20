@@ -42,25 +42,25 @@
 }
 /* ── LIGHT / EINK THEME ──────────────────────────────── */
 [data-theme="light"]{
-  --bg:      #f0ede6;
-  --bg1:     #e8e4dd;
-  --bg2:     #dedad2;
-  --line:    #ccc8bf;
-  --line2:   #aaa69e;
-  --dim:     #888480;
-  --muted:   #888480;
-  --sub:     #484540;
-  --text:    #282520;
-  --bright:  #0a0907;
-  --ram:     #0a0907;
-  --hbm:     #3a3835;
-  --comm:    #555250;
-  --hemline: #555250;
-  --mui:     #444240;
-  --green:   #1a1a18;
-  --red:     #606058;
-  --yellow:  #333230;
-  --lipstick:#555250;
+  --bg:      #edeae3;
+  --bg1:     #e5e2da;
+  --bg2:     #dddad2;
+  --line:    #ccc9c0;
+  --line2:   #b4b1a8;
+  --dim:     #989490;
+  --muted:   #999590;
+  --sub:     #706d68;
+  --text:    #5c5955;
+  --bright:  #3e3c38;
+  --ram:     #3e3c38;
+  --hbm:     #525048;
+  --comm:    #626058;
+  --hemline: #626058;
+  --mui:     #525048;
+  --green:   #2a8a50;
+  --red:     #a83232;
+  --yellow:  #5c5955;
+  --lipstick:#626058;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;height:100%;}
@@ -1361,8 +1361,8 @@ function chartColors(){
     fillA:   L?'rgba(10,9,7,0.10)'       :'rgba(232,164,40,0.12)',
     fillB:   L?'rgba(10,9,7,0)'          :'rgba(232,164,40,0)',
     dot:     L?'#0a0907'                 :'#e8a428',
-    spkUp:   L?'#1a1a18'                 :'#38b868',
-    spkDn:   L?'#606058'                 :'#c84848',
+    spkUp:   L?'#2a8a50'                 :'#38b868',
+    spkDn:   L?'#a83232'                 :'#c84848',
   };
 }
 
@@ -1471,7 +1471,7 @@ function drawMiniSparkline(id, data, color, el){
   if(!el) el = id ? document.getElementById(id) : null;
   if(!el)return;
   const L = document.documentElement.dataset.theme==='light';
-  const actualColor = L ? (color==='#38b868'?'#1a1a18':color==='#c84848'?'#606058':'#333') : color;
+  const actualColor = L ? (color==='#38b868'?'#2a8a50':color==='#c84848'?'#a83232':'#5c5955') : color;
   const dpr = window.devicePixelRatio||1;
   const W = el.offsetWidth||120, H = el.offsetHeight||44;
   el.width = W*dpr; el.height = H*dpr;
