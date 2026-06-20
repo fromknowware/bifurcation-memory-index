@@ -1,2 +1,5 @@
 name = "bifurcation-memory-index"
-pages_build_output_dir = "docs"
+compatibility_date = "2026-06-20"
+
+[assets]
+directory = "./docs"
