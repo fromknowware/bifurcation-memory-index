@@ -30,6 +30,7 @@ import { fetchFromRaindrop } from './tools/raindrop-source';
 import { scoreItems, annotateItems } from './tools/relevance-scorer';
 import { fetchExistingItems, renderAtom, commitFeed, StoredItem, writeFeed } from './tools/feed-writer';
 import { classifyItem } from './tools/classifier';
+import { sanitizeTitle, sanitizeExcerpt, isItemCorrupted } from './tools/sanitize';
 
 interface RamFeedState {
   // Thesis the agent is currently confirming
@@ -246,6 +247,27 @@ export class RamFeedAgent extends Agent<Env, RamFeedState> {
       else if (body.raindrop)  result = await this.raindropCheck();
       else                     result = await this.newsRun();
       return Response.json(result);
+    }
+
+    // POST /ram-feed/purge-corrupted — remove garbled entries from live feed
+    // fetchExistingItems already filters corruption on read; we just commit the clean list back
+    if (path === '/ram-feed/purge-corrupted' && request.method === 'POST') {
+      // Fetch raw entry count from GitHub before filtering
+      const rawRes = await fetch(
+        `https://api.github.com/repos/fromknowware/bifurcation-memory-index/contents/docs/feed.xml`,
+        { headers: { Authorization: `Bearer ${this.env.GITHUB_TOKEN}`, Accept: 'application/vnd.github.v3+json', 'User-Agent': 'RAM-Index-Feed/1.0' } }
+      );
+      const rawData = await rawRes.json() as { content: string };
+      const rawXml = new TextDecoder('utf-8').decode(Uint8Array.from(atob(rawData.content.replace(/\n/g, '')), c => c.charCodeAt(0)));
+      const rawCount = (rawXml.match(/<entry>/gi) ?? []).length;
+
+      const clean = await fetchExistingItems(this.env.GITHUB_TOKEN, 'fromknowware', 'bifurcation-memory-index');
+      const purged = rawCount - clean.length;
+
+      if (purged === 0) return Response.json({ ok: true, purged: 0, remaining: clean.length, message: 'Feed is clean' });
+      const xml = renderAtom(clean);
+      await commitFeed(xml, this.env.GITHUB_TOKEN, 'fromknowware', 'bifurcation-memory-index');
+      return Response.json({ ok: true, purged, remaining: clean.length });
     }
 
     // POST /ram-feed/reimply — backfill RI implications on existing feed items

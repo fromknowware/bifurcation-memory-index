@@ -10,6 +10,7 @@
 
 import type { ScoredItem } from './relevance-scorer';
 import { classifyItem, FeedTag } from './classifier';
+import { sanitizeTitle, sanitizeExcerpt, isItemCorrupted } from './sanitize';
 
 const FEED_META = {
   title: 'The RAM Index — Memory Market Intelligence',
@@ -34,8 +35,11 @@ export async function writeFeed(
   const existing = await fetchExistingItems(githubToken, githubOwner, githubRepo);
   const existingUrls = new Set(existing.map((i) => i.url));
 
-  // Deduplicate: only add items not already in the feed
-  const fresh = newItems.filter((i) => !existingUrls.has(i.url));
+  // Deduplicate and sanitize incoming items before they touch the feed
+  const fresh = newItems
+    .filter((i) => !existingUrls.has(i.url))
+    .map((i) => ({ ...i, title: sanitizeTitle(i.title), excerpt: sanitizeExcerpt(i.excerpt) }))
+    .filter((i) => !isItemCorrupted(i.title, i.excerpt));
   if (fresh.length === 0) return { committed: 0, total: existing.length };
 
   // Merge, sort by date desc, cap at maxItems
@@ -129,7 +133,8 @@ export async function fetchExistingItems(
     if (!res.ok) return [];
 
     const data = await res.json() as { content: string };
-    const xml = atob(data.content.replace(/\n/g, ''));
+    const bytes = Uint8Array.from(atob(data.content.replace(/\n/g, '')), c => c.charCodeAt(0));
+    const xml = new TextDecoder('utf-8').decode(bytes);
     return parseAtomItems(xml);
   } catch {
     return [];
@@ -154,8 +159,9 @@ function parseAtomItems(xml: string): StoredItem[] {
     const tag = tagCat ? (tagCat.slice(4) as FeedTag) : classifyItem(title, summary);
     const sourceFeed = categories.find((c) => c !== 'editorial-pick' && !c.startsWith('tag:')) ?? '';
 
-    if (url) {
-      items.push({ url, title, excerpt: summary, source, sourceFeed, publishedAt: published, signal: 0, reasoning: '', tag, editorialPick });
+    // Check corruption on raw text before sanitizing — sanitize truncates, masking length signal
+    if (url && !isItemCorrupted(title, summary)) {
+      items.push({ url, title: sanitizeTitle(title), excerpt: sanitizeExcerpt(summary), source, sourceFeed, publishedAt: published, signal: 0, reasoning: '', tag, editorialPick });
     }
   }
   return items;
