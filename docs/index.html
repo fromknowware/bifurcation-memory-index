@@ -1,1683 +1,1234 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Ramification Index — Version 2</title>
-  <meta name="description" content="A supply-side macroeconomic indicator built on DRAM prices. 6/6 NBER recessions covered, r = 0.41 with real GDP, Granger causality F = 5.83. Version 2 introduces bifurcated sub-indices and documents the 2025–2026 RAMageddon.">
-  <!-- Open Graph -->
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="The Ramification Index — Version 2: The Bifurcated Index">
-  <meta property="og:description" content="RAM prices as a macroeconomic signal — supply-side divergence, Granger causality &amp; RAMageddon. 6/6 NBER recessions, r = 0.41 with real GDP.">
-  <meta property="og:url" content="https://ram-index.com/">
-  <meta property="og:image" content="https://ram-index.com/og-preview.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:site_name" content="The ARC Institute of Knowware">
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="The Ramification Index — Version 2: The Bifurcated Index">
-  <meta name="twitter:description" content="RAM prices as a macroeconomic signal — supply-side divergence, Granger causality &amp; RAMageddon. 6/6 NBER recessions, r = 0.41 with real GDP.">
-  <meta name="twitter:image" content="https://ram-index.com/og-preview.png">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --bg:      #0b0c10;
-      --panel:   #141620;
-      --panel2:  #1a1d28;
-      --border:  #20232d;
-      --border2: #2a2f3e;
-      --text:    #c9d3e8;
-      --muted:   #8a8f9b;
-      --white:   #ffffff;
-      --ram:     #ffb347;
-      --hbm:     #00d4aa;
-      --lipstick:#ff4d88;
-      --hemline: #9d7cff;
-      --mui:     #6ed3ff;
-      --popcorn: #e6e86b;
-      --green:   #4ade80;
-      --red:     #f87171;
-      --radius:  6px;
-      --max:     860px;
-    }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.65;
-      font-size: 15px;
-    }
-
-    #progress {
-      position: fixed; top: 0; left: 0;
-      width: 100%; height: 2px;
-      background: var(--ram);
-      transform-origin: left center;
-      transform: scaleX(0);
-      z-index: 200;
-      box-shadow: 0 0 8px rgba(255,179,71,0.45);
-    }
-
-    /* ── HERO ─────────────────────────────────────── */
-    header {
-      background: var(--panel);
-      border-bottom: 1px solid var(--border);
-      padding: 4rem 1.5rem 3rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-
-    header::before {
-      content: '';
-      position: absolute;
-      top: 35%; left: 50%;
-      transform: translate(-50%, -50%);
-      width: 700px; height: 240px;
-      background: radial-gradient(ellipse, rgba(255,179,71,0.06) 0%, rgba(0,212,170,0.04) 50%, transparent 70%);
-      pointer-events: none;
-    }
-
-    .hero-badges {
-      display: flex;
-      justify-content: center;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-      margin-bottom: 1.4rem;
-    }
-
-    .hero-badge {
-      display: inline-block;
-      border: 1px solid rgba(255,179,71,0.5);
-      color: var(--ram);
-      font-size: 0.68rem;
-      font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      padding: 0.28em 1em;
-      border-radius: 99px;
-    }
-
-    .hero-badge-v2 {
-      border-color: rgba(0,212,170,0.6);
-      color: var(--hbm);
-    }
-
-    header h1 {
-      font-size: clamp(1.7rem, 4.5vw, 2.8rem);
-      font-weight: 800;
-      line-height: 1.15;
-      color: var(--white);
-      max-width: var(--max);
-      margin: 0 auto 0.6rem;
-      letter-spacing: -0.01em;
-    }
-
-    header h1 em { color: var(--ram); font-style: normal; text-shadow: 0 0 48px rgba(255,179,71,0.28); }
-
-    .hero-v2-sub {
-      font-size: 0.82rem;
-      color: var(--hbm);
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      margin-bottom: 0.7rem;
-    }
-
-    .subtitle {
-      color: var(--muted);
-      font-size: 0.92rem;
-      max-width: 620px;
-      margin: 0 auto 1.4rem;
-      line-height: 1.6;
-    }
-
-    .meta {
-      font-size: 0.82rem;
-      color: var(--muted);
-      margin-bottom: 1.4rem;
-    }
-    .meta a { color: var(--mui); text-decoration: none; }
-    .meta a:hover { text-decoration: underline; }
-
-    .shield-row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.5rem;
-      margin-bottom: 1.8rem;
-    }
-    .shield-row img { height: 28px; }
-
-    .pill-row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.55rem;
-    }
-
-    .pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4em;
-      padding: 0.52em 1.2em;
-      border-radius: 99px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-decoration: none;
-      border: 1px solid transparent;
-      transition: opacity 0.15s, box-shadow 0.2s, background 0.15s;
-    }
-    .pill:hover { opacity: 0.82; }
-
-    .pill-arxiv  { background: var(--ram); color: #0b0c10; }
-    .pill-arxiv:hover  { box-shadow: 0 0 16px rgba(255,179,71,0.35); opacity: 1; }
-    .pill-github { background: transparent; color: var(--text); border-color: var(--border2); }
-    .pill-dl     { background: transparent; color: var(--muted); border-color: var(--border); font-size: 0.74rem; padding: 0.45em 0.9em; }
-    .pill-dl:hover { border-color: var(--border2); opacity: 1; color: var(--text); }
-    .pill-dash   { background: transparent; color: var(--hbm); border-color: rgba(0,212,170,0.45); }
-    .pill-dash:hover { background: rgba(0,212,170,0.07); opacity: 1; }
-    .pill-v1     { background: transparent; color: var(--muted); border-color: var(--border); font-size: 0.74rem; padding: 0.45em 0.9em; }
-    .pill-v1:hover { border-color: var(--border2); opacity: 1; color: var(--text); }
-
-    /* ── MAIN ─────────────────────────────────────── */
-    main {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 0 1.5rem 5rem;
-    }
-
-    section { margin-top: 3.2rem; }
-
-    h2 {
-      font-size: 0.7rem;
-      font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--ram);
-      margin-bottom: 1.1rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid var(--border);
-    }
-
-    h2.h2-hbm { color: var(--hbm); }
-    h2.h2-hbm { border-bottom-color: rgba(0,212,170,0.2); }
-
-    p { margin-bottom: 0.85rem; }
-    p:last-child { margin-bottom: 0; }
-    strong { color: var(--white); font-weight: 700; }
-
-    /* ── ABSTRACT ─────────────────────────────────── */
-    .abstract-rule { border: none; border-top: 1px solid rgba(255,179,71,0.35); margin: 0; }
-    .abstract-box { padding: 1.3rem 0; font-size: 0.91rem; }
-
-    /* ── V2 CHANGES BOX ───────────────────────────── */
-    .v2-box {
-      background: rgba(0,212,170,0.04);
-      border: 1px solid rgba(0,212,170,0.25);
-      border-radius: var(--radius);
-      padding: 1.2rem 1.4rem;
-      font-size: 0.88rem;
-      margin-top: 1.1rem;
-    }
-
-    .v2-box h3 {
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--hbm);
-      margin-bottom: 0.75rem;
-    }
-
-    .v2-box ol {
-      padding-left: 1.2rem;
-      color: var(--text);
-      display: flex;
-      flex-direction: column;
-      gap: 0.4rem;
-    }
-
-    .v2-box li { line-height: 1.55; }
-    .v2-box li strong { color: var(--hbm); }
-
-    /* ── KEY RESULTS BENTO ────────────────────────── */
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: 130px 100px 104px;
-      grid-template-areas:
-        "hero hero r1   lead gran gran"
-        "hero hero hbm1 hbm1 gran gran"
-        "rama rama rama rama rama rama";
-      gap: 0.75rem;
-    }
-
-    @media (max-width: 640px) {
-      /* ── layout ── */
-      main { padding: 0 1rem 3rem; }
-      section { margin-top: 2.2rem; }
-
-      /* ── bento grid ── */
-      .stats { grid-template-columns: 1fr 1fr !important;
-               grid-template-rows: none !important;
-               grid-template-areas: none !important;
-               gap: 0.5rem !important; }
-      .stat-card { grid-area: auto !important; grid-column: auto !important;
-                   grid-row: auto !important; min-height: 84px; }
-      .sc-hero { grid-column: 1 / -1 !important; min-height: 100px; }
-      .sc-gran { grid-column: 1 / -1 !important; justify-content: flex-start; }
-      .sc-rama { grid-column: 1 / -1 !important; flex-direction: column !important;
-                 align-items: flex-start !important; padding: 0.9rem 1rem !important;
-                 gap: 0.65rem !important; overflow: hidden !important; }
-      .sc-rama .rama-divider { width: 100% !important; height: 1px !important; }
-      .sc-rama .rama-block { flex-direction: row; align-items: baseline;
-                             justify-content: space-between; width: 100%; gap: 0.5rem; }
-      .sc-rama .stat-tag { font-size: 0.6rem; }
-      .sc-rama .stat-num { font-size: 1.1rem !important; }
-      .sc-rama .stat-label { font-size: 0.62rem; text-align: right; max-width: 55%; }
-
-      /* ── audio player ── */
-      .audio-player { flex-wrap: wrap; gap: 0.5rem; padding: 0.7rem; }
-      .ap-btn { order: 1; }
-      .ap-time { order: 2; margin-left: auto; }
-      .ap-track { order: 3; flex: 0 0 100%; }
-      .ap-top { flex-direction: column; align-items: flex-start; gap: 0.4rem; }
-      .ap-label { white-space: normal; font-size: 0.72rem; }
-      .ap-speeds { gap: 4px; }
-      .ap-speed { font-size: 0.65rem; padding: 2px 8px; }
-      .transcript-panel.open { max-height: 320px; }
-      .transcript-body { max-height: 310px; font-size: 0.77rem; }
-
-      /* ── chart ── */
-      .chart-bar { flex-direction: column; align-items: flex-start; gap: 0.5rem;
-                   padding: 0.6rem 0.85rem; }
-      .chart-legend { gap: 0.5rem; }
-      .legend-item { font-size: 0.65rem; }
-
-      /* ── tables ── */
-      table { font-size: 0.72rem; }
-      th, td { padding: 0.45rem 0.5rem; }
-
-      /* ── citation ── */
-      .cite-box { font-size: 0.68rem; padding: 0.85rem; line-height: 1.6; }
-
-      /* ── dash iframe ── */
-      iframe { height: 70vh; min-height: 480px; }
-    }
-
-    .stat-card {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1rem 1rem 0.9rem;
-      display: flex; flex-direction: column; justify-content: flex-end;
-      position: relative; overflow: hidden;
-      min-width: 0;
-      transition: border-color 0.2s, box-shadow 0.2s;
-    }
-    .stat-card:hover { border-color: rgba(255,179,71,0.28); }
-    .stat-card.hbm-card { border-color: rgba(0,212,170,0.2); }
-    .stat-card.hbm-card:hover { border-color: rgba(0,212,170,0.4); }
-
-    /* per-card grid areas */
-    .sc-hero  { grid-area: hero;
-      background: linear-gradient(145deg, #1a1d28, #141620);
-      border-color: rgba(255,179,71,0.35) !important;
-      justify-content: center; align-items: center; text-align: center; }
-    .sc-hero::before { content:''; position:absolute; inset:0;
-      background: radial-gradient(ellipse at 50% 55%, rgba(255,179,71,0.09) 0%, transparent 68%);
-      pointer-events:none; }
-    .sc-r1   { grid-area: r1; }
-    .sc-lead { grid-area: lead; }
-    .sc-gran { grid-area: gran; border-color: rgba(0,212,170,0.22) !important;
-               justify-content: center; }
-    .sc-hbm1 { grid-area: hbm1; border-color: rgba(0,212,170,0.22) !important; }
-    .sc-rama { grid-area: rama; border-color: rgba(0,212,170,0.22) !important;
-               flex-direction: row; align-items: center; justify-content: space-between;
-               padding: 0 1.4rem; gap: 2rem; overflow: visible; }
-    .sc-rama .rama-block { display: flex; flex-direction: column; gap: 0.15rem; }
-    .sc-rama .rama-divider { width: 1px; height: 60%; background: var(--border); flex-shrink: 0; }
-
-    .stat-tag { font-size: 0.62rem; font-weight: 700; text-transform: uppercase;
-                letter-spacing: 0.1em; color: var(--muted); margin-bottom: 0.35rem;
-                overflow-wrap: break-word; }
-    .stat-label { font-size: 0.68rem; color: var(--muted); line-height: 1.4;
-                  overflow-wrap: break-word; }
-    .stat-num { font-weight: 800; letter-spacing: -0.03em; line-height: 1;
-                color: var(--ram); margin-bottom: 0.2rem; }
-    .stat-num.xl  { font-size: 3rem; }
-    .stat-num.lg  { font-size: 1.7rem; }
-    .stat-num.md  { font-size: 1.35rem; }
-    .stat-num.hbm { color: var(--hbm); }
-
-    /* ── INTERPRETIVE BENTO ───────────────────────── */
-    .interp-bento {
-      display: grid;
-      grid-template-columns: 1fr 1.15fr;
-      grid-template-rows: repeat(3, auto);
-      grid-template-areas:
-        "rec  div"
-        "eq   div"
-        "exp  div";
-      gap: 0.75rem;
-    }
-    @media (max-width: 600px) {
-      .interp-bento { grid-template-columns: 1fr; grid-template-rows: unset;
-                      grid-template-areas: unset; }
-      .interp-bento > * { grid-area: unset !important; }
-    }
-
-    .ic { background: var(--panel); border: 1px solid var(--border);
-          border-radius: var(--radius); padding: 1.1rem 1.2rem;
-          display: flex; flex-direction: column; gap: 0.3rem;
-          transition: border-color 0.2s; }
-
-    .ic-rec { grid-area: rec; }
-    .ic-eq  { grid-area: eq;  }
-    .ic-exp { grid-area: exp; }
-    .ic-div { grid-area: div;
-      background: rgba(0,212,170,0.03);
-      border-color: rgba(0,212,170,0.3) !important;
-      justify-content: center; }
-    .ic-div:hover { border-color: rgba(0,212,170,0.5) !important; }
-    .ic:hover { border-color: rgba(255,179,71,0.25); }
-
-    .ic-signal { font-size: 0.78rem; font-weight: 800;
-                 letter-spacing: -0.01em; font-family: "SFMono-Regular", Consolas, monospace; }
-    .ic-signal.neg { color: var(--red); }
-    .ic-signal.neu { color: var(--muted); }
-    .ic-signal.pos { color: var(--green); }
-    .ic-signal.div { color: var(--hbm); }
-    .ic-verdict { font-size: 0.72rem; font-weight: 700; }
-    .ic-desc { font-size: 0.78rem; color: var(--muted); line-height: 1.55; margin-top: 0.2rem; }
-    .ic-badge { display: inline-block; font-size: 0.6rem; font-weight: 700;
-                text-transform: uppercase; letter-spacing: 0.1em;
-                padding: 0.18em 0.65em; border-radius: 99px; margin-bottom: 0.55rem; }
-    .ic-badge.new { background: rgba(0,212,170,0.12); color: var(--hbm);
-                    border: 1px solid rgba(0,212,170,0.3); }
-
-    /* ── AUDIO PLAYER ────────────────────────────── */
-    .audio-player {
-      display: flex; align-items: center; gap: 0.75rem;
-      padding: 0.65rem 0.9rem;
-      background: var(--panel); border: 1px solid var(--border);
-      border-radius: 10px; margin-top: 1.1rem;
-    }
-    .ap-btn {
-      flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%;
-      border: 1px solid rgba(255,179,71,0.35); background: rgba(255,179,71,0.08);
-      color: var(--ram); cursor: pointer;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 11px; transition: background 0.15s; line-height: 1;
-    }
-    .ap-btn:hover { background: rgba(255,179,71,0.18); }
-    .ap-track { flex: 1; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
-    .ap-label { color: var(--muted); font-size: 0.7rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .ap-bar-wrap { height: 3px; background: var(--border); border-radius: 999px; cursor: pointer; position: relative; }
-    .ap-bar { height: 100%; width: 0%; border-radius: 999px; background: var(--ram); pointer-events: none; }
-    .ap-time { flex-shrink: 0; font-size: 0.7rem; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 76px; text-align: right; }
-    .ap-top { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
-    .ap-speeds { display: flex; gap: 3px; flex-shrink: 0; }
-    .ap-speed { font-size: 0.62rem; padding: 1px 6px; border-radius: 4px; border: 1px solid var(--border); background: transparent; color: var(--muted); cursor: pointer; transition: all 0.12s; line-height: 1.7; }
-    .ap-speed.on { border-color: rgba(255,179,71,0.45); color: var(--ram); background: rgba(255,179,71,0.07); }
-    .transcript-wrap { margin-top: 0.6rem; }
-    .transcript-toggle { font-size: 0.7rem; color: var(--muted); background: none; border: 1px solid var(--border); border-radius: 6px; padding: 3px 10px; cursor: pointer; transition: color 0.15s, border-color 0.15s; }
-    .transcript-toggle:hover { color: var(--text); border-color: rgba(255,255,255,0.15); }
-    .transcript-panel { max-height: 0; overflow: hidden; transition: max-height 0.38s ease; }
-    .transcript-panel.open { max-height: 230px; }
-    .transcript-body { overflow-y: auto; max-height: 220px; padding: 0.8rem 0.1rem 0.4rem; font-size: 0.74rem; line-height: 1.7; color: var(--muted); }
-    .ts-seg { padding: 2px 0; transition: color 0.18s; cursor: pointer; }
-    .ts-seg:hover { opacity: 1 !important; color: var(--text); }
-    .ts-seg.ts-past { opacity: 0.42; }
-    .ts-seg.ts-active { color: var(--text); }
-    .ts-seg.ts-anchored::before { content: '·'; color: rgba(255,179,71,0.65); margin-right: 3px; vertical-align: middle; }
-
-    /* ── RECESSION TABLE ──────────────────────────── */
-    .table-wrap { overflow-x: auto; }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.83rem;
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-    }
-
-    thead { background: var(--panel2); color: var(--muted); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; }
-    th, td { padding: 0.7rem 0.9rem; text-align: center; border-bottom: 1px solid var(--border); }
-    th:first-child, td:first-child { text-align: left; }
-    tbody tr:last-child td { border-bottom: none; }
-    tbody tr:first-child { background: rgba(255,179,71,0.06); }
-    tbody tr:first-child td:first-child { color: var(--ram); font-weight: 700; }
-
-    .s  { color: var(--green); font-weight: 700; }
-    .ns { color: var(--muted); }
-    .as { color: var(--red); }
-    .na { color: var(--border2); }
-    .score-best { color: var(--ram); font-weight: 800; }
-
-    /* ── GRANGER BOX ──────────────────────────────── */
-    .granger-table table thead { font-size: 0.7rem; }
-    .granger-reject { color: var(--green); font-weight: 700; }
-    .granger-fail   { color: var(--muted); }
-
-    /* ── BIFURCATION CHART ────────────────────────── */
-    .bifur-chart-wrap {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-    }
-
-    .chart-bar {
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 0.7rem 1.1rem;
-      border-bottom: 1px solid var(--border);
-      background: var(--panel2);
-    }
-
-    .chart-legend {
-      display: flex; gap: 1.2rem; align-items: center; flex-wrap: wrap;
-    }
-
-    .legend-item {
-      display: flex; align-items: center; gap: 0.4rem;
-      font-size: 0.72rem; color: var(--muted);
-    }
-
-    .leg-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-    .leg-line { width: 20px; height: 2px; flex-shrink: 0; border-radius: 1px; }
-    .leg-ram   { background: var(--ram); }
-    .leg-hbm   { background: var(--hbm); }
-    .leg-comm  { background: #ffd580; }
-    .leg-rec   { background: rgba(248,113,113,0.45); }
-
-    canvas#bifurChart {
-      display: block;
-      width: 100%;
-      background: var(--panel);
-    }
-
-    /* ── RAMAGEDDON TIMELINE ──────────────────────── */
-    .timeline {
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-      position: relative;
-      padding-left: 1.6rem;
-    }
-
-    .timeline::before {
-      content: '';
-      position: absolute;
-      left: 6px; top: 8px; bottom: 8px;
-      width: 1px;
-      background: var(--border2);
-    }
-
-    .tl-item {
-      position: relative;
-      padding: 0 0 1.4rem 1rem;
-    }
-
-    .tl-item::before {
-      content: '';
-      position: absolute;
-      left: -1.08rem; top: 6px;
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      background: var(--ram);
-      border: 1px solid var(--bg);
-    }
-
-    .tl-item.hot::before { background: var(--red); }
-
-    .tl-date {
-      font-size: 0.7rem;
-      color: var(--hbm);
-      font-weight: 700;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      margin-bottom: 0.2rem;
-    }
-
-    .tl-text {
-      font-size: 0.86rem;
-      color: var(--text);
-      line-height: 1.55;
-    }
-
-    /* ── TRIPLE GRID ──────────────────────────────── */
-    .triple-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 0.8rem;
-    }
-
-    .triple-card {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.3rem 1.3rem 1.5rem;
-      transition: border-color 0.2s;
-    }
-    .triple-card:hover { border-color: rgba(255,179,71,0.25); }
-    .triple-card.hbm-card:hover { border-color: rgba(0,212,170,0.25); }
-
-    .triple-icon { font-size: 1.4rem; margin-bottom: 0.6rem; display: block; }
-    .triple-card h3 { font-size: 0.82rem; font-weight: 700; color: var(--white); margin-bottom: 0.45rem; }
-    .triple-card p { font-size: 0.82rem; color: var(--muted); margin: 0; line-height: 1.55; }
-
-    /* ── DASHBOARD EMBED ──────────────────────────── */
-    .dash-wrap {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-    }
-
-    .dash-bar {
-      padding: 0.75rem 1.1rem;
-      display: flex; align-items: center; justify-content: space-between;
-      border-bottom: 1px solid var(--border);
-      background: var(--panel2);
-    }
-
-    .dash-bar-left { display: flex; align-items: center; gap: 0.5rem; }
-    .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-    .dot-ram  { background: var(--ram); }
-    .dot-hbm  { background: var(--hbm); }
-    .dash-label { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em; }
-
-    .open-full {
-      font-size: 0.75rem; color: var(--hbm); text-decoration: none;
-      font-weight: 600; border: 1px solid rgba(0,212,170,0.35);
-      padding: 0.25em 0.75em; border-radius: 99px;
-      transition: background 0.15s;
-    }
-    .open-full:hover { background: rgba(0,212,170,0.1); }
-
-    iframe { display: block; width: 100%; height: 85vh; min-height: 600px; border: none; background: var(--bg); }
-
-    /* ── CITATION ─────────────────────────────────── */
-    .cite-box {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.2rem 1.4rem;
-      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-      font-size: 0.78rem;
-      line-height: 1.75;
-      color: var(--text);
-      overflow-x: auto;
-      white-space: pre;
-    }
-    .cite-box .k { color: var(--ram); }
-    .cite-box .v { color: var(--mui); }
-
-    /* ── FOOTER ───────────────────────────────────── */
-    footer {
-      text-align: center; padding: 2rem 1rem;
-      font-size: 0.76rem; color: var(--muted);
-      border-top: 1px solid var(--border);
-    }
-    footer a { color: var(--mui); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-
-    .v1-link { color: var(--muted); }
-
-    /* ── ANIMATIONS ─────────────────────────────────────── */
-    :root {
-      --ease-out-expo:  cubic-bezier(0.16, 1, 0.3, 1);
-      --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
-    }
-
-    /* Hero entrance */
-    header .hero-badges,
-    header h1,
-    header .hero-v2-sub,
-    header .subtitle,
-    header .meta,
-    header .shield-row,
-    header .pill-row {
-      opacity: 0;
-      transform: translateY(22px);
-    }
-    header.hero-loaded .hero-badges,
-    header.hero-loaded h1,
-    header.hero-loaded .hero-v2-sub,
-    header.hero-loaded .subtitle,
-    header.hero-loaded .meta,
-    header.hero-loaded .shield-row,
-    header.hero-loaded .pill-row {
-      opacity: 1;
-      transform: translateY(0);
-      transition: opacity 750ms var(--ease-out-expo), transform 750ms var(--ease-out-expo);
-    }
-    header.hero-loaded .hero-badges  { transition-delay:   0ms; }
-    header.hero-loaded h1            { transition-delay:  80ms; }
-    header.hero-loaded .hero-v2-sub  { transition-delay: 160ms; }
-    header.hero-loaded .subtitle     { transition-delay: 220ms; }
-    header.hero-loaded .meta         { transition-delay: 280ms; }
-    header.hero-loaded .shield-row   { transition-delay: 350ms; }
-    header.hero-loaded .pill-row     { transition-delay: 420ms; }
-
-    /* Section scroll reveal */
-    main section {
-      opacity: 0;
-      transform: translateY(28px);
-      transition: opacity 700ms var(--ease-out-expo), transform 700ms var(--ease-out-expo);
-    }
-    main section.revealed {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    /* Stat card stagger — @keyframes avoids conflicting with hover transitions */
-    @keyframes fadeSlideUp {
-      from { opacity: 0; transform: translateY(18px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-    .stat-card { opacity: 0; }
-    main section.revealed .stat-card {
-      animation: fadeSlideUp 520ms var(--ease-out-expo) both;
-    }
-    main section.revealed .stat-card:nth-child(1) { animation-delay:  60ms; }
-    main section.revealed .stat-card:nth-child(2) { animation-delay: 115ms; }
-    main section.revealed .stat-card:nth-child(3) { animation-delay: 170ms; }
-    main section.revealed .stat-card:nth-child(4) { animation-delay: 225ms; }
-    main section.revealed .stat-card:nth-child(5) { animation-delay: 280ms; }
-    main section.revealed .stat-card:nth-child(6) { animation-delay: 335ms; }
-
-    /* Timeline stagger */
-    @keyframes slideInLeft {
-      from { opacity: 0; transform: translateX(-20px); }
-      to   { opacity: 1; transform: translateX(0); }
-    }
-    .tl-item { opacity: 0; }
-    main section.revealed .tl-item {
-      animation: slideInLeft 500ms var(--ease-out-expo) both;
-    }
-    main section.revealed .tl-item:nth-child(1) { animation-delay:  50ms; }
-    main section.revealed .tl-item:nth-child(2) { animation-delay: 110ms; }
-    main section.revealed .tl-item:nth-child(3) { animation-delay: 170ms; }
-    main section.revealed .tl-item:nth-child(4) { animation-delay: 230ms; }
-    main section.revealed .tl-item:nth-child(5) { animation-delay: 290ms; }
-    main section.revealed .tl-item:nth-child(6) { animation-delay: 350ms; }
-    main section.revealed .tl-item:nth-child(7) { animation-delay: 410ms; }
-    main section.revealed .tl-item:nth-child(8) { animation-delay: 470ms; }
-
-    /* CTA pill hover lift */
-    .pill {
-      transition: opacity 0.18s, box-shadow 0.22s, background 0.18s,
-                  border-color 0.18s, transform 0.22s var(--ease-out-quint);
-    }
-    .pill:hover { transform: translateY(-3px); opacity: 1; }
-
-    /* Reduced motion */
-    @media (prefers-reduced-motion: reduce) {
-      header .hero-badges,
-      header h1,
-      header .hero-v2-sub,
-      header .subtitle,
-      header .meta,
-      header .shield-row,
-      header .pill-row { opacity: 1 !important; transform: none !important; }
-      main section { opacity: 1 !important; transform: none !important; transition: none !important; }
-      .stat-card    { opacity: 1 !important; animation: none !important; }
-      .tl-item      { opacity: 1 !important; animation: none !important; }
-      .pill         { transition: none !important; transform: none !important; }
-    }
-  </style>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>RAM Monitor — Ramification Index</title>
+<meta name="description" content="Live monitor for the Ramification Index: DRAM market signals, semiconductor equity tiers, regime readings, and macro context.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="RAM Monitor — Live DRAM Market Intelligence">
+<meta property="og:url" content="https://ram-index.com/monitor.html">
+<meta property="og:image" content="https://ram-index.com/og-preview.png">
+<meta property="og:site_name" content="The ARC Institute of Knowware">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://ram-index.com/og-preview.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:      #07090d;
+  --bg1:     #0d0f14;
+  --bg2:     #111318;
+  --line:    #1c1f28;
+  --line2:   #252832;
+  --dim:     #3a3f50;
+  --muted:   #5a6070;
+  --sub:     #8892a4;
+  --text:    #c8d0e0;
+  --bright:  #e8edf8;
+  --ram:     #e8a428;
+  --hbm:     #00b896;
+  --comm:    #c8a040;
+  --hemline: #7c6cd8;
+  --mui:     #5098d0;
+  --green:   #38b868;
+  --red:     #c84848;
+  --yellow:  #c89020;
+  --mono:    'IBM Plex Mono', ui-monospace, monospace;
+  --sans:    ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--sans);
+  background:var(--bg);color:var(--text);
+  line-height:1.4;font-size:13px;
+}
+a{color:inherit;text-decoration:none;}
+
+/* ── TICKER ──────────────────────────────────────── */
+#ticker-bar{
+  height:26px;background:var(--bg1);
+  border-bottom:1px solid var(--line);
+  overflow:hidden;display:flex;align-items:center;
+  position:sticky;top:0;z-index:100;
+  font-family:var(--mono);font-size:11px;
+}
+.ticker-track{
+  display:flex;white-space:nowrap;
+  animation:tick 70s linear infinite;
+}
+.ticker-track:hover{animation-play-state:paused;}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ti{
+  display:inline-flex;align-items:center;gap:7px;
+  padding:0 18px;border-right:1px solid var(--line);
+  height:26px;
+}
+.ti-sym{color:var(--bright);font-weight:600;letter-spacing:0.02em;}
+.ti-px{color:var(--sub);}
+.up{color:var(--green);}
+.dn{color:var(--red);}
+
+/* ── HEADER ──────────────────────────────────────── */
+header{
+  display:grid;
+  grid-template-columns:auto 1fr auto auto;
+  align-items:center;gap:0;
+  border-bottom:1px solid var(--line);
+  background:var(--bg1);
+  position:sticky;top:26px;z-index:90;
+  height:42px;
+}
+.hd-brand{
+  font-family:var(--mono);font-size:13px;font-weight:700;
+  color:var(--bright);letter-spacing:0.05em;
+  padding:0 20px;border-right:1px solid var(--line);
+  height:100%;display:flex;align-items:center;gap:8px;
+}
+.hd-brand em{color:var(--ram);font-style:normal;}
+.live-dot{
+  width:6px;height:6px;border-radius:50%;
+  background:var(--green);
+  box-shadow:0 0 6px var(--green);
+  animation:pulse 2s ease infinite;
+}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+.hd-regime{
+  display:flex;align-items:center;gap:16px;
+  padding:0 20px;border-right:1px solid var(--line);
+  height:100%;font-family:var(--mono);font-size:11px;
+}
+.regime-key{color:var(--muted);font-weight:500;letter-spacing:0.08em;text-transform:uppercase;}
+.regime-val{color:var(--ram);font-weight:700;letter-spacing:0.04em;}
+.ri-inline{
+  display:flex;align-items:baseline;gap:6px;
+}
+.ri-big{font-size:18px;font-weight:700;color:var(--ram);}
+.ri-chg{font-size:11px;font-weight:600;}
+nav{
+  display:flex;height:100%;
+}
+.np{
+  font-family:var(--mono);font-size:10px;font-weight:600;
+  letter-spacing:0.08em;text-transform:uppercase;
+  color:var(--muted);
+  padding:0 16px;border-right:1px solid var(--line);
+  height:100%;display:flex;align-items:center;
+  cursor:pointer;transition:color 0.1s,background 0.1s;
+  background:transparent;border-top:none;border-bottom:none;border-left:none;
+}
+.np:hover{color:var(--text);background:var(--bg2);}
+.np.active{color:var(--ram);background:var(--bg2);border-bottom:2px solid var(--ram);}
+.hd-ts{
+  font-family:var(--mono);font-size:10px;color:var(--muted);
+  padding:0 16px;white-space:nowrap;
+}
+
+/* ── MAIN ────────────────────────────────────────── */
+main{max-width:1440px;margin:0 auto;}
+section{display:none;}
+section.active{display:block;}
+
+/* ── RULED SECTION HEAD ──────────────────────────── */
+.sh{
+  display:flex;align-items:center;gap:12px;
+  padding:10px 20px;
+  border-bottom:1px solid var(--line);
+  background:var(--bg1);
+}
+.sh-title{
+  font-family:var(--mono);font-size:10px;font-weight:700;
+  letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);
+}
+.sh-rule{flex:1;height:1px;background:var(--line);}
+.sh-meta{font-family:var(--mono);font-size:10px;color:var(--dim);}
+
+/* ── LIVE INDEX ──────────────────────────────────── */
+#sec-index .top-strip{
+  display:grid;
+  grid-template-columns:230px 1fr 200px;
+  border-bottom:1px solid var(--line);
+  min-height:120px;
+}
+.strip-hero{
+  padding:20px;
+  border-right:1px solid var(--line);
+  display:flex;flex-direction:column;justify-content:flex-end;
+  gap:2px;
+}
+.sh-lbl{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.14em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:4px;
+}
+.sh-num{
+  font-family:var(--mono);font-size:72px;font-weight:700;
+  color:var(--ram);letter-spacing:-0.04em;line-height:0.9;
+}
+.sh-delta{
+  font-family:var(--mono);font-size:10px;font-weight:500;
+  color:var(--muted);margin-top:8px;
+  display:flex;flex-direction:column;gap:3px;
+}
+.sh-delta-row{display:flex;justify-content:space-between;gap:12px;}
+.sh-delta-key{color:var(--muted);}
+.sh-delta-val{font-weight:700;}
+
+.strip-chart{
+  position:relative;
+  border-right:1px solid var(--line);
+}
+.strip-chart canvas{display:block;width:100%;height:120px;}
+
+.strip-regime{
+  display:grid;grid-template-rows:1fr 1fr 1fr;
+  font-family:var(--mono);
+}
+.sr-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:0 16px;border-bottom:1px solid var(--line);font-size:10px;
+}
+.sr-row:last-child{border-bottom:none;}
+.sr-key{color:var(--muted);letter-spacing:0.04em;}
+.sr-val{font-weight:700;font-size:13px;}
+
+/* ── INDEX DATA GRID ─────────────────────────────── */
+.idx-grid{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  border-bottom:1px solid var(--line);
+}
+.ig-cell{
+  padding:14px 16px;border-right:1px solid var(--line);
+}
+.ig-cell:last-child{border-right:none;}
+.ig-lbl{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);
+  margin-bottom:6px;
+}
+.ig-num{
+  font-family:var(--mono);font-size:20px;font-weight:700;
+  letter-spacing:-0.02em;line-height:1;
+}
+.ig-sub{font-family:var(--mono);font-size:9px;color:var(--muted);margin-top:4px;}
+
+/* ── CHART SECTION ───────────────────────────────── */
+.chart-wrap{
+  border-bottom:1px solid var(--line);
+  padding:0;
+}
+.chart-wrap canvas{display:block;width:100%;height:240px;}
+
+/* ── MARKET SIGNALS ──────────────────────────────── */
+#sec-signals table{width:100%;border-collapse:collapse;}
+#sec-signals thead tr{border-bottom:2px solid var(--line2);}
+#sec-signals th{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);
+  padding:10px 16px;text-align:left;
+  border-right:1px solid var(--line);
+}
+#sec-signals th:last-child{border-right:none;}
+#sec-signals tbody tr{
+  border-bottom:1px solid var(--line);
+  transition:background 0.1s;
+}
+#sec-signals tbody tr:hover{background:var(--bg1);}
+#sec-signals td{
+  padding:12px 16px;
+  border-right:1px solid var(--line);
+  font-family:var(--mono);font-size:12px;
+}
+#sec-signals td:last-child{border-right:none;}
+.type-dot{
+  display:inline-block;width:6px;height:6px;border-radius:50%;
+  margin-right:8px;vertical-align:middle;flex-shrink:0;
+}
+.sig-name{color:var(--bright);font-weight:600;}
+.sig-type-label{color:var(--muted);font-size:10px;}
+.sig-price-cell{color:var(--bright);font-weight:700;font-size:14px;}
+.sig-yoy.up{color:var(--green);}
+.sig-yoy.dn{color:var(--red);}
+.sig-spark-cell canvas{display:block;}
+.data-note{
+  padding:12px 16px;
+  font-size:11px;color:var(--muted);line-height:1.7;
+  border-top:1px solid var(--line);
+  font-family:var(--mono);
+}
+
+/* ── EQUITIES TABLE ──────────────────────────────── */
+#eq-table{width:100%;border-collapse:collapse;}
+.eq-tier-header td{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.12em;text-transform:uppercase;
+  padding:8px 16px;
+  background:var(--bg1);
+  color:var(--muted);
+  border-bottom:1px solid var(--line);
+  border-top:1px solid var(--line);
+}
+#eq-table thead tr{border-bottom:2px solid var(--line2);}
+#eq-table th{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);
+  padding:10px 16px;text-align:left;white-space:nowrap;
+  border-right:1px solid var(--line);
+}
+#eq-table th:last-child{border-right:none;}
+.eq-row{border-bottom:1px solid var(--line);transition:background 0.1s;}
+.eq-row:hover{background:var(--bg1);}
+.eq-row td{
+  padding:11px 16px;
+  border-right:1px solid var(--line);
+  font-family:var(--mono);
+}
+.eq-row td:last-child{border-right:none;}
+.eq-sym{color:var(--bright);font-weight:700;font-size:13px;}
+.eq-name{color:var(--sub);font-size:11px;margin-top:1px;}
+.eq-exch{color:var(--muted);font-size:10px;}
+.eq-price{color:var(--bright);font-weight:600;font-size:13px;}
+.eq-currency{color:var(--muted);font-size:10px;margin-left:2px;}
+.eq-chg{font-size:12px;font-weight:600;}
+.eq-pct{font-size:12px;font-weight:700;}
+.eq-cap{color:var(--sub);font-size:11px;}
+.eq-spark canvas{display:block;}
+.eq-tier-dot{
+  display:inline-block;width:5px;height:5px;border-radius:50%;
+  margin-right:6px;vertical-align:middle;
+}
+.eq-note{
+  padding:12px 16px;font-family:var(--mono);font-size:10px;
+  color:var(--muted);line-height:1.8;
+  border-top:1px solid var(--line);
+}
+
+/* ── LEARN ───────────────────────────────────────── */
+.learn-layout{
+  display:grid;
+  grid-template-columns:220px 1fr;
+  min-height:600px;
+}
+.learn-nav{
+  border-right:1px solid var(--line);
+  padding:20px 0;
+}
+.ln-item{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 20px;cursor:pointer;
+  transition:background 0.1s;border-left:2px solid transparent;
+}
+.ln-item:hover{background:var(--bg1);}
+.ln-item.active{
+  background:var(--bg1);border-left-color:var(--ram);
+}
+.ln-tag{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.1em;text-transform:uppercase;
+}
+.ln-tag.primer{color:var(--ram);}
+.ln-tag.mechanism{color:var(--hbm);}
+.ln-tag.advanced{color:var(--hemline);}
+.ln-tag.methodology{color:var(--mui);}
+.ln-title{font-size:11px;color:var(--text);line-height:1.4;margin-top:2px;}
+.learn-body{padding:32px 40px;max-width:700px;}
+.lb-tag{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.12em;text-transform:uppercase;margin-bottom:12px;
+}
+.lb-h{font-size:18px;font-weight:700;color:var(--bright);line-height:1.3;margin-bottom:14px;}
+.lb-p{font-size:13px;color:var(--sub);line-height:1.75;margin-bottom:20px;}
+.lb-facts{
+  border:1px solid var(--line);border-left:2px solid var(--ram);
+  padding:14px 16px;margin-bottom:20px;
+  display:flex;flex-direction:column;gap:8px;
+}
+.lb-fact{
+  font-family:var(--mono);font-size:11px;color:var(--text);
+  display:flex;gap:10px;line-height:1.5;
+}
+.lb-fact-marker{color:var(--ram);flex-shrink:0;}
+.lb-cta{
+  font-family:var(--mono);font-size:11px;font-weight:700;
+  color:var(--ram);letter-spacing:0.06em;
+  display:inline-flex;align-items:center;gap:6px;
+}
+.lb-cta:hover{text-decoration:underline;}
+
+/* ── RESEARCH ────────────────────────────────────── */
+.research-layout{
+  display:grid;grid-template-columns:1fr 360px;
+  min-height:500px;
+}
+.research-main{border-right:1px solid var(--line);padding:32px 36px;}
+.rc-type{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+  margin-bottom:10px;
+}
+.rc-h{font-size:20px;font-weight:700;color:var(--bright);line-height:1.3;margin-bottom:6px;}
+.rc-byline{font-family:var(--mono);font-size:11px;color:var(--muted);margin-bottom:20px;}
+.rc-abstract{font-size:13px;color:var(--sub);line-height:1.75;margin-bottom:24px;}
+.rc-stats-row{
+  display:flex;gap:0;
+  border:1px solid var(--line);margin-bottom:24px;
+}
+.rc-stat{
+  flex:1;padding:12px 16px;border-right:1px solid var(--line);
+}
+.rc-stat:last-child{border-right:none;}
+.rc-stat-num{
+  font-family:var(--mono);font-size:18px;font-weight:700;color:var(--ram);
+  letter-spacing:-0.02em;
+}
+.rc-stat-lbl{
+  font-family:var(--mono);font-size:9px;color:var(--muted);
+  letter-spacing:0.08em;text-transform:uppercase;margin-top:3px;
+}
+.rc-btns{display:flex;gap:10px;flex-wrap:wrap;}
+.rc-btn{
+  font-family:var(--mono);font-size:10px;font-weight:700;
+  letter-spacing:0.08em;text-transform:uppercase;
+  padding:8px 18px;border:1px solid var(--line2);
+  color:var(--sub);cursor:pointer;transition:all 0.1s;
+  background:transparent;
+}
+.rc-btn:hover{border-color:var(--ram);color:var(--ram);}
+.rc-btn.primary{border-color:var(--ram);color:var(--ram);background:rgba(232,164,40,0.06);}
+.research-sidebar{padding:24px;}
+.rs-block{margin-bottom:28px;}
+.rs-h{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);
+  margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--line);
+}
+.rs-item{
+  display:flex;justify-content:space-between;align-items:flex-start;
+  padding:7px 0;border-bottom:1px solid var(--line);
+  font-family:var(--mono);font-size:11px;gap:10px;
+}
+.rs-item:last-child{border-bottom:none;}
+.rs-item-lbl{color:var(--muted);}
+.rs-item-val{color:var(--text);font-weight:600;text-align:right;}
+audio{
+  width:100%;margin-top:8px;
+  accent-color:var(--ram);height:32px;
+}
+
+/* ── SIGNAL FEED ─────────────────────────────────── */
+.feed-layout{display:grid;grid-template-columns:1fr 280px;}
+.feed-list{border-right:1px solid var(--line);}
+.fi{
+  padding:16px 20px;border-bottom:1px solid var(--line);
+  transition:background 0.1s;
+}
+.fi:hover{background:var(--bg1);}
+.fi-top{display:flex;align-items:center;gap:10px;margin-bottom:6px;}
+.fi-date{font-family:var(--mono);font-size:10px;color:var(--muted);}
+.fi-tag{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.1em;padding:1px 6px;
+}
+.fi-tag.supply{color:var(--ram);border:1px solid rgba(232,164,40,0.3);}
+.fi-tag.demand{color:var(--lipstick, #c848a8);border:1px solid rgba(200,72,168,0.3);}
+.fi-tag.macro{color:var(--hbm);border:1px solid rgba(0,184,150,0.3);}
+.fi-tag.fab{color:var(--hemline);border:1px solid rgba(124,108,216,0.3);}
+.fi-tag.earnings{color:var(--mui);border:1px solid rgba(80,152,208,0.3);}
+.fi-hl{font-size:13px;font-weight:600;color:var(--bright);line-height:1.4;margin-bottom:6px;}
+.fi-ann{
+  font-size:11px;color:var(--muted);line-height:1.65;
+  padding-left:12px;border-left:1px solid var(--line2);
+}
+.fi-ann em{color:var(--ram);font-style:normal;font-weight:600;}
+.feed-aside{padding:20px;}
+.fa-block{margin-bottom:24px;}
+.fa-h{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);
+  padding-bottom:8px;border-bottom:1px solid var(--line);margin-bottom:10px;
+}
+.fa-row{
+  display:flex;justify-content:space-between;
+  padding:6px 0;border-bottom:1px solid var(--line);
+  font-family:var(--mono);font-size:11px;gap:8px;
+}
+.fa-row:last-child{border-bottom:none;}
+.fa-key{color:var(--muted);}
+.fa-val{font-weight:600;color:var(--text);text-align:right;}
+.fa-val.up{color:var(--green);}
+.fa-val.dn{color:var(--red);}
+.watch-item{
+  display:flex;gap:8px;align-items:flex-start;
+  padding:6px 0;border-bottom:1px solid var(--line);
+  font-family:var(--mono);font-size:10px;color:var(--muted);line-height:1.5;
+}
+.watch-item:last-child{border-bottom:none;}
+.watch-icon{flex-shrink:0;margin-top:1px;}
+
+/* ── SCROLLBAR ───────────────────────────────────── */
+::-webkit-scrollbar{width:4px;height:4px;}
+::-webkit-scrollbar-track{background:var(--bg);}
+::-webkit-scrollbar-thumb{background:var(--line2);}
+</style>
 </head>
 <body>
 
-<div id="progress"></div>
+<!-- TICKER -->
+<div id="ticker-bar"><div class="ticker-track" id="ticker-track"></div></div>
 
+<!-- HEADER -->
 <header>
-  <div class="hero-badges">
-    <span class="hero-badge">Working Paper &middot; May 2026</span>
-    <span class="hero-badge hero-badge-v2">Version 2: The Bifurcated Index</span>
+  <div class="hd-brand">
+    <div class="live-dot"></div>
+    <em>RAM</em> MONITOR
   </div>
-  <h1>The <em>Ramification</em> Index</h1>
-  <p class="hero-v2-sub">The DRAM price signal that predicted every U.S. recession since 1980 — now bifurcated for the AI era</p>
-  <p class="subtitle">A supply-side alternative to the folk indices of financial journalism — measuring the root, not the leaves.</p>
-  <p class="meta">
-    Khayyam Wakil &nbsp;&middot;&nbsp; The ARC Institute of Knowware &nbsp;&middot;&nbsp; Calgary, AB
-  </p>
-
-  <div class="shield-row">
-    <a href="https://fromknowware.github.io/bifurcation-memory-index/" target="_blank">
-      <img src="https://img.shields.io/badge/site-live-00d4aa?style=for-the-badge&logo=github&logoColor=white&labelColor=20232d" alt="site live">
-    </a>
-    <img src="https://img.shields.io/badge/version-2.0-ffb347?style=for-the-badge&logo=arxiv&logoColor=white&labelColor=20232d" alt="version 2">
-    <a href="https://github.com/fromknowware/bifurcation-memory-index/commits/main" target="_blank">
-      <img src="https://img.shields.io/github/last-commit/fromknowware/bifurcation-memory-index?style=for-the-badge&logo=github&logoColor=white&labelColor=20232d&color=6ed3ff" alt="last commit">
-    </a>
-    <img src="https://img.shields.io/badge/data-1980–2026-4a7cc7?style=for-the-badge&labelColor=20232d" alt="data coverage">
-    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
-      <img src="https://img.shields.io/badge/license-CC%20BY%204.0-8b949e?style=for-the-badge&logo=creativecommons&logoColor=white&labelColor=20232d" alt="CC BY 4.0">
-    </a>
+  <div class="hd-regime">
+    <span class="regime-key">Regime</span>
+    <span class="regime-val">BIFURCATED ↑</span>
+    <span class="regime-key" style="margin-left:12px;">RI 2026</span>
+    <div class="ri-inline">
+      <span class="ri-big">0.863</span>
+      <span class="ri-chg up">+0.517</span>
+    </div>
   </div>
-
-  <div class="pill-row">
-    <a class="pill pill-arxiv" href="Wakil_RamificationIndex_v2.pdf" target="_blank">Read Paper v2</a>
-    <a class="pill pill-dl"   href="Wakil_RamificationIndex_v2.pdf" download>Download PDF</a>
-    <a class="pill pill-github" href="https://github.com/fromknowware/bifurcation-memory-index" target="_blank">GitHub</a>
-    <a class="pill pill-dash"  href="dashboard.html" target="_blank">Bifurcated Dashboard ↗</a>
-    <a class="pill pill-v1"   href="https://fromknowware.github.io/memory-index/" target="_blank">Version 1 ↗</a>
-  </div>
+  <nav>
+    <button class="np active" data-sec="index">Index</button>
+    <button class="np" data-sec="signals">Signals</button>
+    <button class="np" data-sec="equities">Equities</button>
+    <button class="np" data-sec="learn">Learn</button>
+    <button class="np" data-sec="research">Research</button>
+    <button class="np" data-sec="feed">Feed</button>
+  </nav>
+  <div class="hd-ts" id="hd-ts">—</div>
 </header>
 
 <main>
 
-  <section>
-    <h2>Abstract</h2>
-    <hr class="abstract-rule">
-    <div class="abstract-box">
-      <p>Informal economic indicators — the Lipstick Index, the Hemline Index, the Men's Underwear Index, and the Buttered Popcorn Index — have circulated in financial journalism for nearly a century as heuristic substitutes for orthodox recession signals. Each is built on consumer-demand folk psychology, and each has failed structurally at least once in the past two decades.</p>
-      <p>We propose a supply-side alternative: the <strong>Ramification Index</strong>. The name carries three registers: the commodity (RAM), the economic ramifications of oligopoly pricing decisions cascading through the IT stack, and the algebraic ramification index <em>e</em>(𝔓|𝔭) from number theory — the formal invariant measuring how a prime ideal branches through a field extension.</p>
-      <p>This second version extends the original in seven ways. We bifurcate the index into Commodity (<em>R<sup>C</sup></em>) and AI (<em>R<sup>AI</sup></em>) sub-indices. We establish Granger causality from the index to quarterly GDP growth at 1&ndash;3 quarter lags. We document the 2025&ndash;2026 "RAMageddon" episode — the sharpest positive reading in 46 years, driven not by demand expansion but by oligopoly supply reallocation toward AI infrastructure — and define a new <strong>supply-side divergence regime</strong>. We assess photonic disruption risk. We provide robustness checks.</p>
-    </div>
-    <hr class="abstract-rule">
+<!-- ══ LIVE INDEX ══════════════════════════════════ -->
+<section id="sec-index" class="active">
+  <div class="sh">
+    <span class="sh-title">Ramification Index</span>
+    <div class="sh-rule"></div>
+    <span class="sh-meta">v2 · Annual · 2026 projection · ARC Institute of Knowware</span>
+  </div>
 
-    <div class="v2-box">
-      <h3>Seven new contributions in Version 2</h3>
-      <ol>
-        <li><strong>Bifurcated index</strong> — Commodity (<em>R<sup>C</sup></em>) and AI-HBM (<em>R<sup>AI</sup></em>) sub-indices capturing the structural decoupling since 2024</li>
-        <li><strong>Granger causality</strong> — <em>F</em> = 5.83, <em>p</em> = 0.004; RAM leads quarterly GDP at 1&ndash;3 quarter lags in a VAR(2)</li>
-        <li><strong>RAMageddon (2025&ndash;2026)</strong> — 90&ndash;95% quarter-over-quarter (QoQ) surge; 130&ndash;144% year-over-year; sharpest reading in 46-year series history</li>
-        <li><strong>Supply-side divergence regime</strong> — New interpretive state where positive index reading is contractionary, not expansionary</li>
-        <li><strong>Algebraic formalisation of bifurcation</strong> — HBM/DDR split as prime splitting in field extension <em>L</em>/<em>K</em>/ℚ</li>
-        <li><strong>Photonic disruption risk</strong> — Fiber-optic delay-line and co-packaged optics assessed; material disruption not before 2028&ndash;2030</li>
-        <li><strong>Robustness checks</strong> — Spot vs. contract prices, measurement window shifts, NAND flash placebo (3/6 recession coverage vs. 6/6 for DRAM)</li>
-      </ol>
+  <div class="top-strip">
+    <div class="strip-hero">
+      <div class="sh-lbl">Composite RI</div>
+      <div class="sh-num">0.863</div>
+      <div class="sh-delta">
+        <div class="sh-delta-row"><span class="sh-delta-key">YoY</span><span class="sh-delta-val up">+0.517</span></div>
+        <div class="sh-delta-row"><span class="sh-delta-key">vs 2024</span><span class="sh-delta-val up">+0.386</span></div>
+      </div>
     </div>
-  </section>
+    <div class="strip-chart">
+      <canvas id="chart-ri-mini"></canvas>
+    </div>
+    <div class="strip-regime">
+      <div class="sr-row">
+        <span class="sr-key">R<sub>C</sub> Commodity</span>
+        <span class="sr-val" style="color:var(--comm)">1.367</span>
+      </div>
+      <div class="sr-row">
+        <span class="sr-key">R<sub>AI</sub> / HBM</span>
+        <span class="sr-val" style="color:var(--hbm)">0.167</span>
+      </div>
+      <div class="sr-row">
+        <span class="sr-key">HBM Weight ω</span>
+        <span class="sr-val" style="color:var(--sub)">0.42</span>
+      </div>
+    </div>
+  </div>
 
-  <section>
-    <h2>Podcast</h2>
-    <div class="audio-player">
-      <button class="ap-btn" id="apPlayBtn" aria-label="Play">&#9654;</button>
-      <div class="ap-track">
-        <div class="ap-top">
-          <span class="ap-label">Podcast · Why DRAM Prices Predict the Global Economy</span>
-          <div class="ap-speeds">
-            <button class="ap-speed" data-rate="0.75">0.75×</button>
-            <button class="ap-speed on" data-rate="1">1×</button>
-            <button class="ap-speed" data-rate="1.5">1.5×</button>
-            <button class="ap-speed" data-rate="2">2×</button>
-          </div>
-        </div>
-        <div class="ap-bar-wrap" id="apBarWrap"><div class="ap-bar" id="apBar"></div></div>
-      </div>
-      <span class="ap-time" id="apTime">0:00 / --:--</span>
-      <audio id="apAudio" src="Why_DRAM_prices_predict_the_global_economy.mp3" preload="metadata"></audio>
+  <div class="idx-grid">
+    <div class="ig-cell">
+      <div class="ig-lbl">Composite RI</div>
+      <div class="ig-num" style="color:var(--ram)">0.863</div>
+      <div class="ig-sub">Highest since 1995</div>
     </div>
-    <div class="transcript-wrap">
-      <button class="transcript-toggle" id="transcriptToggle">▸ Transcript</button>
-      <div class="transcript-panel" id="transcriptPanel">
-        <div class="transcript-body" id="transcriptBody"></div>
-      </div>
+    <div class="ig-cell">
+      <div class="ig-lbl">R<sub>C</sub> Sub-Index</div>
+      <div class="ig-num" style="color:var(--comm)">1.367</div>
+      <div class="ig-sub">DDR4/5 · $18.56/GB</div>
     </div>
-  </section>
+    <div class="ig-cell">
+      <div class="ig-lbl">R<sub>AI</sub> Sub-Index</div>
+      <div class="ig-num" style="color:var(--hbm)">0.167</div>
+      <div class="ig-sub">HBM3E · $19.20/GB</div>
+    </div>
+    <div class="ig-cell">
+      <div class="ig-lbl">HBM Weight ω</div>
+      <div class="ig-num" style="color:var(--sub)">0.42</div>
+      <div class="ig-sub">Up from 0.30 (2025)</div>
+    </div>
+    <div class="ig-cell">
+      <div class="ig-lbl">GDP Signal</div>
+      <div class="ig-num" style="color:var(--red)">+1.5%</div>
+      <div class="ig-sub">Real YoY · 2026P</div>
+    </div>
+    <div class="ig-cell">
+      <div class="ig-lbl">S&amp;P 500 YTD</div>
+      <div class="ig-num" style="color:var(--red)">−1.5%</div>
+      <div class="ig-sub">2026 return to date</div>
+    </div>
+  </div>
 
-  <section>
-    <h2>Key Results</h2>
-    <div class="stats" id="bento">
-      <div class="stat-card sc-hero">
-        <div class="stat-tag">Recession coverage</div>
-        <div class="stat-num xl">6/6</div>
-        <div class="stat-label">Every NBER-dated U.S. recession signalled since 1980</div>
+  <div class="sh" style="margin-top:0;">
+    <span class="sh-title">Historical Series</span>
+    <div class="sh-rule"></div>
+    <span class="sh-meta">1980–2026 · NBER recessions shaded · bifurcated sub-indices from 2024</span>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="chart-ri-full"></canvas>
+  </div>
+
+  <div style="padding:14px 20px;border-top:1px solid var(--line);font-family:var(--mono);font-size:10px;color:var(--muted);line-height:1.8;">
+    <strong style="color:var(--sub)">Recession record:</strong> 6/6 NBER recessions since 1980 preceded by a Ramification Index downturn. &nbsp;|&nbsp;
+    <strong style="color:var(--sub)">Granger causality:</strong> F = 5.83, p &lt; 0.01 (RI→GDP). &nbsp;|&nbsp;
+    <strong style="color:var(--sub)">GDP correlation:</strong> r = 0.41 over 44 years. &nbsp;|&nbsp;
+    2026 reading is a projection; final value pending Dec 2026 DRAM pricing data.
+  </div>
+</section>
+
+<!-- ══ MARKET SIGNALS ═══════════════════════════════ -->
+<section id="sec-signals">
+  <div class="sh">
+    <span class="sh-title">Market Signals</span>
+    <div class="sh-rule"></div>
+    <span class="sh-meta">DRAM spot proxies · directional estimates · updated with index refresh</span>
+  </div>
+  <table id="sig-table">
+    <thead>
+      <tr>
+        <th style="width:220px">Product</th>
+        <th>Price / GB</th>
+        <th>YoY</th>
+        <th>QoQ</th>
+        <th style="width:140px">12-Month Trend</th>
+        <th>RI Relevance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <span class="type-dot" style="background:var(--comm)"></span>
+          <span class="sig-name">DDR5 Consumer/Server</span><br>
+          <span class="sig-type-label" style="margin-left:14px;">Commodity DRAM</span>
+        </td>
+        <td class="sig-price-cell">$18.56</td>
+        <td class="sig-yoy up">+293%</td>
+        <td class="sig-yoy up">+61%</td>
+        <td class="sig-spark-cell"><canvas id="sk-ddr5" width="120" height="32"></canvas></td>
+        <td style="color:var(--sub);font-size:11px;">Drives R<sub>C</sub> sub-index directly</td>
+      </tr>
+      <tr>
+        <td>
+          <span class="type-dot" style="background:var(--comm);opacity:0.6"></span>
+          <span class="sig-name">DDR4 Legacy</span><br>
+          <span class="sig-type-label" style="margin-left:14px;">Commodity DRAM</span>
+        </td>
+        <td class="sig-price-cell">$14.20</td>
+        <td class="sig-yoy up">+188%</td>
+        <td class="sig-yoy up">+44%</td>
+        <td class="sig-spark-cell"><canvas id="sk-ddr4" width="120" height="32"></canvas></td>
+        <td style="color:var(--sub);font-size:11px;">Weights into R<sub>C</sub> alongside DDR5</td>
+      </tr>
+      <tr>
+        <td>
+          <span class="type-dot" style="background:var(--hbm)"></span>
+          <span class="sig-name">HBM3E AI/Datacenter</span><br>
+          <span class="sig-type-label" style="margin-left:14px;">High-Bandwidth Memory</span>
+        </td>
+        <td class="sig-price-cell" style="color:var(--hbm)">$19.20</td>
+        <td class="sig-yoy up">+18%</td>
+        <td class="sig-yoy up">+4%</td>
+        <td class="sig-spark-cell"><canvas id="sk-hbm" width="120" height="32"></canvas></td>
+        <td style="color:var(--sub);font-size:11px;">Sole input to R<sub>AI</sub> sub-index</td>
+      </tr>
+      <tr>
+        <td>
+          <span class="type-dot" style="background:var(--hemline)"></span>
+          <span class="sig-name">LPDDR5X Mobile</span><br>
+          <span class="sig-type-label" style="margin-left:14px;">Low-Power DRAM</span>
+        </td>
+        <td class="sig-price-cell">$9.85</td>
+        <td class="sig-yoy up">+142%</td>
+        <td class="sig-yoy up">+29%</td>
+        <td class="sig-spark-cell"><canvas id="sk-lpddr" width="120" height="32"></canvas></td>
+        <td style="color:var(--sub);font-size:11px;">Mobile proxy; feeds downstream signal</td>
+      </tr>
+      <tr>
+        <td>
+          <span class="type-dot" style="background:var(--mui)"></span>
+          <span class="sig-name">DDR5 Server RDIMM</span><br>
+          <span class="sig-type-label" style="margin-left:14px;">Server DRAM</span>
+        </td>
+        <td class="sig-price-cell">$22.40</td>
+        <td class="sig-yoy up">+217%</td>
+        <td class="sig-yoy up">+52%</td>
+        <td class="sig-spark-cell"><canvas id="sk-srv" width="120" height="32"></canvas></td>
+        <td style="color:var(--sub);font-size:11px;">Enterprise leading indicator</td>
+      </tr>
+      <tr>
+        <td>
+          <span class="type-dot" style="background:var(--muted)"></span>
+          <span class="sig-name">NAND Flash MLC/TLC</span><br>
+          <span class="sig-type-label" style="margin-left:14px;">Storage (correlated)</span>
+        </td>
+        <td class="sig-price-cell" style="color:var(--sub)">$0.082</td>
+        <td class="sig-yoy up">+38%</td>
+        <td class="sig-yoy up">+9%</td>
+        <td class="sig-spark-cell"><canvas id="sk-nand" width="120" height="32"></canvas></td>
+        <td style="color:var(--sub);font-size:11px;">Storage cycle co-moves with DRAM</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="data-note">
+    Prices are proxy estimates derived from Micron/Samsung/SK Hynix earnings guidance, DRAMeXchange trend reports, and Amazon spot pricing. Exact contract prices are proprietary. These figures track directional movement; the commodity spike (DDR4/5 +188–293%) vs moderated HBM (+18%) defines the 2026 bifurcation.
+  </div>
+</section>
+
+<!-- ══ EQUITIES ══════════════════════════════════════ -->
+<section id="sec-equities">
+  <div class="sh">
+    <span class="sh-title">Equities</span>
+    <div class="sh-rule"></div>
+    <span class="sh-meta">10-stock RAM ecosystem · refreshed every 15 min via GitHub Actions · KRX prices in KRW</span>
+  </div>
+  <div id="eq-wrap">
+    <div style="padding:20px;font-family:var(--mono);font-size:11px;color:var(--muted);">Loading…</div>
+  </div>
+  <div class="eq-note">
+    <strong style="color:var(--sub)">Tier logic:</strong>
+    <span style="color:var(--ram)">● Manufacturers</span> (Micron, Samsung, SK Hynix) — DRAM prices move here first; direct RI input. &nbsp;·&nbsp;
+    <span style="color:var(--hbm)">● HBM Demand</span> (Nvidia, TSMC, AMD) — GPU allocation decisions set the HBM ceiling; drive R<sub>AI</sub>. &nbsp;·&nbsp;
+    <span style="color:var(--hemline)">● Downstream</span> (Intel, Qualcomm, WD, Seagate) — absorb RAM cost 1–2 quarters later; lag indicators.
+    When Tier 1 and Tier 2 diverge, the RI bifurcates.
+  </div>
+</section>
+
+<!-- ══ LEARN ══════════════════════════════════════════ -->
+<section id="sec-learn">
+  <div class="sh">
+    <span class="sh-title">Learn</span>
+    <div class="sh-rule"></div>
+    <span class="sh-meta">The RAM ecosystem from first principles</span>
+  </div>
+  <div class="learn-layout">
+    <div class="learn-nav" id="learn-nav">
+      <div class="ln-item active" data-learn="0">
+        <div><div class="ln-tag primer">Primer</div><div class="ln-title">What is DRAM and why does its price move?</div></div>
       </div>
-      <div class="stat-card sc-r1">
-        <div class="stat-tag">GDP correlation</div>
-        <div class="stat-num md">r = 0.41</div>
-        <div class="stat-label">Pearson r vs real GDP growth</div>
+      <div class="ln-item" data-learn="1">
+        <div><div class="ln-tag mechanism">Mechanism</div><div class="ln-title">Why RAM prices predict recessions</div></div>
       </div>
-      <div class="stat-card sc-lead">
-        <div class="stat-tag">Lead time</div>
-        <div class="stat-num md">1–3Q</div>
-        <div class="stat-label">Median quarters ahead of NBER peak</div>
+      <div class="ln-item" data-learn="2">
+        <div><div class="ln-tag mechanism">Mechanism</div><div class="ln-title">The HBM supercycle and AI's RAM appetite</div></div>
       </div>
-      <div class="stat-card hbm-card sc-gran">
-        <div class="stat-tag">Granger causality — VAR(2) 1985–2024</div>
-        <div class="stat-num lg hbm">F = 5.83 <span style="font-size:0.75rem;font-weight:600;color:var(--muted)">p = 0.004</span></div>
-        <div class="stat-label">RAM → GDP · GDP → RAM fails (F = 2.14, p = 0.121)</div>
+      <div class="ln-item" data-learn="3">
+        <div><div class="ln-tag advanced">Advanced</div><div class="ln-title">RAMageddon 2026: the convergence event</div></div>
       </div>
-      <div class="stat-card hbm-card sc-hbm1">
-        <div class="stat-tag">Closest rival</div>
-        <div class="stat-num md hbm">3/6</div>
-        <div class="stat-label">Hemline, Buttered Popcorn, and NAND flash placebo — all capped at 3/6</div>
+      <div class="ln-item" data-learn="4">
+        <div><div class="ln-tag methodology">Methodology</div><div class="ln-title">How to read the Ramification Index</div></div>
       </div>
-      <div class="stat-card hbm-card sc-rama">
-        <div class="rama-block">
-          <div class="stat-tag">RAMageddon 2025–2026</div>
-          <div class="stat-num md hbm">+86%</div>
-          <div class="stat-label">Composite R<sub>t</sub> — 46-year series max</div>
-        </div>
-        <div class="rama-divider"></div>
-        <div class="rama-block">
-          <div class="stat-tag">YoY composite ASP</div>
-          <div class="stat-num md hbm">+137%</div>
-          <div class="stat-label">130–144% range · sharpest in series history</div>
-        </div>
-        <div class="rama-divider"></div>
-        <div class="rama-block">
-          <div class="stat-tag">HBM revenue share 2026</div>
-          <div class="stat-num md hbm">42%</div>
-          <div class="stat-label">Up from 18% in 2024 · parity by 2028</div>
-        </div>
-        <div class="rama-divider"></div>
-        <div class="rama-block">
-          <div class="stat-tag">Supply-side divergence</div>
-          <div class="stat-num md hbm">R<sup>C</sup> ≫ R<sup>AI</sup></div>
-          <div class="stat-label">R<sup>C</sup> = +1.37 · R<sup>AI</sup> = +0.17</div>
-        </div>
+      <div class="ln-item" data-learn="5">
+        <div><div class="ln-tag advanced">Advanced</div><div class="ln-title">The semiconductor supply chain: who makes what</div></div>
       </div>
     </div>
-  </section>
+    <div class="learn-body" id="learn-body"></div>
+  </div>
+</section>
 
-  <!-- BIFURCATED CHART -->
-  <section id="bifurcation">
-    <h2 class="h2-hbm">The Bifurcated Index — Commodity vs. HBM/AI</h2>
-    <div class="bifur-chart-wrap">
-      <div class="chart-bar">
-        <div class="chart-legend">
-          <span class="legend-item"><span class="leg-line leg-ram"></span> Composite R<sub>t</sub></span>
-          <span class="legend-item"><span class="leg-line" style="background:#ffd580"></span> Commodity R<sup>C</sup></span>
-          <span class="legend-item"><span class="leg-line leg-hbm"></span> AI/HBM R<sup>AI</sup></span>
-          <span class="legend-item"><span class="leg-dot" style="background:rgba(248,113,113,0.55);width:10px;height:10px;border-radius:2px"></span> NBER recession</span>
-        </div>
-        <a class="open-full" href="dashboard.html" target="_blank">Full dashboard ↗</a>
+<!-- ══ RESEARCH ═══════════════════════════════════════ -->
+<section id="sec-research">
+  <div class="sh">
+    <span class="sh-title">Research</span>
+    <div class="sh-rule"></div>
+    <span class="sh-meta">The intellectual foundation</span>
+  </div>
+  <div class="research-layout">
+    <div class="research-main">
+      <div class="rc-type">Working Paper · The ARC Institute of Knowware</div>
+      <div class="rc-h">The Ramification Index v2: The Bifurcated Index</div>
+      <div class="rc-byline">Khayyam Wakil · 2025 · 44 years of data (1980–2026)</div>
+      <div class="rc-abstract">A supply-side macroeconomic indicator built on DRAM prices. The v2 introduces bifurcated sub-indices separating commodity DRAM from AI/HBM markets, documents the 2025–2026 RAMageddon event, and demonstrates Granger causality from the RAM index to real GDP growth. 6 of 6 NBER recessions covered; correlation r = 0.41 with real GDP YoY.</div>
+      <div class="rc-stats-row">
+        <div class="rc-stat"><div class="rc-stat-num">6/6</div><div class="rc-stat-lbl">NBER Recessions</div></div>
+        <div class="rc-stat"><div class="rc-stat-num">r = 0.41</div><div class="rc-stat-lbl">GDP Correlation</div></div>
+        <div class="rc-stat"><div class="rc-stat-num" style="color:var(--hbm)">F = 5.83</div><div class="rc-stat-lbl">Granger F-stat</div></div>
+        <div class="rc-stat"><div class="rc-stat-num">44 yrs</div><div class="rc-stat-lbl">Time Series</div></div>
+        <div class="rc-stat"><div class="rc-stat-num" style="color:var(--red)">p &lt;.01</div><div class="rc-stat-lbl">Significance</div></div>
       </div>
-      <canvas id="bifurChart" height="260"></canvas>
-    </div>
-    <p style="font-size:0.73rem;color:var(--muted);margin-top:0.6rem;">
-      Year-on-year DRAM price change (log first-difference of average selling price), composite index and sub-indices. Bifurcated series begins 2024.
-      The 2026 reading is the highest in the 46-year history of the composite index —
-      but the <em>source</em> is supply-side reallocation toward AI, not demand-driven expansion.
-    </p>
-  </section>
-
-  <section>
-    <h2>Recession Scorecard</h2>
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr><th>Index</th><th>1980</th><th>1981–82</th><th>1990–91</th><th>2001</th><th>2008–09</th><th>2020</th><th>Score</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Ramification Index</td>
-            <td class="s">S</td><td class="s">S</td><td class="s">S</td><td class="s">S</td><td class="s">S</td><td class="s">S</td>
-            <td class="score-best">6 / 6</td>
-          </tr>
-          <tr>
-            <td>Buttered Popcorn</td>
-            <td class="ns">NS</td><td class="s">S</td><td class="ns">NS</td><td class="s">S</td><td class="s">S</td><td class="as">AS</td>
-            <td>3 / 6</td>
-          </tr>
-          <tr>
-            <td>Hemline (lagged)</td>
-            <td class="ns">NS</td><td class="s">S</td><td class="s">S</td><td class="ns">NS</td><td class="s">S</td><td class="ns">NS</td>
-            <td>3 / 6</td>
-          </tr>
-          <tr>
-            <td>Lipstick</td>
-            <td class="na">n/a</td><td class="na">n/a</td><td class="na">n/a</td><td class="s">S</td><td class="as">AS</td><td class="as">AS</td>
-            <td>1 / 3</td>
-          </tr>
-          <tr>
-            <td>Men's Underwear</td>
-            <td class="na">n/a</td><td class="na">n/a</td><td class="na">n/a</td><td class="na">n/a</td><td class="s">S</td><td class="as">AS</td>
-            <td>1 / 3</td>
-          </tr>
-          <tr>
-            <td>NAND Flash (placebo)</td>
-            <td class="ns">NS</td><td class="ns">NS</td><td class="s">S</td><td class="s">S</td><td class="s">S</td><td class="ns">NS</td>
-            <td>3 / 6</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <p style="font-size:0.73rem;color:var(--muted);margin-top:0.6rem;">
-      S = Signalled &nbsp;&middot;&nbsp; NS = No signal &nbsp;&middot;&nbsp; AS = Anti-signal (moved in the wrong direction) &nbsp;&middot;&nbsp; n/a = series unavailable before that period.
-      NBER = National Bureau of Economic Research, the official U.S. recession-dating authority.
-      The NAND flash placebo confirms the signal is specific to DRAM's oligopoly structure, not semiconductor pricing in general.
-    </p>
-  </section>
-
-  <!-- GRANGER -->
-  <section>
-    <h2 class="h2-hbm">Granger Causality — 1985–2024</h2>
-    <p style="font-size:0.78rem;color:var(--muted);margin-bottom:0.8rem;">VAR(2) specification, 1985Q1–2024Q4. Granger causality asks: does knowing the history of X improve forecasts of Y, beyond Y's own history?</p>
-    <div class="table-wrap granger-table">
-      <table>
-        <thead>
-          <tr><th>Null hypothesis</th><th>F-statistic</th><th>p-value</th><th>Decision</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><em>R<sub>t</sub></em> does not Granger-cause <em>y<sub>t</sub></em></td>
-            <td>5.83</td>
-            <td>0.004</td>
-            <td class="granger-reject">Reject at 1%</td>
-          </tr>
-          <tr>
-            <td><em>y<sub>t</sub></em> does not Granger-cause <em>R<sub>t</sub></em></td>
-            <td>2.14</td>
-            <td>0.121</td>
-            <td class="granger-fail">Do not reject</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <p style="font-size:0.83rem;color:var(--text);margin-top:0.9rem;">
-      The causal direction runs <strong>from DRAM pricing to the macroeconomy</strong>, not the reverse. GDP growth does not Granger-cause the Ramification Index at conventional significance levels. The result is robust to lag orders <em>p</em> ∈ {1, 2, 3, 4}, COVID quarter exclusion, the Toda-Yamamoto procedure, and substitution of industrial production for GDP.
-    </p>
-    <p style="font-size:0.83rem;color:var(--muted)">
-      An impulse response analysis (a technique for tracing how a shock to one variable propagates to another over time) shows a one-standard-deviation positive shock to <em>R<sub>t</sub></em> produces a statistically significant increase in GDP growth 1–3 quarters later, peaking at quarter 2. The 90% confidence band excludes zero through quarter 3.
-    </p>
-  </section>
-
-  <!-- RAMAGEDDON -->
-  <section>
-    <h2 class="h2-hbm">RAMageddon — The 2025–2026 Episode</h2>
-    <p style="font-size:0.86rem;margin-bottom:1.1rem;">
-      The sharpest positive Ramification Index reading in 46 years. Unlike the 2016–18 supercycle, which coincided with healthy expansion, this episode is occurring against slowing GDP growth, rising unemployment, and weakening leading indicators — defining the <strong style="color:var(--hbm)">supply-side divergence regime</strong>: oligopoly reallocation toward AI creates price inflation whose downstream ramifications are contractionary.
-    </p>
-    <div class="timeline">
-      <div class="tl-item">
-        <div class="tl-date">October 2025</div>
-        <div class="tl-text">OpenAI secures an estimated <strong>40% of global DRAM production</strong> for long-term AI infrastructure.</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-date">Late 2025</div>
-        <div class="tl-text">Micron announces <strong>full withdrawal from consumer Crucial RAM and SSD</strong> to focus exclusively on AI and enterprise buyers.</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-date">November 2025</div>
-        <div class="tl-text">Japanese electronics retailers (Tsukumo, Sofmap) <strong>limit purchases</strong> of standalone RAM and SSDs to prevent panic stockpiling.</div>
-      </div>
-      <div class="tl-item hot">
-        <div class="tl-date">December 2025</div>
-        <div class="tl-text">DDR5 chip prices <strong>quadruple: $6.84 → $27.20</strong> in three months.</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-date">January 2026</div>
-        <div class="tl-text">Korean media reports US tech executives staying near Samsung and SK Hynix fabs — industry dubs them <strong>"DRAM beggars."</strong> Microsoft executives fly to Seoul; one reportedly storms out after learning of allocation constraints.</div>
-      </div>
-      <div class="tl-item hot">
-        <div class="tl-date">Q1 2026</div>
-        <div class="tl-text">TrendForce: DRAM contract prices <strong>+90–95% QoQ</strong>. PC DRAM doubles QoQ. Server DRAM +60% QoQ. Apple pays a <strong>230% premium</strong> for LPDDR5X in iPhone 17 Pro.</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-date">Q1 2026</div>
-        <div class="tl-text"><strong>Legacy price inversion</strong>: DDR4 spot prices ($2.10/Gb) exceed HBM3e contract prices ($1.70/Gb). Older memory now costs more than cutting-edge memory.</div>
-      </div>
-      <div class="tl-item hot">
-        <div class="tl-date">Q2 2026</div>
-        <div class="tl-text">TrendForce projects further <strong>+58–63% QoQ</strong> in conventional DRAM. Conference Board LEI −0.6% in March. IDC projects PC market −4.9–8.9%; smartphones −2.9–5.2%.</div>
+      <div class="rc-btns">
+        <a class="rc-btn primary" href="Wakil_RamificationIndex_v2.pdf" target="_blank">↓ Download PDF</a>
+        <a class="rc-btn" href="paper.html">Read on web →</a>
+        <a class="rc-btn" href="dashboard.html">Interactive dashboard →</a>
       </div>
     </div>
-  </section>
-
-  <!-- INTERPRETIVE FRAMEWORK -->
-  <section>
-    <h2>Interpretive Framework — v2 Update</h2>
-    <div class="interp-bento">
-      <div class="ic ic-rec">
-        <div class="ic-signal neg">R<sub>t</sub> ≪ 0</div>
-        <div class="ic-verdict" style="color:var(--red)">Recession signal</div>
-        <div class="ic-desc">Demand-side contraction. DRAM producers cutting prices ahead of a slowdown — 1–3 quarter lead on NBER turning points.</div>
+    <div class="research-sidebar">
+      <div class="rs-block">
+        <div class="rs-h">Audio Companion</div>
+        <div style="font-size:12px;color:var(--sub);line-height:1.65;margin-bottom:10px;">Why DRAM Prices Predict the Global Economy — ~18 min conversational walkthrough</div>
+        <audio controls src="Why_DRAM_prices_predict_the_global_economy.mp3"></audio>
       </div>
-      <div class="ic ic-eq">
-        <div class="ic-signal neu">R<sub>t</sub> ≈ 0</div>
-        <div class="ic-verdict" style="color:var(--muted)">Equilibrium</div>
-        <div class="ic-desc">No directional signal from the DRAM market. Hold.</div>
-      </div>
-      <div class="ic ic-exp">
-        <div class="ic-signal pos">R<sub>t</sub> ≫ 0</div>
-        <div class="ic-verdict" style="color:var(--green)">Expansion signal</div>
-        <div class="ic-desc">Healthy demand growth. IT capex expanding; downstream macro follows.</div>
-      </div>
-      <div class="ic ic-div">
-        <div class="ic-badge new">New in v2</div>
-        <div class="ic-signal div">R<sup>C</sup><sub>t</sub> ≫ 0 + macro weakening</div>
-        <div class="ic-verdict" style="color:var(--hbm)">Supply-side divergence</div>
-        <div class="ic-desc">Positive commodity reading is <em>contractionary</em>, not expansionary. Oligopoly reallocation toward AI/HBM raises bill-of-materials costs across the IT stack, suppresses consumer electronics, squeezes margins. Sign is positive; economic meaning is stagflationary.<br><br>Identifying this regime requires both sub-index divergence (<em>R</em><sup>C</sup> ≫ <em>R</em><sup>AI</sup>) and weakening macro indicators. Composite <em>R<sub>t</sub></em> alone cannot make the distinction.</div>
+      <div class="rs-block">
+        <div class="rs-h">Key Findings</div>
+        <div class="rs-item"><span class="rs-item-lbl">Recession signal</span><span class="rs-item-val">6/6 NBER (1980–)</span></div>
+        <div class="rs-item"><span class="rs-item-lbl">GDP correlation</span><span class="rs-item-val">r = 0.41</span></div>
+        <div class="rs-item"><span class="rs-item-lbl">Granger F-stat</span><span class="rs-item-val" style="color:var(--hbm)">5.83 (p&lt;.01)</span></div>
+        <div class="rs-item"><span class="rs-item-lbl">2026 RI reading</span><span class="rs-item-val" style="color:var(--ram)">0.863</span></div>
+        <div class="rs-item"><span class="rs-item-lbl">Bifurcation gap</span><span class="rs-item-val">R_C − R_AI = 1.20</span></div>
       </div>
     </div>
-    <p style="font-size:0.82rem;color:var(--muted);margin-top:0.9rem;">
-      This framework is what Version 2 adds to the original index: not just a number, but a regime — the ability to distinguish demand-driven expansion from supply-driven cost-push.
-    </p>
-  </section>
+  </div>
+</section>
 
-  <!-- WHY RAMIFICATION -->
-  <section>
-    <h2>Why "Ramification"?</h2>
-    <div class="triple-grid">
-      <div class="triple-card">
-        <span class="triple-icon">💾</span>
-        <h3>RAM</h3>
-        <p>Dynamic random-access memory — the commodity whose average selling price forms the index. The material gives the index its name.</p>
+<!-- ══ SIGNAL FEED ════════════════════════════════════ -->
+<section id="sec-feed">
+  <div class="sh">
+    <span class="sh-title">Signal Feed</span>
+    <div class="sh-rule"></div>
+    <span class="sh-meta">Curated events relevant to the RAM cycle · editorially annotated</span>
+  </div>
+  <div class="feed-layout">
+    <div class="feed-list">
+      <div class="fi">
+        <div class="fi-top"><span class="fi-date">2026-06-12</span><span class="fi-tag supply">SUPPLY</span></div>
+        <div class="fi-hl">Micron Q3 FY2026 guidance: DDR5 ASP up 40% QoQ; capacity allocation shifting further to HBM3E</div>
+        <div class="fi-ann">Confirms the commodity super-spike is supply-driven, not demand-led. <em>RI implication:</em> R<sub>C</sub> continues to rise through Q3; composite RI likely holds above 0.8 through year-end if HBM conversion persists.</div>
       </div>
-      <div class="triple-card">
-        <span class="triple-icon">🌐</span>
-        <h3>Ramification (colloquial)</h3>
-        <p>The downstream consequences of a price shock at the oligopoly level, branching outward through every layer of the IT stack into the macroeconomy.</p>
+      <div class="fi">
+        <div class="fi-top"><span class="fi-date">2026-06-04</span><span class="fi-tag demand">DEMAND</span></div>
+        <div class="fi-hl">Nvidia Blackwell GB200 NVL72 rack demand accelerating; SK Hynix locked into HBM3E supply through Q4</div>
+        <div class="fi-ann">HBM allocation lock-in removes capacity from commodity DRAM for another 6 months. <em>RI implication:</em> Bifurcation gap widens — R<sub>AI</sub> remains capped while R<sub>C</sub> spikes. Weight ω may revise to 0.45 in H2 update.</div>
       </div>
-      <div class="triple-card hbm-card">
-        <span class="triple-icon">𝔓</span>
-        <h3>Ramification index <em>e</em>(𝔓|𝔭)</h3>
-        <p>The algebraic number theory invariant measuring how a prime ideal branches in a field extension. The bifurcation of HBM from commodity DDR corresponds exactly to a prime splitting further in <em>L/K/</em>ℚ — where <em>e'</em><sub>HBM</sub> &gt; <em>e'</em><sub>DDR</sub>.</p>
+      <div class="fi">
+        <div class="fi-top"><span class="fi-date">2026-05-28</span><span class="fi-tag macro">MACRO</span></div>
+        <div class="fi-hl">BEA revises Q1 2026 GDP to +0.8% annualized — below consensus of +1.4%</div>
+        <div class="fi-ann">Growth deceleration while DRAM prices surge is the textbook RAMageddon condition. <em>RI implication:</em> Dual signal (RI high + GDP low) matches 4 of 6 historic recession precursors. Not a recession call — a watch condition.</div>
+      </div>
+      <div class="fi">
+        <div class="fi-top"><span class="fi-date">2026-05-15</span><span class="fi-tag fab">FAB</span></div>
+        <div class="fi-hl">Samsung delays 1c-nm DRAM ramp by 2 quarters citing yield challenges at Pyeongtaek P4 fab</div>
+        <div class="fi-ann">New capacity delayed = tighter supply for longer. <em>RI implication:</em> The commodity spike extends; downside risk to our base-case RI decline in 2027.</div>
+      </div>
+      <div class="fi">
+        <div class="fi-top"><span class="fi-date">2026-05-02</span><span class="fi-tag earnings">EARNINGS</span></div>
+        <div class="fi-hl">SK Hynix Q1 2026: HBM revenue +340% YoY; operating margin 42% — best in company history</div>
+        <div class="fi-ann">HBM economics transformational for SK Hynix. <em>RI implication:</em> Validates the v2 bifurcation thesis — HBM is now a structurally distinct market with its own pricing dynamics, no longer correlated to commodity DRAM.</div>
+      </div>
+      <div class="fi">
+        <div class="fi-top"><span class="fi-date">2026-04-18</span><span class="fi-tag supply">SUPPLY</span></div>
+        <div class="fi-hl">PC DRAM spot prices hit 7-year high; module prices up 180% from October 2024 lows</div>
+        <div class="fi-ann">Consumer market absorbs the commodity shock. <em>RI implication:</em> Downstream stocks (INTC, QCOM) will see BOM pressure in Q2–Q3 earnings.</div>
+      </div>
+      <div class="fi">
+        <div class="fi-top"><span class="fi-date">2026-03-22</span><span class="fi-tag fab">FAB</span></div>
+        <div class="fi-hl">CHIPS Act: Micron breaks ground on New York fab — 40,000 jobs, $50B investment over 20 years</div>
+        <div class="fi-ann">Zero near-term supply relief. <em>RI implication:</em> Fabs take 3–4 years to produce wafers. This is a 2029+ story; important for MU's strategic premium and the RI's long-run trajectory.</div>
       </div>
     </div>
-  </section>
-
-  <!-- DASHBOARD EMBED -->
-  <section id="dashboard">
-    <h2 class="h2-hbm">Bifurcated Index Dashboard</h2>
-    <div class="dash-wrap">
-      <div class="dash-bar">
-        <div class="dash-bar-left">
-          <span class="dot dot-ram"></span>
-          <span class="dot dot-hbm"></span>
-          <span class="dash-label">Composite · Commodity · HBM/AI · Folk Indices · 1980–2026</span>
-        </div>
-        <a class="open-full" href="dashboard.html" target="_blank">Open full ↗</a>
+    <div class="feed-aside">
+      <div class="fa-block">
+        <div class="fa-h">Earnings Calendar</div>
+        <div class="fa-row"><span class="fa-key">SK Hynix Q2</span><span class="fa-val">Jul 24, 2026</span></div>
+        <div class="fa-row"><span class="fa-key">GDP Advance Q2</span><span class="fa-val">Jul 30, 2026</span></div>
+        <div class="fa-row"><span class="fa-key">FOMC</span><span class="fa-val">Jul 29–30</span></div>
+        <div class="fa-row"><span class="fa-key">NVDA Earnings</span><span class="fa-val">Aug 27, 2026</span></div>
+        <div class="fa-row"><span class="fa-key">MU Earnings</span><span class="fa-val">Sep 25, 2026</span></div>
+        <div class="fa-row"><span class="fa-key">Samsung Q3</span><span class="fa-val">Oct 8, 2026</span></div>
       </div>
-      <iframe src="dashboard.html" title="Bifurcated Ramification Index Dashboard" loading="lazy"></iframe>
+      <div class="fa-block">
+        <div class="fa-h">Key Metrics</div>
+        <div class="fa-row"><span class="fa-key">RI 2026</span><span class="fa-val up">0.863</span></div>
+        <div class="fa-row"><span class="fa-key">DDR5 $/GB</span><span class="fa-val up">$18.56</span></div>
+        <div class="fa-row"><span class="fa-key">HBM3E $/GB</span><span class="fa-val up">$19.20</span></div>
+        <div class="fa-row"><span class="fa-key">GDP 2026P</span><span class="fa-val dn">+1.5%</span></div>
+        <div class="fa-row"><span class="fa-key">S&amp;P 500 YTD</span><span class="fa-val dn">−1.5%</span></div>
+        <div class="fa-row"><span class="fa-key">HBM Weight ω</span><span class="fa-val">0.42</span></div>
+      </div>
+      <div class="fa-block">
+        <div class="fa-h">Watch Conditions</div>
+        <div class="watch-item"><span class="watch-icon" style="color:var(--yellow)">▲</span><span>GDP two consecutive quarters below +1.5% → recession watch</span></div>
+        <div class="watch-item"><span class="watch-icon" style="color:var(--yellow)">▲</span><span>RI above 1.0 → historical recession precursor zone</span></div>
+        <div class="watch-item"><span class="watch-icon" style="color:var(--green)">→</span><span>Samsung 1c-nm ramp → supply relief signal</span></div>
+        <div class="watch-item"><span class="watch-icon" style="color:var(--green)">→</span><span>HBM ω &gt; 0.50 → bifurcation intensifies</span></div>
+      </div>
     </div>
-  </section>
-
-  <!-- CITE -->
-  <section>
-    <h2>Citation</h2>
-    <div class="cite-box"><span class="k">@unpublished</span>{Wakil2026Ramification,
-  <span class="k">author</span>  = {<span class="v">Wakil, Khayyam</span>},
-  <span class="k">title</span>   = {<span class="v">The Ramification Index: RAM Prices, Oligopoly Cycles,
-            and the Downstream Consequences of Semiconductor
-            Pricing as an Economic Signal</span>},
-  <span class="k">note</span>    = {<span class="v">Version 2: The Bifurcated Index, Granger Causality,
-            and the 2025--2026 Supply-Side Divergence</span>},
-  <span class="k">year</span>    = {<span class="v">2026</span>},
-  <span class="k">month</span>   = {<span class="v">May</span>},
-  <span class="k">institution</span> = {<span class="v">The ARC Institute of Knowware</span>},
-  <span class="k">url</span>     = {<span class="v">https://fromknowware.github.io/bifurcation-memory-index/</span>}
-}</div>
-  </section>
+  </div>
+</section>
 
 </main>
 
-<footer>
-  <p>
-    &copy; 2026 Khayyam Wakil &nbsp;&middot;&nbsp; The ARC Institute of Knowware &nbsp;&middot;&nbsp; Calgary, AB
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    Data: <a href="https://jcmit.net/memoryprice.htm" target="_blank">McCallum</a> &nbsp;&middot;&nbsp; <a href="https://www.trendforce.com/" target="_blank">TrendForce</a> &nbsp;&middot;&nbsp; <a href="https://www.nber.org/research/business-cycle-dating" target="_blank">NBER</a> &nbsp;&middot;&nbsp; <a href="https://fred.stlouisfed.org/" target="_blank">FRED</a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://github.com/fromknowware/bifurcation-memory-index">GitHub</a>
-  </p>
-  <p style="margin-top:0.4rem;">
-    <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://fromknowware.github.io/memory-index/" class="v1-link">Version 1 site</a>
-  </p>
-</footer>
-
 <script>
-/* ── audio player ────────────────────────────────────────── */
-(function () {
-  var audio = document.getElementById('apAudio');
-  var btn   = document.getElementById('apPlayBtn');
-  var bar   = document.getElementById('apBar');
-  var wrap  = document.getElementById('apBarWrap');
-  var time  = document.getElementById('apTime');
+// ── INDEX DATA ────────────────────────────────────────────
+const RI = [
+  {y:1980,v:null,r:1},{y:1981,v:-0.368,r:1},{y:1982,v:-0.794,r:1},
+  {y:1983,v:-1.085,r:0},{y:1984,v:-0.418,r:0},{y:1985,v:-0.158,r:0},
+  {y:1986,v:-0.772,r:0},{y:1987,v:-0.291,r:0},{y:1988,v:-0.217,r:0},
+  {y:1989,v:-0.383,r:0},{y:1990,v:-0.441,r:1},{y:1991,v:-0.113,r:1},
+  {y:1992,v:-0.074,r:0},{y:1993,v:-0.137,r:0},{y:1994,v:-0.061,r:0},
+  {y:1995,v:-0.064,r:0},{y:1996,v:-1.470,r:0},{y:1997,v:-0.520,r:0},
+  {y:1998,v:-1.089,r:0},{y:1999,v:1.029,r:0},{y:2000,v:0.793,r:0},
+  {y:2001,v:-1.297,r:1},{y:2002,v:-1.218,r:0},{y:2003,v:0.025,r:0},
+  {y:2004,v:0.408,r:0},{y:2005,v:-0.097,r:0},{y:2006,v:0.046,r:0},
+  {y:2007,v:-0.735,r:0},{y:2008,v:-1.285,r:1},{y:2009,v:0.593,r:1},
+  {y:2010,v:0.464,r:0},{y:2011,v:-0.588,r:0},{y:2012,v:-0.202,r:0},
+  {y:2013,v:0.500,r:0},{y:2014,v:0.222,r:0},{y:2015,v:-0.511,r:0},
+  {y:2016,v:0.318,r:0},{y:2017,v:0.569,r:0},{y:2018,v:0.436,r:0},
+  {y:2019,v:-0.851,r:0},{y:2020,v:0.000,r:1},{y:2021,v:0.028,r:0},
+  {y:2022,v:-0.182,r:0},{y:2023,v:-0.511,r:0},
+  {y:2024,v:0.477,rc:0.524,rai:0.262,r:0},
+  {y:2025,v:0.346,rc:0.421,rai:0.170,r:0},
+  {y:2026,v:0.863,rc:1.367,rai:0.167,r:0}
+];
 
-  function fmt(s) {
-    if (!isFinite(s)) return '--:--';
-    var m = Math.floor(s / 60), ss = Math.floor(s % 60);
-    return m + ':' + (ss < 10 ? '0' : '') + ss;
-  }
+function drawChart(id, height, showFull){
+  const el = document.getElementById(id);
+  if(!el) return;
+  const dpr = window.devicePixelRatio||1;
+  const W = el.offsetWidth; const H = height||120;
+  el.width = W*dpr; el.height = H*dpr;
+  const c = el.getContext('2d');
+  c.scale(dpr,dpr);
 
-  btn.addEventListener('click', function () {
-    if (audio.paused) { audio.play(); btn.innerHTML = '&#9646;&#9646;'; }
-    else              { audio.pause(); btn.innerHTML = '&#9654;'; }
-  });
-  audio.addEventListener('timeupdate', updateProgress);
-  audio.addEventListener('loadedmetadata', function () {
-    time.textContent = '0:00 / ' + fmt(audio.duration);
-    buildTranscript();
-  });
-  audio.addEventListener('ended', function () { btn.innerHTML = '&#9654;'; });
-  wrap.addEventListener('click', function (e) {
-    if (!audio.duration) return;
-    var r = wrap.getBoundingClientRect();
-    audio.currentTime = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)) * audio.duration;
-  });
+  const all = RI.filter(d=>d.v!==null);
+  const valid = showFull ? all : all.filter(d=>d.y>=2018);
+  const ys = valid.map(d=>d.v);
+  const minY = Math.min(...ys)-0.15, maxY = Math.max(...ys)+0.15;
+  const n = valid.length;
 
-  function updateProgress() {
-    if (!audio.duration) return;
-    bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
-    time.textContent = fmt(audio.currentTime) + ' / ' + fmt(audio.duration);
-    syncTranscript();
-  }
+  const PL = showFull?40:8, PR = 8, PT = 8, PB = showFull?24:18;
+  const cw = W-PL-PR, ch = H-PT-PB;
+  const xOf = i => PL+(i/(n-1))*cw;
+  const yOf = v => PT+((maxY-v)/(maxY-minY))*ch;
 
-  document.querySelectorAll('.ap-speed').forEach(function (b) {
-    b.addEventListener('click', function () {
-      document.querySelectorAll('.ap-speed').forEach(function (x) { x.classList.remove('on'); });
-      b.classList.add('on');
-      audio.playbackRate = parseFloat(b.dataset.rate);
-    });
-  });
-
-  /* transcript toggle */
-  document.getElementById('transcriptToggle').addEventListener('click', function () {
-    var panel = document.getElementById('transcriptPanel');
-    var open  = panel.classList.toggle('open');
-    this.textContent = (open ? '▾' : '▸') + ' Transcript';
-  });
-
-  /* ── Transcript ─────────────────────────────────────────── */
-  var TRANSCRIPT = `Welcome to the Deep Dig, uh, where we break down complex subjects with token wisdom. And I got to ask, have you ever wondered why the experts on TV, like the absolute suit standing in front of those glowing red and green graphics,
-why they try to predict global economic collapse by looking at the sales of men's underwear,
-right? It sounds like a joke.
-I am entirely serious right now. You turn on the news to try and figure out, you know, if you're going to lose your job, and instead of talking about actual capital flows or, I don't know, industrial output, They're talking about cotton waistbands. It's this whole like vibes-based economy.
-100%. The vibes are off. So, the market must be crashing.
-Exactly. They look at lipstick sales. They look at movie theater popcorn. They look at how short skirts are getting. And they use that to tell you if your 401k is about to just get vaporized. But, uh, I'm holding a May 2026 paper here from the ARC Institute of Nowhere that proves they're looking at the completely wrong thing.
-Hold up. Wait, wait, wait. Because it's not just that they're looking at the wrong thing. It's that the right thing has literally been sitting inside their laptops the entire time.
-Literally inside the machine they're using to write their bad articles.
-Exactly. So the paper is by Cayama, right? It's called the ramification index. And the core mission of our deep dive today is unpacking this insane totally paradigm shifting reality. The price of a single incredibly boring computer component um DRAM dynamic random access memory is secretly the ultimate predictor of global economic health.
-It's wild.
-We are talking about a metric that leads real GDP growth by 1 to 3 quarters,
-which means it tells us what the economy is going to do before the economy even realizes what it's doing.
-Yes.
-But to get there, we're taking you, the listener, on a wild ride today. You're riding shotgun with us as we move from high-level economic theory to straight up corporate cartel behavior.
-Oh, the cartel stuff is fascinating.
-And right into the absolute structural madness of AI-driven supply shocks. We are going to break down how the world actually works behind the curtain. But uh to do that, I think we have to start by burying the old gods.
-Yeah. The death of the folk indices,
-right? Because for a century, financial journalists have just been running with these completely unscientific heuristics, these like little folktales about consumer psychology. And I want to tear these down one by one, starting with the most famous one, the lipstick index.
-Oh, the classic.
-Yeah. The idea that treat-yourself economics can predict a recession. Right. So the theory here was proposed by Leonard Lauder, the chairman of Estee Lauder back in uh late 2001. So we had the 9/11 shock, we had the dot-com bust, you know, the economy was reeling.
-Everything was a mess,
-everything. And his company suddenly saw an 11% rise in Q4 lipstick sales. So Lauder's theory, and I mean there is some basic behavioral psychology behind it, was that during an economic downturn, consumers cut back on the massive luxury items.
-But you aren't buying the $3,000 designer bag. You aren't booking the flight to Milan, but you still need a psychological boost. You still need that hit of dopamine. So, you treat yourself to a smaller prestige item. Therefore, prestige beauty sales rise in a recession.
-Okay. I mean, I see the logic. It's like affordable luxury as a coping mechanism. But did it actually hold up to rigorous back testing? Because an anecdote from 2001, um, that doesn't make a macroeconomic rule.
-It absolutely did not hold up. Yeah, if you look at the 2008 and 2009 global financial crisis, the data shows lipstick sales actually dropped. The psychological coping mechanism didn't outweigh the sheer, you know, lack of disposable income. But the real nail in the coffin was 2020,
-the COVID-19 lockdown.
-Think about the physical reality of that moment. What happens when everyone on the planet is forced to wear a mask?
-Well, obviously nobody is buying lipstick because nobody can see the bottom half of your face.
-Exactly. The structural reality of the world completely severed the link between the product and the psychology. Mask mandates shifted cosmetic spending entirely. So sales of eye makeup like mascara, eyeliner, those spiked while lipstick just completely cratered.
-So the index didn't measure the economy at all. It measured a temporary public health mandate.
-Bingo. And that's the fatal flaw with all of these metrics. They are entirely dependent on highly specific cultural and environmental behaviors that can, you know, just shift overnight.
-Which brings me to the hemline index. Yeah. Because I always thought this one was just pure urban legend like the idea that skirt lengths predict the stock market. Bull market skirts go up to the thigh, bear market skirts drop down to the ankle.
-Yeah. So, it's constantly attributed to a Wharton economist named George Taylor in 1926. But if you actually dig into the academic history, that attribution is false.
-Wait, really? It's fake.
-Yeah. Paul Nystrom is more plausibly the guy who formulated the broader theory in 1928. Taylor's 1929 dissertation was strictly about full-fashioned hosiery.
-So, he was just like looking at socks and stockings.
-He was looking at how skirt length impacted the demand for silk stockings. He never actually formulated a macroeconomic stock market predictor. Financial columnists basically just slapped a famous economist's name on a fashion trend to make it sound like empirical science.
-Wait, so the financial press just manifested this into existence? Has anyone ever actually run the numbers to see if it works?
-They have, and the results are hilarious.
-Lay it on me.
-The only formal econometric test of the hemline index was done in 2010 by two researchers, Vandenbark and Francis. They went back and used the Lascell fashion magazine hemline length series. They coded the data from zero for ankle length to ten for a micro mini.
-And they ran it against the economic cycles. Their finding: hemlines do correlate with the economy, but they actually lag the economy by approximately three years.
-Hold on. Three years. So they don't predict the boom. They just show up to the party right as the host is turning the lights off. Why the massive delay?
-Think about the mechanics of the fashion industry. Let's say the economy booms today. Consumers have money. The mood is exuberant. Designers absorb that cultural mood. But it takes time,
-right? They have to actually make the clothes.
-Exactly. They sketch a new collection. They have to source the textiles. They manufacture the garments. Then they have to debut them at fashion week.
-Oh wow. Yeah.
-Then buyers from major department stores place orders for the next season. By the time that micro miniskirt actually hits the retail rack and gets recorded in a consumer data set, years have passed.
-So, it reverses the entire popular causal reading.
-The economy drives the fashion, but with a massive supply chain delay. It is fundamentally useless for predicting a recession.
-Completely useless.
-That makes total sense. It's a trailing indicator masquerading as a leading one. But, uh, let's look at the most unhinged one on the list, the men's underwear index, the MUI.
-And the crazy part is this wasn't pushed by some random blogger. This was famously promoted by Alan Greenspan, the former chair of the Federal Reserve,
-arguably the most powerful central banker in the world at the time, openly admitting he tracked tighty-whities to gauge the American consumer.
-I can't.
-But break down the premise for me. Why underwear?
-So, the theory rests on the idea that men's underwear is a near absolute necessity, but critically it's a necessity that nobody else sees.
-Okay? Right?
-So, during periods of acute economic stress, when men are worried about layoffs or, you know, wage stagnation, they don't stop buying food and they don't stop buying dress shirts because they still need to look presentable at work.
-You got to have the suit for the interview,
-right? But they will quietly defer the purchase of new underwear. They'll just wear the old ones longer. They'll deal with the holes. Therefore, a dip in underwear sales is a pure, unadulterated signal of silent economic anxiety.
-I mean, I hate to admit it, but that kind of makes a twisted dark sense. It's measuring financial fear. But I'm guessing just like lipstick, a structural shift blew it up.
-You'd be right. Again, look at the pandemic. The underwear market structurally shifted overnight. Men stopped wearing suits to the office. They started working from home. And what did they buy?
-Sweatpants.
-They bought premium comfort wear, athleisure, high-end boxers, sweatpants. The home became the office. So, the private garment became the primary garment. Underwear sales spiked for reasons that had absolutely nothing to do with macroeconomic confidence and everything to do with wanting to be comfortable on a Zoom call.
-So, the demand metric completely decoupled from the broader economic reality of, you know, soaring unemployment —
-entirely.
-And what about the buttered popcorn index? The theory that when things get rough, people flock to the movies because it's the cheapest form of escapism.
-Out of all the folk indices, this one actually had the strongest historical track record. It genuinely held up during the Great Depression. It held up during the 1973 bear market. Really?
-Yeah. It worked during the 2001 dot-com bust. And it worked again during the 2008 financial crisis. When budgets tightened, people substituted an expensive night out at a restaurant for a cheap movie ticket.
-But let me guess, COVID-19 killed this one, too.
-Physically broke the model. You can't track movie ticket sales as an economic indicator when the government legally mandates the theaters to shut their doors, right?
-And by the time they reopened, streaming platforms had fundamentally altered consumer behavior. Cheap leisure was no longer going to the movies. Cheap leisure was a $15 monthly subscription to Netflix at home. The popcorn index is dead.
-Look, listening to you break these down, my fundamental problem with all of this becomes glaringly obvious.
-This whole consumer demand folk psychology approach is deeply flawed —
-completely.
-Like why are we trying to track millions of unpredictable heterogeneous humans observed through some incredibly narrow retail panel to figure out global GDP? Humans are messy.
-We really are.
-They get scared. They change their wardrobes. They wear medical masks. They stay home and binge television. Using consumer behavior to predict the macro economy feels like trying to predict the weather by watching which way a single dog's fur is blowing in the wind.
-That's a great way to put it.
-Why are we tracking the leaves when we should be tracking the root? Can you dig it?
-I can absolutely dig it. And that transition — moving from tracking the highly unpredictable, emotionally driven consumer to tracking the cold, calculating producer — is exactly where Wakil's paper gets incredibly interesting. Because if tracking millions of consumers is a fool's errand, tracking producers is the answer,
-right?
-But Wakil isn't suggesting we track just any random producers. He says we need to track a cartel.
-Yo, that word carries weight. When you say cartel, people immediately think of illicit drugs or they think of OPEC sitting around a table controlling the price of oil.
-Oh, absolutely.
-But we're not talking about crude oil or narcotics. We're talking about the cleanest, most heavily regulated, buttoned-up tech companies in the world.
-We are talking about the producers of DRAM, dynamic random access memory. It is the fundamental inescapable memory chip inside everything.
-It's in your laptop. It's in your phone. It's in your car.
-And most importantly, it is the backbone of hyperscale server farms. And DRAM is structurally unique among any candidate for an economic indicator because it is a near-pure commodity controlled by a massive entrenched oligopoly.
-Let's pause and unpack that because it didn't used to be this way, right? There didn't used to be just a handful of guys in a room making all the world's memory.
-How did we get to this level of consolidation?
-You have to look at the historical context. Back in 1985, around the time of the US-Japan semiconductor agreement, the market was highly fragmented. There were roughly 20 major producers shipping DRAM across five different countries.
-Okay, so it was actually competitive.
-It was fiercely competitive. But over the next few decades, the fundamental physics and economics of chip manufacturing changed. Building a fabrication plant, a fab, became exponentially more difficult and expensive. We're talking about the clean rooms, the extreme ultraviolet lithography machines from ASML that cost hundreds of millions of dollars each. The margin of error is basically at the atomic level.
-Exactly. You were trying to print billions of transistors onto a silicon wafer. The capital expenditure required to stay at the cutting edge simply priced the smaller players out of existence. They couldn't afford to keep up.
-So, they just folded.
-A lot of them did. The defining moment of capitulation was in 2013 after the bankruptcy of a massive Japanese manufacturer called Elpida. They went under. They got acquired by Micron. And that acquisition effectively reduced the global market to just three dominant firms.
-The big three.
-Yeah.
-Samsung, SK Hynix, and Micron.
-Right. Two in South Korea, one in the United States. And as of Q1 2025, those three firms jointly control approximately 95% of world DRAM shipments.
-That is — wait — 95%?
-95% of the memory required for the global information economy to function flows through the gates of just three companies.
-That's a staggering bottleneck. So, three companies dictate this supply. And because they're selling a pure commodity — meaning a 16 GB DRAM chip from Samsung does the exact same functional job as a 16 GB DRAM chip from Micron — they aren't really competing on features.
-No, not at all.
-They are competing purely on scale and price. But if we look at the historical record, they don't exactly have a spotless reputation when it comes to, you know, healthy free market competition, do they?
-They absolutely do not. Wakil lays out the documented legal history of DRAM pricing in the paper and it seriously reads like a true crime podcast.
-Oh, I love this stuff.
-Let's go back to the period between 1998 and 2002. The United States Department of Justice launched a massive criminal probe under the Sherman Antitrust Act.
-What triggered it?
-Computer makers like Dell and Gateway were complaining to the government that artificially inflated DRAM pricing was completely crushing their profit margins.
-So, the PC builders were getting squeezed because they had nowhere else to buy the components.
-They were completely trapped. And when the DOJ investigated, they found a literal international price-fixing conspiracy.
-Wow.
-Executives from these competing companies were communicating, coordinating their pricing strategies, and artificially restricting supply to keep prices high. The fallout was massive. Between 2004 and 2006, five major manufacturers pleaded guilty to federal crimes.
-Federal crimes.
-Yeah. Infineon was fined $160 million. Hynix — which is now SK Hynix — was fined $185 million. Samsung pleaded guilty. Elpida pleaded guilty.
-What about Micron?
-Micron actually cooperated with the DOJ investigators and received leniency in exchange for blowing the whistle.
-That is wild. And it didn't stop there, right? The European regulators got involved too.
-Yes. In 2010, the European antitrust regulators hit them again, fining nine semiconductor manufacturers more than €331 million for operating a cartel.
-Jeez. So globally, they were fined over $730 million for literally sitting in rooms or communicating through back channels and fixing the price of the global economy's memory.
-So they got caught, they paid the fines, but the behavior didn't necessarily disappear. It just evolved.
-Look at the timeline. In 2018, China's State Administration for Market Regulation launched their own price-fixing investigation against Samsung, SK Hynix, and Micron.
-The big three again,
-always the big three. The Chinese regulators claimed they found massive evidence of antitrust violations. And around the same time in the US, you had the 2016 to 2018 supercycle litigation. Class action lawsuits were filed alleging that the big three coordinated supply restraint because contract prices for DRAM rose over 130% in a single year.
-130% price hike on a commodity component in 12 months is not normal market behavior. That's insane.
-Oh, wait. Didn't the courts throw that out?
-They did. A federal appeals court rejected the claims in 2021. The court's logic was fascinating though. They ruled that in a highly concentrated oligopoly, parallel independent strategies aren't necessarily illegal coordinated restraint.
-Wait, what does that mean in plain English?
-Meaning, if there are only three of you and you all independently decide to cut production because you see the other guys cutting production, it's not a conspiracy. It's just rational behavior in a tight market. Okay, stop right there because this is the crucial turn. This is the massive realization Wakil is putting forward. The fact that these companies coordinate pricing — whether it's through illicit backroom deals or just legal quote-unquote parallel independent strategies because they are a three-headed monster — that lack of free market chaos isn't a bug in the data. It is the defining feature.
-You've hit the nail on the head. It is a structural feature that makes this index so incredibly powerful as a predictive tool. Think about the mechanics of the DDR industry compared to consumer retail.
-Okay,
-this is a highly visible, highly constrained oligopoly. They cannot pivot overnight. Building a new fab or even retooling an existing one takes 18 to 24 months.
-Right. You can't just spin up a factory on a Tuesday.
-Exactly. So these three companies have to plan their capacity and their massive capital allocation decisions two years in advance. Because there are only three of them and they act in parallel, their combined supply decisions represent the absolute cleanest aggregate signal of future IT spending on the planet.
-Let me make sure I'm translating this right. They aren't guessing what consumers might do next month like the guys tracking underwear sales.
-Nope.
-They don't care about consumer vibes. They are looking directly at the massive multi-billion dollar confidential orders coming in from Apple, from Microsoft, from Google. They see the exact blueprints of what the biggest companies in the world are planning to build two years from now.
-Yes.
-And they are setting the price of memory today based on that concrete, locked-in demand.
-Precisely. The DRAM average selling price isn't just a number that clears an auction. It is a transmission mechanism. It transmits the hard financial expectations of the entire global tech sector and it does it with a built-in lead time determined by the physical manufacturing cycle of silicon wafers. You don't have to survey a million unpredictable consumers. You just have to read the price tag set by three central planners in Seoul and Boise. Can you dig it?
-Oh, I can absolutely dig it. It's replacing a chaotic lagging indicator with a rigid leading indicator. But uh here's the tension for me. We know who controls the prices. And we know they have a stranglehold on the supply side. But how exactly does a change in the price of a memory chip at a factory in South Korea ripple outward to cause a whole macroeconomic recession in the United States or Europe?
-That's where the math comes in,
-right? Because this is where Wakil's paper gets into some heavy heavy math. He uses a concept called the ramification index of a prime ideal from algebraic number theory. And I'm going to be honest, when I first read that phrase, my brain immediately tried to reject it.
-It's definitely dense,
-but we have to break this down because I was thinking about it and solving a complex macroeconomic problem like this is exactly like trying to untangle that cursed drawer of old charging cables in your kitchen.
-Oh, everyone has that drawer. The drawer of technological regret.
-Every single house has it. It's full of old micro USB cables, weird proprietary power bricks from a 2008 digital camera, tangled wired headphones. Now, imagine you just want to get your phone charger out. You reach in and you grab one USB cord and you pull. That single pull on that single cord is the DRAM price shock. Now, what happens? You pull the cord and because everything is knotted together, suddenly the toaster gets unplugged, your tablet falls off the counter, a bunch of loose AAA batteries roll onto the floor and you realize everything in that kitchen was secretly wrapped around that one central wire.
-Yeah,
-that you didn't mean to move the toaster, but the knot forced it to move.
-That is a brilliant analogy and it maps surprisingly well onto the highly abstract mathematical framework Wakil is using. Let's translate the number theory into your kitchen drawer.
-Let's do it.
-In algebraic number theory, you have a concept called a field extension. Let's say the base field — the main kitchen, the environment itself — is the broader macroeconomy. We're talking about GDP, total employment levels, basic consumer spending,
-right? The foundation of the economy.
-And then you have the extension field. This is the massive tangled knot inside the drawer. In Wakil's model, the extension field is the information technology supply chain, the IT-augmented economy, everything from servers to smartphones,
-okay, tracking.
-Now, the math looks at what happens when you take a prime number in the base field and you push it up into the extension field. What happens? It ramifies. It branches out. It splits into a bunch of different ideals.
-Okay. So, if DRAM is the prime number, it's the specific cord I'm pulling.
-Exactly. DRAM is the prime ideal. When the price of DRAM changes at the fabrication plant — let's say Samsung and SK Hynix both raise their contract prices by 10% because they see tight supply coming — that price shock doesn't just sit in the factory.
-It moves down the cord.
-It ramifies. It branches outward through the entire tangled drawer. First, it hits the server bill of materials. Cloud providers like AWS and Azure suddenly have to pay more to build out their data centers.
-Then it hits AI infrastructure. Then, it hits consumer electronics. The cost for Apple to build the next iPhone goes up. And finally, those higher input costs branch out and hit the macro economy either as reduced corporate profit margins, hiring freezes, or higher retail prices for the consumer.
-But the math actually proves that this isn't just a random ripple effect, right? Like the equation proves that the total effect across all those downstream sectors perfectly equals the macroeconomic weight of that initial price shock.
-Yes. In number theory, there is a fundamental identity equation that shows the conservation of ramification. The sum of the parts equals the whole. Wakil maps this directly to the conservation of macroeconomic impact. The total economic effect distributed across all those downstream sectors — the servers, the phones, the laptops — equals the price movement's total macroeconomic weight.
-Wow.
-When a DRAM price movement happens, the energy of that shock doesn't just vanish into the ether. It is conserved and it is forcefully pushed through the entire system. And here's why the cartel aspect is so vital. Because DRAM is a strict oligopoly, it is maximally ramified.
-What does that mean? Maximally ramified?
-The structure is most constrained where the fewest primes can pass through unchanged. Because there are only three actors, the shock isn't absorbed by a competitive market. It is perfectly and violently transmitted to the buyer.
-So pulling that one single string literally unplugs the entire global economy. It branches into every single digital thing we touch. But I have to push back here.
-Go for it.
-Wakil claims this index has an insane track record. He says it went six for six in predicting recessions. But if this oligopoly only truly solidified into the big three around 2013, how can we possibly trust its retroactive predictive power going back to 1980 when the market was highly fragmented with 20 different producers?
-That is the exact right question to ask and it's the primary vulnerability a skeptic would point out. Wakil addresses this by applying Granger causality tests across the entire timeline.
-Okay, Granger causality. Break that down.
-Now, most people know the phrase correlation does not equal causation. Just because two lines on a graph move together doesn't mean one causes the other. Granger causality is a statistical test that asks a very specific question. Does knowing the past values of variable A help you predict the future values of variable B better than just looking at the past values of variable B alone?
-So does knowing the history of memory prices give you a cheat code for predicting the GDP beyond what the GDP's own history tells you?
-Precisely. Wakil ran a bivariate vector autoregression model over the data sample from 1985 to 2024 and he found that the ramification index — constructed by taking the annual log first-difference of the DRAM price, basically tracking the rate of change in the price — Granger-causes quarterly GDP growth at the 1% significance level.
-1%. That's huge.
-This is highly statistically significant. Even when the market was fragmented in the 80s and 90s, the underlying function of DRAM as the ultimate bottleneck of the tech sector was still true. The consolidation into an oligopoly just made the signal cleaner and louder. And the causal direction is a one-way street,
-right?
-Yes. The tests show that GDP growth does not Granger-cause the ramification index. The macroeconomy does not dictate the memory price. The causal direction runs strictly from the fabrication plants in Korea and Idaho pushing outward into the global macroeconomy. And when you map it against the official NBER recessions — the National Bureau of Economic Research, the official arbiter of when the US is in a recession — the index perfectly signaled the 1980 recession, the 1981–82 double dip, the 1990 recession, the 2001 dot-com bust, the 2008 financial crisis, and the 2020 COVID shock. Six for six.
-Six for six. Contrast that with the lipstick index, which only caught one out of three in its measurable window. The hemline index caught three out of six and three years late. The ramification index battered all of them, leading the cycle by a median of 1 to 3 quarters. Can you dig it?
-I can absolutely dig it. But uh that level of predictive power, that level of control is an immense amount of power for three companies to hold. And it all relies on the DRAM market acting as one unified force. But something happened recently.
-Yeah. You mentioned the data worked perfectly from 1980 to 2024. What the hell happened in 2024?
-In 2024, the world broke. The structural unity of the DRAM market fractured entirely and it was caused by the AI decoupling.
-The 2024 to 2026 bifurcation. Let's get into this because this is the pivot in the paper. It stops being just a really fascinating economic history lesson and suddenly becomes a terrifying warning about the water we are swimming in right now. Prior to 2024, DRAM was effectively a single unified commodity market. The memory going into your cheap Dell laptop and the memory going into an enterprise server moved on the same macroeconomic cycle. They were driven by the same basic fab capacity decisions.
-Right. RAM was RAM.
-But then generative AI exploded and a specific type of memory called high bandwidth memory — HBM — became the absolute binding constraint on AI chips. We are talking about NVIDIA's H100 and B200 accelerators.
-These are the massive, ultra-expensive chips powering ChatGPT, powering Midjourney, powering every single thing big tech is racing to build right now. But explain the physical difference. Why couldn't they just use regular DRAM?
-Because of the architecture of AI. Regular DRAM sits next to a processor on a motherboard and data travels back and forth across a copper bus. For regular computing, that's fine. But AI models require processing massive data sets simultaneously,
-right? Billions of parameters.
-If you try to feed that data through a regular memory bus, the processor starves. It's like trying to drain an Olympic swimming pool through a garden hose. The processor is incredibly fast, but the data can't get to it fast enough.
-So, they had to change the physics of the chip.
-Yes. High bandwidth memory solves this by stacking the DRAM chips vertically directly on top of each other and connecting them with microscopic wires that drill straight down through the silicon called through-silicon vias.
-Sounds like a skyscraper for data.
-Exactly. Then they package this stacked memory intimately close to the processor itself. It allows for an incredibly wide, incredibly fast data highway, but it is vastly more difficult and expensive to manufacture. Wakil points out the sheer scale of the shift. A single NVIDIA H100 accelerator carries 80 gigabytes of this ultrafast HBM3 memory.
-Okay, 80 gigs.
-But frontier AI inference models — the models running the AI when you ask it a complex question — require approximately 3.5 terabytes just to load into memory. That is a 44× compute-memory gap. The chips are smart enough to do the math, but they literally don't have enough short-term memory to hold the data while they think. Memory is the absolute bottleneck for the entire artificial intelligence revolution.
-It is the only thing holding it back. So, what happened? The hyperscalers — Meta, Google, Microsoft, Amazon — realized this bottleneck was an existential threat to their AI ambitions and they panicked.
-Oh boy.
-They began aggressively securing multi-year DRAM allocations from the big three. They essentially walked into Samsung and SK Hynix and said, "We will buy every single HBM chip you can manufacture for the next 3 years, whatever the price."
-They bought up the entire supply chain. Just swept the leg.
-Everything. The shift in manufacturing capacity was so violent that Micron literally announced in late 2025 that it was withdrawing from the consumer RAM and SSD market entirely. They shut down their Crucial brand for consumers.
-Wait, I used to buy Crucial RAM for my gaming PC.
-Yep. Gone. A massive legacy manufacturer just abandoning the retail space because they needed to dedicate every square inch of their clean rooms to serving AI and enterprise buyers.
-Okay, let me translate this back to the kitchen drawer analogy. What you're saying is my personal laptop is going to cost me way more to upgrade simply because ChatGPT needs to learn how to write a bad sonnet about a toaster.
-Yes, that is exactly what is happening in real time. The prime number has split. To go back to the algebraic metaphor, the single prime ideal of memory fractured into two completely separate streams. The ramification index had to be bifurcated.
-It broke the math.
-Wakil created an AI sub-index which he calls R-AI and a commodity sub-index R-C, because they are now operating in completely different economic universes. The sheer volume of AI capital expenditure totally eclipsed consumer PC demand. Can you dig it?
-Oh, I can dig it. But it actually makes me sweat because that bifurcation leads directly to the most chaotic, terrifying, and frankly hilarious event detailed in this entire paper. RAMageddon,
-the 2025–2026 supply-side divergence. The RAM apocalypse.
-I read the timeline on this and it is straight out of a dystopian sci-fi script. Let's rapid-fire through this sequence of events because the sheer corporate panic is palpable. We hit late 2025. OpenAI reportedly secures roughly 40% of all global DRAM production for its long-term infrastructure.
-40%.
-One software company taking almost half of the entire world's supply of memory.
-And the downstream effects hit the consumer market instantly. By November 2025, Japanese electronics retailers like Tsukumo and Sofmap are physically placing rationing limits on standalone RAM sticks and solid-state drives to prevent panic buying by consumers.
-People are hoarding memory sticks like toilet paper in the spring of 2020. And then the prices just go completely stratospheric. By December 2025, standard DDR5 chips quadruple in price. They jump from $6.84 to $27.20 in the span of just 3 months.
-But the most feeling part of this whole crisis is the corporate reaction, how the executives handled it. By January 2026, Korean media is reporting that high-level executives from US big tech companies are living in long-term corporate hotels near the Samsung and SK Hynix fabrication plants in Pyeongtaek and Icheon.
-Like they're on a stakeout.
-They are literally camped out in the shadow of the factories begging for memory allocations. Industry insiders on the ground started calling them DRAM beggars. I need you to pause and imagine this. Imagine being a vice president at Google, making seven figures. You fly first class to Korea, and you are sleeping in a Courtyard Marriott, drinking bad hotel coffee, waiting in a lobby to beg a factory floor manager for microchips.
-And heads were rolling over this. Google executives responsible for memory procurement reportedly got fired for failing to secure enough supply for their custom TPU accelerators.
-Fired because they couldn't buy enough RAM.
-Microsoft executives flew to South Korea to negotiate allocations and one of them reportedly stormed out of a boardroom after being told the supply was completely constrained. It was absolute chaos.
-And out of all this chaos comes a detail that completely broke my brain. It's what Wakil calls the legacy price inversion.
-Oh, this is the wildest economic anomaly in the entire paper. It defies basic technological progress.
-Walk me through this mechanism because initially it makes absolutely zero sense. DDR4 is older, slower technology. It's the stuff sitting in a 5-year-old budget laptop, right?
-But during RAMageddon, the spot prices for legacy DDR4 hit $210 per gigabit. Meanwhile, the cutting-edge HBM3 contract prices were sitting at $1.70 per gigabit. The older, vastly inferior tech became significantly more expensive than the state-of-the-art tech. How is that physically possible?
-I'll give you an analogy. It's exactly like paying $100,000 for a used 1998 Honda Civic while a brand new 2026 Ferrari only costs $80,000. Why would that ever happen? It happens because the cartel completely stopped making Civics.
-They reallocated the factory floor.
-Exactly. You have to understand how a fab works. You don't just flip a switch to change what a silicon wafer becomes. Retooling a lithography line takes months. Because the big three saw the massive margins and demand from AI, they aggressively reallocated all their wafer capacity to making HBM.
-So, they just abandoned the old stuff.
-They cannibalized their own commodity production lines. They created extreme artificial scarcity in the older, lower-margin tiers. So, if you are a medium-sized company that still needs basic DDR4 to build regular enterprise servers or routers or cheap laptops, you are suddenly fighting over a rapidly shrinking finite pool of older chips.
-And the demand didn't drop, but the supply plummeted.
-Exactly. So, the spot price on the open market just explodes past the contracted price of the state-of-the-art stuff.
-And Wakil maps this mathematically too, right?
-Yes. In the algebraic metaphor, this corresponds to what he calls a residue degree anomaly. It's a transient state where the smaller ideal temporarily has a larger residue field. It's a mathematical quirk of a system that is fundamentally changing its structure under extreme stress.
-But let's look at the real-world implications of this. The so-what for the average person? It's absolutely devastating for the consumer market. Apple, the most powerful supply chain manager on Earth, had to pay a 230% premium just for the basic memory in the iPhone 17 Pro.
-Massive.
-NVIDIA's consumer graphics card, the RTX 5090, is rumored to launch at $5,000.
-The fallout is everywhere. The PlayStation 6 is facing potential multi-year delays because Sony can't lock in affordable memory.
-Gamers are going to riot.
-Nintendo lost $14 billion in market value over a single weekend simply amid investor concerns over memory costs for their next console. To compensate, smartphone manufacturers are downgrading their tech. Low-end phones are reverting back to 4 GB of memory.
-They're going backward in time.
-Dell and Lenovo are limiting base model laptops to 8 gigs. Global PC shipments are dropping precipitously. The CEO of Phison, a major controller designer, gave a massive warning. He stated that consumer electronics manufacturers will literally go bankrupt or be forced to exit entire product lines by the end of 2026 because they simply cannot afford the bill of materials to build their devices anymore.
-Which brings us to the massive macroeconomic tension that Wakil identifies in the data, the grand paradox. In Q1 2026, the ramification index registered its sharpest positive reading in 46 years. DRAM contract prices jumped 90 to 95% quarter-over-quarter. Now let's look at the history. Under the old framework, a massively positive reading in this index means booming demand. It means the economy is firing on all cylinders.
-Right? The original interpretive framework was very clean. If the index is far below zero, it's a severe demand-side contraction, a recession. Nobody is buying servers. If it's near zero, it's steady equilibrium. If it's far above zero, it signals massive healthy demand growth across the IT sector which pulls the rest of the economy up with it.
-But the actual economy in early 2026 is slowing down. Unemployment is creeping up to 4.4%. The Conference Board leading economic index is down. Consumer confidence is weakening. People are feeling the pinch. So the ramification index is screaming historic boom while the reality on main street is screaming bust. How does Wakil reconcile this?
-This is Wakil's most brilliant analytical contribution. He introduces a completely new interpretive framework, supply-side divergence. He realizes that the index isn't signaling healthy broad-based demand anymore. It's signaling cost-push stagflation.
-Okay. Stagflation.
-The massive positive sign of the index actually means that the consumer electronics sector is being actively starved and squeezed to death to feed the AI machine.
-I see. It's an artificial positive. It's positive because of induced scarcity, not because of widespread prosperity.
-Precisely. If the commodity sub-index — the legacy RAM used in regular devices — is massively positive, but macroeconomic indicators like employment are weakening, it means oligopoly supply reallocation has completely decoupled memory pricing from the consumer.
-They just threw the consumer overboard.
-The big three abandoned the consumer to chase the AI whales. So the downstream ramifications are actually contractionary. Rising bill-of-materials costs force companies like Dell and Apple to raise retail prices, which suppresses consumer shipments, which squeezes corporate margins, and ultimately drives inflation while total economic output slows down.
-Higher input costs coexisting with slowing economic output.
-That is the exact textbook definition of stagflation. And if an analyst didn't understand the physical architecture of HBM and just looked at the composite DRAM index, they would completely misread the entire global economy. Can you dig it?
-I can totally dig it. It is a masterclass in why you have to understand the physical mechanical reality beneath the data, not just the data itself. A number on a spreadsheet is meaningless if you don't know what machine produced it.
-Yeah.
-But let's look forward. If DRAM is the absolute god of the modern economy and these three companies are the high priests controlling the supply, what eventually kills a god? Light. We are talking about the existential threats to the ramification index, the photonic disruption risk. Because as entrenched as this cartel is, technology never sits still. Someone is always trying to route around the bottleneck.
-Exactly. If the predictive power of the index relies entirely on DRAM's position as the inescapable physical bottleneck of the information economy, what happens if that bottleneck gets bypassed by a completely different medium of physics? The paper highlights two major developments on the horizon. The first and most radical is fiber optic memory, proposed by the legendary programmer John Carmack.
-When I read this section, my mind was absolutely blown. It doesn't even sound like computer science. It sounds like straight up science fiction. The idea of trapping data in an endless physical loop of light — break down how this actually works.
-It is wild, but the physics are sound. Carmack proposed using massive 200 km long spools of single-mode fiber optic cable as a time-domain cache, a literal DRAM replacement for streaming AI model weights.
-200 km of glass.
-Modern fiber optic experiments in labs can achieve transmission rates of 256 terabits per second over that distance. At that incredible speed, you have approximately 32 gigabytes of data in flight inside the glass at any given microsecond. The data isn't stored in a static cell. It is literally just endlessly flying through the glass loop as a delay line.
-Wait, wait, let me wrap my head around this. Instead of storing the data statically on a piece of silicon, you just shoot a laser beam of data into a 200 km spool of glass and you just let it keep running in a circle at the speed of light till the processor is ready to read it.
-Basically, yes. It is dynamic memory in the truest sense of the word. And for AI inference workloads where you aren't searching for random bits of data, but rather you are just streaming massive sequential blocks of model weights over and over again, this optical loop could theoretically substitute for a massive fraction of the silicon DRAM currently suffocating data centers.
-That's incredible.
-And here's the kicker. The power consumption of maintaining a fiber transmission loop is estimated to be 5 to 20 times lower per bit than the energy required to constantly electrically refresh a silicon DRAM chip.
-Okay, that sounds like the silver bullet,
-but you have to bring me back down to earth here because there's a catch, right? It only works for sequential streaming,
-right? That's the physical limitation. It works perfectly for AI inference where you read the data in a predictable linear order, but it does not work for random access. If your laptop needs a random file from your desktop, it can't wait for the data to complete a 200 km lap to grab it.
-Right? It's not a hard drive.
-And more importantly, this technology is in its infancy. It is at least 5 years away from any kind of commercial volume deployment. The other major threat is closer to reality, and that's co-packaged optics. Companies like Corning, who just signed a $6 billion deal with Meta, are physically replacing the copper wiring inside server racks with fiber optics to relieve the interconnect bottleneck —
-because copper is too slow.
-A single modern AI GPU server rack has roughly 2.5 miles of heavy copper wire in it. Fiber is vastly more energy efficient and faster, but again, this doesn't replace the DRAM chip directly. It just drastically reduces the energy cost of moving data to and from the memory.
-I see. So, it changes the architecture of the server farm, but it doesn't dethrone the kings of silicon anytime soon. The big three still own the vault.
-Correct. Wakil assesses that neither of these photonic technologies will materially affect global DRAM consumption before 2028 or 2030. In fact, until optical memory becomes viable, the ramification index's macroeconomic grip will only tighten. As AI capital expenditure grows, it will concentrate even more of the global economy's weight onto the pricing decisions of Samsung, SK Hynix, and Micron.
-Wow.
-Beyond 2030, the index might have to mathematically evolve to incorporate photonic pricing — growing the field extension in the algebraic model to include the cost of glass and lasers. But for the rest of this decade, DRAM rules everything around us. Can you dig it?
-I can definitively dig it. So, let's bring this all together. Let's synthesize the journey we've been on today. We started this deep dive looking at the absolute absurdity of financial experts tracking lipstick shades and men's underwear, trying to guess what millions of panicked, unpredictable consumers might do in a crisis.
-Yep.
-And we've moved entirely away from that folk psychology. We've realized that the true pulse of the global economy is dictated by a cartel of three tech giants in Seoul and Boise who literally hold the fate of the information age inside their multi-billion dollar fabrication plants.
-We replaced a noisy, lagging behavioral metric with a clean, leading, highly structural metric. The ramification index leads the economy because the physical reality of building a fab forces a planning cycle 18 to 24 months into the future. We saw how the complex math of prime ideals perfectly mirrors the very real way a price shock at a silicon plant branches through servers, iPhones, and ultimately into your wallet.
-And we saw how the massive disruptive force of generative AI fundamentally fractured that index, creating the 2025–2026 RAMageddon — a world where Silicon Valley executives are begging for chips in hotel lobbies, where 5-year-old memory costs more than state-of-the-art tech, and where the economic indicators signal massive growth while the actual consumer economy suffers from suffocating cost-push stagflation. It's an absolutely brilliant, deeply terrifying paper.
-It really is a triumph of macroeconomic analysis, but sitting with all this data leaves me with one lingering, highly provocative thought. It's not fully resolved in Wakil's text, but it builds directly upon the reality he uncovered.
-Lay it on me.
-If the entire world's capital flow — from the multi-billion dollar budgets of the Fortune 500 right down to the retail price of the phone in your pocket — is entirely dependent on the production capacity and the private allocation decisions of just three companies, are we even operating in a free market anymore? Or have we blindly stumbled into building a high-tech planned economy where three CEOs are acting as the central planners for the human race's computational future?
-That is the tension right there. When three executives can sit in a room and decide exactly how much computation humanity is allowed to do this year, traditional free market economics is definitely broken. We aren't in a market. We're in a bottleneck. We are deep in the muddy waters now. Thank you for joining us on this deep dive into the ramification index. Stay curious. Question the simplistic models they try to sell you on TV. And remember, if you want to know what the tree is going to do, keep your eye on the root, not the leaves.`;
-
-  var segs = [];
-
-  function buildTranscript() {
-    var body = document.getElementById('transcriptBody');
-    if (!TRANSCRIPT.trim()) {
-      body.innerHTML = '<span style="color:var(--muted);font-style:italic">Transcript coming soon.</span>';
-      return;
+  // recession bands
+  let inR=false, rx=0;
+  valid.forEach((d,i)=>{
+    if(d.r&&!inR){inR=true;rx=xOf(i);}
+    if(!d.r&&inR){
+      inR=false;
+      c.fillStyle='rgba(200,72,72,0.06)';
+      c.fillRect(rx,PT,xOf(i)-rx,ch);
     }
-    segs = TRANSCRIPT.trim().split(/\n+/).map(function (t) { return t.trim(); }).filter(Boolean);
-    body.innerHTML = segs.map(function (t, i) {
-      return '<div class="ts-seg" data-i="' + i + '">' + t + '</div>';
-    }).join('');
-    body.querySelectorAll('.ts-seg').forEach(function (el) {
-      el.addEventListener('click', function () {
-        if (audio.duration) audio.currentTime = (parseInt(el.dataset.i) / segs.length) * audio.duration;
-      });
-    });
-  }
-
-  function syncTranscript() {
-    if (!segs.length || !audio.duration) return;
-    var idx = Math.floor((audio.currentTime / audio.duration) * segs.length);
-    document.querySelectorAll('.ts-seg').forEach(function (el, i) {
-      el.classList.toggle('ts-active', i === idx);
-      el.classList.toggle('ts-past',   i < idx);
-    });
-    var active = document.querySelector('.ts-seg.ts-active');
-    if (active) {
-      var body = document.getElementById('transcriptBody');
-      if (body) body.scrollTop = active.offsetTop - body.offsetTop - body.clientHeight / 2 + active.clientHeight / 2;
-    }
-  }
-
-  buildTranscript();
-})();
-
-/* ── scroll progress ─────────────────────────────────────── */
-(function () {
-  var bar = document.getElementById('progress');
-  window.addEventListener('scroll', function () {
-    var pct = window.scrollY / (document.body.scrollHeight - window.innerHeight);
-    bar.style.transform = 'scaleX(' + Math.min(pct, 1) + ')';
-  }, { passive: true });
-})();
-
-
-/* ── bifurcated chart ────────────────────────────────────── */
-(function () {
-  var canvas = document.getElementById('bifurChart');
-  if (!canvas) return;
-
-  /* data: [year, R_composite, R_commodity, R_ai, recession] */
-  var data = [
-    [1981,-0.368,null,null,1],[1982,-0.794,null,null,1],[1983,-1.085,null,null,1],
-    [1984,-0.418,null,null,0],[1985,-0.158,null,null,0],[1986,-0.772,null,null,0],
-    [1987,-0.291,null,null,0],[1988,-0.217,null,null,0],[1989,-0.383,null,null,0],
-    [1990,-0.441,null,null,1],[1991,-0.113,null,null,1],[1992,-0.074,null,null,0],
-    [1993,-0.137,null,null,0],[1994,-0.061,null,null,0],[1995,-0.064,null,null,0],
-    [1996,-1.470,null,null,0],[1997,-0.520,null,null,0],[1998,-1.089,null,null,0],
-    [1999,-0.200,null,null,0],[2000,-0.073,null,null,0],[2001,-1.518,null,null,1],
-    [2002,-0.362,null,null,0],[2003,0.172,null,null,0],[2004,0.000,null,null,0],
-    [2005,-0.380,null,null,0],[2006,0.207,null,null,0],[2007,-0.374,null,null,1],
-    [2008,-1.037,null,null,1],[2009,-0.485,null,null,1],[2010,-0.693,null,null,0],
-    [2011,-0.431,null,null,0],[2012,-0.572,null,null,0],[2013,0.223,null,null,0],
-    [2014,0.227,null,null,0],[2015,-0.385,null,null,0],[2016,-0.449,null,null,0],
-    [2017,0.569,null,null,0],[2018,0.436,null,null,0],[2019,-0.851,null,null,0],
-    [2020,0.000,null,null,1],[2021,0.028,null,null,0],[2022,-0.182,null,null,0],
-    [2023,-0.511,null,null,0],
-    [2024,0.477,0.524,0.262,0],
-    [2025,0.346,0.421,0.170,0],
-    [2026,0.863,1.367,0.167,0]
-  ];
-
-  var years   = data.map(function(d){return d[0];});
-  var rComp   = data.map(function(d){return d[1];});
-  var rComm   = data.map(function(d){return d[2];});
-  var rAI     = data.map(function(d){return d[3];});
-  var recYear = data.map(function(d){return d[4];});
-
-  function draw() {
-    var W = canvas.offsetWidth;
-    var H = 260;
-    canvas.width  = W * window.devicePixelRatio;
-    canvas.height = H * window.devicePixelRatio;
-    canvas.style.height = H + 'px';
-    var ctx = canvas.getContext('2d');
-    ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
-
-    var pad = { t: 18, r: 24, b: 32, l: 44 };
-    var cW = W - pad.l - pad.r;
-    var cH = H - pad.t - pad.b;
-
-    var n   = years.length;
-    var min = -1.6, max = 1.5;
-
-    function xOf(i) { return pad.l + (i / (n - 1)) * cW; }
-    function yOf(v) { return pad.t + (1 - (v - min) / (max - min)) * cH; }
-
-    /* recession bands */
-    for (var i = 0; i < n; i++) {
-      if (!recYear[i]) continue;
-      ctx.fillStyle = 'rgba(248,113,113,0.08)';
-      var x0 = (i === 0) ? xOf(i) : (xOf(i-1) + xOf(i)) / 2;
-      var x1 = (i === n-1) ? xOf(i) : (xOf(i) + xOf(i+1)) / 2;
-      ctx.fillRect(x0, pad.t, x1 - x0, cH);
-    }
-
-    /* zero line */
-    ctx.strokeStyle = '#2a2f3e';
-    ctx.lineWidth = 1;
-    ctx.setLineDash([4, 4]);
-    ctx.beginPath();
-    ctx.moveTo(pad.l, yOf(0));
-    ctx.lineTo(pad.l + cW, yOf(0));
-    ctx.stroke();
-    ctx.setLineDash([]);
-
-    /* grid lines */
-    ctx.strokeStyle = 'rgba(42,47,62,0.6)';
-    ctx.lineWidth = 0.5;
-    [-1.5,-1.0,-0.5,0.5,1.0,1.5].forEach(function(v) {
-      ctx.beginPath();
-      ctx.moveTo(pad.l, yOf(v));
-      ctx.lineTo(pad.l + cW, yOf(v));
-      ctx.stroke();
-      ctx.fillStyle = '#4a5168';
-      ctx.font = '9px sans-serif';
-      ctx.textAlign = 'right';
-      ctx.fillText(v.toFixed(1), pad.l - 5, yOf(v) + 3);
-    });
-
-    function drawLine(vals, color, lw, dash) {
-      ctx.strokeStyle = color;
-      ctx.lineWidth = lw || 1.5;
-      if (dash) ctx.setLineDash(dash);
-      ctx.beginPath();
-      var started = false;
-      for (var i = 0; i < n; i++) {
-        if (vals[i] === null) { started = false; continue; }
-        var x = xOf(i), y = yOf(vals[i]);
-        if (!started) { ctx.moveTo(x, y); started = true; }
-        else ctx.lineTo(x, y);
-      }
-      ctx.stroke();
-      ctx.setLineDash([]);
-    }
-
-    drawLine(rComp, '#ffb347', 2.0);
-    drawLine(rComm, '#ffd580', 1.5, [5, 3]);
-    drawLine(rAI,   '#00d4aa', 1.5, [3, 3]);
-
-    /* RAMageddon annotation */
-    var lastX = xOf(n - 1);
-    var lastY = yOf(rComp[n - 1]);
-    ctx.fillStyle = 'rgba(0,212,170,0.12)';
-    ctx.beginPath();
-    ctx.arc(lastX, lastY, 14, 0, 2 * Math.PI);
-    ctx.fill();
-    ctx.fillStyle = '#00d4aa';
-    ctx.font = 'bold 9px sans-serif';
-    ctx.textAlign = 'right';
-    ctx.fillText('RAMageddon', lastX - 2, pad.t + 12);
-
-    /* x-axis labels */
-    ctx.fillStyle = '#4a5168';
-    ctx.font = '9px sans-serif';
-    ctx.textAlign = 'center';
-    [1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2026].forEach(function(yr) {
-      var idx = years.indexOf(yr);
-      if (idx < 0) return;
-      ctx.fillText(yr, xOf(idx), H - pad.b + 14);
-    });
-  }
-
-  draw();
-  window.addEventListener('resize', draw, { passive: true });
-})();
-
-/* ── entrance animations ─────────────────────────────────── */
-(function () {
-  /* Hero sequence — trigger on next frame so CSS picks up initial state first */
-  requestAnimationFrame(function () {
-    requestAnimationFrame(function () {
-      document.querySelector('header').classList.add('hero-loaded');
-    });
   });
+  if(inR){c.fillStyle='rgba(200,72,72,0.06)';c.fillRect(rx,PT,xOf(n-1)-rx,ch);}
 
-  /* Section scroll reveal */
-  var revealObserver = new IntersectionObserver(function (entries) {
-    entries.forEach(function (entry) {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('revealed');
-        revealObserver.unobserve(entry.target);
+  // zero
+  c.strokeStyle='rgba(255,255,255,0.05)';c.lineWidth=1;c.setLineDash([2,4]);
+  c.beginPath();c.moveTo(PL,yOf(0));c.lineTo(PL+cw,yOf(0));c.stroke();
+  c.setLineDash([]);
+
+  if(showFull){
+    // RC sub-index
+    const rc = valid.filter(d=>d.rc!=null);
+    if(rc.length>1){
+      c.strokeStyle='rgba(200,160,64,0.4)';c.lineWidth=1;
+      c.beginPath();rc.forEach((d,i)=>{
+        const xi = valid.indexOf(d);
+        i?c.lineTo(xOf(xi),yOf(d.rc)):c.moveTo(xOf(xi),yOf(d.rc));
+      });c.stroke();
+    }
+    // RAI sub-index
+    const rai = valid.filter(d=>d.rai!=null);
+    if(rai.length>1){
+      c.strokeStyle='rgba(0,184,150,0.4)';c.lineWidth=1;
+      c.beginPath();rai.forEach((d,i)=>{
+        const xi = valid.indexOf(d);
+        i?c.lineTo(xOf(xi),yOf(d.rai)):c.moveTo(xOf(xi),yOf(d.rai));
+      });c.stroke();
+    }
+    // y-axis
+    c.fillStyle='rgba(90,96,112,0.9)';c.font=`10px 'IBM Plex Mono',monospace`;c.textAlign='right';
+    [-1,-0.5,0,0.5,1].forEach(v=>{
+      c.fillText(v.toFixed(1),PL-5,yOf(v)+3.5);
+      c.strokeStyle='rgba(255,255,255,0.03)';c.lineWidth=1;
+      c.beginPath();c.moveTo(PL,yOf(v));c.lineTo(PL+cw,yOf(v));c.stroke();
+    });
+    // x-axis
+    c.textAlign='center';
+    [1985,1990,1995,2000,2005,2010,2015,2020,2026].forEach(yr=>{
+      const i = valid.findIndex(d=>d.y===yr);
+      if(i<0)return;
+      c.fillStyle='rgba(90,96,112,0.8)';
+      c.fillText(yr,xOf(i),H-6);
+    });
+  }
+
+  // mini x-axis ticks
+  if(!showFull){
+    c.font=`9px 'IBM Plex Mono',monospace`;
+    c.textAlign='center';
+    c.fillStyle='rgba(90,96,112,0.7)';
+    valid.forEach((d,i)=>{
+      // tick mark
+      c.strokeStyle='rgba(90,96,112,0.3)';c.lineWidth=1;
+      c.beginPath();c.moveTo(xOf(i),PT+ch);c.lineTo(xOf(i),PT+ch+3);c.stroke();
+      // label every other year
+      if(d.y%2===0){
+        c.fillText(String(d.y).slice(2), xOf(i), H-2);
       }
     });
-  }, { threshold: 0.07, rootMargin: '0px 0px -32px 0px' });
+  }
 
-  document.querySelectorAll('main section').forEach(function (el) {
-    revealObserver.observe(el);
+  // main line
+  c.beginPath();
+  valid.forEach((d,i)=>i?c.lineTo(xOf(i),yOf(d.v)):c.moveTo(xOf(i),yOf(d.v)));
+  c.strokeStyle='#e8a428';c.lineWidth=showFull?1.5:1.5;c.stroke();
+
+  // fill under
+  c.lineTo(xOf(n-1),yOf(0));c.lineTo(xOf(0),yOf(0));c.closePath();
+  const g=c.createLinearGradient(0,PT,0,H);
+  g.addColorStop(0,'rgba(232,164,40,0.12)');g.addColorStop(1,'rgba(232,164,40,0)');
+  c.fillStyle=g;c.fill();
+
+  // terminal dot
+  c.beginPath();c.arc(xOf(n-1),yOf(0.863),3,0,Math.PI*2);
+  c.fillStyle='#e8a428';c.fill();
+}
+
+function drawMiniSparkline(id, data, color){
+  const el = document.getElementById(id);
+  if(!el)return;
+  const dpr = window.devicePixelRatio||1;
+  const W = el.offsetWidth||120, H = 32;
+  el.width = W*dpr; el.height = H*dpr;
+  const c = el.getContext('2d'); c.scale(dpr,dpr);
+  const min = Math.min(...data), max = Math.max(...data);
+  const r = max-min||1;
+  const pts = data.map((v,i)=>({x:(i/(data.length-1))*W, y:H-2-((v-min)/r)*(H-4)}));
+  c.beginPath();
+  pts.forEach((p,i)=>i?c.lineTo(p.x,p.y):c.moveTo(p.x,p.y));
+  c.strokeStyle=color;c.lineWidth=1.5;c.stroke();
+}
+
+// ── SIGNAL SPARKLINES DATA ────────────────────────────────
+const SPARKS = {
+  'sk-ddr5': [[4.72,6.2,7.8,9.1,11.4,13.7,15.2,16.8,17.9,18.56],'#c8a040'],
+  'sk-ddr4': [[3.8,5.1,6.4,7.7,9.2,10.8,12.1,13.3,14.0,14.20],'#a08030'],
+  'sk-hbm':  [[13.77,14.2,14.8,15.4,16.1,16.9,17.6,18.2,18.9,19.20],'#00b896'],
+  'sk-lpddr':[[2.4,3.1,3.9,4.8,5.9,6.8,7.7,8.5,9.2,9.85],'#7c6cd8'],
+  'sk-srv':  [[4.2,5.8,7.4,9.2,12.1,15.4,17.8,20.1,21.6,22.40],'#5098d0'],
+  'sk-nand': [[0.042,0.048,0.054,0.059,0.064,0.068,0.072,0.076,0.079,0.082],'#5a6070'],
+};
+
+// ── EQUITY TABLE ──────────────────────────────────────────
+const TIER_COLORS = {manufacturer:'#e8a428',demand_driver:'#00b896',downstream:'#7c6cd8'};
+const TIER_LABELS = {
+  manufacturer:'Tier 1 — DRAM Manufacturers · Primary signal · RAM prices move here first',
+  demand_driver:'Tier 2 — HBM Demand Drivers · AI super-cycle · GPU allocation sets the HBM ceiling',
+  downstream:'Tier 3 — Downstream Consumers · Lag indicators · absorb RAM cost 1–2 quarters later'
+};
+
+function renderEquities(data){
+  const wrap = document.getElementById('eq-wrap');
+  if(!wrap)return;
+
+  const tiers = ['manufacturer','demand_driver','downstream'];
+  let html = `<table id="eq-table"><thead><tr>
+    <th>Symbol</th><th>Name</th><th>Exchange</th>
+    <th>Price</th><th>Change</th><th>Chg %</th>
+    <th>Mkt Cap</th><th style="width:120px">Trend</th>
+  </tr></thead><tbody>`;
+
+  tiers.forEach(tier=>{
+    const stocks = data.tickers.filter(t=>t.tier===tier);
+    html += `<tr class="eq-tier-header"><td colspan="8">
+      <span class="eq-tier-dot" style="background:${TIER_COLORS[tier]}"></span>${TIER_LABELS[tier]}
+    </td></tr>`;
+    stocks.forEach(s=>{
+      const up = s.change_pct >= 0;
+      const krw = s.currency==='KRW';
+      const price = krw
+        ? (s.price>=1000?(s.price/1000).toFixed(1)+'K':''+s.price)+' ₩'
+        : '$'+s.price.toFixed(2);
+      const chg = krw
+        ? (s.change>=0?'+':'')+( Math.abs(s.change)>=1000?(s.change/1000).toFixed(1)+'K ₩':s.change+' ₩')
+        : (s.change>=0?'+$':'−$')+Math.abs(s.change).toFixed(2);
+      const pct = (up?'+':'')+s.change_pct.toFixed(2)+'%';
+      const sym = s.symbol.replace('.KS','');
+      html += `<tr class="eq-row">
+        <td><div class="eq-sym">${sym}</div></td>
+        <td><div class="eq-name">${s.name}</div></td>
+        <td class="eq-exch">${s.exchange}</td>
+        <td class="eq-price">${price}</td>
+        <td class="eq-chg ${up?'up':'dn'}">${chg}</td>
+        <td class="eq-pct ${up?'up':'dn'}">${pct}</td>
+        <td class="eq-cap">$${s.mkt_cap_b}B</td>
+        <td class="eq-spark"><canvas data-spark='${JSON.stringify(s.sparkline)}' data-up="${up}" width="120" height="32"></canvas></td>
+      </tr>`;
+    });
   });
-})();
+
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+
+  wrap.querySelectorAll('.eq-spark canvas').forEach(cv=>{
+    const d = JSON.parse(cv.dataset.spark);
+    const up = cv.dataset.up==='true';
+    drawMiniSparkline(null, d, up?'#38b868':'#c84848', cv);
+  });
+}
+
+function drawMiniSparkline(id, data, color, el){
+  const cv = el || document.getElementById(id);
+  if(!cv)return;
+  const dpr = window.devicePixelRatio||1;
+  const W = cv.offsetWidth||120, H = 32;
+  cv.width = W*dpr; cv.height = H*dpr;
+  const c = cv.getContext('2d'); c.scale(dpr,dpr);
+  const mn=Math.min(...data), mx=Math.max(...data), rng=mx-mn||1;
+  const pts=data.map((v,i)=>({x:(i/(data.length-1))*W,y:H-2-((v-mn)/rng)*(H-4)}));
+  c.beginPath();
+  pts.forEach((p,i)=>i?c.lineTo(p.x,p.y):c.moveTo(p.x,p.y));
+  c.strokeStyle=color;c.lineWidth=1.5;c.stroke();
+}
+
+// ── TICKER ────────────────────────────────────────────────
+function buildTicker(tickers){
+  const track = document.getElementById('ticker-track');
+  const items = tickers.map(s=>{
+    const up = s.change_pct>=0;
+    const krw = s.currency==='KRW';
+    const sym = s.symbol.replace('.KS','');
+    const price = krw ? (s.price/1000).toFixed(1)+'K ₩' : '$'+s.price.toFixed(2);
+    const pct = (up?'+':'')+s.change_pct.toFixed(2)+'%';
+    return `<div class="ti"><span class="ti-sym">${sym}</span><span class="ti-px">${price}</span><span class="${up?'up':'dn'}">${pct}</span></div>`;
+  }).join('');
+  track.innerHTML = items+items;
+}
+
+// ── FETCH STOCKS ──────────────────────────────────────────
+async function loadStocks(){
+  try{
+    const r = await fetch('data/stocks.json?_='+Date.now());
+    const d = await r.json();
+    buildTicker(d.tickers);
+    renderEquities(d);
+    if(d.updated){
+      const dt = new Date(d.updated);
+      document.getElementById('hd-ts').textContent =
+        dt.toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',timeZoneName:'short'});
+    }
+  }catch(e){
+    document.getElementById('eq-wrap').innerHTML =
+      '<div style="padding:20px;font-family:var(--mono);font-size:11px;color:var(--muted);">Equity data unavailable — GitHub Actions refresh pending.</div>';
+  }
+}
+
+// ── LEARN DATA ────────────────────────────────────────────
+const LEARN = [
+  {tag:'primer',tagLabel:'Primer',
+   h:'What is DRAM, and why does its price move?',
+   p:'DRAM (Dynamic Random-Access Memory) is the short-term working memory of every computing device — phones, servers, AI accelerators. Unlike NAND flash, it is fast, volatile, and manufactured by only three major players globally. That oligopoly plus extreme capital intensity means prices are driven by capacity cycles, not marginal cost.',
+   facts:[
+     'Samsung, SK Hynix, and Micron control ~95% of global DRAM supply',
+     'A new DRAM fab costs $10–20B and takes 3–4 years to build',
+     'Prices swing 50–80% within a single year during supply gluts or crunches',
+     'The 2022–23 glut pushed prices down 80%; 2026 is the counter-swing',
+   ]},
+  {tag:'mechanism',tagLabel:'Mechanism',
+   h:'Why RAM prices predict recessions',
+   p:'DRAM is a leading indicator because it sits at the intersection of investment (capex) and consumption (device demand). When corporations are about to cut IT budgets or consumers pull back on electronics, it shows up in DRAM orders first — before GDP revisions. The Ramification Index formalizes this: 6 of 6 NBER recessions since 1980 were preceded by a RI downturn.',
+   facts:[
+     'Granger causality: RI Granger-causes real GDP (F = 5.83, p < 0.01)',
+     'Correlation with real GDP YoY: r = 0.41 over 44 years',
+     'Lead time: typically 1–3 quarters ahead of NBER recession calls',
+     '2026 signal: RI surge + GDP deceleration = stagflationary DRAM shock',
+   ]},
+  {tag:'mechanism',tagLabel:'Mechanism',
+   h:'The HBM supercycle and AI\'s insatiable RAM appetite',
+   p:'High-Bandwidth Memory (HBM) is DRAM stacked in 3D and bonded directly to GPUs via silicon interposers. An Nvidia H100 contains 80GB of HBM3 — 80× the RAM in a typical laptop. The AI training boom created a demand spike so acute that HBM now consumes capacity that previously produced commodity DDR, tightening both markets simultaneously.',
+   facts:[
+     'HBM price: ~$19/GB vs DDR5 at $18/GB — parity reached in 2026',
+     'Nvidia H100/H200: 80–141GB HBM3/3E per chip',
+     'SK Hynix allocated ~50% of DRAM capacity to HBM by late 2024',
+     'HBM capacity diversion directly raises commodity DRAM prices',
+   ]},
+  {tag:'advanced',tagLabel:'Advanced',
+   h:'RAMageddon 2026: the convergence event',
+   p:'RAMageddon is the term coined in the v2 paper for the 2025–2026 period when the commodity DRAM super-spike and GDP deceleration converge. Unlike prior cycles, this is driven by supply divergence rather than demand collapse — manufacturers are capacity-constrained by HBM conversion costs, and AI capex crowds out server DRAM upgrades. The result: a bifurcated index where commodity and AI sub-indices decouple.',
+   facts:[
+     'DDR5 spot up +293% YoY; HBM up only +18% YoY',
+     'RI composite: 0.863 — highest since 1995',
+     'GDP 2026 projection: +1.5% (decelerating from 2.2% in 2025)',
+     'Bifurcation: R_C = 1.367 vs R_AI = 0.167 — spread of 1.20',
+   ]},
+  {tag:'methodology',tagLabel:'Methodology',
+   h:'How to read the Ramification Index',
+   p:'The RI is computed as the standardized log-difference of real DRAM price ($/GB). Positive values mean prices rose faster than long-run trend (supply tightening). Negative means prices fell (oversupply). The bifurcated v2 adds two sub-indices weighted by HBM\'s share of total DRAM revenue, which grows each year as AI demand scales.',
+   facts:[
+     'RI > 0: supply constrained → inflationary pressure on downstream tech',
+     'RI < −0.5: oversupply → typically precedes or accompanies recession',
+     'Bifurcated: R_C and R_AI diverge > 1.0 → structural market split',
+     'HBM weight ω: 0.18 (2024) → 0.30 (2025) → 0.42 (2026)',
+   ],
+   cta:{label:'Read full methodology →', href:'paper.html'}},
+  {tag:'advanced',tagLabel:'Advanced',
+   h:'The semiconductor supply chain: who makes what',
+   p:'DRAM manufacturing is vertically integrated — the same companies design and fabricate the chips. But HBM adds complexity: Samsung and SK Hynix stack DRAM dies using their own processes, while TSMC provides the logic die for the GPU package. Micron is the only US-based DRAM maker, which gives it strategic importance under the CHIPS Act.',
+   facts:[
+     'Samsung: largest DRAM + NAND maker globally; also foundry competitor to TSMC',
+     'SK Hynix: dominant in HBM3/3E; first to supply Nvidia at volume',
+     'Micron: only US-listed pure-play; benefits from CHIPS Act subsidies',
+     'TSMC: does not make DRAM, but packages HBM with GPU dies (CoWoS)',
+   ]},
+];
+
+function renderLearn(idx){
+  const body = document.getElementById('learn-body');
+  const d = LEARN[idx];
+  const colorMap = {primer:'var(--ram)',mechanism:'var(--hbm)',advanced:'var(--hemline)',methodology:'var(--mui)'};
+  body.innerHTML = `
+    <div class="lb-tag" style="color:${colorMap[d.tag]}">${d.tagLabel.toUpperCase()}</div>
+    <div class="lb-h">${d.h}</div>
+    <div class="lb-p">${d.p}</div>
+    <div class="lb-facts">
+      ${d.facts.map(f=>`<div class="lb-fact"><span class="lb-fact-marker">→</span><span>${f}</span></div>`).join('')}
+    </div>
+    ${d.cta?`<a class="lb-cta" href="${d.cta.href}">${d.cta.label}</a>`:''}
+  `;
+}
+
+// ── NAVIGATION ────────────────────────────────────────────
+document.querySelectorAll('.np').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.np').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('section').forEach(s=>s.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('sec-'+btn.dataset.sec).classList.add('active');
+    if(btn.dataset.sec==='index'){
+      requestAnimationFrame(()=>{drawChart('chart-ri-mini',120,false);drawChart('chart-ri-full',240,true);});
+    }
+  });
+});
+
+document.querySelectorAll('.ln-item').forEach(item=>{
+  item.addEventListener('click',()=>{
+    document.querySelectorAll('.ln-item').forEach(x=>x.classList.remove('active'));
+    item.classList.add('active');
+    renderLearn(+item.dataset.learn);
+  });
+});
+
+// ── BOOT ─────────────────────────────────────────────────
+window.addEventListener('load',()=>{
+  drawChart('chart-ri-mini',120,false);
+  drawChart('chart-ri-full',240,true);
+  Object.entries(SPARKS).forEach(([id,[data,color]])=>drawMiniSparkline(id,data,color));
+  loadStocks();
+  renderLearn(0);
+  setInterval(loadStocks, 15*60*1000);
+});
+window.addEventListener('resize',()=>{
+  drawChart('chart-ri-mini',120,false);
+  drawChart('chart-ri-full',240,true);
+  Object.entries(SPARKS).forEach(([id,[data,color]])=>drawMiniSparkline(id,data,color));
+});
 </script>
-
 </body>
 </html>
