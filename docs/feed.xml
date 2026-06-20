@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://ram-index.com/feed.xml</id>
+  <title>The RAM Index — Memory Market Intelligence</title>
+  <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
+  <link href="https://ram-index.com/feed.xml" rel="self" />
+  <link href="https://ram-index.com" />
+  <updated>2026-06-07T07:09:12.391Z</updated>
+  <author><name>Khayyam Wakil / The ARC Institute of Knowware</name></author>
+  <rights>CC BY 4.0 — The ARC Institute of Knowware</rights>
+
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/ram/lexar-regional-manager-says-that-ram-prices-are-expected-to-double-by-the-end-of-the-year-discounts-and-stabilized-prices-result-from-distributors-getting-rid-of-old-stock-or-sourcing-products-from-other-regions</id>
+    <title type="html">Lexar regional manager says that RAM prices are expected to double by the end of the year — 'discounts' and stabilized prices result from distributors getting rid of old stock or sourcing products from other regions</title>
+    <link href="https://www.tomshardware.com/pc-components/ram/lexar-regional-manager-says-that-ram-prices-are-expected-to-double-by-the-end-of-the-year-discounts-and-stabilized-prices-result-from-distributors-getting-rid-of-old-stock-or-sourcing-products-from-other-regions" />
+    <updated>2026-06-07T07:09:12.391Z</updated>
+    <author><name>tomshardware.com</name></author>
+    <summary type="html">Don't get your hopes up.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Don't get your hopes up.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=h6GWikWlAQA&amp;t=11s</id>
+    <title type="html">Making RAM at Home</title>
+    <link href="https://www.youtube.com/watch?v=h6GWikWlAQA&amp;t=11s" />
+    <updated>2026-04-28T21:20:14.650Z</updated>
+    <author><name>youtube.com</name></author>
+    <summary type="html">Thanks for the support! https://www.patreon.com/cw/DrSemiconductor Shoutout to Projects in Flight for a helpful reference on the doping:https://www.youtube.c...</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Thanks for the support! https://www.patreon.com/cw/DrSemiconductor Shoutout to Projects in Flight for a helpful reference on the doping:https://www.youtube.c...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://phys.org/news/2026-04-mind-gap-semiconductor-industry-wrong.html</id>
+    <title type="html">Mind the gap! The semiconductor industry is relying on the wrong materials</title>
+    <link href="https://phys.org/news/2026-04-mind-gap-semiconductor-industry-wrong.html" />
+    <updated>2026-04-22T18:43:13.257Z</updated>
+    <author><name>phys.org</name></author>
+    <summary type="html">2D materials are widely seen as a promising path toward better computer chips. Researchers at TU Wien have now shown that some of these materials are unsuitable due to an underestimated effect. But there are alternatives.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;2D materials are widely seen as a promising path toward better computer chips. Researchers at TU Wien have now shown that some of these materials are unsuitable due to an underestimated effect. But there are alternatives.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/dram/dr-semiconductor-successfully-fabs-ram-in-garden-shed-cleanroom-array-of-memory-cells-with-12pf-capacitance-groundwork-for-much-larger-future-array</id>
+    <title type="html">Enthusiast builds his own RAM in garden shed cleanroom — fledgling array of memory cells groundwork for much larger future project | Tom's Hardware</title>
+    <link href="https://www.tomshardware.com/pc-components/dram/dr-semiconductor-successfully-fabs-ram-in-garden-shed-cleanroom-array-of-memory-cells-with-12pf-capacitance-groundwork-for-much-larger-future-array" />
+    <updated>2026-04-22T18:41:52.096Z</updated>
+    <author><name>tomshardware.com</name></author>
+    <summary type="html">One small step, but the good doctor asks us to ‘stay tuned’ for a PC scale result.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;One small step, but the good doctor asks us to ‘stay tuned’ for a PC scale result.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://towardsdatascience.com/a-guide-to-gpu-utilization/</id>
+    <title type="html">A Guide to Understanding GPUs and Maximizing GPU Utilization | Towards Data Science</title>
+    <link href="https://towardsdatascience.com/a-guide-to-gpu-utilization/" />
+    <updated>2026-04-20T09:23:57.256Z</updated>
+    <author><name>towardsdatascience.com</name></author>
+    <summary type="html">In an age of constrained compute, learn how to optimize GPU efficiency through understanding architecture, bottlenecks, and fixes ranging from simple PyTorch commands to custom kernels.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;In an age of constrained compute, learn how to optimize GPU efficiency through understanding architecture, bottlenecks, and fixes ranging from simple PyTorch commands to custom kernels.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.nytimes.com/2026/04/17/technology/cerebras-public-offering-ai.html</id>
+    <title type="html">Cerebras, an A.I. Chip Maker, Files to Go Public as Tech Offerings Ramp Up - The New York Times</title>
+    <link href="https://www.nytimes.com/2026/04/17/technology/cerebras-public-offering-ai.html" />
+    <updated>2026-04-20T09:12:56.985Z</updated>
+    <author><name>nytimes.com</name></author>
+    <summary type="html">The Silicon Valley chip maker filed a prospectus just as SpaceX, Anthropic and OpenAI prepare for their own listings, in what is shaping up to be a wave of enormous initial public offerings.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;The Silicon Valley chip maker filed a prospectus just as SpaceX, Anthropic and OpenAI prepare for their own listings, in what is shaping up to be a wave of enormous initial public offerings.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.linkedin.com/posts/laurie-kirk_modern-dram-is-based-on-a-brilliant-design-ugcPost-7447333928362754048-7jzK?utm_source=share&amp;utm_medium=member_android&amp;rcm=ACoAAAJEO3EBTjILifO8AHt_ADunz2h7S7UxJDc</id>
+    <title type="html">Modern DRAM is based on a brilliant design from IBM. But, we're still paying for a latency penalty that's existed since the 60s! In this video, I'm introducing my personal research project… | Laurie Kirk | 25 comments</title>
+    <link href="https://www.linkedin.com/posts/laurie-kirk_modern-dram-is-based-on-a-brilliant-design-ugcPost-7447333928362754048-7jzK?utm_source=share&amp;utm_medium=member_android&amp;rcm=ACoAAAJEO3EBTjILifO8AHt_ADunz2h7S7UxJDc" />
+    <updated>2026-04-08T02:07:44.615Z</updated>
+    <author><name>linkedin.com</name></author>
+    <summary type="html">Modern DRAM is based on a brilliant design from IBM.
+
+But, we're still paying for a latency penalty that's existed since the 60s!
+
+In this video, I'm introducing my personal research project (Tailslayer) that immensely reduces p99.99 latency on traditional RAM!
+
+By implementing a hedged read strategy taking advantage of (undocumented!) channel scrambling offsets, I've gotten as much as 15x reductions in tail latency.
+
+The technique works across Intel, AMD, Graviton, DDR4, DDR5, x86, ARM, you name it.
+
+Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 comments on LinkedIn</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Modern DRAM is based on a brilliant design from IBM.
+
+But, we're still paying for a latency penalty that's existed since the 60s!
+
+In this video, I'm introducing my personal research project (Tailslayer) that immensely reduces p99.99 latency on traditional RAM!
+
+By implementing a hedged read strategy taking advantage of (undocumented!) channel scrambling offsets, I've gotten as much as 15x reductions in tail latency.
+
+The technique works across Intel, AMD, Graviton, DDR4, DDR5, x86, ARM, you name it.
+
+Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 comments on LinkedIn&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/new-cambridge-human-brain-inspired-chip-could-slash-ai-energy-use</id>
+    <title type="html">New Cambridge human brain-inspired chip could slash AI energy use — new type of memristor has roughly a million times lower switching current than conventional devices | Tom's Hardware</title>
+    <link href="https://www.tomshardware.com/tech-industry/new-cambridge-human-brain-inspired-chip-could-slash-ai-energy-use" />
+    <updated>2026-03-29T21:48:53.021Z</updated>
+    <author><name>tomshardware.com</name></author>
+    <summary type="html">The devices use a self-assembled p-n junction inside the oxide film instead of conductive filaments.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;The devices use a self-assembled p-n junction inside the oxide film instead of conductive filaments.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=NbJUT_NKnAU</id>
+    <title type="html">Black Semiconductor Integrated Graphene Photonics™ Technology</title>
+    <link href="https://www.youtube.com/watch?v=NbJUT_NKnAU" />
+    <updated>2026-03-27T09:19:04.746Z</updated>
+    <author><name>youtube.com</name></author>
+    <summary type="html">Discover what's at the heart of Black Semiconductor.Black Semiconductor Integrated Graphene Photonics™ (IGP) Technology introduces a new compute chip categor...</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Discover what's at the heart of Black Semiconductor.Black Semiconductor Integrated Graphene Photonics™ (IGP) Technology introduces a new compute chip categor...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.makingsoftware.com/chapters/how-is-data-stored</id>
+    <title type="html">Making Software: How is data stored?</title>
+    <link href="https://www.makingsoftware.com/chapters/how-is-data-stored" />
+    <updated>2026-03-16T12:36:21.035Z</updated>
+    <author><name>makingsoftware.com</name></author>
+    <summary type="html">Invariably, it involves trying to trap electrons in increasingly complicated ways.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Invariably, it involves trying to trap electrons in increasingly complicated ways.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.nature.com/articles/s41467-026-68648-1</id>
+    <title type="html">Inverse-designed nanophotonic neural network accelerators for ultra-compact optical computing | Nature Communications</title>
+    <link href="https://www.nature.com/articles/s41467-026-68648-1" />
+    <updated>2026-03-05T18:54:34.551Z</updated>
+    <author><name>nature.com</name></author>
+    <summary type="html">Scaling of optical computing requires computationally dense and efficient hardware. Here, the authors inverse-design and experimentally demonstrate ultracompact nanophotonic neural network accelerators with high computational density, enabling scalable and energy-efficient analog photonic computing.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Scaling of optical computing requires computationally dense and efficient hardware. Here, the authors inverse-design and experimentally demonstrate ultracompact nanophotonic neural network accelerators with high computational density, enabling scalable and energy-efficient analog photonic computing.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/ram/john-carmack-muses-using-a-long-fiber-line-as-as-an-l2-cache-for-streaming-ai-data-programmer-imagines-fiber-as-alternative-to-dram</id>
+    <title type="html">John Carmack muses using a long fiber line as an L2 cache for streaming AI data — programmer imagines fiber as alternative to DRAM</title>
+    <link href="https://www.tomshardware.com/pc-components/ram/john-carmack-muses-using-a-long-fiber-line-as-as-an-l2-cache-for-streaming-ai-data-programmer-imagines-fiber-as-alternative-to-dram" />
+    <updated>2026-03-03T03:49:01.834Z</updated>
+    <author><name>tomshardware.com</name></author>
+    <summary type="html">Yes, it's delay-line memory, but with lasers!</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Yes, it's delay-line memory, but with lasers!&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=-YNk9_e4pg4</id>
+    <title type="html">The RAM Crisis Keeps Getting Worse</title>
+    <link href="https://www.youtube.com/watch?v=-YNk9_e4pg4" />
+    <updated>2026-03-01T07:10:30.690Z</updated>
+    <author><name>youtube.com</name></author>
+    <summary type="html">Visit https://brilliant.org/coldfusion for 20% off a premium subscription.In this episode we cover the insane supply shortage of RAM due to the AI buildout. ...</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Visit https://brilliant.org/coldfusion for 20% off a premium subscription.In this episode we cover the insane supply shortage of RAM due to the AI buildout. ...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.calcalistech.com/ctechnews/article/hkphis00l11g</id>
+    <title type="html">Tower Semiconductor surges to $15 billion valuation, tripling Intel’s abandoned bid | Ctech</title>
+    <link href="https://www.calcalistech.com/ctechnews/article/hkphis00l11g" />
+    <updated>2026-01-31T02:47:31.679Z</updated>
+    <author><name>calcalistech.com</name></author>
+    <summary type="html">Shares are up more than 160% in six months as investors embrace the AI infrastructure story.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Shares are up more than 160% in six months as investors embrace the AI infrastructure story.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=gWUX2OTqkEo</id>
+    <title type="html">Georgia Tech Researchers Create First Functional Graphene Semiconductor</title>
+    <link href="https://www.youtube.com/watch?v=gWUX2OTqkEo" />
+    <updated>2026-01-26T09:47:01.906Z</updated>
+    <author><name>youtube.com</name></author>
+    <summary type="html">A team of researchers at Georgia Tech and Tianjin University has created the world’s first functional semiconductor made from graphene, a single sheet of car...</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;A team of researchers at Georgia Tech and Tianjin University has created the world’s first functional semiconductor made from graphene, a single sheet of car...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://sc.mp/jg173</id>
+    <title type="html">Chinese scientists shrink semiconductor chip into fibre as thin as human hair</title>
+    <link href="https://sc.mp/jg173" />
+    <updated>2026-01-25T11:11:29.045Z</updated>
+    <author><name>sc.mp</name></author>
+    <summary type="html">Advance allows fibres to compute like chips or display information like transistors, paving the way for machine-wearable smart textiles.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Advance allows fibres to compute like chips or display information like transistors, paving the way for machine-wearable smart textiles.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.reuters.com/legal/litigation/adeia-sues-amd-patent-infringement-over-semiconductor-technology-2025-11-03/</id>
+    <title type="html">Adeia sues AMD for patent infringement over semiconductor technology | Reuters</title>
+    <link href="https://www.reuters.com/legal/litigation/adeia-sues-amd-patent-infringement-over-semiconductor-technology-2025-11-03/" />
+    <updated>2025-11-03T23:59:05.495Z</updated>
+    <author><name>reuters.com</name></author>
+    <summary type="html">Technology licensing company Adeia filed two lawsuits against Advanced Micro Devices in Texas federal court on Monday for allegedly infringing ten patents related to semiconductor innovations.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Technology licensing company Adeia filed two lawsuits against Advanced Micro Devices in Texas federal court on Monday for allegedly infringing ten patents related to semiconductor innovations.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=KCWDzWG1BcI</id>
+    <title type="html">3D NAND: The Most Scalable Semiconductor</title>
+    <link href="https://www.youtube.com/watch?v=KCWDzWG1BcI" />
+    <updated>2025-10-19T22:55:55.947Z</updated>
+    <author><name>youtube.com</name></author>
+    <summary type="html">16:12 - Typo, meant to say 2013 not 2023Links:- Patreon (Support the channel directly!): https://www.patreon.com/Asianometry- X: https://twitter.com/asianome...</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;16:12 - Typo, meant to say 2013 not 2023Links:- Patreon (Support the channel directly!): https://www.patreon.com/Asianometry- X: https://twitter.com/asianome...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://techxplore.com/news/2025-10-scientists-stacking-semiconductor-transistors-large.html</id>
+    <title type="html">Scientists smash record in stacking semiconductor transistors for large-area electronics</title>
+    <link href="https://techxplore.com/news/2025-10-scientists-stacking-semiconductor-transistors-large.html" />
+    <updated>2025-10-17T22:26:46.945Z</updated>
+    <author><name>techxplore.com</name></author>
+    <summary type="html">King Abdullah University of Science and Technology (KAUST; Saudi Arabia) researchers have set a record in microchip design, achieving the first six-stack hybrid CMOS (complementary metal-oxide semiconductor) for large-area electronics. With no other reported hybrid CMOS exceeding two stacks, the feat marks a new benchmark in integration density and efficiency, opening possibilities in electronic miniaturization and performance.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;King Abdullah University of Science and Technology (KAUST; Saudi Arabia) researchers have set a record in microchip design, achieving the first six-stack hybrid CMOS (complementary metal-oxide semiconductor) for large-area electronics. With no other reported hybrid CMOS exceeding two stacks, the feat marks a new benchmark in integration density and efficiency, opening possibilities in electronic miniaturization and performance.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://semiengineering.com/what-does-semiconductor-disruption-look-like/</id>
+    <title type="html">What Does Semiconductor Disruption Look Like?</title>
+    <link href="https://semiengineering.com/what-does-semiconductor-disruption-look-like/" />
+    <updated>2025-09-26T14:22:12.514Z</updated>
+    <author><name>semiengineering.com</name></author>
+    <summary type="html">While everybody seems to agree that AI will disrupt semiconductor design and EDA tools, nobody has yet suggested what a disrupted flow would actually look like.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;While everybody seems to agree that AI will disrupt semiconductor design and EDA tools, nobody has yet suggested what a disrupted flow would actually look like.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=dLub_yL8lhQ</id>
+    <title type="html">Semiconductor Industry Overview - Types of Semiconductor Products</title>
+    <link href="https://www.youtube.com/watch?v=dLub_yL8lhQ" />
+    <updated>2025-09-08T06:24:55.181Z</updated>
+    <author><name>youtube.com</name></author>
+    <summary type="html">#logicchips #memorychips #DAO #CPU #GPU #ROM #RAM #chips #semiconductors There is no one-size-fits-all semiconductor.  In fact, semiconductor is a pretty bro...</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;#logicchips #memorychips #DAO #CPU #GPU #ROM #RAM #chips #semiconductors There is no one-size-fits-all semiconductor.  In fact, semiconductor is a pretty bro...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://techcrunch.com/2025/07/31/female-founded-semiconductor-ai-startup-sixsense-raises-funding/</id>
+    <title type="html">Female-founded semiconductor AI startup SixSense raises $8.5M | TechCrunch</title>
+    <link href="https://techcrunch.com/2025/07/31/female-founded-semiconductor-ai-startup-sixsense-raises-funding/" />
+    <updated>2025-08-01T04:34:46.355Z</updated>
+    <author><name>techcrunch.com</name></author>
+    <summary type="html">SixSense offers an AI-powered platform that helps chip makers prevent defects. It landed backing led by Peak XV’s Surge (formerly Sequoia India &amp; SEA).</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;SixSense offers an AI-powered platform that helps chip makers prevent defects. It landed backing led by Peak XV’s Surge (formerly Sequoia India &amp; SEA).&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://interestingengineering.com/innovation/semiconductor-ev-autonomy-testing-more-efficient</id>
+    <title type="html">Semiconductor, EV autonomy testing becomes more efficient with Nigel AI</title>
+    <link href="https://interestingengineering.com/innovation/semiconductor-ev-autonomy-testing-more-efficient" />
+    <updated>2025-07-28T12:39:46.625Z</updated>
+    <author><name>interestingengineering.com</name></author>
+    <summary type="html">The solution offers greater proficiency in addressing the complexity of test and measurement across industries like semiconductor, transportation, and electronics.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;The solution offers greater proficiency in addressing the complexity of test and measurement across industries like semiconductor, transportation, and electronics.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.thestreet.com/technology/unexpected-chip-deal-may-reshape-the-semiconductor-market</id>
+    <title type="html">Unexpected chip deal may reshape the semiconductor market - TheStreet</title>
+    <link href="https://www.thestreet.com/technology/unexpected-chip-deal-may-reshape-the-semiconductor-market" />
+    <updated>2025-07-13T04:52:31.456Z</updated>
+    <author><name>thestreet.com</name></author>
+    <summary type="html">A semiconductor giant announces a surprising acquisition.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;A semiconductor giant announces a surprising acquisition.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://share.google/00bgAmqdO0Atvodgd</id>
+    <title type="html">World’s first semiconductor made by quantum tech stuns chip industry</title>
+    <link href="https://share.google/00bgAmqdO0Atvodgd" />
+    <updated>2025-07-05T19:56:39.301Z</updated>
+    <author><name>share.google</name></author>
+    <summary type="html">In a first, Australian scientists turned to quantum machine learning to model semiconductor design, outperforming classical approaches.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;In a first, Australian scientists turned to quantum machine learning to model semiconductor design, outperforming classical approaches.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.bleepingcomputer.com/news/security/new-rambo-attack-steals-data-using-ram-in-air-gapped-computers/</id>
+    <title type="html">New RAMBO attack steals data using RAM in air-gapped computers</title>
+    <link href="https://www.bleepingcomputer.com/news/security/new-rambo-attack-steals-data-using-ram-in-air-gapped-computers/" />
+    <updated>2024-09-09T08:11:58.520Z</updated>
+    <author><name>bleepingcomputer.com</name></author>
+    <summary type="html">A novel side-channel attack dubbed  &quot;RAMBO&quot; (Radiation of Air-gapped Memory Bus for Offense) generates electromagnetic radiation from a device's RAM to send data from air-gapped computers.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;A novel side-channel attack dubbed  &quot;RAMBO&quot; (Radiation of Air-gapped Memory Bus for Offense) generates electromagnetic radiation from a device's RAM to send data from air-gapped computers.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=Bu52CE55BN0</id>
+    <title type="html">‘Semiconductor Manufacturing Process’ Explained | 'All About Semiconductor' by Samsung Semiconductor</title>
+    <link href="https://www.youtube.com/watch?v=Bu52CE55BN0" />
+    <updated>2024-06-06T09:01:41.922Z</updated>
+    <author><name>youtube.com</name></author>
+    <summary type="html">What is the process by which silicon is transformed into a semiconductor chip?As the second most prevalent material on earth, silicon is used in the semicond...</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;What is the process by which silicon is transformed into a semiconductor chip?As the second most prevalent material on earth, silicon is used in the semicond...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=WKHKy89QaV0</id>
+    <title type="html">Inside Micron Taiwan’s Semiconductor Factory | Taiwan’s Mega Factories EP1</title>
+    <link href="https://www.youtube.com/watch?v=WKHKy89QaV0" />
+    <updated>2024-06-06T09:01:34.851Z</updated>
+    <author><name>youtube.com</name></author>
+    <summary type="html">Join us for a tour of Micron Technology’s Taiwan chip manufacturing facilities to discover how chips are produced and how innovations in the semiconductor in...</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Join us for a tour of Micron Technology’s Taiwan chip manufacturing facilities to discover how chips are produced and how innovations in the semiconductor in...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=_TOCRjF9WuE</id>
+    <title type="html">The race for semiconductor supremacy | FT Film</title>
+    <link href="https://www.youtube.com/watch?v=_TOCRjF9WuE" />
+    <updated>2024-06-06T09:01:23.828Z</updated>
+    <author><name>youtube.com</name></author>
+    <summary type="html">The US is bidding to regain a leading role in advanced chip manufacturing, to de-risk critical supply chains, and to combat China's rise as a technological s...</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;The US is bidding to regain a leading role in advanced chip manufacturing, to de-risk critical supply chains, and to combat China's rise as a technological s...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://executivegov.com/2024/04/proposed-samsung-chips-and-science-act-investment-to-bolster-semiconductor-industry-in-texas/</id>
+    <title type="html">Proposed Samsung CHIPS and Science Act Investment to Bolster Semiconductor Industry in Texas</title>
+    <link href="https://executivegov.com/2024/04/proposed-samsung-chips-and-science-act-investment-to-bolster-semiconductor-industry-in-texas/" />
+    <updated>2024-04-17T05:20:58.734Z</updated>
+    <author><name>executivegov.com</name></author>
+    <summary type="html">Looking for the latest Government Contracting News? Read about Proposed Samsung CHIPS and Science Act Investment to Bolster Semiconductor Industry in Texas.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Looking for the latest Government Contracting News? Read about Proposed Samsung CHIPS and Science Act Investment to Bolster Semiconductor Industry in Texas.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.livescience.com/technology/electronics/worlds-first-graphene-semiconductor-could-power-future-quantum-computers</id>
+    <title type="html">World's 1st graphene semiconductor could power future quantum computers</title>
+    <link href="https://www.livescience.com/technology/electronics/worlds-first-graphene-semiconductor-could-power-future-quantum-computers" />
+    <updated>2024-01-11T22:44:20.916Z</updated>
+    <author><name>livescience.com</name></author>
+    <summary type="html">Scientists overcame a limitation in graphene to harness the material as a working semiconductor at terahertz frequencies with 10 times the mobility of silicon.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Scientists overcame a limitation in graphene to harness the material as a working semiconductor at terahertz frequencies with 10 times the mobility of silicon.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://betakit.com/canadian-government-ups-semiconductor-focus-invests-36-million-in-ranovus/</id>
+    <title type="html">Canadian government ups semiconductor focus, invests $36 million in Ranovus | BetaKit</title>
+    <link href="https://betakit.com/canadian-government-ups-semiconductor-focus-invests-36-million-in-ranovus/" />
+    <updated>2023-04-07T04:41:49.217Z</updated>
+    <author><name>betakit.com</name></author>
+    <summary type="html">Ottawa-based Ranovus Inc. has secured $36 million through the Canadian federal government’s Strategic Innovation Fund.</summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Ottawa-based Ranovus Inc. has secured $36 million through the Canadian federal government’s Strategic Innovation Fund.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://techxplore.com/news/2023-02-neuromorphic-semiconductor-device-world-highest.html</id>
+    <title type="html">Neuromorphic semiconductor device achieves world's highest handwriting pattern recognition rate</title>
+    <link href="https://techxplore.com/news/2023-02-neuromorphic-semiconductor-device-world-highest.html" />
+    <updated>2023-02-20T22:19:44.498Z</updated>
+    <author><name>techxplore.com</name></author>
+    <summary type="html"></summary>
+    <category term="raindrop" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>
