@@ -1903,7 +1903,9 @@ async function loadFeed(){
       </div>`;
     }).join('');
     if(window._feedFilterHook) window._feedFilterHook();
-    document.getElementById('feed-tree-main')?.setData(treeItems);
+    ['feed-tree-main', 'feed-tree-index', 'feed-tree-home'].forEach(id => {
+      document.getElementById(id)?.setData(treeItems);
+    });
   }catch{
     container.innerHTML = '<div class="fi-empty">Live feed unavailable — check back shortly.</div>';
   }
@@ -2121,6 +2123,7 @@ window.addEventListener('load',()=>{
   Object.entries(SPARKS).forEach(([id,[data,color]])=>drawMiniSparkline(id,data,color));
   loadStocks();
   renderLearn(0);
+  loadFeed();
   setInterval(loadStocks, 15*60*1000);
 });
 window.addEventListener('resize',()=>{
