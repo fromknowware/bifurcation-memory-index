@@ -18,7 +18,7 @@ const FEED_META = {
   siteUrl: 'https://ram-index.com',
   feedUrl: 'https://ram-index.com/feed.xml',
   author: 'Khayyam Wakil / The ARC Institute of Knowware',
-  maxItems: 100,
+  maxItems: 10000,
 };
 
 const GITHUB_FILE_PATH = 'docs/feed.xml';
