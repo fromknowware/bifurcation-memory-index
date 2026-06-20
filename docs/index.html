@@ -1105,6 +1105,14 @@ audio{
 // Quarterly RI estimates derived from DDR5/DDR4/HBM price progression.
 // Used for the mini strip chart only — full annual series in RI[] below.
 const RI_QUARTERLY = [
+  // 2016 — DRAM recovery, prices bottoming and turning
+  {q:'Q1\'16',v:0.10},{q:'Q2\'16',v:0.22},{q:'Q3\'16',v:0.35},{q:'Q4\'16',v:0.32},
+  // 2017 — DRAM super-cycle, prices surge 40%+
+  {q:'Q1\'17',v:0.38},{q:'Q2\'17',v:0.52},{q:'Q3\'17',v:0.65},{q:'Q4\'17',v:0.57},
+  // 2018 — cycle peak in H1, demand destruction begins H2
+  {q:'Q1\'18',v:0.60},{q:'Q2\'18',v:0.55},{q:'Q3\'18',v:0.42},{q:'Q4\'18',v:0.44},
+  // 2019 — DRAM glut crash, prices fall 50%
+  {q:'Q1\'19',v:0.10},{q:'Q2\'19',v:-0.45},{q:'Q3\'19',v:-0.90},{q:'Q4\'19',v:-0.85},
   // 2020 — COVID recession trough, DRAM demand crash then recovery
   {q:'Q1\'20',v:-0.38,r:1},{q:'Q2\'20',v:-0.61,r:1},{q:'Q3\'20',v:-0.22,r:1},{q:'Q4\'20',v:0.00,r:0},
   // 2021 — post-COVID demand surge, DRAM super-cycle begins
