@@ -100,7 +100,7 @@ a{color:inherit;text-decoration:none;}
 /* ── HEADER ──────────────────────────────────────── */
 header{
   display:grid;
-  grid-template-columns:auto 1fr auto auto auto;
+  grid-template-columns:auto 1fr auto auto auto auto;
   align-items:center;gap:0;
   border-bottom:1px solid var(--line);
   background:var(--bg1);
@@ -511,6 +511,71 @@ audio{
   accent-color:var(--ram);height:32px;
 }
 
+/* ── EXPLAINER PANEL ─────────────────────────────── */
+#explainer-btn{
+  background:none;border:none;border-left:1px solid var(--line);
+  color:var(--muted);font-family:var(--mono);font-size:13px;font-weight:700;
+  height:100%;padding:0 14px;cursor:pointer;transition:color 0.1s;
+}
+#explainer-btn:hover{color:var(--bright);}
+#explainer-overlay{
+  display:none;position:fixed;inset:0;background:rgba(0,0,0,0.4);
+  z-index:200;backdrop-filter:blur(2px);
+}
+#explainer-overlay.open{display:block;}
+#explainer-panel{
+  position:fixed;top:0;right:0;bottom:0;width:420px;max-width:100vw;
+  background:var(--bg1);border-left:1px solid var(--line2);
+  z-index:201;display:flex;flex-direction:column;
+  transform:translateX(100%);transition:transform 0.22s cubic-bezier(0.16,1,0.3,1);
+  overflow:hidden;
+}
+#explainer-panel.open{transform:translateX(0);}
+.exp-header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 24px;border-bottom:1px solid var(--line);flex-shrink:0;
+}
+.exp-title{
+  font-family:var(--mono);font-size:11px;font-weight:700;
+  letter-spacing:0.1em;text-transform:uppercase;color:var(--sub);
+}
+#explainer-close{
+  background:none;border:none;color:var(--muted);font-size:14px;
+  cursor:pointer;padding:4px;line-height:1;
+}
+#explainer-close:hover{color:var(--bright);}
+.exp-body{flex:1;overflow-y:auto;padding:24px;}
+.exp-block{margin-bottom:28px;}
+.exp-block-h{
+  font-family:var(--mono);font-size:9px;font-weight:700;
+  letter-spacing:0.14em;text-transform:uppercase;color:var(--ram);
+  margin-bottom:8px;
+}
+.exp-block-p{font-size:12px;color:var(--sub);line-height:1.75;}
+.exp-block-p strong{color:var(--text);}
+.exp-hi{color:var(--ram) !important;}
+.exp-tabs-grid{display:flex;flex-direction:column;gap:0;border:1px solid var(--line);}
+.exp-tab-row{
+  display:grid;grid-template-columns:80px 1fr;gap:12px;
+  padding:9px 12px;border-bottom:1px solid var(--line);
+  font-size:11px;
+}
+.exp-tab-row:last-child{border-bottom:none;}
+.exp-tab-name{font-family:var(--mono);font-weight:700;color:var(--text);}
+.exp-tab-desc{color:var(--muted);line-height:1.5;}
+.exp-footer{
+  display:flex;gap:12px;flex-wrap:wrap;
+  padding-top:4px;
+}
+.exp-cta{
+  font-family:var(--mono);font-size:10px;font-weight:700;
+  letter-spacing:0.06em;color:var(--ram);text-decoration:none;
+  border:1px solid var(--ram);padding:7px 14px;
+}
+.exp-cta:hover{background:rgba(232,164,40,0.08);}
+.exp-cta.secondary{color:var(--sub);border-color:var(--line);}
+.exp-cta.secondary:hover{border-color:var(--sub);color:var(--text);}
+
 /* ── SIGNAL FEED ─────────────────────────────────── */
 .feed-layout{display:grid;grid-template-columns:1fr 280px;flex:1;min-height:0;overflow:hidden;}
 .feed-list{border-right:1px solid var(--line);overflow-y:auto;}
@@ -878,8 +943,47 @@ audio{
     <button class="np" data-sec="feed">Feed</button>
   </nav>
   <button id="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle light/dark">◐</button>
+  <button id="explainer-btn" aria-label="What am I looking at?" title="What am I looking at?">?</button>
   <div class="hd-ts" id="hd-ts">—</div>
 </header>
+
+<!-- EXPLAINER PANEL -->
+<div id="explainer-overlay" aria-hidden="true"></div>
+<aside id="explainer-panel" role="dialog" aria-modal="true" aria-label="What is RAM Monitor?">
+  <div class="exp-header">
+    <div class="exp-title">What am I looking at?</div>
+    <button id="explainer-close" aria-label="Close">✕</button>
+  </div>
+  <div class="exp-body">
+    <div class="exp-block">
+      <div class="exp-block-h">The Ramification Index</div>
+      <div class="exp-block-p">The RI is a macroeconomic indicator built on DRAM memory prices. DRAM sits at the intersection of corporate investment and consumer demand — making it one of the earliest leading signals in the global economy. The current reading is <strong class="exp-hi">0.863</strong>, the highest since 1995.</div>
+    </div>
+    <div class="exp-block">
+      <div class="exp-block-h">Why DRAM?</div>
+      <div class="exp-block-p">6 of 6 NBER recessions since 1980 were preceded by a Ramification Index downturn. Prices swing 50–80% within a single year. Only three companies — Samsung, SK Hynix, and Micron — control ~95% of global supply, making the market unusually sensitive to macro shifts.</div>
+    </div>
+    <div class="exp-block">
+      <div class="exp-block-h">The 2026 Bifurcation</div>
+      <div class="exp-block-p">The v2 index splits into two sub-indices: <strong>R<sub>C</sub></strong> (commodity DRAM, +293% YoY) and <strong>R<sub>AI</sub></strong> (HBM for AI accelerators, +18% YoY). When they diverge past 1.0, the index bifurcates — a structural event documented as RAMageddon 2026. Current gap: <strong class="exp-hi">1.20</strong>.</div>
+    </div>
+    <div class="exp-block">
+      <div class="exp-block-h">Navigating the tabs</div>
+      <div class="exp-tabs-grid">
+        <div class="exp-tab-row"><span class="exp-tab-name">Index</span><span class="exp-tab-desc">Live RI reading, 10-year mini chart, 46-year historical series</span></div>
+        <div class="exp-tab-row"><span class="exp-tab-name">Signals</span><span class="exp-tab-desc">6 DRAM market proxies with price, YoY change, and trend sparklines</span></div>
+        <div class="exp-tab-row"><span class="exp-tab-name">Equities</span><span class="exp-tab-desc">10-stock semiconductor ecosystem, refreshed every 15 min</span></div>
+        <div class="exp-tab-row"><span class="exp-tab-name">Learn</span><span class="exp-tab-desc">6 lessons from DRAM basics to bifurcation methodology</span></div>
+        <div class="exp-tab-row"><span class="exp-tab-name">Research</span><span class="exp-tab-desc">The working paper, audio companion, and full data sources</span></div>
+        <div class="exp-tab-row"><span class="exp-tab-name">Feed</span><span class="exp-tab-desc">Curated supply/demand events annotated with RI implications</span></div>
+      </div>
+    </div>
+    <div class="exp-footer">
+      <a class="exp-cta" href="#" onclick="closeExplainer();document.querySelector('.np[data-sec=learn]').click();return false;">Start with the primer →</a>
+      <a class="exp-cta secondary" href="paper.html">Read the paper →</a>
+    </div>
+  </div>
+</aside>
 
 <main>
 
@@ -1742,6 +1846,22 @@ function handleSubscribe(){
   input.placeholder = 'Noted — newsletter coming soon';
   setTimeout(()=>{ if(input) input.placeholder = 'your@email.com'; }, 4000);
 }
+
+// ── EXPLAINER PANEL ──────────────────────────────────────
+function openExplainer(){
+  document.getElementById('explainer-panel').classList.add('open');
+  document.getElementById('explainer-overlay').classList.add('open');
+  document.getElementById('explainer-panel').removeAttribute('aria-hidden');
+}
+function closeExplainer(){
+  document.getElementById('explainer-panel').classList.remove('open');
+  document.getElementById('explainer-overlay').classList.remove('open');
+  document.getElementById('explainer-panel').setAttribute('aria-hidden','true');
+}
+document.getElementById('explainer-btn').addEventListener('click', openExplainer);
+document.getElementById('explainer-close').addEventListener('click', closeExplainer);
+document.getElementById('explainer-overlay').addEventListener('click', closeExplainer);
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeExplainer(); });
 
 // ── THEME TOGGLE ─────────────────────────────────────────
 (function(){
