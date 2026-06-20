@@ -177,6 +177,24 @@ function renderTreemap(container, data, W, H) {
     })
     .attr('rx', 1);
 
+  // Click → dispatch event with tag/keyword for host to handle
+  cell.style('cursor', 'pointer')
+    .on('click', function(event, d) {
+      const el = this.closest ? this.closest('feed-tree') : null;
+      const detail = { tag: d.data.tag || d.data.name, keyword: d.data.name };
+      if (el) el.dispatchEvent(new CustomEvent('cell-click', { bubbles: true, detail }));
+    })
+    .on('mouseenter', function() {
+      d3.select(this).select('rect').transition().duration(80).attr('fill-opacity', function() {
+        return Math.min(1, parseFloat(d3.select(this).attr('fill-opacity')) + 0.15);
+      });
+    })
+    .on('mouseleave', function(event, d) {
+      const area = (d.x1 - d.x0) * (d.y1 - d.y0);
+      d3.select(this).select('rect').transition().duration(80)
+        .attr('fill-opacity', 0.18 + Math.min(0.55, area / 18000));
+    });
+
   // Label: only if rect is wide enough
   cell.each(function(d) {
     const W = d.x1 - d.x0, H = d.y1 - d.y0;

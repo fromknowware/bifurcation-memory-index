@@ -604,6 +604,9 @@ audio{
 .ff-chip.macro.active   {background:var(--hbm);border-color:var(--hbm);color:var(--bg1);}
 .ff-sep{width:1px;height:14px;background:var(--line2);flex-shrink:0;margin:0 2px;}
 .ff-count{font-family:var(--mono);font-size:10px;color:var(--dim);margin-left:auto;white-space:nowrap;}
+.ff-ps{font-family:var(--mono);font-size:9px;padding:2px 6px;background:none;border:1px solid var(--line2);color:var(--dim);cursor:pointer;letter-spacing:0.04em;}
+.ff-ps.active,.ff-ps:hover{color:var(--text);border-color:var(--line);}
+.ff-ps:disabled{opacity:0.25;cursor:default;}
 .feed-items{flex:1;}
 .fi{
   padding:16px 20px;border-bottom:1px solid var(--line);
@@ -1207,6 +1210,14 @@ audio{
   <div class="data-note">
     Prices are proxy estimates derived from Micron/Samsung/SK Hynix earnings guidance, DRAMeXchange trend reports, and Amazon spot pricing. Exact contract prices are proprietary. These figures track directional movement; the commodity spike (DDR4/5 +188–293%) vs moderated HBM (+18%) defines the 2026 bifurcation.
   </div>
+  <div class="sh" style="margin-top:0;">
+    <span class="sh-title">Signal Landscape</span>
+    <div class="sh-rule"></div>
+    <span class="sh-meta">Keyword topology of the live feed · click any cell to explore</span>
+  </div>
+  <div class="feed-tree-strip" id="home-tree-strip">
+    <feed-tree id="feed-tree-home" src="/feed.xml" max-terms="10" style="display:block;width:100%;height:100%;"></feed-tree>
+  </div>
 </section>
 
 <!-- ══ EQUITIES ══════════════════════════════════════ -->
@@ -1363,7 +1374,15 @@ audio{
         <button class="ff-chip macro" data-filter="macro">MACRO</button>
         <div class="ff-sep"></div>
         <button class="ff-chip pick-chip" data-filter="pick">★ PICK</button>
+        <div class="ff-sep"></div>
+        <button class="ff-ps active" data-size="25">25</button>
+        <button class="ff-ps" data-size="50">50</button>
+        <button class="ff-ps" data-size="75">75</button>
         <span class="ff-count" id="ff-count"></span>
+        <div style="display:flex;gap:4px;margin-left:8px;">
+          <button id="pg-prev" class="ff-ps" style="padding:2px 7px;" disabled>‹</button>
+          <button id="pg-next" class="ff-ps" style="padding:2px 7px;">›</button>
+        </div>
       </div>
       <div class="feed-items">
       <div id="feed-live-items"><div class="fi-loading">Loading live feed…</div></div>
@@ -1415,6 +1434,13 @@ audio{
 </section>
 
 <script src="/feed-tree.js"></script>
+<script>
+// Treemap cell clicks → navigate to feed pre-filtered
+document.addEventListener('cell-click', e=>{
+  const tag = e.detail?.tag;
+  if(window.feedSetFilter) window.feedSetFilter(tag);
+});
+</script>
 
 </main>
 
@@ -1931,29 +1957,50 @@ document.querySelector('.hd-brand').addEventListener('click',()=>{
   document.querySelector('.np[data-sec="index"]').click();
 });
 
-// ── FEED FILTERS ──────────────────────────────────────────
+// ── FEED FILTERS + PAGINATION ─────────────────────────────
 (function(){
   let activeTag = 'all';
   let pickOnly  = false;
+  let page      = 0;
+  let pageSize  = 25;
 
-  function applyFilters(){
-    const items = document.querySelectorAll('.feed-items .fi');
-    let visible = 0;
-    items.forEach(el=>{
+  function getFiltered(){
+    const items = [...document.querySelectorAll('.feed-items .fi')];
+    return items.filter(el=>{
       const tagEl  = el.querySelector('.fi-tag:not(.pick-chip)');
       const tag    = tagEl ? tagEl.className.replace('fi-tag','').trim() : 'supply';
-      const isPick = !!el.querySelector('.fi-tag[style*="ram"]') ||
-                     el.innerHTML.includes('★ PICK') ||
-                     el.dataset.pick === '1';
-      const tagMatch  = activeTag === 'all' || tag === activeTag;
-      const pickMatch = !pickOnly || isPick;
-      const show = tagMatch && pickMatch;
-      el.style.display = show ? '' : 'none';
-      if(show) visible++;
+      const isPick = el.innerHTML.includes('★ PICK') || el.dataset.pick === '1';
+      return (activeTag === 'all' || tag === activeTag) && (!pickOnly || isPick);
     });
-    const total = items.length;
+  }
+
+  function applyFilters(){
+    const all      = [...document.querySelectorAll('.feed-items .fi')];
+    const filtered = getFiltered();
+    const start    = page * pageSize;
+    const end      = start + pageSize;
+    const pageItems= new Set(filtered.slice(start, end));
+
+    all.forEach(el => el.style.display = pageItems.has(el) ? '' : 'none');
+
     const countEl = document.getElementById('ff-count');
-    if(countEl) countEl.textContent = visible === total ? `${total} items` : `${visible} / ${total}`;
+    if(countEl){
+      const total = filtered.length;
+      const from  = Math.min(start + 1, total);
+      const to    = Math.min(end, total);
+      countEl.textContent = total === 0 ? '0 items'
+        : total <= pageSize  ? `${total} items`
+        : `${from}–${to} of ${total}`;
+    }
+    updatePager(filtered.length);
+  }
+
+  function updatePager(total){
+    const maxPage = Math.max(0, Math.ceil(total / pageSize) - 1);
+    const prev = document.getElementById('pg-prev');
+    const next = document.getElementById('pg-next');
+    if(prev) prev.disabled = page === 0;
+    if(next) next.disabled = page >= maxPage;
   }
 
   function initFilters(){
@@ -1971,13 +2018,43 @@ document.querySelector('.hd-brand').addEventListener('click',()=>{
         bar.querySelectorAll('.ff-chip:not(.pick-chip)').forEach(c=>c.classList.remove('active'));
         chip.classList.add('active');
       }
+      page = 0;
       applyFilters();
     });
+
+    // Page size buttons
+    bar.addEventListener('click', e=>{
+      const ps = e.target.closest('.ff-ps');
+      if(!ps) return;
+      pageSize = parseInt(ps.dataset.size);
+      page = 0;
+      bar.querySelectorAll('.ff-ps').forEach(b=>b.classList.toggle('active', b===ps));
+      applyFilters();
+    });
+
+    // Prev / Next
+    document.getElementById('pg-prev')?.addEventListener('click', ()=>{ if(page>0){ page--; applyFilters(); } });
+    document.getElementById('pg-next')?.addEventListener('click', ()=>{ page++; applyFilters(); });
   }
 
+  // Called from treemap cell-click — navigate to feed and pre-filter
+  window.feedSetFilter = function(tag){
+    document.querySelector('.np[data-sec="feed"]')?.click();
+    setTimeout(()=>{
+      const bar = document.getElementById('feed-filters');
+      if(!bar) return;
+      activeTag = tag || 'all';
+      pickOnly  = false;
+      page      = 0;
+      bar.querySelectorAll('.ff-chip:not(.pick-chip)').forEach(c=>c.classList.remove('active'));
+      const target = bar.querySelector(`.ff-chip[data-filter="${activeTag}"]`);
+      if(target) target.classList.add('active');
+      else bar.querySelector('.ff-chip[data-filter="all"]')?.classList.add('active');
+      applyFilters();
+    }, 80);
+  };
+
   initFilters();
-  // Re-apply after live feed loads
-  const origLoad = window.loadFeed;
   window._feedFilterHook = applyFilters;
 })();
 
