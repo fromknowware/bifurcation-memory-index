@@ -45,6 +45,7 @@ body{
   font-family:var(--sans);
   background:var(--bg);color:var(--text);
   line-height:1.4;font-size:13px;
+  min-height:100vh;display:flex;flex-direction:column;
 }
 a{color:inherit;text-decoration:none;}
 
@@ -128,9 +129,9 @@ nav{
 }
 
 /* ── MAIN ────────────────────────────────────────── */
-main{max-width:1440px;margin:0 auto;}
+main{max-width:1440px;margin:0 auto;flex:1;display:flex;flex-direction:column;width:100%;}
 section{display:none;}
-section.active{display:block;}
+section.active{display:flex;flex-direction:column;flex:1;}
 
 /* ── RULED SECTION HEAD ──────────────────────────── */
 .sh{
@@ -219,9 +220,9 @@ section.active{display:block;}
 /* ── CHART SECTION ───────────────────────────────── */
 .chart-wrap{
   border-bottom:1px solid var(--line);
-  padding:0;
+  padding:0;flex:1;min-height:200px;
 }
-.chart-wrap canvas{display:block;width:100%;height:240px;}
+.chart-wrap canvas{display:block;width:100%;height:100%;}
 
 /* ── MARKET SIGNALS ──────────────────────────────── */
 #sec-signals table{width:100%;border-collapse:collapse;}
@@ -311,7 +312,7 @@ section.active{display:block;}
 .learn-layout{
   display:grid;
   grid-template-columns:220px 1fr;
-  min-height:600px;
+  flex:1;
 }
 .learn-nav{
   border-right:1px solid var(--line);
@@ -364,7 +365,7 @@ section.active{display:block;}
 /* ── RESEARCH ────────────────────────────────────── */
 .research-layout{
   display:grid;grid-template-columns:1fr 360px;
-  min-height:500px;
+  flex:1;
 }
 .research-main{border-right:1px solid var(--line);padding:32px 36px;}
 .rc-type{
@@ -422,7 +423,7 @@ audio{
 }
 
 /* ── SIGNAL FEED ─────────────────────────────────── */
-.feed-layout{display:grid;grid-template-columns:1fr 280px;}
+.feed-layout{display:grid;grid-template-columns:1fr 280px;flex:1;}
 .feed-list{border-right:1px solid var(--line);}
 .fi{
   padding:16px 20px;border-bottom:1px solid var(--line);
@@ -1156,7 +1157,7 @@ function drawChart(id, height, showFull){
   const el = document.getElementById(id);
   if(!el) return;
   const dpr = window.devicePixelRatio||1;
-  const W = el.offsetWidth; const H = height||120;
+  const W = el.offsetWidth; const H = el.offsetHeight||height||120;
   el.width = W*dpr; el.height = H*dpr;
   const c = el.getContext('2d');
   c.scale(dpr,dpr);
