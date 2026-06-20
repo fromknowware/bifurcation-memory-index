@@ -1,163 +1,299 @@
 /**
- * <feed-tree src="https://ram-index.com/feed.xml"></feed-tree>
+ * <feed-tree> — D3 treemap with three lenses
  *
- * Radial cluster tree built from an Atom feed.
- * Root → categories → top keywords extracted from item titles.
+ * TOPICS  — keyword frequency grouped by category (nested squarify)
+ * SOURCES — publication coverage by item count
+ * PICKS   — editorial picks vs auto-surfaced signal items
  *
- * Zero dependencies beyond D3 (loaded from CDN if not already present).
- * Drop-in web component — works in any HTML page.
+ * Usage:
+ *   <feed-tree></feed-tree>
+ *   el.setData(items)   items: { title, tag, source, editorialPick, riImplication? }[]
  *
- * Attributes:
- *   src        Feed URL (required). CORS must allow the origin.
- *   max-terms  Max keywords per category leaf ring (default 8).
- *   theme      "dark" | "light" (default: inherits --bg, --text CSS vars or auto-detects)
+ * Drop in any page. Reads CSS vars --bg1, --bg, --text, --dim, --mono if present.
  */
 
 const STOP = new Set([
-  'a','an','the','and','or','but','in','on','at','to','for','of','with',
-  'by','from','as','is','was','are','were','be','been','has','have','had',
-  'it','its','this','that','these','those','will','would','could','should',
-  'may','might','can','do','does','did','not','no','new','up','s','vs',
-  'after','amid','as','than','into','over','under','more','most','less',
-  'about','amid','across','through','per','amid','amid','amid','set',
-  'say','says','said','report','reports','amid','amid','amid','amid',
-  'amid','amid','amid','amid','amid','amid','amid','amid','amid',
+  'a','an','the','and','or','but','in','on','at','to','for','of','with','by','from',
+  'as','is','was','are','were','be','been','has','have','had','it','its','this','that',
+  'these','those','will','would','could','should','may','might','can','do','does','did',
+  'not','no','new','up','s','vs','after','amid','than','into','over','under','more',
+  'most','less','about','across','through','per','set','say','says','said','report',
+  'reports','amid','also','its','their','which','who','what','when','where','why','how',
 ]);
 
-const CATEGORY_COLORS = {
-  supply:   '#6ea3c8',
-  demand:   '#c86e6e',
-  fab:      '#c8a86e',
-  earnings: '#6ec882',
-  macro:    '#9b6ec8',
+const CAT_COLOR = {
+  supply:   '#5a8fb8',
+  demand:   '#b85a5a',
+  fab:      '#b8985a',
+  earnings: '#5ab870',
+  macro:    '#8a5ab8',
 };
 
-const CATEGORY_LABELS = {
-  supply: 'SUPPLY', demand: 'DEMAND', fab: 'FAB',
-  earnings: 'EARNINGS', macro: 'MACRO',
+const CAT_LABEL = {
+  supply: 'SUPPLY', demand: 'DEMAND', fab: 'FAB', earnings: 'EARNINGS', macro: 'MACRO',
 };
 
-function extractKeywords(titles, maxTerms) {
+function keywords(texts, n = 12) {
   const freq = new Map();
-  for (const title of titles) {
-    const words = title.toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, ' ')
-      .split(/\s+/)
-      .filter(w => w.length > 3 && !STOP.has(w));
-    for (const w of words) freq.set(w, (freq.get(w) || 0) + 1);
+  for (const t of texts) {
+    for (const w of t.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/)) {
+      if (w.length > 3 && !STOP.has(w)) freq.set(w, (freq.get(w) || 0) + 1);
+    }
   }
-  return [...freq.entries()]
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, maxTerms)
-    .map(([word, count]) => ({ word, count }));
+  return [...freq.entries()].sort((a, b) => b[1] - a[1]).slice(0, n).map(([k, v]) => ({ name: k, value: v }));
 }
 
-function parseFeed(xml) {
-  const byCategory = {};
-  const entryRe = /<entry>([\s\S]*?)<\/entry>/gi;
-  const titleRe = /<title[^>]*>([\s\S]*?)<\/title>/i;
-  const catRe   = /<category[^>]+term="([^"]+)"/gi;
-  let total = 0, m;
+// ── Lens builders ──────────────────────────────────────────────────────────
 
-  while ((m = entryRe.exec(xml)) !== null) {
-    total++;
-    const block = m[1];
-    const titleMatch = titleRe.exec(block);
-    const title = titleMatch ? titleMatch[1].replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"') : '';
-
-    const cats = [];
-    let cm;
-    const catReLocal = /<category[^>]+term="([^"]+)"/gi;
-    while ((cm = catReLocal.exec(block)) !== null) cats.push(cm[1]);
-
-    const tagCat = cats.find(c => c.startsWith('tag:'));
-    const tag = tagCat ? tagCat.slice(4) : 'supply';
-    if (!byCategory[tag]) byCategory[tag] = [];
-    if (title) byCategory[tag].push(title);
+function buildTopics(items) {
+  const byTag = {};
+  for (const item of items) {
+    const tag = item.tag || 'supply';
+    if (!byTag[tag]) byTag[tag] = [];
+    byTag[tag].push(item.title || '');
   }
-  return { byCategory, total };
-}
-
-function buildHierarchy(byCategory, maxTerms) {
   return {
-    name: 'FEED',
-    children: Object.entries(byCategory).map(([cat, titles]) => ({
-      name: cat,
-      category: cat,
-      count: titles.length,
-      children: extractKeywords(titles, maxTerms).map(({ word, count }) => ({
-        name: word,
-        category: cat,
-        count,
-      })),
-    })),
+    name: 'root',
+    children: Object.entries(byTag).map(([tag, titles]) => ({
+      name: tag,
+      color: CAT_COLOR[tag],
+      label: CAT_LABEL[tag] || tag.toUpperCase(),
+      children: keywords(titles, 14).map(kw => ({ ...kw, tag, color: CAT_COLOR[tag] })),
+    })).filter(g => g.children.length),
   };
 }
 
-// ── Web Component ─────────────────────────────────────────────────────────────
+function buildSources(items) {
+  const freq = new Map();
+  const tagBySource = new Map();
+  for (const item of items) {
+    const src = (item.source || 'unknown').replace(/^www\./, '');
+    freq.set(src, (freq.get(src) || 0) + 1);
+    if (!tagBySource.has(src)) tagBySource.set(src, item.tag || 'supply');
+  }
+  const children = [...freq.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 40)
+    .map(([name, value]) => ({ name, value, tag: tagBySource.get(name), color: CAT_COLOR[tagBySource.get(name)] || CAT_COLOR.supply }));
+  return { name: 'root', children };
+}
+
+function buildPicks(items) {
+  const picks    = items.filter(i => i.editorialPick);
+  const autofeed = items.filter(i => !i.editorialPick);
+  return {
+    name: 'root',
+    children: [
+      {
+        name: 'editorial',
+        label: '★ PICKS',
+        color: '#c8a040',
+        children: keywords(picks.map(i => `${i.title} ${i.riImplication || ''}`), 16)
+          .map(kw => ({ ...kw, color: '#c8a040' })),
+      },
+      {
+        name: 'signal',
+        label: 'SIGNAL',
+        color: '#5a8fb8',
+        children: keywords(autofeed.map(i => `${i.title} ${i.riImplication || ''}`), 16)
+          .map(kw => ({ ...kw, color: '#5a8fb8' })),
+      },
+    ].filter(g => g.children.length),
+  };
+}
+
+// ── Renderer ───────────────────────────────────────────────────────────────
+
+const LENSES = [
+  { id: 'topics',  label: 'TOPICS' },
+  { id: 'sources', label: 'SOURCES' },
+  { id: 'picks',   label: 'PICKS' },
+];
+
+function renderTreemap(container, data, W, H) {
+  const d3 = window.d3;
+
+  // Detect if data is nested (has grandchildren) or flat
+  const isNested = data.children?.some(c => c.children);
+
+  const root = isNested
+    ? d3.hierarchy(data).sum(d => d.value || 0).sort((a, b) => b.value - a.value)
+    : d3.hierarchy(data).sum(d => d.value || 0).sort((a, b) => b.value - a.value);
+
+  d3.treemap()
+    .size([W, H])
+    .tile(d3.treemapSquarify.ratio(1.4))
+    .paddingOuter(isNested ? 3 : 2)
+    .paddingTop(isNested ? 18 : 0)
+    .paddingInner(1)
+    (root);
+
+  const svg = d3.create('svg').attr('width', W).attr('height', H);
+
+  // ── Group backgrounds (categories) ──
+  if (isNested) {
+    svg.selectAll('.cat-bg')
+      .data(root.children || [])
+      .join('rect')
+      .attr('class', 'cat-bg')
+      .attr('x', d => d.x0)
+      .attr('y', d => d.y0)
+      .attr('width', d => d.x1 - d.x0)
+      .attr('height', d => d.y1 - d.y0)
+      .attr('fill', d => d.data.color || '#444')
+      .attr('fill-opacity', 0.12);
+
+    // Category label
+    svg.selectAll('.cat-label')
+      .data(root.children || [])
+      .join('text')
+      .attr('class', 'cat-label')
+      .attr('x', d => d.x0 + 5)
+      .attr('y', d => d.y0 + 12)
+      .text(d => `${d.data.label || d.data.name.toUpperCase()}  ${d.data.children?.length || ''}`)
+      .attr('fill', d => d.data.color || '#888')
+      .attr('font-size', '9px')
+      .attr('font-family', 'monospace')
+      .attr('letter-spacing', '0.08em')
+      .attr('opacity', 0.9);
+  }
+
+  // ── Leaf rectangles ──
+  const leaves = root.leaves();
+
+  const cell = svg.selectAll('.cell')
+    .data(leaves)
+    .join('g')
+    .attr('class', 'cell')
+    .attr('transform', d => `translate(${d.x0},${d.y0})`);
+
+  cell.append('rect')
+    .attr('width', d => Math.max(0, d.x1 - d.x0))
+    .attr('height', d => Math.max(0, d.y1 - d.y0))
+    .attr('fill', d => d.data.color || CAT_COLOR[d.data.tag] || '#5a8fb8')
+    .attr('fill-opacity', d => {
+      const area = (d.x1 - d.x0) * (d.y1 - d.y0);
+      return 0.18 + Math.min(0.55, area / 18000);
+    })
+    .attr('rx', 1);
+
+  // Label: only if rect is wide enough
+  cell.each(function(d) {
+    const W = d.x1 - d.x0, H = d.y1 - d.y0;
+    if (W < 28 || H < 14) return;
+
+    const g = d3.select(this);
+    const fontSize = Math.min(12, Math.max(8, Math.sqrt(W * H) / 8));
+    const text = d.data.name;
+
+    // Clip to rect bounds
+    const clipId = `clip-${Math.random().toString(36).slice(2)}`;
+    g.append('clipPath').attr('id', clipId)
+      .append('rect').attr('width', W - 4).attr('height', H - 4).attr('x', 2).attr('y', 2);
+
+    g.append('text')
+      .attr('clip-path', `url(#${clipId})`)
+      .attr('x', 5)
+      .attr('y', H / 2 + fontSize * 0.35)
+      .text(text)
+      .attr('font-size', `${fontSize}px`)
+      .attr('font-family', 'monospace,"Courier New"')
+      .attr('fill', d.data.color || CAT_COLOR[d.data.tag] || '#8fb8d8')
+      .attr('opacity', 0.92);
+
+    // Value badge for large cells
+    if (W > 60 && H > 32 && d.data.value > 1) {
+      g.append('text')
+        .attr('x', W - 5)
+        .attr('y', H - 5)
+        .text(d.data.value)
+        .attr('font-size', '8px')
+        .attr('font-family', 'monospace')
+        .attr('fill', d.data.color || '#8fb8d8')
+        .attr('opacity', 0.45)
+        .attr('text-anchor', 'end');
+    }
+  });
+
+  return svg.node();
+}
+
+// ── Web Component ──────────────────────────────────────────────────────────
 
 class FeedTree extends HTMLElement {
-  static get observedAttributes() { return ['src', 'max-terms', 'theme']; }
-
   connectedCallback() {
-    this._ro = new ResizeObserver(entries => {
-      const { width, height } = entries[0].contentRect;
-      if (width > 0 && height > 0 && !this._drawn) {
-        this._drawn = true;
-        this._render();
-      }
-    });
+    this._lens = 'topics';
+    this._ro = new ResizeObserver(() => { if (this._items) this._draw(); });
     this._ro.observe(this);
+    this.style.display = 'block';
+    this._buildShell();
   }
 
   disconnectedCallback() { this._ro?.disconnect(); }
 
-  attributeChangedCallback() {
-    if (this.isConnected) { this._drawn = false; this._render(); }
-  }
-
-  /**
-   * setData(items) — bypass fetch; pass pre-parsed items directly.
-   * items: Array<{ title: string, tag: string }>
-   */
   setData(items) {
-    const byCategory = {};
-    let total = 0;
-    for (const item of items) {
-      const tag = item.tag || 'supply';
-      if (!byCategory[tag]) byCategory[tag] = [];
-      if (item.title) { byCategory[tag].push(item.title); total++; }
-    }
-    this._preloaded = { byCategory, total };
-    this._drawn = false;
-    this._render();
+    this._items = items;
+    this._draw();
   }
 
-  async _render() {
-    const src = this.getAttribute('src');
-    if (!src && !this._preloaded) return;
-    this._drawn = true;
+  _buildShell() {
+    // Lens button bar
+    const bar = document.createElement('div');
+    bar.style.cssText = 'display:flex;gap:6px;padding:10px 14px 0;align-items:center;';
 
-    const maxTerms = parseInt(this.getAttribute('max-terms') || '8', 10);
-    const explicitTheme = this.getAttribute('theme');
+    const label = document.createElement('span');
+    label.style.cssText = 'font-family:monospace;font-size:9px;letter-spacing:0.1em;color:var(--dim,#666);margin-right:6px;';
+    label.textContent = 'VIEW';
+    bar.appendChild(label);
 
-    // Detect theme from CSS vars or prefers-color-scheme
-    const isDark = explicitTheme === 'dark' ||
-      (!explicitTheme && (
-        getComputedStyle(document.documentElement).getPropertyValue('--bg').trim().startsWith('#0') ||
-        window.matchMedia('(prefers-color-scheme: dark)').matches
-      ));
+    this._btns = {};
+    for (const lens of LENSES) {
+      const btn = document.createElement('button');
+      btn.textContent = lens.label;
+      btn.dataset.lens = lens.id;
+      btn.style.cssText = [
+        'font-family:monospace;font-size:9px;letter-spacing:0.08em;',
+        'padding:3px 8px;border-radius:2px;cursor:pointer;',
+        'border:1px solid var(--line2,rgba(255,255,255,0.12));',
+        'background:none;transition:all 0.12s;',
+      ].join('');
+      btn.addEventListener('click', () => {
+        this._lens = lens.id;
+        this._updateBtns();
+        this._draw();
+      });
+      this._btns[lens.id] = btn;
+      bar.appendChild(btn);
+    }
 
-    const colors = {
-      bg:      isDark ? 'transparent' : 'transparent',
-      root:    isDark ? '#e8e8e6'     : '#1a1a18',
-      branch:  isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.12)',
-      label:   isDark ? '#b8b8b4'     : '#3a3a38',
-      dim:     isDark ? '#6a6a66'     : '#9a9a96',
-      link:    isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.06)',
-    };
+    this._canvas = document.createElement('div');
+    this._canvas.style.cssText = 'flex:1;min-height:0;overflow:hidden;';
 
-    // Ensure D3 is available
+    const wrap = document.createElement('div');
+    wrap.style.cssText = 'display:flex;flex-direction:column;height:100%;';
+    wrap.appendChild(bar);
+    wrap.appendChild(this._canvas);
+
+    this.innerHTML = '';
+    this.appendChild(wrap);
+    this._updateBtns();
+    this._bar = bar;
+    this._barH = 34;
+  }
+
+  _updateBtns() {
+    for (const [id, btn] of Object.entries(this._btns)) {
+      const active = id === this._lens;
+      btn.style.color    = active ? 'var(--text,#e8e8e6)' : 'var(--dim,#666)';
+      btn.style.borderColor = active ? 'var(--line,rgba(255,255,255,0.25))' : 'var(--line2,rgba(255,255,255,0.1))';
+      btn.style.background  = active ? 'var(--bg2,rgba(255,255,255,0.06))' : 'none';
+    }
+  }
+
+  async _draw() {
+    if (!this._items?.length || !this._canvas) return;
+
+    // Ensure D3
     if (!window.d3) {
       await new Promise((res, rej) => {
         const s = document.createElement('script');
@@ -167,120 +303,25 @@ class FeedTree extends HTMLElement {
       });
     }
 
-    this.innerHTML = `<div class="ft-loading" style="font-family:monospace;font-size:11px;opacity:0.4;padding:24px;">Loading feed…</div>`;
+    const W = this.clientWidth  || 800;
+    const H = (this.clientHeight || 300) - this._barH;
+    if (W < 10 || H < 10) return;
 
-    let byCategory, total;
-    if (this._preloaded) {
-      ({ byCategory, total } = this._preloaded);
-    } else {
-      let xml;
-      try {
-        const res = await fetch(src);
-        xml = await res.text();
-      } catch {
-        this.innerHTML = `<div style="font-family:monospace;font-size:11px;opacity:0.4;padding:24px;">Feed unavailable</div>`;
-        return;
-      }
-      ({ byCategory, total } = parseFeed(xml));
+    let data;
+    if (this._lens === 'sources') data = buildSources(this._items);
+    else if (this._lens === 'picks') data = buildPicks(this._items);
+    else data = buildTopics(this._items);
+
+    // Check we have real data
+    const total = (data.children || []).reduce((s, c) => s + (c.children?.reduce((ss, cc) => ss + cc.value, 0) ?? c.value ?? 0), 0);
+    if (!total) {
+      this._canvas.innerHTML = '<div style="font-family:monospace;font-size:10px;opacity:0.3;padding:20px;">No data</div>';
+      return;
     }
-    const hierarchy = buildHierarchy(byCategory, maxTerms);
 
-    this._draw(hierarchy, total, colors, isDark);
-  }
-
-  _draw(hierarchy, total, colors, isDark) {
-    const d3 = window.d3;
-    // Render at a fixed logical size, scale via viewBox to fit container
-    const W = 560, H = 560;
-    const cx = W / 2, cy = H / 2;
-    const outerRadius = Math.min(W, H) / 2 - 72;
-    const innerRadius = outerRadius - 100;
-
-    this.innerHTML = '';
-
-    const svg = d3.select(this).append('svg')
-      .attr('viewBox', `0 0 ${W} ${H}`)
-      .attr('preserveAspectRatio', 'xMidYMid meet')
-      .style('width', '100%')
-      .style('height', '100%')
-      .style('overflow', 'visible');
-
-    const g = svg.append('g').attr('transform', `translate(${cx},${cy})`);
-
-    const root = d3.hierarchy(hierarchy);
-    const cluster = d3.cluster().size([2 * Math.PI, innerRadius]).separation((a, b) => {
-      // More space between category groups
-      return (a.parent === b.parent ? 1 : 2) / a.depth;
-    });
-    cluster(root);
-
-    // ── Links ──
-    g.append('g').attr('fill', 'none')
-      .attr('stroke', colors.link)
-      .attr('stroke-width', 1)
-      .selectAll('path')
-      .data(root.links())
-      .join('path')
-      .attr('d', d3.linkRadial()
-        .angle(d => d.x)
-        .radius(d => d.y)
-      );
-
-    // ── Nodes ──
-    const node = g.append('g')
-      .selectAll('g')
-      .data(root.descendants())
-      .join('g')
-      .attr('transform', d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`);
-
-    // Circle per node
-    node.append('circle')
-      .attr('r', d => {
-        if (d.depth === 0) return 6;      // root
-        if (d.depth === 1) return 4.5;    // category
-        const maxCount = d3.max(d.parent.children, c => c.data.count) || 1;
-        return 2 + (d.data.count / maxCount) * 3.5;
-      })
-      .attr('fill', d => {
-        if (d.depth === 0) return colors.root;
-        const cat = d.data.category;
-        return CATEGORY_COLORS[cat] || colors.root;
-      })
-      .attr('opacity', d => d.depth === 2 ? 0.7 : 1);
-
-    // Labels
-    node.append('text')
-      .attr('dy', '0.31em')
-      .attr('x', d => d.x < Math.PI === !d.children ? 8 : -8)
-      .attr('text-anchor', d => d.x < Math.PI === !d.children ? 'start' : 'end')
-      .attr('transform', d => d.x >= Math.PI ? 'rotate(180)' : null)
-      .text(d => {
-        if (d.depth === 0) return 'RAM FEED';
-        if (d.depth === 1) return `${CATEGORY_LABELS[d.data.name] || d.data.name} (${d.data.count})`;
-        return d.data.name;
-      })
-      .attr('font-family', 'monospace, "Courier New"')
-      .attr('font-size', d => {
-        if (d.depth === 0) return '11px';
-        if (d.depth === 1) return '10px';
-        return '9px';
-      })
-      .attr('font-weight', d => d.depth <= 1 ? '600' : '400')
-      .attr('fill', d => {
-        if (d.depth === 0) return colors.root;
-        if (d.depth === 1) return CATEGORY_COLORS[d.data.category] || colors.label;
-        return colors.dim;
-      })
-      .attr('letter-spacing', d => d.depth === 1 ? '0.08em' : '0');
-
-    // ── Root label (center) ──
-    g.append('text')
-      .attr('text-anchor', 'middle')
-      .attr('dy', '3.5em')
-      .attr('font-family', 'monospace')
-      .attr('font-size', '9px')
-      .attr('fill', colors.dim)
-      .text(`${total} items`);
+    const svgNode = renderTreemap(this._canvas, data, W, H);
+    this._canvas.innerHTML = '';
+    this._canvas.appendChild(svgNode);
   }
 }
 

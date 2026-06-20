@@ -577,6 +577,10 @@ audio{
 .exp-cta.secondary:hover{border-color:var(--sub);color:var(--text);}
 
 /* ── SIGNAL FEED ─────────────────────────────────── */
+.feed-tree-strip{
+  height:260px;border-bottom:1px solid var(--line);
+  background:var(--bg1);flex-shrink:0;overflow:hidden;
+}
 .feed-layout{display:grid;grid-template-columns:1fr 280px;flex:1;min-height:0;overflow:hidden;}
 .feed-list{border-right:1px solid var(--line);overflow-y:auto;display:flex;flex-direction:column;}
 .feed-filters{
@@ -1344,6 +1348,9 @@ audio{
     <div class="sh-rule"></div>
     <span class="sh-meta">Curated events relevant to the RAM cycle · editorially annotated</span>
   </div>
+  <div class="feed-tree-strip">
+    <feed-tree id="feed-tree-main" src="/feed.xml" max-terms="8" style="display:block;width:100%;height:100%;"></feed-tree>
+  </div>
   <div class="feed-layout">
     <div class="feed-list">
       <div class="feed-filters" id="feed-filters">
@@ -1439,34 +1446,9 @@ audio{
         <div class="watch-item"><span class="watch-icon" style="color:var(--green)">→</span><span>Samsung 1c-nm ramp → supply relief signal</span></div>
         <div class="watch-item"><span class="watch-icon" style="color:var(--green)">→</span><span>HBM ω &gt; 0.50 → bifurcation intensifies</span></div>
       </div>
-      <div class="fa-block">
-        <div class="fa-h" style="cursor:pointer;display:flex;align-items:center;justify-content:space-between;" id="tree-toggle">
-          Signal Landscape
-          <span style="font-size:9px;color:var(--dim);letter-spacing:0.05em;">EXPAND ↗</span>
-        </div>
-        <feed-tree id="feed-tree-aside" src="/feed.xml" max-terms="5" style="display:block;width:100%;height:220px;margin-top:8px;overflow:hidden;"></feed-tree>
-      </div>
     </div>
   </div>
 </section>
-
-<!-- ══ SIGNAL LANDSCAPE MODAL ══════════════════════════════ -->
-<div id="tree-modal" style="
-  display:none;position:fixed;inset:0;z-index:500;
-  background:rgba(0,0,0,0.72);backdrop-filter:blur(4px);
-  align-items:center;justify-content:center;
-">
-  <div style="
-    position:relative;width:min(760px,92vw);height:min(760px,80vh);
-    background:var(--bg1);border:1px solid var(--line);padding:24px;
-  ">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
-      <span style="font-family:var(--mono);font-size:10px;letter-spacing:0.1em;color:var(--dim);">SIGNAL LANDSCAPE — keyword topology by category</span>
-      <button id="tree-modal-close" style="font-family:var(--mono);font-size:10px;color:var(--dim);background:none;border:none;cursor:pointer;padding:4px 8px;border:1px solid var(--line2);">✕ CLOSE</button>
-    </div>
-    <feed-tree id="feed-tree-modal" max-terms="8" style="display:block;width:100%;height:calc(100% - 44px);"></feed-tree>
-  </div>
-</div>
 
 <script src="/feed-tree.js"></script>
 
@@ -1909,7 +1891,7 @@ async function loadFeed(){
       const storedTag = cats.find(c=>c.startsWith('tag:'))?.slice(4) || '';
       const tag     = storedTag ? TAG_META[storedTag] || guessTag('', title) : guessTag(cats.find(c=>c&&c!=='editorial-pick')||'', title);
       const dateStr = updated ? updated.slice(0,10) : '';
-      treeItems.push({ title, tag: tag.cls });
+      treeItems.push({ title, tag: tag.cls, source: author, editorialPick: isPick, riImplication: riImpl });
       return `<div class="fi" data-tag="${tag.cls}" data-pick="${isPick?1:0}">
         <div class="fi-top">
           <span class="fi-date">${dateStr}</span>
@@ -1922,9 +1904,7 @@ async function loadFeed(){
       </div>`;
     }).join('');
     if(window._feedFilterHook) window._feedFilterHook();
-    document.getElementById('feed-tree-aside')?.setData(treeItems);
-    // Pre-load modal tree data so it's instant on open
-    window._treeItems = treeItems;
+    document.getElementById('feed-tree-main')?.setData(treeItems);
   }catch{
     container.innerHTML = '<div class="fi-empty">Live feed unavailable — check back shortly.</div>';
   }
@@ -1986,27 +1966,6 @@ document.getElementById('theme-toggle').addEventListener('click',()=>{
 document.querySelector('.hd-brand').addEventListener('click',()=>{
   document.querySelector('.np[data-sec="index"]').click();
 });
-
-// ── SIGNAL LANDSCAPE MODAL ────────────────────────────────
-(function(){
-  function openTreeModal(){
-    const modal = document.getElementById('tree-modal');
-    if(!modal) return;
-    modal.style.display = 'flex';
-    const mt = document.getElementById('feed-tree-modal');
-    if(mt && window._treeItems) mt.setData(window._treeItems);
-  }
-  function closeTreeModal(){
-    const modal = document.getElementById('tree-modal');
-    if(modal) modal.style.display = 'none';
-  }
-  document.getElementById('tree-toggle')?.addEventListener('click', openTreeModal);
-  document.getElementById('tree-modal-close')?.addEventListener('click', closeTreeModal);
-  document.getElementById('tree-modal')?.addEventListener('click', e=>{
-    if(e.target === e.currentTarget) closeTreeModal();
-  });
-  document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeTreeModal(); });
-})();
 
 // ── FEED FILTERS ──────────────────────────────────────────
 (function(){
