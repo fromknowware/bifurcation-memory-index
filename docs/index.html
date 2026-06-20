@@ -1446,8 +1446,9 @@ audio{
 <script>
 // Treemap cell clicks → navigate to feed pre-filtered
 document.addEventListener('cell-click', e=>{
-  const tag = e.detail?.tag;
-  if(window.feedSetFilter) window.feedSetFilter(tag);
+  const tag  = e.detail?.tag;
+  const lens = e.detail?.lens;
+  if(window.feedSetFilter) window.feedSetFilter(tag, lens);
 });
 </script>
 
@@ -2049,15 +2050,23 @@ document.querySelector('.hd-brand').addEventListener('click',()=>{
   }
 
   // Called from treemap cell-click — navigate to feed and pre-filter
-  window.feedSetFilter = function(tag){
+  window.feedSetFilter = function(tag, lens){
     document.querySelector('.np[data-sec="feed"]')?.click();
     setTimeout(()=>{
+      // Sync the feed treemap lens if one was specified
+      const feedTree = document.getElementById('feed-tree-main');
+      if(feedTree && lens && lens !== feedTree._lens){
+        feedTree._lens = lens;
+        feedTree._updateBtns?.();
+        feedTree._draw?.();
+      }
       const bar = document.getElementById('feed-filters');
       if(!bar) return;
       activeTag = tag || 'all';
       pickOnly  = false;
       page      = 0;
       bar.querySelectorAll('.ff-chip:not(.pick-chip)').forEach(c=>c.classList.remove('active'));
+      // For SOURCES/PICKS lenses there's no tag chip to highlight — reset to ALL
       const target = bar.querySelector(`.ff-chip[data-filter="${activeTag}"]`);
       if(target) target.classList.add('active');
       else bar.querySelector('.ff-chip[data-filter="all"]')?.classList.add('active');

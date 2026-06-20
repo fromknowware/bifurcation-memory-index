@@ -181,7 +181,8 @@ function renderTreemap(container, data, W, H) {
   cell.style('cursor', 'pointer')
     .on('click', function(event, d) {
       const el = this.closest ? this.closest('feed-tree') : null;
-      const detail = { tag: d.data.tag || d.data.name, keyword: d.data.name };
+      const lens = el?._lens || 'topics';
+      const detail = { tag: d.data.tag || d.data.name, keyword: d.data.name, lens };
       if (el) el.dispatchEvent(new CustomEvent('cell-click', { bubbles: true, detail }));
     })
     .on('mouseenter', function() {
