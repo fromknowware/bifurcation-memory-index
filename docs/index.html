@@ -40,12 +40,12 @@
   --lipstick:#c848a8;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-html{scroll-behavior:smooth;}
+html{scroll-behavior:smooth;height:100%;}
 body{
   font-family:var(--sans);
   background:var(--bg);color:var(--text);
   line-height:1.4;font-size:13px;
-  min-height:100vh;display:flex;flex-direction:column;
+  height:100vh;overflow:hidden;display:flex;flex-direction:column;
 }
 a{color:inherit;text-decoration:none;}
 
@@ -129,9 +129,9 @@ nav{
 }
 
 /* ── MAIN ────────────────────────────────────────── */
-main{max-width:1440px;margin:0 auto;flex:1;display:flex;flex-direction:column;width:100%;}
+main{max-width:1440px;margin:0 auto;flex:1;min-height:0;display:flex;flex-direction:column;width:100%;overflow:hidden;}
 section{display:none;}
-section.active{display:flex;flex-direction:column;flex:1;}
+section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;}
 
 /* ── RULED SECTION HEAD ──────────────────────────── */
 .sh{
@@ -220,9 +220,9 @@ section.active{display:flex;flex-direction:column;flex:1;}
 /* ── CHART SECTION ───────────────────────────────── */
 .chart-wrap{
   border-bottom:1px solid var(--line);
-  padding:0;flex:1;min-height:200px;
+  padding:0;flex:1;min-height:0;
 }
-.chart-wrap canvas{display:block;width:100%;height:100%;}
+.chart-wrap canvas{display:block;width:100%;height:100%;min-height:160px;}
 
 /* ── MARKET SIGNALS ──────────────────────────────── */
 #sec-signals table{width:100%;border-collapse:collapse;}
@@ -312,22 +312,25 @@ section.active{display:flex;flex-direction:column;flex:1;}
 .learn-layout{
   display:grid;
   grid-template-columns:220px 1fr;
-  flex:1;
+  flex:1;min-height:0;
 }
 .learn-nav{
   border-right:1px solid var(--line);
-  padding:20px 0;
+  padding:20px 0;overflow-y:auto;
 }
 .ln-item{
-  display:flex;align-items:center;gap:10px;
+  display:flex;align-items:flex-start;gap:12px;
   padding:10px 20px;cursor:pointer;
   transition:background 0.1s;
 }
 .ln-item:hover{background:var(--bg1);}
-.ln-item.active{
-  background:rgba(232,164,40,0.07);
-}
+.ln-item.active{background:rgba(232,164,40,0.07);}
 .ln-item.active .ln-title{color:var(--bright);}
+.ln-item.active .ln-num{color:var(--ram);}
+.ln-num{
+  font-family:var(--mono);font-size:10px;color:var(--muted);
+  flex-shrink:0;padding-top:1px;min-width:16px;
+}
 .ln-tag{
   font-family:var(--mono);font-size:9px;font-weight:700;
   letter-spacing:0.1em;text-transform:uppercase;
@@ -337,7 +340,11 @@ section.active{display:flex;flex-direction:column;flex:1;}
 .ln-tag.advanced{color:var(--hemline);}
 .ln-tag.methodology{color:var(--mui);}
 .ln-title{font-size:11px;color:var(--text);line-height:1.4;margin-top:2px;}
-.learn-body{padding:32px 40px;max-width:700px;}
+.learn-body{padding:32px 40px;max-width:700px;overflow-y:auto;}
+.lb-counter{
+  font-family:var(--mono);font-size:10px;color:var(--muted);
+  letter-spacing:0.08em;margin-bottom:10px;
+}
 .lb-tag{
   font-family:var(--mono);font-size:9px;font-weight:700;
   letter-spacing:0.12em;text-transform:uppercase;margin-bottom:12px;
@@ -359,13 +366,28 @@ section.active{display:flex;flex-direction:column;flex:1;}
   font-family:var(--mono);font-size:11px;font-weight:700;
   color:var(--ram);letter-spacing:0.06em;
   display:inline-flex;align-items:center;gap:6px;
+  margin-bottom:24px;
 }
 .lb-cta:hover{text-decoration:underline;}
+.lb-nav{
+  display:flex;align-items:center;gap:10px;
+  padding-top:24px;border-top:1px solid var(--line);
+}
+.lb-nav-btn{
+  background:none;border:1px solid var(--line);
+  color:var(--sub);font-family:var(--mono);font-size:10px;
+  letter-spacing:0.06em;padding:6px 14px;cursor:pointer;
+}
+.lb-nav-btn:hover:not(:disabled){border-color:var(--ram);color:var(--bright);}
+.lb-nav-btn.next{border-color:var(--ram);color:var(--ram);}
+.lb-nav-btn.next:hover:not(:disabled){background:rgba(232,164,40,0.08);}
+.lb-nav-btn:disabled{opacity:0.25;cursor:not-allowed;}
+.lb-nav-spacer{flex:1;}
 
 /* ── RESEARCH ────────────────────────────────────── */
 .research-layout{
   display:grid;grid-template-columns:1fr 360px;
-  flex:1;
+  flex:1;min-height:0;
 }
 .research-main{border-right:1px solid var(--line);padding:32px 36px;}
 .rc-type{
@@ -423,8 +445,8 @@ audio{
 }
 
 /* ── SIGNAL FEED ─────────────────────────────────── */
-.feed-layout{display:grid;grid-template-columns:1fr 280px;flex:1;}
-.feed-list{border-right:1px solid var(--line);}
+.feed-layout{display:grid;grid-template-columns:1fr 280px;flex:1;min-height:0;overflow:hidden;}
+.feed-list{border-right:1px solid var(--line);overflow-y:auto;}
 .fi{
   padding:16px 20px;border-bottom:1px solid var(--line);
   transition:background 0.1s;
@@ -958,21 +980,27 @@ audio{
   <div class="learn-layout">
     <div class="learn-nav" id="learn-nav">
       <div class="ln-item active" data-learn="0" tabindex="0" role="button">
+        <div class="ln-num">01</div>
         <div><div class="ln-tag primer">Primer</div><div class="ln-title">What is DRAM and why does its price move?</div></div>
       </div>
       <div class="ln-item" data-learn="1" tabindex="0" role="button">
+        <div class="ln-num">02</div>
         <div><div class="ln-tag mechanism">Mechanism</div><div class="ln-title">Why RAM prices predict recessions</div></div>
       </div>
       <div class="ln-item" data-learn="2" tabindex="0" role="button">
+        <div class="ln-num">03</div>
         <div><div class="ln-tag mechanism">Mechanism</div><div class="ln-title">The HBM supercycle and AI's RAM appetite</div></div>
       </div>
       <div class="ln-item" data-learn="3" tabindex="0" role="button">
+        <div class="ln-num">04</div>
         <div><div class="ln-tag advanced">Advanced</div><div class="ln-title">RAMageddon 2026: the convergence event</div></div>
       </div>
       <div class="ln-item" data-learn="4" tabindex="0" role="button">
+        <div class="ln-num">05</div>
         <div><div class="ln-tag methodology">Methodology</div><div class="ln-title">How to read the Ramification Index</div></div>
       </div>
       <div class="ln-item" data-learn="5" tabindex="0" role="button">
+        <div class="ln-num">06</div>
         <div><div class="ln-tag advanced">Advanced</div><div class="ln-title">The semiconductor supply chain: who makes what</div></div>
       </div>
     </div>
@@ -1450,19 +1478,40 @@ const LEARN = [
    ]},
 ];
 
+const COLOR_MAP = {primer:'var(--ram)',mechanism:'var(--hbm)',advanced:'var(--hemline)',methodology:'var(--mui)'};
+
+function selectLesson(idx){
+  document.querySelectorAll('.ln-item').forEach((x,i)=>x.classList.toggle('active',i===idx));
+  renderLearn(idx);
+  document.getElementById('learn-body').scrollTop = 0;
+}
+
 function renderLearn(idx){
   const body = document.getElementById('learn-body');
   const d = LEARN[idx];
-  const colorMap = {primer:'var(--ram)',mechanism:'var(--hbm)',advanced:'var(--hemline)',methodology:'var(--mui)'};
+  const hasPrev = idx > 0;
+  const hasNext = idx < LEARN.length - 1;
   body.innerHTML = `
-    <div class="lb-tag" style="color:${colorMap[d.tag]}">${d.tagLabel.toUpperCase()}</div>
+    <div class="lb-counter">${String(idx+1).padStart(2,'0')} / ${String(LEARN.length).padStart(2,'0')}</div>
+    <div class="lb-tag" style="color:${COLOR_MAP[d.tag]}">${d.tagLabel.toUpperCase()}</div>
     <div class="lb-h">${d.h}</div>
     <div class="lb-p">${d.p}</div>
     <div class="lb-facts">
       ${d.facts.map(f=>`<div class="lb-fact"><span class="lb-fact-marker">→</span><span>${f}</span></div>`).join('')}
     </div>
     ${d.cta?`<a class="lb-cta" href="${d.cta.href}">${d.cta.label}</a>`:''}
+    <div class="lb-nav">
+      <button class="lb-nav-btn" data-dir="-1" ${hasPrev?'':'disabled'}>← Prev</button>
+      <div class="lb-nav-spacer"></div>
+      <button class="lb-nav-btn next" data-dir="1" ${hasNext?'':'disabled'}>${hasNext?'Next →':'Done'}</button>
+    </div>
   `;
+  body.querySelectorAll('.lb-nav-btn[data-dir]').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const next = idx + +btn.dataset.dir;
+      if(next >= 0 && next < LEARN.length) selectLesson(next);
+    });
+  });
 }
 
 // ── NAVIGATION ────────────────────────────────────────────
@@ -1478,11 +1527,12 @@ document.querySelectorAll('.np').forEach(btn=>{
   });
 });
 
-document.querySelectorAll('.ln-item').forEach(item=>{
-  item.addEventListener('click',()=>{
-    document.querySelectorAll('.ln-item').forEach(x=>x.classList.remove('active'));
-    item.classList.add('active');
-    renderLearn(+item.dataset.learn);
+document.querySelectorAll('.ln-item').forEach((item,i)=>{
+  item.addEventListener('click',()=>selectLesson(i));
+  item.addEventListener('keydown',e=>{
+    if(e.key==='Enter'||e.key===' '){e.preventDefault();selectLesson(i);}
+    if(e.key==='ArrowDown'){e.preventDefault();const nx=document.querySelectorAll('.ln-item')[i+1];if(nx){nx.focus();selectLesson(i+1);}}
+    if(e.key==='ArrowUp'){e.preventDefault();const pv=document.querySelectorAll('.ln-item')[i-1];if(pv){pv.focus();selectLesson(i-1);}}
   });
 });
 
