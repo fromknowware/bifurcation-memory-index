@@ -581,9 +581,20 @@ audio{
 .feed-list{border-right:1px solid var(--line);overflow-y:auto;}
 .fi{
   padding:16px 20px;border-bottom:1px solid var(--line);
-  transition:background 0.1s;
+  transition:background 0.1s;cursor:pointer;
 }
 .fi:hover{background:var(--bg1);}
+#fi-toast{
+  position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(12px);
+  background:var(--bg2);border:1px solid var(--line2);
+  font-family:var(--mono);font-size:11px;color:var(--text);
+  padding:10px 18px;white-space:nowrap;pointer-events:none;
+  opacity:0;transition:opacity 0.15s,transform 0.15s;z-index:200;
+}
+#fi-toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+#fi-toast span{color:var(--ram);}
+.subscribe-block.pulse{animation:sub-pulse 0.6s ease-out;}
+@keyframes sub-pulse{0%,100%{border-color:var(--line);}40%{border-color:var(--ram);}}
 .fi-top{display:flex;align-items:center;gap:10px;margin-bottom:6px;}
 .fi-date{font-family:var(--mono);font-size:10px;color:var(--muted);}
 .fi-tag{
@@ -915,6 +926,7 @@ audio{
 </style>
 </head>
 <body>
+<div id="fi-toast">Source links available to subscribers — <span>sign up →</span></div>
 
 <!-- TICKER -->
 <div id="ticker-bar"><div class="ticker-track" id="ticker-track"></div></div>
@@ -1893,6 +1905,28 @@ document.getElementById('theme-toggle').addEventListener('click',()=>{
 document.querySelector('.hd-brand').addEventListener('click',()=>{
   document.querySelector('.np[data-sec="index"]').click();
 });
+
+// ── FEED: click item → subscribe nudge ────────────────────
+(function(){
+  const toast = document.getElementById('fi-toast');
+  let toastTimer;
+  document.querySelector('.feed-list').addEventListener('click', e=>{
+    const fi = e.target.closest('.fi');
+    if(!fi) return;
+    clearTimeout(toastTimer);
+    toast.classList.add('show');
+    toastTimer = setTimeout(()=>toast.classList.remove('show'), 3200);
+    const sub = document.querySelector('.subscribe-block');
+    if(sub){
+      sub.scrollIntoView({behavior:'smooth',block:'nearest'});
+      sub.classList.remove('pulse');
+      void sub.offsetWidth;
+      sub.classList.add('pulse');
+      sub.addEventListener('animationend',()=>sub.classList.remove('pulse'),{once:true});
+    }
+    document.getElementById('sub-email')?.focus({preventScroll:true});
+  });
+})();
 
 // ── NAVIGATION ────────────────────────────────────────────
 document.querySelectorAll('.np').forEach(btn=>{
