@@ -2062,14 +2062,14 @@ document.querySelector('.hd-brand').addEventListener('click',()=>{
       }
       const bar = document.getElementById('feed-filters');
       if(!bar) return;
-      activeTag = tag || 'all';
+      // Always land on ALL / 25 per page when coming from the homepage
+      activeTag = 'all';
       pickOnly  = false;
       page      = 0;
+      pageSize  = 25;
       bar.querySelectorAll('.ff-chip:not(.pick-chip)').forEach(c=>c.classList.remove('active'));
-      // For SOURCES/PICKS lenses there's no tag chip to highlight — reset to ALL
-      const target = bar.querySelector(`.ff-chip[data-filter="${activeTag}"]`);
-      if(target) target.classList.add('active');
-      else bar.querySelector('.ff-chip[data-filter="all"]')?.classList.add('active');
+      bar.querySelector('.ff-chip[data-filter="all"]')?.classList.add('active');
+      bar.querySelectorAll('.ff-ps[data-size]').forEach(b=>b.classList.toggle('active', b.dataset.size==='25'));
       applyFilters();
     }, 80);
   };
