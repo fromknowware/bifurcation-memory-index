@@ -16,9 +16,20 @@
     <updated>2026-06-12T07:47:32.192Z</updated>
     <author><name>finance.yahoo.com</name></author>
     <summary type="html">Shares of SanDisk (NASDAQ:SNDK) are up 14% to roughly $1,873 in midday trading Thursday, while Western Digital (NASDAQ:WDC) stock is climbing 6% to around...</summary>
-    <category term="raindrop" />
+    <category term="RAM" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Shares of SanDisk (NASDAQ:SNDK) are up 14% to roughly $1,873 in midday trading Thursday, while Western Digital (NASDAQ:WDC) stock is climbing 6% to around...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.hudson-labs.com/research/micron-q3-2026-earnings</id>
+    <title type="html">Micron Q3 FY2026 guidance: DDR5 ASP up 40% QoQ; capacity allocation shifting further to HBM3E</title>
+    <link href="https://www.hudson-labs.com/research/micron-q3-2026-earnings" />
+    <updated>2026-06-12T00:00:00Z</updated>
+    <author><name>Hudson Labs / Micron IR</name></author>
+    <summary type="html">Confirms the commodity super-spike is supply-driven, not demand-led. RI implication: R_C continues to rise through Q3; composite RI likely holds above 0.8 through year-end if HBM conversion persists.</summary>
+    <category term="SUPPLY" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Confirms the commodity super-spike is supply-driven, not demand-led. RI implication: R_C continues to rise through Q3; composite RI likely holds above 0.8 through year-end if HBM conversion persists.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.reuters.com/business/media-telecom/chip-selloff-erases-over-1-trillion-stock-market-value-2026-06-05/</id>
@@ -27,7 +38,7 @@
     <updated>2026-06-07T18:10:15.079Z</updated>
     <author><name>reuters.com</name></author>
     <summary type="html">U.S.-traded chipmakers plunged on Friday, losing about $1.3 trillion in market value, with deep losses in AI heavy ​hitters including Nvidia , Micron Technology and Advanced Micro Devices , as Broadcom's ‌weak report earlier this week reverberated across Wall Street.</summary>
-    <category term="raindrop" />
+    <category term="RAM" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;U.S.-traded chipmakers plunged on Friday, losing about $1.3 trillion in market value, with deep losses in AI heavy ​hitters including Nvidia , Micron Technology and Advanced Micro Devices , as Broadcom's ‌weak report earlier this week reverberated across Wall Street.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
@@ -38,7 +49,7 @@
     <updated>2026-06-07T07:11:57.026Z</updated>
     <author><name>techradar.com</name></author>
     <summary type="html">Intel and SoftBank reveal radical stacked memory architecture that could reshape AI hardware economics within several years</summary>
-    <category term="raindrop" />
+    <category term="RAM" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Intel and SoftBank reveal radical stacked memory architecture that could reshape AI hardware economics within several years&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
@@ -49,7 +60,7 @@
     <updated>2026-06-07T07:11:46.312Z</updated>
     <author><name>tweaktown.com</name></author>
     <summary type="html">Samsung is reportedly scaling down its HBM production, shifting focus of DRAM production to DDR5 modules because there's FAR more profits to be made.</summary>
-    <category term="raindrop" />
+    <category term="RAM" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Samsung is reportedly scaling down its HBM production, shifting focus of DRAM production to DDR5 modules because there's FAR more profits to be made.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
@@ -60,7 +71,7 @@
     <updated>2026-06-07T07:11:41.227Z</updated>
     <author><name>cnbc.com</name></author>
     <summary type="html">Three primary memory vendors — Micron, SK Hynix and Samsung Electronics — make up nearly the entire RAM market, and they're benefitting from this shortage.</summary>
-    <category term="raindrop" />
+    <category term="RAM" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Three primary memory vendors — Micron, SK Hynix and Samsung Electronics — make up nearly the entire RAM market, and they're benefitting from this shortage.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
@@ -71,7 +82,7 @@
     <updated>2026-06-07T07:11:34.079Z</updated>
     <author><name>fool.com</name></author>
     <summary type="html">Google's TurboQuant breakthrough alleviates part of the pressure, but the bottleneck still exists.</summary>
-    <category term="raindrop" />
+    <category term="RAM" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Google's TurboQuant breakthrough alleviates part of the pressure, but the bottleneck still exists.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
@@ -82,13 +93,13 @@
     <updated>2026-06-07T07:11:28.429Z</updated>
     <author><name>chinatalk.media</name></author>
     <summary type="html">Given export controls, what HBM node can China reach?</summary>
-    <category term="raindrop" />
+    <category term="RAM" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Given export controls, what HBM node can China reach?&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/ram/lexar-regional-manager-says-that-ram-prices-are-expected-to-double-by-the-end-of-the-year-discounts-and-stabilized-prices-result-from-distributors-getting-rid-of-old-stock-or-sourcing-products-from-other-regions</id>
-    <title type="html">Lexar regional manager says that RAM prices are expected to double by the end of the year â 'discounts' and stabilized prices result from distributors getting rid of old stock or sourcing products from other regions</title>
+    <title type="html">Lexar regional manager says that RAM prices are expected to double by the end of the year — 'discounts' and stabilized prices result from distributors getting rid of old stock or sourcing products from other regions</title>
     <link href="https://www.tomshardware.com/pc-components/ram/lexar-regional-manager-says-that-ram-prices-are-expected-to-double-by-the-end-of-the-year-discounts-and-stabilized-prices-result-from-distributors-getting-rid-of-old-stock-or-sourcing-products-from-other-regions" />
     <updated>2026-06-07T07:09:12.391Z</updated>
     <author><name>tomshardware.com</name></author>
@@ -98,20 +109,53 @@
     <content type="html">&lt;p&gt;Don't get your hopes up.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
+    <id>https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/06/micron-a-look-at-memory-ahead-of-earning</id>
+    <title type="html">Nvidia Blackwell GB200 NVL72 rack demand accelerating; SK Hynix locked into HBM3E supply through Q4</title>
+    <link href="https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/06/micron-a-look-at-memory-ahead-of-earning" />
+    <updated>2026-06-04T00:00:00Z</updated>
+    <author><name>S&amp;P Global Market Intelligence</name></author>
+    <summary type="html">HBM allocation lock-in removes capacity from commodity DRAM for another 6 months. RI implication: Bifurcation gap widens — R_AI remains capped while R_C spikes. Weight ω may revise to 0.45 in H2 update.</summary>
+    <category term="DEMAND" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;HBM allocation lock-in removes capacity from commodity DRAM for another 6 months. RI implication: Bifurcation gap widens — R_AI remains capped while R_C spikes. Weight ω may revise to 0.45 in H2 update.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.bea.gov/data/gdp/gross-domestic-product</id>
+    <title type="html">BEA revises Q1 2026 GDP to +0.8% annualized — below consensus of +1.4%</title>
+    <link href="https://www.bea.gov/data/gdp/gross-domestic-product" />
+    <updated>2026-05-28T00:00:00Z</updated>
+    <author><name>Bureau of Economic Analysis</name></author>
+    <summary type="html">Growth deceleration while DRAM prices surge is the textbook RAMageddon condition. RI implication: Dual signal (RI high + GDP low) matches 4 of 6 historic recession precursors. Not a recession call — a watch condition.</summary>
+    <category term="MACRO" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Growth deceleration while DRAM prices surge is the textbook RAMageddon condition. RI implication: Dual signal (RI high + GDP low) matches 4 of 6 historic recession precursors. Not a recession call — a watch condition.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://biz.chosun.com/en/en-it/2026/01/13/B7NHD75AJ5C3FOQUHG2GFSOXGU/</id>
+    <title type="html">Samsung delays 1c-nm DRAM ramp by 2 quarters citing yield challenges at Pyeongtaek P4 fab</title>
+    <link href="https://biz.chosun.com/en/en-it/2026/01/13/B7NHD75AJ5C3FOQUHG2GFSOXGU/" />
+    <updated>2026-05-15T00:00:00Z</updated>
+    <author><name>Chosun Biz</name></author>
+    <summary type="html">New capacity delayed = tighter supply for longer. RI implication: The commodity spike extends; downside risk to our base-case RI decline in 2027.</summary>
+    <category term="FAB" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;New capacity delayed = tighter supply for longer. RI implication: The commodity spike extends; downside risk to our base-case RI decline in 2027.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html</id>
+    <title type="html">SK Hynix Q1 2026: HBM revenue +340% YoY; operating margin 42% — best in company history</title>
+    <link href="https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html" />
+    <updated>2026-05-02T00:00:00Z</updated>
+    <author><name>CNBC</name></author>
+    <summary type="html">HBM economics transformational for SK Hynix. RI implication: Validates the v2 bifurcation thesis — HBM is now a structurally distinct market with its own pricing dynamics, no longer correlated to commodity DRAM.</summary>
+    <category term="EARNINGS" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;HBM economics transformational for SK Hynix. RI implication: Validates the v2 bifurcation thesis — HBM is now a structurally distinct market with its own pricing dynamics, no longer correlated to commodity DRAM.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <id>https://www.youtube.com/watch?v=h6GWikWlAQA&amp;t=11s</id>
     <title type="html">Making RAM at Home</title>
     <link href="https://www.youtube.com/watch?v=h6GWikWlAQA&amp;t=11s" />
-    <updated>2026-04-28T21:20:14.650Z</updated>
-    <author><name>youtube.com</name></author>
-    <summary type="html">Thanks for the support! https://www.patreon.com/cw/DrSemiconductor Shoutout to Projects in Flight for a helpful reference on the doping:https://www.youtube.c...</summary>
-    <category term="raindrop" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Thanks for the support! https://www.patreon.com/cw/DrSemiconductor Shoutout to Projects in Flight for a helpful reference on the doping:https://www.youtube.c...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.youtube.com/watch?v=h6GWikWlAQA&amp;amp;t=11s</id>
-    <title type="html">Making RAM at Home</title>
-    <link href="https://www.youtube.com/watch?v=h6GWikWlAQA&amp;amp;t=11s" />
     <updated>2026-04-28T21:20:14.650Z</updated>
     <author><name>youtube.com</name></author>
     <summary type="html">Thanks for the support! https://www.patreon.com/cw/DrSemiconductor Shoutout to Projects in Flight for a helpful reference on the doping:https://www.youtube.c...</summary>
@@ -132,14 +176,14 @@
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/dram/dr-semiconductor-successfully-fabs-ram-in-garden-shed-cleanroom-array-of-memory-cells-with-12pf-capacitance-groundwork-for-much-larger-future-array</id>
-    <title type="html">Enthusiast builds his own RAM in garden shed cleanroom â fledgling array of memory cells groundwork for much larger future project | Tom's Hardware</title>
+    <title type="html">Enthusiast builds his own RAM in garden shed cleanroom — fledgling array of memory cells groundwork for much larger future project | Tom's Hardware</title>
     <link href="https://www.tomshardware.com/pc-components/dram/dr-semiconductor-successfully-fabs-ram-in-garden-shed-cleanroom-array-of-memory-cells-with-12pf-capacitance-groundwork-for-much-larger-future-array" />
     <updated>2026-04-22T18:41:52.096Z</updated>
     <author><name>tomshardware.com</name></author>
-    <summary type="html">One small step, but the good doctor asks us to âstay tunedâ for a PC scale result.</summary>
+    <summary type="html">One small step, but the good doctor asks us to ‘stay tuned’ for a PC scale result.</summary>
     <category term="raindrop" />
     <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;One small step, but the good doctor asks us to âstay tunedâ for a PC scale result.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;One small step, but the good doctor asks us to ‘stay tuned’ for a PC scale result.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://towardsdatascience.com/a-guide-to-gpu-utilization/</id>
@@ -162,6 +206,17 @@
     <category term="raindrop" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;The Silicon Valley chip maker filed a prospectus just as SpaceX, Anthropic and OpenAI prepare for their own listings, in what is shaping up to be a wave of enormous initial public offerings.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.trendforce.com/price/dram/dram_spot</id>
+    <title type="html">PC DRAM spot prices hit 7-year high; module prices up 180% from October 2024 lows</title>
+    <link href="https://www.trendforce.com/price/dram/dram_spot" />
+    <updated>2026-04-18T00:00:00Z</updated>
+    <author><name>TrendForce DRAM Spot</name></author>
+    <summary type="html">Consumer market absorbs the commodity shock. RI implication: Downstream stocks (INTC, QCOM) will see BOM pressure in Q2–Q3 earnings.</summary>
+    <category term="SUPPLY" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Consumer market absorbs the commodity shock. RI implication: Downstream stocks (INTC, QCOM) will see BOM pressure in Q2–Q3 earnings.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.linkedin.com/posts/laurie-kirk_modern-dram-is-based-on-a-brilliant-design-ugcPost-7447333928362754048-7jzK?utm_source=share&amp;utm_medium=member_android&amp;rcm=ACoAAAJEO3EBTjILifO8AHt_ADunz2h7S7UxJDc</id>
@@ -195,39 +250,8 @@ The technique works across Intel, AMD, Graviton, DDR4, DDR5, x86, ARM, you name 
 Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 comments on LinkedIn&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://www.linkedin.com/posts/laurie-kirk_modern-dram-is-based-on-a-brilliant-design-ugcPost-7447333928362754048-7jzK?utm_source=share&amp;amp;utm_medium=member_android&amp;amp;rcm=ACoAAAJEO3EBTjILifO8AHt_ADunz2h7S7UxJDc</id>
-    <title type="html">Modern DRAM is based on a brilliant design from IBM. But, we're still paying for a latency penalty that's existed since the 60s! In this video, I'm introducing my personal research projectâ¦ | Laurie Kirk | 25 comments</title>
-    <link href="https://www.linkedin.com/posts/laurie-kirk_modern-dram-is-based-on-a-brilliant-design-ugcPost-7447333928362754048-7jzK?utm_source=share&amp;amp;utm_medium=member_android&amp;amp;rcm=ACoAAAJEO3EBTjILifO8AHt_ADunz2h7S7UxJDc" />
-    <updated>2026-04-08T02:07:44.615Z</updated>
-    <author><name>linkedin.com</name></author>
-    <summary type="html">Modern DRAM is based on a brilliant design from IBM.
-
-But, we're still paying for a latency penalty that's existed since the 60s!
-
-In this video, I'm introducing my personal research project (Tailslayer) that immensely reduces p99.99 latency on traditional RAM!
-
-By implementing a hedged read strategy taking advantage of (undocumented!) channel scrambling offsets, I've gotten as much as 15x reductions in tail latency.
-
-The technique works across Intel, AMD, Graviton, DDR4, DDR5, x86, ARM, you name it.
-
-Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 comments on LinkedIn</summary>
-    <category term="raindrop" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Modern DRAM is based on a brilliant design from IBM.
-
-But, we're still paying for a latency penalty that's existed since the 60s!
-
-In this video, I'm introducing my personal research project (Tailslayer) that immensely reduces p99.99 latency on traditional RAM!
-
-By implementing a hedged read strategy taking advantage of (undocumented!) channel scrambling offsets, I've gotten as much as 15x reductions in tail latency.
-
-The technique works across Intel, AMD, Graviton, DDR4, DDR5, x86, ARM, you name it.
-
-Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 comments on LinkedIn&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://www.tomshardware.com/tech-industry/new-cambridge-human-brain-inspired-chip-could-slash-ai-energy-use</id>
-    <title type="html">New Cambridge human brain-inspired chip could slash AI energy use â new type of memristor has roughly a million times lower switching current than conventional devices | Tom's Hardware</title>
+    <title type="html">New Cambridge human brain-inspired chip could slash AI energy use — new type of memristor has roughly a million times lower switching current than conventional devices | Tom's Hardware</title>
     <link href="https://www.tomshardware.com/tech-industry/new-cambridge-human-brain-inspired-chip-could-slash-ai-energy-use" />
     <updated>2026-03-29T21:48:53.021Z</updated>
     <author><name>tomshardware.com</name></author>
@@ -238,14 +262,25 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
   </entry>
   <entry>
     <id>https://www.youtube.com/watch?v=NbJUT_NKnAU</id>
-    <title type="html">Black Semiconductor Integrated Graphene Photonicsâ¢ Technology</title>
+    <title type="html">Black Semiconductor Integrated Graphene Photonics™ Technology</title>
     <link href="https://www.youtube.com/watch?v=NbJUT_NKnAU" />
     <updated>2026-03-27T09:19:04.746Z</updated>
     <author><name>youtube.com</name></author>
-    <summary type="html">Discover what's at the heart of Black Semiconductor.Black Semiconductor Integrated Graphene Photonicsâ¢ (IGP) Technology introduces a new compute chip categor...</summary>
-    <category term="raindrop" />
+    <summary type="html">Discover what's at the heart of Black Semiconductor.Black Semiconductor Integrated Graphene Photonics™ (IGP) Technology introduces a new compute chip categor...</summary>
+    <category term="youtube" />
     <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Discover what's at the heart of Black Semiconductor.Black Semiconductor Integrated Graphene Photonicsâ¢ (IGP) Technology introduces a new compute chip categor...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Discover what's at the heart of Black Semiconductor.Black Semiconductor Integrated Graphene Photonics™ (IGP) Technology introduces a new compute chip categor...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.nist.gov/chips/micron-new-york-clay</id>
+    <title type="html">CHIPS Act: Micron breaks ground on New York fab — 40,000 jobs, $50B investment over 20 years</title>
+    <link href="https://www.nist.gov/chips/micron-new-york-clay" />
+    <updated>2026-03-22T00:00:00Z</updated>
+    <author><name>NIST / CHIPS Program Office</name></author>
+    <summary type="html">Zero near-term supply relief. RI implication: Fabs take 3–4 years to produce wafers. This is a 2029+ story; important for MU's strategic premium and the RI's long-run trajectory.</summary>
+    <category term="FAB" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Zero near-term supply relief. RI implication: Fabs take 3–4 years to produce wafers. This is a 2029+ story; important for MU's strategic premium and the RI's long-run trajectory.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.makingsoftware.com/chapters/how-is-data-stored</id>
@@ -271,7 +306,7 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/ram/john-carmack-muses-using-a-long-fiber-line-as-as-an-l2-cache-for-streaming-ai-data-programmer-imagines-fiber-as-alternative-to-dram</id>
-    <title type="html">John Carmack muses using a long fiber line as an L2 cache for streaming AI data â programmer imagines fiber as alternative to DRAM</title>
+    <title type="html">John Carmack muses using a long fiber line as an L2 cache for streaming AI data — programmer imagines fiber as alternative to DRAM</title>
     <link href="https://www.tomshardware.com/pc-components/ram/john-carmack-muses-using-a-long-fiber-line-as-as-an-l2-cache-for-streaming-ai-data-programmer-imagines-fiber-as-alternative-to-dram" />
     <updated>2026-03-03T03:49:01.834Z</updated>
     <author><name>tomshardware.com</name></author>
@@ -287,13 +322,13 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <updated>2026-03-01T07:10:30.690Z</updated>
     <author><name>youtube.com</name></author>
     <summary type="html">Visit https://brilliant.org/coldfusion for 20% off a premium subscription.In this episode we cover the insane supply shortage of RAM due to the AI buildout. ...</summary>
-    <category term="raindrop" />
+    <category term="youtube" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Visit https://brilliant.org/coldfusion for 20% off a premium subscription.In this episode we cover the insane supply shortage of RAM due to the AI buildout. ...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.calcalistech.com/ctechnews/article/hkphis00l11g</id>
-    <title type="html">Tower Semiconductor surges to $15 billion valuation, tripling Intelâs abandoned bid | Ctech</title>
+    <title type="html">Tower Semiconductor surges to $15 billion valuation, tripling Intel’s abandoned bid | Ctech</title>
     <link href="https://www.calcalistech.com/ctechnews/article/hkphis00l11g" />
     <updated>2026-01-31T02:47:31.679Z</updated>
     <author><name>calcalistech.com</name></author>
@@ -308,10 +343,10 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <link href="https://www.youtube.com/watch?v=gWUX2OTqkEo" />
     <updated>2026-01-26T09:47:01.906Z</updated>
     <author><name>youtube.com</name></author>
-    <summary type="html">A team of researchers at Georgia Tech and Tianjin University has created the worldâs first functional semiconductor made from graphene, a single sheet of car...</summary>
-    <category term="raindrop" />
+    <summary type="html">A team of researchers at Georgia Tech and Tianjin University has created the world’s first functional semiconductor made from graphene, a single sheet of car...</summary>
+    <category term="youtube" />
     <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;A team of researchers at Georgia Tech and Tianjin University has created the worldâs first functional semiconductor made from graphene, a single sheet of car...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;A team of researchers at Georgia Tech and Tianjin University has created the world’s first functional semiconductor made from graphene, a single sheet of car...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://sc.mp/jg173</id>
@@ -342,7 +377,7 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <updated>2025-10-19T22:55:55.947Z</updated>
     <author><name>youtube.com</name></author>
     <summary type="html">16:12 - Typo, meant to say 2013 not 2023Links:- Patreon (Support the channel directly!): https://www.patreon.com/Asianometry- X: https://twitter.com/asianome...</summary>
-    <category term="raindrop" />
+    <category term="youtube" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;16:12 - Typo, meant to say 2013 not 2023Links:- Patreon (Support the channel directly!): https://www.patreon.com/Asianometry- X: https://twitter.com/asianome...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
@@ -385,10 +420,10 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <link href="https://techcrunch.com/2025/07/31/female-founded-semiconductor-ai-startup-sixsense-raises-funding/" />
     <updated>2025-08-01T04:34:46.355Z</updated>
     <author><name>techcrunch.com</name></author>
-    <summary type="html">SixSense offers an AI-powered platform that helps chip makers prevent defects. It landed backing led by Peak XVâs Surge (formerly Sequoia India &amp; SEA).</summary>
-    <category term="raindrop" />
+    <summary type="html">SixSense offers an AI-powered platform that helps chip makers prevent defects. It landed backing led by Peak XV’s Surge (formerly Sequoia India &amp; SEA).</summary>
+    <category term="JUL" />
     <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;SixSense offers an AI-powered platform that helps chip makers prevent defects. It landed backing led by Peak XVâs Surge (formerly Sequoia India &amp; SEA).&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SixSense offers an AI-powered platform that helps chip makers prevent defects. It landed backing led by Peak XV’s Surge (formerly Sequoia India &amp;amp; SEA).&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://interestingengineering.com/innovation/semiconductor-ev-autonomy-testing-more-efficient</id>
@@ -397,7 +432,7 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <updated>2025-07-28T12:39:46.625Z</updated>
     <author><name>interestingengineering.com</name></author>
     <summary type="html">The solution offers greater proficiency in addressing the complexity of test and measurement across industries like semiconductor, transportation, and electronics.</summary>
-    <category term="raindrop" />
+    <category term="JUL" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;The solution offers greater proficiency in addressing the complexity of test and measurement across industries like semiconductor, transportation, and electronics.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
@@ -408,18 +443,18 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <updated>2025-07-13T04:52:31.456Z</updated>
     <author><name>thestreet.com</name></author>
     <summary type="html">A semiconductor giant announces a surprising acquisition.</summary>
-    <category term="raindrop" />
+    <category term="JUL" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;A semiconductor giant announces a surprising acquisition.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://share.google/00bgAmqdO0Atvodgd</id>
-    <title type="html">Worldâs first semiconductor made by quantum tech stuns chip industry</title>
+    <title type="html">World’s first semiconductor made by quantum tech stuns chip industry</title>
     <link href="https://share.google/00bgAmqdO0Atvodgd" />
     <updated>2025-07-05T19:56:39.301Z</updated>
     <author><name>share.google</name></author>
     <summary type="html">In a first, Australian scientists turned to quantum machine learning to model semiconductor design, outperforming classical approaches.</summary>
-    <category term="raindrop" />
+    <category term="JUL" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;In a first, Australian scientists turned to quantum machine learning to model semiconductor design, outperforming classical approaches.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
@@ -429,32 +464,32 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <link href="https://www.bleepingcomputer.com/news/security/new-rambo-attack-steals-data-using-ram-in-air-gapped-computers/" />
     <updated>2024-09-09T08:11:58.520Z</updated>
     <author><name>bleepingcomputer.com</name></author>
-    <summary type="html">A novel side-channel attack dubbed Â &quot;RAMBO&quot; (Radiation of Air-gapped Memory Bus for Offense) generates electromagnetic radiationÂ from a device's RAM to send data from air-gapped computers.</summary>
+    <summary type="html">A novel side-channel attack dubbed  &quot;RAMBO&quot; (Radiation of Air-gapped Memory Bus for Offense) generates electromagnetic radiation from a device's RAM to send data from air-gapped computers.</summary>
     <category term="raindrop" />
     <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;A novel side-channel attack dubbed Â &quot;RAMBO&quot; (Radiation of Air-gapped Memory Bus for Offense) generates electromagnetic radiationÂ from a device's RAM to send data from air-gapped computers.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;A novel side-channel attack dubbed  &amp;quot;RAMBO&amp;quot; (Radiation of Air-gapped Memory Bus for Offense) generates electromagnetic radiation from a device's RAM to send data from air-gapped computers.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.youtube.com/watch?v=Bu52CE55BN0</id>
-    <title type="html">âSemiconductor Manufacturing Processâ Explained | 'All About Semiconductor' by Samsung Semiconductor</title>
+    <title type="html">‘Semiconductor Manufacturing Process’ Explained | 'All About Semiconductor' by Samsung Semiconductor</title>
     <link href="https://www.youtube.com/watch?v=Bu52CE55BN0" />
     <updated>2024-06-06T09:01:41.922Z</updated>
     <author><name>youtube.com</name></author>
     <summary type="html">What is the process by which silicon is transformed into a semiconductor chip?As the second most prevalent material on earth, silicon is used in the semicond...</summary>
-    <category term="raindrop" />
+    <category term="2024" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;What is the process by which silicon is transformed into a semiconductor chip?As the second most prevalent material on earth, silicon is used in the semicond...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.youtube.com/watch?v=WKHKy89QaV0</id>
-    <title type="html">Inside Micron Taiwanâs Semiconductor Factory | Taiwanâs Mega Factories EP1</title>
+    <title type="html">Inside Micron Taiwan’s Semiconductor Factory | Taiwan’s Mega Factories EP1</title>
     <link href="https://www.youtube.com/watch?v=WKHKy89QaV0" />
     <updated>2024-06-06T09:01:34.851Z</updated>
     <author><name>youtube.com</name></author>
-    <summary type="html">Join us for a tour of Micron Technologyâs Taiwan chip manufacturing facilities to discover how chips are produced and how innovations in the semiconductor in...</summary>
-    <category term="raindrop" />
+    <summary type="html">Join us for a tour of Micron Technology’s Taiwan chip manufacturing facilities to discover how chips are produced and how innovations in the semiconductor in...</summary>
+    <category term="2024" />
     <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Join us for a tour of Micron Technologyâs Taiwan chip manufacturing facilities to discover how chips are produced and how innovations in the semiconductor in...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Join us for a tour of Micron Technology’s Taiwan chip manufacturing facilities to discover how chips are produced and how innovations in the semiconductor in...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.youtube.com/watch?v=_TOCRjF9WuE</id>
@@ -463,7 +498,7 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <updated>2024-06-06T09:01:23.828Z</updated>
     <author><name>youtube.com</name></author>
     <summary type="html">The US is bidding to regain a leading role in advanced chip manufacturing, to de-risk critical supply chains, and to combat China's rise as a technological s...</summary>
-    <category term="raindrop" />
+    <category term="2024" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;The US is bidding to regain a leading role in advanced chip manufacturing, to de-risk critical supply chains, and to combat China's rise as a technological s...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
@@ -474,7 +509,7 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <updated>2024-04-17T05:20:58.734Z</updated>
     <author><name>executivegov.com</name></author>
     <summary type="html">Looking for the latest Government Contracting News? Read about Proposed Samsung CHIPS and Science Act Investment to Bolster Semiconductor Industry in Texas.</summary>
-    <category term="raindrop" />
+    <category term="2024" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Looking for the latest Government Contracting News? Read about Proposed Samsung CHIPS and Science Act Investment to Bolster Semiconductor Industry in Texas.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
@@ -485,7 +520,7 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <updated>2024-01-11T22:44:20.916Z</updated>
     <author><name>livescience.com</name></author>
     <summary type="html">Scientists overcame a limitation in graphene to harness the material as a working semiconductor at terahertz frequencies with 10 times the mobility of silicon.</summary>
-    <category term="raindrop" />
+    <category term="W02" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Scientists overcame a limitation in graphene to harness the material as a working semiconductor at terahertz frequencies with 10 times the mobility of silicon.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
@@ -495,10 +530,10 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <link href="https://betakit.com/canadian-government-ups-semiconductor-focus-invests-36-million-in-ranovus/" />
     <updated>2023-04-07T04:41:49.217Z</updated>
     <author><name>betakit.com</name></author>
-    <summary type="html">Ottawa-based Ranovus Inc. has secured $36 million through the Canadian federal governmentâs Strategic Innovation Fund.</summary>
-    <category term="raindrop" />
+    <summary type="html">Ottawa-based Ranovus Inc. has secured $36 million through the Canadian federal government’s Strategic Innovation Fund.</summary>
+    <category term="semiconductor" />
     <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Ottawa-based Ranovus Inc. has secured $36 million through the Canadian federal governmentâs Strategic Innovation Fund.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Ottawa-based Ranovus Inc. has secured $36 million through the Canadian federal government’s Strategic Innovation Fund.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://techxplore.com/news/2023-02-neuromorphic-semiconductor-device-world-highest.html</id>
@@ -507,7 +542,7 @@ Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 commen
     <updated>2023-02-20T22:19:44.498Z</updated>
     <author><name>techxplore.com</name></author>
     <summary type="html"></summary>
-    <category term="raindrop" />
+    <category term="2023" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
