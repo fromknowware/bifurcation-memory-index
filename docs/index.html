@@ -88,7 +88,7 @@ header{
   font-family:var(--mono);font-size:13px;font-weight:700;
   color:var(--bright);letter-spacing:0.05em;
   padding:0 20px;border-right:1px solid var(--line);
-  height:100%;display:flex;align-items:center;gap:8px;
+  height:100%;display:flex;align-items:center;gap:8px;cursor:pointer;
 }
 .hd-brand em{color:var(--ram);font-style:normal;}
 .live-dot{
@@ -1708,6 +1708,11 @@ function handleSubscribe(){
   input.placeholder = 'Noted — newsletter coming soon';
   setTimeout(()=>{ if(input) input.placeholder = 'your@email.com'; }, 4000);
 }
+
+// ── BRAND → HOME ─────────────────────────────────────────
+document.querySelector('.hd-brand').addEventListener('click',()=>{
+  document.querySelector('.np[data-sec="index"]').click();
+});
 
 // ── NAVIGATION ────────────────────────────────────────────
 document.querySelectorAll('.np').forEach(btn=>{
