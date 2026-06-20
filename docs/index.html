@@ -918,21 +918,13 @@ audio{
   .research-sidebar{padding:14px 12px;}
   audio{height:28px;}
 
-  /* feed: stack, sidebar 2-col */
+  /* feed: treemap + feed only, hide sidebar entirely */
   .feed-layout{grid-template-columns:1fr;}
   .feed-list{border-right:none;}
+  .feed-aside{display:none!important;}
   .fi{padding:12px;}
   .fi-hl{font-size:12px;}
   .fi-ann{font-size:10px;}
-  .feed-aside{
-    border-top:1px solid var(--line);
-    display:grid;grid-template-columns:1fr 1fr;
-    gap:14px;padding:14px 12px;
-  }
-  .fa-block:first-child{display:none;}  /* hide calendar on mobile */
-  .fa-h{font-size:8px;}
-  .fa-row{font-size:10px;}
-  .watch-item{font-size:9px;}
 }
 
 /* ── SMALL MOBILE ≤374px ────────────────────────── */
