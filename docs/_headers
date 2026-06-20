@@ -1,0 +1,40 @@
+# Cloudflare Pages _headers
+# https://developers.cloudflare.com/pages/configuration/headers/
+
+# HTML — no cache so new deploys are instant
+/*.html
+  Cache-Control: no-cache, must-revalidate
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/
+  Cache-Control: no-cache, must-revalidate
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Stock data — 15 min TTL matches the GitHub Actions refresh cadence
+/data/stocks.json
+  Cache-Control: public, max-age=900, stale-while-revalidate=60
+
+# Feed
+/feed.xml
+  Cache-Control: public, max-age=3600
+  Content-Type: application/xml; charset=utf-8
+
+# Static assets — 1 year, immutable (filenames don't change but content rarely does)
+/*.pdf
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Disposition: inline
+
+/*.mp3
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Ranges: bytes
+
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/llms.txt
+  Cache-Control: public, max-age=86400
+  Content-Type: text/plain; charset=utf-8
