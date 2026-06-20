@@ -610,8 +610,9 @@ audio{
 .feed-items{flex:1;}
 .fi{
   padding:16px 20px;border-bottom:1px solid var(--line);
-  transition:background 0.1s;cursor:pointer;
+  transition:background 0.1s;cursor:pointer;overflow:hidden;
 }
+.fi-hl,.fi-ann,.fi-src{overflow-wrap:break-word;word-break:break-word;}
 .fi:hover{background:var(--bg1);}
 #fi-toast{
   position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(12px);
