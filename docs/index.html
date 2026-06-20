@@ -1799,6 +1799,14 @@ function renderLearn(idx){
 }
 
 // ── LIVE FEED ─────────────────────────────────────────────
+const TAG_META = {
+  fab:      {cls:'fab',      label:'FAB'},
+  earnings: {cls:'earnings', label:'EARNINGS'},
+  macro:    {cls:'macro',    label:'MACRO'},
+  demand:   {cls:'demand',   label:'DEMAND'},
+  supply:   {cls:'supply',   label:'SUPPLY'},
+};
+
 function guessTag(sourceFeed, title){
   const t = (sourceFeed+' '+title).toLowerCase();
   if(/earnings|guidance|revenue|profit|margin|quarter/.test(t)) return {cls:'earnings',label:'EARNINGS'};
@@ -1834,8 +1842,8 @@ async function loadFeed(){
       const author  = e.querySelector('name')?.textContent || '';
       const cats    = Array.from(e.querySelectorAll('category')).map(c=>c.getAttribute('term')||'');
       const isPick  = cats.includes('editorial-pick');
-      const srcFeed = cats.find(c=>c && c!=='editorial-pick') || '';
-      const tag     = guessTag(srcFeed, title);
+      const storedTag = cats.find(c=>c.startsWith('tag:'))?.slice(4) || '';
+      const tag     = storedTag ? TAG_META[storedTag] || guessTag('', title) : guessTag(cats.find(c=>c&&c!=='editorial-pick')||'', title);
       const dateStr = updated ? updated.slice(0,10) : '';
       return `<div class="fi">
         <div class="fi-top">

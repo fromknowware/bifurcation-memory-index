@@ -28,7 +28,8 @@ import { fetchFromOpml } from './tools/opml-source';
 import { fetchFromGoogleNews } from './tools/google-news-source';
 import { fetchFromRaindrop } from './tools/raindrop-source';
 import { scoreItems, annotateItems } from './tools/relevance-scorer';
-import { writeFeed } from './tools/feed-writer';
+import { fetchExistingItems, renderAtom, commitFeed, StoredItem, writeFeed } from './tools/feed-writer';
+import { classifyItem } from './tools/classifier';
 
 interface RamFeedState {
   // Thesis the agent is currently confirming
@@ -135,13 +136,25 @@ export class RamFeedAgent extends Agent<Env, RamFeedState> {
     }
 
     // Editorial picks bypass signal gating but still get an RI implication via annotateItems.
+    // Falls back to classify-only if the API is unavailable (credits exhausted etc.).
     // No dossier dedup here: writeFeed deduplicates against the live feed.xml.
     const annotated = await annotateItems(items, this.env.ANTHROPIC_API_KEY, this.state.thesis);
-    const editorialReady = annotated.map((item) => ({
-      ...item,
-      signal: 10,
-      editorialPick: true,
-    }));
+    const annotatedUrls = new Set(annotated.map(i => i.url));
+    const editorialReady = [
+      // Items Claude annotated — carry ri_implication + tag
+      ...annotated.map(item => ({ ...item, signal: 10, editorialPick: true })),
+      // Items Claude missed (API down) — classify locally, publish without RI implication
+      ...items
+        .filter(item => !annotatedUrls.has(item.url))
+        .map(item => ({
+          ...item,
+          signal: 10,
+          reasoning: 'Editorial pick',
+          riImplication: '',
+          tag: classifyItem(item.title, item.excerpt),
+          editorialPick: true,
+        })),
+    ];
 
     const result = await writeFeed(editorialReady, this.env.GITHUB_TOKEN, 'fromknowware', 'bifurcation-memory-index');
     this.setState({
@@ -233,6 +246,38 @@ export class RamFeedAgent extends Agent<Env, RamFeedState> {
       else if (body.raindrop)  result = await this.raindropCheck();
       else                     result = await this.newsRun();
       return Response.json(result);
+    }
+
+    // POST /ram-feed/reimply — backfill RI implications on existing feed items
+    // body: { limit?: number } — default 10 items per call; run repeatedly until remaining === 0
+    if (path === '/ram-feed/reimply' && request.method === 'POST') {
+      const body = await request.json().catch(() => ({})) as { limit?: number };
+      const limit = Math.min(body.limit ?? 10, 20);
+      const existing = await fetchExistingItems(this.env.GITHUB_TOKEN, 'fromknowware', 'bifurcation-memory-index');
+      const needsImplication = existing.filter(item => !item.riImplication).slice(0, limit);
+      if (needsImplication.length === 0) {
+        return Response.json({ ok: true, updated: 0, remaining: 0, message: 'All items have RI implications' });
+      }
+      const asFeedItems = needsImplication.map(item => ({
+        id: item.url,
+        url: item.url,
+        title: item.title,
+        excerpt: item.excerpt,
+        source: item.source,
+        sourceFeed: item.sourceFeed,
+        publishedAt: item.publishedAt,
+      }));
+      const scored = await annotateItems(asFeedItems, this.env.ANTHROPIC_API_KEY, this.state.thesis);
+      const implMap = new Map(scored.map(s => [s.url, { ri: s.riImplication, tag: s.tag }]));
+      const updated = existing.map(item => ({
+        ...item,
+        tag: item.tag || implMap.get(item.url)?.tag || classifyItem(item.title, item.excerpt),
+        riImplication: item.riImplication || implMap.get(item.url)?.ri || '',
+      }));
+      const xml = renderAtom(updated);
+      await commitFeed(xml, this.env.GITHUB_TOKEN, 'fromknowware', 'bifurcation-memory-index');
+      const remaining = existing.filter(item => !item.riImplication).length - scored.length;
+      return Response.json({ ok: true, updated: scored.length, remaining: Math.max(0, remaining), total: existing.length });
     }
 
     // PUT /ram-feed/opml

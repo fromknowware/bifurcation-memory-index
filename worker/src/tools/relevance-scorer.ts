@@ -9,11 +9,13 @@
  */
 
 import type { FeedItem } from './opml-source';
+import { classifyItem, FeedTag } from './classifier';
 
 export interface ScoredItem extends FeedItem {
   signal: number;
   reasoning: string;
   riImplication: string;
+  tag: FeedTag;
   editorialPick?: boolean;
 }
 
@@ -76,13 +78,18 @@ ${batch.map((item, i) => `${i + 1}. "${item.title}" — ${item.excerpt.slice(0, 
           system: buildSystemPrompt(thesis ?? 'DRAM ASP as a leading GDP indicator; bifurcation between commodity DRAM and HBM'),
           messages: [{ role: 'user', content: prompt }],
         }),
-        signal: AbortSignal.timeout(30000),
+        signal: AbortSignal.timeout(25000),
       });
 
-      if (!res.ok) continue;
+      if (!res.ok) {
+        console.error('Anthropic error:', res.status);
+        continue;
+      }
 
       const data = await res.json() as { content: { text: string }[] };
-      const text = data.content[0]?.text ?? '[]';
+      let text = data.content[0]?.text ?? '[]';
+      // Strip markdown code fences if present
+      text = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
       const scores = JSON.parse(text) as ScoreResult[];
 
       for (let i = 0; i < batch.length; i++) {
@@ -90,13 +97,14 @@ ${batch.map((item, i) => `${i + 1}. "${item.title}" — ${item.excerpt.slice(0, 
         if (!score) continue;
         scored.push({
           ...batch[i],
-          signal: score.signal,
-          reasoning: score.reasoning,
+          signal: score.signal ?? 5,
+          reasoning: score.reasoning ?? '',
           riImplication: score.ri_implication ?? '',
+          tag: classifyItem(batch[i].title, batch[i].excerpt),
         });
       }
-    } catch {
-      // If scoring fails, pass items through with signal = 0 (will be filtered)
+    } catch (err) {
+      console.error('scoreItems batch failed:', String(err));
     }
   }
 

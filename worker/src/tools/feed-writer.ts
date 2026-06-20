@@ -9,6 +9,7 @@
  */
 
 import type { ScoredItem } from './relevance-scorer';
+import { classifyItem, FeedTag } from './classifier';
 
 const FEED_META = {
   title: 'The RAM Index — Memory Market Intelligence',
@@ -52,7 +53,7 @@ export async function writeFeed(
 
 // ─── Atom XML Renderer ────────────────────────────────────────────
 
-function renderAtom(items: StoredItem[]): string {
+export function renderAtom(items: StoredItem[]): string {
   const updated = items[0]?.publishedAt ?? new Date().toISOString();
 
   const entries = items.map((item) => `
@@ -67,6 +68,7 @@ function renderAtom(items: StoredItem[]): string {
       (item.riImplication ? ` RI implication: ${item.riImplication}` : ''),
     )}</summary>
     <category term="${esc(item.sourceFeed)}" />
+    ${item.tag ? `<category term="tag:${item.tag}" />` : ''}
     ${item.editorialPick ? '<category term="editorial-pick" />' : ''}
     <content type="html">${esc(
       `<p>${item.excerpt}</p>` +
@@ -99,7 +101,7 @@ function esc(str: string): string {
 
 // ─── GitHub API Helpers ───────────────────────────────────────────
 
-interface StoredItem {
+export interface StoredItem {
   id?: string;
   url: string;
   title: string;
@@ -110,10 +112,11 @@ interface StoredItem {
   signal: number;
   reasoning: string;
   riImplication?: string;
+  tag?: FeedTag;
   editorialPick?: boolean;
 }
 
-async function fetchExistingItems(
+export async function fetchExistingItems(
   token: string,
   owner: string,
   repo: string,
@@ -147,10 +150,12 @@ function parseAtomItems(xml: string): StoredItem[] {
     const published = (block.match(/<updated>([\s\S]*?)<\/updated>/) ?? [])[1] ?? '';
     const categories = [...block.matchAll(/<category term="([^"]+)"/g)].map((c) => c[1]);
     const editorialPick = categories.includes('editorial-pick');
-    const sourceFeed = categories.find((c) => c !== 'editorial-pick') ?? '';
+    const tagCat = categories.find((c) => c.startsWith('tag:'));
+    const tag = tagCat ? (tagCat.slice(4) as FeedTag) : classifyItem(title, summary);
+    const sourceFeed = categories.find((c) => c !== 'editorial-pick' && !c.startsWith('tag:')) ?? '';
 
     if (url) {
-      items.push({ url, title, excerpt: summary, source, sourceFeed, publishedAt: published, signal: 0, reasoning: '', editorialPick });
+      items.push({ url, title, excerpt: summary, source, sourceFeed, publishedAt: published, signal: 0, reasoning: '', tag, editorialPick });
     }
   }
   return items;
@@ -164,7 +169,7 @@ function unesc(str: string): string {
     .replace(/&quot;/g, '"');
 }
 
-async function commitFeed(
+export async function commitFeed(
   xml: string,
   token: string,
   owner: string,
