@@ -578,7 +578,29 @@ audio{
 
 /* ── SIGNAL FEED ─────────────────────────────────── */
 .feed-layout{display:grid;grid-template-columns:1fr 280px;flex:1;min-height:0;overflow:hidden;}
-.feed-list{border-right:1px solid var(--line);overflow-y:auto;}
+.feed-list{border-right:1px solid var(--line);overflow-y:auto;display:flex;flex-direction:column;}
+.feed-filters{
+  display:flex;align-items:center;gap:6px;flex-wrap:wrap;
+  padding:10px 16px;border-bottom:1px solid var(--line);
+  background:var(--bg1);position:sticky;top:0;z-index:10;flex-shrink:0;
+}
+.ff-chip{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.06em;
+  padding:4px 10px;border:1px solid var(--line2);color:var(--muted);
+  background:none;cursor:pointer;transition:color 0.1s,border-color 0.1s,background 0.1s;
+  white-space:nowrap;
+}
+.ff-chip:hover{color:var(--text);border-color:var(--dim);}
+.ff-chip.active{color:var(--bg);background:var(--text);border-color:var(--text);}
+.ff-chip.pick-chip.active{background:var(--ram);border-color:var(--ram);color:var(--bg1);}
+.ff-chip.supply.active  {background:var(--sub);border-color:var(--sub);color:var(--bg1);}
+.ff-chip.demand.active  {background:var(--lipstick);border-color:var(--lipstick);color:var(--bg1);}
+.ff-chip.fab.active     {background:var(--hemline);border-color:var(--hemline);color:var(--bg1);}
+.ff-chip.earnings.active{background:var(--mui);border-color:var(--mui);color:var(--bg1);}
+.ff-chip.macro.active   {background:var(--hbm);border-color:var(--hbm);color:var(--bg1);}
+.ff-sep{width:1px;height:14px;background:var(--line2);flex-shrink:0;margin:0 2px;}
+.ff-count{font-family:var(--mono);font-size:10px;color:var(--dim);margin-left:auto;white-space:nowrap;}
+.feed-items{flex:1;}
 .fi{
   padding:16px 20px;border-bottom:1px solid var(--line);
   transition:background 0.1s;cursor:pointer;
@@ -1324,43 +1346,57 @@ audio{
   </div>
   <div class="feed-layout">
     <div class="feed-list">
-      <div class="fi">
+      <div class="feed-filters" id="feed-filters">
+        <button class="ff-chip active" data-filter="all">ALL</button>
+        <div class="ff-sep"></div>
+        <button class="ff-chip supply" data-filter="supply">SUPPLY</button>
+        <button class="ff-chip demand" data-filter="demand">DEMAND</button>
+        <button class="ff-chip fab" data-filter="fab">FAB</button>
+        <button class="ff-chip earnings" data-filter="earnings">EARNINGS</button>
+        <button class="ff-chip macro" data-filter="macro">MACRO</button>
+        <div class="ff-sep"></div>
+        <button class="ff-chip pick-chip" data-filter="pick">★ PICK</button>
+        <span class="ff-count" id="ff-count"></span>
+      </div>
+      <div class="feed-items">
+      <div class="fi" data-tag="supply">
         <div class="fi-top"><span class="fi-date">2026-06-12</span><span class="fi-tag supply">SUPPLY</span></div>
         <div class="fi-hl">Micron Q3 FY2026 guidance: DDR5 ASP up 40% QoQ; capacity allocation shifting further to HBM3E</div>
         <div class="fi-ann">Confirms the commodity super-spike is supply-driven, not demand-led. <em>RI implication:</em> R<sub>C</sub> continues to rise through Q3; composite RI likely holds above 0.8 through year-end if HBM conversion persists.</div>
       </div>
-      <div class="fi">
+      <div class="fi" data-tag="demand">
         <div class="fi-top"><span class="fi-date">2026-06-04</span><span class="fi-tag demand">DEMAND</span></div>
         <div class="fi-hl">Nvidia Blackwell GB200 NVL72 rack demand accelerating; SK Hynix locked into HBM3E supply through Q4</div>
         <div class="fi-ann">HBM allocation lock-in removes capacity from commodity DRAM for another 6 months. <em>RI implication:</em> Bifurcation gap widens — R<sub>AI</sub> remains capped while R<sub>C</sub> spikes. Weight ω may revise to 0.45 in H2 update.</div>
       </div>
-      <div class="fi">
+      <div class="fi" data-tag="macro">
         <div class="fi-top"><span class="fi-date">2026-05-28</span><span class="fi-tag macro">MACRO</span></div>
         <div class="fi-hl">BEA revises Q1 2026 GDP to +0.8% annualized — below consensus of +1.4%</div>
         <div class="fi-ann">Growth deceleration while DRAM prices surge is the textbook RAMageddon condition. <em>RI implication:</em> Dual signal (RI high + GDP low) matches 4 of 6 historic recession precursors. Not a recession call — a watch condition.</div>
       </div>
-      <div class="fi">
+      <div class="fi" data-tag="fab">
         <div class="fi-top"><span class="fi-date">2026-05-15</span><span class="fi-tag fab">FAB</span></div>
         <div class="fi-hl">Samsung delays 1c-nm DRAM ramp by 2 quarters citing yield challenges at Pyeongtaek P4 fab</div>
         <div class="fi-ann">New capacity delayed = tighter supply for longer. <em>RI implication:</em> The commodity spike extends; downside risk to our base-case RI decline in 2027.</div>
       </div>
-      <div class="fi">
+      <div class="fi" data-tag="earnings">
         <div class="fi-top"><span class="fi-date">2026-05-02</span><span class="fi-tag earnings">EARNINGS</span></div>
         <div class="fi-hl">SK Hynix Q1 2026: HBM revenue +340% YoY; operating margin 42% — best in company history</div>
         <div class="fi-ann">HBM economics transformational for SK Hynix. <em>RI implication:</em> Validates the v2 bifurcation thesis — HBM is now a structurally distinct market with its own pricing dynamics, no longer correlated to commodity DRAM.</div>
       </div>
-      <div class="fi">
+      <div class="fi" data-tag="supply">
         <div class="fi-top"><span class="fi-date">2026-04-18</span><span class="fi-tag supply">SUPPLY</span></div>
         <div class="fi-hl">PC DRAM spot prices hit 7-year high; module prices up 180% from October 2024 lows</div>
         <div class="fi-ann">Consumer market absorbs the commodity shock. <em>RI implication:</em> Downstream stocks (INTC, QCOM) will see BOM pressure in Q2–Q3 earnings.</div>
       </div>
-      <div class="fi">
+      <div class="fi" data-tag="fab">
         <div class="fi-top"><span class="fi-date">2026-03-22</span><span class="fi-tag fab">FAB</span></div>
         <div class="fi-hl">CHIPS Act: Micron breaks ground on New York fab — 40,000 jobs, $50B investment over 20 years</div>
         <div class="fi-ann">Zero near-term supply relief. <em>RI implication:</em> Fabs take 3–4 years to produce wafers. This is a 2029+ story; important for MU's strategic premium and the RI's long-run trajectory.</div>
       </div>
       <div class="fi-divider">Live Feed</div>
       <div id="feed-live-items"><div class="fi-loading">Loading live feed…</div></div>
+      </div><!-- /.feed-items -->
     </div>
     <div class="feed-aside">
       <div class="fa-block">
@@ -1845,17 +1881,18 @@ async function loadFeed(){
       const storedTag = cats.find(c=>c.startsWith('tag:'))?.slice(4) || '';
       const tag     = storedTag ? TAG_META[storedTag] || guessTag('', title) : guessTag(cats.find(c=>c&&c!=='editorial-pick')||'', title);
       const dateStr = updated ? updated.slice(0,10) : '';
-      return `<div class="fi">
+      return `<div class="fi" data-tag="${tag.cls}" data-pick="${isPick?1:0}">
         <div class="fi-top">
           <span class="fi-date">${dateStr}</span>
           <span class="fi-tag ${tag.cls}">${tag.label}</span>
-          ${isPick?'<span class="fi-tag" style="color:var(--ram);border:1px solid rgba(232,164,40,0.3)">★ PICK</span>':''}
+          ${isPick?'<span class="fi-tag pick-chip" style="color:var(--ram);border:1px solid rgba(232,164,40,0.3)">★ PICK</span>':''}
         </div>
         <a href="${url}" target="_blank" rel="noopener" class="fi-hl fi-link">${title}</a>
         ${summary?`<div class="fi-ann">${summary}</div>`:''}
         <div class="fi-src">${author}</div>
       </div>`;
     }).join('');
+    if(window._feedFilterHook) window._feedFilterHook();
   }catch{
     container.innerHTML = '<div class="fi-empty">Live feed unavailable — check back shortly.</div>';
   }
@@ -1917,6 +1954,56 @@ document.getElementById('theme-toggle').addEventListener('click',()=>{
 document.querySelector('.hd-brand').addEventListener('click',()=>{
   document.querySelector('.np[data-sec="index"]').click();
 });
+
+// ── FEED FILTERS ──────────────────────────────────────────
+(function(){
+  let activeTag = 'all';
+  let pickOnly  = false;
+
+  function applyFilters(){
+    const items = document.querySelectorAll('.feed-items .fi');
+    let visible = 0;
+    items.forEach(el=>{
+      const tagEl  = el.querySelector('.fi-tag:not(.pick-chip)');
+      const tag    = tagEl ? tagEl.className.replace('fi-tag','').trim() : 'supply';
+      const isPick = !!el.querySelector('.fi-tag[style*="ram"]') ||
+                     el.innerHTML.includes('★ PICK') ||
+                     el.dataset.pick === '1';
+      const tagMatch  = activeTag === 'all' || tag === activeTag;
+      const pickMatch = !pickOnly || isPick;
+      const show = tagMatch && pickMatch;
+      el.style.display = show ? '' : 'none';
+      if(show) visible++;
+    });
+    const total = items.length;
+    const countEl = document.getElementById('ff-count');
+    if(countEl) countEl.textContent = visible === total ? `${total} items` : `${visible} / ${total}`;
+  }
+
+  function initFilters(){
+    const bar = document.getElementById('feed-filters');
+    if(!bar) return;
+    bar.addEventListener('click', e=>{
+      const chip = e.target.closest('.ff-chip');
+      if(!chip) return;
+      const f = chip.dataset.filter;
+      if(f === 'pick'){
+        pickOnly = !pickOnly;
+        chip.classList.toggle('active', pickOnly);
+      } else {
+        activeTag = f;
+        bar.querySelectorAll('.ff-chip:not(.pick-chip)').forEach(c=>c.classList.remove('active'));
+        chip.classList.add('active');
+      }
+      applyFilters();
+    });
+  }
+
+  initFilters();
+  // Re-apply after live feed loads
+  const origLoad = window.loadFeed;
+  window._feedFilterHook = applyFilters;
+})();
 
 // ── FEED: click item → subscribe nudge ────────────────────
 (function(){
