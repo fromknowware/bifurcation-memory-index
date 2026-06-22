@@ -2128,19 +2128,33 @@ document.querySelector('.hd-brand').addEventListener('click',()=>{
 })();
 
 // ── NAVIGATION ────────────────────────────────────────────
+function navigateTo(sec, pushHistory=true){
+  document.querySelectorAll('.np').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('section').forEach(s=>s.classList.remove('active'));
+  const btn = document.querySelector(`.np[data-sec="${sec}"]`);
+  if(!btn) return;
+  btn.classList.add('active');
+  btn.scrollIntoView({inline:'nearest',block:'nearest'});
+  document.getElementById('sec-'+sec).classList.add('active');
+  if(sec==='index') requestAnimationFrame(()=>{drawChart('chart-ri-mini',120,false);drawChart('chart-ri-full',240,true);});
+  if(sec==='feed') loadFeed();
+  if(pushHistory) history.replaceState(null,'', sec==='index' ? location.pathname : '#'+sec);
+}
+
 document.querySelectorAll('.np').forEach(btn=>{
-  btn.addEventListener('click',()=>{
-    document.querySelectorAll('.np').forEach(b=>b.classList.remove('active'));
-    document.querySelectorAll('section').forEach(s=>s.classList.remove('active'));
-    btn.classList.add('active');
-    btn.scrollIntoView({inline:'nearest',block:'nearest'});
-    document.getElementById('sec-'+btn.dataset.sec).classList.add('active');
-    if(btn.dataset.sec==='index'){
-      requestAnimationFrame(()=>{drawChart('chart-ri-mini',120,false);drawChart('chart-ri-full',240,true);});
-    }
-    if(btn.dataset.sec==='feed') loadFeed();
-  });
+  btn.addEventListener('click',()=>navigateTo(btn.dataset.sec));
 });
+
+// deep-link on load + back/forward support
+(function(){
+  const valid = ['index','signals','equities','learn','research','feed'];
+  const hash = location.hash.replace('#','');
+  if(hash && valid.includes(hash)) navigateTo(hash, false);
+  window.addEventListener('hashchange',()=>{
+    const h = location.hash.replace('#','');
+    if(valid.includes(h)) navigateTo(h, false);
+  });
+})();
 
 document.querySelectorAll('.ln-item').forEach((item,i)=>{
   item.addEventListener('click',()=>selectLesson(i));
