@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T20:31:08Z",
+  "updated": "2026-06-29T21:59:19Z",
   "source": "yfinance via GitHub Actions",
   "tickers": [
     {
@@ -230,7 +230,7 @@
       "prev_close": 902.0,
       "change": 66.53,
       "change_pct": 7.38,
-      "mkt_cap_b": 217.2,
+      "mkt_cap_b": 219.1,
       "sparkline": [
         1018.07,
         1030.61,
