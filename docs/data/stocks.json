@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T18:04:56Z",
+  "updated": "2026-08-12T19:17:53Z",
   "source": "yfinance via GitHub Actions",
   "tickers": [
     {
@@ -8,11 +8,11 @@
       "tier": "manufacturer",
       "tier_label": "DRAM Manufacturer",
       "exchange": "NASDAQ",
-      "price": 932.09,
+      "price": 922.26,
       "prev_close": 867.15,
-      "change": 64.94,
-      "change_pct": 7.49,
-      "mkt_cap_b": 1052.7,
+      "change": 55.11,
+      "change_pct": 6.36,
+      "mkt_cap_b": 1041.6,
       "sparkline": [
         874.66,
         823.03,
@@ -23,7 +23,7 @@
         877.57,
         861.0,
         868.52,
-        932.15
+        922.23
       ]
     },
     {
@@ -82,11 +82,11 @@
       "tier": "demand_driver",
       "tier_label": "HBM Demand",
       "exchange": "NASDAQ",
-      "price": 223.37,
+      "price": 223.42,
       "prev_close": 218.04,
-      "change": 5.33,
-      "change_pct": 2.45,
-      "mkt_cap_b": 5410.2,
+      "change": 5.38,
+      "change_pct": 2.47,
+      "mkt_cap_b": 5411.5,
       "sparkline": [
         195.04,
         200.75,
@@ -97,7 +97,7 @@
         223.96,
         217.55,
         217.5,
-        223.37
+        223.41
       ]
     },
     {
@@ -106,11 +106,11 @@
       "tier": "demand_driver",
       "tier_label": "HBM Demand",
       "exchange": "NYSE",
-      "price": 429.35,
+      "price": 432.07,
       "prev_close": 422.0,
-      "change": 7.35,
-      "change_pct": 1.74,
-      "mkt_cap_b": 2226.8,
+      "change": 10.07,
+      "change_pct": 2.39,
+      "mkt_cap_b": 2240.9,
       "sparkline": [
         403.31,
         404.25,
@@ -121,7 +121,7 @@
         420.04,
         418.47,
         422.06,
-        429.35
+        432.07
       ]
     },
     {
@@ -130,11 +130,11 @@
       "tier": "demand_driver",
       "tier_label": "HBM Demand",
       "exchange": "NASDAQ",
-      "price": 487.59,
+      "price": 485.29,
       "prev_close": 474.93,
-      "change": 12.66,
-      "change_pct": 2.67,
-      "mkt_cap_b": 796.0,
+      "change": 10.35,
+      "change_pct": 2.18,
+      "mkt_cap_b": 792.2,
       "sparkline": [
         485.39,
         476.15,
@@ -145,7 +145,7 @@
         483.36,
         469.56,
         474.32,
-        487.68
+        485.26
       ]
     },
     {
@@ -154,11 +154,11 @@
       "tier": "downstream",
       "tier_label": "Downstream Consumer",
       "exchange": "NASDAQ",
-      "price": 102.02,
+      "price": 102.64,
       "prev_close": 97.91,
-      "change": 4.11,
-      "change_pct": 4.2,
-      "mkt_cap_b": 514.6,
+      "change": 4.73,
+      "change_pct": 4.84,
+      "mkt_cap_b": 517.7,
       "sparkline": [
         91.13,
         90.2,
@@ -169,7 +169,7 @@
         101.65,
         97.52,
         97.71,
-        102.02
+        102.64
       ]
     },
     {
@@ -178,11 +178,11 @@
       "tier": "downstream",
       "tier_label": "Downstream Consumer",
       "exchange": "NASDAQ",
-      "price": 163.21,
+      "price": 163.85,
       "prev_close": 162.81,
-      "change": 0.4,
-      "change_pct": 0.25,
-      "mkt_cap_b": 171.4,
+      "change": 1.04,
+      "change_pct": 0.64,
+      "mkt_cap_b": 172.0,
       "sparkline": [
         151.6,
         147.61,
@@ -193,7 +193,7 @@
         167.86,
         162.17,
         162.68,
-        163.21
+        163.85
       ]
     },
     {
@@ -202,11 +202,11 @@
       "tier": "downstream",
       "tier_label": "Downstream Consumer",
       "exchange": "NASDAQ",
-      "price": 461.14,
+      "price": 456.06,
       "prev_close": 438.91,
-      "change": 22.23,
-      "change_pct": 5.07,
-      "mkt_cap_b": 158.9,
+      "change": 17.15,
+      "change_pct": 3.91,
+      "mkt_cap_b": 157.2,
       "sparkline": [
         533.04,
         544.84,
@@ -217,7 +217,7 @@
         434.3,
         438.34,
         437.93,
-        461.14
+        456.06
       ]
     },
     {
@@ -226,11 +226,11 @@
       "tier": "downstream",
       "tier_label": "Downstream Consumer",
       "exchange": "NASDAQ",
-      "price": 880.92,
+      "price": 866.05,
       "prev_close": 821.0,
-      "change": 59.92,
-      "change_pct": 7.3,
-      "mkt_cap_b": 199.7,
+      "change": 45.05,
+      "change_pct": 5.49,
+      "mkt_cap_b": 196.6,
       "sparkline": [
         851.68,
         856.13,
@@ -241,7 +241,7 @@
         812.76,
         800.99,
         820.52,
-        880.92
+        866.05
       ]
     }
   ]
