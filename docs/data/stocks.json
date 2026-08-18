@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T20:12:47Z",
+  "updated": "2026-08-18T20:39:36Z",
   "source": "yfinance via GitHub Actions",
   "tickers": [
     {
@@ -106,11 +106,11 @@
       "tier": "demand_driver",
       "tier_label": "HBM Demand",
       "exchange": "NYSE",
-      "price": 413.37,
+      "price": 413.41,
       "prev_close": 430.65,
-      "change": -17.28,
-      "change_pct": -4.01,
-      "mkt_cap_b": 2143.9,
+      "change": -17.24,
+      "change_pct": -4.0,
+      "mkt_cap_b": 2144.1,
       "sparkline": [
         414.0,
         418.2,
@@ -121,7 +121,7 @@
         430.49,
         426.35,
         430.97,
-        413.37
+        413.41
       ]
     },
     {
