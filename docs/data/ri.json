@@ -1,0 +1,395 @@
+{
+  "generatedAt": "2026-08-21T23:44:51.484Z",
+  "source": "data/indices-wide-v3.csv",
+  "headline": {
+    "year": 2026,
+    "ri": 0.863,
+    "rc": 1.367,
+    "rai": 0.167,
+    "hbmWeight": 0.42,
+    "commodityUsdPerGb": 18.56,
+    "hbmUsdPerGb": 19.2,
+    "gdpYoy": 1.5,
+    "sp500Return": -1.5,
+    "status": "incomplete",
+    "highestSince": 2017
+  },
+  "annual": [
+    {
+      "y": 1980,
+      "v": null,
+      "rc": null,
+      "rai": null,
+      "recession": 1,
+      "status": "realised"
+    },
+    {
+      "y": 1981,
+      "v": -0.368,
+      "rc": null,
+      "rai": null,
+      "recession": 1,
+      "status": "realised"
+    },
+    {
+      "y": 1982,
+      "v": -0.794,
+      "rc": null,
+      "rai": null,
+      "recession": 1,
+      "status": "realised"
+    },
+    {
+      "y": 1983,
+      "v": -1.085,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1984,
+      "v": -0.418,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1985,
+      "v": -0.158,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1986,
+      "v": -0.772,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1987,
+      "v": -0.291,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1988,
+      "v": -0.217,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1989,
+      "v": -0.383,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1990,
+      "v": -0.441,
+      "rc": null,
+      "rai": null,
+      "recession": 1,
+      "status": "realised"
+    },
+    {
+      "y": 1991,
+      "v": -0.113,
+      "rc": null,
+      "rai": null,
+      "recession": 1,
+      "status": "realised"
+    },
+    {
+      "y": 1992,
+      "v": -0.074,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1993,
+      "v": -0.137,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1994,
+      "v": -0.061,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1995,
+      "v": -0.064,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1996,
+      "v": -1.47,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1997,
+      "v": -0.52,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1998,
+      "v": -1.089,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 1999,
+      "v": -0.2,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2000,
+      "v": -0.073,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2001,
+      "v": -1.518,
+      "rc": null,
+      "rai": null,
+      "recession": 1,
+      "status": "realised"
+    },
+    {
+      "y": 2002,
+      "v": -0.362,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2003,
+      "v": 0.172,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2004,
+      "v": 0,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2005,
+      "v": -0.38,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2006,
+      "v": 0.207,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2007,
+      "v": -0.374,
+      "rc": null,
+      "rai": null,
+      "recession": 1,
+      "status": "realised"
+    },
+    {
+      "y": 2008,
+      "v": -1.037,
+      "rc": null,
+      "rai": null,
+      "recession": 1,
+      "status": "realised"
+    },
+    {
+      "y": 2009,
+      "v": -0.485,
+      "rc": null,
+      "rai": null,
+      "recession": 1,
+      "status": "realised"
+    },
+    {
+      "y": 2010,
+      "v": -0.693,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2011,
+      "v": -0.431,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2012,
+      "v": -0.572,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2013,
+      "v": 0.223,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2014,
+      "v": 0.227,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2015,
+      "v": -0.385,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2016,
+      "v": -0.449,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2017,
+      "v": 0.569,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2018,
+      "v": 0.436,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2019,
+      "v": -0.851,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2020,
+      "v": 0,
+      "rc": null,
+      "rai": null,
+      "recession": 1,
+      "status": "realised"
+    },
+    {
+      "y": 2021,
+      "v": 0.028,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2022,
+      "v": -0.182,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2023,
+      "v": -0.511,
+      "rc": null,
+      "rai": null,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2024,
+      "v": 0.477,
+      "rc": 0.524,
+      "rai": 0.262,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2025,
+      "v": 0.346,
+      "rc": 0.421,
+      "rai": 0.17,
+      "recession": 0,
+      "status": "realised"
+    },
+    {
+      "y": 2026,
+      "v": 0.863,
+      "rc": 1.367,
+      "rai": 0.167,
+      "recession": 0,
+      "status": "incomplete"
+    }
+  ]
+}
