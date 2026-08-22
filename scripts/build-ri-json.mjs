@@ -73,9 +73,31 @@ function build() {
       rai: num(r[idx.ram_ai_R]),
       recession: num(r[idx.nber_recession]) ?? 0,
       status: (r[idx.row_status] || '').trim() || null,
+      // Extra series for the interactive dashboard (price/GDP/folk-index charts) —
+      // all sourced from the same CSV row so they can never drift from the headline.
+      priceGb: num(r[idx.ram_usd_per_gb]),
+      priceCommGb: num(r[idx.ram_commodity_usd_per_gb]),
+      priceHbmGb: num(r[idx.ram_hbm_usd_per_gb]),
+      gdpYoy: num(r[idx.real_gdp_yoy]),
+      lipstickIdx: num(r[idx.lipstick_index_2001_100]),
+      hemlineScore: num(r[idx.hemline_score_0_10]),
+      muiYoy: num(r[idx.mui_yoy_pct]),
+      boxOfficeB: num(r[idx.box_office_b_usd]),
     });
   }
   annual.sort((a, b) => a.y - b.y);
+
+  // Derive year-over-year deltas for the folk indices (raw levels in the CSV,
+  // but the comparison chart plots YoY change like the Ramification Index does).
+  const pctYoy = (curr, prev) => (curr == null || prev == null || prev === 0) ? null : ((curr / prev - 1) * 100);
+  const diffYoy = (curr, prev) => (curr == null || prev == null) ? null : (curr - prev);
+  for (let i = 0; i < annual.length; i++) {
+    const prev = i > 0 ? annual[i - 1] : null;
+    annual[i].lipstickYoy = prev ? pctYoy(annual[i].lipstickIdx, prev.lipstickIdx) : null;
+    annual[i].hemlineYoy  = prev ? diffYoy(annual[i].hemlineScore, prev.hemlineScore) : null;
+    annual[i].boxYoy      = prev ? pctYoy(annual[i].boxOfficeB, prev.boxOfficeB) : null;
+    // muiYoy already comes as a YoY % straight from the CSV — no derivation needed.
+  }
 
   const last = annual[annual.length - 1] ?? {};
   const lastYear = last.y;

@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-Fetches current price data for the 10-stock RAM ecosystem and writes
+Fetches current price data for the 11-stock RAM ecosystem and writes
 docs/data/stocks.json. Run via GitHub Actions every 15 min on market days.
 """
 
 import json
+import math
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -88,13 +89,24 @@ TICKERS = [
         "tier_label": "Downstream Consumer",
         "exchange": "NASDAQ",
     },
+    {
+        "symbol": "688825.SS",
+        "name": "CXMT Corporation",
+        "tier": "manufacturer",
+        "tier_label": "DRAM Manufacturer",
+        "exchange": "STAR Market",
+        "currency": "CNY",
+    },
 ]
 
 OUT_PATH = Path(__file__).parent.parent.parent / "docs" / "data" / "stocks.json"
 
 
 def round2(v):
-    return round(float(v), 2) if v is not None else None
+    if v is None:
+        return None
+    v = float(v)
+    return round(v, 2) if math.isfinite(v) else None
 
 
 def fetch_ticker(meta: dict) -> dict | None:
@@ -105,7 +117,7 @@ def fetch_ticker(meta: dict) -> dict | None:
 
         price = info.last_price
         prev  = info.previous_close
-        if price is None or prev is None:
+        if price is None or prev is None or not math.isfinite(price) or not math.isfinite(prev):
             print(f"  {sym}: no price data")
             return None
 
@@ -116,14 +128,11 @@ def fetch_ticker(meta: dict) -> dict | None:
         mkt_cap = getattr(info, "market_cap", None)
         mkt_cap_b = round(mkt_cap / 1e9, 1) if mkt_cap else None
 
-        # sparkline: last 10 trading-day closes
+        # sparkline: last 10 trading-day closes (drop any NaN/missing sessions)
         hist = t.history(period="3mo", interval="1d")
-        if len(hist) >= 10:
-            closes = [round2(v) for v in hist["Close"].iloc[-10:].tolist()]
-        elif len(hist) > 0:
-            closes = [round2(v) for v in hist["Close"].tolist()]
-        else:
-            closes = []
+        closes_all = [round2(v) for v in hist["Close"].tolist()]
+        closes_all = [c for c in closes_all if c is not None]
+        closes = closes_all[-10:]
 
         result = {**meta, "price": round2(price), "prev_close": round2(prev),
                   "change": change, "change_pct": change_pct,
@@ -136,14 +145,32 @@ def fetch_ticker(meta: dict) -> dict | None:
         return None
 
 
+MIN_SPARKLINE_POINTS = 3
+
+
 def main():
     print(f"Fetching {len(TICKERS)} tickers …")
     results = []
     errors  = []
 
+    existing_map = {}
+    if OUT_PATH.exists():
+        try:
+            existing = json.loads(OUT_PATH.read_text())
+            existing_map = {t["symbol"]: t for t in existing.get("tickers", [])}
+        except Exception:
+            pass
+
     for meta in TICKERS:
         row = fetch_ticker(meta)
         if row:
+            # STAR Market / newly-listed tickers can return thin yfinance
+            # history — keep the last known-good sparkline rather than
+            # overwrite a full trend with a near-empty one.
+            cached = existing_map.get(row["symbol"])
+            if len(row["sparkline"]) < MIN_SPARKLINE_POINTS and cached and cached.get("sparkline"):
+                print(f"  {row['symbol']}: sparse history ({len(row['sparkline'])} pts) — keeping cached sparkline")
+                row["sparkline"] = cached["sparkline"]
             results.append(row)
         else:
             errors.append(meta["symbol"])
@@ -153,16 +180,11 @@ def main():
         sys.exit(1)
 
     # Preserve existing entries for any tickers that errored
-    if errors and OUT_PATH.exists():
-        try:
-            existing = json.loads(OUT_PATH.read_text())
-            existing_map = {t["symbol"]: t for t in existing.get("tickers", [])}
-            for sym in errors:
-                if sym in existing_map:
-                    results.append(existing_map[sym])
-                    print(f"  {sym}: using cached value")
-        except Exception:
-            pass
+    if errors:
+        for sym in errors:
+            if sym in existing_map:
+                results.append(existing_map[sym])
+                print(f"  {sym}: using cached value")
 
     # Sort back to canonical order
     order = [t["symbol"] for t in TICKERS]

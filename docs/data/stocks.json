@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T20:59:40Z",
+  "updated": "2026-08-22T05:42:52Z",
   "source": "yfinance via GitHub Actions",
   "tickers": [
     {
@@ -48,7 +48,7 @@
         268500.0,
         247500.0,
         271000.0,
-        NaN
+        281500.0
       ]
     },
     {
@@ -73,7 +73,7 @@
         1662000.0,
         1500000.0,
         1691000.0,
-        NaN
+        1730000.0
       ]
     },
     {
@@ -158,7 +158,7 @@
       "prev_close": 91.92,
       "change": -1.85,
       "change_pct": -2.02,
-      "mkt_cap_b": 473.3,
+      "mkt_cap_b": 476.1,
       "sparkline": [
         97.52,
         97.71,
@@ -230,7 +230,7 @@
       "prev_close": 846.5,
       "change": 3.5,
       "change_pct": 0.41,
-      "mkt_cap_b": 192.6,
+      "mkt_cap_b": 192.9,
       "sparkline": [
         800.99,
         820.52,
@@ -242,6 +242,31 @@
         832.56,
         850.24,
         850.0
+      ]
+    },
+    {
+      "symbol": "688825.SS",
+      "name": "CXMT Corporation",
+      "tier": "manufacturer",
+      "tier_label": "DRAM Manufacturer",
+      "exchange": "STAR Market",
+      "currency": "CNY",
+      "price": 58.0,
+      "prev_close": 57.1,
+      "change": 0.9,
+      "change_pct": 1.58,
+      "mkt_cap_b": null,
+      "sparkline": [
+        51.3,
+        50.4,
+        53.52,
+        52.88,
+        55.18,
+        61.8,
+        59.19,
+        57.55,
+        57.57,
+        58.0
       ]
     }
   ]
