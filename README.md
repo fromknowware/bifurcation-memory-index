@@ -2,7 +2,7 @@
 
 **Khayyam Wakil** · The ARC Institute of Knowware · Calgary, AB · May 2026
 
-[![Site](https://img.shields.io/badge/site-live-00d4aa?style=for-the-badge&logo=github&logoColor=white&labelColor=20232d)](https://fromknowware.github.io/bifurcation-memory-index/)
+[![Site](https://img.shields.io/badge/site-live-00d4aa?style=for-the-badge&logo=github&logoColor=white&labelColor=20232d)](https://ram-index.com/)
 [![Version](https://img.shields.io/badge/version-2.0-ffb347?style=for-the-badge&logo=arxiv&logoColor=white&labelColor=20232d)]()
 [![License](https://img.shields.io/badge/license-CC%20BY%204.0-8b949e?style=for-the-badge&logo=creativecommons&logoColor=white&labelColor=20232d)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -10,9 +10,10 @@
 
 ### Paper
 
-- **Paper 2:** [Wakil_RamificationIndex_v2.pdf](https://fromknowware.github.io/bifurcation-memory-index/Wakil_RamificationIndex_v2.pdf)  
-- **Web:** https://fromknowware.github.io/bifurcation-memory-index/  
-- **Dashboard:** https://fromknowware.github.io/bifurcation-memory-index/dashboard.html  
+- **Paper 2:** [Wakil_RamificationIndex_v2.pdf](https://ram-index.com/Wakil_RamificationIndex_v2.pdf)  
+- **Web:** https://ram-index.com/  
+- **Dashboard:** https://ram-index.com/dashboard.html  
+- **v3 self-audit:** [executive summary](https://ram-index.com/v3/executive-summary.md) · [full audit PDF](https://ram-index.com/v3/full-audit.pdf)  
 - **v1 site:** https://fromknowware.github.io/memory-index/
 
 ---
@@ -37,19 +38,26 @@ Version 2 extends the original in seven ways:
 
 ```
 bifurcation-memory-index/
-├── paper-arxiv/
-│   ├── Wakil_RamificationIndex_v2.bib
-│   ├── Wakil_RamificationIndex_v2.pdf
-│   ├── Wakil_RamificationIndex_v2.tex
-│   └── references.bib
 ├── data/
-│   └── indices-wide.csv        ← 1980–2026, includes bifurcated sub-index columns
-└── docs/                       ← GitHub Pages root
-    ├── index.html
-    ├── dashboard.html
-    ├── Wakil_RamificationIndex_v2.pdf
-    └── Why_DRAM_prices_predict_the_global_economy.mp3
-    
+│   ├── indices-wide.csv        ← v2 series (1980–2026)
+│   └── indices-wide-v3.csv     ← v3 corrected series + provenance + status
+├── docs/                       ← GitHub Pages root (ram-index.com)
+│   ├── index.html              ← live monitor (headline/series generated from CSV)
+│   ├── dashboard.html
+│   ├── paper.html
+│   ├── feed.xml                ← regenerated every 6h by GitHub Actions
+│   ├── data/ri.json            ← generated from indices-wide-v3.csv
+│   ├── data/stocks.json        ← refreshed every 15 min on market days
+│   └── v3/                     ← 2026 self-audit: summary, full audit, methods
+├── scripts/
+│   ├── feed-update.mjs         ← feed pipeline (Google News RSS + OPML + Raindrop)
+│   ├── build-ri-json.mjs       ← CSV → docs/data/ri.json
+│   ├── feeds.opml              ← curated source list for the feed
+│   └── reimply-local.mjs       ← optional LLM implication backfill (Anthropic key)
+└── .github/workflows/
+    ├── update-feed.yml         ← feed every 6h
+    ├── update-stocks.yml       ← equities every 15 min on market days
+    └── build-data.yml          ← ri.json on CSV change + daily
 ```
 
 ---
@@ -90,6 +98,18 @@ HBM: Samsung/SK Hynix quarterly disclosures supplemented by TrendForce estimates
 ```
 
 ---
+
+### Automation
+
+Everything on the site is kept fresh by GitHub Actions — no third-party worker or API account required:
+
+| Pipeline | Cadence | What it does |
+|----------|---------|--------------|
+| `update-feed.yml` | every 6h | Pulls Google News RSS (no key) + curated OPML feeds + the Raindrop dropbox (optional `RAINDROP_API_TOKEN` secret, editorial picks), classifies deterministically (no LLM), sanitizes/dedups, commits `docs/feed.xml`. |
+| `update-stocks.yml` | every 15 min, market days | Refreshes `docs/data/stocks.json` via yfinance. |
+| `build-data.yml` | on CSV change + daily | Regenerates `docs/data/ri.json` from `data/indices-wide-v3.csv` so the page headline and series can never drift from the corrected dataset. |
+
+The previous Cloudflare Worker pipeline (Anthropic scoring + Durable Object cron) was decommissioned in August 2026 after it silently stopped updating the feed for two months; the feed logic was ported to `scripts/feed-update.mjs` with deterministic scoring.
 
 ### License
 

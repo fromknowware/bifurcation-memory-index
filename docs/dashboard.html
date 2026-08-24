@@ -79,6 +79,16 @@
   .h-pill:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
   .h-pill.active { border-color: rgba(0,212,170,0.45); color: var(--hbm); background: rgba(0,212,170,0.06); }
 
+  #live-status { margin: 6px 0 0; font-size: 11px; color: var(--muted); }
+  #live-status .ok   { color: var(--hbm); }
+  #live-status .warn { color: var(--ram); }
+
+  .static-tag {
+    font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--muted); border: 1px solid var(--border2); border-radius: 99px;
+    padding: 2px 8px; flex-shrink: 0; white-space: nowrap;
+  }
+
   /* ── GRID ─────────────────────────────────────────── */
   main {
     padding: 20px 32px 60px;
@@ -359,6 +369,7 @@
   <div>
     <h1>The <em>Ramification</em> Index <span class="v2">v2: Bifurcated</span></h1>
     <p>DRAM price signal as macroeconomic leading indicator — composite, commodity, and AI/HBM sub-indices, 1980–2026</p>
+    <p id="live-status">Loading live data…</p>
   </div>
   <div class="header-right">
     <a class="h-pill" href="index.html">← RAM Monitor</a>
@@ -373,32 +384,32 @@
     <div class="sb sb-hero">
       <div class="sb-tag">Recession coverage</div>
       <div class="sb-num xl">6/6</div>
-      <div class="sb-label">Every NBER-dated U.S. recession<br>signalled since 1980</div>
+      <div class="sb-label">Every NBER-dated U.S. recession signalled since 1980 · fixed result, v2 paper</div>
     </div>
     <div class="sb sb-r1">
       <div class="sb-tag">GDP correlation</div>
       <div class="sb-num md">r = 0.41</div>
-      <div class="sb-label">Pearson r vs real GDP growth</div>
+      <div class="sb-label">Pearson r vs real GDP growth · fixed result, v2 paper</div>
     </div>
     <div class="sb sb-r2">
       <div class="sb-tag">Labour correlation</div>
       <div class="sb-num md">r = −0.52</div>
-      <div class="sb-label">Pearson r vs Δ unemployment</div>
+      <div class="sb-label">Pearson r vs Δ unemployment · fixed result, v2 paper</div>
     </div>
     <div class="sb sb-gran hbm">
       <div class="sb-tag">Granger causality — VAR(2)</div>
       <div class="sb-num lg hbm">F = 5.83 <span style="font-size:13px;font-weight:600;color:var(--muted)">p = 0.004</span></div>
-      <div class="sb-label">RAM → GDP at 1–3 quarter lead · GDP → RAM does not hold (F = 2.14)</div>
+      <div class="sb-label">RAM → GDP at 1–3 quarter lead · GDP → RAM does not hold (F = 2.14) · fixed regression, window 1985Q1–2024Q4</div>
     </div>
     <div class="sb sb-hbm1 hbm">
-      <div class="sb-tag">2026 composite R<sub>t</sub></div>
-      <div class="sb-num md hbm">+86%</div>
-      <div class="sb-label">46-year series maximum (RAMageddon)</div>
+      <div class="sb-tag">Composite R<sub>t</sub> <span id="sb-live-year"></span></div>
+      <div class="sb-num md hbm" id="sb-live-ri">+86%</div>
+      <div class="sb-label">46-year series maximum (RAMageddon) · live, synced with RAM Monitor</div>
     </div>
     <div class="sb sb-hbm2 hbm">
       <div class="sb-tag">HBM revenue share</div>
-      <div class="sb-num md hbm">42%</div>
-      <div class="sb-label">Estimated share of DRAM revenue, 2026</div>
+      <div class="sb-num md hbm" id="sb-live-hbm">42%</div>
+      <div class="sb-label">Estimated share of DRAM revenue <span id="sb-live-hbm-year"></span> · live, synced with RAM Monitor</div>
     </div>
   </div>
 
@@ -406,6 +417,7 @@
   <div class="card">
     <div class="card-header">
       <span class="card-title">Ramification Index — <span class="accent">Composite</span> &amp; Sub-indices, 1981–2026</span>
+      <span class="static-tag" style="border-color:rgba(0,212,170,0.3);color:var(--hbm)">Live · synced from ri.json</span>
       <div class="legend" data-chart="mainChart">
         <span class="leg" data-series="composite"><span class="leg-swatch" style="background:var(--ram)"></span> Composite R<sub>t</sub></span>
         <span class="leg" data-series="commodity"><span class="leg-swatch" style="background:var(--comm);opacity:0.85"></span> Commodity R<sup>C</sup></span>
@@ -433,7 +445,7 @@
       <div class="diverge-grid">
         <div class="diverge-card">
           <h3>Commodity DRAM — <span class="accent">R<sup>C</sup></span></h3>
-          <div class="diverge-val comm">+1.37</div>
+          <div class="diverge-val comm" id="dv-live-rc">+1.37</div>
           <div class="diverge-desc">
             DDR4/5 prices surged <strong>+90–95% quarter-over-quarter (QoQ) in Q1 2026</strong>, then +58–63% QoQ in Q2.
             Full-year commodity DRAM up ~294% from 2025.
@@ -443,7 +455,7 @@
         </div>
         <div class="diverge-card hbm">
           <h3>HBM/AI DRAM — <span class="accent-hbm">R<sup>AI</sup></span></h3>
-          <div class="diverge-val hbm">+0.17</div>
+          <div class="diverge-val hbm" id="dv-live-rai">+0.17</div>
           <div class="diverge-desc">
             HBM3e contract prices rose only <strong>~18% year-over-year (YoY)</strong>, as hyperscaler buyers hold
             multi-year supply agreements that smooth spot volatility.
@@ -465,6 +477,7 @@
   <div class="card">
     <div class="card-header">
       <span class="card-title">DRAM Price Series — <span class="accent">$/GB</span>, 1980–2026</span>
+      <span class="static-tag" style="border-color:rgba(0,212,170,0.3);color:var(--hbm)">Live · synced from ri.json</span>
       <div class="legend" data-chart="priceChart">
         <span class="leg" data-series="composite"><span class="leg-swatch" style="background:var(--ram)"></span> Composite $/GB (log scale)</span>
         <span class="leg" data-series="commodity"><span class="leg-swatch" style="background:var(--comm)"></span> Commodity DDR4/5</span>
@@ -479,6 +492,7 @@
   <div class="card">
     <div class="card-header">
       <span class="card-title">Folk Index Comparison — Normalised Annual Change</span>
+      <span class="static-tag">Synced from ri.json · annual cadence</span>
       <div class="legend" data-chart="folkChart">
         <span class="leg" data-series="ram"><span class="leg-swatch" style="background:var(--ram)"></span> Ramification</span>
         <span class="leg" data-series="lipstick"><span class="leg-swatch" style="background:var(--lipstick)"></span> Lipstick</span>
@@ -496,6 +510,7 @@
   <div class="card">
     <div class="card-header">
       <span class="card-title">Granger Lead — <span class="accent-hbm">R<sub>t</sub></span> vs Real GDP Growth (1-year lag shown)</span>
+      <span class="static-tag" style="border-color:rgba(0,212,170,0.3);color:var(--hbm)">Series live · Granger stat fixed, v2 paper</span>
       <div class="legend" data-chart="gdpChart">
         <span class="leg" data-series="ram"><span class="leg-swatch" style="background:var(--ram)"></span> Ramification Index R<sub>t</sub></span>
         <span class="leg" data-series="gdp"><span class="leg-swatch" style="background:var(--hbm)"></span> Real GDP growth (%) — right axis</span>
@@ -510,6 +525,7 @@
   <div class="card">
     <div class="card-header">
       <span class="card-title">Pearson Correlations with Macro Variables, 1980–2026</span>
+      <span class="static-tag">Static · v2 paper analysis</span>
     </div>
     <table class="corr-table">
       <thead>
@@ -566,6 +582,7 @@
   <div class="card">
     <div class="card-header">
       <span class="card-title" style="color:var(--red)">RAMageddon — 2025–2026 Episode KPIs</span>
+      <span class="static-tag">Static · as-reported, dates per card</span>
     </div>
     <div class="ram-kpi-grid">
 
@@ -659,114 +676,15 @@
 
 <script>
 /* ══════════════════════════════════════════════════════
-   DATA
+   DATA — populated from docs/data/ri.json at load time (see
+   fetchAndInit() below). These stay empty until then so every
+   chart/stat on this page derives from the same single source
+   of truth as the RAM Monitor front page — see v3 self-audit
+   (docs/v3/) for why a hand-copied series drifted before.
    ══════════════════════════════════════════════════════ */
-var YEARS = [
-  1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,
-  1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,
-  2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,
-  2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,
-  2020,2021,2022,2023,2024,2025,2026
-];
-
-/* Ramification Index R_t (log first-diff of ASP) — null for 1980 (base year) */
-var R = [
-  null,-0.368,-0.794,-1.085,-0.418,-0.158,-0.772,-0.291,-0.217,-0.383,
-  -0.441,-0.113,-0.074,-0.137,-0.061,-0.064,-1.470,-0.520,-1.089,-0.200,
-  -0.073,-1.518,-0.362,0.172,0.000,-0.380,0.207,-0.374,-1.037,-0.485,
-  -0.693,-0.431,-0.572,0.223,0.227,-0.385,-0.449,0.569,0.436,-0.851,
-   0.000,0.028,-0.182,-0.511,0.477,0.346,0.863
-];
-
-/* Commodity sub-index R^C (2024+) */
-var RC = [
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,null,null,0.524,0.421,1.367
-];
-
-/* AI/HBM sub-index R^AI (2024+) */
-var RAI = [
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,null,null,0.262,0.170,0.167
-];
-
-/* NBER recession (1=recession year) */
-var REC = [
-  1,1,1,1,0,0,0,0,0,0,
-  1,1,0,0,0,0,0,0,0,0,
-  0,1,0,0,0,0,0,1,1,1,
-  0,0,0,0,0,0,0,0,0,0,
-  1,0,0,0,0,0,0
-];
-
-/* DRAM $/GB — composite */
-var PRICE_GB = [
-  6635520,4586496,2075648,701440,461824,394240,182272,136192,109568,74752,
-  48128,43008,39936,34816,32768,30720,7065.6,4198.4,1413.12,1157.12,
-  1075.2,235.52,163.84,194.56,194.56,133.12,163.84,112.64,39.936,24.576,
-  12.288,7.9872,4.5056,5.632,7.0656,4.8128,3.072,5.4272,8.3968,3.584,
-  3.584,3.6864,3.072,1.8432,2.9696,4.1984,9.950
-];
-
-/* Commodity DDR4/5 $/GB (2024+) */
-var PRICE_COMM = new Array(47).fill(null);
-PRICE_COMM[44]=3.21; PRICE_COMM[45]=4.72; PRICE_COMM[46]=18.56;
-
-/* HBM $/GB (2024+) */
-var PRICE_HBM = new Array(47).fill(null);
-PRICE_HBM[44]=13.77; PRICE_HBM[45]=16.28; PRICE_HBM[46]=19.20;
-
-/* Folk index year-on-year changes (normalised by std later) */
-/* Lipstick index — 2001-based (null = unavailable) */
-var LIPSTICK_YOY = [
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,-5,1,-2,-2,4,-3,-8,-9,
-  8,6,7,5,7,8,8,7,4,-3,
-  -46,50,42,88,19,4,4
-];
-
-/* Hemline score 0-10 YoY (rough) */
-var HEMLINE_YOY = [
-  0,0,0.5,0,0.5,0.5,0,0.5,0,-0.5,
-  -0.5,-0.5,0,0,0,0,0,0,0,0,
-  0.5,0,-0.5,0,0.5,0,0,0,0,0,
-  -1,0,0,0,0,0,0,0,0,0,
-  0,0,0,0,0,0,0
-];
-
-/* MUI YoY % (null = unavailable) */
-var MUI_YOY = [
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,null,null,null,null,null,null,null,null,
-  null,null,null,null,null,null,3.0,3.3,-0.8,-2.4,
-  2.5,2.0,2.0,0.8,1.9,1.9,1.9,3.6,5.3,3.3,
-  1.9,4.4,1.8,1.2,4.4,2.8,1.9
-];
-
-/* Box office YoY % */
-var BOX_YOY = [
-  null,10.9,51.1,-0.4,-4.5,-7.0,0.8,12.4,4.5,12.8,
-  -0.2,-4.4,1.5,5.7,4.7,-2.0,10.0,6.7,9.4,7.5,
-  2.5,-11.8,9.7,0.9,1.5,-5.8,4.2,-3.6,0.2,10.1,
-  -0.3,-3.5,6.7,1.1,-5.4,7.5,2.1,-3.5,7.3,-4.5,
-  -80.6,112.3,64.9,-0.5,-3.8,0.1,-73.3
-];
-
-/* Real GDP YoY */
-var GDP_YOY = [
-  -0.3,2.5,-1.8,4.6,7.2,4.2,3.5,3.5,4.2,3.7,
-   1.9,-0.1,3.5,2.8,4.0,2.7,1.8,4.4,4.5,4.8,
-   4.1,1.0,1.7,2.8,3.9,3.5,2.8,2.0,0.1,-2.6,
-   2.7,1.6,2.3,2.1,2.5,2.9,1.8,2.5,3.0,2.6,
-  -2.2,6.1,2.1,2.9,2.8,2.2,1.5
-];
+var YEARS = [], R = [], RC = [], RAI = [], REC = [],
+    PRICE_GB = [], PRICE_COMM = [], PRICE_HBM = [], GDP_YOY = [],
+    LIPSTICK_YOY = [], HEMLINE_YOY = [], MUI_YOY = [], BOX_YOY = [];
 
 /* ══════════════════════════════════════════════════════
    HELPERS
@@ -855,8 +773,12 @@ function plotLine(ctx, data, pad, cW, cH, n, min, max, color, lw, dash) {
 }
 
 /* ══════════════════════════════════════════════════════
-   CHART 1 — MAIN INDEX
+   CHARTS — deferred until fetchAndInit() has populated the
+   DATA arrays above from ri.json.
    ══════════════════════════════════════════════════════ */
+function drawAllCharts() {
+
+/* ── CHART 1 — MAIN INDEX ── */
 drawChart('mainChart', 280, function(ctx, W, H) {
   var vis=VIS.mainChart;
   var pad={t:18,r:24,b:28,l:44}, cW=W-pad.l-pad.r, cH=H-pad.t-pad.b, n=YEARS.length;
@@ -1023,6 +945,9 @@ drawChart('gdpChart', 240, function(ctx, W, H) {
 
   xAxis(ctx,pad,cW,H,n,5);
 });
+
+} /* end drawAllCharts() */
+
 /* ── legend toggle ──────────────────────────────────────── */
 document.querySelectorAll('.leg[data-series]').forEach(function(el) {
   el.addEventListener('click', function() {
@@ -1052,6 +977,65 @@ document.querySelectorAll('.leg[data-series]').forEach(function(el) {
     obs.observe(el);
   });
 })();
+
+/* ── fetch live data, populate DATA arrays + live stats, then draw ── */
+function fetchAndInit() {
+  fetch('data/ri.json?_=' + Date.now())
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      (data.annual || []).forEach(function(row){
+        YEARS.push(row.y);
+        R.push(row.v);
+        RC.push(row.rc);
+        RAI.push(row.rai);
+        REC.push(row.recession ? 1 : 0);
+        PRICE_GB.push(row.priceGb);
+        PRICE_COMM.push(row.priceCommGb);
+        PRICE_HBM.push(row.priceHbmGb);
+        GDP_YOY.push(row.gdpYoy);
+        LIPSTICK_YOY.push(row.lipstickYoy);
+        HEMLINE_YOY.push(row.hemlineYoy);
+        MUI_YOY.push(row.muiYoy);
+        BOX_YOY.push(row.boxYoy);
+      });
+
+      var h = data.headline || {};
+
+      var statusEl = document.getElementById('live-status');
+      if (statusEl) {
+        var asOf = data.generatedAt
+          ? new Date(data.generatedAt).toLocaleString('en-US',{month:'short',day:'numeric',year:'numeric',hour:'2-digit',minute:'2-digit',timeZoneName:'short'})
+          : 'unknown';
+        var provisional = h.status === 'incomplete'
+          ? ' · <span class="warn">' + h.year + ' reading provisional, pending final pricing data</span>'
+          : '';
+        statusEl.innerHTML = '<span class="ok">Live series synced from ri.json</span> (same source as the RAM Monitor front page) · generated ' + asOf + provisional;
+      }
+
+      var riEl = document.getElementById('sb-live-ri');
+      if (riEl && h.ri != null) riEl.textContent = (h.ri >= 0 ? '+' : '') + Math.round(h.ri * 100) + '%';
+      var riYearEl = document.getElementById('sb-live-year');
+      if (riYearEl) riYearEl.textContent = h.year || '';
+
+      var hbmEl = document.getElementById('sb-live-hbm');
+      if (hbmEl && h.hbmWeight != null) hbmEl.textContent = Math.round(h.hbmWeight * 100) + '%';
+      var hbmYearEl = document.getElementById('sb-live-hbm-year');
+      if (hbmYearEl) hbmYearEl.textContent = h.year || '';
+
+      var rcEl = document.getElementById('dv-live-rc');
+      if (rcEl && h.rc != null) rcEl.textContent = (h.rc >= 0 ? '+' : '') + h.rc.toFixed(2);
+      var raiEl = document.getElementById('dv-live-rai');
+      if (raiEl && h.rai != null) raiEl.textContent = (h.rai >= 0 ? '+' : '') + h.rai.toFixed(2);
+
+      drawAllCharts();
+    })
+    .catch(function(err){
+      var statusEl = document.getElementById('live-status');
+      if (statusEl) statusEl.innerHTML = '<span class="warn">Live data unavailable — ri.json failed to load, charts cannot render</span>';
+      console.error('dashboard: failed to load ri.json', err);
+    });
+}
+fetchAndInit();
 </script>
 
 </body>

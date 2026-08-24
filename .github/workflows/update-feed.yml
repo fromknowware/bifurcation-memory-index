@@ -1,0 +1,43 @@
+name: Update RAM Index feed
+
+on:
+  schedule:
+    # Every 6 hours at :17 (mirrors the retired worker's cadence)
+    - cron: "17 0,6,12,18 * * *"
+  workflow_dispatch:          # manual trigger from the GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Update feed
+        env:
+          RAINDROP_API_TOKEN: ${{ secrets.RAINDROP_API_TOKEN }}
+          RAINDROP_COLLECTION_ID: ${{ vars.RAINDROP_COLLECTION_ID }}
+        run: node scripts/feed-update.mjs
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/feed.xml
+          if git diff --cached --quiet; then
+            echo "No changes — skipping commit"
+          else
+            TIMESTAMP=$(date -u "+%Y-%m-%d %H:%M UTC")
+            git commit -m "feed: update RAM Index feed [${TIMESTAMP}]"
+            git push
+          fi

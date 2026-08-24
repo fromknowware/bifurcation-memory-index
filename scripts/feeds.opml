@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The RAM Index — curated OPML seed (polled every 6h by scripts/feed-update.mjs).
+  Add or remove feeds here; the update workflow picks changes up on the next run.
+-->
+<opml version="2.0">
+  <head>
+    <title>The RAM Index — curated sources</title>
+    <dateCreated>2026-08-21</dateCreated>
+  </head>
+  <body>
+    <outline text="Memory &amp; CPUs" title="Memory &amp; CPUs">
+      <outline type="rss" text="Tom's Hardware" title="Tom's Hardware" xmlUrl="https://www.tomshardware.com/feeds/all" />
+      <outline type="rss" text="TechPowerUp" title="TechPowerUp" xmlUrl="https://www.techpowerup.com/rss/news" />
+      <outline type="rss" text="WCCFTech" title="WCCFTech" xmlUrl="https://wccftech.com/feed/" />
+      <outline type="rss" text="KitGuru" title="KitGuru" xmlUrl="https://www.kitguru.net/feed/" />
+    </outline>
+    <outline text="Semiconductors" title="Semiconductors">
+      <outline type="rss" text="SemiEngineering" title="SemiEngineering" xmlUrl="https://semiengineering.com/feed/" />
+      <outline type="rss" text="EE Times" title="EE Times" xmlUrl="https://www.eetimes.com/feed/" />
+      <outline type="rss" text="The Register" title="The Register" xmlUrl="https://www.theregister.com/headlines.rss" />
+    </outline>
+    <outline text="AI Infrastructure" title="AI Infrastructure">
+      <outline type="rss" text="SemiAnalysis" title="SemiAnalysis" xmlUrl="https://www.semianalysis.com/feed" />
+      <outline type="rss" text="The Next Platform" title="The Next Platform" xmlUrl="https://www.nextplatform.com/feed/" />
+      <outline type="rss" text="ServeTheHome" title="ServeTheHome" xmlUrl="https://www.servethehome.com/feed/" />
+      <outline type="rss" text="HPCwire" title="HPCwire" xmlUrl="https://www.hpcwire.com/feed/" />
+    </outline>
+    <outline text="Macro &amp; Policy" title="Macro &amp; Policy">
+      <outline type="rss" text="FRED Blog" title="FRED Blog" xmlUrl="https://fredblog.stlouisfed.org/feed/" />
+    </outline>
+    <outline text="General Tech" title="General Tech">
+      <outline type="rss" text="Ars Technica" title="Ars Technica" xmlUrl="https://feeds.arstechnica.com/arstechnica/index" />
+    </outline>
+  </body>
+</opml>

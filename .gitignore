@@ -7,3 +7,11 @@
 *.synctex.gz
 *.bbl
 *.blg
+
+# macOS cruft from copied trees
+._*
+.DS_Store
+
+# local Cloudflare state (worker decommissioned 2026-08)
+.wrangler/
+worker/

@@ -1,0 +1,42 @@
+name: Build page data from CSV
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/*.csv"]
+  schedule:
+    # Daily safety net in case the CSV is edited via the GitHub UI
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate docs/data/ri.json from data/indices-wide-v3.csv
+        run: node scripts/build-ri-json.mjs
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/ri.json
+          if git diff --cached --quiet; then
+            echo "No changes — skipping commit"
+          else
+            git commit -m "data: regenerate ri.json from indices-wide-v3.csv"
+            git push
+          fi

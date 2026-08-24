@@ -1,0 +1,51 @@
+# The Ramification Index
+
+> A supply-side macroeconomic indicator built on DRAM memory prices. Published by The ARC Institute of Knowware.
+
+## What It Is
+
+The Ramification Index treats DRAM (Dynamic Random-Access Memory) spot prices as a leading macroeconomic signal. Memory chips are produced by a global oligopoly (Samsung, SK Hynix, Micron), consumed by every major industry, and priced in a nearly-frictionless global market — making them an unusually clean read on supply-demand conditions in the broader economy.
+
+The index has covered 6/6 NBER-dated U.S. recessions, achieves r = 0.41 correlation with real GDP, and passes Granger causality testing (F = 5.83, p < 0.01), meaning DRAM prices carry information about future economic output that GDP itself does not contain.
+
+## Version 2: The Bifurcated Index
+
+The original index has been split into two sub-indices for the AI era:
+
+- **Commodity DRAM (DDR/LPDDR)** — traditional memory used in PCs, servers, phones, and consumer electronics. A falling commodity sub-index signals demand weakness or oversupply; historically coincides with economic slowdowns.
+- **HBM (High Bandwidth Memory)** — stacked memory used exclusively in AI accelerators (NVIDIA H100/H200/B200, AMD MI300X, Google TPUs). The HBM sub-index is rising sharply and detached from the commodity index — a new structural split driven by AI infrastructure buildout.
+
+The bifurcation matters because commodity and HBM prices are now moving in opposite directions simultaneously, producing a composite signal that would be misread without disaggregation.
+
+## RAMageddon (2025–2026)
+
+The paper documents a named episode — RAMageddon — the sharpest positive Ramification Index reading in 46 years. It is caused not by demand expansion but by oligopoly supply reallocation: Samsung, SK Hynix, and Micron are converting DRAM fabs from commodity output to HBM production. This raises bill-of-materials costs across the IT stack, suppresses consumer electronics, and squeezes enterprise margins. The economic interpretation is stagflationary: higher prices, constrained supply, compressed downstream margins.
+
+HBM3e contract prices reached approximately $1.70/Gb — older commodity memory now costs more than cutting-edge memory in per-Gb terms, inverting the historical pricing relationship.
+
+## Key Statistics
+
+- **6/6 NBER recessions** covered by the index signal
+- **r = 0.41** — correlation with real GDP
+- **F = 5.83** — Granger causality test statistic (p < 0.01)
+- **F = 2.14** — reverse direction (GDP → DRAM), weaker, confirming directionality
+- HBM revenue share projected to cross 50% of total DRAM market in 2026
+
+## Pages
+
+- [Live Monitor](https://ram-index.com/index.html): Real-time dashboard tracking DRAM market signals, semiconductor equity tiers, regime readings, and macro context. Page headline and series are generated from data/indices-wide-v3.csv (the corrected dataset).
+- [Research Paper](https://ram-index.com/paper.html): Full academic paper — The Ramification Index v2: The Bifurcated Index. Methodology, statistical tests, recession coverage, the RAMageddon episode, and the algebraic analogy between HBM/DDR bifurcation and prime splitting in field extensions.
+- [Dashboard](https://ram-index.com/dashboard.html): Data visualizations and sub-index charts.
+- [Feed](https://ram-index.com/feed.xml): RSS/Atom feed for index updates — regenerated every 6 hours by GitHub Actions from Google News RSS, curated OPML feeds, and the Raindrop dropbox (editorial picks).
+- [v3 Executive Summary](https://ram-index.com/v3/executive-summary.md): 2026 self-audit — source recovered, 1988 endpoint corrected, page series re-synced.
+- [v3 Full Audit](https://ram-index.com/v3/full-audit.pdf): Complete self-audit PDF.
+- [v3 Methods](https://ram-index.com/v3/methods.md): How the corrected dataset was recovered and verified.
+- Page data: https://ram-index.com/data/ri.json — machine-readable Ramification Index series and headline, generated from the corrected CSV.
+
+## Author
+
+Khayyam Wakil / The ARC Institute of Knowware
+
+## Topics
+
+semiconductors, DRAM, memory prices, HBM, high bandwidth memory, compute, AI infrastructure, macroeconomics, leading indicators, recession forecasting, Granger causality, supply-side economics, oligopoly, Samsung, SK Hynix, Micron, NVIDIA, AI accelerators, stagflation, RAMageddon, bifurcation, v3 corrections, data provenance
