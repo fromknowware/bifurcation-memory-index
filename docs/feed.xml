@@ -5,11 +5,575 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-08-21T23:48:43.775Z</updated>
+  <updated>2026-08-25T01:51:42.196Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / The ARC Institute of Knowware</name></author>
   <rights>CC BY 4.0 — The ARC Institute of Knowware</rights>
 
+  <entry>
+    <id>https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/</id>
+    <title type="html">Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026</title>
+    <link href="https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/" />
+    <updated>2026-08-25T01:30:14.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <summary type="html">We learned more about the new 160GB to 480GB LPDDR5X Intel Crescent Island GPU focused on memory capacity at Hot Chips 2026 The post Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026 appeared first on ServeTheHome . RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;We learned more about the new 160GB to 480GB LPDDR5X Intel Crescent Island GPU focused on memory capacity at Hot Chips 2026 The post Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026 appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.servethehome.com/amd-helios-mi400-system-architecture-at-hot-chips-2026/</id>
+    <title type="html">AMD Helios MI400 System Architecture at Hot Chips 2026</title>
+    <link href="https://www.servethehome.com/amd-helios-mi400-system-architecture-at-hot-chips-2026/" />
+    <updated>2026-08-25T01:00:24.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <summary type="html">AMD showed off its MI400 Helios AI rack-scale infrastructure at Hot Chips 2026 going into some detail around how the rack operates The post AMD Helios MI400 System Architecture at Hot Chips 2026 appeared first on ServeTheHome . RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;AMD showed off its MI400 Helios AI rack-scale infrastructure at Hot Chips 2026 going into some detail around how the rack operates The post AMD Helios MI400 System Architecture at Hot Chips 2026 appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.servethehome.com/amd-mi400-gpu-at-hot-chips-2026/</id>
+    <title type="html">AMD MI400 GPU at Hot Chips 2026</title>
+    <link href="https://www.servethehome.com/amd-mi400-gpu-at-hot-chips-2026/" />
+    <updated>2026-08-25T00:30:06.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <summary type="html">AMD showed off its MI400 architecture at Hot Chips 2026 going into how they made a giant GPU for its Helios racks The post AMD MI400 GPU at Hot Chips 2026 appeared first on ServeTheHome . RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;AMD showed off its MI400 architecture at Hot Chips 2026 going into how they made a giant GPU for its Helios racks The post AMD MI400 GPU at Hot Chips 2026 appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.servethehome.com/nvidia-vera-rubin-nvl72-rack-at-hot-chips-2026/</id>
+    <title type="html">NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026</title>
+    <link href="https://www.servethehome.com/nvidia-vera-rubin-nvl72-rack-at-hot-chips-2026/" />
+    <updated>2026-08-25T00:00:37.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <summary type="html">At Hot Chips 2026 NVIDIA went into the NVIDIA Vera Rubin NVL72 rack design as part of its AI Factory design The post NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026 appeared first on ServeTheHome . RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;At Hot Chips 2026 NVIDIA went into the NVIDIA Vera Rubin NVL72 rack design as part of its AI Factory design The post NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026 appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-comes-with-up-to-256-p-cores-1-28-gb-of-last-level-cache-next-gen-18a-p-cpu-also-brings-avx-10-2-and-uses-ucie-s-instead-of-emib</id>
+    <title type="html">Hot Chips 2026: Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-comes-with-up-to-256-p-cores-1-28-gb-of-last-level-cache-next-gen-18a-p-cpu-also-brings-avx-10-2-and-uses-ucie-s-instead-of-emib" />
+    <updated>2026-08-24T21:07:45.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/351900/minisforum-launches-usd-1-800-m2-pro-mini-pc-with-intel-arc-b390-igpu-and-32-gb-ram</id>
+    <title type="html">Minisforum Launches $1,800 M2 Pro Mini PC With Intel Arc B390 iGPU and 32 GB RAM</title>
+    <link href="https://www.techpowerup.com/351900/minisforum-launches-usd-1-800-m2-pro-mini-pc-with-intel-arc-b390-igpu-and-32-gb-ram" />
+    <updated>2026-08-24T20:46:48.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">Minisforum is apparently continuing its ongoing attempt to flood the mini PC market with as many models as possible, with the M2 Pro being the latest entry into its Intel Panther Lake-powered mini PC line-up. The Minisforum M2 Pro packs Intel's latest Core Ultra X7 358H, with its powerful Arc B390 iGPU in tow, into an aluminium chassis measuring just 195 × 195 × 47.5 mm, or 1.8 L. Minisforum claim RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Minisforum is apparently continuing its ongoing attempt to flood the mini PC market with as many models as possible, with the M2 Pro being the latest entry into its Intel Panther Lake-powered mini PC line-up. The Minisforum M2 Pro packs Intel's latest Core Ultra X7 358H, with its powerful Arc B390 iGPU in tow, into an aluminium chassis measuring just 195 × 195 × 47.5 mm, or 1.8 L. Minisforum claim&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdnhlN1dQZjRtZUNLVm1qWGhlbWxnY0NLTnpKZGdzcENHTWJhc1ZpV2FacWJsUFdyQTdfVkNtczBRdHd6aXR3NDZuenNnUTBJcUpzZ1U1VnI3Y0FWM0VmTjVUUlcxb1dzRTRvdEhQWVNsa2JTclA2MVU1UDNTM1pNXzc1WkNaZE5ndUJWc05zZDJKMHRwWlBha2gtQVRkNmE5THdwTHRMem1MMkE?oc=5</id>
+    <title type="html">Why Stack HBM 20 High? Chipmakers Field Pointed Questions at Hot Chips 2026 - Seoul Economic Daily</title>
+    <link href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdnhlN1dQZjRtZUNLVm1qWGhlbWxnY0NLTnpKZGdzcENHTWJhc1ZpV2FacWJsUFdyQTdfVkNtczBRdHd6aXR3NDZuenNnUTBJcUpzZ1U1VnI3Y0FWM0VmTjVUUlcxb1dzRTRvdEhQWVNsa2JTclA2MVU1UDNTM1pNXzc1WkNaZE5ndUJWc05zZDJKMHRwWlBha2gtQVRkNmE5THdwTHRMem1MMkE?oc=5" />
+    <updated>2026-08-24T20:46:31.000Z</updated>
+    <author><name>Seoul Economic Daily</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdnhlN1dQZjRtZUNLVm1qWGhlbWxnY0NLTnpKZGdzcENHTWJhc1ZpV2FacWJsUFdyQTdfVkNtczBRdHd6aXR3NDZuenNnUTBJcUpzZ1U1VnI3Y0FWM0VmTjVUUlcxb1dzRTRvdEhQWVNsa2JTclA2MVU1UDNTM1pNXzc1WkNaZE5ndUJWc05zZDJKMHRwWlBha2gtQVRkNmE5THdwTHRMem1MMkE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Why Stack HBM 20 High? Chipmakers Field Pointed Questions at Hot Chips 2026&amp;lt;/a&amp;gt;&amp;amp; RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdnhlN1dQZjRtZUNLVm1qWGhlbWxnY0NLTnpKZGdzcENHTWJhc1ZpV2FacWJsUFdyQTdfVkNtczBRdHd6aXR3NDZuenNnUTBJcUpzZ1U1VnI3Y0FWM0VmTjVUUlcxb1dzRTRvdEhQWVNsa2JTclA2MVU1UDNTM1pNXzc1WkNaZE5ndUJWc05zZDJKMHRwWlBha2gtQVRkNmE5THdwTHRMem1MMkE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Why Stack HBM 20 High? Chipmakers Field Pointed Questions at Hot Chips 2026&amp;lt;/a&amp;gt;&amp;amp;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/351901/intel-details-crescent-island-graphics-32-xe3p-cores-up-to-480-gb-lpddr5x-memory</id>
+    <title type="html">Intel Details &amp;quot;Crescent Island&amp;quot; Graphics: 32 Xe3P Cores, up to 480 GB LPDDR5X Memory</title>
+    <link href="https://www.techpowerup.com/351901/intel-details-crescent-island-graphics-32-xe3p-cores-up-to-480-gb-lpddr5x-memory" />
+    <updated>2026-08-24T19:49:21.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">Intel's long-awaited graphics card update is arriving for data centers and workstations with the introduction of &amp;quot;Crescent Island,&amp;quot; now detailed. At Hot Chips 2026, the company revealed more about the upcoming graphics card. Based on the Xe3P GPU IP, the graphics card is designed as a 350 W, air-cooled, PCIe format compatible with any configuration. The GPU itself features 32 Xe3P cores, RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Intel's long-awaited graphics card update is arriving for data centers and workstations with the introduction of &amp;quot;Crescent Island,&amp;quot; now detailed. At Hot Chips 2026, the company revealed more about the upcoming graphics card. Based on the Xe3P GPU IP, the graphics card is designed as a 350 W, air-cooled, PCIe format compatible with any configuration. The GPU itself features 32 Xe3P cores,&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.servethehome.com/intel-diamond-rapids-the-2027-intel-xeon-at-hot-chips-2026/</id>
+    <title type="html">Intel Diamond Rapids the 2027 Intel Xeon at Hot Chips 2026</title>
+    <link href="https://www.servethehome.com/intel-diamond-rapids-the-2027-intel-xeon-at-hot-chips-2026/" />
+    <updated>2026-08-24T19:40:19.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <summary type="html">At Hot Chips 2026, Intel showed off its next-gen 2027 Diamond Rapids server CPU with up to 256 cores per socket The post Intel Diamond Rapids the 2027 Intel Xeon at Hot Chips 2026 appeared first on ServeTheHome . RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;At Hot Chips 2026, Intel showed off its next-gen 2027 Diamond Rapids server CPU with up to 256 cores per socket The post Intel Diamond Rapids the 2027 Intel Xeon at Hot Chips 2026 appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/intel-how-it-optimized-wildcat-lake-cpu-platform-cost-swap-foveros-with-mcp-ucie/</id>
+    <title type="html">Intel Uncovers How It Optimized Wildcat Lake CPU &amp; Platform Cost By Swapping Foveros With A Standard “UCIe” Multi-Chip Package</title>
+    <link href="https://wccftech.com/intel-how-it-optimized-wildcat-lake-cpu-platform-cost-swap-foveros-with-mcp-ucie/" />
+    <updated>2026-08-24T18:35:06.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Intel Wildcat Lake &quot;Core Series 3&quot; CPUs cut down on various aspects of the &quot;Ultra&quot; series, making them a cost-optimized solution for PCs. Intel Did More Than Just Remove Parts of &amp;#38; Repackage Its Existing Panther Lake Chips For Wildcat Lake A few months ago, Intel launched its Wildcat Lake &quot;Core Series 3&quot; CPUs. These entry-tier chips were designed for the PC segment and offered the same archite RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Intel Wildcat Lake &quot;Core Series 3&quot; CPUs cut down on various aspects of the &quot;Ultra&quot; series, making them a cost-optimized solution for PCs. Intel Did More Than Just Remove Parts of &amp;#38; Repackage Its Existing Panther Lake Chips For Wildcat Lake A few months ago, Intel launched its Wildcat Lake &quot;Core Series 3&quot; CPUs. These entry-tier chips were designed for the PC segment and offered the same archite&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMisgFBVV95cUxPbllTOFNXT2VFelBvQjVRaHc5MlpsaHpJVmtLTHpBWVdZNmZVWjlVSmIybC16b0h4eV9hdk9WQ01ub2pFX3R4OVhQTC03M1hpZ0V1T3VGelpiX2lUNE45RF9QT2dVa3RJLUE1Q1FhTVNiQmxfYjBHcU1KNW1PQmpONXhKRkZ0UndWQ19LVDlvSGRzeXVMdFd4Ymczc2xnRnAyUXYyUUhWb1VIY1dUWl9ERmtn?oc=5</id>
+    <title type="html">Scalping bots overwhelm DDR5 retailer, outnumber real humans 10 to 1 - Notebookcheck</title>
+    <link href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPbllTOFNXT2VFelBvQjVRaHc5MlpsaHpJVmtLTHpBWVdZNmZVWjlVSmIybC16b0h4eV9hdk9WQ01ub2pFX3R4OVhQTC03M1hpZ0V1T3VGelpiX2lUNE45RF9QT2dVa3RJLUE1Q1FhTVNiQmxfYjBHcU1KNW1PQmpONXhKRkZ0UndWQ19LVDlvSGRzeXVMdFd4Ymczc2xnRnAyUXYyUUhWb1VIY1dUWl9ERmtn?oc=5" />
+    <updated>2026-08-24T18:17:00.000Z</updated>
+    <author><name>Notebookcheck</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMisgFBVV95cUxPbllTOFNXT2VFelBvQjVRaHc5MlpsaHpJVmtLTHpBWVdZNmZVWjlVSmIybC16b0h4eV9hdk9WQ01ub2pFX3R4OVhQTC03M1hpZ0V1T3VGelpiX2lUNE45RF9QT2dVa3RJLUE1Q1FhTVNiQmxfYjBHcU1KNW1PQmpONXhKRkZ0UndWQ19LVDlvSGRzeXVMdFd4Ymczc2xnRnAyUXYyUUhWb1VIY1dUWl9ERmtn?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Scalping bots overwhelm DDR5 retailer, outnumber real humans 10 to 1&amp;lt;/a&amp;gt;&amp;am RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DDR5 market" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMisgFBVV95cUxPbllTOFNXT2VFelBvQjVRaHc5MlpsaHpJVmtLTHpBWVdZNmZVWjlVSmIybC16b0h4eV9hdk9WQ01ub2pFX3R4OVhQTC03M1hpZ0V1T3VGelpiX2lUNE45RF9QT2dVa3RJLUE1Q1FhTVNiQmxfYjBHcU1KNW1PQmpONXhKRkZ0UndWQ19LVDlvSGRzeXVMdFd4Ymczc2xnRnAyUXYyUUhWb1VIY1dUWl9ERmtn?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Scalping bots overwhelm DDR5 retailer, outnumber real humans 10 to 1&amp;lt;/a&amp;gt;&amp;am&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/351899/micron-opens-state-of-the-art-training-center-in-boise-u-s</id>
+    <title type="html">(PR) Micron Opens State-of-the-Art Training Center in Boise, U.S.</title>
+    <link href="https://www.techpowerup.com/351899/micron-opens-state-of-the-art-training-center-in-boise-u-s" />
+    <updated>2026-08-24T18:12:39.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">Micron Technology Inc. (Nasdaq: MU), the only U.S.-based manufacturer of memory and storage solutions, today opened a 60,000-square-foot Micron Training Center (MTC) in Boise, a strategic investment to strengthen the skilled talent pipeline, support advanced semiconductor manufacturing and expand education and apprenticeship pathways in Idaho. Located near Micron's Boise campus, this unique, colla RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Micron Technology Inc. (Nasdaq: MU), the only U.S.-based manufacturer of memory and storage solutions, today opened a 60,000-square-foot Micron Training Center (MTC) in Boise, a strategic investment to strengthen the skilled talent pipeline, support advanced semiconductor manufacturing and expand education and apprenticeship pathways in Idaho. Located near Micron's Boise campus, this unique, colla&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/intels-market-share-of-the-x86-cpu-market-falls-to-1995-levels-as-amd-now-controls-an-adjusted-46-4-of-the-market-for-server-cpus-vs-intels-53-6-share-claims-mercury-research/</id>
+    <title type="html">Intel’s Market Share Of The x86 CPU Market Falls To 1995-Levels, As AMD Now Controls An Adjusted 46.4% Of The Market For Server CPUs Vs. Intel’s 53.6% Share, Claims Mercury Research</title>
+    <link href="https://wccftech.com/intels-market-share-of-the-x86-cpu-market-falls-to-1995-levels-as-amd-now-controls-an-adjusted-46-4-of-the-market-for-server-cpus-vs-intels-53-6-share-claims-mercury-research/" />
+    <updated>2026-08-24T17:59:22.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Intel seems to have staged a decisive turnaround in the second quarter of the ongoing year, with its data center revenue up a very healthy 59 percent year-over-year. Yet, Intel's inertia is still working against it, as clearly demonstrated within a new report from Mercury Research, which has tallied that Intel's share of the CPU market has fallen to levels last seen in 1995 even as AMD remains per RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="opml" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Intel seems to have staged a decisive turnaround in the second quarter of the ongoing year, with its data center revenue up a very healthy 59 percent year-over-year. Yet, Intel's inertia is still working against it, as clearly demonstrated within a new report from Mercury Research, which has tallied that Intel's share of the CPU market has fallen to levels last seen in 1995 even as AMD remains per&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling</id>
+    <title type="html">Hot Chips 2026: SK hynix pushes hybrid bonding to HBM5 as AI memory hits 775-micron ceiling — firm extends MR-MUF through Nvidia Rubin</title>
+    <link href="https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling" />
+    <updated>2026-08-24T17:55:45.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/cpus/ibms-first-dual-isa-core-natively-executes-arm-and-z-architecture-in-the-same-core-all-cores-run-at-5-7-ghz-base-frequency-next-gen-mainframe-ai-processor-is-built-on-2nm-node-with-11-cores</id>
+    <title type="html">Hot Chips 2026: IBM's first dual-ISA core natively executes ARM and z/Architecture in the same core; all cores run at 5.7 GHz base frequency — next-gen mainframe AI processor is built on 2nm node with 11 cores</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/ibms-first-dual-isa-core-natively-executes-arm-and-z-architecture-in-the-same-core-all-cores-run-at-5-7-ghz-base-frequency-next-gen-mainframe-ai-processor-is-built-on-2nm-node-with-11-cores" />
+    <updated>2026-08-24T17:42:34.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.hpcwire.com/off-the-wire/intel-outlines-architectures-for-agentic-ai-at-hot-chips-2026/</id>
+    <title type="html">Intel Outlines Architectures for Agentic AI at Hot Chips 2026</title>
+    <link href="https://www.hpcwire.com/off-the-wire/intel-outlines-architectures-for-agentic-ai-at-hot-chips-2026/" />
+    <updated>2026-08-24T17:24:50.000Z</updated>
+    <author><name>HPCwire</name></author>
+    <summary type="html">Diamond Rapids, Crescent Island and Wildcat Lake demonstrate how Intel is scaling Agentic AI from the rack to the edge. Aug. 24, 2026 &amp;#8212; Intel is showcasing three architectures for Agentic AI and Enterprise-scale workloads, combining the Diamond Rapids processor for high-performance orchestration, the Crescent Island GPU for efficient inference and the Wildcat Lake SoC [&amp;#8230;] The post Inte RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Diamond Rapids, Crescent Island and Wildcat Lake demonstrate how Intel is scaling Agentic AI from the rack to the edge. Aug. 24, 2026 &amp;#8212; Intel is showcasing three architectures for Agentic AI and Enterprise-scale workloads, combining the Diamond Rapids processor for high-performance orchestration, the Crescent Island GPU for efficient inference and the Wildcat Lake SoC [&amp;#8230;] The post Inte&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.hpcwire.com/off-the-wire/micron-opens-boise-training-center-to-build-semiconductor-workforce/</id>
+    <title type="html">Micron Opens Boise Training Center to Build Semiconductor Workforce</title>
+    <link href="https://www.hpcwire.com/off-the-wire/micron-opens-boise-training-center-to-build-semiconductor-workforce/" />
+    <updated>2026-08-24T17:12:39.000Z</updated>
+    <author><name>HPCwire</name></author>
+    <summary type="html">BOISE, Idaho, Aug. 24, 2026 &amp;#8212; Micron Technology Inc. today opened a 60,000-square-foot Micron Training Center (MTC) in Boise, a strategic investment to strengthen the skilled talent pipeline, support advanced semiconductor manufacturing and expand education and apprenticeship pathways in Idaho. Located near Micron’s Boise campus, this unique, collaborative training facility accelerates new-h RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;BOISE, Idaho, Aug. 24, 2026 &amp;#8212; Micron Technology Inc. today opened a 60,000-square-foot Micron Training Center (MTC) in Boise, a strategic investment to strengthen the skilled talent pipeline, support advanced semiconductor manufacturing and expand education and apprenticeship pathways in Idaho. Located near Micron’s Boise campus, this unique, collaborative training facility accelerates new-h&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/nvidia-vera-rubin-30x-increase-in-throughput-per-watt-vs-blackwell-35x-token-cost-reduction-agentic-ai/</id>
+    <title type="html">NVIDIA Vera Rubin Records A Massive 30x Increase In Throughput Per Watt Than Blackwell While Offering a 35x Token Cost Reduction Across Agentic AI Workloads</title>
+    <link href="https://wccftech.com/nvidia-vera-rubin-30x-increase-in-throughput-per-watt-vs-blackwell-35x-token-cost-reduction-agentic-ai/" />
+    <updated>2026-08-24T17:10:05.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">NVIDIA's Vera Rubin platform offers disruptive token throughput at a much lower cost than Blackwell, showcasing its Agentic AI prowess. NVIDIA Software Stack Optimizations Continue To Propel Blackwell, But Vera Rubin Sits In A Whole Different League For Agentic AI Use Cases The latest on-silicon agentic AI performance results were measured by NVIDIA using real-world agentic coding trajectories. Th RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;NVIDIA's Vera Rubin platform offers disruptive token throughput at a much lower cost than Blackwell, showcasing its Agentic AI prowess. NVIDIA Software Stack Optimizations Continue To Propel Blackwell, But Vera Rubin Sits In A Whole Different League For Agentic AI Use Cases The latest on-silicon agentic AI performance results were measured by NVIDIA using real-world agentic coding trajectories. Th&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.theregister.com/legal/2026/08/24/logitech-hit-by-sueball-over-tariff-refunds/5291845</id>
+    <title type="html">Logitech hit by sueball over tariff refunds</title>
+    <link href="https://www.theregister.com/legal/2026/08/24/logitech-hit-by-sueball-over-tariff-refunds/5291845" />
+    <updated>2026-08-24T16:34:29.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">Complaint: Peripheral maker did not want to unplug itself from higher prices and hand back cash to customers RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.</summary>
+    <category term="opml" />
+    <category term="tag:macro" />
+    
+    <content type="html">&lt;p&gt;Complaint: Peripheral maker did not want to unplug itself from higher prices and hand back cash to customers&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Deterministic MACRO signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/apples-china-related-memory-demand-of-600-million-gb-requires-6-6-of-cxmts-year-end-capacity-but-the-memory-giant-is-already-booked-through-2027-and-even-by-2028-it-will-meet-only-half-of-china/</id>
+    <title type="html">Apple’s China-Related Memory Demand Of ~600 Million GB Requires 6.6% Of CXMT’s Year-End Capacity, But The Memory Giant Is Already Booked Through 2027, And Even By 2028 It Will Meet Only Half Of China’s Total Demand</title>
+    <link href="https://wccftech.com/apples-china-related-memory-demand-of-600-million-gb-requires-6-6-of-cxmts-year-end-capacity-but-the-memory-giant-is-already-booked-through-2027-and-even-by-2028-it-will-meet-only-half-of-china/" />
+    <updated>2026-08-24T16:19:04.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">It is hardly a secret by now that Apple desperately wants to rope in CXMT as its supply chain partner, at least for its China-related memory sourcing needs. And yet, this purely commercial decision has rapidly taken on geopolitical overtones, with the Trump administration reportedly dangling this potential partnership as a carrot to extract some concessions from the CCP. A dispassionate analysis o RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;It is hardly a secret by now that Apple desperately wants to rope in CXMT as its supply chain partner, at least for its China-related memory sourcing needs. And yet, this purely commercial decision has rapidly taken on geopolitical overtones, with the Trump administration reportedly dangling this potential partnership as a carrot to extract some concessions from the CCP. A dispassionate analysis o&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/351893/intel-details-xeon-7-diamond-rapids-package-design-at-hot-chips</id>
+    <title type="html">Intel Details Xeon 7 &amp;quot;Diamond Rapids&amp;quot; Package Design at HOT CHIPS</title>
+    <link href="https://www.techpowerup.com/351893/intel-details-xeon-7-diamond-rapids-package-design-at-hot-chips" />
+    <updated>2026-08-24T15:55:39.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">Intel, in a detailed presentation, detailed the package design of its next-generation Xeon 7 &amp;quot;Diamond Rapids&amp;quot; server processor. The processor is designed to be a versatile serial processing powerhouse for enterprise-scale agentic AI. Intel's design goal with the processor is to offer up to 256 P-cores, cushioned by up to 1.28 GB of last-level cache, per socket. The chip also features con RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Intel, in a detailed presentation, detailed the package design of its next-generation Xeon 7 &amp;quot;Diamond Rapids&amp;quot; server processor. The processor is designed to be a versatile serial processing powerhouse for enterprise-scale agentic AI. Intel's design goal with the processor is to offer up to 256 P-cores, cushioned by up to 1.28 GB of last-level cache, per socket. The chip also features con&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-6000-ram-now-costs-usd400-the-latest-price-hike-puts-diy-pc-building-further-out-of-reach-than-ever-before</id>
+    <title type="html">32GB of DDR5 6000 RAM now costs $400 — the latest price hike puts DIY PC building further out of reach than ever before</title>
+    <link href="https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-6000-ram-now-costs-usd400-the-latest-price-hike-puts-diy-pc-building-further-out-of-reach-than-ever-before" />
+    <updated>2026-08-24T15:30:42.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/colorful-launches-igame-x870e-vulcan-w-oc-motherboard/</id>
+    <title type="html">Colorful Launches iGame X870E VULCAN W OC Motherboard, Which Previously Broke 9000 MT/s Barrier On CXMT DDR5</title>
+    <link href="https://wccftech.com/colorful-launches-igame-x870e-vulcan-w-oc-motherboard/" />
+    <updated>2026-08-24T15:05:06.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Colorful just dropped a new high-end AM5 motherboard that pushed CXMT DDR5 to 9000 MT/s recently. Colorful Introduces iGame X870E Vulcan W OC, Featuring 22 Power Phase VRM, and Up To 10600 MT/s DDR5 Support Popular Chinese hardware manufacturer Colorful has introduced its latest high-end AM5 motherboard called iGame X870E Vulcan W OC. This particular model has been in the news lately due to its RA RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Colorful just dropped a new high-end AM5 motherboard that pushed CXMT DDR5 to 9000 MT/s recently. Colorful Introduces iGame X870E Vulcan W OC, Featuring 22 Power Phase VRM, and Up To 10600 MT/s DDR5 Support Popular Chinese hardware manufacturer Colorful has introduced its latest high-end AM5 motherboard called iGame X870E Vulcan W OC. This particular model has been in the news lately due to its RA&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/nvidia-groq-3-lpx-ai-inference-accelerator-full-production-supercharging-vera-rubin/</id>
+    <title type="html">NVIDIA Enters Full Production of Groq 3 LPX AI Inference Accelerator Chips, Supercharging Vera Rubin With The Fastest Token Generation Speeds Ever Recorded</title>
+    <link href="https://wccftech.com/nvidia-groq-3-lpx-ai-inference-accelerator-full-production-supercharging-vera-rubin/" />
+    <updated>2026-08-24T15:00:03.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">NVIDIA's Groq 3 LPX is now in full production, offering big token generation speedups for Vera Rubin platforms in the Agentic AI space. NVIDIA Dials Up Vera Rubin NVL72 Token Generation Capabilities, Recording 3,400 TPS With Groq 3 LPX AI Inference Accelerators As part of its Hot Chips 2026 announcements, NVIDIA today announced that its Groq 3 LPX AI inference accelerator chip is in full productio RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;NVIDIA's Groq 3 LPX is now in full production, offering big token generation speedups for Vera Rubin platforms in the Agentic AI space. NVIDIA Dials Up Vera Rubin NVL72 Token Generation Capabilities, Recording 3,400 TPS With Groq 3 LPX AI Inference Accelerators As part of its Hot Chips 2026 announcements, NVIDIA today announced that its Groq 3 LPX AI inference accelerator chip is in full productio&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMixAFBVV95cUxOTzFNUDlUakhzZFMtSi1odWNVay1qM01tNjR2U2Jibi1Cek5ZQlBoZVdQNnRYVVNKSEpLUUIzelRsaGZROHJQOGItT1lkb3VUT1hrTGtlNWNJa0hmaFFtcVA5MlhkTmxIVDRxYTY4QWhMc193UGtMV0pZQXBucVhOSVd3a3hjWWI5Q3NvZ0c3WEdWaHUzTjQyX0dhak5hVTJESjVidjVnNGhNT2VCY3dHU3V2bjl2N1hFczlBYUEzS3BiOGRz?oc=5</id>
+    <title type="html">d-Matrix Raptor Delivers 100 TB/s From Stacked DRAM at Fraction of HBM Energy Cost - Tech Times</title>
+    <link href="https://news.google.com/rss/articles/CBMixAFBVV95cUxOTzFNUDlUakhzZFMtSi1odWNVay1qM01tNjR2U2Jibi1Cek5ZQlBoZVdQNnRYVVNKSEpLUUIzelRsaGZROHJQOGItT1lkb3VUT1hrTGtlNWNJa0hmaFFtcVA5MlhkTmxIVDRxYTY4QWhMc193UGtMV0pZQXBucVhOSVd3a3hjWWI5Q3NvZ0c3WEdWaHUzTjQyX0dhak5hVTJESjVidjVnNGhNT2VCY3dHU3V2bjl2N1hFczlBYUEzS3BiOGRz?oc=5" />
+    <updated>2026-08-24T14:47:09.000Z</updated>
+    <author><name>Tech Times</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMixAFBVV95cUxOTzFNUDlUakhzZFMtSi1odWNVay1qM01tNjR2U2Jibi1Cek5ZQlBoZVdQNnRYVVNKSEpLUUIzelRsaGZROHJQOGItT1lkb3VUT1hrTGtlNWNJa0hmaFFtcVA5MlhkTmxIVDRxYTY4QWhMc193UGtMV0pZQXBucVhOSVd3a3hjWWI5Q3NvZ0c3WEdWaHUzTjQyX0dhak5hVTJESjVidjVnNGhNT2VCY3dHU3V2bjl2N1hFczlBYUEzS3BiOGRz?oc=5&quot; target=&quot;_blank&quot;&amp;gt;d-Matrix Raptor Delivers 100 TB/s From Stacked DRAM at Fr RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMixAFBVV95cUxOTzFNUDlUakhzZFMtSi1odWNVay1qM01tNjR2U2Jibi1Cek5ZQlBoZVdQNnRYVVNKSEpLUUIzelRsaGZROHJQOGItT1lkb3VUT1hrTGtlNWNJa0hmaFFtcVA5MlhkTmxIVDRxYTY4QWhMc193UGtMV0pZQXBucVhOSVd3a3hjWWI5Q3NvZ0c3WEdWaHUzTjQyX0dhak5hVTJESjVidjVnNGhNT2VCY3dHU3V2bjl2N1hFczlBYUEzS3BiOGRz?oc=5&quot; target=&quot;_blank&quot;&amp;gt;d-Matrix Raptor Delivers 100 TB/s From Stacked DRAM at Fr&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMixwFBVV95cUxOUU5CUy1XcUEzb1hSQUUtUkNqMFVONDRob0tSTFVlVkNmaHJwbGdLbF9OdzgyYjJJYkl2bVVtRnYweHQ4OTlyeUROR1BOVWNqbHNxa2E2VVZQTEdXOHZ3NWNadFdxUHNZSWhFaWxyUDY0TV9vdmx0aWhwamI3cHNoS0FKODJ3YndMbEs2WS1Ld1lVZ0NvbUFXaWJZWnh4cVRMV3pVTFdMU3FCQXJJTmVIdHVrTTdRR2NYRVFCTHM1QWt2Skl1ekxN?oc=5</id>
+    <title type="html">HBM Bandwidth Grows at Half Micron’s TFLOPS Rate: Wrong Metric Costs AI Buyers - Tech Times</title>
+    <link href="https://news.google.com/rss/articles/CBMixwFBVV95cUxOUU5CUy1XcUEzb1hSQUUtUkNqMFVONDRob0tSTFVlVkNmaHJwbGdLbF9OdzgyYjJJYkl2bVVtRnYweHQ4OTlyeUROR1BOVWNqbHNxa2E2VVZQTEdXOHZ3NWNadFdxUHNZSWhFaWxyUDY0TV9vdmx0aWhwamI3cHNoS0FKODJ3YndMbEs2WS1Ld1lVZ0NvbUFXaWJZWnh4cVRMV3pVTFdMU3FCQXJJTmVIdHVrTTdRR2NYRVFCTHM1QWt2Skl1ekxN?oc=5" />
+    <updated>2026-08-24T14:44:10.000Z</updated>
+    <author><name>Tech Times</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMixwFBVV95cUxOUU5CUy1XcUEzb1hSQUUtUkNqMFVONDRob0tSTFVlVkNmaHJwbGdLbF9OdzgyYjJJYkl2bVVtRnYweHQ4OTlyeUROR1BOVWNqbHNxa2E2VVZQTEdXOHZ3NWNadFdxUHNZSWhFaWxyUDY0TV9vdmx0aWhwamI3cHNoS0FKODJ3YndMbEs2WS1Ld1lVZ0NvbUFXaWJZWnh4cVRMV3pVTFdMU3FCQXJJTmVIdHVrTTdRR2NYRVFCTHM1QWt2Skl1ekxN?oc=5&quot; target=&quot;_blank&quot;&amp;gt;HBM Bandwidth Grows at Half Micron’s TFLOPS Rate: Wro RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMixwFBVV95cUxOUU5CUy1XcUEzb1hSQUUtUkNqMFVONDRob0tSTFVlVkNmaHJwbGdLbF9OdzgyYjJJYkl2bVVtRnYweHQ4OTlyeUROR1BOVWNqbHNxa2E2VVZQTEdXOHZ3NWNadFdxUHNZSWhFaWxyUDY0TV9vdmx0aWhwamI3cHNoS0FKODJ3YndMbEs2WS1Ld1lVZ0NvbUFXaWJZWnh4cVRMV3pVTFdMU3FCQXJJTmVIdHVrTTdRR2NYRVFCTHM1QWt2Skl1ekxN?oc=5&quot; target=&quot;_blank&quot;&amp;gt;HBM Bandwidth Grows at Half Micron’s TFLOPS Rate: Wro&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMivwFBVV95cUxNcVh3NVV3T3lJamtVNE5sUE1jUHFXeW85ZGgzblZ4LTlBTnZzNlRQRUtXZ21yamIyX2swZGh2STNIZFNpMXVQTEstLWxuSlczdlJScmI1NkltMHRyTGpaZ2hfel82TGZDcE03TW5GdnJSU1A5XzFkRlRIZF9GdXpMQ0lXclotazRKangxZmQ5UXNMTHBENjRVNmJfYVFBT2ZQLWhGZmJXODUtMGpvdXdienZ3STVucV9BSUpGd05Vdw?oc=5</id>
+    <title type="html">RAM price tracking 2026 — lowest price on DDR5 and DDR4 memory of all capacities - Tom's Hardware</title>
+    <link href="https://news.google.com/rss/articles/CBMivwFBVV95cUxNcVh3NVV3T3lJamtVNE5sUE1jUHFXeW85ZGgzblZ4LTlBTnZzNlRQRUtXZ21yamIyX2swZGh2STNIZFNpMXVQTEstLWxuSlczdlJScmI1NkltMHRyTGpaZ2hfel82TGZDcE03TW5GdnJSU1A5XzFkRlRIZF9GdXpMQ0lXclotazRKangxZmQ5UXNMTHBENjRVNmJfYVFBT2ZQLWhGZmJXODUtMGpvdXdienZ3STVucV9BSUpGd05Vdw?oc=5" />
+    <updated>2026-08-24T14:40:20.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMivwFBVV95cUxNcVh3NVV3T3lJamtVNE5sUE1jUHFXeW85ZGgzblZ4LTlBTnZzNlRQRUtXZ21yamIyX2swZGh2STNIZFNpMXVQTEstLWxuSlczdlJScmI1NkltMHRyTGpaZ2hfel82TGZDcE03TW5GdnJSU1A5XzFkRlRIZF9GdXpMQ0lXclotazRKangxZmQ5UXNMTHBENjRVNmJfYVFBT2ZQLWhGZmJXODUtMGpvdXdienZ3STVucV9BSUpGd05Vdw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;RAM price tracking 2026 — lowest price on DDR5 and DDR4 memory RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DDR5 market" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMivwFBVV95cUxNcVh3NVV3T3lJamtVNE5sUE1jUHFXeW85ZGgzblZ4LTlBTnZzNlRQRUtXZ21yamIyX2swZGh2STNIZFNpMXVQTEstLWxuSlczdlJScmI1NkltMHRyTGpaZ2hfel82TGZDcE03TW5GdnJSU1A5XzFkRlRIZF9GdXpMQ0lXclotazRKangxZmQ5UXNMTHBENjRVNmJfYVFBT2ZQLWhGZmJXODUtMGpvdXdienZ3STVucV9BSUpGd05Vdw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;RAM price tracking 2026 — lowest price on DDR5 and DDR4 memory&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/intel-diamond-rapids-xeon-7-cpus-256-p-cores-1-28-gb-of-cache-12800-mtps-memory/</id>
+    <title type="html">Intel Diamond Rapids “Xeon 7” CPUs Feature 256 P-Cores, The Same Number of Cores As Top EPYC Venice, Also Pack 1.28 GB of Cache And 12,800 MT/s Memory Support</title>
+    <link href="https://wccftech.com/intel-diamond-rapids-xeon-7-cpus-256-p-cores-1-28-gb-of-cache-12800-mtps-memory/" />
+    <updated>2026-08-24T14:30:11.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Intel's Diamond Rapids CPUs will pack an impressive 256 P-Cores along with the latest memory and PCIe support, extending IO capabilities for next-gen AI workloads. Intel Pitches Diamond Rapids As A &quot;Versatile&quot; CPU For Enterprise-Scale Agentic AI, Packing Up To 256 P-Cores Intel 18A has found its success with Panther Lake for Client and Clearwater Forest for data centers. Now, Intel is building its RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Intel's Diamond Rapids CPUs will pack an impressive 256 P-Cores along with the latest memory and PCIe support, extending IO capabilities for next-gen AI workloads. Intel Pitches Diamond Rapids As A &quot;Versatile&quot; CPU For Enterprise-Scale Agentic AI, Packing Up To 256 P-Cores Intel 18A has found its success with Panther Lake for Client and Clearwater Forest for data centers. Now, Intel is building its&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/cpus/two-intel-chips-break-amazons-top-10-cpus-for-the-first-time-in-months-core-ultra-7-270k-and-core-i7-14700k-finally-challenge-amd-desktop-dominance</id>
+    <title type="html">Two Intel chips break Amazon's top 10 CPUs for the first time in months — Core Ultra 7 270K and Core i7-14700K finally challenge AMD desktop dominance</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/two-intel-chips-break-amazons-top-10-cpus-for-the-first-time-in-months-core-ultra-7-270k-and-core-i7-14700k-finally-challenge-amd-desktop-dominance" />
+    <updated>2026-08-24T14:11:31.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVGNvZWxtS25jNFN0TVJZV0pNRDhiR1VDSG5ORHRMN3pVTG5ZVTJJRk5sU2JGSktyZTExQUhPc0dIZ240dzZVVV9NbjhIN2tIUzdVcm9BWE5ScG5BbkFHOU1Ndmt0azVWYm1GRWxkdFhIZWJ0U00ycVpEZjE3ZU85ZnlqYk1yOElwa1N1N1lVT3ozbVpaRG9tNEJCOVNuMWpEaXBHQUFwR0lhNExUSzM0SXhwU283MkZ3SFZEQURUMzRIWkhLMlZhNFY1ckljTTZVM0ZPU2J6VF9xdw?oc=5</id>
+    <title type="html">Nvidia's Memory Paradox: The AI Boom Is Now Raising Its Own Input Costs - Ad-hoc-news.de</title>
+    <link href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVGNvZWxtS25jNFN0TVJZV0pNRDhiR1VDSG5ORHRMN3pVTG5ZVTJJRk5sU2JGSktyZTExQUhPc0dIZ240dzZVVV9NbjhIN2tIUzdVcm9BWE5ScG5BbkFHOU1Ndmt0azVWYm1GRWxkdFhIZWJ0U00ycVpEZjE3ZU85ZnlqYk1yOElwa1N1N1lVT3ozbVpaRG9tNEJCOVNuMWpEaXBHQUFwR0lhNExUSzM0SXhwU283MkZ3SFZEQURUMzRIWkhLMlZhNFY1ckljTTZVM0ZPU2J6VF9xdw?oc=5" />
+    <updated>2026-08-24T14:11:03.000Z</updated>
+    <author><name>Ad-hoc-news.de</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVGNvZWxtS25jNFN0TVJZV0pNRDhiR1VDSG5ORHRMN3pVTG5ZVTJJRk5sU2JGSktyZTExQUhPc0dIZ240dzZVVV9NbjhIN2tIUzdVcm9BWE5ScG5BbkFHOU1Ndmt0azVWYm1GRWxkdFhIZWJ0U00ycVpEZjE3ZU85ZnlqYk1yOElwa1N1N1lVT3ozbVpaRG9tNEJCOVNuMWpEaXBHQUFwR0lhNExUSzM0SXhwU283MkZ3SFZEQURUMzRIWkhLMlZhNFY1ckljTTZVM0ZPU2J6VF9xdw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Nvidia's Memory Paradox: Th RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVGNvZWxtS25jNFN0TVJZV0pNRDhiR1VDSG5ORHRMN3pVTG5ZVTJJRk5sU2JGSktyZTExQUhPc0dIZ240dzZVVV9NbjhIN2tIUzdVcm9BWE5ScG5BbkFHOU1Ndmt0azVWYm1GRWxkdFhIZWJ0U00ycVpEZjE3ZU85ZnlqYk1yOElwa1N1N1lVT3ozbVpaRG9tNEJCOVNuMWpEaXBHQUFwR0lhNExUSzM0SXhwU283MkZ3SFZEQURUMzRIWkhLMlZhNFY1ckljTTZVM0ZPU2J6VF9xdw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Nvidia's Memory Paradox: Th&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMizgFBVV95cUxQZmpGdUxWVzRGTkJWbzB3MkJDTnk5QnU1OWtXR3RZTzh3WnBoVXdNYTlLVHdadUFsLWxHcnF3UFNsNjdXNkdRR3FKZUM4N0RHSlNGcENRRnlyVFItV2tjUkdnb2FzaEk4Z2d3ZFRmcHRlbm9xQW5XVDJ4d0JyZlhUNklFQWU5bzJ1VnlsV3pfdTU1d3VQN290c1pLQy12Q1VWbzROSVA5VmhGY2FKS1NRem1ySzJMYkhQOUdBb3A0ZGx5X1NMZzZsSl9qYkdfQQ?oc=5</id>
+    <title type="html">Chipmakers laughing all the way to the vault as memory prices go stratospheric - The Register</title>
+    <link href="https://news.google.com/rss/articles/CBMizgFBVV95cUxQZmpGdUxWVzRGTkJWbzB3MkJDTnk5QnU1OWtXR3RZTzh3WnBoVXdNYTlLVHdadUFsLWxHcnF3UFNsNjdXNkdRR3FKZUM4N0RHSlNGcENRRnlyVFItV2tjUkdnb2FzaEk4Z2d3ZFRmcHRlbm9xQW5XVDJ4d0JyZlhUNklFQWU5bzJ1VnlsV3pfdTU1d3VQN290c1pLQy12Q1VWbzROSVA5VmhGY2FKS1NRem1ySzJMYkhQOUdBb3A0ZGx5X1NMZzZsSl9qYkdfQQ?oc=5" />
+    <updated>2026-08-24T13:40:03.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMizgFBVV95cUxQZmpGdUxWVzRGTkJWbzB3MkJDTnk5QnU1OWtXR3RZTzh3WnBoVXdNYTlLVHdadUFsLWxHcnF3UFNsNjdXNkdRR3FKZUM4N0RHSlNGcENRRnlyVFItV2tjUkdnb2FzaEk4Z2d3ZFRmcHRlbm9xQW5XVDJ4d0JyZlhUNklFQWU5bzJ1VnlsV3pfdTU1d3VQN290c1pLQy12Q1VWbzROSVA5VmhGY2FKS1NRem1ySzJMYkhQOUdBb3A0ZGx5X1NMZzZsSl9qYkdfQQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Chipmakers laughing all the way to the vaul RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMizgFBVV95cUxQZmpGdUxWVzRGTkJWbzB3MkJDTnk5QnU1OWtXR3RZTzh3WnBoVXdNYTlLVHdadUFsLWxHcnF3UFNsNjdXNkdRR3FKZUM4N0RHSlNGcENRRnlyVFItV2tjUkdnb2FzaEk4Z2d3ZFRmcHRlbm9xQW5XVDJ4d0JyZlhUNklFQWU5bzJ1VnlsV3pfdTU1d3VQN290c1pLQy12Q1VWbzROSVA5VmhGY2FKS1NRem1ySzJMYkhQOUdBb3A0ZGx5X1NMZzZsSl9qYkdfQQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Chipmakers laughing all the way to the vaul&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.theregister.com/systems/2026/08/24/chipmakers-laughing-all-the-way-to-the-vault-as-memory-prices-go-stratospheric/5291690</id>
+    <title type="html">Chipmakers laughing all the way to the vault as memory prices go stratospheric</title>
+    <link href="https://www.theregister.com/systems/2026/08/24/chipmakers-laughing-all-the-way-to-the-vault-as-memory-prices-go-stratospheric/5291690" />
+    <updated>2026-08-24T13:40:03.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">Gartner reckons $1.6 trillion year is just the start, and don't expect a bust anytime soon RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Gartner reckons $1.6 trillion year is just the start, and don't expect a bust anytime soon&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMid0FVX3lxTE1wYWxsX3E3MHZPb1JpOTJoWkRlWGpFcHNMaHg3bXlGbEN1TWVLalU0VXB0ZWpFbVBRa2xvWHVDTUNEZzBkNE1sWGlaT0JRYU1HaXhoM0lhZ0Q1c1QxUnlOTXJPTF9tWFBqMTFMMDRJWGxXb2ppckNV?oc=5</id>
+    <title type="html">Memory crunch drives Nvidia price hikes, cutting both ways for Samsung, SK Hynix - KED Global</title>
+    <link href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1wYWxsX3E3MHZPb1JpOTJoWkRlWGpFcHNMaHg3bXlGbEN1TWVLalU0VXB0ZWpFbVBRa2xvWHVDTUNEZzBkNE1sWGlaT0JRYU1HaXhoM0lhZ0Q1c1QxUnlOTXJPTF9tWFBqMTFMMDRJWGxXb2ppckNV?oc=5" />
+    <updated>2026-08-24T13:30:00.000Z</updated>
+    <author><name>KED Global</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMid0FVX3lxTE1wYWxsX3E3MHZPb1JpOTJoWkRlWGpFcHNMaHg3bXlGbEN1TWVLalU0VXB0ZWpFbVBRa2xvWHVDTUNEZzBkNE1sWGlaT0JRYU1HaXhoM0lhZ0Q1c1QxUnlOTXJPTF9tWFBqMTFMMDRJWGxXb2ppckNV?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Memory crunch drives Nvidia price hikes, cutting both ways for Samsung, SK Hynix&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;KED Global&amp;lt;/font&amp;gt; RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMid0FVX3lxTE1wYWxsX3E3MHZPb1JpOTJoWkRlWGpFcHNMaHg3bXlGbEN1TWVLalU0VXB0ZWpFbVBRa2xvWHVDTUNEZzBkNE1sWGlaT0JRYU1HaXhoM0lhZ0Q1c1QxUnlOTXJPTF9tWFBqMTFMMDRJWGxXb2ppckNV?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Memory crunch drives Nvidia price hikes, cutting both ways for Samsung, SK Hynix&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;KED Global&amp;lt;/font&amp;gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2J6emx4ZjZic2QyZ0MycE5CUXBqeE5DTDFiczNMVlYzRmhmeDRCbE15bFYwNnRDTm5iYnJmemkyMWZKdC1LU2cwUi1seHhwVG00dVNkXzdjakxBUGV6Yy0ya1RJWnF0UmtUNHBhNkItbFcyMWZQeDQ4NGFZOHVfNXVfQ1N4SkZhcHJZdWFmNTlaOHRhWTQtamlwTXNHc3RHUnRLQy1tUmpJeHd4RFhNNENHSDZZWkxaYUNkaQ?oc=5</id>
+    <title type="html">Marvell VP pushes for DDR4 recycling for use in CXL memory, amid the worst DRAM shortage in years — company introduces three-tier AI memory infrastructure - Tom's Hardware</title>
+    <link href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2J6emx4ZjZic2QyZ0MycE5CUXBqeE5DTDFiczNMVlYzRmhmeDRCbE15bFYwNnRDTm5iYnJmemkyMWZKdC1LU2cwUi1seHhwVG00dVNkXzdjakxBUGV6Yy0ya1RJWnF0UmtUNHBhNkItbFcyMWZQeDQ4NGFZOHVfNXVfQ1N4SkZhcHJZdWFmNTlaOHRhWTQtamlwTXNHc3RHUnRLQy1tUmpJeHd4RFhNNENHSDZZWkxaYUNkaQ?oc=5" />
+    <updated>2026-08-24T13:11:37.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2J6emx4ZjZic2QyZ0MycE5CUXBqeE5DTDFiczNMVlYzRmhmeDRCbE15bFYwNnRDTm5iYnJmemkyMWZKdC1LU2cwUi1seHhwVG00dVNkXzdjakxBUGV6Yy0ya1RJWnF0UmtUNHBhNkItbFcyMWZQeDQ4NGFZOHVfNXVfQ1N4SkZhcHJZdWFmNTlaOHRhWTQtamlwTXNHc3RHUnRLQy1tUmpJeHd4RFhNNENHSDZZWkxaYUNkaQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Marvell VP pushes for DDR4 recycling for use in CXL memory, amid th RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2J6emx4ZjZic2QyZ0MycE5CUXBqeE5DTDFiczNMVlYzRmhmeDRCbE15bFYwNnRDTm5iYnJmemkyMWZKdC1LU2cwUi1seHhwVG00dVNkXzdjakxBUGV6Yy0ya1RJWnF0UmtUNHBhNkItbFcyMWZQeDQ4NGFZOHVfNXVfQ1N4SkZhcHJZdWFmNTlaOHRhWTQtamlwTXNHc3RHUnRLQy1tUmpJeHd4RFhNNENHSDZZWkxaYUNkaQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Marvell VP pushes for DDR4 recycling for use in CXL memory, amid th&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/dram/marvell-sells-cxl-memory-recycling-into-the-worst-dram-shortage-in-years</id>
+    <title type="html">Marvell VP pushes for DDR4 recycling for use in CXL memory, amid the worst DRAM shortage in years — company introduces three-tier AI memory infrastructure</title>
+    <link href="https://www.tomshardware.com/pc-components/dram/marvell-sells-cxl-memory-recycling-into-the-worst-dram-shortage-in-years" />
+    <updated>2026-08-24T13:11:37.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMi8AFBVV95cUxOLUJPdDh3cF9aWXB4OUZCQ0pNbms2eHVNRUxtRDBEQ1hONDBmNmM1YmlySE5OTDFlREpmWGJwd1AyaWFhU01zaE4wT0ZBRkVlMFROVGRxRW1hb1NVcWtUemZLeWMtQ1BuNl9ISVlaYW1RZ2Z2STJrZGxLdXg5dzVzSEZtUnZoNzV0UldOWTlCaloxUVh1eDgtZHUtc1dONzQ0dzB4YUFqNFN6N2FBRUh6X1l0WGhMNEdiSXhyd0FpSzl1UFpwc29Kamt3cDVGbGs5WFpIRmkzS0Y4RHZhTXh5akJpX2MtdkRxN1VsaXR4eknSAfYBQVVfeXFMT0xrWTRHWEhmWnBNVTlCOUUxXzJSbUlDQndIZHFVYjR1ak9QMWk0OGR5bEJpeWNCcVozbXdTRExCY0wzM1JrVUNkRnlvcWdLaFpGZ3psRGFWckRuNHllV1JwSFB1dkt4YXdzR0VrNERON20yYjhsWk90ZlFpQjdwd2VRMDgySlBvaWhFZ0ZrVWJVaThnWFNqZlhaRWRwYlJ1RUQ3NnFIY0Faak5wbUEzLU1Tei02aDhNaGRtVWMwUXZZYkQwUzFHUHRFTllqbm5ZUnhjbUdwZkUySW1scXJORUgyRGE1S1VrOUxFeHA0TmkxWUx1Z1FR?oc=5</id>
+    <title type="html">Xiaomi launches Xring O3, O100 and D100: in-house chips for phones, AI and cars - The Times of India</title>
+    <link href="https://news.google.com/rss/articles/CBMi8AFBVV95cUxOLUJPdDh3cF9aWXB4OUZCQ0pNbms2eHVNRUxtRDBEQ1hONDBmNmM1YmlySE5OTDFlREpmWGJwd1AyaWFhU01zaE4wT0ZBRkVlMFROVGRxRW1hb1NVcWtUemZLeWMtQ1BuNl9ISVlaYW1RZ2Z2STJrZGxLdXg5dzVzSEZtUnZoNzV0UldOWTlCaloxUVh1eDgtZHUtc1dONzQ0dzB4YUFqNFN6N2FBRUh6X1l0WGhMNEdiSXhyd0FpSzl1UFpwc29Kamt3cDVGbGs5WFpIRmkzS0Y4RHZhTXh5akJpX2MtdkRxN1VsaXR4eknSAfYBQVVfeXFMT0xrWTRHWEhmWnBNVTlCOUUxXzJSbUlDQndIZHFVYjR1ak9QMWk0OGR5bEJpeWNCcVozbXdTRExCY0wzM1JrVUNkRnlvcWdLaFpGZ3psRGFWckRuNHllV1JwSFB1dkt4YXdzR0VrNERON20yYjhsWk90ZlFpQjdwd2VRMDgySlBvaWhFZ0ZrVWJVaThnWFNqZlhaRWRwYlJ1RUQ3NnFIY0Faak5wbUEzLU1Tei02aDhNaGRtVWMwUXZZYkQwUzFHUHRFTllqbm5ZUnhjbUdwZkUySW1scXJORUgyRGE1S1VrOUxFeHA0TmkxWUx1Z1FR?oc=5" />
+    <updated>2026-08-24T11:14:00.000Z</updated>
+    <author><name>The Times of India</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMi8AFBVV95cUxOLUJPdDh3cF9aWXB4OUZCQ0pNbms2eHVNRUxtRDBEQ1hONDBmNmM1YmlySE5OTDFlREpmWGJwd1AyaWFhU01zaE4wT0ZBRkVlMFROVGRxRW1hb1NVcWtUemZLeWMtQ1BuNl9ISVlaYW1RZ2Z2STJrZGxLdXg5dzVzSEZtUnZoNzV0UldOWTlCaloxUVh1eDgtZHUtc1dONzQ0dzB4YUFqNFN6N2FBRUh6X1l0WGhMNEdiSXhyd0FpSzl1UFpwc29Kamt3cDVGbGs5WFpIRmkzS0Y4RHZhTXh5akJpX2MtdkRxN1VsaXR4eknSAfYBQVVfeXFMT0xrWTRHWEh RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMi8AFBVV95cUxOLUJPdDh3cF9aWXB4OUZCQ0pNbms2eHVNRUxtRDBEQ1hONDBmNmM1YmlySE5OTDFlREpmWGJwd1AyaWFhU01zaE4wT0ZBRkVlMFROVGRxRW1hb1NVcWtUemZLeWMtQ1BuNl9ISVlaYW1RZ2Z2STJrZGxLdXg5dzVzSEZtUnZoNzV0UldOWTlCaloxUVh1eDgtZHUtc1dONzQ0dzB4YUFqNFN6N2FBRUh6X1l0WGhMNEdiSXhyd0FpSzl1UFpwc29Kamt3cDVGbGs5WFpIRmkzS0Y4RHZhTXh5akJpX2MtdkRxN1VsaXR4eknSAfYBQVVfeXFMT0xrWTRHWEh&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/xiaomi-xring-03-official-tsmc-3nm-n3p-lpddr6-ram/</id>
+    <title type="html">Xiaomi’s XRING 03 Goes Official On TSMC’s 3nm N3P Process, Sports 24 Billion Transistors, First Smartphone SoC To Support LPDDR6 RAM, All-Big-Core CPU Design &amp; More</title>
+    <link href="https://wccftech.com/xiaomi-xring-03-official-tsmc-3nm-n3p-lpddr6-ram/" />
+    <updated>2026-08-24T10:58:08.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">The XRING 03 might not leverage TSMC’s latest and greatest 2nm lithography, but Xiaomi has successfully managed to bring a host of improvements while sticking with the 3nm N3P node, just a small step-up compared to the XRING 01. With 24 billion transistors, an All-Big-Core CPU design, upgraded GPU, and LPDDR6 RAM support, there’s so much to discuss about the latest release, so let us get started. RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;The XRING 03 might not leverage TSMC’s latest and greatest 2nm lithography, but Xiaomi has successfully managed to bring a host of improvements while sticking with the 3nm N3P node, just a small step-up compared to the XRING 01. With 24 billion transistors, an All-Big-Core CPU design, upgraded GPU, and LPDDR6 RAM support, there’s so much to discuss about the latest release, so let us get started.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/desktops/gaming-pcs/huge-usd2-200-discount-makes-this-rtx-5090-gaming-pc-cheaper-than-the-gpus-standalone-price-epic-hp-omen-max-45l-rig-ships-with-64gb-ddr5-and-a-2tb-ssd-for-just-usd4-799</id>
+    <title type="html">Huge $2,200 discount makes this RTX 5090 gaming PC cheaper than the GPU's standalone price — epic HP Omen Max 45L rig ships with 64GB DDR5 and a 2TB SSD for just $4,799</title>
+    <link href="https://www.tomshardware.com/desktops/gaming-pcs/huge-usd2-200-discount-makes-this-rtx-5090-gaming-pc-cheaper-than-the-gpus-standalone-price-epic-hp-omen-max-45l-rig-ships-with-64gb-ddr5-and-a-2tb-ssd-for-just-usd4-799" />
+    <updated>2026-08-24T10:11:23.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMinAFBVV95cUxQaDNnancxU3k2SWxPTEMwVTJXUVpORjlrZ0EwSW5FTXZ6Y2hVR01DZXhtbno5NXhaRVYyMVp6Nmw4aWcxdTNXVUJ0d0I4amZnRDlsTXV6SkZoZUJidmVPOWpSbldnNFE5UzB5dUdwYmhYNHB5aU5xbHZqdzJNYzI4WTNETTNoZ0VFNlR1THBmRzVjdlNHclo3U3h6WkQ?oc=5</id>
+    <title type="html">Nvidia servers face more than 15% price hikes as memory costs surge - varindia.com</title>
+    <link href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQaDNnancxU3k2SWxPTEMwVTJXUVpORjlrZ0EwSW5FTXZ6Y2hVR01DZXhtbno5NXhaRVYyMVp6Nmw4aWcxdTNXVUJ0d0I4amZnRDlsTXV6SkZoZUJidmVPOWpSbldnNFE5UzB5dUdwYmhYNHB5aU5xbHZqdzJNYzI4WTNETTNoZ0VFNlR1THBmRzVjdlNHclo3U3h6WkQ?oc=5" />
+    <updated>2026-08-24T10:03:23.000Z</updated>
+    <author><name>varindia.com</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMinAFBVV95cUxQaDNnancxU3k2SWxPTEMwVTJXUVpORjlrZ0EwSW5FTXZ6Y2hVR01DZXhtbno5NXhaRVYyMVp6Nmw4aWcxdTNXVUJ0d0I4amZnRDlsTXV6SkZoZUJidmVPOWpSbldnNFE5UzB5dUdwYmhYNHB5aU5xbHZqdzJNYzI4WTNETTNoZ0VFNlR1THBmRzVjdlNHclo3U3h6WkQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Nvidia servers face more than 15% price hikes as memory costs surge&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font colo RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMinAFBVV95cUxQaDNnancxU3k2SWxPTEMwVTJXUVpORjlrZ0EwSW5FTXZ6Y2hVR01DZXhtbno5NXhaRVYyMVp6Nmw4aWcxdTNXVUJ0d0I4amZnRDlsTXV6SkZoZUJidmVPOWpSbldnNFE5UzB5dUdwYmhYNHB5aU5xbHZqdzJNYzI4WTNETTNoZ0VFNlR1THBmRzVjdlNHclo3U3h6WkQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Nvidia servers face more than 15% price hikes as memory costs surge&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font colo&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMinAFBVV95cUxOZVZJNjFhUTZROFVKMDRHYlkydnp3M2xvemNCXzBhRVBUUFZxR094Y19iMWZodWhYbnI0LW55TU1LLXc1RjlpNTdLdkE1ZHY5YTNkcnFsVWlDN1Zham1DZkpMQWN6TVo4TDh3bU5DcWhYVkhWZ2FtaGZ6YWZwNTN2bVp5Uk41LVpFc2lUSmJxOVlyUHZHR2hET1NZTlrSAZgBQVVfeXFMTW5Gd1NfaVl3TTQ3NU1NOUFQYmhwSkVCWVFEc0JHazZEQVgzZGo5Y3BfR1ZFVEdBUG43VFh4VzBVTGFwS2xyTDBldXBaUEpmUEMySjZSRXAzRVNJZVZzUGNpOGU4Y19pcGhlS1RhRjhWdlRlaDF6S2FsQzYwUUQzSnJDOGVlYTlVN1pwWHBYM1NTSWFIVFA2V2g?oc=5</id>
+    <title type="html">Nvidia AI server prices rise, giving Samsung more power - The News International</title>
+    <link href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOZVZJNjFhUTZROFVKMDRHYlkydnp3M2xvemNCXzBhRVBUUFZxR094Y19iMWZodWhYbnI0LW55TU1LLXc1RjlpNTdLdkE1ZHY5YTNkcnFsVWlDN1Zham1DZkpMQWN6TVo4TDh3bU5DcWhYVkhWZ2FtaGZ6YWZwNTN2bVp5Uk41LVpFc2lUSmJxOVlyUHZHR2hET1NZTlrSAZgBQVVfeXFMTW5Gd1NfaVl3TTQ3NU1NOUFQYmhwSkVCWVFEc0JHazZEQVgzZGo5Y3BfR1ZFVEdBUG43VFh4VzBVTGFwS2xyTDBldXBaUEpmUEMySjZSRXAzRVNJZVZzUGNpOGU4Y19pcGhlS1RhRjhWdlRlaDF6S2FsQzYwUUQzSnJDOGVlYTlVN1pwWHBYM1NTSWFIVFA2V2g?oc=5" />
+    <updated>2026-08-24T09:12:41.000Z</updated>
+    <author><name>The News International</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMinAFBVV95cUxOZVZJNjFhUTZROFVKMDRHYlkydnp3M2xvemNCXzBhRVBUUFZxR094Y19iMWZodWhYbnI0LW55TU1LLXc1RjlpNTdLdkE1ZHY5YTNkcnFsVWlDN1Zham1DZkpMQWN6TVo4TDh3bU5DcWhYVkhWZ2FtaGZ6YWZwNTN2bVp5Uk41LVpFc2lUSmJxOVlyUHZHR2hET1NZTlrSAZgBQVVfeXFMTW5Gd1NfaVl3TTQ3NU1NOUFQYmhwSkVCWVFEc0JHazZEQVgzZGo5Y3BfR1ZFVEdBUG43VFh4VzBVTGFwS2xyTDBldXBaUEpmUEMySjZSRXAzRVNJZVZzUGNpOGU RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMinAFBVV95cUxOZVZJNjFhUTZROFVKMDRHYlkydnp3M2xvemNCXzBhRVBUUFZxR094Y19iMWZodWhYbnI0LW55TU1LLXc1RjlpNTdLdkE1ZHY5YTNkcnFsVWlDN1Zham1DZkpMQWN6TVo4TDh3bU5DcWhYVkhWZ2FtaGZ6YWZwNTN2bVp5Uk41LVpFc2lUSmJxOVlyUHZHR2hET1NZTlrSAZgBQVVfeXFMTW5Gd1NfaVl3TTQ3NU1NOUFQYmhwSkVCWVFEc0JHazZEQVgzZGo5Y3BfR1ZFVEdBUG43VFh4VzBVTGFwS2xyTDBldXBaUEpmUEMySjZSRXAzRVNJZVZzUGNpOGU&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3VFNVUUhWVlg1aVR2eXZILW51UHB1SXJqcXRSZUM0ajVVRThaaFluZ1l1MUtrbVVmbkQ2WVE5ejlRd2RiT191YWxkTk1oeTNQTHJVbTV5cXNNdw?oc=5</id>
+    <title type="html">Samsung, SK hynix gain pricing power as Nvidia AI server prices rise - theinvestor.co.kr</title>
+    <link href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3VFNVUUhWVlg1aVR2eXZILW51UHB1SXJqcXRSZUM0ajVVRThaaFluZ1l1MUtrbVVmbkQ2WVE5ejlRd2RiT191YWxkTk1oeTNQTHJVbTV5cXNNdw?oc=5" />
+    <updated>2026-08-24T07:39:29.000Z</updated>
+    <author><name>theinvestor.co.kr</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3VFNVUUhWVlg1aVR2eXZILW51UHB1SXJqcXRSZUM0ajVVRThaaFluZ1l1MUtrbVVmbkQ2WVE5ejlRd2RiT191YWxkTk1oeTNQTHJVbTV5cXNNdw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Samsung, SK hynix gain pricing power as Nvidia AI server prices rise&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;theinvestor.co.kr&amp;lt;/font&amp;gt; RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3VFNVUUhWVlg1aVR2eXZILW51UHB1SXJqcXRSZUM0ajVVRThaaFluZ1l1MUtrbVVmbkQ2WVE5ejlRd2RiT191YWxkTk1oeTNQTHJVbTV5cXNNdw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Samsung, SK hynix gain pricing power as Nvidia AI server prices rise&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;theinvestor.co.kr&amp;lt;/font&amp;gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/351859/samsung-confirms-hbm4e-memory-running-at-16-gbps-per-pin</id>
+    <title type="html">Samsung Confirms HBM4E Memory Running at 16 Gbps Per Pin</title>
+    <link href="https://www.techpowerup.com/351859/samsung-confirms-hbm4e-memory-running-at-16-gbps-per-pin" />
+    <updated>2026-08-24T05:30:00.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">At the Hot Chips 2026 conference's Advance Program, Samsung's Sangwook Han confirmed that the company is preparing to ship HBM4E memory with speeds of 16 Gbps per pin. This is a significant confidence boost for Samsung's Semiconductor division, which has been shipping HBM4E with speeds of 14 Gbps per pin since late May of this year. Essentially, the company confirmed that its scaling progress is g RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;At the Hot Chips 2026 conference's Advance Program, Samsung's Sangwook Han confirmed that the company is preparing to ship HBM4E memory with speeds of 16 Gbps per pin. This is a significant confidence boost for Samsung's Semiconductor division, which has been shipping HBM4E with speeds of 14 Gbps per pin since late May of this year. Essentially, the company confirmed that its scaling progress is g&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/351857/amd-rdna-4m-gpu-firmware-arrives-ahead-of-launch</id>
+    <title type="html">AMD RDNA 4m GPU Firmware Arrives Ahead of Launch</title>
+    <link href="https://www.techpowerup.com/351857/amd-rdna-4m-gpu-firmware-arrives-ahead-of-launch" />
+    <updated>2026-08-24T05:15:01.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">AMD's long-rumored RDNA 4m architecture is reportedly nearing its final launch as the company has started pushing firmware binaries to the Linux Firmware repository. According to Phoronix, AMD's RDNA 4m GPU IP, also known as GFX 1170, has been added to the Linux Firmware repository, indicating that AMD is seriously preparing for the launch of this GPU IP. Typically, AMD publishes firmware binaries RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;AMD's long-rumored RDNA 4m architecture is reportedly nearing its final launch as the company has started pushing firmware binaries to the Linux Firmware repository. According to Phoronix, AMD's RDNA 4m GPU IP, also known as GFX 1170, has been added to the Linux Firmware repository, indicating that AMD is seriously preparing for the launch of this GPU IP. Typically, AMD publishes firmware binaries&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMijAFBVV95cUxNRDRILWRQaEpRSzBySjRCRFE3WHVBU21WbzBMekhzd0ZpWFF2SWJBVEI2clExb3ZieUlQMFNQYm5aNzZ3Mmg2djlZbWNaS0hPalR1MTFMSXhGeGV3SHZjdFROWDh0cFJuTjRmOE5YNG5RTGFocWtPQWgtdW1QRVZFb1N5RjZKLVVrSWsxMQ?oc=5</id>
+    <title type="html">HBF: As NAND Adopts an HBM-Like Architecture, the AI Memory Hierarchy Is Being Redefined - semivision</title>
+    <link href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNRDRILWRQaEpRSzBySjRCRFE3WHVBU21WbzBMekhzd0ZpWFF2SWJBVEI2clExb3ZieUlQMFNQYm5aNzZ3Mmg2djlZbWNaS0hPalR1MTFMSXhGeGV3SHZjdFROWDh0cFJuTjRmOE5YNG5RTGFocWtPQWgtdW1QRVZFb1N5RjZKLVVrSWsxMQ?oc=5" />
+    <updated>2026-08-24T03:18:58.000Z</updated>
+    <author><name>semivision</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMijAFBVV95cUxNRDRILWRQaEpRSzBySjRCRFE3WHVBU21WbzBMekhzd0ZpWFF2SWJBVEI2clExb3ZieUlQMFNQYm5aNzZ3Mmg2djlZbWNaS0hPalR1MTFMSXhGeGV3SHZjdFROWDh0cFJuTjRmOE5YNG5RTGFocWtPQWgtdW1QRVZFb1N5RjZKLVVrSWsxMQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;HBF: As NAND Adopts an HBM-Like Architecture, the AI Memory Hierarchy Is Being Redefined&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font colo RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMijAFBVV95cUxNRDRILWRQaEpRSzBySjRCRFE3WHVBU21WbzBMekhzd0ZpWFF2SWJBVEI2clExb3ZieUlQMFNQYm5aNzZ3Mmg2djlZbWNaS0hPalR1MTFMSXhGeGV3SHZjdFROWDh0cFJuTjRmOE5YNG5RTGFocWtPQWgtdW1QRVZFb1N5RjZKLVVrSWsxMQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;HBF: As NAND Adopts an HBM-Like Architecture, the AI Memory Hierarchy Is Being Redefined&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font colo&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xdWd0Z1hSOVpBZkZDME12WU9NOXRxYWdwNnp0SHAxbFUxdzdHM1cwZlNCR0JVUmVfWUo0T1hfeC1UMVdBQzM5Z3RMeXVZalhmbkc4?oc=5</id>
+    <title type="html">NVIDIA AI Servers 15% Price Hike: Triggering $5 Billion Cost Surge for 1GW Data Center - 36氪</title>
+    <link href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xdWd0Z1hSOVpBZkZDME12WU9NOXRxYWdwNnp0SHAxbFUxdzdHM1cwZlNCR0JVUmVfWUo0T1hfeC1UMVdBQzM5Z3RMeXVZalhmbkc4?oc=5" />
+    <updated>2026-08-24T03:13:45.000Z</updated>
+    <author><name>36氪</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xdWd0Z1hSOVpBZkZDME12WU9NOXRxYWdwNnp0SHAxbFUxdzdHM1cwZlNCR0JVUmVfWUo0T1hfeC1UMVdBQzM5Z3RMeXVZalhmbkc4?oc=5&quot; target=&quot;_blank&quot;&amp;gt;NVIDIA AI Servers 15% Price Hike: Triggering $5 Billion Cost Surge for 1GW Data Center&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;36氪&amp;lt;/font&amp;gt; RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xdWd0Z1hSOVpBZkZDME12WU9NOXRxYWdwNnp0SHAxbFUxdzdHM1cwZlNCR0JVUmVfWUo0T1hfeC1UMVdBQzM5Z3RMeXVZalhmbkc4?oc=5&quot; target=&quot;_blank&quot;&amp;gt;NVIDIA AI Servers 15% Price Hike: Triggering $5 Billion Cost Surge for 1GW Data Center&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;36氪&amp;lt;/font&amp;gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMikwFBVV95cUxNU1h4eGNlTWl3YVVSQVd2MDg0UG1lWVU0N0NDbENKd216M3lDUGpmaHpuR0RfcVh3aU16aWRjdnVDOTlLMVV5R2NoY0lTOWVQcnl3aEExNV92N3FtVzQ3ajAxaGdYQzc1ZHlYWFdwQ19Sb3NpTVk5a3VzRVQ1em5KX3diNE94TE5uNUdFLUFFZ1NfTEk?oc=5</id>
+    <title type="html">Nvidia server prices to rise up to 17% as memory costs climb - digitimes</title>
+    <link href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNU1h4eGNlTWl3YVVSQVd2MDg0UG1lWVU0N0NDbENKd216M3lDUGpmaHpuR0RfcVh3aU16aWRjdnVDOTlLMVV5R2NoY0lTOWVQcnl3aEExNV92N3FtVzQ3ajAxaGdYQzc1ZHlYWFdwQ19Sb3NpTVk5a3VzRVQ1em5KX3diNE94TE5uNUdFLUFFZ1NfTEk?oc=5" />
+    <updated>2026-08-24T03:05:00.000Z</updated>
+    <author><name>digitimes</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMikwFBVV95cUxNU1h4eGNlTWl3YVVSQVd2MDg0UG1lWVU0N0NDbENKd216M3lDUGpmaHpuR0RfcVh3aU16aWRjdnVDOTlLMVV5R2NoY0lTOWVQcnl3aEExNV92N3FtVzQ3ajAxaGdYQzc1ZHlYWFdwQ19Sb3NpTVk5a3VzRVQ1em5KX3diNE94TE5uNUdFLUFFZ1NfTEk?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Nvidia server prices to rise up to 17% as memory costs climb&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;digi RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMikwFBVV95cUxNU1h4eGNlTWl3YVVSQVd2MDg0UG1lWVU0N0NDbENKd216M3lDUGpmaHpuR0RfcVh3aU16aWRjdnVDOTlLMVV5R2NoY0lTOWVQcnl3aEExNV92N3FtVzQ3ajAxaGdYQzc1ZHlYWFdwQ19Sb3NpTVk5a3VzRVQ1em5KX3diNE94TE5uNUdFLUFFZ1NfTEk?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Nvidia server prices to rise up to 17% as memory costs climb&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;digi&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTFBMLWd1WkU3QzNYQ1hVb1dxV1hBOHU5ZWVhUUZwNHVUWVZXa1R3VTNVUlFtcW9DUDJxUjhnSUZEX244V0J0ZkFhMDZKQU1PbXNFNURoTllYYzMyZDhHbXFiWElKcW11RUFtR3VuT1ktN0hDQzhzY1E?oc=5</id>
+    <title type="html">Micron: &quot;AI Memory Bottleneck Worsening—Compute Triples Every Two Years While HBM Bandwidth Grows Less Than 2x&quot; - finance.biggo.com</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBMLWd1WkU3QzNYQ1hVb1dxV1hBOHU5ZWVhUUZwNHVUWVZXa1R3VTNVUlFtcW9DUDJxUjhnSUZEX244V0J0ZkFhMDZKQU1PbXNFNURoTllYYzMyZDhHbXFiWElKcW11RUFtR3VuT1ktN0hDQzhzY1E?oc=5" />
+    <updated>2026-08-24T02:06:00.000Z</updated>
+    <author><name>finance.biggo.com</name></author>
+    <summary type="html">&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMidkFVX3lxTFBMLWd1WkU3QzNYQ1hVb1dxV1hBOHU5ZWVhUUZwNHVUWVZXa1R3VTNVUlFtcW9DUDJxUjhnSUZEX244V0J0ZkFhMDZKQU1PbXNFNURoTllYYzMyZDhHbXFiWElKcW11RUFtR3VuT1ktN0hDQzhzY1E?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Micron: &quot;AI Memory Bottleneck Worsening—Compute Triples Every Two Years While HBM Bandwidth Grows Less Than 2x&quot;&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font color=&quot;#6f6f RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMidkFVX3lxTFBMLWd1WkU3QzNYQ1hVb1dxV1hBOHU5ZWVhUUZwNHVUWVZXa1R3VTNVUlFtcW9DUDJxUjhnSUZEX244V0J0ZkFhMDZKQU1PbXNFNURoTllYYzMyZDhHbXFiWElKcW11RUFtR3VuT1ktN0hDQzhzY1E?oc=5&quot; target=&quot;_blank&quot;&amp;gt;Micron: &quot;AI Memory Bottleneck Worsening—Compute Triples Every Two Years While HBM Bandwidth Grows Less Than 2x&quot;&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;font color=&quot;#6f6f&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://wccftech.com/former-tsmc-engineer-busted-in-taiwan-running-an-illicit-currency-exchange-network-tesla-model-s-plaid-rolex-among-items-seized/</id>
     <title type="html">Former TSMC Engineer Busted In Taiwan Running An Illicit Currency Exchange Network – Tesla Model S Plaid &amp; Rolex Among Items Seized</title>
@@ -815,9 +1379,9 @@
     <content type="html">&lt;p&gt;Thanks for the support! https://www.patreon.com/cw/DrSemiconductor Shoutout to Projects in Flight for a helpful reference on the doping:https://www.youtube.c...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=h6GWikWlAQA&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;t=11s</id>
+    <id>https://www.youtube.com/watch?v=h6GWikWlAQA&amp;amp;amp;amp;amp;amp;amp;t=11s</id>
     <title type="html">Making RAM at Home</title>
-    <link href="https://www.youtube.com/watch?v=h6GWikWlAQA&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;t=11s" />
+    <link href="https://www.youtube.com/watch?v=h6GWikWlAQA&amp;amp;amp;amp;amp;amp;amp;t=11s" />
     <updated>2026-04-28T21:20:14.650Z</updated>
     <author><name>youtube.com</name></author>
     <summary type="html">Thanks for the support! https://www.patreon.com/cw/DrSemiconductor Shoutout to Projects in Flight for a helpful reference on the doping:https://www.youtube.c...</summary>
