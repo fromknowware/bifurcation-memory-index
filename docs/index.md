@@ -162,6 +162,8 @@ Khayyam Wakil · 2025 · 44 years of data (1980–2026)
 
 A supply-side macroeconomic indicator built on DRAM prices. The v2 introduces bifurcated sub-indices separating commodity DRAM from AI/HBM markets, documents the 2025–2026 RAMageddon event, and demonstrates Granger causality from the RAM index to real GDP growth. 6 of 6 NBER recessions covered; correlation r = 0.41 with real GDP YoY.
 
+[⤢Click to view full paper](Wakil_RamificationIndex_v2.pdf)
+
 6/6
 
 NBER Recessions
@@ -198,7 +200,7 @@ HBM data  SK Hynix, Samsung, Micron quarterly earnings; IDC server DRAM shipment
 
 Equities  Yahoo Finance via yfinance; 11-stock panel: MU, 005930.KS, 000660.KS, 688825.SS, NVDA, TSM, AMD, INTC, QCOM, WDC, STX
 
-v3 corrections  2026 self-audit: source recovered, 1988 endpoint corrected, 18 years of page series re-synced to the corrected dataset. See [executive summary](v3/executive-summary.pdf) · [full audit](v3/full-audit.pdf) · [methods](v3/methods.md)
+v3 corrections  2026 self-audit: source recovered, 1988 endpoint corrected, 18 years of page series re-synced to the corrected dataset. See [executive summary](v3/executive-summary.pdf) · [full audit](v3/full-audit.pdf) · [methods](v3/methods.html)
 
 How to Cite
 
