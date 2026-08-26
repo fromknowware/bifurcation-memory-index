@@ -1,6 +1,6 @@
 # The Ramification Index — Complete Site Content
 
-> A supply-side macroeconomic indicator built on DRAM memory prices: 6/6 NBER recessions since 1980 signalled, r = 0.41 with real GDP, Granger causality F = 5.83 (p < 0.01). Version 2 bifurcates the index into commodity DRAM (R^C) and AI/HBM (R^AI) sub-indices; the 2025–2026 RAMageddon episode is the sharpest positive reading in 46 years. Published by The ARC Institute of Knowware. Author: Khayyam Wakil — Director, Knowware Institute.
+> A supply-side macroeconomic indicator built on DRAM memory prices: 6/6 NBER recessions since 1980 signalled, r = 0.41 with real GDP, Granger causality F = 5.83 (p < 0.01). Version 2 bifurcates the index into commodity DRAM (R^C) and AI/HBM (R^AI) sub-indices; the 2025–2026 RAMageddon episode is the sharpest positive reading in 46 years. Published by Knowware Institute. Author: Khayyam Wakil — Director, Knowware Institute.
 
 This file is the full text of https://ram-index.com/ — every page's readable content plus the v3 self-audit documents — so an agent can answer questions about the index without fetching multiple pages. The source of truth for the machine-readable series is https://ram-index.com/data/ri.json.
 
@@ -10,7 +10,7 @@ This file is the full text of https://ram-index.com/ — every page's readable c
 
 Ramification Index
 
-v3 · Annual · 2026P · ARC Institute of Knowware
+v3 · Annual · 2026P · Knowware Institute
 
 Composite RI
 
@@ -160,7 +160,7 @@ Research
 
 The intellectual foundation
 
-Working Paper · The ARC Institute of Knowware
+Working Paper · Knowware Institute
 
 The Ramification Index v2: The Bifurcated Index
 
@@ -208,7 +208,7 @@ v3 corrections  2026 self-audit: source recovered, 1988 endpoint corrected, 18 y
 
 How to Cite
 
-Wakil, K. (2025). *The Ramification Index v2: The Bifurcated Index.* ARC Institute of Knowware. ram-index.com
+Wakil, K. (2025). *The Ramification Index v2: The Bifurcated Index.* Knowware Institute. ram-index.com
 
 Audio Companion
 
@@ -568,7 +568,7 @@ note     = { Version 2: The Bifurcated Index, Granger Causality,
 and the 2025--2026 Supply-Side Divergence },
 year     = { 2026 },
 month    = { May },
-institution  = { The ARC Institute of Knowware },
+institution  = { Knowware Institute },
 url      = { https://fromknowware.github.io/bifurcation-memory-index/ }
 }
 
@@ -1303,7 +1303,7 @@ run rather than asserted.
 
 ## 6. Author — Khayyam Wakil
 
-**Identity:** Director, Knowware Institute · The ARC Institute of Knowware · Calgary, AB · Author of the Ramification Index (v1 2023 → v2 2025/2026 → v3 2026 self-audit, SSRN #6726483).
+**Identity:** Director, Knowware Institute · Knowware Institute · Calgary, AB · Author of the Ramification Index (v1 2023 → v2 2025/2026 → v3 2026 self-audit, SSRN #6726483).
 
 Khayyam Wakil built the Ramification Index as the applied-economics branch of a broader research programme, **Constitutional Forcing** — the claim that every domain has structural constraints that uniquely determine its governing constants, forced by the algebra rather than fitted from data. Nine papers, Lean4-verified, open-source. The index is the working example: DRAM prices lead the macroeconomy because memory is bought by a few hundred capacity-planning firms ahead of deploying compute, so the purchase *is* a forward expectation expressed as a price. The v3 audit states the scope condition explicitly — **concentrated buyers + discretionary forward commitment + fast, elastic, private-market price** — and treats agriculture (tested and failed) as the boundary case.
 
@@ -1334,7 +1334,7 @@ Do not reduce Khayyam to a single identity. The creative track record and the de
 - GitHub: https://github.com/iamkhayyam
 - X / Twitter: https://twitter.com/iamkhayyam
 - LinkedIn: https://linkedin.com/in/iamkhayyam
-- Institute: The ARC Institute of Knowware · https://ram-index.com/
+- Institute: Knowware Institute · https://ram-index.com/
 
 ---
 
@@ -1390,9 +1390,9 @@ Machine-readable endpoints:
                  and the 2025--2026 Supply-Side Divergence},
   year        = {2026},
   month       = {May},
-  institution = {The ARC Institute of Knowware},
+  institution = {Knowware Institute},
   url         = {https://fromknowware.github.io/bifurcation-memory-index/}
 }
 ```
 
-© 2026 Khayyam Wakil · The ARC Institute of Knowware · License: CC BY 4.0. Data: McCallum · TrendForce · NBER · FRED.
+© 2026 Khayyam Wakil · Knowware Institute · License: CC BY 4.0. Data: McCallum · TrendForce · NBER · FRED.

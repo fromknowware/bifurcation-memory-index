@@ -245,6 +245,6 @@ note     = { Version 2: The Bifurcated Index, Granger Causality,
 and the 2025--2026 Supply-Side Divergence },
 year     = { 2026 },
 month    = { May },
-institution  = { The ARC Institute of Knowware },
+institution  = { Knowware Institute },
 url      = { https://fromknowware.github.io/bifurcation-memory-index/ }
 }

@@ -103,7 +103,7 @@ function pageHead(title, description, slug, item, canonical) {
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${canonical}">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="The RAM Index — The ARC Institute of Knowware">
+<meta property="og:site_name" content="The RAM Index — Knowware Institute">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${canonical}">
@@ -122,7 +122,7 @@ ${JSON.stringify({
   description: description,
   datePublished: item.publishedAt,
   author: { '@type': 'Organization', name: 'The RAM Index', url: SITE },
-  publisher: { '@type': 'Organization', name: 'The ARC Institute of Knowware', url: SITE },
+  publisher: { '@type': 'Organization', name: 'Knowware Institute', url: SITE },
   mainEntityOfPage: canonical,
 })}
 </script>
@@ -145,7 +145,7 @@ function pageFoot() {
   return `</div>
 <footer class="wrap" style="padding-top:0;">
   <div class="foot">
-    <span>CC BY 4.0 · The ARC Institute of Knowware</span>
+    <span>CC BY 4.0 · Knowware Institute</span>
     <a href="/feed.xml">RSS feed</a>
     <a href="/#learn">Learn</a>
     <a href="/paper.html">Research</a>

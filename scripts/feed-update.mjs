@@ -53,7 +53,7 @@ const FEED_META = {
   subtitle: 'DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.',
   siteUrl: 'https://ram-index.com',
   feedUrl: 'https://ram-index.com/feed.xml',
-  author: 'Khayyam Wakil / The ARC Institute of Knowware',
+  author: 'Khayyam Wakil / Knowware Institute',
   maxItems: 10000,
 };
 
@@ -442,7 +442,7 @@ function renderAtom(items, generatedAt) {
   <updated>${generatedAt}</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>${FEED_META.author}</name></author>
-  <rights>CC BY 4.0 — The ARC Institute of Knowware</rights>
+  <rights>CC BY 4.0 — Knowware Institute</rights>
 ${entries}
 </feed>`;
 }

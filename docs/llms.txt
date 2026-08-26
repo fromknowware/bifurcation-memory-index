@@ -1,6 +1,6 @@
 # The Ramification Index
 
-> A supply-side macroeconomic indicator built on DRAM memory prices. 6/6 NBER recessions since 1980 signalled, r = 0.41 with real GDP, Granger causality F = 5.83 (p < 0.01). Version 2 bifurcates the index into commodity DRAM (R^C) and AI/HBM (R^AI) sub-indices and documents the 2025–2026 RAMageddon episode. Published by The ARC Institute of Knowware. Author: Khayyam Wakil — Director, Knowware Institute.
+> A supply-side macroeconomic indicator built on DRAM memory prices. 6/6 NBER recessions since 1980 signalled, r = 0.41 with real GDP, Granger causality F = 5.83 (p < 0.01). Version 2 bifurcates the index into commodity DRAM (R^C) and AI/HBM (R^AI) sub-indices and documents the 2025–2026 RAMageddon episode. Published by Knowware Institute. Author: Khayyam Wakil — Director, Knowware Institute.
 
 **What It Is.** The Ramification Index treats DRAM (Dynamic Random-Access Memory) spot and contract prices as a leading macroeconomic signal. Memory chips are produced by a global oligopoly (Samsung, SK Hynix, Micron) and priced in a nearly-frictionless global market, making them an unusually clean read on supply–demand conditions in the broader economy.
 
@@ -36,7 +36,7 @@
 
 ## Author
 
-Khayyam Wakil is Director of the Knowware Institute and the author of the Ramification Index — v1 (2023), v2: The Bifurcated Index (2025/2026), and the v3 self-audit (2026, SSRN #6726483), published under The ARC Institute of Knowware, Calgary, AB. The index is the applied-economics branch of a broader research programme, **Constitutional Forcing** — the claim that every domain has structural constraints that uniquely determine its governing constants, forced by the algebra rather than fitted from data (nine papers, Lean4-verified, open-source). The v3 audit's scope condition — *concentrated buyers + discretionary forward commitment + fast, elastic, private-market price* — is that argument applied to memory markets.
+Khayyam Wakil is Director of the Knowware Institute and the author of the Ramification Index — v1 (2023), v2: The Bifurcated Index (2025/2026), and the v3 self-audit (2026, SSRN #6726483), published under Knowware Institute, Calgary, AB. The index is the applied-economics branch of a broader research programme, **Constitutional Forcing** — the claim that every domain has structural constraints that uniquely determine its governing constants, forced by the algebra rather than fitted from data (nine papers, Lean4-verified, open-source). The v3 audit's scope condition — *concentrated buyers + discretionary forward commitment + fast, elastic, private-market price* — is that argument applied to memory markets.
 
 His wider track record: Emmy Award, 3× Cannes Grand Prix, 26× Cannes Lions; CEO of The Artofficial Company (100+ patents across edge AI, photonics, and ternary computing); founder of CacheCow (coordinated edge intelligence). 20+ years of World's Firsts across immersive media, frontier tech, and deep tech.
 

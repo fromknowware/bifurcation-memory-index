@@ -79,7 +79,7 @@ function pageShell(title, body) {
 <title>${esc(title)} — The RAM Index</title>
 <meta name="description" content="The RAM Index Daily Briefing — the memory market read through the Ramification Index lens.">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="The RAM Index — The ARC Institute of Knowware">
+<meta property="og:site_name" content="The RAM Index — Knowware Institute">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="The RAM Index Daily Briefing — the memory market read through the Ramification Index lens.">
 <meta property="og:url" content="https://ram-index.com/briefing/index.html">

@@ -1,6 +1,6 @@
 # The Ramification Index — Version 2: The Bifurcated Index
 
-**Khayyam Wakil** · The ARC Institute of Knowware · Calgary, AB · May 2026
+**Khayyam Wakil** · Knowware Institute · Calgary, AB · May 2026
 
 [![Site](https://img.shields.io/badge/site-live-00d4aa?style=for-the-badge&logo=github&logoColor=white&labelColor=20232d)](https://ram-index.com/)
 [![Version](https://img.shields.io/badge/version-2.0-ffb347?style=for-the-badge&logo=arxiv&logoColor=white&labelColor=20232d)]()
@@ -102,7 +102,7 @@ HBM: Samsung/SK Hynix quarterly disclosures supplemented by TrendForce estimates
                  and the 2025--2026 Supply-Side Divergence},
   year        = {2026},
   month       = {May},
-  institution = {The ARC Institute of Knowware},
+  institution = {Knowware Institute},
   url         = {https://fromknowware.github.io/bifurcation-memory-index/}
 }
 ```
