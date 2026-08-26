@@ -92,6 +92,13 @@ h1{font-size:26px;line-height:1.3;color:var(--bright);font-weight:650;margin:6px
 .learn a:hover{text-decoration:underline;}
 .foot{border-top:1px solid var(--line);margin-top:40px;padding-top:14px;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10px;color:var(--muted);display:flex;gap:16px;flex-wrap:wrap;}
 .foot a:hover{color:var(--ram);}
+.pn{display:flex;align-items:stretch;gap:8px;margin-bottom:20px;font-family:'IBM Plex Mono',ui-monospace,monospace;}
+.pn-btn{flex:1;display:flex;align-items:center;gap:8px;padding:10px 14px;border:1px solid var(--line2);border-radius:4px;font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--bright);transition:all 0.1s;}
+.pn-btn.next{justify-content:flex-end;text-align:right;}
+.pn-btn:hover{color:var(--ram);border-color:var(--ram);background:rgba(232,164,40,0.05);}
+.pn-btn.disabled{color:var(--dim);border-color:var(--line);cursor:default;pointer-events:none;}
+.pn-arrow{font-size:13px;flex-shrink:0;}
+.pn-count{flex-shrink:0;align-self:center;font-size:10px;color:var(--dim);letter-spacing:0.06em;white-space:nowrap;padding:0 2px;}
 ` + '\n';
 
 // ── Data ─────────────────────────────────────────────────────────────
@@ -168,8 +175,33 @@ function pageFoot() {
     <a href="/paper.html">Research</a>
   </div>
 </footer>
+<script>
+// Rapid-fire keyboard nav: ← / → jump to the prev/next story. Ignored while
+// typing in a field, and either bar (top or bottom) works — they carry the
+// same links.
+document.addEventListener('keydown', (e) => {
+  if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
+  const tag = (e.target && e.target.tagName) || '';
+  if (tag === 'INPUT' || tag === 'TEXTAREA' || (e.target && e.target.isContentEditable)) return;
+  const sel = e.key === 'ArrowLeft' ? '.pn-btn.prev' : e.key === 'ArrowRight' ? '.pn-btn.next' : null;
+  if (!sel) return;
+  const link = document.querySelector(sel + '[href]');
+  if (link) location.href = link.getAttribute('href');
+});
+</script>
 </body>
 </html>`;
+}
+
+function prevNextBar(prevItem, nextItem, position, index, total) {
+  const prev = prevItem
+    ? `<a class="pn-btn prev" href="/stories/${storySlug(prevItem)}.html"><span class="pn-arrow">←</span><span>${esc(prevItem.title.slice(0, 40))}${prevItem.title.length > 40 ? '…' : ''}</span></a>`
+    : `<span class="pn-btn prev disabled"><span class="pn-arrow">←</span><span>Start of feed</span></span>`;
+  const next = nextItem
+    ? `<a class="pn-btn next" href="/stories/${storySlug(nextItem)}.html"><span>${esc(nextItem.title.slice(0, 40))}${nextItem.title.length > 40 ? '…' : ''}</span><span class="pn-arrow">→</span></a>`
+    : `<span class="pn-btn next disabled"><span>End of feed</span><span class="pn-arrow">→</span></span>`;
+  const count = `<span class="pn-count">${index + 1} / ${total}</span>`;
+  return `<div class="pn" data-pn="${position}">${prev}${count}${next}</div>`;
 }
 
 function metaRow(item, tag) {
@@ -222,11 +254,16 @@ function main() {
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
   console.log(`stories: ${items.length} feed items`);
 
-  const entries = items.map((item) => {
+  const entries = items.map((item, index) => {
     const slug = storySlug(item);
     const url = storyUrl(item);
     const tag = item.tag || 'supply';
     const title = item.title || 'Untitled';
+    // items is sorted newest-first: "prev" (published earlier) sits at the
+    // next index, "next" (published later) sits at the previous index —
+    // standard blog prev/next direction, not list-scan direction.
+    const prevItem = items[index + 1] || null;
+    const nextItem = items[index - 1] || null;
     // Defensive: older feed.xml entries can carry HTML-entity-escaped markup
     // in the excerpt (Google News descriptions aren't CDATA-wrapped, so the
     // ingestion-time strip can miss it) — strip it again here so a raw
@@ -246,6 +283,7 @@ function main() {
       metaRow(item, tag) +
       `<h1>${esc(title)}</h1>` +
       `<div class="src">${esc(item.source || '')} · ${esc(item.sourceFeed || '')}</div>` +
+      prevNextBar(prevItem, nextItem, 'top', index, items.length) +
       verdictBox(item, tag) +
       shareLinks(title, canonical) +
       `<div class="sec-h">The report</div>` +
@@ -253,6 +291,8 @@ function main() {
       `<div class="orig">Original article: <a href="${esc(external)}" target="_blank" rel="noopener noreferrer">Read on ${esc(item.source || 'the original source')} →</a></div>` +
       relatedBlock(related) +
       learnBlock(tag) +
+      `<div class="sec-h">Keep browsing</div>` +
+      prevNextBar(prevItem, nextItem, 'bottom', index, items.length) +
       pageFoot();
 
     return { slug, url, html, meta: {
