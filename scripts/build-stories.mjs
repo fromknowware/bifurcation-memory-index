@@ -17,7 +17,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, unlinkSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { parseFeed, cleanUrl, esc, unesc } from './feed-update.mjs';
+import { parseFeed, cleanUrl, esc, unesc, stripHtml } from './feed-update.mjs';
 import { storyUrl, storySlug } from './lib/slug.mjs';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
@@ -210,7 +210,12 @@ function main() {
     const url = storyUrl(item);
     const tag = item.tag || 'supply';
     const title = item.title || 'Untitled';
-    const description = (item.riImplication || item.excerpt || 'The RAM Index Note on this story.').slice(0, 200);
+    // Defensive: older feed.xml entries can carry HTML-entity-escaped markup
+    // in the excerpt (Google News descriptions aren't CDATA-wrapped, so the
+    // ingestion-time strip can miss it) — strip it again here so a raw
+    // <a href="..."> tag never renders as visible text on the story page.
+    const cleanExcerpt = stripHtml(item.excerpt || '');
+    const description = (item.riImplication || cleanExcerpt || 'The RAM Index Note on this story.').slice(0, 200);
     const canonical = `${SITE}${url}`;
     const external = cleanUrl(item.url);
 
@@ -227,7 +232,7 @@ function main() {
       verdictBox(item, tag) +
       shareLinks(title, canonical) +
       `<div class="sec-h">The report</div>` +
-      `<div class="excerpt">${esc(item.excerpt || '')}</div>` +
+      `<div class="excerpt">${esc(cleanExcerpt)}</div>` +
       `<div class="orig">Original article: <a href="${esc(external)}" target="_blank" rel="noopener noreferrer">${esc(external)}</a></div>` +
       relatedBlock(related) +
       learnBlock(tag) +

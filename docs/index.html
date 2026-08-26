@@ -1981,9 +1981,24 @@ async function loadFeed(){
       const riSplit = rawSummary.indexOf(' RI implication: ');
       const dirtyExcerpt = riSplit >= 0 ? rawSummary.slice(0, riSplit) : rawSummary;
       const riImpl  = riSplit >= 0 ? rawSummary.slice(riSplit + 17) : '';
+      // Google News descriptions are HTML-entity-escaped, not literal tags,
+      // and some existing entries pick up an extra escaping layer on each
+      // feed refresh (the XML parser only unwraps one) — decode repeatedly
+      // until stable, or a raw <a href="..."> shows up as visible text once
+      // this is rendered, instead of being stripped below.
+      let decoded = dirtyExcerpt, prevDecoded;
+      do {
+        prevDecoded = decoded;
+        decoded = decoded.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+          .replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+      } while (decoded !== prevDecoded);
       // Normalize: collapse whitespace/newlines, fix common encoding corruption
-      const excerpt = dirtyExcerpt
+      const excerpt = decoded
         .replace(/<[^>]*>/g, ' ')
+        // A few legacy entries were truncated mid-tag before decoding existed —
+        // a well-formed-pair regex can't match those, so drop a dangling,
+        // never-closed tag at the very end too.
+        .replace(/<[^>]*$/, ' ')
         .replace(/&nbsp;/g, ' ')
         .replace(/[\r\n\t]+/g, ' ')
         .replace(/\s{2,}/g, ' ')
