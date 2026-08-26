@@ -30,6 +30,9 @@
  */
 
 import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { storyUrl } from './lib/slug.mjs';
+import { cleanUrl } from './lib/url.mjs';
+export { cleanUrl };
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -50,35 +53,12 @@ const FEED_META = {
   subtitle: 'DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.',
   siteUrl: 'https://ram-index.com',
   feedUrl: 'https://ram-index.com/feed.xml',
-  author: 'Khayyam Wakil / The ARC Institute of Knowware',
+  author: 'Khayyam Wakil / Knowware Institute',
   maxItems: 10000,
 };
 
 // ── URL hygiene ──────────────────────────────────────────────────────
 
-const TRACKING_PARAMS = new Set([
-  'guccounter', 'guce_referrer', 'guce_referrer_sig',
-  'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content',
-  'fbclid', 'gclid', 'mc_cid', 'mc_eid', 'ref', 'src',
-]);
-
-/** Decode repeated &amp;-style escaping, then strip tracking params. */
-export function cleanUrl(raw) {
-  if (!raw) return '';
-  let url = raw.trim();
-  for (let i = 0; i < 4 && url.includes('&amp;'); i++) {
-    url = url.replace(/&amp;/g, '&');
-  }
-  try {
-    const u = new URL(url);
-    for (const key of [...u.searchParams.keys()]) {
-      if (TRACKING_PARAMS.has(key)) u.searchParams.delete(key);
-    }
-    return u.toString();
-  } catch {
-    return url;
-  }
-}
 
 /** Stable dedup key: cleaned URL, else normalized title+source. */
 export function dedupKey(item) {
@@ -371,7 +351,7 @@ function stripHtml(html) {
   return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-function unesc(str) {
+export function unesc(str) {
   return str
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
@@ -380,7 +360,7 @@ function unesc(str) {
     .replace(/&#39;/g, "'");
 }
 
-function esc(str) {
+export function esc(str) {
   return String(str)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
@@ -390,7 +370,7 @@ function esc(str) {
 
 // ── Existing feed parse ─────────────────────────────────────────────
 
-function parseFeed(xml) {
+export function parseFeed(xml) {
   const items = [];
   const entryRe = /<entry>([\s\S]*?)<\/entry>/gi;
   let m;
@@ -433,6 +413,7 @@ function renderAtom(items, generatedAt) {
     <id>${esc(cleanUrl(item.url))}</id>
     <title type="html">${esc(item.title)}</title>
     <link href="${esc(cleanUrl(item.url))}" />
+    <link rel="related" href="${storyUrl(item)}" />
     <updated>${item.publishedAt}</updated>
     <author><name>${esc(item.source)}</name></author>
     <summary type="html">${esc(
@@ -461,7 +442,7 @@ function renderAtom(items, generatedAt) {
   <updated>${generatedAt}</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>${FEED_META.author}</name></author>
-  <rights>CC BY 4.0 — The ARC Institute of Knowware</rights>
+  <rights>CC BY 4.0 — Knowware Institute</rights>
 ${entries}
 </feed>`;
 }

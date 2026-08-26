@@ -1,6 +1,6 @@
 # The Ramification Index — Version 2: The Bifurcated Index
 
-**Khayyam Wakil** · The ARC Institute of Knowware · Calgary, AB · May 2026
+**Khayyam Wakil** · Knowware Institute · Calgary, AB · May 2026
 
 [![Site](https://img.shields.io/badge/site-live-00d4aa?style=for-the-badge&logo=github&logoColor=white&labelColor=20232d)](https://ram-index.com/)
 [![Version](https://img.shields.io/badge/version-2.0-ffb347?style=for-the-badge&logo=arxiv&logoColor=white&labelColor=20232d)]()
@@ -46,18 +46,28 @@ bifurcation-memory-index/
 │   ├── dashboard.html
 │   ├── paper.html
 │   ├── feed.xml                ← regenerated every 6h by GitHub Actions
+│   ├── llms.txt                ← LLM-facing index (llmstxt.org spec v2) — generated
+│   ├── llms-full.txt           ← entire site in one file for agents — generated
+│   ├── index.md / paper.md / dashboard.md ← markdown mirrors of the pages — generated
 │   ├── data/ri.json            ← generated from indices-wide-v3.csv
 │   ├── data/stocks.json        ← refreshed every 15 min on market days
 │   └── v3/                     ← 2026 self-audit: summary, full audit, methods
 ├── scripts/
 │   ├── feed-update.mjs         ← feed pipeline (Google News RSS + OPML + Raindrop)
+│   ├── build-stories.mjs       ← /stories/<slug>.html pages + archive (the "middle layer")
+│   ├── build-briefing.mjs      ← /briefing/ daily digest + Day-N-of-RAMageddon counter
+│   ├── build-og.mjs            ← per-story 1200×630 social cards (sharp → PNG)
+│   ├── build-review.mjs        ← /review/ weekly stats + optional editor's take
 │   ├── build-ri-json.mjs       ← CSV → docs/data/ri.json
+│   ├── build-llms.mjs          ← HTML + v3 docs → llms.txt / llms-full.txt / .md mirrors
 │   ├── feeds.opml              ← curated source list for the feed
 │   └── reimply-local.mjs       ← optional LLM implication backfill (Anthropic key)
 └── .github/workflows/
-    ├── update-feed.yml         ← feed every 6h
+    ├── update-feed.yml         ← feed + stories + briefing + OG cards every 6h
+    ├── update-review.yml       ← weekly review every Sunday
     ├── update-stocks.yml       ← equities every 15 min on market days
-    └── build-data.yml          ← ri.json on CSV change + daily
+    ├── build-data.yml          ← ri.json on CSV change + daily
+    └── build-llms.yml          ← llms.txt artifacts on docs change + daily
 ```
 
 ---
@@ -92,7 +102,7 @@ HBM: Samsung/SK Hynix quarterly disclosures supplemented by TrendForce estimates
                  and the 2025--2026 Supply-Side Divergence},
   year        = {2026},
   month       = {May},
-  institution = {The ARC Institute of Knowware},
+  institution = {Knowware Institute},
   url         = {https://fromknowware.github.io/bifurcation-memory-index/}
 }
 ```
@@ -108,8 +118,25 @@ Everything on the site is kept fresh by GitHub Actions — no third-party worker
 | `update-feed.yml` | every 6h | Pulls Google News RSS (no key) + curated OPML feeds + the Raindrop dropbox (optional `RAINDROP_API_TOKEN` secret, editorial picks), classifies deterministically (no LLM), sanitizes/dedups, commits `docs/feed.xml`. |
 | `update-stocks.yml` | every 15 min, market days | Refreshes `docs/data/stocks.json` via yfinance. |
 | `build-data.yml` | on CSV change + daily | Regenerates `docs/data/ri.json` from `data/indices-wide-v3.csv` so the page headline and series can never drift from the corrected dataset. |
+| `build-llms.yml` | on docs change + daily | Regenerates `docs/llms.txt`, `docs/llms-full.txt` and the `index.md`/`paper.md`/`dashboard.md` mirrors from the HTML pages and v3 audit docs, so the LLM-facing index can never drift from the site. |
 
 The previous Cloudflare Worker pipeline (Anthropic scoring + Durable Object cron) was decommissioned in August 2026 after it silently stopped updating the feed for two months; the feed logic was ported to `scripts/feed-update.mjs` with deterministic scoring.
+
+### The LLM layer — llms.txt & llms-full.txt
+
+The site publishes a first-class LLM/agent-facing layer, following the [llmstxt.org](https://llmstxt.org/) v2 conventions:
+
+- **`/llms.txt`** — the curated index: what the index is, the key statistics, and file lists pointing at the most agent-useful resources (markdown mirrors, machine-readable JSON, the v3 audit, the paper).
+- **`/llms-full.txt`** — the entire site in one fetch: every page's full text (live monitor, paper, dashboard) plus the complete v3 executive summary and methods, a data dictionary for `indices-wide-v3.csv`, and the citation.
+- **`/index.md`, `/paper.md`, `/dashboard.md`** — clean markdown mirrors of the HTML pages, so agents get text without navigation or JavaScript.
+- **Author profile** — `/llms.txt` carries an Author section and `/llms-full.txt` a full profile (Director, Knowware Institute; the Constitutional Forcing research programme; track record with hard numbers; positioning notes so agents frame Khayyam correctly for each audience — economics, AI/investor, creative, general).
+- **Link relations** — every HTML page declares `<link rel="alternate" type="text/markdown">` (its mirror) and `<link rel="describedby">` (`/llms.txt`), also emitted as HTTP `Link:` headers via `docs/_headers` for Cloudflare Pages.
+
+Everything is generated by `scripts/build-llms.mjs` from the pages themselves — run `node scripts/build-llms.mjs --check` to verify the committed artifacts are current. The `_headers` file serves the mirrors as `text/markdown` with a 1h TTL and `llms*.txt` as `text/plain` with a 24h TTL.
+
+### The syndication layer
+
+Every feed item becomes a **RAM Index Note** — a shareable page at `/stories/<slug>.html` with the story, the RI verdict, signal score, related notes, share buttons, per-story OG card and JSON-LD. The **Daily Briefing** (`/briefing/`) surfaces the top notes with a "Day N of RAMageddon" counter; the **Weekly Review** (`/review/`) auto-composes the week's stats (drop a file in `docs/review/editorials/<YYYY>-W<ww>.md` to add your own take). A one-line embeddable ticker (`/embed/ticker.js`) lets other sites show the live scorecard with attribution. Newsletter signup activates automatically once `newsletterUrl` is set in `docs/data/settings.json` (e.g. a Buttondown or Mailchimp form endpoint); until then the subscribe box offers RSS + email contact.
 
 ### License
 
