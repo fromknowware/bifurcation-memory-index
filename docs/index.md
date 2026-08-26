@@ -198,7 +198,7 @@ HBM data  SK Hynix, Samsung, Micron quarterly earnings; IDC server DRAM shipment
 
 Equities  Yahoo Finance via yfinance; 11-stock panel: MU, 005930.KS, 000660.KS, 688825.SS, NVDA, TSM, AMD, INTC, QCOM, WDC, STX
 
-v3 corrections  2026 self-audit: source recovered, 1988 endpoint corrected, 18 years of page series re-synced to the corrected dataset. See [executive summary](v3/executive-summary.pdf) · [full audit](v3/full-audit.pdf) · [methods](v3/methods.md)
+v3 corrections  2026 self-audit: source recovered, 1988 endpoint corrected, 18 years of page series re-synced to the corrected dataset. See [executive summary](v3/executive-summary.pdf) · [full audit](v3/full-audit.pdf) · [methods](v3/methods.html)
 
 How to Cite
 
