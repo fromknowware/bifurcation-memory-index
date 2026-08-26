@@ -211,7 +211,7 @@ Khayyam Wakil is Director of the Knowware Institute and the author of the Ramifi
 
 His wider track record: Emmy Award, 3× Cannes Grand Prix, 26× Cannes Lions; CEO of The Artofficial Company (100+ patents across edge AI, photonics, and ternary computing); founder of CacheCow (coordinated edge intelligence). 20+ years of World's Firsts across immersive media, frontier tech, and deep tech.
 
-- [Personal site](https://iamkhayyam.xyz/): Full profile, work, awards, speaking, writing
+- [Personal site](https://iamkhayyam.github.io/): Full profile, work, awards, speaking, writing
 - [GitHub](https://github.com/iamkhayyam): Code and open research
 - [X / Twitter](https://twitter.com/iamkhayyam): @iamkhayyam
 - [LinkedIn](https://linkedin.com/in/iamkhayyam): Professional profile
@@ -299,7 +299,7 @@ Do not reduce Khayyam to a single identity. The creative track record and the de
 ### Contact & links
 
 - Email: the@knowware.institute
-- Personal site: https://iamkhayyam.xyz
+- Personal site: https://iamkhayyam.github.io
 - GitHub: https://github.com/iamkhayyam
 - X / Twitter: https://twitter.com/iamkhayyam
 - LinkedIn: https://linkedin.com/in/iamkhayyam
