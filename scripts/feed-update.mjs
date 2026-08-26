@@ -347,8 +347,36 @@ function extractLink(block) {
   return guid ? guid[1].trim() : '';
 }
 
-function stripHtml(html) {
-  return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+function decodeNumericEntities(text) {
+  return text.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
+}
+
+export function stripHtml(html) {
+  // Google News (and some OPML sources) deliver description markup HTML-entity-
+  // escaped rather than as literal tags or CDATA — e.g. `&lt;a href="..."&gt;`.
+  // Existing feed items also pick up an extra layer of escaping on every
+  // unesc→re-escape round trip through the feed, so some entries observed in
+  // the wild carry two or more layers (`&amp;lt;a href=...`). Decode
+  // repeatedly until nothing changes, THEN strip — a single unesc() pass
+  // leaves deeper layers as visible text once re-rendered.
+  let s = String(html ?? '');
+  let prev;
+  do { prev = s; s = decodeNumericEntities(unesc(s)); } while (s !== prev);
+  return s
+    .replace(/<[^>]+>/g, ' ')
+    // A handful of legacy entries were truncated to a fixed length before
+    // this function decoded entities, landing mid-tag (e.g. `<font color=
+    // "#6f6f6f"` with the closing `>` cut off) — a well-formed-pair regex
+    // can't match those, so also drop a dangling, never-closed tag at the
+    // very end of the string.
+    .replace(/<[^>]*$/, ' ')
+    .replace(/&nbsp;/g, ' ')
+    // Same truncation as above can also cut an entity itself short
+    // (`&amp;nbsp;&amp;nb` with no closing `;`) — drop a dangling one at
+    // the very end.
+    .replace(/&#?[a-zA-Z0-9]*$/, ' ')
+    .replace(/\s+/g, ' ').trim();
 }
 
 export function unesc(str) {
@@ -457,7 +485,13 @@ async function main() {
   let existing = [];
   if (existsSync(FEED)) {
     try {
-      existing = parseFeed(readFileSync(FEED, 'utf8'));
+      // stripHtml on every re-load, not just fresh items — otherwise an
+      // excerpt that already carries escaped markup keeps getting read,
+      // re-escaped by renderAtom, and written back with one more layer
+      // added each run (how items like the CXMT story ended up double-
+      // escaped: <a href="..."> as visible text on their story page).
+      existing = parseFeed(readFileSync(FEED, 'utf8'))
+        .map((item) => ({ ...item, excerpt: stripHtml(item.excerpt) }));
       console.log(`  existing: ${existing.length} items`);
     } catch (e) {
       console.warn(`  could not parse existing feed: ${e.message}`);
