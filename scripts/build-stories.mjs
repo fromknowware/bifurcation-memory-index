@@ -280,10 +280,10 @@ function main() {
       .map((r) => ({ slug: storySlug(r), title: r.title, date: (r.publishedAt || '').slice(0, 10) }));
 
     const html = pageHead(title, description, slug, item, canonical) +
+      prevNextBar(prevItem, nextItem, 'top', index, items.length) +
       metaRow(item, tag) +
       `<h1>${esc(title)}</h1>` +
       `<div class="src">${esc(item.source || '')} · ${esc(item.sourceFeed || '')}</div>` +
-      prevNextBar(prevItem, nextItem, 'top', index, items.length) +
       verdictBox(item, tag) +
       shareLinks(title, canonical) +
       `<div class="sec-h">The report</div>` +
