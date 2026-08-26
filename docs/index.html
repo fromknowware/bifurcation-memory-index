@@ -463,6 +463,28 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 }
 .rc-btn:hover{border-color:var(--ram);color:var(--ram);}
 .rc-btn.primary{border-color:var(--ram);color:var(--ram);background:rgba(232,164,40,0.06);}
+.rc-pdf-preview{
+  position:relative;height:420px;border:1px solid var(--line);
+  overflow:hidden;margin-bottom:24px;background:var(--bg1);
+}
+.rc-pdf-frame{width:100%;height:100%;border:none;display:block;pointer-events:none;}
+.rc-pdf-fade{
+  position:absolute;left:0;right:0;bottom:0;height:150px;z-index:1;
+  background:linear-gradient(to bottom, transparent, var(--bg1) 82%);
+  pointer-events:none;
+}
+.rc-pdf-cta{
+  position:absolute;left:50%;bottom:22px;transform:translateX(-50%);z-index:2;
+  display:flex;align-items:center;gap:8px;
+  font-family:var(--mono);font-size:10px;font-weight:700;
+  letter-spacing:0.08em;text-transform:uppercase;
+  padding:11px 22px;border:1px solid var(--ram);color:var(--ram);
+  background:var(--bg1);text-decoration:none;white-space:nowrap;
+  transition:all 0.15s;
+}
+.rc-pdf-cta:hover{background:rgba(232,164,40,0.1);box-shadow:0 0 0 3px rgba(232,164,40,0.08);}
+.rc-pdf-cta-icon{font-size:13px;line-height:1;}
+@media (max-width:700px){ .rc-pdf-preview{height:320px;} }
 .research-sidebar{padding:24px;}
 .rs-block{margin-bottom:28px;}
 .rs-h{
@@ -1324,6 +1346,13 @@ audio{
       <div class="rc-h">The Ramification Index v2: The Bifurcated Index</div>
       <div class="rc-byline">Khayyam Wakil · 2025 · 44 years of data (1980–2026)</div>
       <div class="rc-abstract">A supply-side macroeconomic indicator built on DRAM prices. The v2 introduces bifurcated sub-indices separating commodity DRAM from AI/HBM markets, documents the 2025–2026 RAMageddon event, and demonstrates Granger causality from the RAM index to real GDP growth. 6 of 6 NBER recessions covered; correlation r = 0.41 with real GDP YoY.</div>
+      <div class="rc-pdf-preview">
+        <iframe class="rc-pdf-frame" src="Wakil_RamificationIndex_v2.pdf#page=1&view=FitH&toolbar=0&navpanes=0&scrollbar=0" title="The Ramification Index v2 — paper preview" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+        <div class="rc-pdf-fade"></div>
+        <a class="rc-pdf-cta" href="Wakil_RamificationIndex_v2.pdf" target="_blank" rel="noopener">
+          <span class="rc-pdf-cta-icon">⤢</span><span>Click to view full paper</span>
+        </a>
+      </div>
       <div class="rc-stats-row">
         <div class="rc-stat"><div class="rc-stat-num">6/6</div><div class="rc-stat-lbl">NBER Recessions</div></div>
         <div class="rc-stat"><div class="rc-stat-num">r = 0.41</div><div class="rc-stat-lbl">GDP Correlation</div></div>
