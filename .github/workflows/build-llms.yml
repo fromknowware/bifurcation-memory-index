@@ -1,0 +1,47 @@
+name: Build llms.txt artifacts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/*.html"
+      - "docs/v3/*.md"
+      - "docs/_headers"
+      - "scripts/build-llms.mjs"
+  schedule:
+    # Daily safety net in case a page is edited via the GitHub UI
+    - cron: "41 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Regenerate llms.txt, llms-full.txt and markdown mirrors
+        run: node scripts/build-llms.mjs
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/llms.txt docs/llms-full.txt docs/index.md docs/paper.md docs/dashboard.md
+          if git diff --cached --quiet; then
+            echo "No changes — skipping commit"
+          else
+            TIMESTAMP=$(date -u "+%Y-%m-%d %H:%M UTC")
+            git commit -m "llms: regenerate llms.txt, llms-full.txt and page mirrors [${TIMESTAMP}]"
+            git push
+          fi
