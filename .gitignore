@@ -15,3 +15,4 @@
 # local Cloudflare state (worker decommissioned 2026-08)
 .wrangler/
 worker/
+scripts/node_modules/

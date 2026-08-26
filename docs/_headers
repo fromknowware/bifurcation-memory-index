@@ -23,6 +23,19 @@
   Cache-Control: public, max-age=3600
   Content-Type: application/xml; charset=utf-8
 
+# Syndication — story pages, briefing, review (regenerated, no long caching)
+/stories/*
+  Cache-Control: public, max-age=600, stale-while-revalidate=300
+
+/briefing/*
+  Cache-Control: public, max-age=600, stale-while-revalidate=300
+
+/review/*
+  Cache-Control: public, max-age=600, stale-while-revalidate=300
+
+/embed/*
+  Cache-Control: public, max-age=3600
+
 # Static assets — 1 year, immutable (filenames don't change but content rarely does)
 /*.pdf
   Cache-Control: public, max-age=31536000, immutable
@@ -35,6 +48,30 @@
 /*.png
   Cache-Control: public, max-age=31536000, immutable
 
+# llms.txt ecosystem — index + full-text for AI agents
 /llms.txt
   Cache-Control: public, max-age=86400
   Content-Type: text/plain; charset=utf-8
+
+/llms-full.txt
+  Cache-Control: public, max-age=86400
+  Content-Type: text/plain; charset=utf-8
+
+# Markdown mirrors of the HTML pages (llmstxt.org v2)
+/*.md
+  Cache-Control: public, max-age=3600
+  Content-Type: text/markdown; charset=utf-8
+  Link: </llms.txt>; rel="describedby"
+
+# Point agents from each HTML page to its markdown mirror and the index
+/index.html
+  Link: </index.md>; rel="alternate"; type="text/markdown", </llms.txt>; rel="describedby"
+
+/paper.html
+  Link: </paper.md>; rel="alternate"; type="text/markdown", </llms.txt>; rel="describedby"
+
+/dashboard.html
+  Link: </dashboard.md>; rel="alternate"; type="text/markdown", </llms.txt>; rel="describedby"
+
+/
+  Link: </index.md>; rel="alternate"; type="text/markdown", </llms.txt>; rel="describedby"

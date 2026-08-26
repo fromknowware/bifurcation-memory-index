@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>All Stories — The RAM Index</title>
+<meta name="description" content="Every RAM Index Note — the memory market read through the Ramification Index lens.">
+<meta property="og:title" content="All Stories — The RAM Index">
+<meta property="og:description" content="Every RAM Index Note — the memory market read through the Ramification Index lens.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#111416;--bg1:#171a1e;--bg2:#1c2024;--line:#262b32;--line2:#32383f;--muted:#596170;--dim:#434b58;--text:#a0acbc;--bright:#c0cad8;--ram:#e8a428;--hbm:#00b896;--comm:#c8a040;--green:#38b868;--red:#c84848;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,sans-serif;font-size:14px;line-height:1.6;}
+a{color:inherit;text-decoration:none;}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace;}
+.hd{display:flex;align-items:center;gap:14px;border-bottom:1px solid var(--line);background:var(--bg1);padding:10px 24px;font-size:12px;}
+.hd a:hover{color:var(--ram);}
+.hd-brand{font-family:'IBM Plex Mono',ui-monospace,monospace;font-weight:700;color:var(--bright);letter-spacing:0.05em;}
+.hd-brand em{color:var(--ram);font-style:normal;}
+.hd-nav{margin-left:auto;display:flex;gap:16px;color:var(--muted);}
+.wrap{max-width:760px;margin:0 auto;padding:28px 24px 60px;}
+.meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:14px;}
+.tag{display:inline-block;padding:2px 8px;border:1px solid var(--line2);border-radius:3px;}
+.tag.supply{color:var(--comm);border-color:rgba(200,160,64,0.35);}
+.tag.demand{color:var(--hbm);border-color:rgba(0,184,150,0.35);}
+.tag.fab{color:#b8985a;border-color:rgba(184,152,90,0.35);}
+.tag.earnings{color:#5ab870;border-color:rgba(90,184,112,0.35);}
+.tag.macro{color:#8a5ab8;border-color:rgba(138,90,184,0.35);}
+.pick{color:var(--ram);border:1px solid rgba(232,164,40,0.3);}
+h1{font-size:26px;line-height:1.3;color:var(--bright);font-weight:650;margin:6px 0 14px;letter-spacing:-0.01em;}
+.src{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:11px;color:var(--muted);margin-bottom:20px;}
+.note{border:1px solid rgba(232,164,40,0.35);border-left:4px solid var(--ram);background:rgba(232,164,40,0.05);padding:16px 18px;margin:18px 0;border-radius:4px;}
+.note-h{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10px;font-weight:700;letter-spacing:0.12em;color:var(--ram);text-transform:uppercase;margin-bottom:8px;}
+.note p{font-size:15px;color:var(--bright);}
+.score{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:11px;color:var(--muted);margin:10px 0 18px;}
+.score b{color:var(--bright);font-size:15px;}
+.body{font-size:14px;color:var(--text);}
+.excerpt{background:var(--bg1);border:1px solid var(--line);border-radius:4px;padding:14px 16px;margin:14px 0;font-size:13px;color:var(--bright);}
+.orig{margin:6px 0 22px;font-size:12px;}
+.orig a{color:var(--hbm);}
+.orig a:hover{text-decoration:underline;}
+.share{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0;}
+.share a,.share button{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:8px 14px;border:1px solid var(--line2);background:var(--bg1);color:var(--bright);cursor:pointer;border-radius:3px;}
+.share a:hover,.share button:hover{color:var(--ram);border-color:var(--ram);}
+.sec-h{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10px;font-weight:700;letter-spacing:0.12em;color:var(--muted);text-transform:uppercase;margin:26px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px;}
+.related{display:flex;flex-direction:column;gap:8px;}
+.related a{font-size:13px;color:var(--text);line-height:1.45;}
+.related a:hover{color:var(--ram);}
+.related .r-date{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:9px;color:var(--dim);margin-right:8px;}
+.learn a{color:var(--hbm);font-size:13px;}
+.learn a:hover{text-decoration:underline;}
+.foot{border-top:1px solid var(--line);margin-top:40px;padding-top:14px;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10px;color:var(--muted);display:flex;gap:16px;flex-wrap:wrap;}
+.foot a:hover{color:var(--ram);}
+
+
+.row{display:flex;align-items:baseline;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:13px;}
+.row a:hover{color:var(--ram);}
+.r-date{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:9px;color:var(--dim);white-space:nowrap;}
+.r-tag{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:9px;color:var(--muted);margin-left:auto;text-transform:uppercase;}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0;}
+.chip{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10px;padding:5px 10px;border:1px solid var(--line2);background:var(--bg1);color:var(--muted);cursor:pointer;border-radius:3px;}
+.chip.active{color:var(--ram);border-color:var(--ram);}
+.count{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10px;color:var(--dim);margin:10px 0;}
+</style>
+</head>
+<body>
+<header class="hd">
+  <a class="hd-brand" href="/">RAM <em>INDEX</em></a>
+  <nav class="hd-nav"><a href="/">Live Index</a><a href="/briefing/index.html">Briefing</a><a href="/feed.xml">RSS</a></nav>
+</header>
+<div class="wrap">
+  <div class="meta"><span class="tag supply">ARCHIVE</span><span>All RAM Index Notes</span></div>
+  <h1 style="font-size:20px;">The RAM Index — all stories</h1>
+  <div class="count" id="count">136 notes</div>
+  <div class="chips">
+    <button class="chip active" data-filter="all">ALL</button><button class="chip" data-filter="supply">SUPPLY</button><button class="chip" data-filter="demand">DEMAND</button><button class="chip" data-filter="fab">FAB</button><button class="chip" data-filter="earnings">EARNINGS</button><button class="chip" data-filter="macro">MACRO</button>
+    <button class="chip" data-filter="pick">★ PICKS</button>
+  </div>
+  <div id="rows"><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/one-crucial-4tb-ssd-customer-stands-ground-and-refus-4eb7d04a.html">One Crucial 4TB SSD Customer Stands Ground And Refuses Lousy $200 Refund Offered By Company; Perseverance Finally Results In A “Direct 1:1 Replacement”</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/microsoft-s-maia-200-ai-accelerator-at-hot-chips-202-88aa68c3.html">Microsoft’s Maia 200 AI Accelerator at Hot Chips 2026</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/inside-intel-8217-s-8216-fan-out-fabric-8217-in-8216-c4fa9480.html">Inside Intel&amp;#8217;s &amp;#8216;Fan-out Fabric&amp;#8217; in &amp;#8216;Diamond Rapids,’ Its Seventh-Gen Xeon Chip</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/cxmt-ymtc-supply-push-may-reshape-dram-and-nand-mark-0ae1323c.html">CXMT, YMTC supply push may reshape DRAM and NAND market - 디지털투데이</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/south-korean-dram-export-price-hits-gold-parity-leve-3700d946.html">South Korean DRAM Export Price Hits Gold-Parity Levels; Supply Shortage Expected to Worsen Next Year - finance.biggo.com</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/nvidia-s-groq-3-lpu-accelerators-for-heterogeneous-a-49ae6d5c.html">NVIDIA’s Groq 3 LPU Accelerators for Heterogeneous AI Compute at Hot Chips 2026</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="fab" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/cerebras-cs-4-delivers-a-30x-uplift-in-ai-this-year-64ef3d0f.html">Cerebras CS-4 Delivers A 30x Uplift In AI This Year, But Next-Gen Racks Already In Works With CS-5 Pumping Out 10K TPS Per User In 2027 &amp; CS-6 Bringing 3D Wafer-Scale SRAM</a><span class="r-tag">FAB</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/meta-s-mtia-custom-ai-silicon-at-hot-chips-2026-ab456cb1.html">Meta’s MTIA Custom AI Silicon at Hot Chips 2026</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/korea-dram-prices-surge-as-hbm-shift-deepens-global-befcbd39.html">Korea DRAM prices surge as HBM shift deepens global supply shortfall - CHOSUNBIZ - Chosunbiz</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/apple-defies-memory-shortage-with-new-mac-minis-aa6e01f3.html">Apple defies memory shortage with new Mac minis</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/nvidia-spectrum-x-ethernet-multiplane-network-archit-dbb56021.html">NVIDIA Spectrum-X Ethernet Multiplane Network Architecture at Hot Chips 2026</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/micron-jumps-as-analysts-see-memory-prices-surging-5-2feb0eee.html">Micron Jumps as Analysts See Memory Prices Surging 50% This Quarter - finance.biggo.com</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/nvidia-bluefield-4-dpu-at-hot-chips-2026-cd8c50aa.html">NVIDIA BlueField-4 DPU at Hot Chips 2026</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/hot-chips-2026-samsung-makes-lpddr5x-smart-with-logi-e1b8a757.html">Hot Chips 2026: Samsung makes LPDDR5X smart with logic unit in memory — LPDDR5X-PIM is 3.01x faster than LPDDR5X in AI inference with 8x the bandwidth</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/openai-s-700w-jalapeno-asic-outpaces-1-400w-nvidia-f-a6bcae64.html">OpenAI’s 700W Jalapeño ASIC outpaces 1,400W Nvidia flagship GPU — claims up to 1.9x throughput per kilowatt and 3.6x lower latency, co-developed with Broadcom</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/llm-query-types-drive-gpu-demand-startuphub-ai-c508abb9.html">LLM Query Types Drive GPU Demand - StartupHub.ai</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/openai-s-first-gen-jalapeno-asic-blows-competition-o-2f30f5ab.html">OpenAI’s First-Gen Jalapeno ASIC Blows Competition Out Of The Park, Performs 1.5x to 1.9x More Work Per Kilowatt Than NVIDIA’s Blackwell Chips, While Threatening The CUDA Moat</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/amazon-s-gadget-price-hikes-reveal-the-consumer-cost-0f2139a6.html">Amazon’s Gadget Price Hikes Reveal the Consumer Cost of the AI Memory Crunch - 24/7 Wall St.</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/get-16gb-of-ddr5-ram-for-70-and-start-your-am5-gamin-cc2aa669.html">Get 16GB of DDR5 RAM for $70 and start your AM5 gaming rig with this bundle — $568 for Ryzen 7 7700X3D, 16GB G.Skill DDR5 RAM, Asus TUF B650-E motherboard, and free AIO</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/hot-chips-2026-intel-details-cutting-edge-tech-in-en-848bd9f4.html">Hot Chips 2026: Intel details cutting-edge tech in entry-level Wildcat Lake — value-focused 18A chips necessitated UCIe integration</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="earnings" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/best-ram-deals-2026-discounts-on-ddr5-and-ddr4-to-be-32854689.html">Best RAM deals 2026 — discounts on DDR5 and DDR4 to beat the memory price crunch</a><span class="r-tag">EARNINGS</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/hot-chips-2026-intel-dives-deep-on-crescent-island-a-e0c3c536.html">Hot Chips 2026: Intel dives deep on Crescent Island AI accelerator — larger caches and deeper XMX engines target maximum AI FLOPS per watt</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/apple-price-hikes-continue-as-mac-mini-with-16gb-ram-2d5b2185.html">Apple price hikes continue as Mac mini with 16GB RAM and 256GB is now $899 — 1TB storage option adds $500 to entry-level headless system</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/memory-shortage-deepens-to-worst-levels-since-2017-h-95f40007.html">Memory Shortage Deepens to Worst Levels Since 2017 - Here's Why Micron Investors Will Cash In - 24/7 Wall St.</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/broadcom-vs-micron-why-they-re-so-strong-as-capital-39c24011.html">Broadcom Vs. Micron: Why They’re So Strong as Capital Shifts to Inference and Agentic AI - 24/7 Wall St.</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/apple-unveils-m6-and-m5-ultra-chips-with-huge-cpu-gp-4939e52a.html">Apple Unveils M6 and M5 Ultra Chips With Huge CPU, GPU and AI Upgrades - The Mac Observer</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/amazon-s-60-price-hike-and-the-memory-shortage-fight-7ab8655a.html">Amazon’s 60% Price Hike and the Memory Shortage Fight: Engineered Shortage, or Chip Cost to Blame? - Technology Org</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="fab" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/china-strategically-slows-exports-of-critical-materi-398e74ec.html">China strategically slows exports of critical materials used in semiconductor fabrication to Taiwan — germanium and quartz exports to the region also threaten optical and robotics supply chain</a><span class="r-tag">FAB</span>
+    </div><div class="row" data-tag="fab" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/hot-chips-2026-micron-warns-hbm-wafer-penalty-is-wid-78ac46b1.html">Hot Chips 2026: Micron warns HBM wafer penalty is widening with every generation — AI memory uses 3x more silicon than DDR5, company says memory wall is 'getting worse' as prices rise</a><span class="r-tag">FAB</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/sifive-pushes-development-server-to-take-risc-v-into-bbb9cd1a.html">SiFive pushes development server to take RISC-V into the datacenter</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/hot-chips-2026-nvidia-breaks-down-88-core-vera-cpu-s-b131daeb.html">Hot Chips 2026: Nvidia breaks down 88-core Vera CPU — spatial multithreading benchmarked, 1.2 TB/s SOCAMM2 memory, agentic workloads detailed, and more</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/samsung-electronics-sk-hynix-poised-to-ride-ai-boom-344c3ce6.html">Samsung Electronics, SK hynix poised to ride AI boom as memory chip sales seen surging 280% - 헤럴드경제</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/memory-prices-soar-dram-and-nand-flash-to-account-fo-a0409515.html">Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027, Says TrendForce - TrendForce</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/one-gigabyte-of-ram-cost-as-much-as-a-house-back-in-88f20594.html">One gigabyte of RAM cost as much as a house back in 1995 — $64,000 price tag resurfaced in 31-year-old press release, equivalent to $140,000 today - Tom's Hardware</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/one-gigabyte-of-ram-cost-as-much-as-a-house-back-in-8a1eb53e.html">One gigabyte of RAM cost as much as a house back in 1995 — $64,000 price tag resurfaced in 31-year-old press release, equivalent to $140,000 today</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/save-500-on-this-1440p-ready-gaming-pc-with-an-nvidi-36765f67.html">Save $500 on this 1440p-ready gaming PC with an Nvidia GeForce RTX 5070 right now — MSI Codex R2 pre-built drops below $1,500 with a 20-core Intel CPU, 16GB DDR5, and a 1TB SSD</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/memory-prices-soar-dram-and-nand-flash-to-account-fo-0522ddc6.html">Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - I-Connect007</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="fab" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/sk-hynix-next-gen-hbm-memory-to-use-intel-emib-t-pac-bbdeb474.html">SK Hynix Next-Gen HBM Memory to Use Intel EMIB-T Packaging</a><span class="r-tag">FAB</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/why-is-micron-nasdaq-mu-at-a-52-week-high-as-ai-memo-012cb19c.html">Why Is Micron (NASDAQ:MU) at a 52-Week High as AI Memory Expands? - Kalkine Media</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="fab" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/tsmc-s-hbm-packaging-yield-issues-help-intel-analyst-02a1f3fc.html">TSMC’s HBM-Packaging Yield Issues Help Intel, Analysts Say</a><span class="r-tag">FAB</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/amazon-raises-ai-device-prices-as-chip-shortage-spur-997b6f58.html">Amazon Raises AI Device Prices as Chip Shortage Spurs Rentals - 조선일보</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-25</span>
+      <a href="/stories/news-nvidia-s-reported-15-server-hike-boosts-samsung-41fae3ad.html">[News] NVIDIA’s Reported 15% Server Hike Boosts Samsung, SK hynix, With HBM Prices Potentially Up 50%+ in 2027 - TrendForce</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="fab" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/former-tsmc-engineer-busted-in-taiwan-running-an-ill-54e754b1.html">Former TSMC Engineer Busted In Taiwan Running An Illicit Currency Exchange Network – Tesla Model S Plaid &amp; Rolex Among Items Seized</a><span class="r-tag">FAB</span>
+    </div><div class="row" data-tag="macro" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/lawsuit-demands-logitech-hand-tariff-refunds-over-to-dca46f52.html">Lawsuit demands Logitech hand tariff refunds over to customers</a><span class="r-tag">MACRO</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/nvidia-wants-to-turn-your-home-wall-into-a-mini-data-5f3a5303.html">NVIDIA Wants To Turn Your Home Wall Into A Mini Data Center By Packing 16 Blackwell GPUs And 4 server CPUs In A Liquid-Cooled, Wall-Mounted Box At $0 Upfront Cost</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/samsung-returns-record-80-billion-as-ai-chip-windfal-a267c057.html">Samsung Returns Record $80 Billion as AI Chip Windfall Rewrites Korean Corporate History - Tech Times</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/nvidia-built-its-avo-coding-agent-to-optimize-cuda-g-ef173a0b.html">NVIDIA Built Its AVO Coding Agent To Optimize CUDA GPU Kernels, And It Just Achieved A 100% Score On A Public Test Without Receiving Any Prior Instruction</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/memory-hp-warns-about-an-unprecedented-shortage-libn-4a1f3456.html">Memory: HP warns about an unprecedented shortage - libnanews.com</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/this-teamgroup-16gb-ddr5-6000-ram-kit-drops-to-215-i-c67c16bd.html">This TeamGroup 16GB DDR5-6000 RAM kit drops to $215 in a memory market where prices have tripled since last year - TechRadar</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/china-s-nand-specialist-ymtc-moves-closer-to-ipo-7abf45b9.html">China’s NAND Specialist YMTC Moves Closer to IPO</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="fab" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/lg-enters-chip-packaging-arena-with-laser-direct-ima-89fc6a85.html">LG enters chip packaging arena with Laser Direct Imaging machine, as TSMC's CoWoS remains constrained — maskless machine is designed to pattern fine interconnects, trading resolution for higher throughput</a><span class="r-tag">FAB</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/supermicro-fires-several-employees-following-investi-ae6b1e84.html">Supermicro fires several employees following investigation into $2.5 billion China AI chip smuggling — claims that senior management had no knowledge of illicit transactions</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/amd-confirms-radeon-rx-9050-4-gb-specifications-feat-5446b6b0.html">AMD Confirms Radeon RX 9050 4 GB Specifications; Features 64-Bit Memory Bus And Infinity Cache Reduced To 16 MB</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/high-bandwidth-memory-hbm-market-expected-to-achieve-14d813a3.html">High Bandwidth Memory (HBM) Market Expected to Achieve a Strong 68.1% CAGR, to Reach USD 223,030 Mn by 2032 - openPR.com</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="fab" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/micron-commits-10-billion-to-new-us-based-research-l-0d375f9e.html">Micron commits $10 billion to new US-based Research Labs — Boise hub to target post-DRAM and NAND technologies and packaging</a><span class="r-tag">FAB</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/nvidia-reportedly-locks-multi-year-dram-deals-with-s-19dd5559.html">NVIDIA Reportedly Locks Multi-Year DRAM Deals With SK hynix and Micron as Memory Shortage Stretches to 2028 - Wccftech</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/nvidia-reportedly-locks-multi-year-dram-deals-with-s-376de94a.html">NVIDIA Reportedly Locks Multi-Year DRAM Deals With SK hynix and Micron as Memory Shortage Stretches to 2028</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/h200-ai-gpus-finally-reach-china-under-case-by-case-de4d8438.html">H200 AI GPUs finally reach China under case-by-case import licenses, but it's already too late for Nvidia — homemade chips corner the China market as country seeks semiconductor independence</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/sandisk-s-new-2-200-nas-ssd-lets-you-fill-the-drive-2fb0deb4.html">Sandisk's new $2,200 NAS SSD lets you fill the drive every day for five years — 7.68TB M.2 flaunts eye-popping 14,000 TBW rating</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/playstation-6-handheld-can-t-hit-600-amd-leaker-warn-2f8c27e0.html">PlayStation 6 Handheld Can’t Hit $600, AMD Leaker Warns, As AI Datacenter Demand Devours LPDDR Memory</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/save-900-on-this-2-in-1-asus-rog-touchscreen-gaming-7a1c598a.html">Save $900 on this 2-in-1 Asus ROG touchscreen gaming laptop with 64GB RAM — the 14-inch Flow Z13 machine ships with a 16-core AMD Strix Halo CPU and a 1TB SSD, perfect for games and AI</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/samsung-unveils-80b-shareholder-return-amid-ai-chip-84edf7b9.html">Samsung unveils $80B shareholder return amid AI chip wars - The Tech Buzz</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/ddr5-scalper-bots-now-outnumber-shoppers-10-to-1-aut-f23a6442.html">DDR5 scalper bots now outnumber shoppers 10 to 1 — automated scraping hits listings every 6.5 seconds as 32GB kits surge from $72 to $392, DataDome researcher says</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/intel-prepares-panther-lake-arc-g3-with-4-xe3-gpu-co-ce985243.html">Intel Prepares &quot;Panther Lake&quot; Arc G3 with 4 Xe3 GPU Cores for Entry-Level Handhelds</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/amd-confirms-radeon-rx-9050-4-gb-has-smaller-infinit-b3ceedef.html">AMD Confirms Radeon RX 9050 4 GB Has Smaller Infinity Cache, Lower Memory Bandwidth</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/synopsys-rolls-out-first-complete-cxl-4-0-ip-for-ai-f16c71f3.html">Synopsys Rolls Out First Complete CXL 4.0 IP for AI Memory Connectivity - All About Circuits</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="demand" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/micron-s-10-billion-ai-memory-bet-what-it-means-for-4f59eb59.html">Micron’s $10 Billion AI Memory Bet: What It Means for MU Stock, HBM and AI Chips - MEXC</a><span class="r-tag">DEMAND</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/meta-innovates-by-reusing-ddr4-memory-in-ddr5-s-plua-fbbc4a51.html">Meta innovates by reusing DDR4 memory in DDR5 s... - Pluang</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/alibaba-cloud-plans-to-use-fewer-western-chips-to-bo-ddff71fe.html">Alibaba Cloud plans to use fewer Western chips, to boost its already huge AI margins</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="supply" data-pick="0">
+      <span class="r-date">2026-08-21</span>
+      <a href="/stories/sk-hynix-weighs-memory-chip-plant-in-japan-s-miyagi-5329563d.html">SK Hynix Weighs Memory Chip Plant in Japan's Miyagi Prefecture — First for a South Korean Company - finance.biggo.com</a><span class="r-tag">SUPPLY</span>
+    </div><div class="row" data-tag="fab" data-pick="0">
+      <span class="r-date">2026-08-20</span>
+      <a href="/stories/sk-hynix-joins-forces-with-tsmc-can-it-dominate-cust-c0f417c8.html">SK Hynix Joins Forces With TSMC, Can It Dominate Customized AI Memory Market? - TradingKey</a><span class="r-tag">FAB</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-12</span>
+      <a href="/stories/sandisk-jumps-14-western-digital-climbs-6-as-memory-a6e599de.html">SanDisk Jumps 14%, Western Digital Climbs 6% as Memory Stocks Rebound on SK Hynix’s Capacity Plan</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="earnings" data-pick="1">
+      <span class="r-date">2026-06-12</span>
+      <a href="/stories/micron-q3-fy2026-guidance-ddr5-asp-up-40-qoq-capacit-c6ff9c7b.html">Micron Q3 FY2026 guidance: DDR5 ASP up 40% QoQ; capacity allocation shifting further to HBM3E</a><span class="r-tag">EARNINGS</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/chip-slump-erases-1-3-trillion-in-stock-market-value-7f988c9f.html">Chip slump erases $1.3 trillion in stock market value | Reuters</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/new-intel-supported-memory-design-packs-nine-vertica-0bcd73e5.html">New Intel-supported memory design packs nine vertical layers</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/samsung-shifts-focus-from-hbm-to-ddr5-modules-ddr5-r-1f7423c0.html">Samsung shifts focus from HBM to DDR5 modules: DDR5 RAM results in FAR more profits than HBM</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/ai-memory-is-sold-out-causing-an-unprecedented-surge-908cc963.html">AI memory is sold out, causing an unprecedented surge in prices</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/the-high-bandwidth-memory-hbm-bottleneck-can-still-c-5389bb32.html">The High-Bandwidth Memory (HBM) Bottleneck Can Still Cause Micron's Stock to Soar | The Motley Fool</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/how-far-can-chinese-hbm-go-cbe0ce6b.html">How Far Can Chinese HBM Go?</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/samsung-shows-first-hbm5-mockup-with-heat-path-block-31f4fc54.html">Samsung shows first HBM5 mockup with Heat Path Block cooling — thermal race with SK hynix shaping up</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/ram-raid-profit-frenzy-sees-micron-sk-hynix-hit-1t-m-61b3273e.html">RAM-raid profit frenzy sees Micron, SK Hynix hit $1T market caps</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/a-45-000-person-labor-strike-at-samsung-s-memory-chi-37ec5f6b.html">A 45,000-person labor strike at Samsung's memory chip plants could throw a wrench into the AI boom | Fortune</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/ram-prices-2026-buy-now-or-wait-as-gartner-forecasts-10f4155c.html">RAM Prices 2026: Buy Now or Wait as Gartner Forecasts 130% Memory Cost Surge</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/micron-mu-vs-sandisk-sndk-pure-play-memory-stocks-co-a39934be.html">Micron (MU) vs Sandisk (SNDK): Pure-Play Memory Stocks Compared for 2026</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/is-ai-s-high-bandwidth-memory-crunch-about-to-hit-yo-94a67404.html">Is AI’s High Bandwidth Memory Crunch About to Hit Your Wallet?</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/sk-hynix-is-embedding-cooling-into-hbm-memory-to-sto-2d3d2f9a.html">SK Hynix is embedding cooling into HBM memory to stop AI chips from overheating</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/harvard-s-chip-expert-has-a-warning-for-ai-memory-in-d6d6caab.html">Harvard's chip expert has a warning for AI memory investors: 'This too will pass' | Fortune</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/ram-is-reportedly-back-in-production-but-it-still-wo-a9bc5d4b.html">RAM Is Reportedly Back In Production — But It Still Won't Be Enough</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/beyond-hbm-the-flash-memory-technology-that-could-re-9d0f3e60.html">Beyond HBM: The flash memory technology that could reshape AI infrastructure</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/intel-prepares-hbm-killer-hb3dm-memory-stacks-with-z-8d01f038.html">Intel Prepares HBM Killer: HB3DM Memory Stacks with Z-Angle Technology</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/sk-hynix-builds-innovative-cooling-solution-inside-a-6063fda2.html">SK hynix builds innovative cooling solution inside a 3D stacked memory chip</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="fab" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/sk-hynix-to-double-wafer-capacity-amid-ai-memory-sho-bb86cf5a.html">SK Hynix to double wafer capacity amid AI memory shortage</a><span class="r-tag">FAB</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="fab" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/ddr5-ram-hits-375-floor-for-pc-builders-hbm-takes-th-b75794f8.html">DDR5 RAM Hits $375 Floor for PC Builders: HBM Takes Three Times More Wafers</a><span class="r-tag">FAB</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/amd-s-plan-to-fix-ram-costs-bring-back-bygone-cpus-a329f648.html">AMD’s Plan to Fix RAM Costs: Bring Back Bygone CPUs</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-07</span>
+      <a href="/stories/lexar-regional-manager-says-that-ram-prices-are-expe-6fdbfa99.html">Lexar regional manager says that RAM prices are expected to double by the end of the year — 'discounts' and stabilized prices result from distributors getting rid of old stock or sourcing products from other regions</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-06</span>
+      <a href="/stories/is-dram-at-a-permanently-higher-plateau-asia-times-215d1a55.html">Is DRAM at a permanently higher plateau? - Asia Times</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-06</span>
+      <a href="/stories/how-a-nudge-from-nvidia-propelled-micron-to-a-1-tril-250169d8.html">How a nudge from Nvidia propelled Micron to a $1-trillion market cap - The Globe and Mail</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-06</span>
+      <a href="/stories/nvidia-ceo-says-ai-s-future-isn-t-just-copper-global-9ebe37db.html">NVIDIA CEO Says AI's Future Isn't Just Copper - Global X Copper Miners ETF (ARCA:COPX), Marvell Technolog - Benzinga</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-06</span>
+      <a href="/stories/micron-and-sk-hynix-cross-1-trillion-valuations-as-c-fb419c49.html">Micron and SK Hynix Cross $1 Trillion Valuations as Chip Shortage Fuels AI Boom - 24/7 Wall St.</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-06</span>
+      <a href="/stories/sk-hynix-tells-investors-its-us-listing-plan-wins-th-4a217a55.html">SK Hynix tells investors its US listing plan wins their strong backing — Reuters</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-06</span>
+      <a href="/stories/please-make-more-jensen-huang-sends-another-signal-t-407bd6c0.html">&quot;Please Make More&quot;... Jensen Huang Sends Another Signal to SK hynix HBM with Signature (Comprehensive) - The Asia Business Daily</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-06</span>
+      <a href="/stories/nand-flash-makers-earned-a-record-46-billion-in-reve-bcc3e4f0.html">NAND flash makers earned a record $46 billion in revenues over the first quarter of 2026, a shocking 3.5 times more than last year | PC Gamer</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-06</span>
+      <a href="/stories/silicon-motion-increases-sales-of-ssd-controllers-am-7c0d803f.html">Silicon Motion increases sales of SSD controllers amid NAND shortage, but expects NAND shortages to get worse in 2027 — 'supply conditions will become even worse' | Tom's Hardware</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-06</span>
+      <a href="/stories/sk-hynix-ascends-as-new-memory-king-with-high-bandwi-83edf21c.html">SK Hynix ascends as new memory king with high-bandwidth AI chips - Nikkei Asia</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-06</span>
+      <a href="/stories/news-sk-hynix-reportedly-to-double-dram-capacity-to-b07b550c.html">[News] SK hynix Reportedly to Double DRAM Capacity to 1M Monthly Wafers by 2030, Speeds Yongin Expansion</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-06-06</span>
+      <a href="/stories/building-semiconductor-chips-in-india-is-no-longer-t-94ac0db9.html">Building Semiconductor Chips In India Is No Longer The Hard Part — It Is Building The Ecosystem Around Them</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="demand" data-pick="1">
+      <span class="r-date">2026-06-04</span>
+      <a href="/stories/nvidia-blackwell-gb200-nvl72-rack-demand-acceleratin-dbf28ce9.html">Nvidia Blackwell GB200 NVL72 rack demand accelerating; SK Hynix locked into HBM3E supply through Q4</a><span class="r-tag">DEMAND</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="fab" data-pick="1">
+      <span class="r-date">2026-05-15</span>
+      <a href="/stories/samsung-delays-1c-nm-dram-ramp-by-2-quarters-citing-8eff68bc.html">Samsung delays 1c-nm DRAM ramp by 2 quarters citing yield challenges at Pyeongtaek P4 fab</a><span class="r-tag">FAB</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-04-28</span>
+      <a href="/stories/making-ram-at-home-c3ecc585.html">Making RAM at Home</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-04-22</span>
+      <a href="/stories/mind-the-gap-the-semiconductor-industry-is-relying-o-d2f672ca.html">Mind the gap! The semiconductor industry is relying on the wrong materials</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="fab" data-pick="1">
+      <span class="r-date">2026-04-22</span>
+      <a href="/stories/enthusiast-builds-his-own-ram-in-garden-shed-cleanro-e429dbc1.html">Enthusiast builds his own RAM in garden shed cleanroom — fledgling array of memory cells groundwork for much larger future project | Tom's Hardware</a><span class="r-tag">FAB</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-04-20</span>
+      <a href="/stories/a-guide-to-understanding-gpus-and-maximizing-gpu-uti-ba945bdb.html">A Guide to Understanding GPUs and Maximizing GPU Utilization | Towards Data Science</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-04-20</span>
+      <a href="/stories/cerebras-an-a-i-chip-maker-files-to-go-public-as-tec-f751a304.html">Cerebras, an A.I. Chip Maker, Files to Go Public as Tech Offerings Ramp Up - The New York Times</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-04-18</span>
+      <a href="/stories/pc-dram-spot-prices-hit-7-year-high-module-prices-up-d984d0dd.html">PC DRAM spot prices hit 7-year high; module prices up 180% from October 2024 lows</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-04-08</span>
+      <a href="/stories/modern-dram-is-based-on-a-brilliant-design-from-ibm-cdb51c5f.html">Modern DRAM is based on a brilliant design from IBM. But, we're still paying for a latency penalty that's existed since the 60s! In this video, I'm introducing my personal research project… | Laurie Kirk | 25 comments</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-03-29</span>
+      <a href="/stories/new-cambridge-human-brain-inspired-chip-could-slash-00b3071e.html">New Cambridge human brain-inspired chip could slash AI energy use — new type of memristor has roughly a million times lower switching current than conventional devices | Tom's Hardware</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-03-27</span>
+      <a href="/stories/black-semiconductor-integrated-graphene-photonics-te-f3feb844.html">Black Semiconductor Integrated Graphene Photonics™ Technology</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-03-16</span>
+      <a href="/stories/making-software-how-is-data-stored-8845105a.html">Making Software: How is data stored?</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-03-05</span>
+      <a href="/stories/inverse-designed-nanophotonic-neural-network-acceler-7ea84d19.html">Inverse-designed nanophotonic neural network accelerators for ultra-compact optical computing | Nature Communications</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-03-03</span>
+      <a href="/stories/john-carmack-muses-using-a-long-fiber-line-as-an-l2-667845b5.html">John Carmack muses using a long fiber line as an L2 cache for streaming AI data — programmer imagines fiber as alternative to DRAM</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-03-01</span>
+      <a href="/stories/the-ram-crisis-keeps-getting-worse-c88e2446.html">The RAM Crisis Keeps Getting Worse</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-01-31</span>
+      <a href="/stories/tower-semiconductor-surges-to-15-billion-valuation-t-a56f0ba5.html">Tower Semiconductor surges to $15 billion valuation, tripling Intel’s abandoned bid | Ctech</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-01-26</span>
+      <a href="/stories/georgia-tech-researchers-create-first-functional-gra-f1f186f5.html">Georgia Tech Researchers Create First Functional Graphene Semiconductor</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2026-01-25</span>
+      <a href="/stories/chinese-scientists-shrink-semiconductor-chip-into-fi-a711d484.html">Chinese scientists shrink semiconductor chip into fibre as thin as human hair</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2025-11-03</span>
+      <a href="/stories/adeia-sues-amd-for-patent-infringement-over-semicond-4998c5ea.html">Adeia sues AMD for patent infringement over semiconductor technology | Reuters</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2025-10-19</span>
+      <a href="/stories/3d-nand-the-most-scalable-semiconductor-1d7f4ebd.html">3D NAND: The Most Scalable Semiconductor</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2025-10-17</span>
+      <a href="/stories/scientists-smash-record-in-stacking-semiconductor-tr-d176775a.html">Scientists smash record in stacking semiconductor transistors for large-area electronics</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2025-09-26</span>
+      <a href="/stories/what-does-semiconductor-disruption-look-like-1d498fbe.html">What Does Semiconductor Disruption Look Like?</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2025-09-08</span>
+      <a href="/stories/semiconductor-industry-overview-types-of-semiconduct-31191833.html">Semiconductor Industry Overview - Types of Semiconductor Products</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2025-08-01</span>
+      <a href="/stories/female-founded-semiconductor-ai-startup-sixsense-rai-c7511dab.html">Female-founded semiconductor AI startup SixSense raises $8.5M | TechCrunch</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2025-07-28</span>
+      <a href="/stories/semiconductor-ev-autonomy-testing-becomes-more-effic-f6eaea56.html">Semiconductor, EV autonomy testing becomes more efficient with Nigel AI</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2025-07-13</span>
+      <a href="/stories/unexpected-chip-deal-may-reshape-the-semiconductor-m-baf58309.html">Unexpected chip deal may reshape the semiconductor market - TheStreet</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2025-07-05</span>
+      <a href="/stories/world-s-first-semiconductor-made-by-quantum-tech-stu-63f00ab1.html">World’s first semiconductor made by quantum tech stuns chip industry</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2024-09-09</span>
+      <a href="/stories/new-rambo-attack-steals-data-using-ram-in-air-gapped-b1b2f509.html">New RAMBO attack steals data using RAM in air-gapped computers</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2024-06-06</span>
+      <a href="/stories/semiconductor-manufacturing-process-explained-all-ab-3df147c5.html">‘Semiconductor Manufacturing Process’ Explained | 'All About Semiconductor' by Samsung Semiconductor</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div><div class="row" data-tag="supply" data-pick="1">
+      <span class="r-date">2024-06-06</span>
+      <a href="/stories/inside-micron-taiwan-s-semiconductor-factory-taiwan-c367dea8.html">Inside Micron Taiwan’s Semiconductor Factory | Taiwan’s Mega Factories EP1</a><span class="r-tag">SUPPLY</span> <span class="tag pick">★</span>
+    </div></div>
+</div>
+<script>
+(function(){
+  const chips = document.querySelectorAll('.chip');
+  const rows = [...document.querySelectorAll('.row')];
+  const count = document.getElementById('count');
+  let filter = 'all';
+  chips.forEach(c=>c.addEventListener('click',()=>{
+    filter = c.dataset.filter;
+    chips.forEach(x=>x.classList.toggle('active', x===c));
+    const shown = rows.filter(r=> filter==='all' ? true : filter==='pick' ? r.dataset.pick==='1' : r.dataset.tag===filter);
+    rows.forEach(r=>r.style.display='none');
+    shown.forEach(r=>r.style.display='flex');
+    count.textContent = shown.length + ' note' + (shown.length===1?'':'s');
+  }));
+})();
+</script>
+</body>
+</html>

@@ -216,7 +216,7 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 .strip-chart canvas{display:block;width:100%;height:120px;}
 
 .strip-regime{
-  display:grid;grid-template-rows:1fr 1fr 1fr;
+  display:grid;grid-template-rows:1fr 1fr 1fr 1fr;
   font-family:var(--mono);
 }
 .sr-row{
@@ -970,6 +970,8 @@ audio{
   .rc-stat:nth-child(2n){border-right:none;}
 }
 </style>
+<link rel="alternate" type="text/markdown" title="Markdown version" href="/index.md">
+<link rel="describedby" type="text/markdown" title="llms.txt — LLM index" href="/llms.txt">
 </head>
 <body>
 <div id="fi-toast">Tip: filter by tag above, or <span>★ PICK</span> for editorial picks</div>
@@ -1077,6 +1079,10 @@ audio{
       <div class="sr-row">
         <span class="sr-key">HBM Weight ω</span>
         <span class="sr-val" id="sr-omega" style="color:var(--sub)">0.42</span>
+      </div>
+      <div class="sr-row">
+        <span class="sr-key" id="sr-days-key">RAMageddon</span>
+        <span class="sr-val" id="sr-days" style="color:var(--ram)">Day 330</span>
       </div>
     </div>
   </div>
@@ -1388,7 +1394,7 @@ audio{
   <div class="sh">
     <span class="sh-title">Signal Feed</span>
     <div class="sh-rule"></div>
-    <span class="sh-meta">Curated events relevant to the RAM cycle · editorially annotated<span id="feed-updated"></span></span>
+    <span class="sh-meta">Curated events relevant to the RAM cycle · editorially annotated<span id="feed-updated"></span><span> · <a href="/briefing/index.html" style="color:var(--ram);">Briefing</a> · <a href="/stories/index.html" style="color:var(--ram);">Stories</a></span></span>
   </div>
   <div class="feed-tree-strip">
     <feed-tree id="feed-tree-main" src="/feed.xml" max-terms="8" style="display:block;width:100%;height:100%;"></feed-tree>
@@ -1941,6 +1947,7 @@ async function loadFeed(){
     container.innerHTML = entries.map(e=>{
       const title   = e.querySelector('title')?.textContent || '';
       const url     = e.querySelector('link')?.getAttribute('href') || '#';
+      const story   = e.querySelector('link[rel="related"]')?.getAttribute('href') || '';
       const rawSummary = e.querySelector('summary')?.textContent || '';
       const riSplit = rawSummary.indexOf(' RI implication: ');
       const dirtyExcerpt = riSplit >= 0 ? rawSummary.slice(0, riSplit) : rawSummary;
@@ -1970,9 +1977,9 @@ async function loadFeed(){
           <span class="fi-tag ${tag.cls}">${tag.label}</span>
           ${isPick?'<span class="fi-tag pick-chip" style="color:var(--ram);border:1px solid rgba(232,164,40,0.3)">★ PICK</span>':''}
         </div>
-        <a href="${url}" target="_blank" rel="noopener" class="fi-hl fi-link">${title}</a>
+        <a href="${story || url}" ${story?'':'target="_blank" rel="noopener"'} class="fi-hl fi-link">${title}</a>
         ${summary?`<div class="fi-ann">${summary}</div>`:''}
-        <div class="fi-src">${author}</div>
+        <div class="fi-src">${author}${story?` · <a href="${url}" target="_blank" rel="noopener" style="color:var(--dim);">source ↗</a>`:''}</div>
       </div>`;
     }).join('');
     if(window._feedFilterHook) window._feedFilterHook();
@@ -2202,7 +2209,11 @@ document.querySelectorAll('.ln-item').forEach((item,i)=>{
 
 async function loadRiData(){
   try{
-    const r = await fetch('data/ri.json?_='+Date.now());
+    const [r, set] = await Promise.all([
+      fetch('data/ri.json?_='+Date.now()),
+      fetch('data/settings.json?_='+Date.now()).catch(()=>null),
+    ]);
+    if(set && set.ok) applySettings(await set.json());
     if(!r.ok) throw new Error(r.status);
     const d = await r.json();
     RI = d.annual.map(x=>({y:x.y, v:x.v, rc:x.rc, rai:x.rai, r:x.recession}));
@@ -2210,6 +2221,29 @@ async function loadRiData(){
     const idx = [...document.querySelectorAll('.ln-item')].findIndex(x=>x.classList.contains('active'));
     if(idx>=0) renderLearn(idx);
   }catch{ /* keep hardcoded fallback */ }
+}
+
+function applySettings(set){
+  // Day-N-of-RAMageddon counter (start date in settings.json)
+  if(set.ramageddonStart){
+    const start = new Date(set.ramageddonStart + 'T00:00:00Z');
+    const n = Math.max(1, Math.floor((Date.now() - start) / 86400000) + 1);
+    const el = document.getElementById('sr-days');
+    if(el) el.textContent = 'Day ' + n;
+  }
+  // Newsletter: real form when a provider URL is configured; RSS fallback otherwise
+  const sub = document.querySelector('.subscribe-block');
+  if(sub && set.newsletterUrl){
+    const row = sub.querySelector('.subscribe-row');
+    if(row){
+      row.innerHTML = '<form action="'+set.newsletterUrl+'" method="post" target="_blank" rel="noopener" style="display:flex;gap:6px;width:100%;">'
+        + '<input class="subscribe-input" type="email" name="email" placeholder="your@email.com" required style="flex:1;background:var(--bg);border:1px solid var(--line2);color:var(--text);font-family:var(--mono);font-size:10px;padding:6px 8px;outline:none;">'
+        + '<button class="subscribe-btn" type="submit" style="font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:6px 12px;border:1px solid var(--ram);color:var(--ram);background:transparent;cursor:pointer;">Subscribe</button>'
+        + '</form>';
+      const hint = sub.querySelector('.subscribe-rss');
+      if(hint) hint.innerHTML = '<span>'+ (set.newsletterLabel || 'Weekly digest') +'</span>';
+    }
+  }
 }
 
 function applyHeadline(h){
