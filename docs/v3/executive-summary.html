@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Ramification Index v3 — Self-Audit Executive Summary — RAM Monitor</title>
+<meta name="description" content="Ramification Index v3 — Self-Audit Executive Summary">
+<link rel="alternate" type="text/markdown" title="Markdown version" href="/v3/executive-summary.md">
+<style>
+  :root {
+    --bg: #0b0c10; --panel: #141620; --panel2: #1a1d28;
+    --border: #20232d; --border2: #2a2f3e;
+    --text: #c9d3e8; --muted: #8a8f9b; --white: #fff;
+    --ram: #ffb347; --hbm: #00d4aa; --red: #f87171; --green: #4ade80;
+    --radius: 6px; --max: 760px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.7; font-size: 16px;
+  }
+  header {
+    padding: 16px 24px; border-bottom: 1px solid var(--border);
+    background: var(--panel); display: flex; align-items: center; justify-content: space-between;
+    gap: 12px; flex-wrap: wrap; position: sticky; top: 0; z-index: 5;
+  }
+  .h-pill {
+    font-size: 11px; font-weight: 600; padding: 5px 13px; border-radius: 99px;
+    text-decoration: none; border: 1px solid var(--border2); color: var(--muted);
+    font-family: ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: 0.02em;
+    transition: all .15s; white-space: nowrap;
+  }
+  .h-pill:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
+  .h-tag { font-size: 11px; color: var(--muted); font-family: ui-monospace, monospace; letter-spacing: .04em; }
+  main { max-width: var(--max); margin: 0 auto; padding: 48px 24px 90px; }
+  .doc-title { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; color: var(--white); margin: 0 0 10px; line-height: 1.2; }
+  .doc-subtitle { font-size: 0.95rem; color: var(--muted); line-height: 1.6; margin: 0 0 6px; }
+  .doc-subtitle em { color: var(--text); }
+  .doc-byline { font-size: 0.82rem; color: var(--ram); font-family: ui-monospace, monospace; margin: 18px 0 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  main h2 { font-size: 1.4rem; font-weight: 700; color: var(--white); margin: 2.6em 0 0.7em; letter-spacing: -0.01em; }
+  main h3 { font-size: 1.12rem; font-weight: 700; color: var(--text); margin: 2em 0 0.6em; }
+  main p { margin: 0 0 1.15em; }
+  main ul, main ol { margin: 0 0 1.15em; padding-left: 1.4em; }
+  main li { margin-bottom: 0.4em; }
+  main li > p { margin-bottom: 0.4em; }
+  main a { color: var(--hbm); text-decoration: none; border-bottom: 1px solid rgba(0,212,170,0.3); }
+  main a:hover { border-bottom-color: var(--hbm); }
+  main strong { color: var(--white); font-weight: 700; }
+  main em { color: var(--text); }
+  main blockquote {
+    margin: 1.6em 0; padding: 0.2em 1.2em; border-left: 3px solid var(--ram);
+    background: rgba(255,179,71,0.05); color: var(--text); font-style: italic;
+  }
+  main blockquote p:last-child { margin-bottom: 0; }
+  main code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.87em;
+    background: var(--panel2); border: 1px solid var(--border2); border-radius: 4px; padding: 0.15em 0.4em;
+  }
+  main pre {
+    background: var(--panel2); border: 1px solid var(--border2); border-radius: var(--radius);
+    padding: 14px 16px; overflow-x: auto; margin: 1.5em 0;
+  }
+  main pre code { background: none; border: none; padding: 0; font-size: 0.85em; line-height: 1.55; }
+  main table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 0.88rem; display: block; overflow-x: auto; }
+  main th, main td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+  main thead th { color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; background: var(--panel2); }
+  main hr { border: none; border-top: 1px solid var(--border); margin: 2.4em 0; }
+  main img { max-width: 100%; border-radius: var(--radius); }
+  footer { text-align: center; padding: 20px; font-size: 11px; color: var(--muted); border-top: 1px solid var(--border); }
+  footer a { color: var(--hbm); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  @media (max-width: 600px) { main { padding: 32px 18px 70px; } .doc-title { font-size: 1.5rem; } }
+</style>
+</head>
+<body>
+<header>
+  <a class="h-pill" href="../index.html">← RAM Monitor</a>
+  <span class="h-tag">v3 self-audit</span>
+</header>
+<main>
+  <h1 class="doc-title">Ramification Index v3 — Self-Audit Executive Summary</h1>
+  <p class="doc-subtitle">Paper under audit — Wakil, K. <em>The Ramification Index v3 (2026)</em> · SSRN #6726483 · Full audit at V3-METHODS.md</p>
+  <div class="doc-byline">Khayyam Wakil · Director, Knowware Institute · August 2026</div>
+  <h2>What this is</h2>
+<p>A self-audit of my own Ramification Index v3 paper, run using an 8-guard hostile-testing harness ported from an adjacent agricultural-indicator study (<code>ag-ram-index</code>) that killed four of my <em>publishable-looking</em> results by adding one more guard each time. Every figure in the full audit traces to <code>analysis/out/FACTS.txt</code>, verbatim run output pinned by 20 regression tests. This document sits alongside the paper, not in place of it.</p>
+<h2>Headline finding #1 — the annual panel is UNDERPOWERED, not refuted</h2>
+<p>The published annual panel is n = 46 across three lags. The minimum partial correlation the panel can detect at 80% power under a Bonferroni-corrected α = 0.0167 is <strong>0.508</strong> — larger than almost any published macroeconomic leading indicator. Under this power constraint, the audit re-scores the RI as:</p>
+<ul>
+<li><strong>Guards 2 &amp; 3 pass cleanly.</strong> Reverse p = 0.499; forward/reverse F ratio = 5.78, well above the 2.0 dominance threshold. Direction is unambiguous.</li>
+<li><strong>Guard 5 passes</strong> — and this is the guard v2 never ran. Adding the contemporaneous term retains <strong>98.9%</strong> of the F statistic (4.094 → 4.050). Whatever RI measures, it is <em>anticipation</em>, not persistence proxying for same-period co-movement.</li>
+<li><strong>Guard 1 fails narrowly.</strong> p = 0.0243 against α = 0.0167.</li>
+</ul>
+<p><strong>The honest label is UNTESTABLE, not NO LEAD.</strong> A test with no power cannot reject anything. The correct verdict on the published annual panel is the same one the ag study applied to cartel-administered potash prices — an absence of a test, not a null. Monthly frequency would drop the detection floor from 0.508 to <strong>0.192</strong>; the binding constraint is data acquisition.</p>
+<h2>Headline finding #2 — the public monthly proxy is not measuring DRAM</h2>
+<p>Guard 7 (independent-source substitution check) fires on the monthly track:</p>
+<table>
+<thead>
+<tr>
+<th>Pair</th>
+<th>n</th>
+<th>r</th>
+<th>Same good?</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Public semi PPI vs the paper&#39;s own DRAM ASP</td>
+<td>46</td>
+<td><strong>0.186</strong></td>
+<td><strong>No</strong></td>
+</tr>
+<tr>
+<td>Semi PPI vs broader component-industry PPI</td>
+<td>498</td>
+<td>0.655</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Semi PPI vs storage-device PPI</td>
+<td>402</td>
+<td>−0.024</td>
+<td>No</td>
+</tr>
+</tbody></table>
+<p>The public semiconductor PPI and the Ramification Index do not move together. Every monthly result run on the public proxy is a statement about the semiconductor price complex <em>and not about DRAM ASP</em>. The McCallum archive was recovered from the Internet Archive and RI-M was built from it, correctly (point-in-time by proof, gap-aware, vintage-stamped) — but 21.6% of months carry unchanged values and the series correlates 0.133 with the import price index at monthly frequency. RI-M&#39;s null is uninformative in exactly the sense Guard 6 was written for: <strong>the honest verdict is UNTESTABLE, not NO LEAD.</strong></p>
+<h2>The theoretical payoff — a scope condition, not a case claim</h2>
+<p>The most useful non-statistical output of the audit is a <em>mechanism with a boundary</em>:</p>
+<blockquote>
+<p>DRAM leads because memory is bought by a few hundred capacity-planning firms ahead of deploying compute, so the purchase <em>is</em> a forward expectation expressed as a price. Agricultural inputs are bought by ~2M atomized price-takers on an agronomic calendar, funded by last season&#39;s cash — no agent expresses a forward expectation as a price, so the failure is structural.</p>
+</blockquote>
+<p>This converts RI from <em>&quot;DRAM happens to work&quot;</em> into a <strong>class of indicator with a testable scope condition</strong>:</p>
+<blockquote>
+<p><strong>Concentrated buyers + discretionary forward commitment + fast, elastic, private-market price.</strong></p>
+</blockquote>
+<p>Agriculture becomes a tested-and-failed <em>boundary case</em> rather than an unexamined gap. Farm machinery — financed capex, the closest structural analogue to DRAM — leads nothing either, sharpening the condition to <em>concentration</em> rather than merely <em>capex</em>. Neither the broad semiconductor price complex (§5) nor semiconductor output (§8) satisfies it. Whatever RI is measuring, <strong>it is narrower than &quot;semiconductors&quot;</strong>, and v3 has to say so.</p>
+<p>This is the strongest thing to import, and it costs no new data.</p>
+<hr>
+<h1>Data-integrity findings (published series)</h1>
+<p>Two findings on the RI series itself, discovered during the audit:</p>
+<ol>
+<li><p><strong>Provenance overstatement in v2&#39;s README.</strong> v1 documents the series as <em>&quot;mid-year average retail for a typical mainstream module, <strong>rounded</strong>&quot;</em> blended from McCallum + hblok.net + TrendForce. v2&#39;s README describes it as <em>&quot;McCallum archive chain-linked to TrendForce DDR4 contract ASP&quot;</em> — cleaner but not accurate. Correction issued in the audit; the r = 0.597 gap against the archive is documentation drift, not error.</p>
+</li>
+<li><p><strong>The 1988 RAM drought is missing from the published index.</strong> v1&#39;s own §3 event table records 1988 as <em>&quot;The Year of the RAM Drought … Prices spiked ~60% YoY&quot;</em>, and the monthly archive shows $153/MB → $199/MB (March 1988) → $505/MB (July 1988). The published price table shows a <em>monotone decline</em> straight through. v2&#39;s central new claim — RAMageddon as <em>&quot;a supply-side divergence regime without historical precedent&quot;</em> — cannot be evaluated until 1988 is right, because the nearest historical precedent (post-dumping capacity-underinvestment shortage) is not in the series.</p>
+</li>
+</ol>
+<p><strong>Additional finding:</strong> comparing v1&#39;s and v2&#39;s panels reveals that <strong>only the 2026 row changed</strong> between versions — by +86.9% ($0.0052 → $0.0097/MB). Every other year byte-identical. The forecast row is live and moving between versions, which is a Guard 4 (no-look-ahead) issue.</p>
+<h1>What v3 needs, in order (the fix list)</h1>
+<ol>
+<li><strong>Acquire a monthly DRAM ASP series</strong> (TrendForce or Counterpoint contract+spot). The binding constraint on everything else.</li>
+<li><strong>Re-run the battery on it.</strong> The harness is built and waiting.</li>
+<li><strong>Publish the estimation code and the ASP series</strong> so the headline Granger result is reproducible.</li>
+<li><strong>Correlate the vendors&#39; ASP series against each other</strong>, not just against GDP (that&#39;s Guard 7).</li>
+<li><strong>Run Guard 5 on the actual v2 quarterly specification.</strong> It passes on the annual panel at 98.9% F retained — a real, reportable result.</li>
+<li><strong>Audit <code>hbm_weight</code> and the 2018 chain-link</strong> for point-in-time construction.</li>
+<li><strong>Add a vintage column</strong> to <code>indices-wide.csv</code>; mark 2026 provisional.</li>
+<li><strong>Replace the NAND placebo</strong> with one that fails the mechanism (passive components work; already in the battery).</li>
+<li><strong>Downgrade the bifurcated index (ram_commodity_R + ram_ai_R) to descriptive</strong>, or rebuild it quarterly. Currently n = 3 rows, one of which is a forecast — no inferential statistic is estimable.</li>
+<li><strong>Write the scope condition into the theory section.</strong></li>
+</ol>
+<p>Guards 1–3 v2 already passes, and leading with that is fair — provided 4–8 are run rather than asserted.</p>
+<h1>What v2 passes cleanly (kept and stated)</h1>
+<p>Worth leading with, because it is genuinely uncommon:</p>
+<ol>
+<li><strong>Reverse-direction testing</strong> — v2 reports GDP → R (F = 2.14, p = 0.121). Most lead-lag claims never run it.</li>
+<li><strong>F-dominance ratio</strong> — 5.83 / 2.14 = <strong>2.72</strong>, above the 2.0 threshold. Stronger and more honest than &quot;reverse was insignificant.&quot;</li>
+<li><strong>Lag-order robustness</strong> across p ∈ {1, 2, 3, 4} and Toda–Yamamoto.</li>
+<li><strong>Having a placebo at all</strong> — the ag study had none. The specific placebo needs replacing; the practice does not.</li>
+</ol>
+<hr>
+<p><strong>Full audit:</strong> the 12-section technical version is at <code>bifurcation-memory-index/V3-METHODS.md</code>, with all figures traceable to verbatim run output in <code>analysis/out/FACTS.txt</code>, and 20 regression tests pinning the guards in <code>analysis/tests/</code>.</p>
+
+</main>
+<footer>
+  Khayyam Wakil &nbsp;·&nbsp; Knowware Institute &nbsp;·&nbsp;
+  <a href="../index.html">RAM Monitor</a> &nbsp;·&nbsp; <a href="../paper.html">Paper</a> &nbsp;·&nbsp;
+  <a href="https://github.com/fromknowware/bifurcation-memory-index">GitHub</a>
+</footer>
+</body>
+</html>

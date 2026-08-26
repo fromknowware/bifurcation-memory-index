@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>v3 methods — the ag-ram-index harness, ported and run — RAM Monitor</title>
+<meta name="description" content="v3 methods — the ag-ram-index harness, ported and run">
+<link rel="alternate" type="text/markdown" title="Markdown version" href="/v3/methods.md">
+<style>
+  :root {
+    --bg: #0b0c10; --panel: #141620; --panel2: #1a1d28;
+    --border: #20232d; --border2: #2a2f3e;
+    --text: #c9d3e8; --muted: #8a8f9b; --white: #fff;
+    --ram: #ffb347; --hbm: #00d4aa; --red: #f87171; --green: #4ade80;
+    --radius: 6px; --max: 760px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.7; font-size: 16px;
+  }
+  header {
+    padding: 16px 24px; border-bottom: 1px solid var(--border);
+    background: var(--panel); display: flex; align-items: center; justify-content: space-between;
+    gap: 12px; flex-wrap: wrap; position: sticky; top: 0; z-index: 5;
+  }
+  .h-pill {
+    font-size: 11px; font-weight: 600; padding: 5px 13px; border-radius: 99px;
+    text-decoration: none; border: 1px solid var(--border2); color: var(--muted);
+    font-family: ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: 0.02em;
+    transition: all .15s; white-space: nowrap;
+  }
+  .h-pill:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
+  .h-tag { font-size: 11px; color: var(--muted); font-family: ui-monospace, monospace; letter-spacing: .04em; }
+  main { max-width: var(--max); margin: 0 auto; padding: 48px 24px 90px; }
+  .doc-title { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; color: var(--white); margin: 0 0 10px; line-height: 1.2; }
+  .doc-subtitle { font-size: 0.95rem; color: var(--muted); line-height: 1.6; margin: 0 0 6px; }
+  .doc-subtitle em { color: var(--text); }
+  .doc-byline { font-size: 0.82rem; color: var(--ram); font-family: ui-monospace, monospace; margin: 18px 0 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  main h2 { font-size: 1.4rem; font-weight: 700; color: var(--white); margin: 2.6em 0 0.7em; letter-spacing: -0.01em; }
+  main h3 { font-size: 1.12rem; font-weight: 700; color: var(--text); margin: 2em 0 0.6em; }
+  main p { margin: 0 0 1.15em; }
+  main ul, main ol { margin: 0 0 1.15em; padding-left: 1.4em; }
+  main li { margin-bottom: 0.4em; }
+  main li > p { margin-bottom: 0.4em; }
+  main a { color: var(--hbm); text-decoration: none; border-bottom: 1px solid rgba(0,212,170,0.3); }
+  main a:hover { border-bottom-color: var(--hbm); }
+  main strong { color: var(--white); font-weight: 700; }
+  main em { color: var(--text); }
+  main blockquote {
+    margin: 1.6em 0; padding: 0.2em 1.2em; border-left: 3px solid var(--ram);
+    background: rgba(255,179,71,0.05); color: var(--text); font-style: italic;
+  }
+  main blockquote p:last-child { margin-bottom: 0; }
+  main code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.87em;
+    background: var(--panel2); border: 1px solid var(--border2); border-radius: 4px; padding: 0.15em 0.4em;
+  }
+  main pre {
+    background: var(--panel2); border: 1px solid var(--border2); border-radius: var(--radius);
+    padding: 14px 16px; overflow-x: auto; margin: 1.5em 0;
+  }
+  main pre code { background: none; border: none; padding: 0; font-size: 0.85em; line-height: 1.55; }
+  main table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 0.88rem; display: block; overflow-x: auto; }
+  main th, main td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+  main thead th { color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; background: var(--panel2); }
+  main hr { border: none; border-top: 1px solid var(--border); margin: 2.4em 0; }
+  main img { max-width: 100%; border-radius: var(--radius); }
+  footer { text-align: center; padding: 20px; font-size: 11px; color: var(--muted); border-top: 1px solid var(--border); }
+  footer a { color: var(--hbm); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  @media (max-width: 600px) { main { padding: 32px 18px 70px; } .doc-title { font-size: 1.5rem; } }
+</style>
+</head>
+<body>
+<header>
+  <a class="h-pill" href="../index.html">← RAM Monitor</a>
+  <span class="h-tag">v3 self-audit</span>
+</header>
+<main>
+  <h1 class="doc-title">v3 methods — the ag-ram-index harness, ported and run</h1>
+  
+  <div class="doc-byline">Khayyam Wakil · Director, Knowware Institute</div>
+  <p><strong>Status: harness built, battery run, results below.</strong> Every figure here traces
+to <a href="analysis/out/FACTS.txt"><code>analysis/out/FACTS.txt</code></a>, which is verbatim run
+output. That convention is inherited from <code>ag-ram-index/papers/FACTS.txt</code> and
+exists so a number cannot drift between the code and the prose.</p>
+<pre><code class="language-bash">.venv/bin/python analysis/battery.py &gt; analysis/out/FACTS.txt
+</code></pre>
+<pre><code class="language-bash">cd analysis &amp;&amp; ../.venv/bin/python -m pytest -q
+</code></pre>
+<p>Source of the method: <code>~/claude-code/ag-ram-index</code>, which tested six candidate
+agricultural leading indicators, found none, and produced <strong>four results that
+looked publishable and were wrong</strong>. Each survived every check in place at the
+time and died only when a further guard was added. Those guards are now in
+<a href="analysis/ri_leadtest/leadtest.py"><code>analysis/ri_leadtest/leadtest.py</code></a>, pinned
+by 20 regression tests.</p>
+<hr>
+<h2>1. Headline</h2>
+<p><strong>Nothing in the public semiconductor price complex leads the macroeconomy once
+the guards are applied, and the published Ramification Index panel is too small
+to tell either way.</strong> Those are different findings and the difference is the
+whole point of §4.</p>
+<p>The one thing that survived every guard in the agricultural study was a mirage
+created by the data vendor. The equivalent check here (§3) says the public
+monthly proxy is <strong>not measuring DRAM</strong> — so the monthly track, which is the
+thing you remembered wanting, is currently blocked on data acquisition rather
+than on method.</p>
+<h2>2. On the monthly question</h2>
+<p>I could not recover the original remark. The <code>ag-ram-index</code> session transcripts
+are not on this machine (<code>~/.claude/projects/</code> has no entry for that directory),
+and a full-text search across every other local transcript returns nothing.
+So the following is reconstruction from the artifacts, not recall.</p>
+<p>The case for monthly is strong and the ag repo makes it implicitly everywhere:
+<strong>every substantive test in that study ran on monthly data</strong> — 554 months of
+potash, 792 of Pink Sheet prices, 826 of heifer slaughter, 992 of fertilizer.
+The harness is built for that frequency. Three of its guards are barely
+estimable without it:</p>
+<ul>
+<li>point-in-time orthogonalization has a <strong>120-observation burn-in</strong> before it
+emits a single residual;</li>
+<li>the contemporaneous control fits <code>2k+1</code> regressors and needs residual degrees
+of freedom to spare;</li>
+<li>a 12-lag Bonferroni sweep at α = 0.00417 needs real power behind it.</li>
+</ul>
+<p>The published RI panel is <strong>annual, n = 46</strong>. That is not enough for any of them.</p>
+<h3>What monthly is actually worth — the power calculation</h3>
+<p>Minimum partial correlation detectable at 80% power against the
+Bonferroni-corrected α, by panel:</p>
+<table>
+<thead>
+<tr>
+<th>Panel</th>
+<th>n</th>
+<th>lags</th>
+<th>α</th>
+<th>min detectable partial <em>r</em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Published annual panel</td>
+<td>46</td>
+<td>3</td>
+<td>0.0167</td>
+<td><strong>0.508</strong></td>
+</tr>
+<tr>
+<td>v2 quarterly window 1985–2024</td>
+<td>160</td>
+<td>8</td>
+<td>0.00625</td>
+<td>0.360</td>
+</tr>
+<tr>
+<td>Full quarterly</td>
+<td>237</td>
+<td>8</td>
+<td>0.00625</td>
+<td>0.299</td>
+</tr>
+<tr>
+<td><strong>Monthly</strong></td>
+<td>712</td>
+<td>12</td>
+<td>0.00417</td>
+<td><strong>0.192</strong></td>
+</tr>
+</tbody></table>
+<p>The annual panel cannot see anything smaller than a partial correlation of
+<strong>0.51</strong>. That is an enormous macroeconomic effect — larger than almost any
+published leading indicator. Monthly drops the floor to <strong>0.19</strong>.</p>
+<p>This reframes the annual result completely. See §4.</p>
+<h3>The blocker</h3>
+<p>There is <strong>no free monthly DRAM ASP series.</strong> TrendForce / DRAMeXchange is
+commercial. And the McCallum archive cited in the v2 paper —
+<code>jcmit.net/memoryprice.htm</code> — <strong>no longer resolves to the archive</strong>; the domain
+now serves unrelated commercial content, and the Wayback copy is behind a
+challenge page. A paper whose primary 1980–2017 source has gone dark has a
+reproducibility problem independent of any of this.</p>
+<p>So the monthly battery had to run on the closest public monthly price series,
+<code>PCU334413334413</code> (PPI: Semiconductor &amp; Related Device Manufacturing, 713
+months, 1967–2026) — and then Guard 7 was run to find out whether that was
+legitimate. It was not. See §3.</p>
+<h2>3. Guard 7 killed the substitution — exactly as it did in agriculture</h2>
+<p>The last survivor of the agricultural study died on the discovery that two crop
+series from independent providers correlate <strong>0.794</strong> while the two fertilizer
+series correlate <strong>0.175</strong>: they were not measuring the same good, and the lead
+followed the vendor rather than the economy.</p>
+<p>Run here, on annual log-differences over the common 1981–2026 span:</p>
+<table>
+<thead>
+<tr>
+<th>Pair</th>
+<th>n</th>
+<th>r</th>
+<th>same good?</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Public semi PPI vs the paper&#39;s own DRAM ASP</strong></td>
+<td>46</td>
+<td><strong>0.186</strong></td>
+<td><strong>no</strong></td>
+</tr>
+<tr>
+<td>semi PPI vs broader component-industry PPI</td>
+<td>498</td>
+<td>0.655</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>semi PPI vs electronic-components commodity PPI</td>
+<td>712</td>
+<td>0.519</td>
+<td>no</td>
+</tr>
+<tr>
+<td>semi PPI vs its own product-line index</td>
+<td>599</td>
+<td>0.286</td>
+<td>no</td>
+</tr>
+<tr>
+<td>semi PPI vs storage-device PPI</td>
+<td>402</td>
+<td>−0.024</td>
+<td>no</td>
+</tr>
+</tbody></table>
+<p><strong>0.186.</strong> Effectively the fertilizer number. The public semiconductor PPI and
+the Ramification Index do not move together, so every monthly result in
+§5 is a statement about the semiconductor price complex and <strong>not</strong> about DRAM
+ASP. It can neither confirm nor refute v2.</p>
+<p>Two further readings worth having:</p>
+<ul>
+<li>Even <em>within</em> BLS, two constructions of semiconductor prices correlate 0.286.
+&quot;The semiconductor price&quot; is not a well-defined single object. Any v3 claim
+about DRAM must name its series and show the substitution test.</li>
+<li>v2&#39;s existing three-vendor check (Gartner / TrendForce / Counterpoint,
+r = 0.38–0.44 against GDP) compares <em>correlations with GDP</em>, not the ASP
+series with each other. Those are different tests and only the second one is
+Guard 7. <strong>The vendors&#39; ASP series need to be correlated against each other.</strong></li>
+</ul>
+<h2>4. The published index: underpowered, not refuted</h2>
+<p>The only track that uses the actual Ramification Index as published:</p>
+<pre><code>ram_index_R -&gt; real GDP growth, annual, n = 46, 3 lags
+  best forward:  lag 2, F = 4.09, p = 0.0243
+  reverse:       lag 2,           p = 0.499     (F ratio 5.78)
+  Bonferroni α = 0.0167
+  VERDICT: NO LEAD — p = 0.0243 fails α = 0.0167
+</code></pre>
+<p>Read the components rather than the verdict:</p>
+<ul>
+<li><strong>Guard 2/3 pass cleanly.</strong> Reverse p = 0.499, forward/reverse F ratio 5.78,
+well above the 2.0 dominance threshold. The direction is unambiguous.</li>
+<li><strong>Guard 5 passes</strong> — and this is the guard v2 has never run and the one I
+expected to do the damage. Adding the contemporaneous term retains <strong>98.9%</strong>
+of the F statistic (4.094 → 4.050, p = 0.025). Whatever this is, it is
+anticipation, not persistence proxying for same-period co-movement. Contrast
+the ag study&#39;s heifer result, which retained so little it died outright.</li>
+<li><strong>Guard 1 fails, narrowly.</strong> p = 0.0243 against α = 0.0167.</li>
+<li>Dropping the forecast row (§6) barely moves it: p = 0.0330, 99.9% F retained.</li>
+</ul>
+<p>Now combine that with the power table: this panel could only have detected a
+partial correlation of 0.51 or larger. <strong>A test with no power cannot reject
+anything.</strong> The correct label for the published annual panel is not NO LEAD; it
+is <em>underpowered</em>, and the ag study has a name for that class of outcome —
+UNTESTABLE, the verdict it gave potash prices rather than reporting a null.</p>
+<p>This is the strongest argument for monthly, and it is a constructive one: the RI
+is not failing the guards. It is failing to have enough observations to face
+them.</p>
+<h2>5. What the monthly battery found (about semiconductors, not DRAM)</h2>
+<p>Caveat from §3 applies to everything here.</p>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>n</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>semi PPI → INDPRO</td>
+<td>712</td>
+<td>NO LEAD (p = 0.0122 vs α = 0.00417)</td>
+</tr>
+<tr>
+<td>semi PPI → PAYEMS</td>
+<td>712</td>
+<td>NO LEAD (p = 0.329)</td>
+</tr>
+<tr>
+<td>semi PPI ex-PPIACO, point-in-time → INDPRO</td>
+<td>592</td>
+<td>NO LEAD (p = 0.0163)</td>
+</tr>
+<tr>
+<td>semi PPI → real GDP, quarterly</td>
+<td>237</td>
+<td>NO LEAD (p = 0.046)</td>
+</tr>
+<tr>
+<td>semi PPI → real GDP, <strong>v2&#39;s own 1985–2024 window</strong></td>
+<td>160</td>
+<td>NO LEAD (p = 0.155)</td>
+</tr>
+</tbody></table>
+<p>And every one of them <strong>dies under Guard 5</strong> — the lag block never survives the
+contemporaneous term. Monthly signal autocorrelation is only ρ₁ = 0.161, so this
+is not a persistence artifact; there is simply nothing there.</p>
+<h3>The YoY contrast</h3>
+<p><code>semi PPI → INDPRO</code>: log-diff p = 0.0122, YoY p = 0.0345. <code>semi PPI → PAYEMS</code>:
+the forward/reverse F ratio swings from <strong>140.2 under log-differences to 0.27
+under YoY</strong> — the transform inverts the apparent direction of the relationship.
+Neither verdict changes here, but the machinery that flipped the ag study&#39;s
+conclusions is demonstrably live in this data. A synthetic test pinning the
+effect is in the test suite (<code>test_yoy_transform_manufactures_a_lead_that_logdiff_denies</code>).</p>
+<h3>The placebos, and a problem with v2&#39;s</h3>
+<p>Capacitor and resistor PPIs — commodity passives, bought short-lead against
+realised orders — return clean nulls (p = 0.443, p = 0.328). Good.</p>
+<p><strong>The storage-device PPI leads INDPRO at 8 months (p = 4.4e-04, F ratio 7.89)
+and is the only price series in the entire run that survives Guard 5</strong> (85.1% F
+retained, controlled p = 0.030).</p>
+<p>That is a problem for v2&#39;s robustness section, in two ways. Empirically, v2
+reports NAND as a <em>failing</em> placebo (3/6 recessions vs 6/6); here the storage
+analogue outperforms the semiconductor signal. Structurally, it was never a
+valid placebo to begin with: v2&#39;s own mechanism is that DRAM leads because a few
+hundred capacity-planning firms buy it ahead of deploying compute. NAND is
+bought by <em>the same firms, for the same deployments, on the same planning
+horizon</em>. On v2&#39;s own argument NAND should lead too. A placebo has to fail the
+mechanism, not merely be a different product.</p>
+<h2>6. Guard 4 audit of the published panel</h2>
+<p><strong>The last row is a forecast.</strong> <code>data/indices-wide.csv</code> is annual and ends at
+2026, constructed part-way through 2026:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>ram_index_R</th>
+<th>hbm_weight</th>
+<th>real_gdp_yoy</th>
+<th>unemp_u3</th>
+<th>sp500_close</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2024</td>
+<td>0.477</td>
+<td>0.18</td>
+<td>2.8</td>
+<td>4.0</td>
+<td>5881.63</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>0.346</td>
+<td>0.30</td>
+<td>2.2</td>
+<td>4.1</td>
+<td>6089.54</td>
+</tr>
+<tr>
+<td><strong>2026</strong></td>
+<td><strong>0.863</strong></td>
+<td><strong>0.42</strong></td>
+<td><strong>1.5</strong></td>
+<td><strong>4.4</strong></td>
+<td><strong>5995</strong></td>
+</tr>
+</tbody></table>
+<p>Every 2026 value is a projection standing in a column of realised history. Guard
+4 says a value at <em>t</em> must not depend on information unavailable at <em>t</em>; a
+forecast is the limiting case. The panel should carry a vintage column, or the
+2026 row should be marked as provisional. The estimates are reported both ways
+in FACTS.txt and the difference is small — but &quot;small&quot; was not knowable in
+advance, which is the argument for the discipline rather than against it.</p>
+<p><strong>Still unaudited, because the inputs are not in this repo:</strong> the <code>hbm_weight</code>
+series (is the HBM revenue share a point-in-time estimate or a retrospective
+one?) and the 2018 McCallum→TrendForce chain-link (is the splice ratio computed
+on overlap that runs past the observation date?). These remain the two highest
+Guard-4 risks in v2 and neither can be checked from what is published.</p>
+<p><strong>On the look-ahead penalty itself:</strong> fitting the confound regression on the
+full sample vs point-in-time moved the best forward F from 5.219 to 5.806 — the
+leak <em>deflated</em> the statistic here, where in the ag study the same correction
+cost half the result (36.0 → 17.8). The direction of the bias is not
+predictable. Point-in-time construction is a correctness requirement, not a
+haircut you can estimate and apply afterwards.</p>
+<h2>7. Guard 8 — a new one, added here</h2>
+<p><strong>Check for definitional overlap before interpreting a lead.</strong></p>
+<p>Semiconductor industrial production (<code>IPG3344S</code>, NAICS 3344) against INDPRO
+produces <code>LEADS at 2m, p = 1.9e-08, F ratio 15.17</code> — the largest statistic in
+the entire run. It is also an accounting identity: IPG3344S is <em>a component of</em>
+INDPRO. Nothing was predicted.</p>
+<p>The agricultural harness has no guard for this because its signals and targets
+came from different agencies measuring different things. In semiconductors the
+signal and the macro target are routinely built by the same statistical agency
+from overlapping source data, so the trap is live. It is now documented in the
+battery as the worked example.</p>
+<h2>8. The potash lesson, applied and closed out</h2>
+<p>Under administered pricing the market clears through quantity, so volume is the
+instrument — the recognition that turned an uninformative potash null into a
+real rejection. The DRAM analogue is semiconductor output. Non-circular targets:</p>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>n</th>
+<th>Granger verdict</th>
+<th>Guard 5</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>semi IP → PAYEMS</td>
+<td>653</td>
+<td>LEADS at 2m (p = 0.0018)</td>
+<td><strong>DIES</strong> — 44.6% F retained, p = 0.35</td>
+</tr>
+<tr>
+<td>semi IP → real GDP</td>
+<td>217</td>
+<td>LEADS at 1q (p = 0.0057)</td>
+<td><strong>DIES</strong> — 30.5% F retained, p = 0.56</td>
+</tr>
+<tr>
+<td>semi IP deseasonalized (PIT) → PAYEMS</td>
+<td>533</td>
+<td>LEADS at 2m (p = 0.0037)</td>
+<td><strong>DIES</strong> — 70.7% F retained, p = 0.11</td>
+</tr>
+</tbody></table>
+<p>And the placebo that settles it: <strong>total industrial production → PAYEMS leads at
+1 month with p = 1.7e-20.</strong> Generic output leads employment overwhelmingly,
+because employment is a lagging indicator. &quot;Semiconductor output leads
+employment&quot; was never a statement about semiconductors.</p>
+<h2>9. What v2 passes, kept and stated</h2>
+<p>Worth leading with, because it is genuinely uncommon:</p>
+<ol>
+<li><strong>Reverse-direction testing</strong> — v2 already reports GDP → R (F = 2.14,
+p = 0.121). Most lead-lag claims never run it.</li>
+<li><strong>F-dominance</strong> — 5.83 / 2.14 = <strong>2.72</strong>, above the 2.0 threshold. Report the
+ratio; it is a stronger and more honest statement than &quot;the reverse was
+insignificant&quot;, and it is immune to the underflow problem that produced the
+ag study&#39;s third false positive.</li>
+<li><strong>Lag-order robustness</strong> across <code>p ∈ {1,2,3,4}</code> and Toda–Yamamoto.</li>
+<li><strong>Having a placebo at all</strong> — the ag study had none. The specific placebo
+needs replacing (§5), not the practice.</li>
+</ol>
+<p><strong>Not verifiable from this repository:</strong> the v2 Granger result itself. The
+paper&#39;s Availability section promises &quot;Granger causality estimation code (Stata
+and Python)&quot; at this repo; <code>scripts/</code> contains one unrelated <code>.mjs</code> file, and
+the quarterly ASP series the VAR runs on is not here. The headline number cannot
+currently be reproduced by a reader. That is now fixable — the harness exists;
+it needs the data.</p>
+<h2>10. Sample size on the bifurcated index</h2>
+<p><code>ram_commodity_R</code>, <code>ram_ai_R</code> and <code>hbm_weight</code> are populated for <strong>three rows</strong>:
+2024, 2025, 2026 — one of which is the forecast row. No inferential statistic is
+estimable; the harness floor alone requires 5 observations for a single-lag test.</p>
+<p>The honest label is <strong>UNTESTABLE</strong> — an absence of a test, not a null. The ag
+study retired its Bos indicus track on exactly this basis rather than reporting
+a rejection. v3 should either build the sub-indices quarterly (n ≈ 12, still
+marginal) or present the bifurcation as a descriptive regime claim with no
+inferential statistics attached, and make sure the composite&#39;s Granger result
+cannot be read as covering the sub-indices.</p>
+<h2>11. The theoretical payoff</h2>
+<p>The most useful non-statistical output of the ag work is a <strong>mechanism with a
+boundary</strong>:</p>
+<blockquote>
+<p>DRAM leads because memory is bought by a few hundred capacity-planning firms
+ahead of deploying compute, so the purchase <em>is</em> a forward expectation
+expressed as a price. Agricultural inputs are bought by ~2M atomized
+price-takers on an agronomic calendar, funded by last season&#39;s cash — no agent
+expresses a forward expectation as a price, so the failure is structural.</p>
+</blockquote>
+<p>That converts RI from &quot;DRAM happens to work&quot; into a <strong>class of indicator with a
+testable scope condition</strong>: concentrated buyers + discretionary forward
+commitment + fast, elastic, private-market price. Agriculture becomes a
+tested-and-failed boundary case rather than an unexamined gap. Farm machinery —
+financed capex, the closest structural analogue to DRAM — leads nothing either,
+which sharpens the condition to <em>concentration</em> rather than merely <em>capex</em>.</p>
+<p>The §5 and §8 results sharpen it further, at v2&#39;s expense: neither the broad
+semiconductor price complex nor semiconductor output satisfies it. Whatever the
+RI is measuring, it is narrower than &quot;semiconductors&quot;, and v3 has to say so.</p>
+<p>This is the strongest thing to import, and it costs no new data.</p>
+<h2>11a. RI-M: the monthly index, built and rejected</h2>
+<p>Run output: <a href="analysis/out/FACTS-RIM.txt"><code>analysis/out/FACTS-RIM.txt</code></a>.
+Code: <a href="analysis/ri_leadtest/mccallum.py"><code>ri_leadtest/mccallum.py</code></a>,
+<a href="analysis/ri_leadtest/index_v3.py"><code>ri_leadtest/index_v3.py</code></a>,
+<a href="analysis/battery_v3.py"><code>battery_v3.py</code></a>.</p>
+<p><strong>The archive is recovered.</strong> jcmit.net lapsed and the McCallum workbook is gone
+from the live web. It was retrieved from the Internet Archive — OLE metadata
+reads <em>Author: John McCallum, created 1998-11-09, last saved 2020-09-20</em> — and
+is cached at <code>analysis/data/mccallum_MemDiskPrice-xl95_20200920.xls</code>. 380 dated
+observations; 342 monthly $/MB values from 1985-01 to 2020-09.</p>
+<p><strong>RI-M was built from it and it works as a construction.</strong> 278 adjacent-month
+log returns, point-in-time by proof (<code>assert_point_in_time</code>: 193 overlapping
+months, max abs difference 0.0 when the archive is truncated and the index
+rebuilt), gap-aware (63 gaps totalling 150 months emit no return rather than a
+fabricated zero), vintage-stamped. It is everything v2&#39;s construction is not.</p>
+<p><strong>And it is not a usable index.</strong> Guard 6 and Guard 7 both fire:</p>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Staleness</td>
+<td>21.6% of months unchanged; longest flat run 10 months</td>
+</tr>
+<tr>
+<td>vs IR213 import price index, monthly</td>
+<td>r = <strong>0.133</strong></td>
+</tr>
+<tr>
+<td>vs IQ213 export price index, monthly</td>
+<td>r = <strong>0.029</strong></td>
+</tr>
+<tr>
+<td>vs semiconductor PPI, monthly</td>
+<td>r = <strong>0.120</strong></td>
+</tr>
+</tbody></table>
+<p>The archive is a sequence of <em>individual advertised retail quotes</em> — BYTE and
+JDR magazine ads, later NewEgg listings — not a survey. The same quote is
+carried for months (<code>$504.833</code> runs from 1988-07 to 1989-04), and successive
+observations often switch to a different module. At annual frequency the noise
+averages out and it tracks everything at 0.45–0.60. At monthly frequency, which
+is the entire point, it agrees with nothing.</p>
+<p>So RI-M&#39;s null is uninformative in exactly the sense Guard 6 was written for:</p>
+<pre><code>RI-M -&gt; INDPRO  (n=278)  p = 0.622    F ratio 1.26
+RI-M -&gt; PAYEMS  (n=278)  p = 0.450    F ratio 17.54
+RI-M -&gt; real GDP (n=73)  p = 0.497    F ratio 1.82
+</code></pre>
+<p>Those are not marginal misses. Peak lead correlation is 0.122 and every one dies
+under Guard 5. But the instrument cannot support a rejection, so <strong>the honest
+verdict is UNTESTABLE, not NO LEAD</strong> — the same call the ag study made on
+cartel-administered potash prices, and for the same structural reason.</p>
+<p><strong>The conclusion this forces.</strong> The monthly Ramification Index cannot be built
+from public or recoverable sources. That is now established from two independent
+directions: no public <em>index</em> measures DRAM (§3, r = 0.186), and the one genuine
+<em>archive</em> of DRAM prices is too sparse and too stale to difference monthly. The
+binding constraint in §12 is confirmed, not relieved.</p>
+<h2>11b. Two data-integrity findings in the published series</h2>
+<p><strong>The provenance in v2&#39;s README is wrong.</strong> v1 documents the series
+(<code>memory-index/research/ram-prices.md</code> §2) as &quot;mid-year average retail for a
+typical mainstream module, <strong>rounded</strong>&quot;, blended from McCallum, hblok.net <em>and</em>
+TrendForce. v2&#39;s README describes it as &quot;McCallum archive (1980–2017)
+chain-linked to TrendForce DDR4 contract ASP (2018–2026)&quot;. It is a rounded
+three-source blend, and v1 says so; v2 overstates it. This explains the r = 0.597
+against the archive — that number is not evidence of an error, and I withdraw
+the stronger reading of it.</p>
+<p><strong>The 1988 RAM drought is missing from the index.</strong> This one is not a
+documentation issue.</p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Published $/MB</th>
+<th>Published YoY</th>
+<th>Archive $/MB</th>
+<th>Archive YoY</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1987</td>
+<td>133</td>
+<td>−29.1%</td>
+<td>158</td>
+<td>−37.2%</td>
+</tr>
+<tr>
+<td><strong>1988</strong></td>
+<td><strong>107</strong></td>
+<td><strong>−21.8%</strong></td>
+<td><strong>361</strong></td>
+<td><strong>+82.5%</strong></td>
+</tr>
+<tr>
+<td>1989</td>
+<td>73</td>
+<td>−38.2%</td>
+<td>300</td>
+<td>−18.6%</td>
+</tr>
+</tbody></table>
+<p>v1&#39;s own §3 event table records 1988 as <em>&quot;The Year of the RAM Drought … Prices
+spiked ~60% YoY&quot;</em>, and the monthly archive shows it plainly: $153/MB through
+mid-1987, $199 by March 1988, $505 from July 1988. The published price table
+shows a monotone decline straight through. <strong>v1 §2 contradicts v1 §3 for that
+year</strong>, and v2 inherits the price table unchanged.</p>
+<p>This matters past 1988. v2&#39;s central new claim is RAMageddon — a supply-side
+divergence regime argued to be &quot;without historical precedent&quot; in the 46-year
+series. The nearest historical precedent is a post-dumping capacity-underinvestment
+shortage that the series does not contain. The uniqueness claim cannot be
+evaluated until 1988 is right.</p>
+<p>Also: comparing v1&#39;s and v2&#39;s panels, <strong>only the 2026 row changed</strong> — by +86.9%
+($0.0052 → $0.0097/MB). Every other year is byte-identical. The forecast row is
+live and moving between versions, which is the §6 point with a number attached.</p>
+<h2>12. What v3 needs, in order</h2>
+<ol>
+<li><strong>Acquire a monthly DRAM ASP series.</strong> This is the binding constraint on
+everything else — §2 shows the power gain, §3 shows no public substitute
+works. TrendForce or Counterpoint contract+spot monthly, back as far as the
+licence allows. Everything downstream is built and waiting.</li>
+<li><strong>Re-run the battery on it.</strong> <code>analysis/battery.py</code> needs one new series and
+a section; the guards, tests and output format already exist.</li>
+<li><strong>Publish the estimation code and the ASP series</strong> (or a licensed derivative)
+so the headline Granger result is reproducible. Currently it is not.</li>
+<li><strong>Correlate the vendors&#39; ASP series against each other</strong>, not just their
+correlations with GDP. That is Guard 7; §3 shows it is not a formality.</li>
+<li><strong>Run Guard 5 on the actual v2 quarterly specification.</strong> It passes on the
+annual panel at 98.9% F retained, which is a real and reportable result.</li>
+<li><strong>Audit <code>hbm_weight</code> and the 2018 chain-link</strong> for point-in-time
+construction. Not checkable from published data.</li>
+<li><strong>Add a vintage column</strong> to <code>indices-wide.csv</code> and mark 2026 provisional.</li>
+<li><strong>Replace the NAND placebo</strong> with one that fails the mechanism — passive
+components work, and are in the battery already.</li>
+<li><strong>Downgrade the bifurcated index to descriptive</strong>, or rebuild it quarterly.</li>
+<li><strong>Write the scope condition into the theory section.</strong></li>
+</ol>
+<p>Guards 1–3 v2 already passes, and leading with that is fair — provided 4–8 are
+run rather than asserted.</p>
+<hr>
+<h3>Files</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="analysis/ri_leadtest/leadtest.py"><code>analysis/ri_leadtest/leadtest.py</code></a></td>
+<td>The harness. 8 guards, frequency-aware</td>
+</tr>
+<tr>
+<td><a href="analysis/ri_leadtest/data.py"><code>analysis/ri_leadtest/data.py</code></a></td>
+<td>Keyless FRED fetchers, cached to <code>analysis/data/</code></td>
+</tr>
+<tr>
+<td><a href="analysis/battery.py"><code>analysis/battery.py</code></a></td>
+<td>Every guard, every frequency</td>
+</tr>
+<tr>
+<td><a href="analysis/out/FACTS.txt"><code>analysis/out/FACTS.txt</code></a></td>
+<td>Verbatim run output. Every figure above traces here</td>
+</tr>
+<tr>
+<td><a href="analysis/tests"><code>analysis/tests/</code></a></td>
+<td>20 regression tests pinning the guards</td>
+</tr>
+</tbody></table>
+
+</main>
+<footer>
+  Khayyam Wakil &nbsp;·&nbsp; Knowware Institute &nbsp;·&nbsp;
+  <a href="../index.html">RAM Monitor</a> &nbsp;·&nbsp; <a href="../paper.html">Paper</a> &nbsp;·&nbsp;
+  <a href="https://github.com/fromknowware/bifurcation-memory-index">GitHub</a>
+</footer>
+</body>
+</html>
