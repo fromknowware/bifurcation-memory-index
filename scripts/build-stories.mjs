@@ -60,7 +60,7 @@ h1{font-size:26px;line-height:1.3;color:var(--bright);font-weight:650;margin:6px
 .score b{color:var(--bright);font-size:15px;}
 .body{font-size:14px;color:var(--text);}
 .excerpt{background:var(--bg1);border:1px solid var(--line);border-radius:4px;padding:14px 16px;margin:14px 0;font-size:13px;color:var(--bright);}
-.orig{margin:6px 0 22px;font-size:12px;}
+.orig{margin:6px 0 22px;font-size:12px;overflow-wrap:anywhere;}
 .orig a{color:var(--hbm);}
 .orig a:hover{text-decoration:underline;}
 .share{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0;}
@@ -233,7 +233,7 @@ function main() {
       shareLinks(title, canonical) +
       `<div class="sec-h">The report</div>` +
       `<div class="excerpt">${esc(cleanExcerpt)}</div>` +
-      `<div class="orig">Original article: <a href="${esc(external)}" target="_blank" rel="noopener noreferrer">${esc(external)}</a></div>` +
+      `<div class="orig">Original article: <a href="${esc(external)}" target="_blank" rel="noopener noreferrer">Read on ${esc(item.source || 'the original source')} →</a></div>` +
       relatedBlock(related) +
       learnBlock(tag) +
       pageFoot();
