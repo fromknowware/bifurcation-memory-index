@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-08-26T00:20:04.589Z",
-  "count": 195,
+  "generatedAt": "2026-08-26T07:07:51.106Z",
+  "count": 201,
   "stories": [
+    {
+      "slug": "apple-asked-cxmt-for-a-discount-on-dram-and-got-sams-117ea53d",
+      "url": "/stories/apple-asked-cxmt-for-a-discount-on-dram-and-got-sams-117ea53d.html",
+      "title": "Apple asked CXMT for a discount on DRAM — and got Samsung’s price instead - Astute Group",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "Astute Group",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-unveils-processing-dram-as-hbm-alternative-b-aa62f200",
+      "url": "/stories/samsung-unveils-processing-dram-as-hbm-alternative-b-aa62f200.html",
+      "title": "Samsung Unveils Processing DRAM as HBM Alternative - Businesskorea",
+      "tag": "demand",
+      "date": "2026-08-26",
+      "score": 7,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-hits-production-ceiling-dimming-hopes-of-easing-7a205d40",
+      "url": "/stories/cxmt-hits-production-ceiling-dimming-hopes-of-easing-7a205d40.html",
+      "title": "CXMT hits production ceiling, dimming hopes of easing DRAM shortage - 디지털투데이",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "디지털투데이",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-unveils-world-s-1st-commercial-processing-in-5944d57f",
+      "url": "/stories/samsung-unveils-world-s-1st-commercial-processing-in-5944d57f.html",
+      "title": "Samsung unveils world’s 1st commercial processing-in-memory solution for on-device AI - KED Global",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "KED Global",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-unveils-memory-chip-that-does-its-own-ai-com-f212d884",
+      "url": "/stories/samsung-unveils-memory-chip-that-does-its-own-ai-com-f212d884.html",
+      "title": "Samsung Unveils Memory Chip That Does Its Own AI Computing - Koreabizwire",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "Koreabizwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "70-of-cloud-capital-expenditure-to-flow-to-memory-by-2aab021f",
+      "url": "/stories/70-of-cloud-capital-expenditure-to-flow-to-memory-by-2aab021f.html",
+      "title": "70% of Cloud Capital Expenditure to Flow to Memory by 2027: AI Infrastructure Cost Structure Set for Major Overhaul - finance.biggo.com",
+      "tag": "demand",
+      "date": "2026-08-26",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "openai-jalapeno-custom-ai-asic-at-hot-chips-2026-ffcb24b6",
+      "url": "/stories/openai-jalapeno-custom-ai-asic-at-hot-chips-2026-ffcb24b6.html",
+      "title": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "sambanova-8217-s-sn50-rdu-for-ai-at-hot-chips-2026-8b2c43f1",
       "url": "/stories/sambanova-8217-s-sn50-rdu-for-ai-at-hot-chips-2026-8b2c43f1.html",
@@ -91,17 +168,6 @@
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
-      "slug": "meta-s-mtia-custom-ai-silicon-at-hot-chips-2026-ab456cb1",
-      "url": "/stories/meta-s-mtia-custom-ai-silicon-at-hot-chips-2026-ab456cb1.html",
-      "title": "Meta’s MTIA Custom AI Silicon at Hot Chips 2026",
-      "tag": "demand",
-      "date": "2026-08-25",
-      "score": 7,
-      "pick": false,
-      "source": "ServeTheHome",
-      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
-    },
-    {
       "slug": "korea-dram-prices-surge-as-hbm-shift-deepens-global-befcbd39",
       "url": "/stories/korea-dram-prices-surge-as-hbm-shift-deepens-global-befcbd39.html",
       "title": "Korea DRAM prices surge as HBM shift deepens global supply shortfall - CHOSUNBIZ - Chosunbiz",
@@ -124,17 +190,6 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
-      "slug": "nvidia-spectrum-x-ethernet-multiplane-network-archit-dbb56021",
-      "url": "/stories/nvidia-spectrum-x-ethernet-multiplane-network-archit-dbb56021.html",
-      "title": "NVIDIA Spectrum-X Ethernet Multiplane Network Architecture at Hot Chips 2026",
-      "tag": "demand",
-      "date": "2026-08-25",
-      "score": 7,
-      "pick": false,
-      "source": "ServeTheHome",
-      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
-    },
-    {
       "slug": "micron-jumps-as-analysts-see-memory-prices-surging-5-2feb0eee",
       "url": "/stories/micron-jumps-as-analysts-see-memory-prices-surging-5-2feb0eee.html",
       "title": "Micron Jumps as Analysts See Memory Prices Surging 50% This Quarter - finance.biggo.com",
@@ -154,6 +209,17 @@
       "score": 7,
       "pick": false,
       "source": "ServeTheHome",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "hot-chips-2026-samsung-makes-lpddr5x-smart-with-logi-dbbf2fa6",
+      "url": "/stories/hot-chips-2026-samsung-makes-lpddr5x-smart-with-logi-dbbf2fa6.html",
+      "title": "hot Chips 2026: Samsung makes LPDDR5X smart with logic unit in memory — LPDDR5X-PIM is 3.01x faster than LPDDR5X in AI inference with 8x the bandwidth - Tom's Hardware",
+      "tag": "demand",
+      "date": "2026-08-25",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
