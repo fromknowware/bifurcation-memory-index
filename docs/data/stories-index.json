@@ -1,7 +1,172 @@
 {
-  "generatedAt": "2026-08-26T09:11:40.300Z",
-  "count": 201,
+  "generatedAt": "2026-08-26T13:15:52.243Z",
+  "count": 217,
   "stories": [
+    {
+      "slug": "hot-chips-2026-high-bandwidth-flash-promises-massive-ab9d5070",
+      "url": "/stories/hot-chips-2026-high-bandwidth-flash-promises-massive-ab9d5070.html",
+      "title": "Hot Chips 2026: High Bandwidth Flash promises massive bandwidth and capacity, but its usability is extremely limited — new memory format strikes a balance between HBM and NAND flash",
+      "tag": "demand",
+      "date": "2026-08-26",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "prices-for-korean-dram-have-skyrocketed-12-5-times-r-861d8c75",
+      "url": "/stories/prices-for-korean-dram-have-skyrocketed-12-5-times-r-861d8c75.html",
+      "title": "Prices for Korean DRAM have skyrocketed 12.5 times - Root-Nation.com",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "Root-Nation.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "crucial-ssd-owner-offered-200-refund-for-4tb-drive-n-0702e865",
+      "url": "/stories/crucial-ssd-owner-offered-200-refund-for-4tb-drive-n-0702e865.html",
+      "title": "Crucial SSD owner offered $200 refund for 4TB drive now selling for over $500 — company finally caves to warranty demands after protracted back-and-forth",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "accelerating-silicon-design-for-physical-ai-907cfb4e",
+      "url": "/stories/accelerating-silicon-design-for-physical-ai-907cfb4e.html",
+      "title": "Accelerating Silicon Design for Physical AI",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hot-chips-2026-d-matrix-stacks-ai-accelerator-direct-c5aae50c",
+      "url": "/stories/hot-chips-2026-d-matrix-stacks-ai-accelerator-direct-c5aae50c.html",
+      "title": "Hot Chips 2026: d-Matrix stacks AI accelerator directly on custom DRAM for 100 TB/s per card — TSMC 4nm compute die bonded face-to-face at a 36-micron pitch on top of a custom-designed die",
+      "tag": "fab",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "south-korea-s-dram-prices-surge-to-levels-rivaling-p-c3ee520e",
+      "url": "/stories/south-korea-s-dram-prices-surge-to-levels-rivaling-p-c3ee520e.html",
+      "title": "South Korea's DRAM prices surge to levels rivaling precious metals amid AI-driven demand - Global Sources",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "Global Sources",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "mad-scientist-makes-leds-in-his-backyard-semiconduct-5cf6201c",
+      "url": "/stories/mad-scientist-makes-leds-in-his-backyard-semiconduct-5cf6201c.html",
+      "title": "Mad scientist makes LEDs in his backyard — semiconductor wizard who made his own RAM turns his attention to using bathroom eBay laser to etch sapphire wafers",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-clash-over-next-gen-ai-memory-at-ho-8102485b",
+      "url": "/stories/samsung-sk-hynix-clash-over-next-gen-ai-memory-at-ho-8102485b.html",
+      "title": "Samsung, SK hynix Clash Over Next-Gen AI Memory at ‘Hot Chips 2026’ - Businesskorea",
+      "tag": "demand",
+      "date": "2026-08-26",
+      "score": 7,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "enthusiast-turns-a-lenovo-yoga-laptop-an-m-2-slot-an-2bbdfa90",
+      "url": "/stories/enthusiast-turns-a-lenovo-yoga-laptop-an-m-2-slot-an-2bbdfa90.html",
+      "title": "Enthusiast turns a Lenovo Yoga laptop, an M.2 slot, and AMD Radeon RX 7900 XT into 'the world's stupidest' desktop for local AI chatbots — M.2 franken-rig crippled by laptop DRAM swap",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-prices-soar-dram-and-nand-flash-to-account-fo-c445e9eb",
+      "url": "/stories/memory-prices-soar-dram-and-nand-flash-to-account-fo-c445e9eb.html",
+      "title": "Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-memory-prices-soar-dram-and-nand-flash-to-account-a8a11bcb",
+      "url": "/stories/pr-memory-prices-soar-dram-and-nand-flash-to-account-a8a11bcb.html",
+      "title": "(PR) Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-arc-gpu-graphics-drivers-101-8891-whql-release-49c04762",
+      "url": "/stories/intel-arc-gpu-graphics-drivers-101-8891-whql-release-49c04762.html",
+      "title": "Intel Arc GPU Graphics Drivers 101.8891 WHQL Released",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "global-ai-investment-shift-70-to-memory-chips-1c19a6b0",
+      "url": "/stories/global-ai-investment-shift-70-to-memory-chips-1c19a6b0.html",
+      "title": "Global AI Investment Shift: 70% to Memory Chips - 조선일보",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "rising-memory-costs-push-nvidia-ai-server-prices-hig-8f241cb8",
+      "url": "/stories/rising-memory-costs-push-nvidia-ai-server-prices-hig-8f241cb8.html",
+      "title": "Rising Memory Costs Push Nvidia AI Server Prices Higher - Electronics For You BUSINESS",
+      "tag": "demand",
+      "date": "2026-08-26",
+      "score": 7,
+      "pick": false,
+      "source": "Electronics For You BUSINESS",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "news-south-korea-s-dram-prices-reportedly-soar-12-5-deef9ba8",
+      "url": "/stories/news-south-korea-s-dram-prices-reportedly-soar-12-5-deef9ba8.html",
+      "title": "[News] South Korea’s DRAM Prices Reportedly Soar 12.5-Fold in 3 Years, Outpacing Gold - TrendForce",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "TrendForce",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "apple-asked-cxmt-for-a-discount-on-dram-and-got-sams-117ea53d",
       "url": "/stories/apple-asked-cxmt-for-a-discount-on-dram-and-got-sams-117ea53d.html",
@@ -33,6 +198,17 @@
       "score": 8,
       "pick": false,
       "source": "디지털투데이",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-unveils-3d-stacking-future-memory-strategy-25dbb7ad",
+      "url": "/stories/sk-hynix-unveils-3d-stacking-future-memory-strategy-25dbb7ad.html",
+      "title": "SK Hynix Unveils '3D Stacking' Future Memory Strategy at Dell Forum… HBM4 on Display - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
