@@ -1,7 +1,194 @@
 {
-  "generatedAt": "2026-08-26T20:01:50.625Z",
-  "count": 234,
+  "generatedAt": "2026-08-27T09:45:00.356Z",
+  "count": 252,
   "stories": [
+    {
+      "slug": "white-house-weighs-new-tariffs-on-semiconductor-impo-0b606e72",
+      "url": "/stories/white-house-weighs-new-tariffs-on-semiconductor-impo-0b606e72.html",
+      "title": "White House weighs new tariffs on semiconductor imports amid broader trade push - Business Upturn",
+      "tag": "supply",
+      "date": "2026-08-27",
+      "score": 8,
+      "pick": false,
+      "source": "Business Upturn",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-revenue-tops-96-billion-as-memory-commitments-57d2a96f",
+      "url": "/stories/nvidia-revenue-tops-96-billion-as-memory-commitments-57d2a96f.html",
+      "title": "Nvidia revenue tops $96 billion as memory commitments soar to $160 billion — CEO Jensen Huang says AI 'has reached its inflection point'",
+      "tag": "earnings",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "nvhbm-raises-memory-bandwidth-by-30-as-nvidia-seeks-cf850755",
+      "url": "/stories/nvhbm-raises-memory-bandwidth-by-30-as-nvidia-seeks-cf850755.html",
+      "title": "NVHBM Raises Memory Bandwidth by 30% as NVIDIA Seeks to Lead the Custom HBM Market - 매일경제",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "매일경제",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-and-sk-hynix-stand-to-gain-as-nvidia-locks-i-b92ac304",
+      "url": "/stories/samsung-and-sk-hynix-stand-to-gain-as-nvidia-locks-i-b92ac304.html",
+      "title": "Samsung and SK hynix stand to gain as Nvidia locks in memory supply - Korea JoongAng Daily",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "Korea JoongAng Daily",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "issues-stack-up-with-more-hbm-layers-d3fe2d2b",
+      "url": "/stories/issues-stack-up-with-more-hbm-layers-d3fe2d2b.html",
+      "title": "Issues Stack Up With More HBM Layers",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-sees-memory-bottleneck-lasting-through-2028-b-e6885879",
+      "url": "/stories/nvidia-sees-memory-bottleneck-lasting-through-2028-b-e6885879.html",
+      "title": "NVIDIA Sees Memory Bottleneck Lasting Through 2028 - Businesskorea",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "memory-prices-still-rising-pushed-by-csp-spending-el-09c4669c",
+      "url": "/stories/memory-prices-still-rising-pushed-by-csp-spending-el-09c4669c.html",
+      "title": "Memory prices still rising pushed by CSP spending - Electronics Weekly",
+      "tag": "supply",
+      "date": "2026-08-27",
+      "score": 8,
+      "pick": false,
+      "source": "Electronics Weekly",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "mu-sndk-skhy-memory-stocks-surge-overnight-after-nvi-d2f38446",
+      "url": "/stories/mu-sndk-skhy-memory-stocks-surge-overnight-after-nvi-d2f38446.html",
+      "title": "MU, SNDK, SKHY: Memory Stocks Surge Overnight After Nvidia More Than Doubles Purchases - TradingView",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "memory-chips-could-claim-68-of-cloud-giants-ai-capex-ed144711",
+      "url": "/stories/memory-chips-could-claim-68-of-cloud-giants-ai-capex-ed144711.html",
+      "title": "Memory Chips Could Claim 68% of Cloud Giants' AI Capex by 2027, Forecast Says - XenoSpectrum",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "XenoSpectrum",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "south-korea-s-dram-prices-surge-to-levels-rivaling-p-0a842c0d",
+      "url": "/stories/south-korea-s-dram-prices-surge-to-levels-rivaling-p-0a842c0d.html",
+      "title": "South Korea's DRAM prices surge to levels rivaling precious metals amid AI-driven demand - Global Sources",
+      "tag": "supply",
+      "date": "2026-08-27",
+      "score": 8,
+      "pick": false,
+      "source": "Global Sources",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ps5-price-hikes-and-disc-exit-dram-spikes-171-2026-t-067c20af",
+      "url": "/stories/ps5-price-hikes-and-disc-exit-dram-spikes-171-2026-t-067c20af.html",
+      "title": "PS5 Price Hikes and Disc Exit: DRAM Spikes 171% [2026] - tech-insider.org",
+      "tag": "supply",
+      "date": "2026-08-27",
+      "score": 8,
+      "pick": false,
+      "source": "tech-insider.org",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "qualcomm-targets-ai-memory-bottleneck-with-hpc-techn-1b48871e",
+      "url": "/stories/qualcomm-targets-ai-memory-bottleneck-with-hpc-techn-1b48871e.html",
+      "title": "Qualcomm Targets AI Memory Bottleneck With HPC Technology Roadmap - Yahoo Tech",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "Yahoo Tech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-nvhbm-memory-promises-30-higher-bandwidth-tha-fff01c40",
+      "url": "/stories/nvidia-nvhbm-memory-promises-30-higher-bandwidth-tha-fff01c40.html",
+      "title": "NVIDIA NVHBM Memory Promises 30% Higher Bandwidth Than HBM4E",
+      "tag": "demand",
+      "date": "2026-08-26",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-develops-custom-nvhbm-memory-for-ai-claiming-e34b3a25",
+      "url": "/stories/nvidia-develops-custom-nvhbm-memory-for-ai-claiming-e34b3a25.html",
+      "title": "NVIDIA Develops Custom “NVHBM” Memory For AI, Claiming 30% More Bandwidth and 15% Lower Power Than HBM4E - Wccftech",
+      "tag": "demand",
+      "date": "2026-08-26",
+      "score": 7,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-develops-custom-nvhbm-memory-for-ai-claiming-50fc8abe",
+      "url": "/stories/nvidia-develops-custom-nvhbm-memory-for-ai-claiming-50fc8abe.html",
+      "title": "NVIDIA Develops Custom “NVHBM” Memory For AI, Claiming 30% More Bandwidth and 15% Lower Power Than HBM4E",
+      "tag": "demand",
+      "date": "2026-08-26",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "meta-s-new-mtia-400-chip-has-a-split-personality-tra-f5394c46",
+      "url": "/stories/meta-s-new-mtia-400-chip-has-a-split-personality-tra-f5394c46.html",
+      "title": "Meta's new MTIA 400 chip has a split personality: Training AI and serving ads",
+      "tag": "demand",
+      "date": "2026-08-26",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-nvlink-fusion-expands-with-nvhbm-custom-high-2836594e",
+      "url": "/stories/nvidia-nvlink-fusion-expands-with-nvhbm-custom-high-2836594e.html",
+      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory - NVIDIA Blog",
+      "tag": "demand",
+      "date": "2026-08-26",
+      "score": 7,
+      "pick": false,
+      "source": "NVIDIA Blog",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "samsung-moves-ai-compute-into-dram-drop-in-memory-ch-73153941",
       "url": "/stories/samsung-moves-ai-compute-into-dram-drop-in-memory-ch-73153941.html",
@@ -210,6 +397,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hot-chips-2026-d-matrix-stacks-ai-accelerator-direct-2f5a2c79",
+      "url": "/stories/hot-chips-2026-d-matrix-stacks-ai-accelerator-direct-2f5a2c79.html",
+      "title": "Hot Chips 2026: d-Matrix stacks AI accelerator directly on custom DRAM for 100 TB/s per card — TSMC 4nm compute die bonded face-to-face at a 36-micron pitch on top of a custom-designed die - Tom's Hardware",
+      "tag": "fab",
+      "date": "2026-08-26",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
       "slug": "accelerating-silicon-design-for-physical-ai-907cfb4e",
