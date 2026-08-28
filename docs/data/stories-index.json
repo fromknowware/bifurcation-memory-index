@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-08-27T22:14:45.922Z",
-  "count": 290,
+  "generatedAt": "2026-08-28T11:21:17.742Z",
+  "count": 308,
   "stories": [
+    {
+      "slug": "msi-mpg-ai1600ts-pcie5-1600w-power-supply-review-gpu-1c68591d",
+      "url": "/stories/msi-mpg-ai1600ts-pcie5-1600w-power-supply-review-gpu-1c68591d.html",
+      "title": "MSI MPG Ai1600TS PCIE5 1600W power supply review: GPU Safeguard+ protection with Titanium effeciency",
+      "tag": "supply",
+      "date": "2026-08-28",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "google-clamps-down-on-android-app-ram-usage-amid-ai-8faaea1f",
+      "url": "/stories/google-clamps-down-on-android-app-ram-usage-amid-ai-8faaea1f.html",
+      "title": "Google clamps down on Android app RAM usage amid AI memory crisis — developers have until February 2027 to adapt to new memory-optimizing rules",
+      "tag": "demand",
+      "date": "2026-08-28",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "apple-m6-s-only-significance-is-that-it-validates-ts-cc17f4fe",
+      "url": "/stories/apple-m6-s-only-significance-is-that-it-validates-ts-cc17f4fe.html",
+      "title": "Apple M6’s Only Significance Is That It Validates TSMC’s 2nm Process, But As Far As Commercial Viability Goes, The A20 Pro Launch Holds More Weight",
+      "tag": "fab",
+      "date": "2026-08-28",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-s-new-2tb-990-ssd-is-36-off-at-amazon-nearly-663ec8b6",
+      "url": "/stories/samsung-s-new-2tb-990-ssd-is-36-off-at-amazon-nearly-663ec8b6.html",
+      "title": "Samsung's new 2TB 990 SSD is 36% off at Amazon — nearly $200 off this Gen 4 all-rounder",
+      "tag": "supply",
+      "date": "2026-08-28",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "modders-get-leaked-dlss-5-running-in-control-early-b-a1806ca7",
+      "url": "/stories/modders-get-leaked-dlss-5-running-in-control-early-b-a1806ca7.html",
+      "title": "Modders get leaked DLSS 5 running in Control — early Blackwell test drops RTX 5070 Ti from 71 to 35 FPS at 4K",
+      "tag": "demand",
+      "date": "2026-08-28",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-breaks-ground-on-the-first-hbm-plant-in-the-b158b6e6",
+      "url": "/stories/sk-hynix-breaks-ground-on-the-first-hbm-plant-in-the-b158b6e6.html",
+      "title": "SK hynix breaks ground on the first HBM plant in the US, bringing key AI component production to the States — says production starts in 2029",
+      "tag": "demand",
+      "date": "2026-08-28",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "a-64gb-sandisk-sata-ssd-has-survived-a-16-year-endur-f31b727c",
+      "url": "/stories/a-64gb-sandisk-sata-ssd-has-survived-a-16-year-endur-f31b727c.html",
+      "title": "A 64GB SanDisk SATA SSD Has Survived A 16-Year Endurance Ordeal; User Shows A Whopping 9 Petabytes Of Data Written With More Than 140,000 Write Cycles Registered",
+      "tag": "supply",
+      "date": "2026-08-28",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-starts-work-on-us-4-billion-indiana-ai-memo-dd154629",
+      "url": "/stories/sk-hynix-starts-work-on-us-4-billion-indiana-ai-memo-dd154629.html",
+      "title": "SK Hynix starts work on US$4 billion Indiana AI memory hub, expects shortage through 2030 - The Business Times",
+      "tag": "demand",
+      "date": "2026-08-28",
+      "score": 7,
+      "pick": false,
+      "source": "The Business Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-and-sk-hynix-reportedly-joining-qualcomm-s-a-d0ef500e",
+      "url": "/stories/samsung-and-sk-hynix-reportedly-joining-qualcomm-s-a-d0ef500e.html",
+      "title": "Samsung and SK hynix Reportedly Joining Qualcomm's AI Memory Project - XenoSpectrum",
+      "tag": "demand",
+      "date": "2026-08-28",
+      "score": 7,
+      "pick": false,
+      "source": "XenoSpectrum",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-skhy-us-invests-4-billion-to-build-first-u-274a92cb",
+      "url": "/stories/sk-hynix-skhy-us-invests-4-billion-to-build-first-u-274a92cb.html",
+      "title": "SK Hynix (SKHY.US) Invests $4 Billion to Build First U.S. Plant, Aiming to Become a Key HBM Production Hub by 2030 - Moomoo",
+      "tag": "demand",
+      "date": "2026-08-28",
+      "score": 7,
+      "pick": false,
+      "source": "Moomoo",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "analysis-us-tariff-push-tests-koreas-memory-red-line-523b71e4",
+      "url": "/stories/analysis-us-tariff-push-tests-koreas-memory-red-line-523b71e4.html",
+      "title": "ANALYSIS: US tariff push tests Koreas memory red line - Aju Press",
+      "tag": "macro",
+      "date": "2026-08-28",
+      "score": 6,
+      "pick": false,
+      "source": "Aju Press",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "sk-hynix-partners-with-purdue-university-ceremoniall-60bcfce4",
+      "url": "/stories/sk-hynix-partners-with-purdue-university-ceremoniall-60bcfce4.html",
+      "title": "SK Hynix partners with Purdue University, ceremonially breaks ground on $4B memory chip facility - WLFI",
+      "tag": "supply",
+      "date": "2026-08-27",
+      "score": 8,
+      "pick": false,
+      "source": "WLFI",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sangyeon-jo-head-of-samsung-us-memory-bandwidth-is-k-98738645",
+      "url": "/stories/sangyeon-jo-head-of-samsung-us-memory-bandwidth-is-k-98738645.html",
+      "title": "Sangyeon Jo, Head of Samsung US: \"Memory Bandwidth Is Key in the AI Era\"...zHBM Commercialization Accelerates - 아시아경제",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "아시아경제",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "smartphone-pc-costs-to-rise-15-to-40-percent-in-vici-898694b8",
+      "url": "/stories/smartphone-pc-costs-to-rise-15-to-40-percent-in-vici-898694b8.html",
+      "title": "Smartphone, PC costs to rise 15 to 40 percent in vicious cycle from commodity DRAM shortage - 디지털투데이",
+      "tag": "supply",
+      "date": "2026-08-27",
+      "score": 8,
+      "pick": false,
+      "source": "디지털투데이",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "sk-hynix-ceo-expects-memory-chip-shortage-to-persist-76ba4f03",
       "url": "/stories/sk-hynix-ceo-expects-memory-chip-shortage-to-persist-76ba4f03.html",
@@ -58,6 +212,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "nvidia-unveils-nvhbm-memory-to-turbocharge-ai-chip-s-def5a2f9",
+      "url": "/stories/nvidia-unveils-nvhbm-memory-to-turbocharge-ai-chip-s-def5a2f9.html",
+      "title": "NVIDIA Unveils NVHBM Memory To Turbocharge AI Chip Speeds By 30% - HotHardware",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "HotHardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "sk-hynix-ceo-dismisses-memory-chip-oversupply-risks-727a3f87",
       "url": "/stories/sk-hynix-ceo-dismisses-memory-chip-oversupply-risks-727a3f87.html",
       "title": "SK Hynix CEO dismisses memory chip oversupply risks, sees crunch till end of 2030 - Nikkei Asia",
@@ -77,6 +242,17 @@
       "score": 7,
       "pick": false,
       "source": "Reuters",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-to-start-ai-chip-output-in-indiana-in-2029-719fd653",
+      "url": "/stories/sk-hynix-to-start-ai-chip-output-in-indiana-in-2029-719fd653.html",
+      "title": "SK Hynix to start AI chip output in Indiana in 2029, sees memory shortage through 2030 - The Korea Times",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "The Korea Times",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
@@ -121,6 +297,17 @@
       "score": 7,
       "pick": false,
       "source": "Tech Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-to-start-ai-chip-volume-production-in-india-7cf8c655",
+      "url": "/stories/sk-hynix-to-start-ai-chip-volume-production-in-india-7cf8c655.html",
+      "title": "SK Hynix to start AI chip volume production in Indiana in 2029 - BNN Bloomberg",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "BNN Bloomberg",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
@@ -176,6 +363,17 @@
       "score": 7,
       "pick": false,
       "source": "ServeTheHome",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "trump-administration-weighs-expanding-chip-tariffs-t-53fd5633",
+      "url": "/stories/trump-administration-weighs-expanding-chip-tariffs-t-53fd5633.html",
+      "title": "Trump administration weighs expanding chip tariffs to laptops, consoles, and servers, report claims — January's data center exemptions may be scrapped - Tom's Hardware",
+      "tag": "demand",
+      "date": "2026-08-27",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
