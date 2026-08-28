@@ -5,11 +5,310 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-08-28T11:21:15.918Z</updated>
+  <updated>2026-08-28T22:17:40.848Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://intelligence.theregister.com/paper/view/20797</id>
+    <title type="html">Warm-Water Ready: Benchmarking Two-Phase Vs. Single-Phase Direct-to-Chip Cooling On An NVIDIA B200 Server</title>
+    <link href="https://intelligence.theregister.com/paper/view/20797" />
+    <link rel="related" href="/stories/warm-water-ready-benchmarking-two-phase-vs-single-ph-8df05cf1.html" />
+    <updated>2026-08-29T00:00:00.000Z</updated>
+    <author><name>The Next Platform</name></author>
+    <summary type="html">To cut energy costs, the cooling technology inside the server increasingly determines both compute performance and facility economics. RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;To cut energy costs, the cooling technology inside the server increasingly determines both compute performance and facility economics.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.servethehome.com/asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-and-workstation-platform/</id>
+    <title type="html">ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform</title>
+    <link href="https://www.servethehome.com/asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-and-workstation-platform/" />
+    <link rel="related" href="/stories/asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-d3fb613e.html" />
+    <updated>2026-08-28T19:13:57.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <summary type="html">In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome . RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTFBlNjFldVg5QlFuU0R6bmpEZXZWdVRQSHk0WThpOHpiWXhMSE5zMWN2UGpnWWhqRVIzLUdxUFJNVHJzQm1jOUVmbGpRU3piOTVDbkFmU1pES08xeU1zcUpyVndBN2c2dF9rM1QwbmZWVk1ETjN2bUE?oc=5</id>
+    <title type="html">MSI Taps Cheaper DDR4 Memory for New Katana 15 Gaming Laptop as DRAM Prices Soar - finance.biggo.com</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBlNjFldVg5QlFuU0R6bmpEZXZWdVRQSHk0WThpOHpiWXhMSE5zMWN2UGpnWWhqRVIzLUdxUFJNVHJzQm1jOUVmbGpRU3piOTVDbkFmU1pES08xeU1zcUpyVndBN2c2dF9rM1QwbmZWVk1ETjN2bUE?oc=5" />
+    <link rel="related" href="/stories/msi-taps-cheaper-ddr4-memory-for-new-katana-15-gamin-44640b74.html" />
+    <updated>2026-08-28T19:07:00.000Z</updated>
+    <author><name>finance.biggo.com</name></author>
+    <summary type="html">MSI Taps Cheaper DDR4 Memory for New Katana 15 Gaming Laptop as DRAM Prices Soar finance.biggo.com RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;MSI Taps Cheaper DDR4 Memory for New Katana 15 Gaming Laptop as DRAM Prices Soar finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/352098/hp-inc-reports-fiscal-2026-third-quarter-results</id>
+    <title type="html">(PR) HP Inc. Reports Fiscal 2026 Third Quarter Results</title>
+    <link href="https://www.techpowerup.com/352098/hp-inc-reports-fiscal-2026-third-quarter-results" />
+    <link rel="related" href="/stories/pr-hp-inc-reports-fiscal-2026-third-quarter-results-431855f4.html" />
+    <updated>2026-08-28T18:53:21.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">HP Inc. and its subsidiaries (&quot;HP&quot;) announced fiscal 2026 third quarter net revenue of $15.7 billion, up 12.5% (up 10.9% in constant currency) from the prior-year period. &quot;In the third quarter we increased both total sales and share in premium products and continued to attract new customers with innovations in WXP, Print, workstations and AI PCs. Our ongoing strategy to address environmental const RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="opml" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;HP Inc. and its subsidiaries (&quot;HP&quot;) announced fiscal 2026 third quarter net revenue of $15.7 billion, up 12.5% (up 10.9% in constant currency) from the prior-year period. &quot;In the third quarter we increased both total sales and share in premium products and continued to attract new customers with innovations in WXP, Print, workstations and AI PCs. Our ongoing strategy to address environmental const&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMid0FVX3lxTFBURTI4YTFWSnZoQjVJTUoxNVRMSjdwb2FHcDhiR1lJQ1V1bS1jei1LNDFXTXZPZUlyWjNHcFJKY0NWRzNaTlhqTUVlaHdSMUJPNUtEQzFVUDhBYmN1VnVFbG16bW42ZVhqNXhXOXNYQi1ndzhtTHZR?oc=5</id>
+    <title type="html">Samsung targets zHBM around 2029, Taylor Fab 2 within 3 years - KED Global</title>
+    <link href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBURTI4YTFWSnZoQjVJTUoxNVRMSjdwb2FHcDhiR1lJQ1V1bS1jei1LNDFXTXZPZUlyWjNHcFJKY0NWRzNaTlhqTUVlaHdSMUJPNUtEQzFVUDhBYmN1VnVFbG16bW42ZVhqNXhXOXNYQi1ndzhtTHZR?oc=5" />
+    <link rel="related" href="/stories/samsung-targets-zhbm-around-2029-taylor-fab-2-within-78dfacb9.html" />
+    <updated>2026-08-28T18:22:28.000Z</updated>
+    <author><name>KED Global</name></author>
+    <summary type="html">Samsung targets zHBM around 2029, Taylor Fab 2 within 3 years KED Global RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Samsung targets zHBM around 2029, Taylor Fab 2 within 3 years KED Global&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/352096/marvell-technology-reports-second-quarter-financial-results-with-usd-2-739-billion-net-revenue</id>
+    <title type="html">(PR) Marvell Technology Reports Second Quarter Financial Results With $2.739 Billion Net Revenue</title>
+    <link href="https://www.techpowerup.com/352096/marvell-technology-reports-second-quarter-financial-results-with-usd-2-739-billion-net-revenue" />
+    <link rel="related" href="/stories/pr-marvell-technology-reports-second-quarter-financi-37de70f2.html" />
+    <updated>2026-08-28T18:12:39.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">Marvell Technology, Inc., a leader in data infrastructure semiconductor solutions, today reported financial results for the second quarter of fiscal year 2027. Net revenue for the second quarter of fiscal 2027 was $2.739 billion, $39.0 million above the mid-point of the Company's guidance provided on May 27, 2026. GAAP net income for the second quarter of fiscal 2027 was $308.0 million, or $0.33 p RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="opml" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Marvell Technology, Inc., a leader in data infrastructure semiconductor solutions, today reported financial results for the second quarter of fiscal year 2027. Net revenue for the second quarter of fiscal 2027 was $2.739 billion, $39.0 million above the mid-point of the Company's guidance provided on May 27, 2026. GAAP net income for the second quarter of fiscal 2027 was $308.0 million, or $0.33 p&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://semiengineering.com/sapphire-surface-modification-enables-wafer-scale-2d-semiconductor-growth-peking-u-cas-et-al/</id>
+    <title type="html">Sapphire Surface Modification Enables Wafer-Scale 2D Semiconductor Growth (Peking U., CAS et al.)</title>
+    <link href="https://semiengineering.com/sapphire-surface-modification-enables-wafer-scale-2d-semiconductor-growth-peking-u-cas-et-al/" />
+    <link rel="related" href="/stories/sapphire-surface-modification-enables-wafer-scale-2d-e5866039.html" />
+    <updated>2026-08-28T17:28:19.000Z</updated>
+    <author><name>SemiEngineering</name></author>
+    <summary type="html">Researchers from Peking University, Chinese Academy of Sciences et al. published a technical paper titled “Homo-metal-element mediated surface modification of sapphire for robust epitaxy of wafer-scale single-crystalline 2D semiconductors.” Abstract Excerpt: The paper presents a “homo-metal-element (W/Mo and Al) surface modification strategy of commercial C/M sapphire” and demonstrates “2-inch sca RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Researchers from Peking University, Chinese Academy of Sciences et al. published a technical paper titled “Homo-metal-element mediated surface modification of sapphire for robust epitaxy of wafer-scale single-crystalline 2D semiconductors.” Abstract Excerpt: The paper presents a “homo-metal-element (W/Mo and Al) surface modification strategy of commercial C/M sapphire” and demonstrates “2-inch sca&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiaEFVX3lxTE05TjFxbE1TLWJqX1Y0VTlmVnNtWU5tcVZUVmVzRzVLZHowb1p0MkJIVkwwWTExc3lJanBHb2dDa0Q0S0NNYUQyQnM0bkFsaFM5WjdzbDVGNVhWdWdPcHVlZWg2c28xVVB3?oc=5</id>
+    <title type="html">CXMT First-Half Results Beat Prior Guidance as DRAM Pricing and Scale Lift the Earnings Base - SoSoValue</title>
+    <link href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE05TjFxbE1TLWJqX1Y0VTlmVnNtWU5tcVZUVmVzRzVLZHowb1p0MkJIVkwwWTExc3lJanBHb2dDa0Q0S0NNYUQyQnM0bkFsaFM5WjdzbDVGNVhWdWdPcHVlZWg2c28xVVB3?oc=5" />
+    <link rel="related" href="/stories/cxmt-first-half-results-beat-prior-guidance-as-dram-6cd4ae58.html" />
+    <updated>2026-08-28T17:25:44.000Z</updated>
+    <author><name>SoSoValue</name></author>
+    <summary type="html">CXMT First-Half Results Beat Prior Guidance as DRAM Pricing and Scale Lift the Earnings Base SoSoValue RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;CXMT First-Half Results Beat Prior Guidance as DRAM Pricing and Scale Lift the Earnings Base SoSoValue&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMigwFBVV95cUxNSHBEaGEtOWJUZWJQZGstOFQ5R2JteDVaN3h6N0RMb0t2QlB3eDV2QkJyT2gyYlZtMXNXNjNDMmRfUmd4aG1iRmJGbVdha0tPbTdLX3NpcVRPd1NRVkpHWERLc0ZCdDJfWGszd1FNTXhtZDJ5X3c2cEo1bE1JQ201SGxyQQ?oc=5</id>
+    <title type="html">Micron stock falls despite rising DRAM prices a... - Pluang</title>
+    <link href="https://news.google.com/rss/articles/CBMigwFBVV95cUxNSHBEaGEtOWJUZWJQZGstOFQ5R2JteDVaN3h6N0RMb0t2QlB3eDV2QkJyT2gyYlZtMXNXNjNDMmRfUmd4aG1iRmJGbVdha0tPbTdLX3NpcVRPd1NRVkpHWERLc0ZCdDJfWGszd1FNTXhtZDJ5X3c2cEo1bE1JQ201SGxyQQ?oc=5" />
+    <link rel="related" href="/stories/micron-stock-falls-despite-rising-dram-prices-a-plua-b37ab171.html" />
+    <updated>2026-08-28T17:13:44.000Z</updated>
+    <author><name>Pluang</name></author>
+    <summary type="html">Micron stock falls despite rising DRAM prices a... Pluang RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Micron stock falls despite rising DRAM prices a... Pluang&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/ddr4/msi-brings-ddr4-back-to-gaming-laptops-amidst-dram-crisis-katana-15-hx-c14-available-with-up-to-core-i9-14900hx-and-rtx-5070</id>
+    <title type="html">MSI brings DDR4 back to gaming laptops amidst DRAM crisis — Katana 15 HX C14 available with up to Core i9-14900HX and RTX 5070</title>
+    <link href="https://www.tomshardware.com/pc-components/ddr4/msi-brings-ddr4-back-to-gaming-laptops-amidst-dram-crisis-katana-15-hx-c14-available-with-up-to-core-i9-14900hx-and-rtx-5070" />
+    <link rel="related" href="/stories/msi-brings-ddr4-back-to-gaming-laptops-amidst-dram-c-ea441d93.html" />
+    <updated>2026-08-28T15:55:43.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.theregister.com/on-prem/2026/08/28/green-party-wants-to-slam-the-brakes-on-uk-datacenter-construction-until-water-and-energy-use-are-sorted/5293338</id>
+    <title type="html">Green Party wants to slam the brakes on UK datacenter construction until water and energy use are sorted</title>
+    <link href="https://www.theregister.com/on-prem/2026/08/28/green-party-wants-to-slam-the-brakes-on-uk-datacenter-construction-until-water-and-energy-use-are-sorted/5293338" />
+    <link rel="related" href="/stories/green-party-wants-to-slam-the-brakes-on-uk-datacente-6938a6ae.html" />
+    <updated>2026-08-28T15:29:57.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">Tree huggers aim to end blanket critical infrastructure status for bit barns and ensure environmental standards are met RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Tree huggers aim to end blanket critical infrastructure status for bit barns and ensure environmental standards are met&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNS1ZUTlKOERDWHJBR0pldlExcjhjeEpiOE1ZVVNZTUhIaFBpT2tmQUs3WFBPUVoxaUJJbVl5bWF3ZjN4NGRLX19XQTc2dU5jS0tWdVFKTFhOeEVyNUhURnRJOFVrMmw5SExfTEF1bUQ1YzFyMjZheXpEOFRCaFRmWTk1Yk9qNTRmOFdSZHB2VHpRT19fMW1zOUF4UTNTVk96cTl1eWJQbWxZZXRCV0ppVU10NGVhY0cxd29uVHNwdjFYbFJjalNrc1E2S0d6VUpHSlNsR0lwaw?oc=5</id>
+    <title type="html">NVIDIA earnings signal durable tailwind for Micron, SK Hynix, and Samsung memory - Investing.com</title>
+    <link href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNS1ZUTlKOERDWHJBR0pldlExcjhjeEpiOE1ZVVNZTUhIaFBpT2tmQUs3WFBPUVoxaUJJbVl5bWF3ZjN4NGRLX19XQTc2dU5jS0tWdVFKTFhOeEVyNUhURnRJOFVrMmw5SExfTEF1bUQ1YzFyMjZheXpEOFRCaFRmWTk1Yk9qNTRmOFdSZHB2VHpRT19fMW1zOUF4UTNTVk96cTl1eWJQbWxZZXRCV0ppVU10NGVhY0cxd29uVHNwdjFYbFJjalNrc1E2S0d6VUpHSlNsR0lwaw?oc=5" />
+    <link rel="related" href="/stories/nvidia-earnings-signal-durable-tailwind-for-micron-s-2ae4f792.html" />
+    <updated>2026-08-28T15:15:58.000Z</updated>
+    <author><name>Investing.com</name></author>
+    <summary type="html">NVIDIA earnings signal durable tailwind for Micron, SK Hynix, and Samsung memory Investing.com RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:Samsung SK Hynix Micron earnings" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;NVIDIA earnings signal durable tailwind for Micron, SK Hynix, and Samsung memory Investing.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUS1rU29ERDVUTHpsNi15a1pvWVFyZ2c1VWJ6aldGSGhuTURIRUVVTEhLWDRzYVF2cmFxbmlUSVlIdTB5V2tfOWpRVjh0bFZxTks5OXVJT0oyUzdqTzdzNnI1UDh2VkF5eFZyeXZ4OU4wd2taY194UndseTh5MVFaMzVneU1VdFBh?oc=5</id>
+    <title type="html">Chinese CXMT Sees 10-Fold Revenue Surge Amid AI-Driven Memory Shortage - 조선일보</title>
+    <link href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUS1rU29ERDVUTHpsNi15a1pvWVFyZ2c1VWJ6aldGSGhuTURIRUVVTEhLWDRzYVF2cmFxbmlUSVlIdTB5V2tfOWpRVjh0bFZxTks5OXVJT0oyUzdqTzdzNnI1UDh2VkF5eFZyeXZ4OU4wd2taY194UndseTh5MVFaMzVneU1VdFBh?oc=5" />
+    <link rel="related" href="/stories/chinese-cxmt-sees-10-fold-revenue-surge-amid-ai-driv-ce1b6465.html" />
+    <updated>2026-08-28T15:04:50.000Z</updated>
+    <author><name>조선일보</name></author>
+    <summary type="html">Chinese CXMT Sees 10-Fold Revenue Surge Amid AI-Driven Memory Shortage 조선일보 RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Chinese CXMT Sees 10-Fold Revenue Surge Amid AI-Driven Memory Shortage 조선일보&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMif0FVX3lxTFByQk9DMXV5blRSbGJfWUVVWDRQY1luVlpxU3U2NldyaHNrLXBWNmtnaFJCTXI4RXFRaGZEc3FNSXRFNDFCUE44RWNyYXlWaXhpMVhlVDZ3bHFOSHl5VTRDaUU3b1NCZmtxWWJ3OU1peUdCQmZFZHJheldqQWlhSEU?oc=5</id>
+    <title type="html">CXMT Returned To Profit As DRAM Prices Jumped - Finimize</title>
+    <link href="https://news.google.com/rss/articles/CBMif0FVX3lxTFByQk9DMXV5blRSbGJfWUVVWDRQY1luVlpxU3U2NldyaHNrLXBWNmtnaFJCTXI4RXFRaGZEc3FNSXRFNDFCUE44RWNyYXlWaXhpMVhlVDZ3bHFOSHl5VTRDaUU3b1NCZmtxWWJ3OU1peUdCQmZFZHJheldqQWlhSEU?oc=5" />
+    <link rel="related" href="/stories/cxmt-returned-to-profit-as-dram-prices-jumped-finimi-07ef6f6d.html" />
+    <updated>2026-08-28T14:45:46.000Z</updated>
+    <author><name>Finimize</name></author>
+    <summary type="html">CXMT Returned To Profit As DRAM Prices Jumped Finimize RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;CXMT Returned To Profit As DRAM Prices Jumped Finimize&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMivgFBVV95cUxQMmdTdDhHLTA2clJIZkJrRURkSTZPaUVpNlF5bVRWcU4wVnM2U2JZN3BaMktveHo1a2lWVnE3QTdYRy1QRklQTDc1Q2hCQTZMaG1rbFVkSUtkQ1VaVHd5TDRiZWdveG5oYVdKMVI5UXh0REk4QW13TEJkVUpQTElxZl9LdnpSZnlVSkh4RVBabjQyb21GZzV2M1FUQTU5ejZXeUt6OHhWUzVtR1M4SFM3T3p3U09oMm1Hd2tYV0VB0gHDAUFVX3lxTFAySTc0MldLd3JSYmtxMFhGSXJoWHl5N2hVcEpNNE5rclNiekRsTFBUVnJQNFhYbW0xX3JCanJRNlpYalAzMVFvemJsNjhRRXJWMzhiUDdzcDJfOEdwWlFYR1VMUUpORnQzSE9kUjU2TXNwMk4wS0VScGd3d2E2QzJmZzdKc29IaDY4bldLbENGMFVvY2Exa2pMdWN2M0FPZEY2ZkNEM2g3UkV2SkVjMjZMOFVzd1kzT0lFRGRrYlZnQW9Jdw?oc=5</id>
+    <title type="html">DRAM Prices Explode 401% as One Kilogram Now Costs as Much as 620 Grams of 24K Gold - Wccftech</title>
+    <link href="https://news.google.com/rss/articles/CBMivgFBVV95cUxQMmdTdDhHLTA2clJIZkJrRURkSTZPaUVpNlF5bVRWcU4wVnM2U2JZN3BaMktveHo1a2lWVnE3QTdYRy1QRklQTDc1Q2hCQTZMaG1rbFVkSUtkQ1VaVHd5TDRiZWdveG5oYVdKMVI5UXh0REk4QW13TEJkVUpQTElxZl9LdnpSZnlVSkh4RVBabjQyb21GZzV2M1FUQTU5ejZXeUt6OHhWUzVtR1M4SFM3T3p3U09oMm1Hd2tYV0VB0gHDAUFVX3lxTFAySTc0MldLd3JSYmtxMFhGSXJoWHl5N2hVcEpNNE5rclNiekRsTFBUVnJQNFhYbW0xX3JCanJRNlpYalAzMVFvemJsNjhRRXJWMzhiUDdzcDJfOEdwWlFYR1VMUUpORnQzSE9kUjU2TXNwMk4wS0VScGd3d2E2QzJmZzdKc29IaDY4bldLbENGMFVvY2Exa2pMdWN2M0FPZEY2ZkNEM2g3UkV2SkVjMjZMOFVzd1kzT0lFRGRrYlZnQW9Jdw?oc=5" />
+    <link rel="related" href="/stories/dram-prices-explode-401-as-one-kilogram-now-costs-as-40ed031f.html" />
+    <updated>2026-08-28T14:35:53.000Z</updated>
+    <author><name>Wccftech</name></author>
+    <summary type="html">DRAM Prices Explode 401% as One Kilogram Now Costs as Much as 620 Grams of 24K Gold Wccftech RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;DRAM Prices Explode 401% as One Kilogram Now Costs as Much as 620 Grams of 24K Gold Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/dram-prices-explode-401-as-one-kilogram-of-korean-memory-now-costs-as-much-as-620-grams-of-24k-gold/</id>
+    <title type="html">DRAM Prices Explode 401% as One Kilogram Now Costs as Much as 620 Grams of 24K Gold</title>
+    <link href="https://wccftech.com/dram-prices-explode-401-as-one-kilogram-of-korean-memory-now-costs-as-much-as-620-grams-of-24k-gold/" />
+    <link rel="related" href="/stories/dram-prices-explode-401-as-one-kilogram-now-costs-as-93cc7916.html" />
+    <updated>2026-08-28T14:35:53.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Owing to the surge in DRAM prices, one kilogram of memory chips manufactured in Korea is now worth as much as 620 grams of gold. The global memory shortage, ushered in by the ongoing AI infrastructure buildout, has led to triple-digit percentage increases in memory chip prices. Owing to the price rises, memory companies SK hynix and Samsung have also paid generous bonuses to their employees, with RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Owing to the surge in DRAM prices, one kilogram of memory chips manufactured in Korea is now worth as much as 620 grams of gold. The global memory shortage, ushered in by the ongoing AI infrastructure buildout, has led to triple-digit percentage increases in memory chip prices. Owing to the price rises, memory companies SK hynix and Samsung have also paid generous bonuses to their employees, with&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/msi-falls-back-on-cheaper-ddr4-for-its-rtx-5070-katana-15-laptop-as-ddr5-prices-skyrocket/</id>
+    <title type="html">MSI Falls Back On Cheaper DDR4 For Its RTX 5070 Katana 15 Laptop As DDR5 Prices Skyrocket</title>
+    <link href="https://wccftech.com/msi-falls-back-on-cheaper-ddr4-for-its-rtx-5070-katana-15-laptop-as-ddr5-prices-skyrocket/" />
+    <link rel="related" href="/stories/msi-falls-back-on-cheaper-ddr4-for-its-rtx-5070-kata-3260bcba.html" />
+    <updated>2026-08-28T14:24:50.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Since DDR5 is expensive, vendors are now going back to DDR4 to make their gaming laptops more affordable. MSI Launches KATANA 15 HX C14W Gaming Laptop; Features DDR4 Memory Coupled With Core i9 14900HX and RTX 5070 Mobile GPU Computers are evolving backwards, and there is a big reason for vendors to opt for older hardware nowadays. We all know the current state of the memory market, but that comes RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Since DDR5 is expensive, vendors are now going back to DDR4 to make their gaming laptops more affordable. MSI Launches KATANA 15 HX C14W Gaming Laptop; Features DDR4 Memory Coupled With Core i9 14900HX and RTX 5070 Mobile GPU Computers are evolving backwards, and there is a big reason for vendors to opt for older hardware nowadays. We all know the current state of the memory market, but that comes&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMingFBVV95cUxPbHZNcmxoUnJYaDlSTjlKREU2RXdHYVBPMi13X2VMNWpWZjhTd0VucFdWWkhoNmxYZzZQc0huUjVkNWFYWE1tZUgyVTMyU3loNGxoRW50dTFfQVZpOXAyLTJBbHFyZWlaYmNCdHVHR2FvMHctTDdWU0djTy1IWjFvS3VfZEFrakVMbEhNV2RHbzVBR0ZZeGtMcEpUamx0Zw?oc=5</id>
+    <title type="html">SK Hynix Bets On Prolonged AI Chip Boom With $4 Billion U.S. HBM Expansion - Tekedia</title>
+    <link href="https://news.google.com/rss/articles/CBMingFBVV95cUxPbHZNcmxoUnJYaDlSTjlKREU2RXdHYVBPMi13X2VMNWpWZjhTd0VucFdWWkhoNmxYZzZQc0huUjVkNWFYWE1tZUgyVTMyU3loNGxoRW50dTFfQVZpOXAyLTJBbHFyZWlaYmNCdHVHR2FvMHctTDdWU0djTy1IWjFvS3VfZEFrakVMbEhNV2RHbzVBR0ZZeGtMcEpUamx0Zw?oc=5" />
+    <link rel="related" href="/stories/sk-hynix-bets-on-prolonged-ai-chip-boom-with-4-billi-b701e4f6.html" />
+    <updated>2026-08-28T14:06:47.000Z</updated>
+    <author><name>Tekedia</name></author>
+    <summary type="html">SK Hynix Bets On Prolonged AI Chip Boom With $4 Billion U.S. HBM Expansion Tekedia RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;SK Hynix Bets On Prolonged AI Chip Boom With $4 Billion U.S. HBM Expansion Tekedia&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/micron-workers-increasingly-support-strike-over-bonus-pay-labor-union-wants-profit-sharing-scheme-as-employees-at-samsung-sk-hynix-enjoy-bonuses-worth-hundreds-of-thousands-of-dollars</id>
+    <title type="html">Micron workers increasingly support strike over bonus pay — labor union wants profit-sharing scheme, as employees at Samsung, SK hynix enjoy bonuses worth hundreds of thousands of dollars</title>
+    <link href="https://www.tomshardware.com/tech-industry/micron-workers-increasingly-support-strike-over-bonus-pay-labor-union-wants-profit-sharing-scheme-as-employees-at-samsung-sk-hynix-enjoy-bonuses-worth-hundreds-of-thousands-of-dollars" />
+    <link rel="related" href="/stories/micron-workers-increasingly-support-strike-over-bonu-81aa409e.html" />
+    <updated>2026-08-28T13:07:55.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdFRWM3pEeC1LaGQ0RURCblBVWHhLZlMwOFFsSUJOZGNBWDREUUczNV9hMWZ1c0gyWGxfSnRKMUZWWDgxS3JQdUJmdTBLWXhBbFlrejZQc2NWRzRfMnV4RXZPRWp5c2NHNDNCT05NNzRlQVZkT3VFbkN1ajZSZTk2QVFqVDY1a3hFQ3hfWklMc01YQkY1MWVsWFI5M0hsUnNNYzdWTTJub3kwMENVSjNYMEZDS2hNSDcwcHlHbFB4MjFtNldQUXpoZThQTk9kN2ZEVmFyTkxB?oc=5</id>
+    <title type="html">Micron’s Chinese rival just reported its first earnings as a public company — and sales are booming - MarketWatch</title>
+    <link href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdFRWM3pEeC1LaGQ0RURCblBVWHhLZlMwOFFsSUJOZGNBWDREUUczNV9hMWZ1c0gyWGxfSnRKMUZWWDgxS3JQdUJmdTBLWXhBbFlrejZQc2NWRzRfMnV4RXZPRWp5c2NHNDNCT05NNzRlQVZkT3VFbkN1ajZSZTk2QVFqVDY1a3hFQ3hfWklMc01YQkY1MWVsWFI5M0hsUnNNYzdWTTJub3kwMENVSjNYMEZDS2hNSDcwcHlHbFB4MjFtNldQUXpoZThQTk9kN2ZEVmFyTkxB?oc=5" />
+    <link rel="related" href="/stories/micron-s-chinese-rival-just-reported-its-first-earni-10033cc9.html" />
+    <updated>2026-08-28T13:01:00.000Z</updated>
+    <author><name>MarketWatch</name></author>
+    <summary type="html">Micron’s Chinese rival just reported its first earnings as a public company — and sales are booming MarketWatch RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:Samsung SK Hynix Micron earnings" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Micron’s Chinese rival just reported its first earnings as a public company — and sales are booming MarketWatch&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMilgFBVV95cUxPeUVVbkwtYkxZZGg4dDBFY3ktaW5fVXNXTU01RVBWVFNybkVsMzlvTHE5eFBpTDQxNVJKd3NrQm5zQWRKM1I2a2hxS0NjZEtNZGtMRVhPUmlnUWd5X2F1VGVvUHQwbXRnUVNoVnpaaVhDZkpqa3dZYjRPSVIwczNiLTU0YUxmUlp3M0ttdjB3dUJ5eUcxTGc?oc=5</id>
+    <title type="html">Nvidia's Margin Pressure Is Micron's Revenue Boost - The Motley Fool</title>
+    <link href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPeUVVbkwtYkxZZGg4dDBFY3ktaW5fVXNXTU01RVBWVFNybkVsMzlvTHE5eFBpTDQxNVJKd3NrQm5zQWRKM1I2a2hxS0NjZEtNZGtMRVhPUmlnUWd5X2F1VGVvUHQwbXRnUVNoVnpaaVhDZkpqa3dZYjRPSVIwczNiLTU0YUxmUlp3M0ttdjB3dUJ5eUcxTGc?oc=5" />
+    <link rel="related" href="/stories/nvidia-s-margin-pressure-is-micron-s-revenue-boost-t-611f729c.html" />
+    <updated>2026-08-28T12:57:00.000Z</updated>
+    <author><name>The Motley Fool</name></author>
+    <summary type="html">Nvidia's Margin Pressure Is Micron's Revenue Boost The Motley Fool RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:Samsung SK Hynix Micron earnings" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Nvidia's Margin Pressure Is Micron's Revenue Boost The Motley Fool&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMimwFBVV95cUxNdC1iUmdVMnFsYTFoNUhzeTQ3ZzRRdkladS1nN01xZUdYbUxSSWZoTW5uTmF6TjVKQTVrVEppZmFET0dzMGNVOGRCeXFQMDhZWko4VHRURWhLNnVOWGVPV3JkVC1fcVU0SHdXLUM3SDJ5Q2Q1VzNFandDU1pPYmIxUWtFWXhnQ3V1R240X2htNmd1RUNQRUw0M0hkcw?oc=5</id>
+    <title type="html">CXMT Earnings Ramp Up Memory Chip War With Micron, SK Hynix, Samsung - Barron's</title>
+    <link href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNdC1iUmdVMnFsYTFoNUhzeTQ3ZzRRdkladS1nN01xZUdYbUxSSWZoTW5uTmF6TjVKQTVrVEppZmFET0dzMGNVOGRCeXFQMDhZWko4VHRURWhLNnVOWGVPV3JkVC1fcVU0SHdXLUM3SDJ5Q2Q1VzNFandDU1pPYmIxUWtFWXhnQ3V1R240X2htNmd1RUNQRUw0M0hkcw?oc=5" />
+    <link rel="related" href="/stories/cxmt-earnings-ramp-up-memory-chip-war-with-micron-sk-86787d62.html" />
+    <updated>2026-08-28T12:49:00.000Z</updated>
+    <author><name>Barron's</name></author>
+    <summary type="html">CXMT Earnings Ramp Up Memory Chip War With Micron, SK Hynix, Samsung Barron's RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:Samsung SK Hynix Micron earnings" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;CXMT Earnings Ramp Up Memory Chip War With Micron, SK Hynix, Samsung Barron's&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQVZRa0xnbVlIYnJXdDBNa3E0NDZKSkItVF9xajRZbDNZRDhpYlJYd0tzd3diNURrczJCdFRDb0FrckVWc0pUU1FvZV8tX21xVW93a1hfSm43YWwzek9FRlNKR1VqVEhZeThFVDcxTjc4cnczODF0dGdVT3Q1WUlTTV9QdUVESFdv?oc=5</id>
+    <title type="html">Trump Administration Revives Semiconductor Tariff Pressure on South Korea - 조선일보</title>
+    <link href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQVZRa0xnbVlIYnJXdDBNa3E0NDZKSkItVF9xajRZbDNZRDhpYlJYd0tzd3diNURrczJCdFRDb0FrckVWc0pUU1FvZV8tX21xVW93a1hfSm43YWwzek9FRlNKR1VqVEhZeThFVDcxTjc4cnczODF0dGdVT3Q1WUlTTV9QdUVESFdv?oc=5" />
+    <link rel="related" href="/stories/trump-administration-revives-semiconductor-tariff-pr-447ce27a.html" />
+    <updated>2026-08-28T12:22:19.000Z</updated>
+    <author><name>조선일보</name></author>
+    <summary type="html">Trump Administration Revives Semiconductor Tariff Pressure on South Korea 조선일보 RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.</summary>
+    <category term="google-news:memory semiconductor tariff" />
+    <category term="tag:macro" />
+    
+    <content type="html">&lt;p&gt;Trump Administration Revives Semiconductor Tariff Pressure on South Korea 조선일보&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Deterministic MACRO signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/power-supplies/msi-mpg-ai1600ts-pcie5-1600w-power-supply-review</id>
     <title type="html">MSI MPG Ai1600TS PCIE5 1600W power supply review: GPU Safeguard+ protection with Titanium effeciency</title>
@@ -21,7 +320,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/phones/android/google-clamps-down-on-android-app-ram-usage-amid-ai-memory-crisis-developers-have-until-february-2027-to-adapt-to-new-memory-optimizing-rules</id>
@@ -34,7 +333,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/apple-m6-validates-tsmc-2nm-process-a20-pro-launch-holds-more-weight/</id>
@@ -47,7 +346,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;The M6 might be Apple’s first 2nm chipset thanks to its long-standing partnership with TSMC, but there’s a massive difference between having bragging rights over adopting a newer lithography and how well it’s going to be adopted. For the new Apple Silicon, a new report states that its importance is limited to proving that TSMC’s 2nm node is ready for the mass market. As for increasing the share of&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The M6 might be Apple’s first 2nm chipset thanks to its long-standing partnership with TSMC, but there’s a massive difference between having bragging rights over adopting a newer lithography and how well it’s going to be adopted. For the new Apple Silicon, a new report states that its importance is limited to proving that TSMC’s 2nm node is ready for the mass market. As for increasing the share of&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/ssds/samsungs-new-2tb-990-ssd-is-36-percent-off-at-amazon-nearly-usd200-off-this-gen-4-all-rounder</id>
@@ -60,7 +359,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/gpus/modders-get-leaked-dlss-5-running-in-control-early-blackwell-test-drops-rtx-5070-ti-from-71-to-35-fps-at-4k</id>
@@ -73,7 +372,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/dram/sk-hynix-breaks-ground-on-the-first-hbm-plant-in-the-us-bringing-key-ai-component-production-to-the-states-says-production-starts-in-2029</id>
@@ -86,7 +385,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/64gb-sandisk-ssd-survives-16-year-9-petabyte-endurance-test/</id>
@@ -99,7 +398,20 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;The first wave of consumer-grade SATA SSDs arrived in the 64GB and 128GB capacities, and for the storage they offered, buyers had to pay a premium. Thankfully, based on the torture test showcased by a user, a SanDisk solid-state drive with 64GB storage has gone through a 16-year gauntlet, surpassing not just 9 petabytes of written data but also recording more than 140,000 write cycles. However, th&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The first wave of consumer-grade SATA SSDs arrived in the 64GB and 128GB capacities, and for the storage they offered, buyers had to pay a premium. Thankfully, based on the torture test showcased by a user, a SanDisk solid-state drive with 64GB storage has gone through a 16-year gauntlet, surpassing not just 9 petabytes of written data but also recording more than 140,000 write cycles. However, th&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTFB1bDI0eE9hSXB4V1c2Y04xWjVXbDdpd213bXNVdndoV19JSjBHWFRCMHZ2LUo1U3I3UW1UbDBFcE5WLUcyNWJYcHN3RWR4SWVaajZ2MkQwSzJzMlB1NFJqQWxwM2VVR2hKOUI1S3VFMnQ5QVRCRHc?oc=5</id>
+    <title type="html">DDR5 Prices Surge Fivefold in a Year — China's HBM Obsession Creates a Legacy DRAM Shortage Paradox - finance.biggo.com</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTFB1bDI0eE9hSXB4V1c2Y04xWjVXbDdpd213bXNVdndoV19JSjBHWFRCMHZ2LUo1U3I3UW1UbDBFcE5WLUcyNWJYcHN3RWR4SWVaajZ2MkQwSzJzMlB1NFJqQWxwM2VVR2hKOUI1S3VFMnQ5QVRCRHc?oc=5" />
+    <link rel="related" href="/stories/ddr5-prices-surge-fivefold-in-a-year-china-s-hbm-obs-f7029c08.html" />
+    <updated>2026-08-28T08:35:00.000Z</updated>
+    <author><name>finance.biggo.com</name></author>
+    <summary type="html">DDR5 Prices Surge Fivefold in a Year — China's HBM Obsession Creates a Legacy DRAM Shortage Paradox finance.biggo.com RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;DDR5 Prices Surge Fivefold in a Year — China's HBM Obsession Creates a Legacy DRAM Shortage Paradox finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi6AFBVV95cUxNY1VYYVhrZ2k4dzBSbzB0bTg0cmNtV1ZnQWdSeVA1dHZ3TWRoT0c5ekZ4QWF0MTY0UGpkd0pBYVo0ODJSd2VaLUszWkt1V1NmXzlzTi1CaE5yTVJHY2h2eVEzU3ZzVGJaYUFiOXhoQ2ExZ1BIb2JMTVNwTldKcF9QNzF2Qld5QzJOTmgyYUJ4ZUFaZHVSUTBqUl8xTmFTNnVfbzdnbTBxajhDNE5XdTMwQ0FhRnN5cFM5OERkSWJIR180bThIbnZXUDZPeGJ0VVZZVl9mWElad3Q1YnBnRWZvQVVhd2hzQzBm?oc=5</id>
@@ -112,7 +424,20 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;SK Hynix starts work on US$4 billion Indiana AI memory hub, expects shortage through 2030 The Business Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SK Hynix starts work on US$4 billion Indiana AI memory hub, expects shortage through 2030 The Business Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiswFBVV95cUxQM1lMYUNUVDV0ekFpYk1WTGdSRkVCdWN4aF9WNHlUWjN2b0lxS1M5RXpZQkM0LW5HMGVlR1FvTTFqN0lmc29hb0tUWW9Kb3doUmlFRU9wYnZYcFZCOWI0NDd3ZFBqRmVfNG52enlCemR4d2dvblFUeFJ3SW16OGRBZFJVbjduQTNBUG5KZGU0QUtELUxZQWlCYkpFbWNSV1FDTGR2TmNiZDBnZWdZb3ZUYU1MSQ?oc=5</id>
+    <title type="html">SK Hynix starts construction of $5 billion memory hub in US state of Indiana - The Straits Times</title>
+    <link href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQM1lMYUNUVDV0ekFpYk1WTGdSRkVCdWN4aF9WNHlUWjN2b0lxS1M5RXpZQkM0LW5HMGVlR1FvTTFqN0lmc29hb0tUWW9Kb3doUmlFRU9wYnZYcFZCOWI0NDd3ZFBqRmVfNG52enlCemR4d2dvblFUeFJ3SW16OGRBZFJVbjduQTNBUG5KZGU0QUtELUxZQWlCYkpFbWNSV1FDTGR2TmNiZDBnZWdZb3ZUYU1MSQ?oc=5" />
+    <link rel="related" href="/stories/sk-hynix-starts-construction-of-5-billion-memory-hub-2158ad18.html" />
+    <updated>2026-08-28T04:21:00.000Z</updated>
+    <author><name>The Straits Times</name></author>
+    <summary type="html">SK Hynix starts construction of $5 billion memory hub in US state of Indiana The Straits Times RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;SK Hynix starts construction of $5 billion memory hub in US state of Indiana The Straits Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhWnVOWU5EcDRCX1lTWWdPMkcxZXIyOE13SGNKR1o2a2xVV2F1OXBxbWJmX2pXYkxGUkNRX1RrcjhDNjRhclVRWEdrZjZ1NkJXME1WSDVnN1VwYnJoZUZ6M05rRGs3NjFo?oc=5</id>
@@ -125,7 +450,20 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Samsung and SK hynix Reportedly Joining Qualcomm's AI Memory Project XenoSpectrum&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung and SK hynix Reportedly Joining Qualcomm's AI Memory Project XenoSpectrum&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTFBnaERpTElwYXhFZ1NJRk4ydHJGakZvLVVBWl9VWFF1UTRmVGFJWUh0UTR0VVRYWkhPZk5KX3g0NkhUaU1KNkR4ODgwR0thVzdRaVdpX2RULU1UWHFwd2hpcDJVOHhqdHZJN3MtWUc4emhTdGxkWEE?oc=5</id>
+    <title type="html">SK Hynix CEO Kwak Noh-jung: Memory chip shortage expected to last through end of 2030, AI customization demand reshapes industry cycles - finance.biggo.com</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBnaERpTElwYXhFZ1NJRk4ydHJGakZvLVVBWl9VWFF1UTRmVGFJWUh0UTR0VVRYWkhPZk5KX3g0NkhUaU1KNkR4ODgwR0thVzdRaVdpX2RULU1UWHFwd2hpcDJVOHhqdHZJN3MtWUc4emhTdGxkWEE?oc=5" />
+    <link rel="related" href="/stories/sk-hynix-ceo-kwak-noh-jung-memory-chip-shortage-expe-6fc802c6.html" />
+    <updated>2026-08-28T02:25:00.000Z</updated>
+    <author><name>finance.biggo.com</name></author>
+    <summary type="html">SK Hynix CEO Kwak Noh-jung: Memory chip shortage expected to last through end of 2030, AI customization demand reshapes industry cycles finance.biggo.com RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;SK Hynix CEO Kwak Noh-jung: Memory chip shortage expected to last through end of 2030, AI customization demand reshapes industry cycles finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMimAFBVV95cUxQbEpNcHU1Nnl3dTh3dnROS0VRaVl2RW1hQ0F1d09JdkV1WFpvZHg1amUwM3dqTWVKc05vZkFsNUZYSnJvUS1LSkxxcVlMQjhOaGhrRVh1bk02RmdMY09EbWdZTV83X0VoMm5yOE9XWkl1Q0NrTWpGTGxPTHFoM0RjRXB4bWhRSFEySmxZeUJMS3lFcXYxdHpJWg?oc=5</id>
@@ -138,7 +476,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;SK Hynix (SKHY.US) Invests $4 Billion to Build First U.S. Plant, Aiming to Become a Key HBM Production Hub by 2030 Moomoo&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SK Hynix (SKHY.US) Invests $4 Billion to Build First U.S. Plant, Aiming to Become a Key HBM Production Hub by 2030 Moomoo&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhS1o4a194Z3V3MjZwSU1xMi1GWDdWWFVrZHpBM1hEUWNUWHRndVhTU3V1VmVYN3UwQ0JmTjVxYVpGMmVSMjctZUo5bjFYbjk0cC1IYUp5c0N4QlHSAVdBVV95cUxOSmV1ZmRfMVAyYUxMcl80dTlHUzhuQVJBUlBIMk5BUFJRWEFYYlY4TnRSbkNVRGtxU2hsMWk3N2J3dWpERlk0aEJkT1ZBUW93eDdxV1hrSVE?oc=5</id>
@@ -151,7 +489,20 @@
     <category term="google-news:memory semiconductor tariff" />
     <category term="tag:macro" />
     
-    <content type="html">&lt;p&gt;ANALYSIS: US tariff push tests Koreas memory red line Aju Press&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Deterministic MACRO signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;ANALYSIS: US tariff push tests Koreas memory red line Aju Press&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiswFBVV95cUxONWpEdTNxTXFiSzRscW5KM1NIZk9vRVNCZXJSdnRaOVNFaWMtX2dQS3EwSDAxd1JLWHdUMEVIbzRfX1A2MGpidElHS3lkY1dJUnZpRkxibURIS2JUT2F3LTlMN1JaeUtGSVJFX0tacUdHbnVpeE1PMGxidGRCUG14ejd3WlRmMEhscGtJUXoyVm5Zb1I3Rm55d2lCbjdXWWJ0MUdnNHo1TndqS1ppbjA1Mkotdw?oc=5</id>
+    <title type="html">SK Hynix Starts US AI Chip Output, Sees Chip Shortage in 2030 - CEO Insights Asia</title>
+    <link href="https://news.google.com/rss/articles/CBMiswFBVV95cUxONWpEdTNxTXFiSzRscW5KM1NIZk9vRVNCZXJSdnRaOVNFaWMtX2dQS3EwSDAxd1JLWHdUMEVIbzRfX1A2MGpidElHS3lkY1dJUnZpRkxibURIS2JUT2F3LTlMN1JaeUtGSVJFX0tacUdHbnVpeE1PMGxidGRCUG14ejd3WlRmMEhscGtJUXoyVm5Zb1I3Rm55d2lCbjdXWWJ0MUdnNHo1TndqS1ppbjA1Mkotdw?oc=5" />
+    <link rel="related" href="/stories/sk-hynix-starts-us-ai-chip-output-sees-chip-shortage-26b46e60.html" />
+    <updated>2026-08-28T00:04:38.000Z</updated>
+    <author><name>CEO Insights Asia</name></author>
+    <summary type="html">SK Hynix Starts US AI Chip Output, Sees Chip Shortage in 2030 CEO Insights Asia RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;SK Hynix Starts US AI Chip Output, Sees Chip Shortage in 2030 CEO Insights Asia&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYmhUUGYzYVVBaXRic3N6OVlDR3ZUbVpsbDlYOXJCNG1wWFRJLTlzLTllUmJNT1V3VF9jd1lLV01WNHZtYzZ4S2VwVmlTU19rMFBqSG16YWZ2WUNzMjM5WEEtSXN4VHdPZWd4SlhhUi1xYWtYY1RBVS05LTllT3N3QVRpcHZWTUpyTkNXbVdtQXNmLTlhd3RQM01wQ0lDVC1wT2xmX19sU2JfaGcza0NsRGR1cEVwZ0pqcnEyVFdOblpGd9IB1gFBVV95cUxQelJhY2hLdGVxcG5DSFdheU9DNHk5aGhFT0ZNMG1OM3FyZElSWFJrUi1QSHVSandNNkZmeXNBME8wSmdEV000NExpRF8tSkpsZ1Y3S1BpSFNpaXlPZUpBZXZsT3Y1SnRZLVQtLVZXeF9zQU56Y1NwNG82VHpwOVpjTUN5cmNrSGxPcjVGTEFOaV8wOUdMZU5iSUQ4TzJqUjdGLWkyTUQ5dGhXdEFVSy1TcGZSTGhYd0VTWFY4bFRKU200R29LWXdrUEIxUzBXWlBVemxmNExB?oc=5</id>
@@ -164,7 +515,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;SK Hynix partners with Purdue University, ceremonially breaks ground on $4B memory chip facility WLFI&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SK Hynix partners with Purdue University, ceremonially breaks ground on $4B memory chip facility WLFI&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiZEFVX3lxTE95ZExYd21Hd2lIYnpMODdMR25rUzJVMjkyQ0xnc0hXREJONlhEU1l6cjEtOURtcVFqdlVzazhRMFR1Q0tnVUlVZ1V6WEZnM29nVHFUdTQ3ZnFfTjItTHBIcFpQVUM?oc=5</id>
@@ -177,7 +528,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Sangyeon Jo, Head of Samsung US: &quot;Memory Bandwidth Is Key in the AI Era&quot;...zHBM Commercialization Accelerates 아시아경제&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Sangyeon Jo, Head of Samsung US: &quot;Memory Bandwidth Is Key in the AI Era&quot;...zHBM Commercialization Accelerates 아시아경제&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbW1Gb1pXRlFrNmhfUzh4cWpBclZ6TEtEYmZFU0M0cU43d3Z2WHprTmlaZ3ZqQnBZUHV5dnEwaWxiSVFkTFFPeGo0Y2lVaV8yVGkydDFaaWlJSFVxQjBLRUgzTmhfQVQtVE9nYVk2bHBOZmJFM0xpMWg0MENpV01IVTFyNFdkc1hSaGs0dTR5XzZ3TFIwSHV0eGlhYmw1VXFRbTFNZkZVazFmZjRkNmJEcmx3MnNia1Rid0VHRGowZGdRNzZlZGxPVFlwdG9IR2pa?oc=5</id>
@@ -190,7 +541,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Smartphone, PC costs to rise 15 to 40 percent in vicious cycle from commodity DRAM shortage 디지털투데이&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Smartphone, PC costs to rise 15 to 40 percent in vicious cycle from commodity DRAM shortage 디지털투데이&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiogFBVV95cUxPbVRkaktXYUdFVmNnOGt6THlXbm1vZGphbUM0VU9nbEUzSXR6ZURaU0NLcHYyWHczbS12cUJveE9nc2lsWjVJUjdfaW5Xc3hjdWJEbXFiNFVBcXdiRS05MWVoZkVmMGhVdDEyUHEwMWc0cFgwUE5rQmNJaWViOERpdmctUkx4R1B4MVktaHNNTUtfQ2pFS1VBZkFwendGXzMxZEE?oc=5</id>
@@ -268,7 +619,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;NVIDIA Unveils NVHBM Memory To Turbocharge AI Chip Speeds By 30% HotHardware&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;NVIDIA Unveils NVHBM Memory To Turbocharge AI Chip Speeds By 30% HotHardware&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMizgFBVV95cUxPSXpseUxGek13YkxfY0pESDZ6Y25SLU5rNFM5ZkdtRFpRTlg1dmJfZTNzbnY5TmV4ZVNRTUR1QkhOVnZDaTE4UGNBUml2QnU5ZFBoNEMwQWY5VFQ3Sy15Tnl6NFYwZ2kwaWJaMlp4Zl9wV1dET0xpc0F6X0pVdXZnZFkyTEhTb2psTGVJWjRSTVE3UFMxajNUbHdpTThUaml0YVoxaXFmLWtnU0dSbFc5ZjBKemdMdjZlaUpDVzZKRW5rNXZEbWd4Xzd0SDlIUQ?oc=5</id>
@@ -307,7 +658,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;SK Hynix to start AI chip output in Indiana in 2029, sees memory shortage through 2030 The Korea Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SK Hynix to start AI chip output in Indiana in 2029, sees memory shortage through 2030 The Korea Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMirwFBVV95cUxQbm5QX1RqcTBWWkI2c3pzQzlmTE9mbm5heGo4UkhrWDU4NGRFbHl1RFE1amppWWV2TEVHUHJ5RmFYUllIc0dLV21yNU9XQTJ4M21hWWFzMlE2WVFaY3QtaFdoU0RuN196MG42UHlnalVmTW9TaFZObzdSSEowNEg0S05QSkNkNURvUnZMZmxEU1dZT3h4WTNPMWJ3SXphVjZlc1BSc18tQUFjbTdsOTFN0gGvAUFVX3lxTFBublBfVGpxMFZaQjZzenNDOWZMT2ZubmF4ajhSSGtYNTg0ZEVseXVEUTVqamlZZXZMRUdQcnlGYVhSWUhzR0tXbXI1T1dBMngzbWFZYXMyUTZZUVpjdC1oV2hTRG43X3owbjZQeWdqVWZNb1NoVk5vN1JISjA0SDRLTlBKQ2Q1RG9SdkxmbERTV1lPeHhZM08xYndJemFWNmVzUFJzXy1BQWNtN2w5MU0?oc=5</id>
@@ -372,7 +723,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;SK Hynix to start AI chip volume production in Indiana in 2029 BNN Bloomberg&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SK Hynix to start AI chip volume production in Indiana in 2029 BNN Bloomberg&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/352047/sk-hynix-breaks-ground-on-u-s-hbm-fab-in-indiana-targets-mass-production-by-q2-2029</id>
@@ -450,7 +801,7 @@
     <category term="google-news:memory semiconductor tariff" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Trump administration weighs expanding chip tariffs to laptops, consoles, and servers, report claims — January's data center exemptions may be scrapped Tom's Hardware&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Trump administration weighs expanding chip tariffs to laptops, consoles, and servers, report claims — January's data center exemptions may be scrapped Tom's Hardware&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/policy/trump-administration-weighs-expanding-chip-tariffs-to-laptops-consoles-and-servers</id>
