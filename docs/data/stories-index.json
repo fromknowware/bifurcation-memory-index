@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-28T22:17:42.718Z",
-  "count": 335,
+  "generatedAt": "2026-08-29T07:02:50.117Z",
+  "count": 338,
   "stories": [
+    {
+      "slug": "cxmt-soars-on-ai-fueled-dram-boom-challenges-us-mili-31b0f69d",
+      "url": "/stories/cxmt-soars-on-ai-fueled-dram-boom-challenges-us-mili-31b0f69d.html",
+      "title": "CXMT soars on AI-fueled DRAM boom, challenges US military label - CHOSUNBIZ - Chosunbiz",
+      "tag": "supply",
+      "date": "2026-08-29",
+      "score": 8,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "warm-water-ready-benchmarking-two-phase-vs-single-ph-8df05cf1",
       "url": "/stories/warm-water-ready-benchmarking-two-phase-vs-single-ph-8df05cf1.html",
@@ -12,6 +23,28 @@
       "pick": false,
       "source": "The Next Platform",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "tsmc-bonuses-surge-50-and-outpace-revenue-growth-as-fb067f5b",
+      "url": "/stories/tsmc-bonuses-surge-50-and-outpace-revenue-growth-as-fb067f5b.html",
+      "title": "TSMC Bonuses Surge 50% and Outpace Revenue Growth, as SEC filings Expose the AI Talent War’s Real Cost",
+      "tag": "fab",
+      "date": "2026-08-28",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "micron-mu-stock-today-august-28-2026-the-eastern-her-60fe8f76",
+      "url": "/stories/micron-mu-stock-today-august-28-2026-the-eastern-her-60fe8f76.html",
+      "title": "Micron (MU) Stock Today — August 28, 2026 - The Eastern Herald",
+      "tag": "supply",
+      "date": "2026-08-28",
+      "score": 8,
+      "pick": false,
+      "source": "The Eastern Herald",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-d3fb613e",
