@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-08-29T07:02:50.117Z",
-  "count": 338,
+  "generatedAt": "2026-08-29T16:42:06.023Z",
+  "count": 344,
   "stories": [
+    {
+      "slug": "cxmt-officially-starts-mass-production-of-lpddr6-mem-0a3a1cc7",
+      "url": "/stories/cxmt-officially-starts-mass-production-of-lpddr6-mem-0a3a1cc7.html",
+      "title": "CXMT Officially Starts Mass Production of LPDDR6 Memory",
+      "tag": "supply",
+      "date": "2026-08-29",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "1-kg-of-dram-now-costs-the-same-as-620-grams-of-pure-f855f20a",
+      "url": "/stories/1-kg-of-dram-now-costs-the-same-as-620-grams-of-pure-f855f20a.html",
+      "title": "1 KG of DRAM Now Costs the Same as 620 Grams of Pure Gold - eTeknix",
+      "tag": "supply",
+      "date": "2026-08-29",
+      "score": 8,
+      "pick": false,
+      "source": "eTeknix",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ram-and-ddr5-prices-statistics-2026-shane-the-gamer-fe9fdb36",
+      "url": "/stories/ram-and-ddr5-prices-statistics-2026-shane-the-gamer-fe9fdb36.html",
+      "title": "RAM and DDR5 Prices Statistics (2026) - Shane the Gamer",
+      "tag": "supply",
+      "date": "2026-08-29",
+      "score": 8,
+      "pick": false,
+      "source": "Shane the Gamer",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "microsoft-backed-ai-data-center-faces-backlash-over-9be7da09",
+      "url": "/stories/microsoft-backed-ai-data-center-faces-backlash-over-9be7da09.html",
+      "title": "Microsoft-backed AI data center faces backlash over alleged unpermitted gas turbines and 1.5M-gallon LNG tank — groups' issues with $19.4B facility range from illegal construction to noise pollution",
+      "tag": "demand",
+      "date": "2026-08-29",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "memory-chip-prices-to-stay-high-through-2027-as-ai-d-fd581a10",
+      "url": "/stories/memory-chip-prices-to-stay-high-through-2027-as-ai-d-fd581a10.html",
+      "title": "Memory chip prices to stay high through 2027 as AI drives demand, favoring DRAM ETF investments. - Pluang",
+      "tag": "supply",
+      "date": "2026-08-29",
+      "score": 8,
+      "pick": false,
+      "source": "Pluang",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "cxmt-soars-on-ai-fueled-dram-boom-challenges-us-mili-31b0f69d",
       "url": "/stories/cxmt-soars-on-ai-fueled-dram-boom-challenges-us-mili-31b0f69d.html",
@@ -12,6 +67,17 @@
       "pick": false,
       "source": "Chosunbiz",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-nvhbm-custom-memory-is-expected-to-surpass-hb-5736c0af",
+      "url": "/stories/nvidia-nvhbm-custom-memory-is-expected-to-surpass-hb-5736c0af.html",
+      "title": "NVIDIA NVHBM: Custom memory is expected to surpass HBM4E by 30 percent in bandwidth - igor´sLAB",
+      "tag": "demand",
+      "date": "2026-08-29",
+      "score": 7,
+      "pick": false,
+      "source": "igor´sLAB",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "warm-water-ready-benchmarking-two-phase-vs-single-ph-8df05cf1",
