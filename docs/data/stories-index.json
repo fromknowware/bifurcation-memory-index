@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-08-30T05:22:11.761Z",
-  "count": 351,
+  "generatedAt": "2026-08-30T11:52:54.010Z",
+  "count": 356,
   "stories": [
+    {
+      "slug": "china-s-top-dram-maker-cxmt-sues-pentagon-over-its-b-a41bce60",
+      "url": "/stories/china-s-top-dram-maker-cxmt-sues-pentagon-over-its-b-a41bce60.html",
+      "title": "China's top DRAM maker CXMT sues Pentagon over its blacklisting — argues chips are standard civilian JEDEC spec, not defense hardware",
+      "tag": "supply",
+      "date": "2026-08-30",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "corsair-rm1000e-2026-thermalprotect-power-supply-rev-286195f9",
+      "url": "/stories/corsair-rm1000e-2026-thermalprotect-power-supply-rev-286195f9.html",
+      "title": "Corsair RM1000e (2026) ThermalProtect power supply review: Temperature-sensing 12V-2x6 cable shuts the GPU down before a connector can melt",
+      "tag": "supply",
+      "date": "2026-08-30",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hybrid-hbm-hbf-architecture-in-llm-inference-univers-9bc8b3b7",
+      "url": "/stories/hybrid-hbm-hbf-architecture-in-llm-inference-univers-9bc8b3b7.html",
+      "title": "Hybrid HBM-HBF Architecture in LLM Inference (University of Oxford)",
+      "tag": "demand",
+      "date": "2026-08-30",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "kioxia-s-5-trillion-capacity-expansion-hides-a-strat-629aecf3",
+      "url": "/stories/kioxia-s-5-trillion-capacity-expansion-hides-a-strat-629aecf3.html",
+      "title": "Kioxia's ¥5 Trillion Capacity Expansion Hides a Strategic Play: NAND Supply Becomes a Bargaining Chip in the AI Era - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-08-30",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "chinese-cxmt-s-earnings-surprise-challenges-samsung-a0579c93",
       "url": "/stories/chinese-cxmt-s-earnings-surprise-challenges-samsung-a0579c93.html",
@@ -23,6 +67,17 @@
       "pick": false,
       "source": "Investing.com South Africa",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "mu-sndk-dram-dip-overnight-as-memory-stocks-feel-wei-5695ded4",
+      "url": "/stories/mu-sndk-dram-dip-overnight-as-memory-stocks-feel-wei-5695ded4.html",
+      "title": "MU, SNDK, DRAM Dip Overnight As Memory Stocks Feel Weight Of Samsung’s Post-Earnings Selloff - Stocktwits",
+      "tag": "earnings",
+      "date": "2026-08-29",
+      "score": 7,
+      "pick": false,
+      "source": "Stocktwits",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "dram-and-nand-flash-combination-of-non-flagship-smar-742b1a3d",
