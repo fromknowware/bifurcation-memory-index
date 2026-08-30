@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-08-30T16:39:19.828Z</updated>
+  <updated>2026-08-30T21:03:41.783Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.techpowerup.com/352156/sk-hynix-ceo-says-memory-shortage-will-last-through-2030</id>
+    <title type="html">SK hynix CEO Says Memory Shortage Will Last Through 2030</title>
+    <link href="https://www.techpowerup.com/352156/sk-hynix-ceo-says-memory-shortage-will-last-through-2030" />
+    <link rel="related" href="/stories/sk-hynix-ceo-says-memory-shortage-will-last-through-9b4a7c66.html" />
+    <updated>2026-08-30T19:45:35.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">SK hynix expects the current memory shortage to persist through the end of 2030, with no clear signs of a slowdown yet, according to CEO Kwak Noh-Jung. Speaking after the company's groundbreaking ceremony for its new Indiana packaging facility , Kwak said any eventual slowdown would likely be the result of a gradual easing rather than the sharp price crashes memory markets have previously seen, pe RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;SK hynix expects the current memory shortage to persist through the end of 2030, with no clear signs of a slowdown yet, according to CEO Kwak Noh-Jung. Speaking after the company's groundbreaking ceremony for its new Indiana packaging facility , Kwak said any eventual slowdown would likely be the result of a gradual easing rather than the sharp price crashes memory markets have previously seen, pe&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiugFBVV95cUxNWmtWbEl0UUxVaERGX3kwOWtCUWRGenBuTkhvUWlCUTU3OHl1OUwtVVduQ0hDWUlRY1JyZHRDaWJJY3BfdmtHZld0eHdPVFJDaFVhc052N0tMX2NPVGtzUnowWGFBdGtncW1pOEtJTENNUHlGcDdnQWVIeUhKbDZNaUlIdUdydlhXQlc3NTBjckZyN2stN3ZhYU04Vmp4VWxHaHlrQVRUVndmenF4T0RqRTB3U2lzbFA3Umc?oc=5</id>
+    <title type="html">Framework Desktop with Ryzen AI Max+ PRO 495 gets 6.6% higher memory bandwidth and 192GB RAM - VideoCardz.com</title>
+    <link href="https://news.google.com/rss/articles/CBMiugFBVV95cUxNWmtWbEl0UUxVaERGX3kwOWtCUWRGenBuTkhvUWlCUTU3OHl1OUwtVVduQ0hDWUlRY1JyZHRDaWJJY3BfdmtHZld0eHdPVFJDaFVhc052N0tMX2NPVGtzUnowWGFBdGtncW1pOEtJTENNUHlGcDdnQWVIeUhKbDZNaUlIdUdydlhXQlc3NTBjckZyN2stN3ZhYU04Vmp4VWxHaHlrQVRUVndmenF4T0RqRTB3U2lzbFA3Umc?oc=5" />
+    <link rel="related" href="/stories/framework-desktop-with-ryzen-ai-max-pro-495-gets-6-6-8c0b5d3a.html" />
+    <updated>2026-08-30T17:06:18.000Z</updated>
+    <author><name>VideoCardz.com</name></author>
+    <summary type="html">Framework Desktop with Ryzen AI Max+ PRO 495 gets 6.6% higher memory bandwidth and 192GB RAM VideoCardz.com RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Framework Desktop with Ryzen AI Max+ PRO 495 gets 6.6% higher memory bandwidth and 192GB RAM VideoCardz.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://wccftech.com/chinas-cxmt-lpddr6-ram-mass-production-september-output-limit-hint/</id>
     <title type="html">China’s CXMT Is Getting Ready To Make History As LPDDR6 RAM Mass Production Scheduled To Happen In September; One Hint Reveals Limitations In Total Output</title>
@@ -21,7 +47,20 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Xiaomi’s XRING 03 was previously reported to be the first smartphone chipset to have support for LPDDR6 RAM thanks to the Chinese firm’s partnership with CXMT. Now, it appears that there’s no stopping the momentum of the memory maker because mass production of the next-generation DRAM is expected to start next month. However, while CXMT has the upper hand over Samsung, SK hynix, and Micron, volume&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Xiaomi’s XRING 03 was previously reported to be the first smartphone chipset to have support for LPDDR6 RAM thanks to the Chinese firm’s partnership with CXMT. Now, it appears that there’s no stopping the momentum of the memory maker because mass production of the next-generation DRAM is expected to start next month. However, while CXMT has the upper hand over Samsung, SK hynix, and Micron, volume&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkRBcDdpZmluREdDZ3ZwMmk5M2xPQm5LMTJKRHFmTkhIODdYMVo3T3JvLU1wN3pfaEJ1dkZ1T1JIY3ZZVVVIMTlZNHA2a3VERHk5REJ1NDFWdEx0QVU2ZHF0bVJONExlR29pQlo0ODhMblU5a1Q1VE9ZM1JrVnoyNHh5WmpkVUE0dGJmZ0FRVFFRLXdQa2d3V09WelI2U1BjYkdB?oc=5</id>
+    <title type="html">Samsung, SK Hynix and Micron Have Already Sold Out Their 2027 Memory Chips - Startup Fortune</title>
+    <link href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkRBcDdpZmluREdDZ3ZwMmk5M2xPQm5LMTJKRHFmTkhIODdYMVo3T3JvLU1wN3pfaEJ1dkZ1T1JIY3ZZVVVIMTlZNHA2a3VERHk5REJ1NDFWdEx0QVU2ZHF0bVJONExlR29pQlo0ODhMblU5a1Q1VE9ZM1JrVnoyNHh5WmpkVUE0dGJmZ0FRVFFRLXdQa2d3V09WelI2U1BjYkdB?oc=5" />
+    <link rel="related" href="/stories/samsung-sk-hynix-and-micron-have-already-sold-out-th-df802c31.html" />
+    <updated>2026-08-30T15:35:49.000Z</updated>
+    <author><name>Startup Fortune</name></author>
+    <summary type="html">Samsung, SK Hynix and Micron Have Already Sold Out Their 2027 Memory Chips Startup Fortune RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Samsung, SK Hynix and Micron Have Already Sold Out Their 2027 Memory Chips Startup Fortune&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/dram/chinas-top-dram-maker-cxmt-sues-pentagon-over-its-blacklisting-argues-chips-are-standard-civilian-jedec-spec-not-defense-hardware</id>
@@ -112,7 +151,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Is Micron the Next Nvidia? Why the 2026 &quot;Memory Crunch&quot; Makes MU Stock a Top AI Buy TradingKey&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Is Micron the Next Nvidia? Why the 2026 &quot;Memory Crunch&quot; Makes MU Stock a Top AI Buy TradingKey&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZ3ZjcklJMURNRXVzZllZbDlodzc0WmY0alNpN3I3dVc5UjZPLWk1SVhXeEw5REEyNnJlRlJyOXA0eW1SZ18wOVkzVzFyQnd4WWcwY0hoN1ZQVFRTY1FOZURtQlBsc19UZ0UtdkpDRkVrTk9KbUNxMzlnUXhxX3hRYTVreXB2NXFfZ0RBQ3NGLThOdjlKSjR5TTAyQkkzNjUtVkhneEJUYk51aG5MaXN6V1VkVnFtcGpRM1AtYlFzMmtwOXBLSDVLYm02eHotMXpWNUFfMUptZy1TUC02UVZTWFdrWjgxaUNNWFE?oc=5</id>
