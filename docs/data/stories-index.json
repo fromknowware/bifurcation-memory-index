@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-30T11:52:54.010Z",
-  "count": 356,
+  "generatedAt": "2026-08-30T16:39:21.463Z",
+  "count": 358,
   "stories": [
+    {
+      "slug": "china-s-cxmt-is-getting-ready-to-make-history-as-lpd-31bb24d8",
+      "url": "/stories/china-s-cxmt-is-getting-ready-to-make-history-as-lpd-31bb24d8.html",
+      "title": "China’s CXMT Is Getting Ready To Make History As LPDDR6 RAM Mass Production Scheduled To Happen In September; One Hint Reveals Limitations In Total Output",
+      "tag": "supply",
+      "date": "2026-08-30",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "china-s-top-dram-maker-cxmt-sues-pentagon-over-its-b-a41bce60",
       "url": "/stories/china-s-top-dram-maker-cxmt-sues-pentagon-over-its-b-a41bce60.html",
@@ -67,6 +78,17 @@
       "pick": false,
       "source": "Investing.com South Africa",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "is-micron-the-next-nvidia-why-the-2026-memory-crunch-34519278",
+      "url": "/stories/is-micron-the-next-nvidia-why-the-2026-memory-crunch-34519278.html",
+      "title": "Is Micron the Next Nvidia? Why the 2026 \"Memory Crunch\" Makes MU Stock a Top AI Buy - TradingKey",
+      "tag": "demand",
+      "date": "2026-08-29",
+      "score": 7,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "mu-sndk-dram-dip-overnight-as-memory-stocks-feel-wei-5695ded4",
