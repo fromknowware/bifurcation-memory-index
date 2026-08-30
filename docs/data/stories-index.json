@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-08-29T20:54:05.796Z",
-  "count": 347,
+  "generatedAt": "2026-08-30T05:22:11.761Z",
+  "count": 351,
   "stories": [
+    {
+      "slug": "chinese-cxmt-s-earnings-surprise-challenges-samsung-a0579c93",
+      "url": "/stories/chinese-cxmt-s-earnings-surprise-challenges-samsung-a0579c93.html",
+      "title": "Chinese CXMT's Earnings Surprise Challenges Samsung, SK Hynix - 조선일보",
+      "tag": "earnings",
+      "date": "2026-08-30",
+      "score": 7,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "ai-s-memory-stack-what-investors-need-to-know-by-inv-ac5263b5",
+      "url": "/stories/ai-s-memory-stack-what-investors-need-to-know-by-inv-ac5263b5.html",
+      "title": "AI’s memory stack: What investors need to know By Investing.com - Investing.com South Africa",
+      "tag": "supply",
+      "date": "2026-08-29",
+      "score": 8,
+      "pick": false,
+      "source": "Investing.com South Africa",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "dram-and-nand-flash-combination-of-non-flagship-smar-742b1a3d",
       "url": "/stories/dram-and-nand-flash-combination-of-non-flagship-smar-742b1a3d.html",
@@ -58,6 +80,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "ram-and-ddr5-prices-statistics-2026-shane-the-gamer-8be99e5a",
+      "url": "/stories/ram-and-ddr5-prices-statistics-2026-shane-the-gamer-8be99e5a.html",
+      "title": "RAM and DDR5 Prices Statistics (2026) - Shane the Gamer",
+      "tag": "supply",
+      "date": "2026-08-29",
+      "score": 8,
+      "pick": false,
+      "source": "Shane the Gamer",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "ram-and-ddr5-prices-statistics-2026-shane-the-gamer-fe9fdb36",
       "url": "/stories/ram-and-ddr5-prices-statistics-2026-shane-the-gamer-fe9fdb36.html",
       "title": "RAM and DDR5 Prices Statistics (2026) - Shane the Gamer",
@@ -88,6 +121,17 @@
       "score": 8,
       "pick": false,
       "source": "Pluang",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "a-64gb-ram-kit-now-costs-1-118-because-ai-datacenter-08dfe9cc",
+      "url": "/stories/a-64gb-ram-kit-now-costs-1-118-because-ai-datacenter-08dfe9cc.html",
+      "title": "A 64GB RAM Kit Now Costs $1,118 Because AI Datacenters Are Eating the Supply - Startup Fortune",
+      "tag": "supply",
+      "date": "2026-08-29",
+      "score": 8,
+      "pick": false,
+      "source": "Startup Fortune",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
