@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-08-30T21:03:43.464Z",
-  "count": 361,
+  "generatedAt": "2026-08-31T05:31:23.659Z",
+  "count": 369,
   "stories": [
+    {
+      "slug": "sk-hynix-is-weighing-a-japan-memory-fab-to-keep-up-w-cb6380bc",
+      "url": "/stories/sk-hynix-is-weighing-a-japan-memory-fab-to-keep-up-w-cb6380bc.html",
+      "title": "SK Hynix Is Weighing a Japan Memory Fab to Keep Up With AI Demand - Startup Fortune",
+      "tag": "fab",
+      "date": "2026-08-31",
+      "score": 8,
+      "pick": false,
+      "source": "Startup Fortune",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "sk-hynix-weighs-memory-chip-joint-venture-plant-in-j-3863a53f",
+      "url": "/stories/sk-hynix-weighs-memory-chip-joint-venture-plant-in-j-3863a53f.html",
+      "title": "SK Hynix Weighs Memory Chip Joint Venture Plant in Japan - bloomingbit",
+      "tag": "supply",
+      "date": "2026-08-31",
+      "score": 8,
+      "pick": false,
+      "source": "bloomingbit",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-to-tap-intel-foundry-for-next-gen-hbm-base-2d8471e9",
+      "url": "/stories/sk-hynix-to-tap-intel-foundry-for-next-gen-hbm-base-2d8471e9.html",
+      "title": "SK hynix to tap Intel foundry for next-gen HBM base die - 헤럴드경제",
+      "tag": "fab",
+      "date": "2026-08-31",
+      "score": 8,
+      "pick": false,
+      "source": "헤럴드경제",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "openai-hoarding-tens-of-thousands-of-apple-mac-mini-39298354",
+      "url": "/stories/openai-hoarding-tens-of-thousands-of-apple-mac-mini-39298354.html",
+      "title": "OpenAI Hoarding Tens Of Thousands Of Apple Mac mini And Mac Studio Devices, As ASUS And MSI Burn Through Their Entire First Batch Of NVIDIA RTX Spark Chip And Beg For More",
+      "tag": "demand",
+      "date": "2026-08-30",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "windows-reportedly-preparing-unified-memory-feature-93111ad5",
+      "url": "/stories/windows-reportedly-preparing-unified-memory-feature-93111ad5.html",
+      "title": "Windows reportedly preparing \"Unified Memory\" feature to chase Mac in local AI execution - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-08-30",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-doubles-down-on-ai-data-centers-tightening-dra-ec42bf3d",
+      "url": "/stories/china-doubles-down-on-ai-data-centers-tightening-dra-ec42bf3d.html",
+      "title": "China doubles down on AI data centers, tightening DRAM and boosting Korea prices - CHOSUNBIZ - Chosunbiz",
+      "tag": "supply",
+      "date": "2026-08-30",
+      "score": 8,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "sk-hynix-ceo-says-memory-shortage-will-last-through-9b4a7c66",
       "url": "/stories/sk-hynix-ceo-says-memory-shortage-will-last-through-9b4a7c66.html",
@@ -69,6 +135,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "nvidia-announces-jetson-orin-nano-2-entry-level-edge-b0d8e517",
+      "url": "/stories/nvidia-announces-jetson-orin-nano-2-entry-level-edge-b0d8e517.html",
+      "title": "NVIDIA Announces Jetson Orin Nano 2: Entry-Level Edge Board Gets New Ampere Silicon",
+      "tag": "demand",
+      "date": "2026-08-30",
+      "score": 7,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "hybrid-hbm-hbf-architecture-in-llm-inference-univers-9bc8b3b7",
       "url": "/stories/hybrid-hbm-hbf-architecture-in-llm-inference-univers-9bc8b3b7.html",
       "title": "Hybrid HBM-HBF Architecture in LLM Inference (University of Oxford)",
@@ -77,6 +154,17 @@
       "score": 7,
       "pick": false,
       "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "korean-dram-export-prices-jump-401-as-chipmakers-shi-34d58b2d",
+      "url": "/stories/korean-dram-export-prices-jump-401-as-chipmakers-shi-34d58b2d.html",
+      "title": "Korean DRAM Export Prices Jump 401% as Chipmakers Shift Output to AI Memory, Outpacing Gold - XenoSpectrum",
+      "tag": "demand",
+      "date": "2026-08-30",
+      "score": 7,
+      "pick": false,
+      "source": "XenoSpectrum",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
