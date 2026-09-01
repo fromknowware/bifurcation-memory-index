@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-09-01T05:05:16.888Z",
-  "count": 412,
+  "generatedAt": "2026-09-01T11:37:15.614Z",
+  "count": 423,
   "stories": [
+    {
+      "slug": "save-300-on-this-240hz-oled-gaming-laptop-with-an-rt-7551a349",
+      "url": "/stories/save-300-on-this-240hz-oled-gaming-laptop-with-an-rt-7551a349.html",
+      "title": "Save $300 on this 240Hz OLED gaming laptop with an RTX 5070 Ti, now just $1,899 — Acer Predator Helios rig ships with a 24-core Intel CPU, 32GB DDR5 and a 1TB SSD",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "899-gets-you-a-fully-fledged-ddr5-gaming-pc-in-best-88ce7afc",
+      "url": "/stories/899-gets-you-a-fully-fledged-ddr5-gaming-pc-in-best-88ce7afc.html",
+      "title": "$899 gets you a fully fledged DDR5 gaming PC in Best Buy's Labor Day sales — save $300 off the iBuypower Slate PC powered by Intel's B570 graphics with 10GB of VRAM",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hot-chips-2026-samsung-reveals-a-three-phase-hbm-roa-2d73ccb0",
+      "url": "/stories/hot-chips-2026-samsung-reveals-a-three-phase-hbm-roa-2d73ccb0.html",
+      "title": "Hot Chips 2026: Samsung reveals a three-phase HBM roadmap that puts logic and compute inside memory — zHBM ultimately stacks DRAM directly on top of the processor",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-reportedly-begins-risk-production-of-hbm3e-memo-4993bc03",
+      "url": "/stories/cxmt-reportedly-begins-risk-production-of-hbm3e-memo-4993bc03.html",
+      "title": "CXMT reportedly begins risk production of HBM3E memory in breakthrough for Chinese DRAM production — company could be in mass production in 2027",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chinese-semiconductors-are-terrifying-samsung-electr-ffdf60ef",
+      "url": "/stories/chinese-semiconductors-are-terrifying-samsung-electr-ffdf60ef.html",
+      "title": "\"Chinese semiconductors are terrifying\" ... Samsung Electronics and SK Hynix-level HBM3E to enter mass production next year - 매일경제",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "매일경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-amd-instinct-gpus-and-epyc-cpus-to-power-europe-0-193b092b",
+      "url": "/stories/pr-amd-instinct-gpus-and-epyc-cpus-to-power-europe-0-193b092b.html",
+      "title": "(PR) AMD Instinct GPUs and EPYC CPUs to Power Europe&#039;s Next-Generation LUMI-AI Supercomputer",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-targets-2029-start-for-ai-memory-chip-produ-32f10b09",
+      "url": "/stories/sk-hynix-targets-2029-start-for-ai-memory-chip-produ-32f10b09.html",
+      "title": "SK Hynix targets 2029 start for AI memory chip production in Indiana - New Electronics",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "New Electronics",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-s-4b-hbm-project-targets-u-s-chipmaking-gap-1e273235",
+      "url": "/stories/sk-hynix-s-4b-hbm-project-targets-u-s-chipmaking-gap-1e273235.html",
+      "title": "SK Hynix’s $4B HBM Project Targets U.S. Chipmaking Gap",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-gpu-frame-interpolation-support-lands-in-ffmp-b60cc654",
+      "url": "/stories/nvidia-gpu-frame-interpolation-support-lands-in-ffmp-b60cc654.html",
+      "title": "NVIDIA GPU Frame Interpolation Support Lands in FFmpeg",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-showcases-chip-3d-architecture-strategy-at-s-4b97df0b",
+      "url": "/stories/samsung-showcases-chip-3d-architecture-strategy-at-s-4b97df0b.html",
+      "title": "Samsung showcases chip 3D architecture strategy at SEMICON Taiwan - The Korea Times",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "The Korea Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-and-nand-set-records-as-ai-demand-lifts-prices-90b1565e",
+      "url": "/stories/dram-and-nand-set-records-as-ai-demand-lifts-prices-90b1565e.html",
+      "title": "Dram and NAND set records as AI demand lifts prices but rally cools - CHOSUNBIZ - biz.chosun.com",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "biz.chosun.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "mu-and-sndk-s-nascent-rebound-faces-a-new-test-china-227cc446",
       "url": "/stories/mu-and-sndk-s-nascent-rebound-faces-a-new-test-china-227cc446.html",
