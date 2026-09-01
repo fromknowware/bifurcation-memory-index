@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-01T16:38:01.135Z",
-  "count": 435,
+  "generatedAt": "2026-09-01T21:00:59.204Z",
+  "count": 440,
   "stories": [
+    {
+      "slug": "anthropic-beats-openai-to-the-punch-with-a-nominally-c673b86c",
+      "url": "/stories/anthropic-beats-openai-to-the-punch-with-a-nominally-c673b86c.html",
+      "title": "Anthropic Beats OpenAI To The Punch With A Nominally Cheaper Claude Fable 5.1, As Samsung Bets Its Chip Designs On Claude Code",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-new-memory-roadmap-hbm5-aims-for-2x-performa-8cab15c5",
+      "url": "/stories/samsung-new-memory-roadmap-hbm5-aims-for-2x-performa-8cab15c5.html",
+      "title": "Samsung New Memory Roadmap: HBM5 Aims for 2x Performance, zHBM for 8x",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-risc-v-for-nvidia-gpus-at-hot-chips-2026-f6952748",
+      "url": "/stories/nvidia-risc-v-for-nvidia-gpus-at-hot-chips-2026-f6952748.html",
+      "title": "NVIDIA RISC-V for NVIDIA GPUs at Hot Chips 2026",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-s-david-zinsner-says-14a-improving-fastest-sin-3c31e31f",
+      "url": "/stories/intel-s-david-zinsner-says-14a-improving-fastest-sin-3c31e31f.html",
+      "title": "Intel’s David Zinsner Says 14A Improving Fastest Since 2012 Node, Betting Foundry’s Future On TSMC Fight",
+      "tag": "fab",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "how-ai-is-reshaping-the-global-semiconductor-patent-9ac534d1",
       "url": "/stories/how-ai-is-reshaping-the-global-semiconductor-patent-9ac534d1.html",
@@ -33,6 +77,17 @@
       "score": 7,
       "pick": false,
       "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "stacked-for-success-inside-sk-hynix-s-hbm-dominance-d3ea9b23",
+      "url": "/stories/stacked-for-success-inside-sk-hynix-s-hbm-dominance-d3ea9b23.html",
+      "title": "Stacked for Success: Inside SK Hynix's HBM Dominance - The Globe and Mail",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "The Globe and Mail",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
