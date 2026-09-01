@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-08-31T22:49:23.855Z",
-  "count": 401,
+  "generatedAt": "2026-09-01T05:05:16.888Z",
+  "count": 412,
   "stories": [
+    {
+      "slug": "mu-and-sndk-s-nascent-rebound-faces-a-new-test-china-227cc446",
+      "url": "/stories/mu-and-sndk-s-nascent-rebound-faces-a-new-test-china-227cc446.html",
+      "title": "MU And SNDK's Nascent Rebound Faces A New Test — China's CXMT Reportedly Makes Major Breakthrough With New AI Memory Chip - finance.yahoo.com",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "finance.yahoo.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dram-nand-prices-hit-record-highs-in-august-e61f6b26",
+      "url": "/stories/dram-nand-prices-hit-record-highs-in-august-e61f6b26.html",
+      "title": "DRAM, NAND prices hit record highs in August - 매일경제",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "매일경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "korea-chip-exports-hit-record-46-6-billion-on-ai-mem-94057177",
+      "url": "/stories/korea-chip-exports-hit-record-46-6-billion-on-ai-mem-94057177.html",
+      "title": "Korea Chip Exports Hit Record $46.6 Billion on AI Memory Boom - Seoul Economic Daily",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "memory-prices-surge-as-long-term-deals-tighten-dram-0e948d72",
+      "url": "/stories/memory-prices-surge-as-long-term-deals-tighten-dram-0e948d72.html",
+      "title": "Memory Prices Surge as Long-Term Deals Tighten DRAM Supply - Seoul Economic Daily",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-nand-prices-hit-record-highs-in-august-but-uptr-cf2d37a1",
+      "url": "/stories/dram-nand-prices-hit-record-highs-in-august-but-uptr-cf2d37a1.html",
+      "title": "DRAM, NAND Prices Hit Record Highs in August, but Uptrend Slows Amid Peak-Level Pressures - asiae.co.kr",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "asiae.co.kr",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-nand-flash-prices-hit-record-highs-again-in-aug-8335538b",
+      "url": "/stories/dram-nand-flash-prices-hit-record-highs-again-in-aug-8335538b.html",
+      "title": "DRAM, NAND Flash Prices Hit Record Highs Again in August, Though Gains Slow - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "us-trade-curbs-put-malaysia-s-solar-semiconductor-am-e3a8fdef",
+      "url": "/stories/us-trade-curbs-put-malaysia-s-solar-semiconductor-am-e3a8fdef.html",
+      "title": "US trade curbs put Malaysia's solar, semiconductor ambitions to the test - klsescreener.com",
+      "tag": "supply",
+      "date": "2026-09-01",
+      "score": 8,
+      "pick": false,
+      "source": "klsescreener.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hbm-squeeze-pushes-legacy-pc-dram-to-record-high-seo-a94f79ec",
+      "url": "/stories/hbm-squeeze-pushes-legacy-pc-dram-to-record-high-seo-a94f79ec.html",
+      "title": "HBM Squeeze Pushes Legacy PC DRAM to Record High - Seoul Economic Daily",
+      "tag": "demand",
+      "date": "2026-08-31",
+      "score": 7,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "diraq-to-deploy-a-quantum-computer-inside-an-equinix-6ecdfcaf",
       "url": "/stories/diraq-to-deploy-a-quantum-computer-inside-an-equinix-6ecdfcaf.html",
@@ -69,6 +157,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "sk-hynix-scours-japan-for-new-chip-plant-sites-as-ai-9e3521ac",
+      "url": "/stories/sk-hynix-scours-japan-for-new-chip-plant-sites-as-ai-9e3521ac.html",
+      "title": "SK Hynix Scours Japan for New Chip Plant Sites as AI Demand Strains Supply - finance.biggo.com",
+      "tag": "fab",
+      "date": "2026-08-31",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
       "slug": "kingston-s-nv3-1tb-pcie-4-0-ssd-drops-to-156-99-at-n-2ff931be",
       "url": "/stories/kingston-s-nv3-1tb-pcie-4-0-ssd-drops-to-156-99-at-n-2ff931be.html",
       "title": "Kingston's NV3 1TB PCIe 4.0 SSD drops to $156.99 at Newegg — 27% off brings it down to just 15.7 cents per GB",
@@ -121,6 +220,17 @@
       "score": 8,
       "pick": false,
       "source": "tbreak.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-taiwan-unions-demand-bonuses-like-samsung-sk-4b43e0d3",
+      "url": "/stories/micron-taiwan-unions-demand-bonuses-like-samsung-sk-4b43e0d3.html",
+      "title": "Micron Taiwan Unions Demand Bonuses Like Samsung, SK Hynix - 조선일보",
+      "tag": "supply",
+      "date": "2026-08-31",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -264,6 +374,17 @@
       "score": 8,
       "pick": false,
       "source": "KED Global",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "huawei-s-profit-fell-36-in-h1-2026-as-memory-chip-pr-733603f5",
+      "url": "/stories/huawei-s-profit-fell-36-in-h1-2026-as-memory-chip-pr-733603f5.html",
+      "title": "Huawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged - Startup Fortune",
+      "tag": "supply",
+      "date": "2026-08-31",
+      "score": 8,
+      "pick": false,
+      "source": "Startup Fortune",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
