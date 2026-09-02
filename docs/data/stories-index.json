@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-09-02T04:30:42.852Z",
-  "count": 443,
+  "generatedAt": "2026-09-02T11:15:37.786Z",
+  "count": 450,
   "stories": [
+    {
+      "slug": "ai-data-center-investment-projected-to-hit-32-trilli-6e1b0bd6",
+      "url": "/stories/ai-data-center-investment-projected-to-hit-32-trilli-6e1b0bd6.html",
+      "title": "AI data center investment projected to hit $32 trillion by 2050 — infrastructure spending estimated to exceed capital requirements for railways, electrification, or the internet",
+      "tag": "demand",
+      "date": "2026-09-02",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "china-s-euv-technology-at-a-similar-stage-to-asml-in-f742142e",
+      "url": "/stories/china-s-euv-technology-at-a-similar-stage-to-asml-in-f742142e.html",
+      "title": "China's EUV technology 'at a similar stage to ASML in 2004,' analyst claims — Beijing's semiconductor industry remains well behind Western rivals",
+      "tag": "fab",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "oklahoma-city-tries-to-charge-farmer-arrested-at-dat-8b33e6b3",
+      "url": "/stories/oklahoma-city-tries-to-charge-farmer-arrested-at-dat-8b33e6b3.html",
+      "title": "Oklahoma City tries to charge farmer arrested at data center debate $17,000 for body cam footage of the incident — accused faces trespassing charge for going over allotted speaking time by 30 seconds at a public debate",
+      "tag": "demand",
+      "date": "2026-09-02",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "acer-s-wild-project-dualplay-mini-is-a-foldable-hand-969112c0",
+      "url": "/stories/acer-s-wild-project-dualplay-mini-is-a-foldable-hand-969112c0.html",
+      "title": "Acer’s wild Project DualPlay Mini is a foldable handheld that doubles as a netbook — concept shown alongside Predator Atlas 7 handheld sporting Intel’s Arc G-series chip",
+      "tag": "supply",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ebook-8211-accelerate-silicon-design-for-physical-ai-4420574e",
+      "url": "/stories/ebook-8211-accelerate-silicon-design-for-physical-ai-4420574e.html",
+      "title": "EBook &#8211; Accelerate Silicon Design for Physical AI (Part 1)",
+      "tag": "supply",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "goldman-sachs-report-q3-memory-prices-rise-pc-dram-f-3413fe76",
+      "url": "/stories/goldman-sachs-report-q3-memory-prices-rise-pc-dram-f-3413fe76.html",
+      "title": "Goldman Sachs Report: Q3 Memory Prices Rise; PC DRAM Forecast Raised to 18-23% - KuCoin",
+      "tag": "supply",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "KuCoin",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "gearing-up-for-hbm4-sk-hynix-silicon-wafer-purchases-8d2f38b3",
       "url": "/stories/gearing-up-for-hbm4-sk-hynix-silicon-wafer-purchases-8d2f38b3.html",
@@ -122,6 +188,17 @@
       "pick": false,
       "source": "The Globe and Mail",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sandisk-stock-falls-1-5-amid-tariff-fears-mizuho-kee-9b973564",
+      "url": "/stories/sandisk-stock-falls-1-5-amid-tariff-fears-mizuho-kee-9b973564.html",
+      "title": "SanDisk stock falls 1.5% amid tariff fears; Mizuho keeps Outperform - scanx.trade",
+      "tag": "macro",
+      "date": "2026-09-01",
+      "score": 6,
+      "pick": false,
+      "source": "scanx.trade",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
     },
     {
       "slug": "pr-higher-prices-and-shipments-drive-top-five-enterp-3ad909a3",
