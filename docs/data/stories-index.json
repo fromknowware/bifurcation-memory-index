@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-09-02T11:15:37.786Z",
-  "count": 450,
+  "generatedAt": "2026-09-02T16:33:13.997Z",
+  "count": 463,
   "stories": [
+    {
+      "slug": "amd-rdna-5-gpu-ip-ships-inside-a-samsung-soc-on-2-nm-5a79d187",
+      "url": "/stories/amd-rdna-5-gpu-ip-ships-inside-a-samsung-soc-on-2-nm-5a79d187.html",
+      "title": "AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
+      "tag": "fab",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "tsmc-skips-hybrid-bonding-for-now-betting-on-convent-ad5fb329",
+      "url": "/stories/tsmc-skips-hybrid-bonding-for-now-betting-on-convent-ad5fb329.html",
+      "title": "TSMC Skips Hybrid Bonding For Now, Betting on Conventional Microbumps to Lead The Way",
+      "tag": "fab",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "the-current-state-of-hybrid-bonding-in-2026-tsmc-sit-70dd1db0",
+      "url": "/stories/the-current-state-of-hybrid-bonding-in-2026-tsmc-sit-70dd1db0.html",
+      "title": "The current state of Hybrid Bonding in 2026 — TSMC sits at 6 microns and the HBM delay that nobody expected",
+      "tag": "fab",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "msi-s-vector-16-hx-ai-gaming-laptop-offers-an-rtx-50-b7b6be96",
+      "url": "/stories/msi-s-vector-16-hx-ai-gaming-laptop-offers-an-rtx-50-b7b6be96.html",
+      "title": "MSI’s Vector 16 HX AI Gaming Laptop Offers An RTX 5070 Ti GPU And A Free Copy Of CONTROL Resonant, All For $1,684.99 On Amazon",
+      "tag": "demand",
+      "date": "2026-09-02",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "new-rtx-50-series-price-hike-to-hurt-mid-range-segme-8c972e37",
+      "url": "/stories/new-rtx-50-series-price-hike-to-hurt-mid-range-segme-8c972e37.html",
+      "title": "New RTX 50 Series Price Hike To Hurt Mid-Range Segment As ASUS And Galax Decide To Increase GPU Prices By Up To $74",
+      "tag": "demand",
+      "date": "2026-09-02",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "google-is-now-pulling-ddr4-modules-out-of-retired-se-35e4c246",
+      "url": "/stories/google-is-now-pulling-ddr4-modules-out-of-retired-se-35e4c246.html",
+      "title": "Google Is Now Pulling DDR4 Modules Out Of Retired Servers And Reusing Them In New AI Servers",
+      "tag": "supply",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-dell-q2-fiscal-2027-results-record-47b-revenues-p-a14bd2b7",
+      "url": "/stories/pr-dell-q2-fiscal-2027-results-record-47b-revenues-p-a14bd2b7.html",
+      "title": "(PR) Dell Q2 Fiscal 2027 Results: Record $47B Revenues, Projects $192B Full-Year Outlook",
+      "tag": "earnings",
+      "date": "2026-09-02",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "tape-companies-ship-160-exabytes-of-storage-in-2025-c9150d94",
+      "url": "/stories/tape-companies-ship-160-exabytes-of-storage-in-2025-c9150d94.html",
+      "title": "Tape companies ship 160 exabytes of storage in 2025, AI data demands drive 'unprecedented data growth' — capacity shipped in Q1 2026 rose 57% YOY driven by AI, LTO‑9 momentum, and early LTO‑10 uptake",
+      "tag": "earnings",
+      "date": "2026-09-02",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "a-cloud-engineer-walked-into-a-bar-and-no-joke-ended-6af94379",
+      "url": "/stories/a-cloud-engineer-walked-into-a-bar-and-no-joke-ended-6af94379.html",
+      "title": "A cloud engineer walked into a bar and – no joke – ended up having to migrate a datacenter",
+      "tag": "supply",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-explores-near-gpu-nand-flash-to-run-bigger-ll-e61d9ac4",
+      "url": "/stories/micron-explores-near-gpu-nand-flash-to-run-bigger-ll-e61d9ac4.html",
+      "title": "Micron Explores Near-GPU NAND Flash to Run Bigger LLMs",
+      "tag": "demand",
+      "date": "2026-09-02",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "this-32gb-ddr5-ram-kit-is-now-the-cheapest-on-sale-d-1c4d33dc",
+      "url": "/stories/this-32gb-ddr5-ram-kit-is-now-the-cheapest-on-sale-d-1c4d33dc.html",
+      "title": "This 32GB DDR5 RAM kit is now the cheapest on sale, dropping back under $400 — 13% discount on an unflashy PNY memory kit for new gaming PC builds or upgrades",
+      "tag": "supply",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "ai-data-center-investment-projected-to-hit-32-trilli-6e1b0bd6",
       "url": "/stories/ai-data-center-investment-projected-to-hit-32-trilli-6e1b0bd6.html",
@@ -47,6 +168,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "insights-memory-spot-price-update-ddr5-ddr4-demand-w-61ed6852",
+      "url": "/stories/insights-memory-spot-price-update-ddr5-ddr4-demand-w-61ed6852.html",
+      "title": "[Insights] Memory Spot Price Update: DDR5, DDR4 Demand Weakens, but Firm Supplier Quotes Support Elevated Prices - TrendForce",
+      "tag": "supply",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "TrendForce",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "ebook-8211-accelerate-silicon-design-for-physical-ai-4420574e",
       "url": "/stories/ebook-8211-accelerate-silicon-design-for-physical-ai-4420574e.html",
       "title": "EBook &#8211; Accelerate Silicon Design for Physical AI (Part 1)",
@@ -55,6 +187,17 @@
       "score": 8,
       "pick": false,
       "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "goldman-sachs-report-q3-memory-price-outlook-adjuste-e65efbd1",
+      "url": "/stories/goldman-sachs-report-q3-memory-price-outlook-adjuste-e65efbd1.html",
+      "title": "Goldman Sachs Report: Q3 Memory Price Outlook Adjusted; PC DRAM Rises to 18-23% - KuCoin",
+      "tag": "supply",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "KuCoin",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
