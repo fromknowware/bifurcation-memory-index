@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-02T16:33:13.997Z",
-  "count": 463,
+  "generatedAt": "2026-09-02T21:01:44.147Z",
+  "count": 466,
   "stories": [
+    {
+      "slug": "china-trails-asml-s-advanced-euv-chip-making-technol-ba54c3c2",
+      "url": "/stories/china-trails-asml-s-advanced-euv-chip-making-technol-ba54c3c2.html",
+      "title": "China Trails ASML’s Advanced EUV Chip Making Technology By 10 Years, Says Investment Bank UBS As Progress Is Stuck At ASML’s 2004 Level",
+      "tag": "fab",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "optics-still-driving-marvell-s-ai-business-more-than-9aa30bec",
+      "url": "/stories/optics-still-driving-marvell-s-ai-business-more-than-9aa30bec.html",
+      "title": "Optics Still Driving Marvell’s AI Business More Than Custom Chips",
+      "tag": "supply",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "The Next Platform",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "possible-amd-rdna-5-gpu-ip-ships-inside-a-samsung-so-c01636d1",
+      "url": "/stories/possible-amd-rdna-5-gpu-ip-ships-inside-a-samsung-so-c01636d1.html",
+      "title": "Possible AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
+      "tag": "fab",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "amd-rdna-5-gpu-ip-ships-inside-a-samsung-soc-on-2-nm-5a79d187",
       "url": "/stories/amd-rdna-5-gpu-ip-ships-inside-a-samsung-soc-on-2-nm-5a79d187.html",
