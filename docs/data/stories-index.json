@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-01T21:00:59.204Z",
-  "count": 440,
+  "generatedAt": "2026-09-02T04:30:42.852Z",
+  "count": 443,
   "stories": [
+    {
+      "slug": "gearing-up-for-hbm4-sk-hynix-silicon-wafer-purchases-8d2f38b3",
+      "url": "/stories/gearing-up-for-hbm4-sk-hynix-silicon-wafer-purchases-8d2f38b3.html",
+      "title": "Gearing Up for HBM4: SK Hynix Silicon Wafer Purchases More Than Double QoQ, Grants Price Hikes to Equipment Suppliers - finance.biggo.com",
+      "tag": "fab",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "memory-chip-shortages-persist-boosting-pricing-power-824e7cc2",
+      "url": "/stories/memory-chip-shortages-persist-boosting-pricing-power-824e7cc2.html",
+      "title": "Memory chip shortages persist, boosting pricing power amid rising AI demand and delayed new capacity. - Pluang",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "Pluang",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "anthropic-beats-openai-to-the-punch-with-a-nominally-c673b86c",
       "url": "/stories/anthropic-beats-openai-to-the-punch-with-a-nominally-c673b86c.html",
@@ -33,6 +55,17 @@
       "score": 7,
       "pick": false,
       "source": "ServeTheHome",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "vmware-explore-2026-broadcom-solves-ai-server-dram-c-3588ac9f",
+      "url": "/stories/vmware-explore-2026-broadcom-solves-ai-server-dram-c-3588ac9f.html",
+      "title": "VMware Explore 2026: Broadcom Solves AI Server DRAM Crisis With NVMe Memory Tiering - Tech Times",
+      "tag": "demand",
+      "date": "2026-09-01",
+      "score": 7,
+      "pick": false,
+      "source": "Tech Times",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
