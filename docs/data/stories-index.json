@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-09-03T16:24:13.178Z",
-  "count": 487,
+  "generatedAt": "2026-09-03T21:00:38.247Z",
+  "count": 499,
   "stories": [
+    {
+      "slug": "zeiss-ceo-says-china-might-be-15-years-behind-wester-636d50d5",
+      "url": "/stories/zeiss-ceo-says-china-might-be-15-years-behind-wester-636d50d5.html",
+      "title": "Zeiss CEO Says China Might Be 15 Years Behind Western EUV Chip Technology Yet Warns Sanctions Could Close The Gap Fast",
+      "tag": "fab",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ciq-launches-fuzzball-4-2-with-agentic-ai-and-amd-gp-d4ab17b6",
+      "url": "/stories/ciq-launches-fuzzball-4-2-with-agentic-ai-and-amd-gp-d4ab17b6.html",
+      "title": "CIQ Launches Fuzzball 4.2 with Agentic AI and AMD GPU Support",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-n1x-comes-in-two-skus-20c-cpu-and-6-144c-gpu-040fbf17",
+      "url": "/stories/nvidia-n1x-comes-in-two-skus-20c-cpu-and-6-144c-gpu-040fbf17.html",
+      "title": "NVIDIA \"N1X\" Comes in Two SKUs: 20C CPU and 6,144C GPU or 18C CPU and 5,120C GPU",
+      "tag": "demand",
+      "date": "2026-09-03",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-leads-nand-market-as-prices-climb-55-in-a-si-58315c9c",
+      "url": "/stories/samsung-leads-nand-market-as-prices-climb-55-in-a-si-58315c9c.html",
+      "title": "Samsung Leads NAND Market as Prices Climb 55% in a Single Quarter",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "trump-s-100-tariff-on-drones-will-be-disaster-for-th-e0e3597b",
+      "url": "/stories/trump-s-100-tariff-on-drones-will-be-disaster-for-th-e0e3597b.html",
+      "title": "Trump’s 100% tariff on drones will be disaster for the US, critics warn",
+      "tag": "macro",
+      "date": "2026-09-03",
+      "score": 6,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
     {
       "slug": "nvidia-rtx-spark-pcs-arrive-next-month-in-two-n1x-so-f4166d66",
       "url": "/stories/nvidia-rtx-spark-pcs-arrive-next-month-in-two-n1x-so-f4166d66.html",
@@ -44,6 +99,17 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-micron-move-to-dismiss-us-dram-pric-5ba9dbc3",
+      "url": "/stories/samsung-sk-hynix-micron-move-to-dismiss-us-dram-pric-5ba9dbc3.html",
+      "title": "Samsung, SK Hynix, Micron move to dismiss US DRAM price-fixing claims - MLex",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "MLex",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -102,6 +168,17 @@
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
+      "slug": "trump-s-middle-east-and-tariff-cards-likely-to-remai-90784e18",
+      "url": "/stories/trump-s-middle-east-and-tariff-cards-likely-to-remai-90784e18.html",
+      "title": "Trump's Middle East and Tariff Cards Likely to Remain Short-Term Headwinds Ahead of Midterms - finance.biggo.com",
+      "tag": "macro",
+      "date": "2026-09-03",
+      "score": 6,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
       "slug": "newegg-s-299-diy-starter-kit-bundles-msi-b650-board-8895f50a",
       "url": "/stories/newegg-s-299-diy-starter-kit-bundles-msi-b650-board-8895f50a.html",
       "title": "Newegg’s $299 DIY Starter Kit Bundles MSI B650 Board, 16GB DDR5-6000 And 500GB SSD, Saving Builders Nearly $200",
@@ -135,6 +212,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "samsung-narrows-gap-with-no-1-sk-hynix-in-hbm-market-47b6dcbd",
+      "url": "/stories/samsung-narrows-gap-with-no-1-sk-hynix-in-hbm-market-47b6dcbd.html",
+      "title": "Samsung narrows gap with No. 1 SK hynix in HBM market revenue in Q2 - Korea JoongAng Daily",
+      "tag": "earnings",
+      "date": "2026-09-03",
+      "score": 7,
+      "pick": false,
+      "source": "Korea JoongAng Daily",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
       "slug": "acer-s-predator-atlas-7-shrinks-to-a-7-inch-120hz-sc-873fd416",
       "url": "/stories/acer-s-predator-atlas-7-shrinks-to-a-7-inch-120hz-sc-873fd416.html",
       "title": "Acer’s Predator Atlas 7 Shrinks To A 7-Inch 120Hz Screen But Keeps The Same Intel Arc G3 Extreme Silicon",
@@ -157,6 +245,28 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "us-plans-targeted-semiconductor-tariffs-eyes-impact-1867ca0b",
+      "url": "/stories/us-plans-targeted-semiconductor-tariffs-eyes-impact-1867ca0b.html",
+      "title": "US plans targeted semiconductor tariffs, eyes impact on Samsung, SK hynix - communicationstoday.co.in",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "communicationstoday.co.in",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "south-korea-considers-boosting-support-for-chipmaker-c5bf845c",
+      "url": "/stories/south-korea-considers-boosting-support-for-chipmaker-c5bf845c.html",
+      "title": "South Korea Considers Boosting Support for Chipmakers as US Tariff Threat Grows - Global Sources",
+      "tag": "macro",
+      "date": "2026-09-03",
+      "score": 6,
+      "pick": false,
+      "source": "Global Sources",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
       "slug": "lutnick-renews-chip-tariff-threat-tells-makers-to-bu-423b7f31",
       "url": "/stories/lutnick-renews-chip-tariff-threat-tells-makers-to-bu-423b7f31.html",
       "title": "Lutnick Renews Chip Tariff Threat, Tells Makers to Build in US or Pay - bloomingbit",
@@ -177,6 +287,28 @@
       "pick": false,
       "source": "매일경제",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "build-in-us-or-pay-trump-revives-chip-tariff-threat-e188b32e",
+      "url": "/stories/build-in-us-or-pay-trump-revives-chip-tariff-threat-e188b32e.html",
+      "title": "Build in US or pay: Trump revives chip tariff threat - theinvestor.co.kr",
+      "tag": "macro",
+      "date": "2026-09-03",
+      "score": 6,
+      "pick": false,
+      "source": "theinvestor.co.kr",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "trump-s-chip-tariff-threat-tests-south-korea-s-semic-86054d9f",
+      "url": "/stories/trump-s-chip-tariff-threat-tests-south-korea-s-semic-86054d9f.html",
+      "title": "Trump’s Chip Tariff Threat Tests South Korea’s Semiconductor Giants - Koreabizwire",
+      "tag": "macro",
+      "date": "2026-09-03",
+      "score": 6,
+      "pick": false,
+      "source": "Koreabizwire",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
     },
     {
       "slug": "ddr5-ram-prices-2026-400-for-32gb-as-costs-soar-485-65fa6efa",
