@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-09-03T04:21:08.409Z",
-  "count": 469,
+  "generatedAt": "2026-09-03T11:11:40.277Z",
+  "count": 477,
   "stories": [
+    {
+      "slug": "tsmc-fab-equipment-demand-nearly-doubles-in-six-mont-83a42254",
+      "url": "/stories/tsmc-fab-equipment-demand-nearly-doubles-in-six-mont-83a42254.html",
+      "title": "TSMC fab equipment demand nearly doubles in six months — AI surge pushes 2026 CapEx toward $64B amid tool shortages",
+      "tag": "fab",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "get-a-ddr5-gaming-pc-with-rtx-5060-ti-for-just-1-399-4e3bfe7c",
+      "url": "/stories/get-a-ddr5-gaming-pc-with-rtx-5060-ti-for-just-1-399-4e3bfe7c.html",
+      "title": "Get a DDR5 gaming PC with RTX 5060 Ti for just $1,399 — save 21% on the Intel Core Ultra 7 270K Plus-powered CyberPower system",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "acer-s-predator-atlas-7-shrinks-to-a-7-inch-120hz-sc-873fd416",
+      "url": "/stories/acer-s-predator-atlas-7-shrinks-to-a-7-inch-120hz-sc-873fd416.html",
+      "title": "Acer’s Predator Atlas 7 Shrinks To A 7-Inch 120Hz Screen But Keeps The Same Intel Arc G3 Extreme Silicon",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chinese-supercomputer-manufacturer-reveals-the-world-f52a2d92",
+      "url": "/stories/chinese-supercomputer-manufacturer-reveals-the-world-f52a2d92.html",
+      "title": "Chinese supercomputer manufacturer reveals the 'world's first' 64-thread mobile workstation for AI — domestic CPU paired with mystery GPU with 16GB of VRAM promises cloud-level performance",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "lutnick-renews-chip-tariff-threat-tells-makers-to-bu-423b7f31",
+      "url": "/stories/lutnick-renews-chip-tariff-threat-tells-makers-to-bu-423b7f31.html",
+      "title": "Lutnick Renews Chip Tariff Threat, Tells Makers to Build in US or Pay - bloomingbit",
+      "tag": "macro",
+      "date": "2026-09-03",
+      "score": 6,
+      "pick": false,
+      "source": "bloomingbit",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "u-s-uses-taiwan-as-leverage-to-pressure-samsung-elec-a7f2ce46",
+      "url": "/stories/u-s-uses-taiwan-as-leverage-to-pressure-samsung-elec-a7f2ce46.html",
+      "title": "U.S. Uses Taiwan as Leverage to Pressure Samsung Electronics and SK hynix on U.S. Investment - 매일경제",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "매일경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "ddr5-ram-prices-2026-400-for-32gb-as-costs-soar-485-65fa6efa",
       "url": "/stories/ddr5-ram-prices-2026-400-for-32gb-as-costs-soar-485-65fa6efa.html",
@@ -11,6 +77,17 @@
       "score": 8,
       "pick": false,
       "source": "tech-insider.org",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-ecosystem-the-real-bottleneck-data-not-compute-sk-34fb483e",
+      "url": "/stories/ai-ecosystem-the-real-bottleneck-data-not-compute-sk-34fb483e.html",
+      "title": "[AI Ecosystem] The real bottleneck: Data, not compute - SK hynix",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "SK hynix",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -34,6 +111,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "us-trade-curbs-put-malaysia-s-solar-semiconductor-am-c8ea7a90",
+      "url": "/stories/us-trade-curbs-put-malaysia-s-solar-semiconductor-am-c8ea7a90.html",
+      "title": "US trade curbs put Malaysia's solar, semiconductor ambitions to the test - NST Online",
+      "tag": "supply",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "NST Online",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "optics-still-driving-marvell-s-ai-business-more-than-9aa30bec",

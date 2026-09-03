@@ -5,11 +5,89 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-03T04:21:06.683Z</updated>
+  <updated>2026-09-03T11:11:38.788Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/semiconductors/tsmc-fab-equipment-demand-nearly-doubles-in-six-months-ai-surge-pushes-2026-capex-toward-usd64b-amid-tool-shortages</id>
+    <title type="html">TSMC fab equipment demand nearly doubles in six months — AI surge pushes 2026 CapEx toward $64B amid tool shortages</title>
+    <link href="https://www.tomshardware.com/tech-industry/semiconductors/tsmc-fab-equipment-demand-nearly-doubles-in-six-months-ai-surge-pushes-2026-capex-toward-usd64b-amid-tool-shortages" />
+    <link rel="related" href="/stories/tsmc-fab-equipment-demand-nearly-doubles-in-six-mont-83a42254.html" />
+    <updated>2026-09-03T11:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/desktops/gaming-pcs/get-a-ddr5-gaming-pc-with-rtx-5060-ti-for-just-usd1-399-save-21-percent-on-the-intel-core-ultra-7-270k-plus-powered-cyberpower-system</id>
+    <title type="html">Get a DDR5 gaming PC with RTX 5060 Ti for just $1,399 — save 21% on the Intel Core Ultra 7 270K Plus-powered CyberPower system</title>
+    <link href="https://www.tomshardware.com/desktops/gaming-pcs/get-a-ddr5-gaming-pc-with-rtx-5060-ti-for-just-usd1-399-save-21-percent-on-the-intel-core-ultra-7-270k-plus-powered-cyberpower-system" />
+    <link rel="related" href="/stories/get-a-ddr5-gaming-pc-with-rtx-5060-ti-for-just-1-399-4e3bfe7c.html" />
+    <updated>2026-09-03T10:55:28.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/acer-launches-predator-atlas-7-gaming-handheld/</id>
+    <title type="html">Acer’s Predator Atlas 7 Shrinks To A 7-Inch 120Hz Screen But Keeps The Same Intel Arc G3 Extreme Silicon</title>
+    <link href="https://wccftech.com/acer-launches-predator-atlas-7-gaming-handheld/" />
+    <link rel="related" href="/stories/acer-s-predator-atlas-7-shrinks-to-a-7-inch-120hz-sc-873fd416.html" />
+    <updated>2026-09-03T10:42:13.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Acer has launched another Arc G3-based gaming handheld, but with a smaller screen. Acer Launches Predator Atlas 7 Gaming Handheld, Featuring Intel Arc G3/G3 Extreme, Memory Up To 24 GB, and a 7-inch 120 Hz VRR Display Popular hardware and handheld maker Acer has now introduced another gaming handheld called Predator Atlas 7 following the launch of Predator Atlas 8. As the name suggests, the Predat RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Acer has launched another Arc G3-based gaming handheld, but with a smaller screen. Acer Launches Predator Atlas 7 Gaming Handheld, Featuring Intel Arc G3/G3 Extreme, Memory Up To 24 GB, and a 7-inch 120 Hz VRR Display Popular hardware and handheld maker Acer has now introduced another gaming handheld called Predator Atlas 7 following the launch of Predator Atlas 8. As the name suggests, the Predat&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/laptops/chinese-supercomputer-manufacturer-reveals-the-worlds-first-64-thread-mobile-workstation-for-ai-domestic-cpu-paired-with-mystery-gpu-with-16gb-of-vram-promises-cloud-level-performance</id>
+    <title type="html">Chinese supercomputer manufacturer reveals the 'world's first' 64-thread mobile workstation for AI — domestic CPU paired with mystery GPU with 16GB of VRAM promises cloud-level performance</title>
+    <link href="https://www.tomshardware.com/laptops/chinese-supercomputer-manufacturer-reveals-the-worlds-first-64-thread-mobile-workstation-for-ai-domestic-cpu-paired-with-mystery-gpu-with-16gb-of-vram-promises-cloud-level-performance" />
+    <link rel="related" href="/stories/chinese-supercomputer-manufacturer-reveals-the-world-f52a2d92.html" />
+    <updated>2026-09-03T10:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhbWNOSXF5UFhIbkFlaXRUeFVhSG5aY0ZoRVJ4ZDcyX2lTc3J3cnkyQUN5cU1jbjlBajhvMGVXNTRuc0I1TXlHWXViaEg0TlZmZUNZOA?oc=5</id>
+    <title type="html">Lutnick Renews Chip Tariff Threat, Tells Makers to Build in US or Pay - bloomingbit</title>
+    <link href="https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhbWNOSXF5UFhIbkFlaXRUeFVhSG5aY0ZoRVJ4ZDcyX2lTc3J3cnkyQUN5cU1jbjlBajhvMGVXNTRuc0I1TXlHWXViaEg0TlZmZUNZOA?oc=5" />
+    <link rel="related" href="/stories/lutnick-renews-chip-tariff-threat-tells-makers-to-bu-423b7f31.html" />
+    <updated>2026-09-03T08:45:53.000Z</updated>
+    <author><name>bloomingbit</name></author>
+    <summary type="html">Lutnick Renews Chip Tariff Threat, Tells Makers to Build in US or Pay bloomingbit RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.</summary>
+    <category term="google-news:memory semiconductor tariff" />
+    <category term="tag:macro" />
+    
+    <content type="html">&lt;p&gt;Lutnick Renews Chip Tariff Threat, Tells Makers to Build in US or Pay bloomingbit&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Deterministic MACRO signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vaU9pUHZ0Q0hUXzBCZ1BINEZicVNLWDZiZ0Q1QjF6UUFaempreE5zejVoSjJaRzFRRkZoN1JRNXpMbnJyc0lRVlFIV3JiTGVuMS0w?oc=5</id>
+    <title type="html">U.S. Uses Taiwan as Leverage to Pressure Samsung Electronics and SK hynix on U.S. Investment - 매일경제</title>
+    <link href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vaU9pUHZ0Q0hUXzBCZ1BINEZicVNLWDZiZ0Q1QjF6UUFaempreE5zejVoSjJaRzFRRkZoN1JRNXpMbnJyc0lRVlFIV3JiTGVuMS0w?oc=5" />
+    <link rel="related" href="/stories/u-s-uses-taiwan-as-leverage-to-pressure-samsung-elec-a7f2ce46.html" />
+    <updated>2026-09-03T08:38:08.000Z</updated>
+    <author><name>매일경제</name></author>
+    <summary type="html">U.S. Uses Taiwan as Leverage to Pressure Samsung Electronics and SK hynix on U.S. Investment 매일경제 RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:memory semiconductor tariff" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;U.S. Uses Taiwan as Leverage to Pressure Samsung Electronics and SK hynix on U.S. Investment 매일경제&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiakFVX3lxTE1yY05XallMVUdhYUw0TWlhbGRSbDdILVJxeHFwN2tZUDBKSnZuRkNNOFR1eHBJZDZOWHRqUFpoZk5tV0c3c3V0OVpBbWVpdzE3endDa3RoYjZDUkN1LW8tdUNiX0d5RVI0OWc?oc=5</id>
     <title type="html">DDR5 RAM Prices 2026: $400 for 32GB as Costs Soar 485% - tech-insider.org</title>
@@ -21,7 +99,20 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;DDR5 RAM Prices 2026: $400 for 32GB as Costs Soar 485% tech-insider.org&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;DDR5 RAM Prices 2026: $400 for 32GB as Costs Soar 485% tech-insider.org&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OTG96cWFZQmdLZ29oMzZzb0tnRlpOOW14OGRpNzU3OGV4WjBXU0FQYXYzLTZidF9DbTZoUG1BRXk1aURDaVAzLTZVeGRpRWlBMWQybVZ4cVN4R1REUUxDNWhR?oc=5</id>
+    <title type="html">[AI Ecosystem] The real bottleneck: Data, not compute - SK hynix</title>
+    <link href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OTG96cWFZQmdLZ29oMzZzb0tnRlpOOW14OGRpNzU3OGV4WjBXU0FQYXYzLTZidF9DbTZoUG1BRXk1aURDaVAzLTZVeGRpRWlBMWQybVZ4cVN4R1REUUxDNWhR?oc=5" />
+    <link rel="related" href="/stories/ai-ecosystem-the-real-bottleneck-data-not-compute-sk-34fb483e.html" />
+    <updated>2026-09-03T01:08:21.000Z</updated>
+    <author><name>SK hynix</name></author>
+    <summary type="html">[AI Ecosystem] The real bottleneck: Data, not compute SK hynix RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;[AI Ecosystem] The real bottleneck: Data, not compute SK hynix&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/acemagic-f9a-ryzen-ai-max-495-mini-workstation-192-gb-memory/</id>
@@ -34,7 +125,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;ACEMAGIC has unveiled its F9A Mini Workstation, which houses up to the AMD Ryzen AI MAX+ PRO 495 chip &amp; 192 GB of memory. Mini PC &amp; Workstation Popularity Grows As Local AI &amp; Agents Become The New Craze, &amp; ACEMAGIC Addresses This Demand With Its AMD Ryzen AI MAX+ Powered F9A PC At IFA, ACEMAGIC is announcing its latest Mini Workstation platform, the F9A. This new platform is designed to incorporat&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;ACEMAGIC has unveiled its F9A Mini Workstation, which houses up to the AMD Ryzen AI MAX+ PRO 495 chip &amp; 192 GB of memory. Mini PC &amp; Workstation Popularity Grows As Local AI &amp; Agents Become The New Craze, &amp; ACEMAGIC Addresses This Demand With Its AMD Ryzen AI MAX+ Powered F9A PC At IFA, ACEMAGIC is announcing its latest Mini Workstation platform, the F9A. This new platform is designed to incorporat&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/china-trails-asmls-advanced-euv-chip-making-technology-by-10-years-says-investment-bank-ubs-as-progress-is-stuck-at-asmls-2004-level/</id>
@@ -48,6 +139,19 @@
     <category term="tag:fab" />
     
     <content type="html">&lt;p&gt;China is unlikely to match Dutch chip manufacturing ASML's EUV machines for ten years, suggests a new report from investment bank UBS. EUV lithography scanners are a key link in the global advanced chip manufacturing industry, and without them, making the latest chips is complicated and costly. US restrictions on China prevent the country's major chip manufacturers from acquiring the EUV machines,&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMivgFBVV95cUxNLTJXQjlzTWpvclhVT0Y1c2VNUTZRenBPQ0k0YzM4TnRmUmZfY3ctZ0RDWE5OQi1pcEUzWmIycWhpeERwN1pjTUhtMEtrS1VQYkp1cldHbzNuYi1fcDBfTW54TDJ2bVNLbUd1SlJyQkhtNUVPa0prVTZNZG81OF9QT1h3ajdXTkw1akhpTFZOS0JVM2lkWUpVUzg0UlMtbnBwcUVwWW11MUVlaEpCcFR1RE5yMzc3aENabUVKSEVR?oc=5</id>
+    <title type="html">US trade curbs put Malaysia's solar, semiconductor ambitions to the test - NST Online</title>
+    <link href="https://news.google.com/rss/articles/CBMivgFBVV95cUxNLTJXQjlzTWpvclhVT0Y1c2VNUTZRenBPQ0k0YzM4TnRmUmZfY3ctZ0RDWE5OQi1pcEUzWmIycWhpeERwN1pjTUhtMEtrS1VQYkp1cldHbzNuYi1fcDBfTW54TDJ2bVNLbUd1SlJyQkhtNUVPa0prVTZNZG81OF9QT1h3ajdXTkw1akhpTFZOS0JVM2lkWUpVUzg0UlMtbnBwcUVwWW11MUVlaEpCcFR1RE5yMzc3aENabUVKSEVR?oc=5" />
+    <link rel="related" href="/stories/us-trade-curbs-put-malaysia-s-solar-semiconductor-am-c8ea7a90.html" />
+    <updated>2026-09-02T19:32:40.000Z</updated>
+    <author><name>NST Online</name></author>
+    <summary type="html">US trade curbs put Malaysia's solar, semiconductor ambitions to the test NST Online RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:semiconductor trade policy" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;US trade curbs put Malaysia's solar, semiconductor ambitions to the test NST Online&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.nextplatform.com/connect/2026/09/02/optics-still-driving-marvells-ai-business-more-than-custom-chips/5294018</id>
@@ -99,7 +203,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;According to the latest report from ETNews, citing supply chain sources, TSMC is reportedly still holding back from investing in the silicon packaging technology known as hybrid bonding for HBM memory integration. For those unfamiliar, hybrid bonding creates a permanent bond between two silicon chips using embedded metal bumps that are fused together to form a single chip. Multiple dies or entire&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;According to the latest report from ETNews, citing supply chain sources, TSMC is reportedly still holding back from investing in the silicon packaging technology known as hybrid bonding for HBM memory integration. For those unfamiliar, hybrid bonding creates a permanent bond between two silicon chips using embedded metal bumps that are fused together to form a single chip. Multiple dies or entire&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/352267/tsmc-skips-hybrid-bonding-for-now-betting-on-conventional-microbumps-to-lead-the-way</id>
