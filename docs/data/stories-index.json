@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-02T21:01:44.147Z",
-  "count": 466,
+  "generatedAt": "2026-09-03T04:21:08.409Z",
+  "count": 469,
   "stories": [
+    {
+      "slug": "ddr5-ram-prices-2026-400-for-32gb-as-costs-soar-485-65fa6efa",
+      "url": "/stories/ddr5-ram-prices-2026-400-for-32gb-as-costs-soar-485-65fa6efa.html",
+      "title": "DDR5 RAM Prices 2026: $400 for 32GB as Costs Soar 485% - tech-insider.org",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "tech-insider.org",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "acemagic-s-f9a-ryzen-ai-max-495-mini-workstation-del-6286eb02",
+      "url": "/stories/acemagic-s-f9a-ryzen-ai-max-495-mini-workstation-del-6286eb02.html",
+      "title": "ACEMAGIC’s F9A Ryzen AI MAX+ 495 Mini Workstation Delivers Up To 60% Better AI Model Support Over 395, As it Packs 192 GB Memory",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "china-trails-asml-s-advanced-euv-chip-making-technol-ba54c3c2",
       "url": "/stories/china-trails-asml-s-advanced-euv-chip-making-technol-ba54c3c2.html",
@@ -39,6 +61,17 @@
       "slug": "amd-rdna-5-gpu-ip-ships-inside-a-samsung-soc-on-2-nm-5a79d187",
       "url": "/stories/amd-rdna-5-gpu-ip-ships-inside-a-samsung-soc-on-2-nm-5a79d187.html",
       "title": "AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
+      "tag": "fab",
+      "date": "2026-09-02",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "tsmc-delays-hybrid-bonding-investment-for-hbm-opts-f-42bace37",
+      "url": "/stories/tsmc-delays-hybrid-bonding-investment-for-hbm-opts-f-42bace37.html",
+      "title": "TSMC Delays Hybrid Bonding Investment for HBM, Opts for Microbumps",
       "tag": "fab",
       "date": "2026-09-02",
       "score": 8,
