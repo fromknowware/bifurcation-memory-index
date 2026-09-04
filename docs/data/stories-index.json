@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-03T21:00:38.247Z",
-  "count": 499,
+  "generatedAt": "2026-09-04T04:29:54.243Z",
+  "count": 508,
   "stories": [
+    {
+      "slug": "samsung-narrows-the-gap-with-sk-hynix-and-captures-3-056451ac",
+      "url": "/stories/samsung-narrows-the-gap-with-sk-hynix-and-captures-3-056451ac.html",
+      "title": "Samsung narrows the gap with SK Hynix and captures 33% of the memory chip market - صوت الإمارات",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "صوت الإمارات",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "google-recycles-ddr4-from-dead-servers-as-dram-short-a1c1c511",
+      "url": "/stories/google-recycles-ddr4-from-dead-servers-as-dram-short-a1c1c511.html",
+      "title": "Google recycles DDR4 from dead servers as DRAM shortage bites - CryptoRank",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "CryptoRank",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-likely-to-face-severe-criticism-over-a-10-20-p-a41a3305",
+      "url": "/stories/apple-likely-to-face-severe-criticism-over-a-10-20-p-a41a3305.html",
+      "title": "Apple Likely To Face Severe Criticism Over A 10-20% Price Hike For The iPhone 18 Pro, But That’s Because You Haven’t Heard How Much It’s Paying In DRAM Costs - Wccftech",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-likely-to-face-severe-criticism-over-a-10-20-p-286835c7",
+      "url": "/stories/apple-likely-to-face-severe-criticism-over-a-10-20-p-286835c7.html",
+      "title": "Apple Likely To Face Severe Criticism Over A 10-20% Price Hike For The iPhone 18 Pro, But That’s Because You Haven’t Heard How Much It’s Paying In DRAM Costs",
+      "tag": "earnings",
+      "date": "2026-09-03",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
     {
       "slug": "zeiss-ceo-says-china-might-be-15-years-behind-wester-636d50d5",
       "url": "/stories/zeiss-ceo-says-china-might-be-15-years-behind-wester-636d50d5.html",
@@ -22,6 +66,17 @@
       "score": 8,
       "pick": false,
       "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "google-dismantles-retired-servers-to-recover-ddr4-as-6bd8e842",
+      "url": "/stories/google-dismantles-retired-servers-to-recover-ddr4-as-6bd8e842.html",
+      "title": "Google Dismantles Retired Servers to Recover DDR4 as Memory Shortage Forces Extreme Measures - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -91,6 +146,28 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "kioxia-outlines-plan-to-capture-ai-demand-with-its-n-c864f08f",
+      "url": "/stories/kioxia-outlines-plan-to-capture-ai-demand-with-its-n-c864f08f.html",
+      "title": "Kioxia outlines plan to capture AI demand with its new high-speed memory chip - Nikkei Asia",
+      "tag": "demand",
+      "date": "2026-09-03",
+      "score": 7,
+      "pick": false,
+      "source": "Nikkei Asia",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "upbeat-ai-data-centers-demand-propels-sk-hynix-more-81a9d81c",
+      "url": "/stories/upbeat-ai-data-centers-demand-propels-sk-hynix-more-81a9d81c.html",
+      "title": "Upbeat AI Data Centers Demand Propels SK Hynix: More Growth Ahead? - The Globe and Mail",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "The Globe and Mail",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "how-to-install-a-ps5-ssd-in-2026-49db0aac",
       "url": "/stories/how-to-install-a-ps5-ssd-in-2026-49db0aac.html",
       "title": "How to install a PS5 SSD in 2026",
@@ -99,6 +176,28 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-micron-move-to-dismiss-us-dram-pric-872ab72b",
+      "url": "/stories/samsung-sk-hynix-micron-move-to-dismiss-us-dram-pric-872ab72b.html",
+      "title": "Samsung, SK Hynix, Micron move to dismiss US DRAM price-fixing claims - MLex",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "MLex",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-micron-move-to-dismiss-us-dram-pric-41bce284",
+      "url": "/stories/samsung-sk-hynix-micron-move-to-dismiss-us-dram-pric-41bce284.html",
+      "title": "Samsung, SK Hynix, Micron move to dismiss US DRAM price-fixing claims - MLex",
+      "tag": "supply",
+      "date": "2026-09-03",
+      "score": 8,
+      "pick": false,
+      "source": "MLex",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
