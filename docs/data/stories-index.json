@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-09-04T16:20:12.665Z",
-  "count": 537,
+  "generatedAt": "2026-09-04T20:44:25.732Z",
+  "count": 546,
   "stories": [
+    {
+      "slug": "analyst-firm-global-dram-market-size-grew-55-9-quart-a66cc009",
+      "url": "/stories/analyst-firm-global-dram-market-size-grew-55-9-quart-a66cc009.html",
+      "title": "Analyst Firm: Global DRAM Market Size Grew 55.9% Quarter-on-Quarter in Q2, Setting a New Record High - 富途牛牛",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "富途牛牛",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sambanova-tackles-ai-s-memory-wall-jon-peddie-resear-179d3ce8",
+      "url": "/stories/sambanova-tackles-ai-s-memory-wall-jon-peddie-resear-179d3ce8.html",
+      "title": "SambaNova tackles AI’s memory wall - Jon Peddie Research",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "Jon Peddie Research",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "siemens-brings-precision-fpga-synthesis-to-nanobridg-fd4dbf63",
+      "url": "/stories/siemens-brings-precision-fpga-synthesis-to-nanobridg-fd4dbf63.html",
+      "title": "Siemens Brings Precision FPGA Synthesis to NanoBridge Semiconductor Devices",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "semi-global-semiconductor-equipment-billings-increas-3d595d7a",
+      "url": "/stories/semi-global-semiconductor-equipment-billings-increas-3d595d7a.html",
+      "title": "SEMI: Global Semiconductor Equipment Billings Increased 23% YoY in Q2 2026",
+      "tag": "earnings",
+      "date": "2026-09-04",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "chinese-firm-naura-claims-big-breakthrough-that-coul-053956e0",
+      "url": "/stories/chinese-firm-naura-claims-big-breakthrough-that-coul-053956e0.html",
+      "title": "Chinese Firm Naura Claims Big Breakthrough That Could Enable CXMT To Overcome EUV Sanctions & Make 3D DRAM Chips",
+      "tag": "fab",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "gaming-laptop-s-excessive-overheating-caused-a-ddr5-dd1fdb8a",
+      "url": "/stories/gaming-laptop-s-excessive-overheating-caused-a-ddr5-dd1fdb8a.html",
+      "title": "Gaming Laptop’s Excessive Overheating Caused A DDR5 Power Rail Failure, But This Level Of Hardware Problems Is Caused By None Other Than User Neglect",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "quantum-foundry-copenhagen-unveils-plans-for-europea-8735a7e9",
       "url": "/stories/quantum-foundry-copenhagen-unveils-plans-for-europea-8735a7e9.html",
@@ -124,6 +190,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "memory-chip-price-surge-reshapes-smartphone-pricing-6cdb73aa",
+      "url": "/stories/memory-chip-price-surge-reshapes-smartphone-pricing-6cdb73aa.html",
+      "title": "Memory chip price surge reshapes smartphone pricing: Global average up 15%, Samsung bucks trend by ramping up low-end production to grab share - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "spacexai-offers-50-starlink-discount-to-placate-data-fa8c64e5",
       "url": "/stories/spacexai-offers-50-starlink-discount-to-placate-data-fa8c64e5.html",
       "title": "SpaceXAI offers 50% Starlink discount to placate data center neighbors; 2,000 have signed up — goodwill gesture comes amid vociferous community backlash",
@@ -157,6 +234,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "chinese-chipmaker-cxmt-allegedly-used-a-written-road-d2315b5a",
+      "url": "/stories/chinese-chipmaker-cxmt-allegedly-used-a-written-road-d2315b5a.html",
+      "title": "Chinese chipmaker CXMT allegedly used a written roadmap to steal Samsung DRAM tech — South Korean court says 'Project Hefei' lifted 620-step recipe to build 10% global market share - Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "chinese-chipmaker-cxmt-allegedly-used-a-written-road-eb982db3",
       "url": "/stories/chinese-chipmaker-cxmt-allegedly-used-a-written-road-eb982db3.html",
       "title": "Chinese chipmaker CXMT allegedly used a written roadmap to steal Samsung DRAM tech — South Korean court says 'Project Hefei' lifted 620-step recipe to build 10% global market share",
@@ -166,6 +254,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-memory-crunch-is-about-to-hit-10-out-of-10-crazin-3c044beb",
+      "url": "/stories/ai-memory-crunch-is-about-to-hit-10-out-of-10-crazin-3c044beb.html",
+      "title": "AI Memory Crunch Is About to Hit ‘10 Out of 10’ Craziness - Benzinga",
+      "tag": "demand",
+      "date": "2026-09-04",
+      "score": 7,
+      "pick": false,
+      "source": "Benzinga",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "trump-s-bid-to-shield-chip-supply-chain-could-backfi-97cdd658",
