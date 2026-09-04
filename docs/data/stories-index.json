@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-09-04T11:15:19.933Z",
-  "count": 522,
+  "generatedAt": "2026-09-04T16:20:12.665Z",
+  "count": 537,
   "stories": [
+    {
+      "slug": "quantum-foundry-copenhagen-unveils-plans-for-europea-8735a7e9",
+      "url": "/stories/quantum-foundry-copenhagen-unveils-plans-for-europea-8735a7e9.html",
+      "title": "Quantum Foundry Copenhagen Unveils Plans for European Quantum Chip Facility",
+      "tag": "fab",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "penguin-solutions-to-showcase-ai-infrastructure-and-d82d189e",
+      "url": "/stories/penguin-solutions-to-showcase-ai-infrastructure-and-d82d189e.html",
+      "title": "Penguin Solutions to Showcase AI Infrastructure and Memory Solutions at AI Infra Summit 2026",
+      "tag": "demand",
+      "date": "2026-09-04",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-is-reportedly-giving-up-on-china-as-a-lost-ca-b43aeb37",
+      "url": "/stories/nvidia-is-reportedly-giving-up-on-china-as-a-lost-ca-b43aeb37.html",
+      "title": "NVIDIA Is Reportedly Giving Up On China As A Lost Cause Amid An Unassailable Lead From Huawei, As DeepSeek Snubs H20 GPUs For 160,000 Units Of Huawei’s Ascend 950DT Chips",
+      "tag": "demand",
+      "date": "2026-09-04",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "legion-go-s-drops-to-999-at-best-buy-amid-dram-crisi-1a5b2285",
+      "url": "/stories/legion-go-s-drops-to-999-at-best-buy-amid-dram-crisi-1a5b2285.html",
+      "title": "Legion Go S Drops to $999 at Best Buy Amid DRAM Crisis Wiping Out Rivals - Tech Times",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "Tech Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "lexar-shows-off-muse-portable-ssd-claims-world-039-s-3b0a0216",
+      "url": "/stories/lexar-shows-off-muse-portable-ssd-claims-world-039-s-3b0a0216.html",
+      "title": "Lexar Shows Off Muse Portable SSD, Claims World&#039;s Thinnest at IFA 2026",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-plans-to-double-monthly-hbm-capacity-to-100-0-cbba261f",
+      "url": "/stories/micron-plans-to-double-monthly-hbm-capacity-to-100-0-cbba261f.html",
+      "title": "Micron Plans to Double Monthly HBM Capacity to 100,000 Wafers to Catch Up With Samsung and SK Hynix - TradingKey",
+      "tag": "demand",
+      "date": "2026-09-04",
+      "score": 7,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "denver-data-center-continuously-waters-its-lawn-even-7e2bc10e",
+      "url": "/stories/denver-data-center-continuously-waters-its-lawn-even-7e2bc10e.html",
+      "title": "Denver data center continuously waters its lawn even after city announced drought restrictions, enraging residents — it’s unclear if site is breaking the law or using its own recycled water",
+      "tag": "demand",
+      "date": "2026-09-04",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "hpe-and-oracle-expand-collaboration-on-ai-data-cente-cf515e20",
+      "url": "/stories/hpe-and-oracle-expand-collaboration-on-ai-data-cente-cf515e20.html",
+      "title": "HPE and Oracle Expand Collaboration on AI Data Center Networking",
+      "tag": "demand",
+      "date": "2026-09-04",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "discrete-graphics-card-sales-hit-four-year-record-de-7198fa26",
+      "url": "/stories/discrete-graphics-card-sales-hit-four-year-record-de-7198fa26.html",
+      "title": "Discrete graphics card sales hit four-year record despite soaring memory prices — AMD gains market share as notebook graphics carry the market",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-s-base-14-inch-m5-macbook-pro-with-double-the-2a5e4507",
+      "url": "/stories/apple-s-base-14-inch-m5-macbook-pro-with-double-the-2a5e4507.html",
+      "title": "Apple’s Base 14-Inch M5 MacBook Pro With Double The SSD Capacity Is $150 Off On Amazon, With The 10-Core CPU & 10-Core GPU Option Available For $1,849.99",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "fake-ddr5-memory-kits-now-on-sale-starting-at-43-v-c-8e5e749f",
+      "url": "/stories/fake-ddr5-memory-kits-now-on-sale-starting-at-43-v-c-8e5e749f.html",
+      "title": "Fake DDR5 memory kits now on sale starting at $43 — V-Color sells 0GB dummy modules and single-stick memory kits with a fake stick for $300",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "spacexai-offers-50-starlink-discount-to-placate-data-fa8c64e5",
       "url": "/stories/spacexai-offers-50-starlink-discount-to-placate-data-fa8c64e5.html",
@@ -12,6 +133,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "this-32gb-of-team-group-ddr5-ram-is-the-cheapest-ddr-186dbc3e",
+      "url": "/stories/this-32gb-of-team-group-ddr5-ram-is-the-cheapest-ddr-186dbc3e.html",
+      "title": "This 32GB of Team Group DDR5 RAM is the cheapest DDR5-6400 kit on the market – only $405 with promo code, buy the least expensive DDR5-6400 kit around with environmentally conscious T-Force Vulcan Eco RAM - Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "this-32gb-of-team-group-ddr5-ram-is-the-cheapest-ddr-5e69265e",
@@ -33,6 +165,17 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "trump-s-bid-to-shield-chip-supply-chain-could-backfi-97cdd658",
+      "url": "/stories/trump-s-bid-to-shield-chip-supply-chain-could-backfi-97cdd658.html",
+      "title": "Trump's bid to shield chip supply chain could backfire in Tennessee - electronics.economictimes.indiatimes.com",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "electronics.economictimes.indiatimes.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -102,6 +245,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "nomura-says-samsung-electronics-sk-hynix-severely-un-b2d8f282",
+      "url": "/stories/nomura-says-samsung-electronics-sk-hynix-severely-un-b2d8f282.html",
+      "title": "Nomura Says Samsung Electronics, SK Hynix Severely Undervalued; Maintains Target Prices of ₩670,000 and ₩4.7 Million - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "the-latest-memory-price-tracking-shows-that-the-q3-s-14d255ce",
       "url": "/stories/the-latest-memory-price-tracking-shows-that-the-q3-s-14d255ce.html",
       "title": "The latest memory price tracking shows that the Q3 storage price hike logic continues: PC DRAM price expectations are ra… - Longbridge",
@@ -121,6 +275,17 @@
       "score": 8,
       "pick": false,
       "source": "Sammy Fans",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "how-much-ram-and-vram-do-you-actually-need-for-local-4776e5f9",
+      "url": "/stories/how-much-ram-and-vram-do-you-actually-need-for-local-4776e5f9.html",
+      "title": "How Much RAM and VRAM Do You Actually Need for Local AI in 2026? - Memeburn",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "Memeburn",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
