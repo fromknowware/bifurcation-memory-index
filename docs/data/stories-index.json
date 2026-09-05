@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-05T15:11:40.753Z",
-  "count": 557,
+  "generatedAt": "2026-09-05T20:18:46.564Z",
+  "count": 560,
   "stories": [
+    {
+      "slug": "snapdragon-8-elite-gen-6-pro-live-chipset-die-leak-s-eade6e02",
+      "url": "/stories/snapdragon-8-elite-gen-6-pro-live-chipset-die-leak-s-eade6e02.html",
+      "title": "Snapdragon 8 Elite Gen 6 Pro Live Chipset Die Leak Shows A Massive SoC Thanks To The New Heatsink Implementation That’s Meant To Cool The DRAM Effectively",
+      "tag": "supply",
+      "date": "2026-09-05",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "save-nearly-50-on-this-awesome-16-inch-oled-laptop-w-ee621391",
+      "url": "/stories/save-nearly-50-on-this-awesome-16-inch-oled-laptop-w-ee621391.html",
+      "title": "Save nearly 50% on this awesome 16-inch OLED laptop with a Ryzen AI 5 430 CPU & 16GB RAM — HP's MacBook Neo-beating OmniBook X Flip is down to just $699",
+      "tag": "supply",
+      "date": "2026-09-05",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "stripped-down-windows-11-for-ai-developers-demands-6-f3ed8d26",
+      "url": "/stories/stripped-down-windows-11-for-ai-developers-demands-6-f3ed8d26.html",
+      "title": "Stripped-down Windows 11 for AI developers demands 64GB RAM and insane 250 GB/s bandwidth — Project Zenith will debut on AMD's flagship Ryzen AI Halo platform",
+      "tag": "supply",
+      "date": "2026-09-05",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-2ef06125",
       "url": "/stories/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-2ef06125.html",
