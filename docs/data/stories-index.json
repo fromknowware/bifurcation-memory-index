@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-09-05T10:32:45.010Z",
-  "count": 551,
+  "generatedAt": "2026-09-05T15:11:40.753Z",
+  "count": 557,
   "stories": [
+    {
+      "slug": "amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-2ef06125",
+      "url": "/stories/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-2ef06125.html",
+      "title": "AMD reportedly prepping Ryzen 5 7500 (non-F) CPU with integrated graphics at double the price — Six-core Zen 4 chip rumored to share identical specs with its F-moniker cousin",
+      "tag": "supply",
+      "date": "2026-09-05",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chey-tae-won-bets-on-global-footprint-to-shape-the-a-a0392c72",
+      "url": "/stories/chey-tae-won-bets-on-global-footprint-to-shape-the-a-a0392c72.html",
+      "title": "Chey Tae-won Bets on Global Footprint to Shape the AI Memory Era - 이코노미트리뷴",
+      "tag": "demand",
+      "date": "2026-09-05",
+      "score": 7,
+      "pick": false,
+      "source": "이코노미트리뷴",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "minisforum-introduces-ms-s1-max-p495-mini-pc-powered-a6637566",
+      "url": "/stories/minisforum-introduces-ms-s1-max-p495-mini-pc-powered-a6637566.html",
+      "title": "Minisforum Introduces MS-S1 MAX-P495 Mini PC, Powered By Ryzen AI Max+ PRO 495 SoC Coupled With 192 GB Memory",
+      "tag": "supply",
+      "date": "2026-09-05",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dodge-the-rampocalypse-with-20-discounts-on-corsair-ebffb575",
+      "url": "/stories/dodge-the-rampocalypse-with-20-discounts-on-corsair-ebffb575.html",
+      "title": "Dodge the RAMpocalypse with 20% discounts on Corsair RAM — hundreds off on 32GB and 64GB DDR5-6400 kits",
+      "tag": "supply",
+      "date": "2026-09-05",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-s-biggest-memory-chip-stock-is-almost-as-good-aac32e4c",
+      "url": "/stories/china-s-biggest-memory-chip-stock-is-almost-as-good-aac32e4c.html",
+      "title": "China's Biggest Memory Chip Stock Is Almost as Good as Micron - The Motley Fool",
+      "tag": "supply",
+      "date": "2026-09-05",
+      "score": 8,
+      "pick": false,
+      "source": "The Motley Fool",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "we-tested-dlss-5-in-nba-2k27-with-every-rtx-50-serie-0d359090",
+      "url": "/stories/we-tested-dlss-5-in-nba-2k27-with-every-rtx-50-serie-0d359090.html",
+      "title": "We tested DLSS 5 in NBA 2K27 with every RTX 50-series GPU — first official release comes with a big performance hit, but almost every Blackwell card can run it at 1080p",
+      "tag": "demand",
+      "date": "2026-09-05",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "spot-memory-prices-are-running-4-times-contract-pric-5279d05a",
       "url": "/stories/spot-memory-prices-are-running-4-times-contract-pric-5279d05a.html",

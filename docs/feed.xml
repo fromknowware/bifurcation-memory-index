@@ -5,11 +5,89 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-05T10:32:43.326Z</updated>
+  <updated>2026-09-05T15:11:38.589Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/cpus/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-integrated-graphics-at-double-the-price-six-core-zen-4-chip-rumored-to-share-identical-specs-with-its-f-moniker-cousin</id>
+    <title type="html">AMD reportedly prepping Ryzen 5 7500 (non-F) CPU with integrated graphics at double the price — Six-core Zen 4 chip rumored to share identical specs with its F-moniker cousin</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-integrated-graphics-at-double-the-price-six-core-zen-4-chip-rumored-to-share-identical-specs-with-its-f-moniker-cousin" />
+    <link rel="related" href="/stories/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-2ef06125.html" />
+    <updated>2026-09-05T13:09:23.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZeFhUQnRUcDdBOHZ2M2ZMTEpYUlRfTXgyaThZT29MYXlnaGVEYXUwdUluOU5Ra1FLRTR3QXpENXRXcDluSmZlcjRneUstWFU5RlBNNkZrb0doNEVjbkxBM0N6eFg2ZVRCcDMwbjRCVFdtZXFkazBz?oc=5</id>
+    <title type="html">Chey Tae-won Bets on Global Footprint to Shape the AI Memory Era - 이코노미트리뷴</title>
+    <link href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZeFhUQnRUcDdBOHZ2M2ZMTEpYUlRfTXgyaThZT29MYXlnaGVEYXUwdUluOU5Ra1FLRTR3QXpENXRXcDluSmZlcjRneUstWFU5RlBNNkZrb0doNEVjbkxBM0N6eFg2ZVRCcDMwbjRCVFdtZXFkazBz?oc=5" />
+    <link rel="related" href="/stories/chey-tae-won-bets-on-global-footprint-to-shape-the-a-a0392c72.html" />
+    <updated>2026-09-05T12:44:55.000Z</updated>
+    <author><name>이코노미트리뷴</name></author>
+    <summary type="html">Chey Tae-won Bets on Global Footprint to Shape the AI Memory Era 이코노미트리뷴 RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Chey Tae-won Bets on Global Footprint to Shape the AI Memory Era 이코노미트리뷴&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/minisforum-introduces-ms-s1-max-p495-mini-pc/</id>
+    <title type="html">Minisforum Introduces MS-S1 MAX-P495 Mini PC, Powered By Ryzen AI Max+ PRO 495 SoC Coupled With 192 GB Memory</title>
+    <link href="https://wccftech.com/minisforum-introduces-ms-s1-max-p495-mini-pc/" />
+    <link rel="related" href="/stories/minisforum-introduces-ms-s1-max-p495-mini-pc-powered-a6637566.html" />
+    <updated>2026-09-05T12:08:41.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">The new mini PC can offer up to 131 TOPS of AI power, allowing it to run 300B LLMs locally. Minisforum Showcases MS-S1 MAX-P495 Mini PC With 16-Core/32-Thread Gorgon Halo Processor, 192 GB RAM, and a Dedicated PCIe x16 Slot for Expansion Cards Multiple vendors are now releasing their new Gorgon Halo-based mini PCs, including Minisforum, which has announced its flagship mini PC called MS-S1 MAX-P49 RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;The new mini PC can offer up to 131 TOPS of AI power, allowing it to run 300B LLMs locally. Minisforum Showcases MS-S1 MAX-P495 Mini PC With 16-Core/32-Thread Gorgon Halo Processor, 192 GB RAM, and a Dedicated PCIe x16 Slot for Expansion Cards Multiple vendors are now releasing their new Gorgon Halo-based mini PCs, including Minisforum, which has announced its flagship mini PC called MS-S1 MAX-P49&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/dodge-the-rampocalypse-with-20-percent-discounts-on-corsair-ram-hundreds-off-on-32gb-and-64gb-ddr5-6400-kits</id>
+    <title type="html">Dodge the RAMpocalypse with 20% discounts on Corsair RAM — hundreds off on 32GB and 64GB DDR5-6400 kits</title>
+    <link href="https://www.tomshardware.com/pc-components/dodge-the-rampocalypse-with-20-percent-discounts-on-corsair-ram-hundreds-off-on-32gb-and-64gb-ddr5-6400-kits" />
+    <link rel="related" href="/stories/dodge-the-rampocalypse-with-20-discounts-on-corsair-ebffb575.html" />
+    <updated>2026-09-05T11:30:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMilwFBVV95cUxNNmxidzFLb0s2TnYzTDVOUjZIOTRsUVYtbEx3OTNESlREbGdCUDBpUXpqcDJIZkdoVVBRVFNhdHpHNnpMOXZDZmhfanllS3ZrdTlJR1lYZU1iTHh2b3c2LWktSTBPaGRHT0ZjZ1ZjdktXZ2FkZmFrMDZxZU1qRkdWekFtczZWbi1vblExc2p0XzNoTldGVnNj?oc=5</id>
+    <title type="html">China's Biggest Memory Chip Stock Is Almost as Good as Micron - The Motley Fool</title>
+    <link href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNNmxidzFLb0s2TnYzTDVOUjZIOTRsUVYtbEx3OTNESlREbGdCUDBpUXpqcDJIZkdoVVBRVFNhdHpHNnpMOXZDZmhfanllS3ZrdTlJR1lYZU1iTHh2b3c2LWktSTBPaGRHT0ZjZ1ZjdktXZ2FkZmFrMDZxZU1qRkdWekFtczZWbi1vblExc2p0XzNoTldGVnNj?oc=5" />
+    <link rel="related" href="/stories/china-s-biggest-memory-chip-stock-is-almost-as-good-aac32e4c.html" />
+    <updated>2026-09-05T11:06:00.000Z</updated>
+    <author><name>The Motley Fool</name></author>
+    <summary type="html">China's Biggest Memory Chip Stock Is Almost as Good as Micron The Motley Fool RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;China's Biggest Memory Chip Stock Is Almost as Good as Micron The Motley Fool&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/video-games/pc-gaming/we-tested-dlss-5-in-nba-2k27-with-every-rtx-50-series-gpu-first-official-release-comes-with-a-big-performance-hit-but-almost-every-blackwell-card-can-run-it-at-1080p</id>
+    <title type="html">We tested DLSS 5 in NBA 2K27 with every RTX 50-series GPU — first official release comes with a big performance hit, but almost every Blackwell card can run it at 1080p</title>
+    <link href="https://www.tomshardware.com/video-games/pc-gaming/we-tested-dlss-5-in-nba-2k27-with-every-rtx-50-series-gpu-first-official-release-comes-with-a-big-performance-hit-but-almost-every-blackwell-card-can-run-it-at-1080p" />
+    <link rel="related" href="/stories/we-tested-dlss-5-in-nba-2k27-with-every-rtx-50-serie-0d359090.html" />
+    <updated>2026-09-05T11:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOHljMDYwMGRpaHJ0V2RVYUlrUmZVSEt3M0hBeHQwNGNsci0wdENaSlpibnpnQ21iRE1IeVB4SVpfRDJPQlNTaTdfUnJEbEVoZk1TRVJRYXU5M2pNcUYxQlBnTlhMc2s1RmN5ZFBDWS1QQlNYZWtVSUxaem8zcS1aSHFUYWNBNVJUcTdxVzlzcWFwdE5CZ1ZFazJPNUVieV9mRkU2b18tNlVHSWsxelMyNmRYQ2pnZXBrNmlVN1d4bHdOSlE3dHJDOHo0N0pBMlhLM2lDRQ?oc=5</id>
     <title type="html">Spot Memory Prices Are Running 4 Times Contract Prices. That Is Not What a Cycle Peak Looks Like. - The Motley Fool</title>
@@ -21,7 +99,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Spot Memory Prices Are Running 4 Times Contract Prices. That Is Not What a Cycle Peak Looks Like. The Motley Fool&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Spot Memory Prices Are Running 4 Times Contract Prices. That Is Not What a Cycle Peak Looks Like. The Motley Fool&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2ItUjdqRkd5ZEctY1pONlloVm1RX1dyQ2tyckcyQ3c5eW5zWFpnUVFKNWdlRU9nbDVKcHlLSzNQV1BXWWViVkNoYU9jdXd6aGRfYVJuYWVXWGNhNUxmYm8zM01oOEZkZUZDcUtINWd1bm1MSEFZa3I5T0pJSEVDZVdZYTk3cENhVmZaZk5JR3VYdUZOZ1FidnA1R1kxREJCOTU2NldrODRLQ2ltVXdWQm13?oc=5</id>
@@ -99,7 +177,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Micron, SanDisk Surge as AI Memory Shortage Trumps Rate-Hike Fears finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron, SanDisk Surge as AI Memory Shortage Trumps Rate-Hike Fears finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE40X1BNXzY3dWI4RkZnekxOTUpneC16OGlZcVlnUUtzdW9DNDlud19IVThIS3daendDTUJFa0V1THhXSWJqcUU5OFVKY2lxTzV0NlQxQ0V2czlEelZQN0Q1cEFDTnVROWo5NEhfYzJ2aG84TFVYdFE?oc=5</id>
