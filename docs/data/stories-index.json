@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-05T04:24:46.530Z",
-  "count": 549,
+  "generatedAt": "2026-09-05T10:32:45.010Z",
+  "count": 551,
   "stories": [
+    {
+      "slug": "spot-memory-prices-are-running-4-times-contract-pric-5279d05a",
+      "url": "/stories/spot-memory-prices-are-running-4-times-contract-pric-5279d05a.html",
+      "title": "Spot Memory Prices Are Running 4 Times Contract Prices. That Is Not What a Cycle Peak Looks Like. - The Motley Fool",
+      "tag": "supply",
+      "date": "2026-09-05",
+      "score": 8,
+      "pick": false,
+      "source": "The Motley Fool",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "south-korea-u-s-discuss-chip-investments-as-washingt-3999335d",
       "url": "/stories/south-korea-u-s-discuss-chip-investments-as-washingt-3999335d.html",
@@ -56,6 +67,17 @@
       "pick": false,
       "source": "HPCwire",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-sandisk-surge-as-ai-memory-shortage-trumps-ra-6c570031",
+      "url": "/stories/micron-sandisk-surge-as-ai-memory-shortage-trumps-ra-6c570031.html",
+      "title": "Micron, SanDisk Surge as AI Memory Shortage Trumps Rate-Hike Fears - finance.biggo.com",
+      "tag": "demand",
+      "date": "2026-09-04",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "memory-supply-squeeze-to-reach-10-out-of-10-crazines-a790e704",
