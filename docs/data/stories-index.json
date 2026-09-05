@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-04T20:44:25.732Z",
-  "count": 546,
+  "generatedAt": "2026-09-05T04:24:46.530Z",
+  "count": 549,
   "stories": [
+    {
+      "slug": "south-korea-u-s-discuss-chip-investments-as-washingt-3999335d",
+      "url": "/stories/south-korea-u-s-discuss-chip-investments-as-washingt-3999335d.html",
+      "title": "South Korea, U.S. Discuss Chip Investments as Washington Weighs New Semiconductor Tariffs - Tekedia",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "Tekedia",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "analyst-firm-global-dram-market-size-grew-55-9-quart-a66cc009",
       "url": "/stories/analyst-firm-global-dram-market-size-grew-55-9-quart-a66cc009.html",
@@ -12,6 +23,17 @@
       "pick": false,
       "source": "富途牛牛",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-is-doubling-down-on-ai-memory-chips-that-coul-b88979fa",
+      "url": "/stories/micron-is-doubling-down-on-ai-memory-chips-that-coul-b88979fa.html",
+      "title": "Micron is doubling down on AI memory chips. That could pay off big time for investors. - MarketWatch",
+      "tag": "demand",
+      "date": "2026-09-04",
+      "score": 7,
+      "pick": false,
+      "source": "MarketWatch",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "sambanova-tackles-ai-s-memory-wall-jon-peddie-resear-179d3ce8",
@@ -33,6 +55,17 @@
       "score": 8,
       "pick": false,
       "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-supply-squeeze-to-reach-10-out-of-10-crazines-a790e704",
+      "url": "/stories/memory-supply-squeeze-to-reach-10-out-of-10-crazines-a790e704.html",
+      "title": "Memory Supply Squeeze to Reach '10 Out of 10' Craziness as Chinese Rivals Gain Ground - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-04",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
