@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-06T10:54:03.482Z",
-  "count": 567,
+  "generatedAt": "2026-09-06T15:26:58.136Z",
+  "count": 569,
   "stories": [
+    {
+      "slug": "bitcoin-mining-data-center-condemned-after-leaking-3-5404b1fb",
+      "url": "/stories/bitcoin-mining-data-center-condemned-after-leaking-3-5404b1fb.html",
+      "title": "Bitcoin mining data center condemned after leaking 3 million gallons of water and forcing school closures — facility operated for years under a city stop-work order",
+      "tag": "demand",
+      "date": "2026-09-06",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-990-2tb-pcie-4-0-ssd-falls-to-339-99-on-amaz-01ca41e7",
+      "url": "/stories/samsung-990-2tb-pcie-4-0-ssd-falls-to-339-99-on-amaz-01ca41e7.html",
+      "title": "Samsung 990 2TB PCIe 4.0 SSD falls to $339.99 on Amazon — $190 discount makes high-capacity storage more affordable",
+      "tag": "supply",
+      "date": "2026-09-06",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "this-246tb-ssd-media-server-is-built-for-millionaire-a975b311",
       "url": "/stories/this-246tb-ssd-media-server-is-built-for-millionaire-a975b311.html",
