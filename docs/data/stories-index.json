@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-05T20:18:46.564Z",
-  "count": 560,
+  "generatedAt": "2026-09-06T04:36:05.579Z",
+  "count": 562,
   "stories": [
+    {
+      "slug": "washington-threatens-samsung-and-sk-hynix-with-100-m-07ca428b",
+      "url": "/stories/washington-threatens-samsung-and-sk-hynix-with-100-m-07ca428b.html",
+      "title": "Washington Threatens Samsung and SK Hynix With 100% Memory Chip Tariffs - startupfortune.com",
+      "tag": "supply",
+      "date": "2026-09-06",
+      "score": 8,
+      "pick": false,
+      "source": "startupfortune.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "semiconductor-peak-debate-intensifies-spot-prices-su-00cf5ca6",
+      "url": "/stories/semiconductor-peak-debate-intensifies-spot-prices-su-00cf5ca6.html",
+      "title": "Semiconductor Peak Debate Intensifies: Spot Prices Surge 4x vs. Technical Warning Signals - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-05",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "snapdragon-8-elite-gen-6-pro-live-chipset-die-leak-s-eade6e02",
       "url": "/stories/snapdragon-8-elite-gen-6-pro-live-chipset-die-leak-s-eade6e02.html",
