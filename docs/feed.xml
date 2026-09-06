@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-06T15:26:55.865Z</updated>
+  <updated>2026-09-06T20:22:58.630Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://wccftech.com/custom-motherboard-revives-old-hp-server-raspberry-pi-cm5-nvme-ssd/</id>
+    <title type="html">A Custom Motherboard Was Made To Revive An Old HP Server With An Archaic AMD CPU, With A Raspberry Pi CM5 And An M.2 PCIe NVMe SSD Coming To The Rescue</title>
+    <link href="https://wccftech.com/custom-motherboard-revives-old-hp-server-raspberry-pi-cm5-nvme-ssd/" />
+    <link rel="related" href="/stories/a-custom-motherboard-was-made-to-revive-an-old-hp-se-d22a3816.html" />
+    <updated>2026-09-06T20:00:48.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">A hardware project involving an old HP server with outdated AMD processors was starting to show its age, and, like typical computer parts that have reached the end of their life, these components are typically found in a landfill. However, one user wasn’t going to give up this easily as he decided to make a custom motherboard thanks to a Raspberry Pi CM5 and pair it with an M.2 NVMe SSD to bring h RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;A hardware project involving an old HP server with outdated AMD processors was starting to show its age, and, like typical computer parts that have reached the end of their life, these components are typically found in a landfill. However, one user wasn’t going to give up this easily as he decided to make a custom motherboard thanks to a Raspberry Pi CM5 and pair it with an M.2 NVMe SSD to bring h&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/amd-ryzen-ai-max-495-powers-gmktec-evo-x5-pro-300b-models-on-192-gb-memory/</id>
+    <title type="html">AMD’s Ryzen AI MAX+ PRO 495 Powers GMKtec’s EVO-X5 PRO To Run 300B+ Models Locally On 192 GB of Unified Memory</title>
+    <link href="https://wccftech.com/amd-ryzen-ai-max-495-powers-gmktec-evo-x5-pro-300b-models-on-192-gb-memory/" />
+    <link rel="related" href="/stories/amd-s-ryzen-ai-max-pro-495-powers-gmktec-s-evo-x5-pr-d8366336.html" />
+    <updated>2026-09-06T18:25:29.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">GMKtec has launched its flagship Mini Workstation, the EVO-X5 PRO, which rocks AMD's fastest Ryzen AI MAX+ PRO 495 chip. GMKtec Claims Its EVO-X5 PRO AI Workstation Offers 66% Faster CPU Orchestration and 40% Lower Cost Per Completed AI Workflow Versus NVIDIA's DGX Spark The EVO-X5 builds upon GMKtec's past EVO releases such as the EVO-X2 and the more recent EVO-X3. The EVO-X5 is decked out, featu RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;GMKtec has launched its flagship Mini Workstation, the EVO-X5 PRO, which rocks AMD's fastest Ryzen AI MAX+ PRO 495 chip. GMKtec Claims Its EVO-X5 PRO AI Workstation Offers 66% Faster CPU Orchestration and 40% Lower Cost Per Completed AI Workflow Versus NVIDIA's DGX Spark The EVO-X5 builds upon GMKtec's past EVO releases such as the EVO-X2 and the more recent EVO-X3. The EVO-X5 is decked out, featu&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/data-centers/bitcoin-mining-data-center-condemned-after-leaking-3-million-gallons-of-water-and-forcing-school-closures-facility-operated-for-years-under-a-city-stop-work-order</id>
     <title type="html">Bitcoin mining data center condemned after leaking 3 million gallons of water and forcing school closures — facility operated for years under a city stop-work order</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/ssds/samsung-990-2tb-pcie-4-0-ssd-falls-to-usd339-99-on-amazon-usd190-discount-makes-high-capacity-storage-more-affordable</id>
@@ -34,7 +60,33 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMimwFBVV95cUxOSnk2OGUxU3pTUUVsS1BxNkxLTHl2VEstTU1CTE05UTRIZUxzQWMyX3Z0MHBCa1M2ZnpmVTdEUzcydjQ0SGQzS0h3ZS1FWEtLZmtESVB6bjhOWUNLM2ZBazZYdXczLVVwTWpHblhnN1lpZlVOazRKZDZ6NzNlV014WTRqYWVfOVJQbVNoZTNMcWxaaHZKNTczSi16bw?oc=5</id>
+    <title type="html">DRAM: We May Be At The Start Of The Second Memory Rally (BATS:DRAM) - Seeking Alpha</title>
+    <link href="https://news.google.com/rss/articles/CBMimwFBVV95cUxOSnk2OGUxU3pTUUVsS1BxNkxLTHl2VEstTU1CTE05UTRIZUxzQWMyX3Z0MHBCa1M2ZnpmVTdEUzcydjQ0SGQzS0h3ZS1FWEtLZmtESVB6bjhOWUNLM2ZBazZYdXczLVVwTWpHblhnN1lpZlVOazRKZDZ6NzNlV014WTRqYWVfOVJQbVNoZTNMcWxaaHZKNTczSi16bw?oc=5" />
+    <link rel="related" href="/stories/dram-we-may-be-at-the-start-of-the-second-memory-ral-14c4c86d.html" />
+    <updated>2026-09-06T12:59:37.000Z</updated>
+    <author><name>Seeking Alpha</name></author>
+    <summary type="html">DRAM: We May Be At The Start Of The Second Memory Rally (BATS:DRAM) Seeking Alpha RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;DRAM: We May Be At The Start Of The Second Memory Rally (BATS:DRAM) Seeking Alpha&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQk9PanpJSThXZkk3MjItbFF3TnJXZWV6NVVxa3g1aHpucHZrVFRyQ2tJdnB3dWNKRGZhbkZ0Q3ZrdWFaTEJhQnpqQkVJbURnVU94UlI0UGtiRHgxdkFIMkJkNGlzMHdfbjRZRXlkSVR4WmVlWnRqT1NDNUk1Qk1KUGRWc1J3UllweTVza1VLWC1VYVdkSUFnelVaQmxyMXVJNTBZSnhlRDdaSlh3TjYxR0taTTFCd2lRUzV0RmE0NFhwNFBJb0xBUUtycUFsTjFVeDgxRUJfWHpiQzdRcGtqamN3?oc=5</id>
+    <title type="html">Trump's bid to shield chip supply chain could backfire in Tennessee - electronics.economictimes.indiatimes.com</title>
+    <link href="https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQk9PanpJSThXZkk3MjItbFF3TnJXZWV6NVVxa3g1aHpucHZrVFRyQ2tJdnB3dWNKRGZhbkZ0Q3ZrdWFaTEJhQnpqQkVJbURnVU94UlI0UGtiRHgxdkFIMkJkNGlzMHdfbjRZRXlkSVR4WmVlWnRqT1NDNUk1Qk1KUGRWc1J3UllweTVza1VLWC1VYVdkSUFnelVaQmxyMXVJNTBZSnhlRDdaSlh3TjYxR0taTTFCd2lRUzV0RmE0NFhwNFBJb0xBUUtycUFsTjFVeDgxRUJfWHpiQzdRcGtqamN3?oc=5" />
+    <link rel="related" href="/stories/trump-s-bid-to-shield-chip-supply-chain-could-backfi-5e7cf3e6.html" />
+    <updated>2026-09-06T10:22:25.000Z</updated>
+    <author><name>electronics.economictimes.indiatimes.com</name></author>
+    <summary type="html">Trump's bid to shield chip supply chain could backfire in Tennessee electronics.economictimes.indiatimes.com RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:semiconductor trade policy" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Trump's bid to shield chip supply chain could backfire in Tennessee electronics.economictimes.indiatimes.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/storage/this-246tb-ssd-media-server-is-built-for-millionaire-cinephiles-kaleidescapes-newest-home-theater-vault-supports-25-simultaneous-4k-streams-stores-up-to-2-300-4k-cinematic-movies</id>

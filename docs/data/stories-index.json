@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-06T15:26:58.136Z",
-  "count": 569,
+  "generatedAt": "2026-09-06T20:23:00.134Z",
+  "count": 573,
   "stories": [
+    {
+      "slug": "a-custom-motherboard-was-made-to-revive-an-old-hp-se-d22a3816",
+      "url": "/stories/a-custom-motherboard-was-made-to-revive-an-old-hp-se-d22a3816.html",
+      "title": "A Custom Motherboard Was Made To Revive An Old HP Server With An Archaic AMD CPU, With A Raspberry Pi CM5 And An M.2 PCIe NVMe SSD Coming To The Rescue",
+      "tag": "supply",
+      "date": "2026-09-06",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-s-ryzen-ai-max-pro-495-powers-gmktec-s-evo-x5-pr-d8366336",
+      "url": "/stories/amd-s-ryzen-ai-max-pro-495-powers-gmktec-s-evo-x5-pr-d8366336.html",
+      "title": "AMD’s Ryzen AI MAX+ PRO 495 Powers GMKtec’s EVO-X5 PRO To Run 300B+ Models Locally On 192 GB of Unified Memory",
+      "tag": "demand",
+      "date": "2026-09-06",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "bitcoin-mining-data-center-condemned-after-leaking-3-5404b1fb",
       "url": "/stories/bitcoin-mining-data-center-condemned-after-leaking-3-5404b1fb.html",
@@ -22,6 +44,28 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-we-may-be-at-the-start-of-the-second-memory-ral-14c4c86d",
+      "url": "/stories/dram-we-may-be-at-the-start-of-the-second-memory-ral-14c4c86d.html",
+      "title": "DRAM: We May Be At The Start Of The Second Memory Rally (BATS:DRAM) - Seeking Alpha",
+      "tag": "supply",
+      "date": "2026-09-06",
+      "score": 8,
+      "pick": false,
+      "source": "Seeking Alpha",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "trump-s-bid-to-shield-chip-supply-chain-could-backfi-5e7cf3e6",
+      "url": "/stories/trump-s-bid-to-shield-chip-supply-chain-could-backfi-5e7cf3e6.html",
+      "title": "Trump's bid to shield chip supply chain could backfire in Tennessee - electronics.economictimes.indiatimes.com",
+      "tag": "supply",
+      "date": "2026-09-06",
+      "score": 8,
+      "pick": false,
+      "source": "electronics.economictimes.indiatimes.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
