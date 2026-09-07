@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-09-07T04:37:54.093Z",
-  "count": 574,
+  "generatedAt": "2026-09-07T12:29:05.922Z",
+  "count": 588,
   "stories": [
+    {
+      "slug": "dram-industry-revenue-rises-59-5-qoq-in-2q26-as-supp-37007151",
+      "url": "/stories/dram-industry-revenue-rises-59-5-qoq-in-2q26-as-supp-37007151.html",
+      "title": "DRAM Industry Revenue Rises 59.5% QoQ in 2Q26 as Supply Expansion Continues to Lag Demand Growth - TechPowerUp",
+      "tag": "earnings",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "pr-dram-industry-revenue-rises-59-5-qoq-in-2q26-as-s-38581ad5",
+      "url": "/stories/pr-dram-industry-revenue-rises-59-5-qoq-in-2q26-as-s-38581ad5.html",
+      "title": "(PR) DRAM Industry Revenue Rises 59.5% QoQ in 2Q26 as Supply Expansion Continues to Lag Demand Growth",
+      "tag": "earnings",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "the-complex-corporate-web-behind-a-3-2-billion-ai-da-cfe62fb5",
+      "url": "/stories/the-complex-corporate-web-behind-a-3-2-billion-ai-da-cfe62fb5.html",
+      "title": "The complex corporate web behind a $3.2 billion AI data center",
+      "tag": "demand",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "this-price-hike-busting-rtx-5080-gaming-pc-is-cheape-e36e2beb",
+      "url": "/stories/this-price-hike-busting-rtx-5080-gaming-pc-is-cheape-e36e2beb.html",
+      "title": "This price-hike-busting RTX 5080 gaming PC is cheaper than it was in April — save $500 on a 9800X3D beast with 32GB of DDR5, 2TB SSD",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-and-sk-hynix-dominate-d-ram-market-businessk-d1f2e93a",
+      "url": "/stories/samsung-and-sk-hynix-dominate-d-ram-market-businessk-d1f2e93a.html",
+      "title": "Samsung and SK hynix Dominate D-RAM Market - Businesskorea",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-earnings-set-to-climb-further-as-ai-2b5ecf10",
+      "url": "/stories/samsung-sk-hynix-earnings-set-to-climb-further-as-ai-2b5ecf10.html",
+      "title": "Samsung, SK Hynix Earnings Set to Climb Further as AI Spending Surge Tightens Memory Supply - bloomingbit",
+      "tag": "earnings",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "bloomingbit",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-foundry-allocates-half-of-4-nm-capacity-for-2fdac1ac",
+      "url": "/stories/samsung-foundry-allocates-half-of-4-nm-capacity-for-2fdac1ac.html",
+      "title": "Samsung Foundry Allocates Half of 4 nm Capacity for HBM4 Base Dies",
+      "tag": "fab",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "one-lucky-individual-found-10-000-worth-of-64gb-ddr4-bc33701e",
+      "url": "/stories/one-lucky-individual-found-10-000-worth-of-64gb-ddr4-bc33701e.html",
+      "title": "One Lucky Individual Found $10,000 Worth Of 64GB DDR4 RAM Modules Just Sitting In His Garage, Salvaged From An Old Server That Was No Longer Needed",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kioxia-8217-s-flash-for-dram-initiative-eyes-ai-work-b316a6be",
+      "url": "/stories/kioxia-8217-s-flash-for-dram-initiative-eyes-ai-work-b316a6be.html",
+      "title": "Kioxia&#8217;s Flash-for-DRAM Initiative Eyes AI Workloads",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-industry-revenue-surges-59-5-in-q2-as-supply-la-ff85f880",
+      "url": "/stories/dram-industry-revenue-surges-59-5-in-q2-as-supply-la-ff85f880.html",
+      "title": "DRAM industry revenue surges 59.5% in Q2 as supply lags demand - Evertiq",
+      "tag": "earnings",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "Evertiq",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "trendforce-contract-prices-rise-significantly-dram-i-ff8b8736",
+      "url": "/stories/trendforce-contract-prices-rise-significantly-dram-i-ff8b8736.html",
+      "title": "TrendForce: Contract prices rise significantly; DRAM industry revenue increases 59.5% quarter-on-quarter in Q2 - Moomoo",
+      "tag": "earnings",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "Moomoo",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-and-sk-hynix-strengthen-global-dram-market-g-664942ab",
+      "url": "/stories/samsung-and-sk-hynix-strengthen-global-dram-market-g-664942ab.html",
+      "title": "Samsung &amp; SK hynix Strengthen Global DRAM Market Grip Amid AI Boom - Asia Business Outlook",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "Asia Business Outlook",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "thailand-pauses-all-datacenter-builds-and-approvals-932bfc3e",
+      "url": "/stories/thailand-pauses-all-datacenter-builds-and-approvals-932bfc3e.html",
+      "title": "Thailand pauses all datacenter builds and approvals",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "cxmt-surged-531-on-debut-what-it-means-for-micron-sa-f7150158",
+      "url": "/stories/cxmt-surged-531-on-debut-what-it-means-for-micron-sa-f7150158.html",
+      "title": "CXMT Surged 531% on Debut — What It Means for Micron, SanDisk, and SK Hynix Investors - TradingKey",
+      "tag": "supply",
+      "date": "2026-09-06",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "a-custom-motherboard-was-made-to-revive-an-old-hp-se-d22a3816",
       "url": "/stories/a-custom-motherboard-was-made-to-revive-an-old-hp-se-d22a3816.html",
