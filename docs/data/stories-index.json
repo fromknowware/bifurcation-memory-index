@@ -1,7 +1,150 @@
 {
-  "generatedAt": "2026-09-07T12:29:05.922Z",
-  "count": 588,
+  "generatedAt": "2026-09-07T21:29:53.183Z",
+  "count": 603,
   "stories": [
+    {
+      "slug": "apple-reportedly-signs-nand-lta-agreement-kioxia-may-3394acab",
+      "url": "/stories/apple-reportedly-signs-nand-lta-agreement-kioxia-may-3394acab.html",
+      "title": "Apple Reportedly Signs NAND LTA Agreement, Kioxia May Be Candidate - TradingKey",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-industry-revenue-rises-59-5-qoq-in-2q26-as-supp-5b908639",
+      "url": "/stories/dram-industry-revenue-rises-59-5-qoq-in-2q26-as-supp-5b908639.html",
+      "title": "DRAM Industry Revenue Rises 59.5% QoQ in 2Q26 as Supply Expansion Continues to Lag Demand Growth - TechPowerUp",
+      "tag": "earnings",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-s-dram-share-nears-40-micron-closes-gap-with-68fb782d",
+      "url": "/stories/samsung-s-dram-share-nears-40-micron-closes-gap-with-68fb782d.html",
+      "title": "Samsung's DRAM Share Nears 40%... Micron Closes Gap with SK Hynix to 1.6 Percentage Points - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-boosts-leading-edge-1c-dram-production-to-a-d99ebad9",
+      "url": "/stories/sk-hynix-boosts-leading-edge-1c-dram-production-to-a-d99ebad9.html",
+      "title": "SK hynix Boosts Leading-Edge 1c DRAM Production to a Dominant Position",
+      "tag": "earnings",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "a-new-era-emerges-a-review-of-storage-supplier-reven-70c1b9fb",
+      "url": "/stories/a-new-era-emerges-a-review-of-storage-supplier-reven-70c1b9fb.html",
+      "title": "A new era emerges: A review of storage supplier revenue from 2020 to 2026 - Blocks &amp; Files",
+      "tag": "earnings",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "Blocks &amp; Files",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "report-samsung-s-4nm-lines-run-at-full-tilt-as-hbm4-21d5d155",
+      "url": "/stories/report-samsung-s-4nm-lines-run-at-full-tilt-as-hbm4-21d5d155.html",
+      "title": "Report: Samsung’s 4nm lines run at full tilt as HBM4 chips eat up to 60% of foundry output - Wccftech",
+      "tag": "fab",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "report-samsung-s-4nm-lines-run-at-full-tilt-as-hbm4-828facfb",
+      "url": "/stories/report-samsung-s-4nm-lines-run-at-full-tilt-as-hbm4-828facfb.html",
+      "title": "Report: Samsung’s 4nm lines run at full tilt as HBM4 chips eat up to 60% of foundry output",
+      "tag": "fab",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "dram-contract-prices-forecast-to-grow-only-13-18-in-a9c76a8f",
+      "url": "/stories/dram-contract-prices-forecast-to-grow-only-13-18-in-a9c76a8f.html",
+      "title": "DRAM contract prices forecast to grow only 13-18% in Q3 - The Register",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-contract-prices-forecast-to-grow-only-13-18-in-197b67dc",
+      "url": "/stories/dram-contract-prices-forecast-to-grow-only-13-18-in-197b67dc.html",
+      "title": "DRAM contract prices forecast to grow only 13-18% in Q3",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "trendforce-micron-2q26-conventional-dram-revenue-gre-062e145c",
+      "url": "/stories/trendforce-micron-2q26-conventional-dram-revenue-gre-062e145c.html",
+      "title": "TrendForce: Micron 2Q26 Conventional DRAM Revenue Grew 65.5% QoQ, CXMT Revenue Rose 99.3% - TradingKey",
+      "tag": "earnings",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "is-ai-making-iphones-more-expensive-micron-among-big-b0330cdb",
+      "url": "/stories/is-ai-making-iphones-more-expensive-micron-among-big-b0330cdb.html",
+      "title": "Is AI Making iPhones More Expensive? Micron Among Big Winners as Global Memory Shortage Escalates - TradingKey",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-s-galaxy-s26-ultra-in-sky-blue-256gb-of-stor-a69a34c2",
+      "url": "/stories/samsung-s-galaxy-s26-ultra-in-sky-blue-256gb-of-stor-a69a34c2.html",
+      "title": "Samsung’s Galaxy S26 Ultra In Sky Blue, 256GB Of Storage, Is Now $346 Off On Amazon, Making It a Trail-Blazing Offer For Those Wanting A Phenomenal Android Flagship Deal",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chuwi-s-unibox-ai495-pro-crams-192-gb-ram-and-ryzen-841054a0",
+      "url": "/stories/chuwi-s-unibox-ai495-pro-crams-192-gb-ram-and-ryzen-841054a0.html",
+      "title": "CHUWI’s UniBox AI495 Pro Crams 192 GB RAM And Ryzen AI Max+ PRO 495 Into A 2.9L Box, Running 300B LLMs Locally",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "dram-industry-revenue-rises-59-5-qoq-in-2q26-as-supp-37007151",
       "url": "/stories/dram-industry-revenue-rises-59-5-qoq-in-2q26-as-supp-37007151.html",
@@ -23,6 +166,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "the-complex-corporate-web-behind-a-3-2-billion-ai-da-90efc75c",
+      "url": "/stories/the-complex-corporate-web-behind-a-3-2-billion-ai-da-90efc75c.html",
+      "title": "The complex corporate web behind a $3.2 billion AI data center",
+      "tag": "demand",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "the-complex-corporate-web-behind-a-3-2-billion-ai-da-cfe62fb5",
@@ -110,6 +264,17 @@
       "score": 7,
       "pick": false,
       "source": "Evertiq",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "ai-demand-drives-dram-industry-revenue-up-nearly-60-0e79c647",
+      "url": "/stories/ai-demand-drives-dram-industry-revenue-up-nearly-60-0e79c647.html",
+      "title": "AI Demand Drives DRAM Industry Revenue Up Nearly 60% QoQ; Samsung Holds Top Spot - finance.biggo.com",
+      "tag": "earnings",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
