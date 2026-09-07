@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-06T20:23:00.134Z",
-  "count": 573,
+  "generatedAt": "2026-09-07T04:37:54.093Z",
+  "count": 574,
   "stories": [
     {
       "slug": "a-custom-motherboard-was-made-to-revive-an-old-hp-se-d22a3816",
@@ -12,6 +12,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "huawei-prepares-160-000-ascend-950dt-accelerators-fo-341c3455",
+      "url": "/stories/huawei-prepares-160-000-ascend-950dt-accelerators-fo-341c3455.html",
+      "title": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Center",
+      "tag": "demand",
+      "date": "2026-09-06",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "amd-s-ryzen-ai-max-pro-495-powers-gmktec-s-evo-x5-pr-d8366336",

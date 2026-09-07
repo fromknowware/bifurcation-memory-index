@@ -5,7 +5,7 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-06T20:22:58.630Z</updated>
+  <updated>2026-09-07T04:37:50.675Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
@@ -21,7 +21,20 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;A hardware project involving an old HP server with outdated AMD processors was starting to show its age, and, like typical computer parts that have reached the end of their life, these components are typically found in a landfill. However, one user wasn’t going to give up this easily as he decided to make a custom motherboard thanks to a Raspberry Pi CM5 and pair it with an M.2 NVMe SSD to bring h&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;A hardware project involving an old HP server with outdated AMD processors was starting to show its age, and, like typical computer parts that have reached the end of their life, these components are typically found in a landfill. However, one user wasn’t going to give up this easily as he decided to make a custom motherboard thanks to a Raspberry Pi CM5 and pair it with an M.2 NVMe SSD to bring h&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/352416/huawei-prepares-160-000-ascend-950dt-accelerators-for-deepseek-data-center</id>
+    <title type="html">Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Center</title>
+    <link href="https://www.techpowerup.com/352416/huawei-prepares-160-000-ascend-950dt-accelerators-for-deepseek-data-center" />
+    <link rel="related" href="/stories/huawei-prepares-160-000-ascend-950dt-accelerators-fo-341c3455.html" />
+    <updated>2026-09-06T18:53:13.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">Chinese AI labs are increasingly ordering domestic AI accelerators, and one of the leading AI labs, DeepSeek, has reportedly placed an order for 160,000 Huawei Ascend 950DT chips. Late last year, Huawei revealed that the company is preparing a series of chips and rack-scale solutions to meet domestic AI demand, and now we are seeing large orders starting to materialize. For reference, the Huawei A RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Chinese AI labs are increasingly ordering domestic AI accelerators, and one of the leading AI labs, DeepSeek, has reportedly placed an order for 160,000 Huawei Ascend 950DT chips. Late last year, Huawei revealed that the company is preparing a series of chips and rack-scale solutions to meet domestic AI demand, and now we are seeing large orders starting to materialize. For reference, the Huawei A&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/amd-ryzen-ai-max-495-powers-gmktec-evo-x5-pro-300b-models-on-192-gb-memory/</id>
@@ -34,7 +47,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;GMKtec has launched its flagship Mini Workstation, the EVO-X5 PRO, which rocks AMD's fastest Ryzen AI MAX+ PRO 495 chip. GMKtec Claims Its EVO-X5 PRO AI Workstation Offers 66% Faster CPU Orchestration and 40% Lower Cost Per Completed AI Workflow Versus NVIDIA's DGX Spark The EVO-X5 builds upon GMKtec's past EVO releases such as the EVO-X2 and the more recent EVO-X3. The EVO-X5 is decked out, featu&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;GMKtec has launched its flagship Mini Workstation, the EVO-X5 PRO, which rocks AMD's fastest Ryzen AI MAX+ PRO 495 chip. GMKtec Claims Its EVO-X5 PRO AI Workstation Offers 66% Faster CPU Orchestration and 40% Lower Cost Per Completed AI Workflow Versus NVIDIA's DGX Spark The EVO-X5 builds upon GMKtec's past EVO releases such as the EVO-X2 and the more recent EVO-X3. The EVO-X5 is decked out, featu&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/data-centers/bitcoin-mining-data-center-condemned-after-leaking-3-million-gallons-of-water-and-forcing-school-closures-facility-operated-for-years-under-a-city-stop-work-order</id>
@@ -73,7 +86,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;DRAM: We May Be At The Start Of The Second Memory Rally (BATS:DRAM) Seeking Alpha&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;DRAM: We May Be At The Start Of The Second Memory Rally (BATS:DRAM) Seeking Alpha&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQk9PanpJSThXZkk3MjItbFF3TnJXZWV6NVVxa3g1aHpucHZrVFRyQ2tJdnB3dWNKRGZhbkZ0Q3ZrdWFaTEJhQnpqQkVJbURnVU94UlI0UGtiRHgxdkFIMkJkNGlzMHdfbjRZRXlkSVR4WmVlWnRqT1NDNUk1Qk1KUGRWc1J3UllweTVza1VLWC1VYVdkSUFnelVaQmxyMXVJNTBZSnhlRDdaSlh3TjYxR0taTTFCd2lRUzV0RmE0NFhwNFBJb0xBUUtycUFsTjFVeDgxRUJfWHpiQzdRcGtqamN3?oc=5</id>
@@ -86,7 +99,7 @@
     <category term="google-news:semiconductor trade policy" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Trump's bid to shield chip supply chain could backfire in Tennessee electronics.economictimes.indiatimes.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Trump's bid to shield chip supply chain could backfire in Tennessee electronics.economictimes.indiatimes.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/storage/this-246tb-ssd-media-server-is-built-for-millionaire-cinephiles-kaleidescapes-newest-home-theater-vault-supports-25-simultaneous-4k-streams-stores-up-to-2-300-4k-cinematic-movies</id>
