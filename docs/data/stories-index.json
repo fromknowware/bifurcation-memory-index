@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-09-08T16:36:43.143Z",
-  "count": 644,
+  "generatedAt": "2026-09-08T21:08:09.779Z",
+  "count": 650,
   "stories": [
+    {
+      "slug": "qualcomm-and-aws-collaborate-on-ai-inference-chips-a-247c74c8",
+      "url": "/stories/qualcomm-and-aws-collaborate-on-ai-inference-chips-a-247c74c8.html",
+      "title": "Qualcomm and AWS Collaborate on AI Inference Chips and 1.6T Connectivity",
+      "tag": "demand",
+      "date": "2026-09-08",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-foundry-and-asml-collaborate-to-accelerate-ind-2aa32965",
+      "url": "/stories/intel-foundry-and-asml-collaborate-to-accelerate-ind-2aa32965.html",
+      "title": "Intel Foundry and ASML Collaborate to Accelerate Industry Readiness for High NA EUV",
+      "tag": "fab",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "hpe-sees-no-customer-pushback-on-rising-datacenter-e-3343e5d2",
+      "url": "/stories/hpe-sees-no-customer-pushback-on-rising-datacenter-e-3343e5d2.html",
+      "title": "HPE Sees No Customer Pushback On Rising Datacenter Equipment Costs",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "The Next Platform",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-technology-nasdaq-mu-extends-rally-as-ai-memo-08ce78c2",
+      "url": "/stories/micron-technology-nasdaq-mu-extends-rally-as-ai-memo-08ce78c2.html",
+      "title": "Micron Technology (NASDAQ:MU) Extends Rally As AI Memory Demand Outpaces Supply - Kalkine Media",
+      "tag": "demand",
+      "date": "2026-09-08",
+      "score": 7,
+      "pick": false,
+      "source": "Kalkine Media",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-leaps-2-4-years-ahead-of-samsung-and-tsmc-on-h-acae1b80",
+      "url": "/stories/intel-leaps-2-4-years-ahead-of-samsung-and-tsmc-on-h-acae1b80.html",
+      "title": "Intel Leaps 2-4 Years Ahead Of Samsung And TSMC On High-NA EUV Lithography After Producing Its 1 Millionth Test Wafer",
+      "tag": "fab",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "sk-hynix-jumps-7-as-ai-diverts-memory-from-phones-mi-c3b1293a",
       "url": "/stories/sk-hynix-jumps-7-as-ai-diverts-memory-from-phones-mi-c3b1293a.html",
@@ -11,6 +66,17 @@
       "score": 8,
       "pick": false,
       "source": "24/7 Wall St.",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "smartphone-shipments-fall-under-memory-shortage-sour-9fb086e9",
+      "url": "/stories/smartphone-shipments-fall-under-memory-shortage-sour-9fb086e9.html",
+      "title": "Smartphone shipments fall under memory shortage - Sourceability",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "Sourceability",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
