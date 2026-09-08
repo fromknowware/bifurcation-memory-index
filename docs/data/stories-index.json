@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-09-08T11:16:02.683Z",
-  "count": 629,
+  "generatedAt": "2026-09-08T16:36:43.143Z",
+  "count": 644,
   "stories": [
+    {
+      "slug": "sk-hynix-jumps-7-as-ai-diverts-memory-from-phones-mi-c3b1293a",
+      "url": "/stories/sk-hynix-jumps-7-as-ai-diverts-memory-from-phones-mi-c3b1293a.html",
+      "title": "SK Hynix Jumps 7% as AI Diverts Memory From Phones, Micron Holds Steady, Apple Slips - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-samsung-electronics-and-asml-expand-collaboration-037e075a",
+      "url": "/stories/pr-samsung-electronics-and-asml-expand-collaboration-037e075a.html",
+      "title": "(PR) Samsung Electronics and ASML Expand Collaboration for Next-Generation Semiconductor Manufacturing",
+      "tag": "fab",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "pr-tsmc-and-asml-announce-initiative-to-pioneer-indu-6b6b7300",
+      "url": "/stories/pr-tsmc-and-asml-announce-initiative-to-pioneer-indu-6b6b7300.html",
+      "title": "(PR) TSMC and ASML Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV",
+      "tag": "fab",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "asml-and-tsmc-want-bigger-masks-for-smaller-chips-b994fcbe",
+      "url": "/stories/asml-and-tsmc-want-bigger-masks-for-smaller-chips-b994fcbe.html",
+      "title": "ASML and TSMC want bigger masks for smaller chips",
+      "tag": "fab",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "tsmc-to-start-using-high-na-euv-lithography-in-2030-1bb04815",
+      "url": "/stories/tsmc-to-start-using-high-na-euv-lithography-in-2030-1bb04815.html",
+      "title": "TSMC to start using High-NA EUV lithography in 2030 — A10 or A11 technology prime candidates for use",
+      "tag": "fab",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "skywater-launches-quantum-solutions-foundry-business-6fc54d66",
+      "url": "/stories/skywater-launches-quantum-solutions-foundry-business-6fc54d66.html",
+      "title": "SkyWater Launches Quantum Solutions Foundry Business",
+      "tag": "fab",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "mindfactory-data-shows-30-jump-in-gpu-sales-as-buyer-382a8816",
+      "url": "/stories/mindfactory-data-shows-30-jump-in-gpu-sales-as-buyer-382a8816.html",
+      "title": "Mindfactory Data Shows 30% Jump In GPU Sales As Buyers Panic-Buy Ahead Of Another Looming Price Hike",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-s-taiwan-labor-demands-cast-a-shadow-over-a-b-fae14928",
+      "url": "/stories/micron-s-taiwan-labor-demands-cast-a-shadow-over-a-b-fae14928.html",
+      "title": "Micron's Taiwan Labor Demands Cast a Shadow Over a Breakneck DRAM Surge - AD HOC NEWS",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "AD HOC NEWS",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "acer-s-predator-gm7000-pcie-nvme-gen-4-ssd-with-2tb-d1f4d308",
+      "url": "/stories/acer-s-predator-gm7000-pcie-nvme-gen-4-ssd-with-2tb-d1f4d308.html",
+      "title": "Acer’s Predator GM7000 PCIe NVMe Gen 4 SSD With 2TB Capacity & DRAM Cache Drops To $314.99 On Amazon, Experience Insane Performance At 10% Off",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "d-wave-signs-definitive-agreement-for-up-to-100m-in-5394958c",
+      "url": "/stories/d-wave-signs-definitive-agreement-for-up-to-100m-in-5394958c.html",
+      "title": "D-Wave Signs Definitive Agreement for up to $100M in CHIPS Act Funding",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "beyond-moore-s-law-the-rise-of-ai-system-scaling-sem-786f01bf",
+      "url": "/stories/beyond-moore-s-law-the-rise-of-ai-system-scaling-sem-786f01bf.html",
+      "title": "Beyond Moore’s Law: The Rise of AI System Scaling ：SEMICON Taiwan 2026 — From Advanced Packaging and CPO to Memory, Test, and Thermal Innovation - semivision",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "semivision",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "an-nvidia-rtx-gpu-couldn-t-be-used-in-a-rackmount-se-488ff10d",
+      "url": "/stories/an-nvidia-rtx-gpu-couldn-t-be-used-in-a-rackmount-se-488ff10d.html",
+      "title": "An NVIDIA RTX GPU Couldn’t Be Used In A Rackmount Server Due To Non-Standard ATX Power Cables, So Modders Soldered Molex-Style Connectors To Make It Possible",
+      "tag": "demand",
+      "date": "2026-09-08",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dram-pricing-continues-to-rise-but-nand-supplies-sta-385a95a4",
+      "url": "/stories/dram-pricing-continues-to-rise-but-nand-supplies-sta-385a95a4.html",
+      "title": "DRAM pricing continues to rise, but NAND supplies start to stabilize: GF Securities - Seeking Alpha",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "Seeking Alpha",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-foundry-achieves-milestone-with-one-million-hi-812881d9",
+      "url": "/stories/intel-foundry-achieves-milestone-with-one-million-hi-812881d9.html",
+      "title": "Intel Foundry Achieves Milestone with One Million High-NA EUV Wafers",
+      "tag": "fab",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "why-ddr5-ram-prices-surged-in-2026-neoteo-f5ba21db",
       "url": "/stories/why-ddr5-ram-prices-surged-in-2026-neoteo-f5ba21db.html",
@@ -100,6 +254,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "q2-dram-contract-price-up-59-5-qoq-electronics-weekl-f95f02bd",
+      "url": "/stories/q2-dram-contract-price-up-59-5-qoq-electronics-weekl-f95f02bd.html",
+      "title": "Q2 DRAM contract price up 59.5% QoQ - Electronics Weekly",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "Electronics Weekly",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "q2-dram-contract-price-up-59-5-qoq-electronics-weekl-2f5584cd",
