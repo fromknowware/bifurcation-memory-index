@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-09-07T21:29:53.183Z",
-  "count": 603,
+  "generatedAt": "2026-09-08T04:32:40.273Z",
+  "count": 615,
   "stories": [
+    {
+      "slug": "samsung-electronics-tops-global-dram-market-as-growt-b08e24c8",
+      "url": "/stories/samsung-electronics-tops-global-dram-market-as-growt-b08e24c8.html",
+      "title": "Samsung Electronics Tops Global DRAM Market as Growth Slows - 조선일보",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "japanese-retailer-predicts-further-gpu-price-hikes-342f861f",
+      "url": "/stories/japanese-retailer-predicts-further-gpu-price-hikes-342f861f.html",
+      "title": "Japanese Retailer Predicts Further GPU Price Hikes",
+      "tag": "demand",
+      "date": "2026-09-08",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "openai-astra-drives-demand-for-memory-chips-hbm-and-fe60e103",
+      "url": "/stories/openai-astra-drives-demand-for-memory-chips-hbm-and-fe60e103.html",
+      "title": "OpenAI Astra Drives Demand for Memory Chips: HBM and DRAM in Focus - KuCoin",
+      "tag": "demand",
+      "date": "2026-09-08",
+      "score": 7,
+      "pick": false,
+      "source": "KuCoin",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "kospi-tops-7-000-on-semiconductor-strength-381bd002",
+      "url": "/stories/kospi-tops-7-000-on-semiconductor-strength-381bd002.html",
+      "title": "KOSPI Tops 7,000 on Semiconductor Strength - 조선일보",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "arm-debuts-next-gen-semi-custom-neoverse-css-n4-rang-976a8191",
+      "url": "/stories/arm-debuts-next-gen-semi-custom-neoverse-css-n4-rang-976a8191.html",
+      "title": "Arm debuts next-gen semi-custom Neoverse CSS N4 ‘Ranger’ platform — compute subsystem packs up to 128 cores per die on TSMC N3P",
+      "tag": "fab",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ai-memory-boom-pushes-up-electronics-prices-worldwid-e427a25a",
+      "url": "/stories/ai-memory-boom-pushes-up-electronics-prices-worldwid-e427a25a.html",
+      "title": "AI memory boom pushes up electronics prices worldwide - upi.com",
+      "tag": "demand",
+      "date": "2026-09-08",
+      "score": 7,
+      "pick": false,
+      "source": "upi.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dell-says-ai-will-drive-75-percent-of-datacenter-dem-f57134dd",
+      "url": "/stories/dell-says-ai-will-drive-75-percent-of-datacenter-dem-f57134dd.html",
+      "title": "Dell Says AI Will Drive 75 Percent Of Datacenter Demand By 2030",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "The Next Platform",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "japanese-nand-flash-manufacturer-kioxia-is-preparing-1dc8d67e",
+      "url": "/stories/japanese-nand-flash-manufacturer-kioxia-is-preparing-1dc8d67e.html",
+      "title": "Japanese NAND flash manufacturer KIOXIA is preparing to supply samples of NAND-based Compute Express.. - 매일경제",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "매일경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-locks-in-nand-memory-deal-3-5-years-no-cap-202-20e147d7",
+      "url": "/stories/apple-locks-in-nand-memory-deal-3-5-years-no-cap-202-20e147d7.html",
+      "title": "Apple Locks In NAND Memory Deal: 3-5 Years, No Cap [2026] - tech-insider.org",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "tech-insider.org",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "apple-reportedly-signs-nand-lta-agreement-kioxia-may-3394acab",
       "url": "/stories/apple-reportedly-signs-nand-lta-agreement-kioxia-may-3394acab.html",
@@ -212,6 +311,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "dram-boom-lifts-q2-sales-60-as-samsung-leads-and-sk-b361e13c",
+      "url": "/stories/dram-boom-lifts-q2-sales-60-as-samsung-leads-and-sk-b361e13c.html",
+      "title": "DRAM boom lifts Q2 sales 60% as Samsung leads and SK hynix nears Micron - CHOSUNBIZ - Chosunbiz",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "samsung-sk-hynix-earnings-set-to-climb-further-as-ai-2b5ecf10",
       "url": "/stories/samsung-sk-hynix-earnings-set-to-climb-further-as-ai-2b5ecf10.html",
       "title": "Samsung, SK Hynix Earnings Set to Climb Further as AI Spending Surge Tightens Memory Supply - bloomingbit",
@@ -267,6 +377,17 @@
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
+      "slug": "news-apple-said-to-have-signed-nand-lta-with-kioxia-957829bf",
+      "url": "/stories/news-apple-said-to-have-signed-nand-lta-with-kioxia-957829bf.html",
+      "title": "[News] Apple Said to Have Signed NAND LTA with Kioxia Seen as Likely Partner; Foldable iPhone Memory Suppliers in Focus - TrendForce",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "TrendForce",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "ai-demand-drives-dram-industry-revenue-up-nearly-60-0e79c647",
       "url": "/stories/ai-demand-drives-dram-industry-revenue-up-nearly-60-0e79c647.html",
       "title": "AI Demand Drives DRAM Industry Revenue Up Nearly 60% QoQ; Samsung Holds Top Spot - finance.biggo.com",
@@ -286,6 +407,17 @@
       "score": 7,
       "pick": false,
       "source": "Moomoo",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "dram-industry-revenue-rises-59-5-qoq-in-2q26-as-supp-74f9c342",
+      "url": "/stories/dram-industry-revenue-rises-59-5-qoq-in-2q26-as-supp-74f9c342.html",
+      "title": "DRAM Industry Revenue Rises 59.5% QoQ in 2Q26 as Supply Expansion Continues to Lag Demand Growth, Says TrendForce - TrendForce",
+      "tag": "earnings",
+      "date": "2026-09-07",
+      "score": 7,
+      "pick": false,
+      "source": "TrendForce",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
