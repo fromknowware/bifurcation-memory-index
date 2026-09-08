@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-09-08T04:32:40.273Z",
-  "count": 615,
+  "generatedAt": "2026-09-08T11:16:02.683Z",
+  "count": 629,
   "stories": [
+    {
+      "slug": "why-ddr5-ram-prices-surged-in-2026-neoteo-f5ba21db",
+      "url": "/stories/why-ddr5-ram-prices-surged-in-2026-neoteo-f5ba21db.html",
+      "title": "Why DDR5 RAM Prices Surged in 2026 - NeoTeo",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "NeoTeo",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "get-a-32gb-ddr5-gaming-pc-for-just-1-379-at-newegg-4-57ec6e1a",
+      "url": "/stories/get-a-32gb-ddr5-gaming-pc-for-just-1-379-at-newegg-4-57ec6e1a.html",
+      "title": "Get a 32GB DDR5 gaming PC for just $1,379 at Newegg — $420 discount includes 20-core Intel CPU and RTX 5060",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "this-389-32gb-ddr5-ram-kit-is-the-cheapest-on-sale-r-c881642a",
+      "url": "/stories/this-389-32gb-ddr5-ram-kit-is-the-cheapest-on-sale-r-c881642a.html",
+      "title": "This $389 32GB DDR5 RAM kit is the cheapest on sale right now for a gaming PC upgrade — higher-spec RAM for $415 gives PC builders rare choice as the AI boom continues to force memory prices higher",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "thailand-asks-data-center-operators-to-suspend-49-bu-f9e6ccaf",
+      "url": "/stories/thailand-asks-data-center-operators-to-suspend-49-bu-f9e6ccaf.html",
+      "title": "Thailand asks data center operators to suspend 49 buildouts until legal framework is complete — new legislation is supposed to create 'airtight' requirements for large-scale data centers",
+      "tag": "demand",
+      "date": "2026-09-08",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "tech-enthusiast-finds-12-000-stack-of-ram-in-their-g-e22cb948",
+      "url": "/stories/tech-enthusiast-finds-12-000-stack-of-ram-in-their-g-e22cb948.html",
+      "title": "Tech enthusiast finds $12,000 stack of RAM in their garage — work let them keep an old server stuffed with 1,920GB of DDR4",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "belgian-chinese-semiconductor-researcher-arrested-ov-08fefe72",
+      "url": "/stories/belgian-chinese-semiconductor-researcher-arrested-ov-08fefe72.html",
+      "title": "Belgian-Chinese semiconductor researcher arrested over alleged GaN trade-secret theft — prosecutors suspect BelGaN insiders transferred chip IP to China before the company collapsed",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-price-growth-slows-prices-could-rise-by-only-13-b51ddf2d",
+      "url": "/stories/dram-price-growth-slows-prices-could-rise-by-only-13-b51ddf2d.html",
+      "title": "DRAM price growth slows: prices could rise by only 13–18% in Q3 - dev.ua",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "dev.ua",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-makes-unprecedented-move-with-nand-long-term-c-3c9ec29c",
+      "url": "/stories/apple-makes-unprecedented-move-with-nand-long-term-c-3c9ec29c.html",
+      "title": "Apple Makes Unprecedented Move with NAND Long-Term Contract Without Price Cap — AI Capacity Squeeze Shifts Memory Pricing Power - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-surpasses-one-million-high-na-euv-wafers-proce-fb453833",
+      "url": "/stories/intel-surpasses-one-million-high-na-euv-wafers-proce-fb453833.html",
+      "title": "Intel surpasses one million High-NA EUV wafers processed, outpaces the rest of the industry combined — company also trailblazing giant 6×12 photomasks to speed production and lower costs",
+      "tag": "fab",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "q2-dram-contract-price-up-59-5-qoq-electronics-weekl-2f5584cd",
+      "url": "/stories/q2-dram-contract-price-up-59-5-qoq-electronics-weekl-2f5584cd.html",
+      "title": "Q2 DRAM contract price up 59.5% QoQ - Electronics Weekly",
+      "tag": "supply",
+      "date": "2026-09-08",
+      "score": 8,
+      "pick": false,
+      "source": "Electronics Weekly",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-china-s-cxmt-s-4-hbm-rank-and-apple-iphone-bid-ai-eaf1a762",
+      "url": "/stories/ai-china-s-cxmt-s-4-hbm-rank-and-apple-iphone-bid-ai-eaf1a762.html",
+      "title": "AI: China’s CXMT’s #4 HBM rank, &amp; Apple iPhone bid. AI-RTZ #1203 - AI: Reset to Zero",
+      "tag": "demand",
+      "date": "2026-09-08",
+      "score": 7,
+      "pick": false,
+      "source": "AI: Reset to Zero",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-stock-closed-above-1-000-dram-revenue-jumped-70a4767c",
+      "url": "/stories/micron-stock-closed-above-1-000-dram-revenue-jumped-70a4767c.html",
+      "title": "Micron Stock Closed Above $1,000; DRAM Revenue Jumped 65.5% as Price Growth Slows - TechStock²",
+      "tag": "earnings",
+      "date": "2026-09-08",
+      "score": 7,
+      "pick": false,
+      "source": "TechStock²",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
     {
       "slug": "samsung-electronics-tops-global-dram-market-as-growt-b08e24c8",
       "url": "/stories/samsung-electronics-tops-global-dram-market-as-growt-b08e24c8.html",
@@ -58,6 +190,17 @@
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
+      "slug": "dram-revenue-jumped-59-5-in-q2-but-slower-price-grow-eddbc1ae",
+      "url": "/stories/dram-revenue-jumped-59-5-in-q2-but-slower-price-grow-eddbc1ae.html",
+      "title": "DRAM Revenue Jumped 59.5% in Q2, But Slower Price Growth Doesn't Mean Supply Is Recovering - XenoSpectrum",
+      "tag": "earnings",
+      "date": "2026-09-08",
+      "score": 7,
+      "pick": false,
+      "source": "XenoSpectrum",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
       "slug": "ai-memory-boom-pushes-up-electronics-prices-worldwid-e427a25a",
       "url": "/stories/ai-memory-boom-pushes-up-electronics-prices-worldwid-e427a25a.html",
       "title": "AI memory boom pushes up electronics prices worldwide - upi.com",
@@ -67,6 +210,17 @@
       "pick": false,
       "source": "upi.com",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "report-apple-signs-long-term-nand-supply-deal-kioxia-fb4e1b83",
+      "url": "/stories/report-apple-signs-long-term-nand-supply-deal-kioxia-fb4e1b83.html",
+      "title": "Report: Apple Signs Long-Term NAND Supply Deal, Kioxia Seen as Likely Partner - XenoSpectrum",
+      "tag": "supply",
+      "date": "2026-09-07",
+      "score": 8,
+      "pick": false,
+      "source": "XenoSpectrum",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "dell-says-ai-will-drive-75-percent-of-datacenter-dem-f57134dd",
