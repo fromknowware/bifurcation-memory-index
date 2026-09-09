@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-09-09T11:20:08.677Z",
-  "count": 675,
+  "generatedAt": "2026-09-09T16:37:14.497Z",
+  "count": 683,
   "stories": [
+    {
+      "slug": "framework-cuts-32gb-and-64gb-memory-prices-for-new-l-e873d700",
+      "url": "/stories/framework-cuts-32gb-and-64gb-memory-prices-for-new-l-e873d700.html",
+      "title": "Framework cuts 32GB and 64GB memory prices for new Laptop 13 Pro, issues retroactive refunds — modular laptop maker secures 'limited quantity' of LPCAMM2 RAM at lower cost",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-desktop-cpu-share-climbs-to-21-on-amazon-as-ag-b8d50164",
+      "url": "/stories/intel-desktop-cpu-share-climbs-to-21-on-amazon-as-ag-b8d50164.html",
+      "title": "Intel Desktop CPU Share Climbs To 21% On Amazon As Aggressive Price Cuts Help Arrow Lake Refresh Chips Sell More Units",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "openai-says-its-next-generation-processors-could-be-20666483",
+      "url": "/stories/openai-says-its-next-generation-processors-could-be-20666483.html",
+      "title": "OpenAI says its next-generation processors could be made at Samsung — double-sourcing with TSMC hints at massive volume requirements",
+      "tag": "fab",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "g-skill-brings-amd-s-expo-ull-to-trident-z5-royal-ne-caa1b088",
+      "url": "/stories/g-skill-brings-amd-s-expo-ull-to-trident-z5-royal-ne-caa1b088.html",
+      "title": "G.Skill Brings AMD’s EXPO ULL To Trident Z5 Royal NeoX DDR5, Slashing Timings To CL26 At DDR5-6000",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-technology-stock-holds-near-usd-1-000-as-ai-m-f0d2ed0a",
+      "url": "/stories/micron-technology-stock-holds-near-usd-1-000-as-ai-m-f0d2ed0a.html",
+      "title": "Micron Technology stock holds near USD 1,000 as AI memory boom drives explosive growth - AD HOC NEWS",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "AD HOC NEWS",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "goodram-px700-2tb-ssd-review-high-end-punch-on-a-bud-97b9fa17",
+      "url": "/stories/goodram-px700-2tb-ssd-review-high-end-punch-on-a-bud-97b9fa17.html",
+      "title": "Goodram PX700 2TB SSD Review: High-end punch on a budget core",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "biwin-brings-storage-solutions-for-ai-era-at-embedde-6c9c43b7",
+      "url": "/stories/biwin-brings-storage-solutions-for-ai-era-at-embedde-6c9c43b7.html",
+      "title": "BIWIN Brings Storage Solutions for AI Era at embedded world NA 2026",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "pr-g-skill-launches-trident-z5-royal-neox-series-ddr-dfb1cfe4",
       "url": "/stories/pr-g-skill-launches-trident-z5-royal-neox-series-ddr-dfb1cfe4.html",
@@ -44,6 +121,17 @@
       "score": 7,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-and-sk-hynix-memory-inventories-crash-below-a2aaf56d",
+      "url": "/stories/samsung-and-sk-hynix-memory-inventories-crash-below-a2aaf56d.html",
+      "title": "Samsung and SK hynix Memory Inventories Crash Below 10 Days as AI Demand Triggers Historic Shortage, Says Report - Wccftech",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "Wccftech",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
