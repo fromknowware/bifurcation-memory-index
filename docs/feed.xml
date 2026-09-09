@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-09T16:37:09.904Z</updated>
+  <updated>2026-09-09T20:54:54.497Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbFZaUFlFUWpqM2RxQTB0YzllRmpBUko1ekRRd0gyQ0RXX2UxVTB4TVFvVXF1T3oycVZVMy1CNnR2Uy04Vmw3MnhvaEU1emxlY3hvcEJmTnFpalkyQ1hqalhHcUNkR0hvazIxWTJLbWdmb2pOQjNRelpacEJ6Mkk0V1IzUmh4dWdfRmpnNTVVeHF4d3ZaVGpEX2d4NTJmb0RZeGlmYkRkMzJkUzRCdjBkcHRTNHRzQ1VhRUozdzN6TUZrbExfeDVic2hvaWgyQjNnZnU2NFl1YjVxQQ?oc=5</id>
+    <title type="html">Nvidia and Meta Are Hungry for HBM. SK Hynix Is on the Menu — These ETFs Could Cash In - tradingview.com</title>
+    <link href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbFZaUFlFUWpqM2RxQTB0YzllRmpBUko1ekRRd0gyQ0RXX2UxVTB4TVFvVXF1T3oycVZVMy1CNnR2Uy04Vmw3MnhvaEU1emxlY3hvcEJmTnFpalkyQ1hqalhHcUNkR0hvazIxWTJLbWdmb2pOQjNRelpacEJ6Mkk0V1IzUmh4dWdfRmpnNTVVeHF4d3ZaVGpEX2d4NTJmb0RZeGlmYkRkMzJkUzRCdjBkcHRTNHRzQ1VhRUozdzN6TUZrbExfeDVic2hvaWgyQjNnZnU2NFl1YjVxQQ?oc=5" />
+    <link rel="related" href="/stories/nvidia-and-meta-are-hungry-for-hbm-sk-hynix-is-on-th-2de2b882.html" />
+    <updated>2026-09-09T19:11:39.000Z</updated>
+    <author><name>tradingview.com</name></author>
+    <summary type="html">Nvidia and Meta Are Hungry for HBM. SK Hynix Is on the Menu — These ETFs Could Cash In tradingview.com RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Nvidia and Meta Are Hungry for HBM. SK Hynix Is on the Menu — These ETFs Could Cash In tradingview.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/smic-outgrows-tsmc-and-samsung-with-20-surge-overtaking-globalfoundries-as-worlds-third-largest-foundry/</id>
+    <title type="html">SMIC Outgrows TSMC and Samsung With 20% Surge, Overtaking GlobalFoundries as World’s Third-Largest Foundry</title>
+    <link href="https://wccftech.com/smic-outgrows-tsmc-and-samsung-with-20-surge-overtaking-globalfoundries-as-worlds-third-largest-foundry/" />
+    <link rel="related" href="/stories/smic-outgrows-tsmc-and-samsung-with-20-surge-overtak-474b16e1.html" />
+    <updated>2026-09-09T18:21:50.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">China's Semiconductor Manufacturing International Corporation (SMIC) was one of the fastest-growing foundries in the second quarter, according to fresh data from market research firm TrendForce. SMIC grew its revenue by 20% during the second quarter and was the third biggest chip manufacturer in the world in terms of revenue, as it comfortably sat above GlobalFoundries. Taiwan's TSMC, courtesy of RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;China's Semiconductor Manufacturing International Corporation (SMIC) was one of the fastest-growing foundries in the second quarter, according to fresh data from market research firm TrendForce. SMIC grew its revenue by 20% during the second quarter and was the third biggest chip manufacturer in the world in terms of revenue, as it comfortably sat above GlobalFoundries. Taiwan's TSMC, courtesy of&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.tomshardware.com/laptops/framework-cuts-32gb-and-64gb-memory-prices-for-new-laptop-13-pro-issues-retroactive-refunds-modular-laptop-maker-secures-limited-quantity-of-lpcamm2-ram-at-lower-cost</id>
     <title type="html">Framework cuts 32GB and 64GB memory prices for new Laptop 13 Pro, issues retroactive refunds — modular laptop maker secures 'limited quantity' of LPCAMM2 RAM at lower cost</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/intel-desktop-cpu-share-climbs-to-21-on-amazon/</id>
@@ -34,7 +60,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Intel gains momentum on major retailers as aggressive price cuts boost Intel CPU sales. Amazon US Sells Nearly 7800 Units of Intel CPUs in August 2026, Helping the Company Climb From Nearly 10% Share to Over 20% For over a year, we saw Intel staying close to a 10% share, if not under 10%, when it came to shipping its desktop CPUs. This trend was particularly consistent for several months on Amazon&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Intel gains momentum on major retailers as aggressive price cuts boost Intel CPU sales. Amazon US Sells Nearly 7800 Units of Intel CPUs in August 2026, Helping the Company Climb From Nearly 10% Share to Over 20% For over a year, we saw Intel staying close to a 10% share, if not under 10%, when it came to shipping its desktop CPUs. This trend was particularly consistent for several months on Amazon&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-says-its-next-generation-processors-could-be-made-at-samsung-double-sourcing-with-tsmc-hints-at-massive-volume-requirements</id>
@@ -47,7 +73,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/g-skill-brings-amds-expo-ull-to-trident-z5-royal-neox-ddr5/</id>
@@ -60,7 +86,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;The company has brought AMD's EXPO ULL to its Royal NeoX DDR5 family, bringing tighter sub-timings for better performance. G.Skill Debuts AMD EXPO ULL-Equipped Trident Z5 Royal NeoX DDR5 Memory, Ranging From CL26-CL36 Timings Popular memory maker, G.Skill, has launched another EXPO ULL memory kit for enthusiasts after unveiling its Flare X5X Series DDR5 AMD EXPO ULL memory kit a few days ago. The&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The company has brought AMD's EXPO ULL to its Royal NeoX DDR5 family, bringing tighter sub-timings for better performance. G.Skill Debuts AMD EXPO ULL-Equipped Trident Z5 Royal NeoX DDR5 Memory, Ranging From CL26-CL36 Timings Popular memory maker, G.Skill, has launched another EXPO ULL memory kit for enthusiasts after unveiling its Flare X5X Series DDR5 AMD EXPO ULL memory kit a few days ago. The&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMizAFBVV95cUxPUEZvWS1MNTVKNDdoS1dWdUQzTlhYR3YwU0ZrcG1pQjlOeG5MOHBzLUNkN2tRSjNldURwYjNMU2FoVDJkb3NOZ1VrdFJKMVdEMGxXUTk3dTNwVzJfTkl3cGhyVTd1TnlmQXJCQlhPdHdFdmMxdU5SZXVNMVJ1Q3MzTjgtbGxpVFFwUkhid1VweTZsaWRRRlZnaEVwdWlCdHR0YUx6cjhITUdsbEljWkJVMHNwNzJaMkxkaEU1Vmd4SWF3bjBmYWZNQVBYWUw?oc=5</id>
@@ -73,7 +99,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Micron Technology stock holds near USD 1,000 as AI memory boom drives explosive growth AD HOC NEWS&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron Technology stock holds near USD 1,000 as AI memory boom drives explosive growth AD HOC NEWS&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/ssds/goodram-px700-2tb-ssd-review</id>
@@ -86,7 +112,33 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.kitguru.net/components/memory/matthew-wilson/g-skill-expands-its-amd-ultra-low-latency-ddr5-line-up-with-new-neox-kits/</id>
+    <title type="html">G.Skill expands its AMD Ultra Low Latency DDR5 line-up with new NeoX kits</title>
+    <link href="https://www.kitguru.net/components/memory/matthew-wilson/g-skill-expands-its-amd-ultra-low-latency-ddr5-line-up-with-new-neox-kits/" />
+    <link rel="related" href="/stories/g-skill-expands-its-amd-ultra-low-latency-ddr5-line-03a77dec.html" />
+    <updated>2026-09-09T12:24:07.000Z</updated>
+    <author><name>KitGuru</name></author>
+    <summary type="html">G.SKILL has introduced a new Trident Z5 Royal NeoX DDR5 series, built for AMD systems and offering EXPO Ultra Low Latency profiles with specifications ranging from DDR5‑6000 CL36 down to DDR5‑6000 CL26. The post G.Skill expands its AMD Ultra Low Latency DDR5 line-up with new NeoX kits first appeared on KitGuru . RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;G.SKILL has introduced a new Trident Z5 Royal NeoX DDR5 series, built for AMD systems and offering EXPO Ultra Low Latency profiles with specifications ranging from DDR5‑6000 CL36 down to DDR5‑6000 CL26. The post G.Skill expands its AMD Ultra Low Latency DDR5 line-up with new NeoX kits first appeared on KitGuru .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE1PRDMwU1pIZUNEYzlpSE13YktqWFlPb3JoeXZLQ0lIeEdTcjNlM0JhemZHYVJodTU0U0ZVbDNxN1lxNWxHdUdnQlU3eFdfUnBmS1QzWEduUXEwMXdHQkIzN3Babk40X0kzckt6UWdwWVBNVTV2WXc?oc=5</id>
+    <title type="html">Sandisk Optimus GX 7100 2TB SSD Review: DRAM-Less, but Surprisingly Fast - ThePCEnthusiast</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1PRDMwU1pIZUNEYzlpSE13YktqWFlPb3JoeXZLQ0lIeEdTcjNlM0JhemZHYVJodTU0U0ZVbDNxN1lxNWxHdUdnQlU3eFdfUnBmS1QzWEduUXEwMXdHQkIzN3Babk40X0kzckt6UWdwWVBNVTV2WXc?oc=5" />
+    <link rel="related" href="/stories/sandisk-optimus-gx-7100-2tb-ssd-review-dram-less-but-065d2380.html" />
+    <updated>2026-09-09T12:09:28.000Z</updated>
+    <author><name>ThePCEnthusiast</name></author>
+    <summary type="html">Sandisk Optimus GX 7100 2TB SSD Review: DRAM-Less, but Surprisingly Fast ThePCEnthusiast RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Sandisk Optimus GX 7100 2TB SSD Review: DRAM-Less, but Surprisingly Fast ThePCEnthusiast&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.eetimes.com/biwin-brings-storage-solutions-for-ai-era-at-embedded-world-na-2026/</id>
@@ -99,7 +151,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/352505/g-skill-launches-trident-z5-royal-neox-series-ddr5-memory-with-amd-expo-ull</id>
@@ -164,7 +216,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Samsung and SK hynix Memory Inventories Crash Below 10 Days as AI Demand Triggers Historic Shortage, Says Report Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung and SK hynix Memory Inventories Crash Below 10 Days as AI Demand Triggers Historic Shortage, Says Report Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/samsung-and-sk-hynix-memory-inventories-crash-below-10-days-as-ai-demand-triggers-historic-shortage-says-report/</id>

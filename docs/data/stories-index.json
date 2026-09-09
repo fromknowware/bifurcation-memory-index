@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-09T16:37:14.497Z",
-  "count": 683,
+  "generatedAt": "2026-09-09T20:55:13.320Z",
+  "count": 687,
   "stories": [
+    {
+      "slug": "nvidia-and-meta-are-hungry-for-hbm-sk-hynix-is-on-th-2de2b882",
+      "url": "/stories/nvidia-and-meta-are-hungry-for-hbm-sk-hynix-is-on-th-2de2b882.html",
+      "title": "Nvidia and Meta Are Hungry for HBM. SK Hynix Is on the Menu — These ETFs Could Cash In - tradingview.com",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "tradingview.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "smic-outgrows-tsmc-and-samsung-with-20-surge-overtak-474b16e1",
+      "url": "/stories/smic-outgrows-tsmc-and-samsung-with-20-surge-overtak-474b16e1.html",
+      "title": "SMIC Outgrows TSMC and Samsung With 20% Surge, Overtaking GlobalFoundries as World’s Third-Largest Foundry",
+      "tag": "fab",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "framework-cuts-32gb-and-64gb-memory-prices-for-new-l-e873d700",
       "url": "/stories/framework-cuts-32gb-and-64gb-memory-prices-for-new-l-e873d700.html",
@@ -66,6 +88,28 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "g-skill-expands-its-amd-ultra-low-latency-ddr5-line-03a77dec",
+      "url": "/stories/g-skill-expands-its-amd-ultra-low-latency-ddr5-line-03a77dec.html",
+      "title": "G.Skill expands its AMD Ultra Low Latency DDR5 line-up with new NeoX kits",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "KitGuru",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sandisk-optimus-gx-7100-2tb-ssd-review-dram-less-but-065d2380",
+      "url": "/stories/sandisk-optimus-gx-7100-2tb-ssd-review-dram-less-but-065d2380.html",
+      "title": "Sandisk Optimus GX 7100 2TB SSD Review: DRAM-Less, but Surprisingly Fast - ThePCEnthusiast",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "ThePCEnthusiast",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
