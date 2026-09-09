@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-09-09T04:39:28.860Z",
-  "count": 658,
+  "generatedAt": "2026-09-09T11:20:08.677Z",
+  "count": 675,
   "stories": [
+    {
+      "slug": "pr-g-skill-launches-trident-z5-royal-neox-series-ddr-dfb1cfe4",
+      "url": "/stories/pr-g-skill-launches-trident-z5-royal-neox-series-ddr-dfb1cfe4.html",
+      "title": "(PR) G.Skill Launches Trident Z5 Royal NeoX Series DDR5 Memory with AMD EXPO-ULL",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "framework-leads-by-example-by-putting-consumers-firs-ac53983c",
+      "url": "/stories/framework-leads-by-example-by-putting-consumers-firs-ac53983c.html",
+      "title": "Framework Leads By Example By Putting Consumers First, Gets A Hold Of LPCAMM2 Memory Batch At Cheaper Cost, Immediately Lowers Laptop 13 Pro Price",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "this-502-4tb-crucial-t705-is-the-cheapest-gen-5-ssd-caae4d65",
+      "url": "/stories/this-502-4tb-crucial-t705-is-the-cheapest-gen-5-ssd-caae4d65.html",
+      "title": "This $502 4TB Crucial T705 is the cheapest Gen 5 SSD you can buy right now for just 12.5 cents per GB — ultra-fast storage upgrade with unreal 14,500 MB/s speeds is $181 less than a month ago, hitting its lowest price since February",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-s-unreleased-rtx-3070-ti-16gb-comes-to-life-t-e80c5ff6",
+      "url": "/stories/nvidia-s-unreleased-rtx-3070-ti-16gb-comes-to-life-t-e80c5ff6.html",
+      "title": "Nvidia's unreleased RTX 3070 Ti 16GB comes to life thanks to a modder's crazy GDDR6 swap — Frankenstein card combines RTX 3070 PCB and new VRAM with RTX 3070 Ti GPU",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-and-sk-hynix-memory-inventories-crash-below-81fe850d",
+      "url": "/stories/samsung-and-sk-hynix-memory-inventories-crash-below-81fe850d.html",
+      "title": "Samsung and SK hynix Memory Inventories Crash Below 10 Days as AI Demand Triggers Historic Shortage, Says Report",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-and-sk-hynix-memory-inventories-crash-below-ef268360",
+      "url": "/stories/samsung-and-sk-hynix-memory-inventories-crash-below-ef268360.html",
+      "title": "Samsung and SK hynix Memory Inventories Crash Below 10 Days as AI Demand Triggers Historic Shortage, Says Report - Wccftech",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "amd-radeon-rx-9070-xt-is-amd-039-s-most-popular-disc-c28f52cc",
+      "url": "/stories/amd-radeon-rx-9070-xt-is-amd-039-s-most-popular-disc-c28f52cc.html",
+      "title": "AMD Radeon RX 9070 XT is AMD&#039;s Most Popular Discrete GPU on Steam Survey",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-chip-shortage-stockpiles-fall-below-10-days-2-546d7ed3",
+      "url": "/stories/memory-chip-shortage-stockpiles-fall-below-10-days-2-546d7ed3.html",
+      "title": "Memory Chip Shortage: Stockpiles Fall Below 10 Days [2026] - shattered.io",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dlss5-drives-gpu-and-memory-prices-higher-as-hbm-foc-8da99dce",
+      "url": "/stories/dlss5-drives-gpu-and-memory-prices-higher-as-hbm-foc-8da99dce.html",
+      "title": "DLSS5 drives GPU and memory prices higher as HBM focus tightens supply - CHOSUNBIZ - Chosunbiz",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-faces-hbm-memory-chip-shock-as-yields-sink-to-2-d4e29615",
+      "url": "/stories/cxmt-faces-hbm-memory-chip-shock-as-yields-sink-to-2-d4e29615.html",
+      "title": "CXMT Faces HBM Memory Chip Shock As Yields Sink To 25% With Close To 80 Out Of 100 HBM3 Chips Failing Final Tests, Says Report - Wccftech",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-faces-hbm-memory-chip-shock-as-yields-sink-to-2-eefed09a",
+      "url": "/stories/cxmt-faces-hbm-memory-chip-shock-as-yields-sink-to-2-eefed09a.html",
+      "title": "CXMT Faces HBM Memory Chip Shock As Yields Sink To 25% With Close To 80 Out Of 100 HBM3 Chips Failing Final Tests, Says Report",
+      "tag": "fab",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "sk-hynix-bets-on-3-d-stacking-as-next-frontier-in-ai-4df741d7",
+      "url": "/stories/sk-hynix-bets-on-3-d-stacking-as-next-frontier-in-ai-4df741d7.html",
+      "title": "SK hynix bets on 3-D stacking as next frontier in AI memory - Korea JoongAng Daily",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "Korea JoongAng Daily",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "philippines-bets-ai-will-lift-gdp-by-12-percent-in-s-fda7470e",
+      "url": "/stories/philippines-bets-ai-will-lift-gdp-by-12-percent-in-s-fda7470e.html",
+      "title": "Philippines bets AI will lift GDP by 12 percent in seven years – without hurting outsourcing",
+      "tag": "macro",
+      "date": "2026-09-09",
+      "score": 6,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "nvidia-rtx-pro-6000-server-edition-architecture-memo-57e35210",
+      "url": "/stories/nvidia-rtx-pro-6000-server-edition-architecture-memo-57e35210.html",
+      "title": "NVIDIA RTX PRO 6000 Server Edition: Architecture, Memory, and AI Workloads - Nasscom",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "Nasscom",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "sk-hynix-s-ten-day-inventory-count-is-saying-more-th-587fa98c",
       "url": "/stories/sk-hynix-s-ten-day-inventory-count-is-saying-more-th-587fa98c.html",
@@ -25,6 +179,28 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "memory-chips-emerge-as-ai-s-biggest-winners-a-guide-e372f2f0",
+      "url": "/stories/memory-chips-emerge-as-ai-s-biggest-winners-a-guide-e372f2f0.html",
+      "title": "Memory Chips Emerge as AI’s Biggest Winners: A Guide to Stocks and ETFs - NAI500",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "NAI500",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "playstation-6-price-cost-hits-960-as-memory-crunch-b-ed4bc1bc",
+      "url": "/stories/playstation-6-price-cost-hits-960-as-memory-crunch-b-ed4bc1bc.html",
+      "title": "PlayStation 6 Price: Cost Hits $960 as Memory Crunch Bites - tech-insider.org",
+      "tag": "supply",
+      "date": "2026-09-09",
+      "score": 8,
+      "pick": false,
+      "source": "tech-insider.org",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "memory-chip-shortage-rally-continues-as-winbond-elec-1f337923",
       "url": "/stories/memory-chip-shortage-rally-continues-as-winbond-elec-1f337923.html",
       "title": "Memory Chip Shortage Rally Continues as Winbond Electronics Tops Taiwan Market in Volume and Price Gains - finance.biggo.com",
@@ -34,6 +210,17 @@
       "pick": false,
       "source": "finance.biggo.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "backed-by-nanya-partnership-piecemakers-eyes-ai-memo-2ade92fd",
+      "url": "/stories/backed-by-nanya-partnership-piecemakers-eyes-ai-memo-2ade92fd.html",
+      "title": "Backed by Nanya partnership, PieceMakers eyes AI memory upgrade boom - digitimes",
+      "tag": "demand",
+      "date": "2026-09-09",
+      "score": 7,
+      "pick": false,
+      "source": "digitimes",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "backed-by-nanya-partnership-piecemakers-eyes-ai-memo-afde0a5f",
