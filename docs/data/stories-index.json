@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-09-10T16:22:52.741Z",
-  "count": 722,
+  "generatedAt": "2026-09-10T20:50:36.756Z",
+  "count": 731,
   "stories": [
+    {
+      "slug": "nintendo-of-america-puts-tariff-refunds-towards-cust-a82153e1",
+      "url": "/stories/nintendo-of-america-puts-tariff-refunds-towards-cust-a82153e1.html",
+      "title": "Nintendo of America puts tariff refunds towards 'customer appreciation' sale, but no refunds to Switch 2 buyers — offers 30% off games and accessories from September 13 to 26",
+      "tag": "macro",
+      "date": "2026-09-10",
+      "score": 6,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "amd-releases-new-ryzen-5-5500f-and-ryzen-5-7500-to-s-0ba58f03",
+      "url": "/stories/amd-releases-new-ryzen-5-5500f-and-ryzen-5-7500-to-s-0ba58f03.html",
+      "title": "AMD releases new Ryzen 5 5500F and Ryzen 5 7500 to save budget PC building — new budget Zen 3 and Zen 4 CPUs to soften the blow from high RAM prices",
+      "tag": "supply",
+      "date": "2026-09-10",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "positron-ai-raises-875m-series-c-to-scale-memory-fir-11a061dc",
+      "url": "/stories/positron-ai-raises-875m-series-c-to-scale-memory-fir-11a061dc.html",
+      "title": "Positron AI Raises $875M Series C to Scale Memory-First Inference Systems",
+      "tag": "demand",
+      "date": "2026-09-10",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "kepler-exits-stealth-with-470-million-to-fix-the-ai-bb39580f",
+      "url": "/stories/kepler-exits-stealth-with-470-million-to-fix-the-ai-bb39580f.html",
+      "title": "Kepler exits stealth with $470 million to fix the AI memory bottleneck - Dealroom",
+      "tag": "demand",
+      "date": "2026-09-10",
+      "score": 7,
+      "pick": false,
+      "source": "Dealroom",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "china-s-cxmt-tops-sk-hynix-micron-to-take-memory-pro-7b220759",
+      "url": "/stories/china-s-cxmt-tops-sk-hynix-micron-to-take-memory-pro-7b220759.html",
+      "title": "China's CXMT tops SK Hynix, Micron to take memory profit margin crown - Nikkei Asia",
+      "tag": "supply",
+      "date": "2026-09-10",
+      "score": 8,
+      "pick": false,
+      "source": "Nikkei Asia",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nintendo-s-30-off-customer-appreciation-sale-is-fund-235d9bd8",
+      "url": "/stories/nintendo-s-30-off-customer-appreciation-sale-is-fund-235d9bd8.html",
+      "title": "Nintendo’s 30% Off “Customer Appreciation Sale” Is Funded by Tariff Refunds It Fought in Court Not to Share With Customers",
+      "tag": "macro",
+      "date": "2026-09-10",
+      "score": 6,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "deepseek-v4-1-flash-beats-openai-s-gpt-5-6-sol-and-a-f8c13400",
+      "url": "/stories/deepseek-v4-1-flash-beats-openai-s-gpt-5-6-sol-and-a-f8c13400.html",
+      "title": "DeepSeek V4.1 Flash Beats OpenAI’s GPT-5.6 Sol And Anthropic’s Opus 5 On Coding And Cybersecurity At An ~86x Lower Cost, While Reducing HBM Requirements By 3.8x And SSD Ones By 8x",
+      "tag": "demand",
+      "date": "2026-09-10",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "amd-radeon-rx-9070-xt-becomes-company-8217-s-top-dis-50519856",
+      "url": "/stories/amd-radeon-rx-9070-xt-becomes-company-8217-s-top-dis-50519856.html",
+      "title": "AMD Radeon RX 9070 XT becomes company&#8217;s top discrete GPU on Steam",
+      "tag": "demand",
+      "date": "2026-09-10",
+      "score": 7,
+      "pick": false,
+      "source": "KitGuru",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "tsmc-reports-record-16-26-billion-august-revenue-1c40df42",
       "url": "/stories/tsmc-reports-record-16-26-billion-august-revenue-1c40df42.html",
@@ -12,6 +100,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "micron-is-1-6-points-from-taking-the-no-2-spot-in-dr-c09d2820",
+      "url": "/stories/micron-is-1-6-points-from-taking-the-no-2-spot-in-dr-c09d2820.html",
+      "title": "Micron Is 1.6 Points From Taking the No. 2 Spot in DRAM - The Motley Fool",
+      "tag": "supply",
+      "date": "2026-09-10",
+      "score": 8,
+      "pick": false,
+      "source": "The Motley Fool",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "startup-d-matrix-will-pair-its-raptor-memory-based-x-995db086",

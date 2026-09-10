@@ -5,11 +5,115 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-10T16:22:50.747Z</updated>
+  <updated>2026-09-10T20:50:34.360Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/video-games/nintendo/nintendo-of-america-puts-tariff-refunds-towards-customer-appreciation-sale-but-no-refunds-to-switch-2-buyers-offers-30-percent-off-games-and-accessories-from-september-13-to-26</id>
+    <title type="html">Nintendo of America puts tariff refunds towards 'customer appreciation' sale, but no refunds to Switch 2 buyers — offers 30% off games and accessories from September 13 to 26</title>
+    <link href="https://www.tomshardware.com/video-games/nintendo/nintendo-of-america-puts-tariff-refunds-towards-customer-appreciation-sale-but-no-refunds-to-switch-2-buyers-offers-30-percent-off-games-and-accessories-from-september-13-to-26" />
+    <link rel="related" href="/stories/nintendo-of-america-puts-tariff-refunds-towards-cust-a82153e1.html" />
+    <updated>2026-09-10T19:35:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.</summary>
+    <category term="opml" />
+    <category term="tag:macro" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Deterministic MACRO signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/cpus/amd-releases-new-ryzen-5-5500f-and-ryzen-5-7500-to-save-budget-pc-building-new-budget-zen-3-and-zen-4-cpus-to-soften-the-blow-from-high-ram-prices</id>
+    <title type="html">AMD releases new Ryzen 5 5500F and Ryzen 5 7500 to save budget PC building — new budget Zen 3 and Zen 4 CPUs to soften the blow from high RAM prices</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/amd-releases-new-ryzen-5-5500f-and-ryzen-5-7500-to-save-budget-pc-building-new-budget-zen-3-and-zen-4-cpus-to-soften-the-blow-from-high-ram-prices" />
+    <link rel="related" href="/stories/amd-releases-new-ryzen-5-5500f-and-ryzen-5-7500-to-s-0ba58f03.html" />
+    <updated>2026-09-10T17:54:53.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.hpcwire.com/off-the-wire/positron-ai-raises-875m-series-c-to-scale-memory-first-inference-systems/</id>
+    <title type="html">Positron AI Raises $875M Series C to Scale Memory-First Inference Systems</title>
+    <link href="https://www.hpcwire.com/off-the-wire/positron-ai-raises-875m-series-c-to-scale-memory-first-inference-systems/" />
+    <link rel="related" href="/stories/positron-ai-raises-875m-series-c-to-scale-memory-fir-11a061dc.html" />
+    <updated>2026-09-10T17:52:04.000Z</updated>
+    <author><name>HPCwire</name></author>
+    <summary type="html">Funding will support the Asimov silicon tapeout and Titan system production ramp, following Positron’s 50-plus-rack Atlas deployment at Oracle Cloud Infrastructure RENO, Nev., Sept. 10, 2026 — Positron AI today announced an $875 million Series C financing at a $5 billion post-money valuation. The round was co-led by NEA, Atreides Management, Valor Equity Partners, Andra […] The post Positron AI Ra RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Funding will support the Asimov silicon tapeout and Titan system production ramp, following Positron’s 50-plus-rack Atlas deployment at Oracle Cloud Infrastructure RENO, Nev., Sept. 10, 2026 — Positron AI today announced an $875 million Series C financing at a $5 billion post-money valuation. The round was co-led by NEA, Atreides Management, Valor Equity Partners, Andra […] The post Positron AI Ra&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMipgFBVV95cUxNdVZmWG1nZ1l4STM3U00wNS1hQUMwM05ycy02UktrRmNPeU5nOHlGdGlSYXdhWnNMcXJueXhoaFZjeUNnMXdmQWFPSmRETlM3Y2gxYmFZSWYyWjBaLUh3SVdlekZvelRMNlFhajVVVENyT1hPSVZDQzRrazNkSXZFc2t5ak5DUjZXaTRVa3JPWEdTNFg0QzA0V091Ry1KTlc2MEx5UGdR?oc=5</id>
+    <title type="html">Kepler exits stealth with $470 million to fix the AI memory bottleneck - Dealroom</title>
+    <link href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNdVZmWG1nZ1l4STM3U00wNS1hQUMwM05ycy02UktrRmNPeU5nOHlGdGlSYXdhWnNMcXJueXhoaFZjeUNnMXdmQWFPSmRETlM3Y2gxYmFZSWYyWjBaLUh3SVdlekZvelRMNlFhajVVVENyT1hPSVZDQzRrazNkSXZFc2t5ak5DUjZXaTRVa3JPWEdTNFg0QzA0V091Ry1KTlc2MEx5UGdR?oc=5" />
+    <link rel="related" href="/stories/kepler-exits-stealth-with-470-million-to-fix-the-ai-bb39580f.html" />
+    <updated>2026-09-10T17:21:18.000Z</updated>
+    <author><name>Dealroom</name></author>
+    <summary type="html">Kepler exits stealth with $470 million to fix the AI memory bottleneck Dealroom RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Kepler exits stealth with $470 million to fix the AI memory bottleneck Dealroom&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMivgFBVV95cUxNSXpUZ05aYzNzZHk5WnFXN3NFRkdHM3l5YUhzTnpGWWNnRExUM1JDYVFKcVhIc2lkR0R6NkhmOXYxRXZ6RFVqT25hVnBBR2VzR3NDcXREYl9oOG5XZXBZQWdaNXZCQ2FBWjBQSV9ZcmQ0Ny1UVkIwOV9GamxqbHFmQzQ4QVVQTTVFRHM4bE5sSGpjbHJYMGVxMFN3S2ItR3Z5LWN5YmZrOWZOc0JkRklvRmMtSjdxNDRRakZ5TVNR?oc=5</id>
+    <title type="html">China's CXMT tops SK Hynix, Micron to take memory profit margin crown - Nikkei Asia</title>
+    <link href="https://news.google.com/rss/articles/CBMivgFBVV95cUxNSXpUZ05aYzNzZHk5WnFXN3NFRkdHM3l5YUhzTnpGWWNnRExUM1JDYVFKcVhIc2lkR0R6NkhmOXYxRXZ6RFVqT25hVnBBR2VzR3NDcXREYl9oOG5XZXBZQWdaNXZCQ2FBWjBQSV9ZcmQ0Ny1UVkIwOV9GamxqbHFmQzQ4QVVQTTVFRHM4bE5sSGpjbHJYMGVxMFN3S2ItR3Z5LWN5YmZrOWZOc0JkRklvRmMtSjdxNDRRakZ5TVNR?oc=5" />
+    <link rel="related" href="/stories/china-s-cxmt-tops-sk-hynix-micron-to-take-memory-pro-7b220759.html" />
+    <updated>2026-09-10T17:03:00.000Z</updated>
+    <author><name>Nikkei Asia</name></author>
+    <summary type="html">China's CXMT tops SK Hynix, Micron to take memory profit margin crown Nikkei Asia RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:Samsung SK Hynix Micron earnings" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;China's CXMT tops SK Hynix, Micron to take memory profit margin crown Nikkei Asia&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/nintendo-tariff-refund-customer-appreciation-sale/</id>
+    <title type="html">Nintendo’s 30% Off “Customer Appreciation Sale” Is Funded by Tariff Refunds It Fought in Court Not to Share With Customers</title>
+    <link href="https://wccftech.com/nintendo-tariff-refund-customer-appreciation-sale/" />
+    <link rel="related" href="/stories/nintendo-s-30-off-customer-appreciation-sale-is-fund-235d9bd8.html" />
+    <updated>2026-09-10T17:00:00.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Nintendo of America has just unveiled a new storewide promotion it's calling the &quot;Customer Appreciation Sale&quot;, which, according to the announcement post, is one of the largest promotions ever. Except that the discounts are being funded, at least in part, by those tariff refunds that the company is simultaneously arguing in federal court that it has no legal obligation to pass on to consumers. Acco RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.</summary>
+    <category term="opml" />
+    <category term="tag:macro" />
+    
+    <content type="html">&lt;p&gt;Nintendo of America has just unveiled a new storewide promotion it's calling the &quot;Customer Appreciation Sale&quot;, which, according to the announcement post, is one of the largest promotions ever. Except that the discounts are being funded, at least in part, by those tariff refunds that the company is simultaneously arguing in federal court that it has no legal obligation to pass on to consumers. Acco&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Deterministic MACRO signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/deepseek-v4-1-flash-beats-openais-gpt-5-6-sol-and-anthropics-opus-5-on-coding-and-cybersecurity-at-an-86x-lower-cost-while-reducing-hbm-requirements-by-3-8x-and-ssd-ones-by-8x/</id>
+    <title type="html">DeepSeek V4.1 Flash Beats OpenAI’s GPT-5.6 Sol And Anthropic’s Opus 5 On Coding And Cybersecurity At An ~86x Lower Cost, While Reducing HBM Requirements By 3.8x And SSD Ones By 8x</title>
+    <link href="https://wccftech.com/deepseek-v4-1-flash-beats-openais-gpt-5-6-sol-and-anthropics-opus-5-on-coding-and-cybersecurity-at-an-86x-lower-cost-while-reducing-hbm-requirements-by-3-8x-and-ssd-ones-by-8x/" />
+    <link rel="related" href="/stories/deepseek-v4-1-flash-beats-openai-s-gpt-5-6-sol-and-a-f8c13400.html" />
+    <updated>2026-09-10T16:50:28.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">DeepSeek's engineers are a marvel, excelling in extracting every ounce of efficiency from the architectural constraints that characterize contemporary LLMs, as they appear to have done with the just-released V4.1 Flash, which is phenomenally competitive with the likes of OpenAI's GPT-5.6 Sol and Anthropic's Claude Opus 5 on coding and cybersecurity, while entailing just a fraction of their costs! RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;DeepSeek's engineers are a marvel, excelling in extracting every ounce of efficiency from the architectural constraints that characterize contemporary LLMs, as they appear to have done with the just-released V4.1 Flash, which is phenomenally competitive with the likes of OpenAI's GPT-5.6 Sol and Anthropic's Claude Opus 5 on coding and cybersecurity, while entailing just a fraction of their costs!&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.kitguru.net/components/graphic-cards/joao-silva/amd-radeon-rx-9070-xt-becomes-companys-top-discrete-gpu-on-steam/</id>
+    <title type="html">AMD Radeon RX 9070 XT becomes company&amp;#8217;s top discrete GPU on Steam</title>
+    <link href="https://www.kitguru.net/components/graphic-cards/joao-silva/amd-radeon-rx-9070-xt-becomes-companys-top-discrete-gpu-on-steam/" />
+    <link rel="related" href="/stories/amd-radeon-rx-9070-xt-becomes-company-8217-s-top-dis-50519856.html" />
+    <updated>2026-09-10T16:00:25.000Z</updated>
+    <author><name>KitGuru</name></author>
+    <summary type="html">According to the August Steam Hardware Survey, AMD’s Radeon RX 9070 XT has now become the company’s most widely‑used discrete GPU on Steam. The card holds a 1.46% share among surveyed systems, placing it 24th overall — just ahead of Nvidia’s GeForce RTX 3080 and directly behind the GeForce GTX 1660 Super. Valve’s latest figures … The post AMD Radeon RX 9070 XT becomes company’s top discrete GPU on RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;According to the August Steam Hardware Survey, AMD’s Radeon RX 9070 XT has now become the company’s most widely‑used discrete GPU on Steam. The card holds a 1.46% share among surveyed systems, placing it 24th overall — just ahead of Nvidia’s GeForce RTX 3080 and directly behind the GeForce GTX 1660 Super. Valve’s latest figures … The post AMD Radeon RX 9070 XT becomes company’s top discrete GPU on&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.techpowerup.com/352558/tsmc-reports-record-usd-16-26-billion-august-revenue</id>
     <title type="html">TSMC Reports Record $16.26 Billion August Revenue</title>
@@ -21,7 +125,20 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;TSMC today announced its financial results for August, reporting NT$514.81 billion, or about $16.26 billion at the time of writing. This represents a significant 10.1% increase from July's $14.49 billion , indicating that demand remains robust. Growing a multi-billion-dollar manufacturing business at double-digit percentages each month is an impressive achievement and a clear sign that customer or&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;TSMC today announced its financial results for August, reporting NT$514.81 billion, or about $16.26 billion at the time of writing. This represents a significant 10.1% increase from July's $14.49 billion , indicating that demand remains robust. Growing a multi-billion-dollar manufacturing business at double-digit percentages each month is an impressive achievement and a clear sign that customer or&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMingFBVV95cUxQUFNBTnFBOEdyd29jbkVwZWYxRDJ4MFBIQzlwQ212V1BJWklIOEZveGY0MWdRLUtqcEhtVlhxU1FlUzJZNS1XQUsxVkpnOEJCNjA5V3V2ZlhIWWFSU0FQNDMzMmFJUDV2ZGoxNFZaMXNmWV9ZTmFMbU1WYUlpbmxMZ250VWZKMXBaUkpEVGlLc0tNRVNldGkwOWZfNGc4dw?oc=5</id>
+    <title type="html">Micron Is 1.6 Points From Taking the No. 2 Spot in DRAM - The Motley Fool</title>
+    <link href="https://news.google.com/rss/articles/CBMingFBVV95cUxQUFNBTnFBOEdyd29jbkVwZWYxRDJ4MFBIQzlwQ212V1BJWklIOEZveGY0MWdRLUtqcEhtVlhxU1FlUzJZNS1XQUsxVkpnOEJCNjA5V3V2ZlhIWWFSU0FQNDMzMmFJUDV2ZGoxNFZaMXNmWV9ZTmFMbU1WYUlpbmxMZ250VWZKMXBaUkpEVGlLc0tNRVNldGkwOWZfNGc4dw?oc=5" />
+    <link rel="related" href="/stories/micron-is-1-6-points-from-taking-the-no-2-spot-in-dr-c09d2820.html" />
+    <updated>2026-09-10T15:14:00.000Z</updated>
+    <author><name>The Motley Fool</name></author>
+    <summary type="html">Micron Is 1.6 Points From Taking the No. 2 Spot in DRAM The Motley Fool RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Micron Is 1.6 Points From Taking the No. 2 Spot in DRAM The Motley Fool&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.nextplatform.com/compute/2026/09/10/startup-d-matrix-will-pair-its-raptor-memory-based-xpu-to-nvidia-rackscale-iron/5295601</id>
@@ -34,7 +151,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMikwFBVV95cUxPczRwUWx0U3BhQ1Bqem5mdXNRZTJnQ09VSVJYbWFQSUZaYndIeG9ZakUxR3pSX3ZDbHo1U0JwdlZXY3l3TE5TZDFjSUF0dTlNSk9QMVpuZy0xMUdweGVLRm9Tdy10ODNFYzBDcnowUndWQ1R6VDAzOG5ZMm5kNmtxSXQzMGtsbVlUQkRQdGJBR24xVHc?oc=5</id>
@@ -47,7 +164,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Prices of Chinese AI chips soar due to shortage of HBM memory TechCentral.ie&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Prices of Chinese AI chips soar due to shortage of HBM memory TechCentral.ie&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.hpcwire.com/off-the-wire/marvell-to-showcase-end-to-end-ai-data-center-connectivity-portfolio-at-ai-infra-summit-2026/</id>
@@ -60,7 +177,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Marvell Advanced Connectivity, Switching and Memory Solutions Power AI Infrastructure Across Every Distance, Improving Utilization, Token Efficiency and ROI SANTA CLARA, Calif., Sept. 10, 2026 — Marvell Technology, Inc. has announced it will showcase its comprehensive portfolio of AI data center connectivity and memory solutions at AI Infra Summit 2026—September 15 to 17 at the Santa […] The post&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Marvell Advanced Connectivity, Switching and Memory Solutions Power AI Infrastructure Across Every Distance, Improving Utilization, Token Efficiency and ROI SANTA CLARA, Calif., Sept. 10, 2026 — Marvell Technology, Inc. has announced it will showcase its comprehensive portfolio of AI data center connectivity and memory solutions at AI Infra Summit 2026—September 15 to 17 at the Santa […] The post&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/qwen38-27b-ai-model-runs-on-12gb-laptop-by-pooling-memory-across-four-devices/</id>
@@ -73,7 +190,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Running a standard 4-bit quantized version of Qwen3.8-27B requires you to have between 15GB and 17GB of available VRAM and system RAM combined, so when an intrepid user tried running the same AI model on his Windows laptop featuring just 12GB of memory, the immediate reaction would be that this is an impossible task. However, by running open-source software, the user managed to pool four devices t&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Running a standard 4-bit quantized version of Qwen3.8-27B requires you to have between 15GB and 17GB of available VRAM and system RAM combined, so when an intrepid user tried running the same AI model on his Windows laptop featuring just 12GB of memory, the immediate reaction would be that this is an impossible task. However, by running open-source software, the user managed to pool four devices t&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.theregister.com/on-prem/2026/09/10/nscale-swallows-lions-share-of-uk-datacenter-investment/5295541</id>
@@ -86,7 +203,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Tracxn credits one AI infrastructure outfit with $3.7B of sector's $5.7B haul&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Tracxn credits one AI infrastructure outfit with $3.7B of sector's $5.7B haul&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMingFBVV95cUxOLXAyQ0hEaF84dHNwdVUzblVMZmkyVjU4eFNoQktRVFB1enI1S3lLY2ZacW5DcGRqQ0FiclFaRGVOcEVNaFMyVEQ4aVNvU19sUVg2OGpmR2dEbGhUM2ZtNl9HZG00dzQ1cmg4R2IyQ0FNdDlwTnNPM0V3S19BRlNHaWZUZFlIMWFObjctbWM2bHRYcVlDcmJueXN6QlRjZw?oc=5</id>
@@ -99,7 +216,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Forget the AI Headlines. AHBM Holders Should Be Watching Memory Chip Prices Yahoo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Forget the AI Headlines. AHBM Holders Should Be Watching Memory Chip Prices Yahoo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMivwFBVV95cUxNcHRvVEdmLVpLQ19ueXFmRHVxUmllSUg4RDBncjVLaTRYM3dQVlJFaUdqUldmcmN0Rjh3cENiRjZ2bVplbXVRNFVKUkthRFM3SnhoZkdOUEhRMFNVMzhkbjBicHNOSzBrUjhLRnp0OVlWWnNfZ293aVdBTDRIT1QtS1hiNmtDYWZuUl82b0daYU5MTzhoTHhJb1BubFdCZXFuNFlpdjBvbWxsUHVQRTVOZGRPZEtNczZTTEhNWVF4Zw?oc=5</id>
@@ -112,7 +229,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Forget the AI Headlines. AHBM Holders Should Be Watching Memory Chip Prices 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Forget the AI Headlines. AHBM Holders Should Be Watching Memory Chip Prices 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/old-macbook-uses-a-mirror-webcam-and-ai-agent-to-code-its-own-amd-gpu-drivers-agent-first-omarchy-linux-debugs-itself-ai-can-check-its-own-progress-on-screen-in-real-time</id>
@@ -125,7 +242,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-ai-accelerator-supplier-biren-posts-2-000-percent-year-over-year-revenue-growth-export-controls-benefit-homegrown-chips-as-nvidia-and-amd-exit-market</id>
@@ -138,7 +255,7 @@
     <category term="opml" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/semiconductors/chinese-quartz-approved-for-semiconductor-equipment-and-dram-manufacturing-but-it-still-cant-break-americas-monopoly-china-secures-domestic-supply-for-chipmaking-components-but-spruce-pine-still-holds-the-crucible-monopoly</id>
@@ -151,7 +268,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-abf-substrates-in-data-center-silicon-in-2026-solving-the-supply-crunch-and-material-wall-beneath-every-ai-accelerator</id>
@@ -164,7 +281,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/semiconductors/tsmc-samsung-and-intel-shore-up-support-with-asml-to-deploy-larger-high-na-euv-photomasks-6-12-inch-photomask-transition-may-take-years-despite-unified-effort</id>
@@ -177,7 +294,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.eetimes.com/adi-snaps-alif-semiconductor-to-push-ai-into-physical-systems/</id>
@@ -333,7 +450,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;[News] NVIDIA’s DLSS 5 Could Boost Graphics DRAM Demand, With GDDR6 Prices Reportedly Already Triple TrendForce&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;[News] NVIDIA’s DLSS 5 Could Boost Graphics DRAM Demand, With GDDR6 Prices Reportedly Already Triple TrendForce&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE1VWXYzNGZRXy0zSU90RmF1MjFNaDZtWEljVEpkbEtiNlZadFQzVWg3X0ZtU3hFX2ZsVWZtWUFnWkdrUEp0X0pqLU12MDU0cTI5b19sZE93dUpJcDliVXRaLWs3aU5OQ0pBTE1zWjdoQ3NhaEN2WWc?oc=5</id>
