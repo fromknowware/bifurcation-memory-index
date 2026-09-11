@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-09-11T16:26:56.897Z",
-  "count": 749,
+  "generatedAt": "2026-09-11T20:56:39.070Z",
+  "count": 756,
   "stories": [
+    {
+      "slug": "report-tsmc-to-double-cowos-capacity-by-2028-as-ai-c-8ff4c50e",
+      "url": "/stories/report-tsmc-to-double-cowos-capacity-by-2028-as-ai-c-8ff4c50e.html",
+      "title": "Report: TSMC to Double CoWoS Capacity by 2028 as AI Chip Shortage Spills Over to Rivals",
+      "tag": "fab",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "oracle-tries-to-appease-stargate-data-center-opponen-fc361019",
+      "url": "/stories/oracle-tries-to-appease-stargate-data-center-opponen-fc361019.html",
+      "title": "Oracle tries to appease Stargate data center opponents with renewables push",
+      "tag": "demand",
+      "date": "2026-09-11",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "china-modified-nvidia-rtx-5090-with-massive-96gb-of-9f204dce",
+      "url": "/stories/china-modified-nvidia-rtx-5090-with-massive-96gb-of-9f204dce.html",
+      "title": "China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65% the cost of the original",
+      "tag": "demand",
+      "date": "2026-09-11",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sanctioned-chinese-supercomputer-maker-stripped-of-i-6f393117",
+      "url": "/stories/sanctioned-chinese-supercomputer-maker-stripped-of-i-6f393117.html",
+      "title": "Sanctioned Chinese supercomputer maker stripped of IO500 benchmark crown, Intel-powered Aurora retakes the lead — record-breaking ParaStor F9000 storage system doesn't meet reproducibility requirements",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "quick-spark-china-s-memory-industry-gets-a-dedicated-44f4245d",
+      "url": "/stories/quick-spark-china-s-memory-industry-gets-a-dedicated-44f4245d.html",
+      "title": "QUICK SPARK: China’s Memory Industry Gets a Dedicated ETF as AI Demand Tightens Supply - TradingView",
+      "tag": "demand",
+      "date": "2026-09-11",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "higher-prices-can-t-crimp-server-sales-as-ai-drives-558df157",
       "url": "/stories/higher-prices-can-t-crimp-server-sales-as-ai-drives-558df157.html",
@@ -11,6 +66,17 @@
       "score": 8,
       "pick": false,
       "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-kioxia-sk-hynix-and-micron-fair-value-upside-78f65a8d",
+      "url": "/stories/samsung-kioxia-sk-hynix-and-micron-fair-value-upside-78f65a8d.html",
+      "title": "Samsung, Kioxia, SK hynix and Micron: Fair value upside compared - Investing.com",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "Investing.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -67,6 +133,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "liberty-global-invests-in-positron-ai-s-memory-first-3a125f39",
+      "url": "/stories/liberty-global-invests-in-positron-ai-s-memory-first-3a125f39.html",
+      "title": "Liberty Global Invests in Positron AI’s Memory-First AI Inference Systems - Quiver Quantitative",
+      "tag": "macro",
+      "date": "2026-09-11",
+      "score": 6,
+      "pick": false,
+      "source": "Quiver Quantitative",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
     },
     {
       "slug": "cxmt-s-q2-ebit-margin-hits-82-surpassing-global-memo-95cd94e7",
