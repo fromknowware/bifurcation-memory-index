@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-11T11:18:10.703Z</updated>
+  <updated>2026-09-11T16:26:54.608Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.theregister.com/systems/2026/09/11/higher-prices-cant-crimp-server-sales-as-ai-drives-demand/5295827</id>
+    <title type="html">Higher prices can't crimp server sales as AI drives demand</title>
+    <link href="https://www.theregister.com/systems/2026/09/11/higher-prices-cant-crimp-server-sales-as-ai-drives-demand/5295827" />
+    <link rel="related" href="/stories/higher-prices-can-t-crimp-server-sales-as-ai-drives-558df157.html" />
+    <updated>2026-09-11T14:27:00.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">Shipments rise with enterprise and government buyers joining the hyperscaler spending spree RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Shipments rise with enterprise and government buyers joining the hyperscaler spending spree&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/video-games/retro-gaming/neogeo-aes-console-remake-delayed-for-nearly-a-year-decision-driven-by-ram-shortage-and-unexpected-popularity</id>
+    <title type="html">Hardware-accurate NeoGeo AES+ delayed to late 2027 due to memory shortage — decision driven by surging demand and AI-driven RAM crunch</title>
+    <link href="https://www.tomshardware.com/video-games/retro-gaming/neogeo-aes-console-remake-delayed-for-nearly-a-year-decision-driven-by-ram-shortage-and-unexpected-popularity" />
+    <link rel="related" href="/stories/hardware-accurate-neogeo-aes-delayed-to-late-2027-du-8d0be36e.html" />
+    <updated>2026-09-11T11:30:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/external-ssds/hands-on-sharges-disk-pro-2-ultra</id>
     <title type="html">Hands On: Sharge's Disk Pro 2 Ultra is a compact, magnetic DIY SSD dock with active cooling, 80W passthrough charging, and HDMI 2.1 that supports up to 8TB drives</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/laptops/gaming-laptops/snag-a-huge-usd1-000-saving-on-this-rtx-5090-oled-gaming-laptop-from-hp-now-usd3-699-16-inch-hyperx-rig-delivers-1600p-gaming-with-ultra-fast-240hz-refresh-rate-coupled-with-32gb-ddr5-ram-and-a-2tb-ssd</id>
@@ -34,7 +60,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/352588/intel-arc-gpu-graphics-drivers-101-8993-beta-released</id>
@@ -47,7 +73,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Intel today released the latest version of its Arc GPU Graphics drivers. Version 101.8893 Beta comes game-ready for &quot;Wardogs,&quot; which released to early access on Thursday. The online multiplayer FPS resembles the &quot;King of the Hill&quot; mod of Arma 3. This release does not fix any game-specific or application-specific issues, but Intel took the opportunity to identify a handful new issues that are liste&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Intel today released the latest version of its Arc GPU Graphics drivers. Version 101.8893 Beta comes game-ready for &quot;Wardogs,&quot; which released to early access on Thursday. The online multiplayer FPS resembles the &quot;King of the Hill&quot; mod of Arma 3. This release does not fix any game-specific or application-specific issues, but Intel took the opportunity to identify a handful new issues that are liste&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/samsung-passes-technical-hurdles-manufacturing-qualcomm-2nm-chips-hits-price-agreement-snag/</id>
@@ -60,7 +86,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Qualcomm was already facing a torrent of struggles with its declining chipset business due to the DRAM crisis, and to make matters worse, it’s going to pay TSMC a hefty sum for utilizing its 2nm lithography for the upcoming Snapdragon 8 Elite Gen 6 Pro and Snapdragon 8 Elite Gen 6. The only solace for the company to reduce its manufacturing costs is teaming up with Samsung, but the latest report s&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Qualcomm was already facing a torrent of struggles with its declining chipset business due to the DRAM crisis, and to make matters worse, it’s going to pay TSMC a hefty sum for utilizing its 2nm lithography for the upcoming Snapdragon 8 Elite Gen 6 Pro and Snapdragon 8 Elite Gen 6. The only solace for the company to reduce its manufacturing costs is teaming up with Samsung, but the latest report s&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Qc3RCRWc0bkpLY1RIQTdxcW9uRTFSdktBaGlMdGEzNmpFZllsdHdvTkZZUURTTHlsQlpKRUtvb2pOS3pMVF95V1JhSlBGQ3hGemNWMTJuZDVGcm54LVAtOURR?oc=5</id>
@@ -73,7 +99,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;CXMT’s Q2 EBIT margin hits 82%, surpassing global memory chip giants: report Global Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;CXMT’s Q2 EBIT margin hits 82%, surpassing global memory chip giants: report Global Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM0FtSUdJc0R6ckV1UmFkUmk5WUtUZUNwOUxJS2NGMl9pNnhoMTludFo0V3NMdXBZdl9MRzcwRzk4SjhwZ1JON1d3R0EzZkZ3LVg2a1VrUDFlQ0dCYS1JYndORGVyZUdqUDc4M0ZXNlgxalQzX25nLXk0ZlRZS3RzcHkwRE8xcDhzWUNjQTdRZlhqMlIxUU8yc1FleDBtMTYybV9GTzc2bGNtZw?oc=5</id>
@@ -86,7 +112,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Exceleram warns RAM shortage is still escalating KitGuru&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Exceleram warns RAM shortage is still escalating KitGuru&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.kitguru.net/components/memory/matthew-wilson/exceleram-warns-ram-shortage-is-still-escalating/</id>
@@ -99,7 +125,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Exceleram says the ongoing RAM shortage is far from over, with the company warning that supply constraints, rising DRAM prices and unreliable chip availability are continuing to disrupt the market well into 2026. The post Exceleram warns RAM shortage is still escalating first appeared on KitGuru .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Exceleram says the ongoing RAM shortage is far from over, with the company warning that supply constraints, rising DRAM prices and unreliable chip availability are continuing to disrupt the market well into 2026. The post Exceleram warns RAM shortage is still escalating first appeared on KitGuru .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMisAFBVV95cUxOMGVGLVJoaXl4UnBLTmxLSkhoYU0wQjFtT1cwaEI1Qy1VSTRYMy1LQ0VYNWxWaVFBUkd3UGxwVGRiNTZ0LU9KYmg0dWh1RFRwUUs1MGZibkhJSWluZHZJUUpZT0xfMHo2TjRiUlNJR2JBQ1lyYXBLdUhqVF83MV9rdWpLUGg1SU5RaXVFY09iVzhqZUZza3RmNkp6NGhvY3FBWlc5RHBQdE5PelowdmtEQw?oc=5</id>
@@ -112,7 +138,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Kepler Secures Intel Capital and AMD Ventures Backing as New AI Memory Chip Route Emerges; Micron Stock Weakens tradingkey.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Kepler Secures Intel Capital and AMD Ventures Backing as New AI Memory Chip Route Emerges; Micron Stock Weakens tradingkey.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiggJBVV95cUxQYzk4MzNIdGNsSUFGRnlaZU5JRlpFXzc5OWc0T3BLOXR2SUhkLUxRZlU3b214U25FbmlzXzBXS084RExNZnM4UGhqaEdISkZHTVFHUFhVdmpwTDdFeUpXNXRNeXUyRVFFZEptT2puaTNtczRmQzczZ3lSSDk0LUpFcXRQbFFjVkdJakpxUC16M001NHprbWFVV2NCbHlremhab0V6aTFtb2UweUYyczJ0Rzg3RUlVQnpsb3duc2NPMC1relgyOFlNckRtYktYRlFTTGFoMzNkdkZ1ZFkwN1Z6OGNhSXVWVG1mVFRUZ2dYd3FOa0hZV1BjX1U4TERNdnc2T1E?oc=5</id>
@@ -125,7 +151,7 @@
     <category term="google-news:Samsung SK Hynix Micron earnings" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;SK Hynix, Samsung Shares Dip In Korea After DeepSeek Debuts AI Tech That Uses Less Memory – Micron, SanDisk Hold Up TradingView&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SK Hynix, Samsung Shares Dip In Korea After DeepSeek Debuts AI Tech That Uses Less Memory – Micron, SanDisk Hold Up TradingView&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMia0FVX3lxTE9JbTR6cWFPSEF4dk10VmRqbU0zejJlNkwta0pidFI0UlVCMGQyZC1zNUlTQTE0WXVMNlFUcXlHYjEyWk1vU0JYZGF6N25wSW4yRU5PRzF5YWVNVTJLZm9QbE4wY1NMTlVUYVFJ?oc=5</id>
@@ -138,7 +164,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Kepler Computing Unveils EUV-Free Ferroelectric AI Memory, Targeting 10x HBM Capacity via 28nm Fab Retrofits XenoSpectrum&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Kepler Computing Unveils EUV-Free Ferroelectric AI Memory, Targeting 10x HBM Capacity via 28nm Fab Retrofits XenoSpectrum&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMibEFVX3lxTFBpMGJBMWFQZWowVGNXN3NkRkNTQmxucWQ4Sk02M2x1TmRmTlc3YzI3NHdkM2xEdDFXMTlIb3lYdU5uanRxbk94bHlfaGVvbXdyZFhNYVp0NkRLNXVDQVhmU05ySWV6NU1ERVFjTg?oc=5</id>

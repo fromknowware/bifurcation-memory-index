@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-11T11:18:12.999Z",
-  "count": 747,
+  "generatedAt": "2026-09-11T16:26:56.897Z",
+  "count": 749,
   "stories": [
+    {
+      "slug": "higher-prices-can-t-crimp-server-sales-as-ai-drives-558df157",
+      "url": "/stories/higher-prices-can-t-crimp-server-sales-as-ai-drives-558df157.html",
+      "title": "Higher prices can't crimp server sales as AI drives demand",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hardware-accurate-neogeo-aes-delayed-to-late-2027-du-8d0be36e",
+      "url": "/stories/hardware-accurate-neogeo-aes-delayed-to-late-2027-du-8d0be36e.html",
+      "title": "Hardware-accurate NeoGeo AES+ delayed to late 2027 due to memory shortage — decision driven by surging demand and AI-driven RAM crunch",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "hands-on-sharge-s-disk-pro-2-ultra-is-a-compact-magn-dfe939b1",
       "url": "/stories/hands-on-sharge-s-disk-pro-2-ultra-is-a-compact-magn-dfe939b1.html",
