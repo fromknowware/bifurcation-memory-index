@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-10T20:50:36.756Z",
-  "count": 731,
+  "generatedAt": "2026-09-11T04:37:34.536Z",
+  "count": 737,
   "stories": [
+    {
+      "slug": "china-s-ai-chip-push-runs-into-a-costly-problem-memo-b0648289",
+      "url": "/stories/china-s-ai-chip-push-runs-into-a-costly-problem-memo-b0648289.html",
+      "title": "China’s AI chip push runs into a costly problem: memory - Tech Wire Asia",
+      "tag": "demand",
+      "date": "2026-09-11",
+      "score": 7,
+      "pick": false,
+      "source": "Tech Wire Asia",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "watch-until-mid-september-experts-on-conditions-for-bbfd19ee",
+      "url": "/stories/watch-until-mid-september-experts-on-conditions-for-bbfd19ee.html",
+      "title": "\"Watch Until Mid-September\"—Experts on Conditions for a Semiconductor Stock Rebound in October - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "positron-ai-s-875m-bet-commodity-memory-could-break-13b56e9b",
+      "url": "/stories/positron-ai-s-875m-bet-commodity-memory-could-break-13b56e9b.html",
+      "title": "Positron AI’s $875M Bet: Commodity Memory Could Break NVIDIA’s Inference Lock - forkast.news",
+      "tag": "demand",
+      "date": "2026-09-10",
+      "score": 7,
+      "pick": false,
+      "source": "forkast.news",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "tsmc-reportedly-accelerates-1-4nm-production-to-apri-24ac060a",
+      "url": "/stories/tsmc-reportedly-accelerates-1-4nm-production-to-apri-24ac060a.html",
+      "title": "TSMC Reportedly Accelerates 1.4nm Production to April 2027, Pulling its Most Advanced Chips a Full Year Ahead of Schedule",
+      "tag": "fab",
+      "date": "2026-09-10",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "nintendo-of-america-puts-tariff-refunds-towards-cust-a82153e1",
       "url": "/stories/nintendo-of-america-puts-tariff-refunds-towards-cust-a82153e1.html",
@@ -190,6 +234,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "memory-stocks-slide-as-rates-and-oil-swamp-jpmorgan-f345c668",
+      "url": "/stories/memory-stocks-slide-as-rates-and-oil-swamp-jpmorgan-f345c668.html",
+      "title": "Memory Stocks Slide as Rates and Oil Swamp JPMorgan's Overweight Call: SK Hynix Sinks 5%, Western Digital Drops 3%, Micron Slips - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-09-10",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "old-macbook-uses-a-mirror-webcam-and-ai-agent-to-cod-6d22ab39",
       "url": "/stories/old-macbook-uses-a-mirror-webcam-and-ai-agent-to-cod-6d22ab39.html",
       "title": "Old MacBook uses a mirror, webcam, and AI agent to code its own AMD GPU drivers — 'agent-first' Omarchy Linux debugs itself, AI can check its own progress on screen in real-time",
@@ -297,6 +352,17 @@
       "score": 7,
       "pick": false,
       "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "hanwha-s-global-hbm-chip-etf-returns-950-since-listi-5b8a2005",
+      "url": "/stories/hanwha-s-global-hbm-chip-etf-returns-950-since-listi-5b8a2005.html",
+      "title": "Hanwha's Global HBM Chip ETF Returns 950% Since Listing - Seoul Economic Daily",
+      "tag": "demand",
+      "date": "2026-09-10",
+      "score": 7,
+      "pick": false,
+      "source": "Seoul Economic Daily",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
