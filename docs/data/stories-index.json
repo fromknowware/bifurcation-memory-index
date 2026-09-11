@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-09-11T04:37:34.536Z",
-  "count": 737,
+  "generatedAt": "2026-09-11T11:18:12.999Z",
+  "count": 747,
   "stories": [
+    {
+      "slug": "hands-on-sharge-s-disk-pro-2-ultra-is-a-compact-magn-dfe939b1",
+      "url": "/stories/hands-on-sharge-s-disk-pro-2-ultra-is-a-compact-magn-dfe939b1.html",
+      "title": "Hands On: Sharge's Disk Pro 2 Ultra is a compact, magnetic DIY SSD dock with active cooling, 80W passthrough charging, and HDMI 2.1 that supports up to 8TB drives",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "snag-a-huge-1-000-saving-on-this-rtx-5090-oled-gamin-82e7289f",
+      "url": "/stories/snag-a-huge-1-000-saving-on-this-rtx-5090-oled-gamin-82e7289f.html",
+      "title": "Snag a huge $1,000 saving on this RTX 5090 OLED gaming laptop from HP, now $3,699 — 16-inch HyperX rig delivers 1600p gaming with ultra-fast 240Hz refresh rate, coupled with 32GB DDR5 RAM and a 2TB SSD",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-arc-gpu-graphics-drivers-101-8993-beta-release-fbc15975",
+      "url": "/stories/intel-arc-gpu-graphics-drivers-101-8993-beta-release-fbc15975.html",
+      "title": "Intel Arc GPU Graphics Drivers 101.8993 Beta Released",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-reportedly-passes-technical-hurdles-for-manu-088ab74d",
+      "url": "/stories/samsung-reportedly-passes-technical-hurdles-for-manu-088ab74d.html",
+      "title": "Samsung Reportedly Passes Technical Hurdles For Manufacturing Qualcomm’s 2nm Chips, But Company Hits A New And Different Snag; Price Agreements",
+      "tag": "fab",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "cxmt-s-q2-ebit-margin-hits-82-surpassing-global-memo-95cd94e7",
+      "url": "/stories/cxmt-s-q2-ebit-margin-hits-82-surpassing-global-memo-95cd94e7.html",
+      "title": "CXMT’s Q2 EBIT margin hits 82%, surpassing global memory chip giants: report - Global Times",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "Global Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "exceleram-warns-ram-shortage-is-still-escalating-kit-b6d5f243",
+      "url": "/stories/exceleram-warns-ram-shortage-is-still-escalating-kit-b6d5f243.html",
+      "title": "Exceleram warns RAM shortage is still escalating - KitGuru",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "KitGuru",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "exceleram-warns-ram-shortage-is-still-escalating-10cd6231",
+      "url": "/stories/exceleram-warns-ram-shortage-is-still-escalating-10cd6231.html",
+      "title": "Exceleram warns RAM shortage is still escalating",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "KitGuru",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kepler-secures-intel-capital-and-amd-ventures-backin-419b34fd",
+      "url": "/stories/kepler-secures-intel-capital-and-amd-ventures-backin-419b34fd.html",
+      "title": "Kepler Secures Intel Capital and AMD Ventures Backing as New AI Memory Chip Route Emerges; Micron Stock Weakens - tradingkey.com",
+      "tag": "demand",
+      "date": "2026-09-11",
+      "score": 7,
+      "pick": false,
+      "source": "tradingkey.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-samsung-shares-dip-in-korea-after-deepseek-aad663ef",
+      "url": "/stories/sk-hynix-samsung-shares-dip-in-korea-after-deepseek-aad663ef.html",
+      "title": "SK Hynix, Samsung Shares Dip In Korea After DeepSeek Debuts AI Tech That Uses Less Memory – Micron, SanDisk Hold Up - TradingView",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kepler-computing-unveils-euv-free-ferroelectric-ai-m-124498a8",
+      "url": "/stories/kepler-computing-unveils-euv-free-ferroelectric-ai-m-124498a8.html",
+      "title": "Kepler Computing Unveils EUV-Free Ferroelectric AI Memory, Targeting 10x HBM Capacity via 28nm Fab Retrofits - XenoSpectrum",
+      "tag": "fab",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "XenoSpectrum",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "china-s-ai-chip-push-runs-into-a-costly-problem-memo-b0648289",
       "url": "/stories/china-s-ai-chip-push-runs-into-a-costly-problem-memo-b0648289.html",
