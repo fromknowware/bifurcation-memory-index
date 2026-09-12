@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-09-11T20:56:39.070Z",
-  "count": 756,
+  "generatedAt": "2026-09-12T04:31:56.483Z",
+  "count": 763,
   "stories": [
+    {
+      "slug": "ddr5-16gb-2gx8-4800-5600-price-on-oct-23-week-43-coi-0a797f57",
+      "url": "/stories/ddr5-16gb-2gx8-4800-5600-price-on-oct-23-week-43-coi-0a797f57.html",
+      "title": "DDR5 16Gb (2Gx8) 4800/5600 · price on Oct 23 (Week 43) - Coinbase",
+      "tag": "supply",
+      "date": "2026-09-12",
+      "score": 8,
+      "pick": false,
+      "source": "Coinbase",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "reducing-hbm-ecc-controller-overhead-for-ai-inferenc-6036efd4",
+      "url": "/stories/reducing-hbm-ecc-controller-overhead-for-ai-inferenc-6036efd4.html",
+      "title": "Reducing HBM ECC Controller Overhead For AI Inference (RPI, IBM) - Semiconductor Engineering",
+      "tag": "demand",
+      "date": "2026-09-11",
+      "score": 7,
+      "pick": false,
+      "source": "Semiconductor Engineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "reducing-hbm-ecc-controller-overhead-for-ai-inferenc-8b839279",
+      "url": "/stories/reducing-hbm-ecc-controller-overhead-for-ai-inferenc-8b839279.html",
+      "title": "Reducing HBM ECC Controller Overhead For AI Inference (RPI, IBM)",
+      "tag": "demand",
+      "date": "2026-09-11",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "molybdenum-quasi-phase-only-masks-improve-euv-imagin-2fc01cec",
+      "url": "/stories/molybdenum-quasi-phase-only-masks-improve-euv-imagin-2fc01cec.html",
+      "title": "Molybdenum Quasi Phase-Only Masks Improve EUV Imaging (NYCU, TSMC)",
+      "tag": "fab",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "fabships-aim-to-exploit-free-space-vacuum-for-compou-5d0c73e1",
+      "url": "/stories/fabships-aim-to-exploit-free-space-vacuum-for-compou-5d0c73e1.html",
+      "title": "Fabships Aim to Exploit ‘Free’ Space Vacuum for Compound Semiconductor Substrates",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "report-tsmc-to-double-cowos-capacity-by-2028-as-ai-c-8ff4c50e",
       "url": "/stories/report-tsmc-to-double-cowos-capacity-by-2028-as-ai-c-8ff4c50e.html",
@@ -25,6 +80,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "china-s-ai-chipmakers-reportedly-raise-prices-as-hbm-a2e37b83",
+      "url": "/stories/china-s-ai-chipmakers-reportedly-raise-prices-as-hbm-a2e37b83.html",
+      "title": "China’s AI Chipmakers Reportedly Raise Prices as HBM Shortage Drives Up Costs - tekedia.com",
+      "tag": "demand",
+      "date": "2026-09-11",
+      "score": 7,
+      "pick": false,
+      "source": "tekedia.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "china-modified-nvidia-rtx-5090-with-massive-96gb-of-9f204dce",
       "url": "/stories/china-modified-nvidia-rtx-5090-with-massive-96gb-of-9f204dce.html",
       "title": "China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65% the cost of the original",
@@ -44,6 +110,17 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "defiance-bets-on-china-s-memory-chip-surge-with-new-337b04a1",
+      "url": "/stories/defiance-bets-on-china-s-memory-chip-surge-with-new-337b04a1.html",
+      "title": "Defiance Bets on China’s Memory Chip Surge With New CRAM ETF - Defiance China Memory ETF (NASDAQ:CRAM) - benzinga.com",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "benzinga.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
