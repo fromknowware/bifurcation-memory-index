@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-12T10:43:24.566Z</updated>
+  <updated>2026-09-12T15:30:14.829Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/ssds/kioxia-exceria-pro-g2-2tb-ssd-review</id>
+    <title type="html">Kioxia Exceria Pro G2 2TB SSD Review — Speed built to last</title>
+    <link href="https://www.tomshardware.com/pc-components/ssds/kioxia-exceria-pro-g2-2tb-ssd-review" />
+    <link rel="related" href="/stories/kioxia-exceria-pro-g2-2tb-ssd-review-speed-built-to-3ce4c2d1.html" />
+    <updated>2026-09-12T11:05:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/cpus/apples-a20-pro-shatters-geekbench-7-single-core-record-2nm-chip-beats-desktop-intel-core-i9-and-amd-ryzen-9-by-up-to-32-percent</id>
+    <title type="html">Apple's A20 Pro shatters Geekbench 7 single-core record — 2nm chip beats desktop Intel Core i9 and AMD Ryzen 9 by up to 32%</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/apples-a20-pro-shatters-geekbench-7-single-core-record-2nm-chip-beats-desktop-intel-core-i9-and-amd-ryzen-9-by-up-to-32-percent" />
+    <link rel="related" href="/stories/apple-s-a20-pro-shatters-geekbench-7-single-core-rec-5e1e38f9.html" />
+    <updated>2026-09-12T10:48:32.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://wccftech.com/9800x3d-cpu-bundle-newegg-ddr5-ram-x870e-motherboard-free-aio-capcom-game-discount/</id>
     <title type="html">This 9800X3D CPU Bundle On Newegg Gets You A 32GB DDR5 RAM Kit, X870E Motherboard, Free AIO, And Capcom’s AAA Game For $300 Worth Of Savings</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;The latest bundle is one of those golden opportunities where you can evade the DRAM crisis and grab yourself an excellent gaming PC bundle while also getting spoiled by a couple of freebies. On Newegg, the Ryzen 7 9800X3D combo is paired with an ASUS TUF GAMING X870E-PLUS WIFI7 and 32GB of DDR5 RAM running at 6,000MHz, all for $1,109.99, bringing decent savings of $148.99. Fortunately, there’s eve&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The latest bundle is one of those golden opportunities where you can evade the DRAM crisis and grab yourself an excellent gaming PC bundle while also getting spoiled by a couple of freebies. On Newegg, the Ryzen 7 9800X3D combo is paired with an ASUS TUF GAMING X870E-PLUS WIFI7 and 32GB of DDR5 RAM running at 6,000MHz, all for $1,109.99, bringing decent savings of $148.99. Fortunately, there’s eve&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMipAFBVV95cUxPa3dXTUFXcGtGTHBkbGxIbE1YUmZ6MmNzUVlzdmhobWNlMW9XME1qLThnd3p4MlpuSTZlMllOaU1DZUFZSWlKMmF4NlRycENGWS03QUFqOEoxZHNZWWFvbDRqYXN5X1RQaEFmTVp5d2JJbHdYT3I0UkY2N29TSEhWWG1sbDRYR083M1Z5UFVRZEJyTTFrNEtCU2F1SGdTSFlnZEJnR9IBqgFBVV95cUxNNkdoZlpDcU1aci0wc2otclFqZnpjcXk4RWh4UEFsTGpKckRTQjB2TC1LaE14R185UXY2SWlmSUhuZzF1b0tNcjRhcWhDeXFpVGFielJlNHZ1Q19makRvM2VERFZKdFhLM1BfYUpUM3RuMDlMZkdHMmM1X3VZdVI5ck1XTmJReEk2elNpdEVCc2Q4Y0o2UzJzQVdDWEMyaUJ3MTJwMFdfNExKZw?oc=5</id>
@@ -34,7 +60,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;iPhone 18 Pro AI: What Apple's A20 Pro chip can actually do | Tap to know more | Inshorts Inshorts&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;iPhone 18 Pro AI: What Apple's A20 Pro chip can actually do | Tap to know more | Inshorts Inshorts&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/msi-z790-motherboard-ebay-for-parts-hidden-2tb-gen4-ssd-boots-windows/</id>
@@ -47,7 +73,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;A customer who considered himself unlucky when it came to PC hardware purchases is not just enjoying a working MSI PRO Z790-P WIFI from eBay that was only listed for its parts because it was seemingly not working, but there was also a 2TB PCIe NVMe Gen 4 SSD hiding in one of the populated M.2 slots. Best of all, the motherboard successfully booted into Windows. The customer not only got a high-end&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;A customer who considered himself unlucky when it came to PC hardware purchases is not just enjoying a working MSI PRO Z790-P WIFI from eBay that was only listed for its parts because it was seemingly not working, but there was also a 2TB PCIe NVMe Gen 4 SSD hiding in one of the populated M.2 slots. Best of all, the motherboard successfully booted into Windows. The customer not only got a high-end&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMic0FVX3lxTE1POEFHSzhMMFB1eFJsX0lTeEZLTF9CandhUUxlT0xrV1BseUtWNUJZOEtfNnJ0T3NleThMNGNwX2VGaDdrSTNGZDhEZ2JCOFQyWnhZbDJ2cm1lTi1xekxkVGQzdVk2ek9aNExTQlk0UWhENk0?oc=5</id>
@@ -125,7 +151,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;DeepSeek's Leaner AI Model Slams Korean Chip Stocks as Memory Demand Fears Resurface finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;DeepSeek's Leaner AI Model Slams Korean Chip Stocks as Memory Demand Fears Resurface finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/report-tsmc-to-double-cowos-capacity-by-2028-as-ai-chip-shortage-spills-over-to-rivals/</id>
@@ -152,6 +178,19 @@
     <category term="tag:demand" />
     
     <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTFBnZExoZ2ZaRlotR1E4cVc1RGdoV2VIakdtYkFrUHZCMnd3ZF9VRXNHSXBIbGwyRW5HZE8zSkhlTjh1UTlxbHNJbHhTTl9sb09NN2hGeUtSbUlsQzdnNGt4c3FvTjJhUC1zTWFYVXUxMWxZRFRmTmc?oc=5</id>
+    <title type="html">Positron AI Lands $875 Million to Challenge Nvidia With Commodity Memory Chips - finance.biggo.com</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBnZExoZ2ZaRlotR1E4cVc1RGdoV2VIakdtYkFrUHZCMnd3ZF9VRXNHSXBIbGwyRW5HZE8zSkhlTjh1UTlxbHNJbHhTTl9sb09NN2hGeUtSbUlsQzdnNGt4c3FvTjJhUC1zTWFYVXUxMWxZRFRmTmc?oc=5" />
+    <link rel="related" href="/stories/positron-ai-lands-875-million-to-challenge-nvidia-wi-51d7861a.html" />
+    <updated>2026-09-11T18:22:00.000Z</updated>
+    <author><name>finance.biggo.com</name></author>
+    <summary type="html">Positron AI Lands $875 Million to Challenge Nvidia With Commodity Memory Chips finance.biggo.com RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Positron AI Lands $875 Million to Challenge Nvidia With Commodity Memory Chips finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiowFBVV95cUxNOW5EZnYzX2syclFSdEVzSlY1WjU0Zl9Jd0JUbDZOUnA3eGgyNjdDbnZQclMxbjQtRWhLbVY3ZVFOOF9BeHBaOUN2VDk4VG4yOF9fblV3bDVMX1lSc3VCZ0luUmNLOGQzbGxfYTUxUElZZEVOSm5QbEdRNUFHVmpHXzRNWF96RkZMWUdnaUROZ3YxeVdPVUd2czIzTWdKRFlhNk1F?oc=5</id>

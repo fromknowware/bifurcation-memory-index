@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-12T10:43:26.292Z",
-  "count": 767,
+  "generatedAt": "2026-09-12T15:30:17.164Z",
+  "count": 770,
   "stories": [
+    {
+      "slug": "kioxia-exceria-pro-g2-2tb-ssd-review-speed-built-to-3ce4c2d1",
+      "url": "/stories/kioxia-exceria-pro-g2-2tb-ssd-review-speed-built-to-3ce4c2d1.html",
+      "title": "Kioxia Exceria Pro G2 2TB SSD Review — Speed built to last",
+      "tag": "supply",
+      "date": "2026-09-12",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-s-a20-pro-shatters-geekbench-7-single-core-rec-5e1e38f9",
+      "url": "/stories/apple-s-a20-pro-shatters-geekbench-7-single-core-rec-5e1e38f9.html",
+      "title": "Apple's A20 Pro shatters Geekbench 7 single-core record — 2nm chip beats desktop Intel Core i9 and AMD Ryzen 9 by up to 32%",
+      "tag": "fab",
+      "date": "2026-09-12",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "this-9800x3d-cpu-bundle-on-newegg-gets-you-a-32gb-dd-e3041702",
       "url": "/stories/this-9800x3d-cpu-bundle-on-newegg-gets-you-a-32gb-dd-e3041702.html",
@@ -121,6 +143,17 @@
       "score": 7,
       "pick": false,
       "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "positron-ai-lands-875-million-to-challenge-nvidia-wi-51d7861a",
+      "url": "/stories/positron-ai-lands-875-million-to-challenge-nvidia-wi-51d7861a.html",
+      "title": "Positron AI Lands $875 Million to Challenge Nvidia With Commodity Memory Chips - finance.biggo.com",
+      "tag": "demand",
+      "date": "2026-09-11",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
