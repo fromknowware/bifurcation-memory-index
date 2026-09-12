@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-12T04:31:56.483Z",
-  "count": 763,
+  "generatedAt": "2026-09-12T10:43:26.292Z",
+  "count": 767,
   "stories": [
+    {
+      "slug": "this-9800x3d-cpu-bundle-on-newegg-gets-you-a-32gb-dd-e3041702",
+      "url": "/stories/this-9800x3d-cpu-bundle-on-newegg-gets-you-a-32gb-dd-e3041702.html",
+      "title": "This 9800X3D CPU Bundle On Newegg Gets You A 32GB DDR5 RAM Kit, X870E Motherboard, Free AIO, And Capcom’s AAA Game For $300 Worth Of Savings",
+      "tag": "supply",
+      "date": "2026-09-12",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "iphone-18-pro-ai-what-apple-s-a20-pro-chip-can-actua-f2111fa8",
+      "url": "/stories/iphone-18-pro-ai-what-apple-s-a20-pro-chip-can-actua-f2111fa8.html",
+      "title": "iPhone 18 Pro AI: What Apple's A20 Pro chip can actually do | Tap to know more | Inshorts - Inshorts",
+      "tag": "supply",
+      "date": "2026-09-12",
+      "score": 8,
+      "pick": false,
+      "source": "Inshorts",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "an-msi-z790-motherboard-listed-on-ebay-as-for-parts-f99825db",
+      "url": "/stories/an-msi-z790-motherboard-listed-on-ebay-as-for-parts-f99825db.html",
+      "title": "An MSI Z790 Motherboard Listed On eBay As “For Parts/Not Working” Became A Lucky Find As Customer Found A 2TB NVMe Gen 4 SSD That Also Booted Into Windows",
+      "tag": "supply",
+      "date": "2026-09-12",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "ddr5-16gb-2gx8-4800-5600-price-on-oct-23-week-43-coi-0a797f57",
       "url": "/stories/ddr5-16gb-2gx8-4800-5600-price-on-oct-23-week-43-coi-0a797f57.html",
@@ -55,6 +88,17 @@
       "score": 8,
       "pick": false,
       "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "deepseek-s-leaner-ai-model-slams-korean-chip-stocks-ab4b7b83",
+      "url": "/stories/deepseek-s-leaner-ai-model-slams-korean-chip-stocks-ab4b7b83.html",
+      "title": "DeepSeek's Leaner AI Model Slams Korean Chip Stocks as Memory Demand Fears Resurface - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-11",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
