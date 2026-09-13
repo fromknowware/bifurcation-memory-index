@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-12T20:31:58.486Z",
-  "count": 770,
+  "generatedAt": "2026-09-13T04:44:41.031Z",
+  "count": 771,
   "stories": [
+    {
+      "slug": "build-a-high-end-amd-gaming-pc-for-less-ryzen-7-9800-52d91116",
+      "url": "/stories/build-a-high-end-amd-gaming-pc-for-less-ryzen-7-9800-52d91116.html",
+      "title": "Build a high-end AMD gaming PC for less — Ryzen 7 9800X3D bundle includes an X870E motherboard, 32GB DDR5, AIO cooler and a game for $1,109.99",
+      "tag": "supply",
+      "date": "2026-09-13",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "kioxia-exceria-pro-g2-2tb-ssd-review-speed-built-to-3ce4c2d1",
       "url": "/stories/kioxia-exceria-pro-g2-2tb-ssd-review-speed-built-to-3ce4c2d1.html",
