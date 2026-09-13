@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-13T11:49:03.827Z",
-  "count": 771,
+  "generatedAt": "2026-09-13T16:14:56.752Z",
+  "count": 773,
   "stories": [
+    {
+      "slug": "lexar-showcases-world-s-thinnest-portable-ssd-at-ifa-c1053396",
+      "url": "/stories/lexar-showcases-world-s-thinnest-portable-ssd-at-ifa-c1053396.html",
+      "title": "Lexar Showcases World’s Thinnest Portable SSD At IFA 2026, Measuring Just 3.8mm Thick And 1mm At The Edge",
+      "tag": "supply",
+      "date": "2026-09-13",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hp-launches-omnidesk-mini-pc-powered-by-up-to-intel-fe0d226f",
+      "url": "/stories/hp-launches-omnidesk-mini-pc-powered-by-up-to-intel-fe0d226f.html",
+      "title": "HP Launches OmniDesk Mini PC, Powered By Up To Intel Core 5 320 And 16 GB LPDDR5X RAM, Starting At $799",
+      "tag": "supply",
+      "date": "2026-09-13",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "build-a-high-end-amd-gaming-pc-for-less-ryzen-7-9800-52d91116",
       "url": "/stories/build-a-high-end-amd-gaming-pc-for-less-ryzen-7-9800-52d91116.html",
