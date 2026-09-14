@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-09-14T04:53:00.548Z",
-  "count": 778,
+  "generatedAt": "2026-09-14T12:42:38.275Z",
+  "count": 788,
   "stories": [
+    {
+      "slug": "chinese-chip-firm-empyrean-says-it-slashed-circuit-d-d6a25ac2",
+      "url": "/stories/chinese-chip-firm-empyrean-says-it-slashed-circuit-d-d6a25ac2.html",
+      "title": "Chinese Chip Firm Empyrean Says It Slashed Circuit Design Time By 75% Using Agentic AI Amidst Race To Agentic AI Semiconductor Design",
+      "tag": "macro",
+      "date": "2026-09-14",
+      "score": 6,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "micron-offers-taiwan-employees-31-650-cash-bonus-as-4bcff4dd",
+      "url": "/stories/micron-offers-taiwan-employees-31-650-cash-bonus-as-4bcff4dd.html",
+      "title": "Micron offers Taiwan employees $31,650 cash bonus as unions threaten strike over AI windfall — workers reject record payout package, demand 15% profit-sharing plan",
+      "tag": "supply",
+      "date": "2026-09-14",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-global-semiconductor-revenue-surges-31-to-record-ddc67251",
+      "url": "/stories/pr-global-semiconductor-revenue-surges-31-to-record-ddc67251.html",
+      "title": "(PR) Global Semiconductor Revenue Surges 31% to Record $425bn in 2Q26",
+      "tag": "earnings",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "save-1-289-when-you-build-an-extreme-pc-with-these-t-24d3b2f6",
+      "url": "/stories/save-1-289-when-you-build-an-extreme-pc-with-these-t-24d3b2f6.html",
+      "title": "Save $1,289 when you build an extreme PC with these top-tier components — combo deal features AMD's Ryzen 9 9950X3D2 processor along with an 8TB 9100 Pro SSD, MSI X870E motherboard, and 32GB of DDR5-6000 memory",
+      "tag": "supply",
+      "date": "2026-09-14",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "maryland-data-center-developers-offer-residents-bigg-d8745209",
+      "url": "/stories/maryland-data-center-developers-offer-residents-bigg-d8745209.html",
+      "title": "Maryland data center developers offer residents biggest-ever US community benefits package as big tech seeks to quell fears — $110 million deal includes $30 million elementary school, water reclamation system, and more",
+      "tag": "demand",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-intros-rtx-pro-5500-blackwell-graphics-card-f-9ce11255",
+      "url": "/stories/nvidia-intros-rtx-pro-5500-blackwell-graphics-card-f-9ce11255.html",
+      "title": "NVIDIA Intros RTX PRO 5500 Blackwell Graphics Card, Features Same Core Count As The 5090 But With 2.6x The VRAM",
+      "tag": "demand",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-unveils-rtx-pro-5500-blackwell-workstation-gp-fd84b613",
+      "url": "/stories/nvidia-unveils-rtx-pro-5500-blackwell-workstation-gp-fd84b613.html",
+      "title": "NVIDIA Unveils RTX PRO 5500 \"Blackwell\" Workstation GPU with 84 GB GDDR7 Memory",
+      "tag": "demand",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "prediction-micron-s-sept-30-earnings-will-confirm-th-7963e9c3",
+      "url": "/stories/prediction-micron-s-sept-30-earnings-will-confirm-th-7963e9c3.html",
+      "title": "Prediction: Micron's Sept. 30 Earnings Will Confirm the Memory Shortage Isn't Over - The Globe and Mail",
+      "tag": "earnings",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "The Globe and Mail",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "goldman-sachs-research-decoded-micron-s-quarterly-re-9d04e221",
+      "url": "/stories/goldman-sachs-research-decoded-micron-s-quarterly-re-9d04e221.html",
+      "title": "Goldman Sachs Research Decoded: Micron's Quarterly Revenue Seen at $51.9 Billion, Capital Returns Take Focus - techflowpost.com",
+      "tag": "earnings",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "techflowpost.com",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "china-narrows-hbm-gap-with-korea-technology-lead-dow-3a613638",
+      "url": "/stories/china-narrows-hbm-gap-with-korea-technology-lead-dow-3a613638.html",
+      "title": "China narrows HBM gap with Korea, technology lead down to 3 years - koreajoongangdaily.com",
+      "tag": "demand",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "koreajoongangdaily.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "as-memory-semiconductor-prices-continue-to-rise-from-a20984d8",
       "url": "/stories/as-memory-semiconductor-prices-continue-to-rise-from-a20984d8.html",
