@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-09-14T12:42:38.275Z",
-  "count": 788,
+  "generatedAt": "2026-09-14T21:48:11.264Z",
+  "count": 799,
   "stories": [
+    {
+      "slug": "samsung-edges-sk-hynix-as-hbm4-lifts-korea-chip-earn-97edf1ba",
+      "url": "/stories/samsung-edges-sk-hynix-as-hbm4-lifts-korea-chip-earn-97edf1ba.html",
+      "title": "Samsung edges SK hynix as HBM4 lifts Korea chip earnings outlook - CHOSUNBIZ - Chosunbiz",
+      "tag": "earnings",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "airjoule-acquires-bitsink-to-expand-into-ai-and-hpc-c590f070",
+      "url": "/stories/airjoule-acquires-bitsink-to-expand-into-ai-and-hpc-c590f070.html",
+      "title": "AirJoule Acquires BitSink to Expand into AI and HPC Data Center Infrastructure",
+      "tag": "demand",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "anthropic-says-ai-can-boost-u-s-gdp-by-32-up-to-44-4-05278595",
+      "url": "/stories/anthropic-says-ai-can-boost-u-s-gdp-by-32-up-to-44-4-05278595.html",
+      "title": "Anthropic says AI can boost U.S. GDP by 32%, up to $44.4 trillion in four years — economics model predicts that displaced employees 'may have to switch to jobs like electrician and nurse'",
+      "tag": "macro",
+      "date": "2026-09-14",
+      "score": 6,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "nvidia-s-rtx-5090-vanishes-from-online-retail-in-the-54436295",
+      "url": "/stories/nvidia-s-rtx-5090-vanishes-from-online-retail-in-the-54436295.html",
+      "title": "Nvidia's RTX 5090 vanishes from online retail in the US — third-party sellers now demand as much as $9,500 for Nvidia's fastest GPU",
+      "tag": "demand",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "datacenter-developers-want-your-backyard-fas-says-ne-59a19a85",
+      "url": "/stories/datacenter-developers-want-your-backyard-fas-says-ne-59a19a85.html",
+      "title": "Datacenter developers want your backyard. FAS says negotiate harder",
+      "tag": "supply",
+      "date": "2026-09-14",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-transcend-launches-64-gb-ddr5-6400-cudimm-and-cso-d0494341",
+      "url": "/stories/pr-transcend-launches-64-gb-ddr5-6400-cudimm-and-cso-d0494341.html",
+      "title": "(PR) Transcend Launches 64 GB DDR5-6400 CUDIMM and CSODIMM Embedded DRAM Modules",
+      "tag": "supply",
+      "date": "2026-09-14",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "biwin-launches-dw100-24-gb-x2-ddr5-6000-memory-kit-w-51779274",
+      "url": "/stories/biwin-launches-dw100-24-gb-x2-ddr5-6000-memory-kit-w-51779274.html",
+      "title": "BIWIN Launches DW100 24 GB x2 DDR5-6000 Memory Kit With AMD EXPO ULL; Claims Up To 18% Higher Minimum FPS And 10% Better 1% Lows",
+      "tag": "supply",
+      "date": "2026-09-14",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "report-tsmc-s-2-nanometer-push-outpaces-3-nanometer-681aeecf",
+      "url": "/stories/report-tsmc-s-2-nanometer-push-outpaces-3-nanometer-681aeecf.html",
+      "title": "Report: TSMC’s 2-Nanometer Push Outpaces 3-Nanometer Growth, With Capacity Aimed At 110,000 Wafers Per Month By H2 2027",
+      "tag": "fab",
+      "date": "2026-09-14",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "solo-dev-enables-running-cuda-on-amd-hardware-in-win-712c366a",
+      "url": "/stories/solo-dev-enables-running-cuda-on-amd-hardware-in-win-712c366a.html",
+      "title": "Solo dev enables running CUDA on AMD hardware in Windows, getting multiple CUDA libraries running on a gaming Radeon RX 9060 XT GPU in Windows —  CUDA-exclusive workloads on AMD hardware in Windows possible without virtualization or dual-booting",
+      "tag": "supply",
+      "date": "2026-09-14",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-stocks-lead-ai-selloff-as-anthropic-and-opena-9a469692",
+      "url": "/stories/memory-stocks-lead-ai-selloff-as-anthropic-and-opena-9a469692.html",
+      "title": "Memory Stocks Lead AI Selloff as Anthropic and OpenAI Chiefs Urge Slower Development: Micron and SanDisk Sink 6%, SK Hynix Drops 7% - 24/7 Wall St.",
+      "tag": "demand",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "chinese-chip-firm-empyrean-says-it-slashed-circuit-d-d6a25ac2",
       "url": "/stories/chinese-chip-firm-empyrean-says-it-slashed-circuit-d-d6a25ac2.html",
@@ -100,6 +210,17 @@
       "pick": false,
       "source": "techflowpost.com",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "advanced-packaging-changes-the-rules-for-semiconduct-f1f70a3c",
+      "url": "/stories/advanced-packaging-changes-the-rules-for-semiconduct-f1f70a3c.html",
+      "title": "Advanced Packaging Changes The Rules For Semiconductor Health And Performance Management",
+      "tag": "supply",
+      "date": "2026-09-14",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "china-narrows-hbm-gap-with-korea-technology-lead-dow-3a613638",
