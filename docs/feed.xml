@@ -5,11 +5,50 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-13T20:47:46.521Z</updated>
+  <updated>2026-09-14T04:52:58.710Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zenByYzRpTTZXclotYXozMy1FNkFLYXZheExCY0JYNE1YNlRSS1FpeVJzQ09vaXRrSzJNR1JLYkhhdlYwQzY1UGJBRk0tNHM?oc=5</id>
+    <title type="html">As memory semiconductor prices continue to rise from higher-than-expected levels, optimism continues.. - 매일경제</title>
+    <link href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zenByYzRpTTZXclotYXozMy1FNkFLYXZheExCY0JYNE1YNlRSS1FpeVJzQ09vaXRrSzJNR1JLYkhhdlYwQzY1UGJBRk0tNHM?oc=5" />
+    <link rel="related" href="/stories/as-memory-semiconductor-prices-continue-to-rise-from-a20984d8.html" />
+    <updated>2026-09-14T01:44:23.000Z</updated>
+    <author><name>매일경제</name></author>
+    <summary type="html">As memory semiconductor prices continue to rise from higher-than-expected levels, optimism continues.. 매일경제 RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;As memory semiconductor prices continue to rise from higher-than-expected levels, optimism continues.. 매일경제&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTFJVX3h6OGtCc2VKaHMwWXB0ZHZsQUFvSUJFWUVqQTRXSUpWRFdDU3g4aDdCRWlBTWNOQ25sOUtnMUlIZDVpNU93enB5T0R3YUxwRWI5QTIyWE1helZtcU1fMmZtWWFQY0p0cFNRYzBVZUhr?oc=5</id>
+    <title type="html">HBM4 Shortage: DRAM Inventory Falls Below 10 Days - tech-insider.org</title>
+    <link href="https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTFJVX3h6OGtCc2VKaHMwWXB0ZHZsQUFvSUJFWUVqQTRXSUpWRFdDU3g4aDdCRWlBTWNOQ25sOUtnMUlIZDVpNU93enB5T0R3YUxwRWI5QTIyWE1helZtcU1fMmZtWWFQY0p0cFNRYzBVZUhr?oc=5" />
+    <link rel="related" href="/stories/hbm4-shortage-dram-inventory-falls-below-10-days-tec-76998d33.html" />
+    <updated>2026-09-14T01:34:13.000Z</updated>
+    <author><name>tech-insider.org</name></author>
+    <summary type="html">HBM4 Shortage: DRAM Inventory Falls Below 10 Days tech-insider.org RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;HBM4 Shortage: DRAM Inventory Falls Below 10 Days tech-insider.org&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/352663/ai-firms-are-reportedly-buying-nvidia-rtx-5090-gpus-in-bulk-for-server-use</id>
+    <title type="html">AI Firms Are Reportedly Buying NVIDIA RTX 5090 GPUs in Bulk for Server Use</title>
+    <link href="https://www.techpowerup.com/352663/ai-firms-are-reportedly-buying-nvidia-rtx-5090-gpus-in-bulk-for-server-use" />
+    <link rel="related" href="/stories/ai-firms-are-reportedly-buying-nvidia-rtx-5090-gpus-11890ee7.html" />
+    <updated>2026-09-14T00:12:40.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">New photos shared by HKEPC show pallets of brand-new, boxed GeForce RTX 5090 cards being unpacked at AI server assembly sites. Notably, these firms are not using the RTX PRO 6000 or dedicated data center accelerators NVIDIA actually markets for that work. The cards in question are standard retail RTX 5090s, the same cards gamers have struggled to find at anywhere close to MSRP , being pulled strai RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;New photos shared by HKEPC show pallets of brand-new, boxed GeForce RTX 5090 cards being unpacked at AI server assembly sites. Notably, these firms are not using the RTX PRO 6000 or dedicated data center accelerators NVIDIA actually markets for that work. The cards in question are standard retail RTX 5090s, the same cards gamers have struggled to find at anywhere close to MSRP , being pulled strai&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMickFVX3lxTFBCM1pWY1BYcWM2VnhoTjc4bVVCUHAyUXlDQzBESVBlOEZTMXNIOFBhYnlkbnpXVUNyV1FfcG1ZMG5aQzk2eF9FQ3I1UGlhOEFlZHFXbDNBUlNlOWx1Q3NhczRBLTVTUjZ1eEh5bDlMWTg3UQ?oc=5</id>
     <title type="html">AMD Extends AM4 Lifeline as DDR5 Prices Hit 486% [2026] - tech-insider.org</title>
@@ -21,7 +60,20 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;AMD Extends AM4 Lifeline as DDR5 Prices Hit 486% [2026] tech-insider.org&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;AMD Extends AM4 Lifeline as DDR5 Prices Hit 486% [2026] tech-insider.org&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMie0FVX3lxTE11cVZCRkI4ZS1yeDZVUFBhNWZLRWJTcFVEb2hRSjNDZnFhTU4xWWF6bEF6VDZ4OVg0aHVPMjRWSjhTdTdiOGxxTUZXVE83OFpPZWpWMmVjWXNuVktacXhZN1M1NTJydnlPWEQxbHBhc0V6V09WUmpUZ3YzZw?oc=5</id>
+    <title type="html">Long Live the Short King: Why 4-hi HBM Wins - SemiAnalysis</title>
+    <link href="https://news.google.com/rss/articles/CBMie0FVX3lxTE11cVZCRkI4ZS1yeDZVUFBhNWZLRWJTcFVEb2hRSjNDZnFhTU4xWWF6bEF6VDZ4OVg0aHVPMjRWSjhTdTdiOGxxTUZXVE83OFpPZWpWMmVjWXNuVktacXhZN1M1NTJydnlPWEQxbHBhc0V6V09WUmpUZ3YzZw?oc=5" />
+    <link rel="related" href="/stories/long-live-the-short-king-why-4-hi-hbm-wins-semianaly-a15140d8.html" />
+    <updated>2026-09-13T18:19:39.000Z</updated>
+    <author><name>SemiAnalysis</name></author>
+    <summary type="html">Long Live the Short King: Why 4-hi HBM Wins SemiAnalysis RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Long Live the Short King: Why 4-hi HBM Wins SemiAnalysis&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/lexar-showcases-worlds-thinnest-portable-ssd-at-ifa-2026/</id>

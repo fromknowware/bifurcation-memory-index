@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-13T20:47:48.397Z",
-  "count": 774,
+  "generatedAt": "2026-09-14T04:53:00.548Z",
+  "count": 778,
   "stories": [
+    {
+      "slug": "as-memory-semiconductor-prices-continue-to-rise-from-a20984d8",
+      "url": "/stories/as-memory-semiconductor-prices-continue-to-rise-from-a20984d8.html",
+      "title": "As memory semiconductor prices continue to rise from higher-than-expected levels, optimism continues.. - 매일경제",
+      "tag": "supply",
+      "date": "2026-09-14",
+      "score": 8,
+      "pick": false,
+      "source": "매일경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hbm4-shortage-dram-inventory-falls-below-10-days-tec-76998d33",
+      "url": "/stories/hbm4-shortage-dram-inventory-falls-below-10-days-tec-76998d33.html",
+      "title": "HBM4 Shortage: DRAM Inventory Falls Below 10 Days - tech-insider.org",
+      "tag": "supply",
+      "date": "2026-09-14",
+      "score": 8,
+      "pick": false,
+      "source": "tech-insider.org",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-firms-are-reportedly-buying-nvidia-rtx-5090-gpus-11890ee7",
+      "url": "/stories/ai-firms-are-reportedly-buying-nvidia-rtx-5090-gpus-11890ee7.html",
+      "title": "AI Firms Are Reportedly Buying NVIDIA RTX 5090 GPUs in Bulk for Server Use",
+      "tag": "demand",
+      "date": "2026-09-14",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "amd-extends-am4-lifeline-as-ddr5-prices-hit-486-2026-85403267",
       "url": "/stories/amd-extends-am4-lifeline-as-ddr5-prices-hit-486-2026-85403267.html",
@@ -12,6 +45,17 @@
       "pick": false,
       "source": "tech-insider.org",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "long-live-the-short-king-why-4-hi-hbm-wins-semianaly-a15140d8",
+      "url": "/stories/long-live-the-short-king-why-4-hi-hbm-wins-semianaly-a15140d8.html",
+      "title": "Long Live the Short King: Why 4-hi HBM Wins - SemiAnalysis",
+      "tag": "demand",
+      "date": "2026-09-13",
+      "score": 7,
+      "pick": false,
+      "source": "SemiAnalysis",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "lexar-showcases-world-s-thinnest-portable-ssd-at-ifa-c1053396",
