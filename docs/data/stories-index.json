@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-09-15T11:41:53.851Z",
-  "count": 808,
+  "generatedAt": "2026-09-15T16:57:29.249Z",
+  "count": 817,
   "stories": [
+    {
+      "slug": "china-s-ymtc-is-just-1-year-behind-the-west-on-nand-3baf4004",
+      "url": "/stories/china-s-ymtc-is-just-1-year-behind-the-west-on-nand-3baf4004.html",
+      "title": "China’s YMTC Is Just 1 Year Behind The West On NAND, While CXMT Trails By Just 2 Years On DRAM And 3 Years On HBM, According To Korea Semiconductor Industry Association",
+      "tag": "fab",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "asus-ludicrous-20th-anniversary-bundle-is-now-the-ch-5113ccba",
+      "url": "/stories/asus-ludicrous-20th-anniversary-bundle-is-now-the-ch-5113ccba.html",
+      "title": "Asus' ludicrous 20th anniversary bundle is now the cheapest way to buy an RTX 5090 — Nvidia's flagship GPU stock is so limited that this $10,850 bundle with a 3000W PSU, X870E board, and open-frame case is actually cheaper than some scalper listings",
+      "tag": "demand",
+      "date": "2026-09-15",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "what-stops-the-ai-memory-boom-it-might-have-nothing-bf7f6e30",
+      "url": "/stories/what-stops-the-ai-memory-boom-it-might-have-nothing-bf7f6e30.html",
+      "title": "What Stops the AI Memory Boom? It Might Have Nothing to Do With Chips. - 24/7 Wall St.",
+      "tag": "demand",
+      "date": "2026-09-15",
+      "score": 7,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "beyond-onions-mobile-tariffs-memory-chip-input-costs-ce043021",
+      "url": "/stories/beyond-onions-mobile-tariffs-memory-chip-input-costs-ce043021.html",
+      "title": "Beyond Onions: Mobile Tariffs, Memory Chip Input Costs Push Up Inflation, HDFC Says - News18",
+      "tag": "macro",
+      "date": "2026-09-15",
+      "score": 6,
+      "pick": false,
+      "source": "News18",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "microsoft-rolls-out-emergency-windows-11-patch-but-a-b1ec930f",
+      "url": "/stories/microsoft-rolls-out-emergency-windows-11-patch-but-a-b1ec930f.html",
+      "title": "Microsoft Rolls Out Emergency Windows 11 Patch, But AMD GPU Driver and File Explorer Crashes Remain",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "princeton-researchers-develop-light-programmable-2d-95289240",
+      "url": "/stories/princeton-researchers-develop-light-programmable-2d-95289240.html",
+      "title": "Princeton Researchers Develop Light-Programmable 2D Semiconductor",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "german-ddr5-price-index-hits-a-new-high-now-at-544-o-fbda763a",
+      "url": "/stories/german-ddr5-price-index-hits-a-new-high-now-at-544-o-fbda763a.html",
+      "title": "German DDR5 Price Index Hits A New High; Now At 544% Of Last Year’s Level Thanks To A Massive 103% Jump In 2x 16 GB DDR5-6400 Kit",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-ai-server-cost-hike-set-to-travel-through-sup-51a597e6",
+      "url": "/stories/nvidia-ai-server-cost-hike-set-to-travel-through-sup-51a597e6.html",
+      "title": "Nvidia AI Server Cost Hike Set To Travel Through Supply Chain - BW Businessworld",
+      "tag": "demand",
+      "date": "2026-09-15",
+      "score": 7,
+      "pick": false,
+      "source": "BW Businessworld",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "rtx-5090-owner-says-nvidia-refused-his-rma-after-fad-7866f160",
+      "url": "/stories/rtx-5090-owner-says-nvidia-refused-his-rma-after-fad-7866f160.html",
+      "title": "RTX 5090 Owner Says NVIDIA Refused His RMA After Faded Serial Number, As More Redditors Report The Same GPU Defect",
+      "tag": "demand",
+      "date": "2026-09-15",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "grab-a-560-saving-on-this-1440p-ready-gaming-pc-with-696e6ce5",
       "url": "/stories/grab-a-560-saving-on-this-1440p-ready-gaming-pc-with-696e6ce5.html",
