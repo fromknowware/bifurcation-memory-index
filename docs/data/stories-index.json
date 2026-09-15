@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-14T21:48:11.264Z",
-  "count": 799,
+  "generatedAt": "2026-09-15T04:51:44.870Z",
+  "count": 803,
   "stories": [
+    {
+      "slug": "us-semiconductor-tariff-strategy-puts-south-korean-c-a1605ed8",
+      "url": "/stories/us-semiconductor-tariff-strategy-puts-south-korean-c-a1605ed8.html",
+      "title": "US Semiconductor Tariff Strategy Puts South Korean Chipmakers Under Pressure - Global Sources",
+      "tag": "macro",
+      "date": "2026-09-15",
+      "score": 6,
+      "pick": false,
+      "source": "Global Sources",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "what-washington-s-tariff-push-means-for-korea-s-semi-9e20bab0",
+      "url": "/stories/what-washington-s-tariff-push-means-for-korea-s-semi-9e20bab0.html",
+      "title": "What Washington's tariff push means for Korea's semiconductor industry - The Korea Times",
+      "tag": "macro",
+      "date": "2026-09-15",
+      "score": 6,
+      "pick": false,
+      "source": "The Korea Times",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "global-semiconductor-sales-hit-a-record-425-billion-bc97e841",
+      "url": "/stories/global-semiconductor-sales-hit-a-record-425-billion-bc97e841.html",
+      "title": "Global Semiconductor Sales Hit a Record $425 Billion — Driven by Memory Prices, Not Volume - XenoSpectrum",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "XenoSpectrum",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "bnk-says-further-semiconductor-rally-unlikely-cuts-s-27b02817",
+      "url": "/stories/bnk-says-further-semiconductor-rally-unlikely-cuts-s-27b02817.html",
+      "title": "BNK Says Further Semiconductor Rally Unlikely, Cuts Samsung Electronics Target to ₩270,000 - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "samsung-edges-sk-hynix-as-hbm4-lifts-korea-chip-earn-97edf1ba",
       "url": "/stories/samsung-edges-sk-hynix-as-hbm4-lifts-korea-chip-earn-97edf1ba.html",
