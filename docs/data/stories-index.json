@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-15T04:51:44.870Z",
-  "count": 803,
+  "generatedAt": "2026-09-15T11:41:53.851Z",
+  "count": 808,
   "stories": [
+    {
+      "slug": "grab-a-560-saving-on-this-1440p-ready-gaming-pc-with-696e6ce5",
+      "url": "/stories/grab-a-560-saving-on-this-1440p-ready-gaming-pc-with-696e6ce5.html",
+      "title": "Grab a $560 saving on this 1440p-ready gaming PC with a 9800X3D and RTX 5060 Ti 16GB, now $1,859 — all-white CyberPowerPC desktop ships with one of AMD's best X3D chips, along with 32GB DDR5 and a 2TB SSD",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-s-radeon-rx-9070-gre-graphics-card-returns-to-it-45f898df",
+      "url": "/stories/amd-s-radeon-rx-9070-gre-graphics-card-returns-to-it-45f898df.html",
+      "title": "AMD's Radeon RX 9070 GRE graphics card returns to its lowest-ever price of $499 — rare deal places this current-generation 12GB GPU below its MSRP launch price",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "mediatek-s-dimensity-9600m-and-dimensity-9600-pro-go-134657e4",
+      "url": "/stories/mediatek-s-dimensity-9600m-and-dimensity-9600-pro-go-134657e4.html",
+      "title": "MediaTek’s Dimensity 9600M And Dimensity 9600 Pro Go Official; New “2 + 3 + 3” CPU Cluster With LPDDR6 RAM Support, Capable Of Handling 30B Local AI Models & More",
+      "tag": "fab",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "us-semiconductor-tariff-strategy-puts-south-korean-c-59fcf97b",
+      "url": "/stories/us-semiconductor-tariff-strategy-puts-south-korean-c-59fcf97b.html",
+      "title": "US Semiconductor Tariff Strategy Puts South Korean Chipmakers Under Pressure - Global Sources",
+      "tag": "macro",
+      "date": "2026-09-15",
+      "score": 6,
+      "pick": false,
+      "source": "Global Sources",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
     {
       "slug": "us-semiconductor-tariff-strategy-puts-south-korean-c-a1605ed8",
       "url": "/stories/us-semiconductor-tariff-strategy-puts-south-korean-c-a1605ed8.html",
@@ -11,6 +55,17 @@
       "score": 6,
       "pick": false,
       "source": "Global Sources",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "what-u-s-tariff-push-means-for-korea-s-semiconductor-8898e734",
+      "url": "/stories/what-u-s-tariff-push-means-for-korea-s-semiconductor-8898e734.html",
+      "title": "What U.S.' tariff push means for Korea's semiconductor industry - The Korea Times",
+      "tag": "macro",
+      "date": "2026-09-15",
+      "score": 6,
+      "pick": false,
+      "source": "The Korea Times",
       "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
     },
     {
