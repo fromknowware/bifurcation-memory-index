@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-09-15T16:57:29.249Z",
-  "count": 817,
+  "generatedAt": "2026-09-15T21:18:58.440Z",
+  "count": 828,
   "stories": [
+    {
+      "slug": "pr-goodram-introduces-master-pcie-5-0-ssd-series-wit-85468ff8",
+      "url": "/stories/pr-goodram-introduces-master-pcie-5-0-ssd-series-wit-85468ff8.html",
+      "title": "(PR) Goodram Introduces Master PCIe 5.0 SSD Series With Speeds Up to 14,000 MB/s",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-will-reportedly-raise-dram-and-nand-prices-f-afe11659",
+      "url": "/stories/samsung-will-reportedly-raise-dram-and-nand-prices-f-afe11659.html",
+      "title": "Samsung will reportedly raise DRAM and NAND prices for smartphone makers - GSMArena.com news - GSMArena.com",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "GSMArena.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-micron-develops-512-gb-ddr5-rdimm-server-memory-r-031c0202",
+      "url": "/stories/pr-micron-develops-512-gb-ddr5-rdimm-server-memory-r-031c0202.html",
+      "title": "(PR) Micron Develops 512 GB DDR5 RDIMM Server Memory Reaching 9200 MT/s",
+      "tag": "demand",
+      "date": "2026-09-15",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "astera-labs-expands-leo-memory-controllers-for-agent-1725774a",
+      "url": "/stories/astera-labs-expands-leo-memory-controllers-for-agent-1725774a.html",
+      "title": "Astera Labs Expands Leo Memory Controllers for Agentic AI and Cloud Workloads",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-crams-512-gb-memory-into-a-single-ddr5-stick-c992aa4d",
+      "url": "/stories/micron-crams-512-gb-memory-into-a-single-ddr5-stick-c992aa4d.html",
+      "title": "Micron Crams 512 GB Memory Into A Single DDR5 Stick, Pushing Next-Gen Intel And AMD Servers To 12 TB at 9200 MT/s",
+      "tag": "demand",
+      "date": "2026-09-15",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sifive-and-amd-collaborate-to-optimize-amd-rocm-on-r-84a03705",
+      "url": "/stories/sifive-and-amd-collaborate-to-optimize-amd-rocm-on-r-84a03705.html",
+      "title": "SiFive and AMD Collaborate to Optimize AMD ROCm on RISC-V Datacenter Servers",
+      "tag": "demand",
+      "date": "2026-09-15",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-advances-memory-innovation-with-ultra-dense-m-17735e85",
+      "url": "/stories/micron-advances-memory-innovation-with-ultra-dense-m-17735e85.html",
+      "title": "Micron Advances Memory Innovation with Ultra-Dense Module for Next-Gen Servers",
+      "tag": "fab",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "wd-details-scalable-ai-storage-strategy-at-ai-infras-5c64bd8c",
+      "url": "/stories/wd-details-scalable-ai-storage-strategy-at-ai-infras-5c64bd8c.html",
+      "title": "WD Details Scalable AI Storage Strategy at AI Infrastructure Summit",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "teram-emerges-from-stealth-with-37m-equity-raise-to-9916ee6a",
+      "url": "/stories/teram-emerges-from-stealth-with-37m-equity-raise-to-9916ee6a.html",
+      "title": "TeRAM Emerges From Stealth With $37M Equity Raise to Tackle the AI Memory Wall - businesswire.com",
+      "tag": "demand",
+      "date": "2026-09-15",
+      "score": 7,
+      "pick": false,
+      "source": "businesswire.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "axelera-ai-launches-europa-aipu-for-enterprise-and-d-af6be5a1",
+      "url": "/stories/axelera-ai-launches-europa-aipu-for-enterprise-and-d-af6be5a1.html",
+      "title": "Axelera AI Launches Europa AIPU for Enterprise and Data Center Inference",
+      "tag": "demand",
+      "date": "2026-09-15",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "vdura-launches-sentinel-monitoring-for-ai-and-gpu-st-620d314a",
+      "url": "/stories/vdura-launches-sentinel-monitoring-for-ai-and-gpu-st-620d314a.html",
+      "title": "VDURA Launches Sentinel Monitoring for AI and GPU Storage",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "china-s-ymtc-is-just-1-year-behind-the-west-on-nand-3baf4004",
       "url": "/stories/china-s-ymtc-is-just-1-year-behind-the-west-on-nand-3baf4004.html",
