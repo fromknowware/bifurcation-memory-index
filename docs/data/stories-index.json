@@ -1,7 +1,183 @@
 {
-  "generatedAt": "2026-09-16T04:47:12.390Z",
-  "count": 828,
+  "generatedAt": "2026-09-16T11:29:15.684Z",
+  "count": 846,
   "stories": [
+    {
+      "slug": "sk-hynix-reportedly-discussing-us-memory-chip-manufa-919414d6",
+      "url": "/stories/sk-hynix-reportedly-discussing-us-memory-chip-manufa-919414d6.html",
+      "title": "SK hynix reportedly discussing US memory chip manufacturing with Intel — options include leasing Ohio plant or forming joint venture with other AI hyperscalers",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-and-sk-hynix-discuss-memory-chip-production-in-7afbf90b",
+      "url": "/stories/intel-and-sk-hynix-discuss-memory-chip-production-in-7afbf90b.html",
+      "title": "Intel and SK Hynix discuss memory chip production in the US - UA.NEWS",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "UA.NEWS",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-reportedly-denies-rtx-5090-warranty-over-fade-3bdcd611",
+      "url": "/stories/nvidia-reportedly-denies-rtx-5090-warranty-over-fade-3bdcd611.html",
+      "title": "Nvidia reportedly denies RTX 5090 warranty over faded serial number — $6,500 GPU blemish not an isolated incident, according to customers",
+      "tag": "demand",
+      "date": "2026-09-16",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "save-270-on-this-solid-1080p-gaming-pc-with-an-rtx-5-1aeeaead",
+      "url": "/stories/save-270-on-this-solid-1080p-gaming-pc-with-an-rtx-5-1aeeaead.html",
+      "title": "Save $270 on this solid 1080p gaming PC with an RTX 5060 from MSI, now under $1,430 — Codex R2 rig packs 32GB DDR5 RAM, a 2TB SSD, and a 10-core Intel CPU",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-eyes-7-to-10-increase-in-smartphone-memory-p-d3780916",
+      "url": "/stories/samsung-eyes-7-to-10-increase-in-smartphone-memory-p-d3780916.html",
+      "title": "Samsung eyes 7 to 10% increase in smartphone memory prices amid AI-driven supply shifts - Global Sources",
+      "tag": "demand",
+      "date": "2026-09-16",
+      "score": 7,
+      "pick": false,
+      "source": "Global Sources",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-to-increase-dram-and-nand-prices-by-as-much-064b92f9",
+      "url": "/stories/samsung-to-increase-dram-and-nand-prices-by-as-much-064b92f9.html",
+      "title": "Samsung to increase DRAM and NAND prices by as much as 10% by end of the year - Unbox PH",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Unbox PH",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-sk-hynix-shares-jump-on-report-they-re-discuss-fe466f81",
+      "url": "/stories/intel-sk-hynix-shares-jump-on-report-they-re-discuss-fe466f81.html",
+      "title": "Intel, SK Hynix shares jump on report they're discussing U.S. memory chip manufacturing - Longbridge",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Longbridge",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "tariff-exemptions-only-for-u-s-production-under-trum-deaade90",
+      "url": "/stories/tariff-exemptions-only-for-u-s-production-under-trum-deaade90.html",
+      "title": "“Tariff Exemptions Only for U.S. Production”: Under Trump Pressure, SK hynix Speeds Up Plans for a Local Fab - 매일경제",
+      "tag": "fab",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "매일경제",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "pr-adata-trusta-showcases-ai-scaler-extended-memory-4dc2d971",
+      "url": "/stories/pr-adata-trusta-showcases-ai-scaler-extended-memory-4dc2d971.html",
+      "title": "(PR) ADATA TRUSTA Showcases AI Scaler Extended Memory, TD7P51 ECO Gen 5 SSD and R-DIMM at AI Infra Summit 2026",
+      "tag": "demand",
+      "date": "2026-09-16",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-in-talks-with-intel-to-produce-memory-chips-143dd39a",
+      "url": "/stories/sk-hynix-in-talks-with-intel-to-produce-memory-chips-143dd39a.html",
+      "title": "SK Hynix in talks with Intel to produce memory chips in US for the first time amid Washington pressure, sources say - The News International",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "The News International",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "insights-memory-spot-price-update-dram-spot-cools-as-ecffc4dc",
+      "url": "/stories/insights-memory-spot-price-update-dram-spot-cools-as-ecffc4dc.html",
+      "title": "[Insights] Memory Spot Price Update: DRAM Spot Cools as DDR5 Inquiries Slow, 2Gx8 DDR4 Prices Retreat - TrendForce",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "TrendForce",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-weighs-first-us-memory-chip-plant-in-intel-ca360acc",
+      "url": "/stories/sk-hynix-weighs-first-us-memory-chip-plant-in-intel-ca360acc.html",
+      "title": "SK Hynix weighs first US memory chip plant in Intel deal - Latest news from Azerbaijan",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Latest news from Azerbaijan",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "enhancing-ai-inference-efficiency-with-cadence-lpddr-636248eb",
+      "url": "/stories/enhancing-ai-inference-efficiency-with-cadence-lpddr-636248eb.html",
+      "title": "Enhancing AI Inference Efficiency with Cadence LPDDR Memory IP Solutions",
+      "tag": "demand",
+      "date": "2026-09-16",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-in-talks-to-produce-memory-chips-in-the-u-s-f30b7eb4",
+      "url": "/stories/sk-hynix-in-talks-to-produce-memory-chips-in-the-u-s-f30b7eb4.html",
+      "title": "SK Hynix in Talks to Produce Memory Chips in the U.S. for the First Time via Intel's Ohio Fab - finance.biggo.com",
+      "tag": "fab",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "exclusive-sk-hynix-in-talks-with-intel-about-deal-to-4a5a2a5c",
+      "url": "/stories/exclusive-sk-hynix-in-talks-with-intel-about-deal-to-4a5a2a5c.html",
+      "title": "EXCLUSIVE: SK Hynix in talks with Intel about deal to make memory chips in US for the first time, sources say - Reuters",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Reuters",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "tech-firms-trim-memory-use-explore-alternatives-amid-75e177a6",
+      "url": "/stories/tech-firms-trim-memory-use-explore-alternatives-amid-75e177a6.html",
+      "title": "Tech Firms Trim Memory Use, Explore Alternatives Amid Price Surge - 조선일보",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "pr-goodram-introduces-master-pcie-5-0-ssd-series-wit-85468ff8",
       "url": "/stories/pr-goodram-introduces-master-pcie-5-0-ssd-series-wit-85468ff8.html",
@@ -124,6 +300,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "china-s-ymtc-is-just-1-year-behind-the-west-on-nand-909d29d5",
+      "url": "/stories/china-s-ymtc-is-just-1-year-behind-the-west-on-nand-909d29d5.html",
+      "title": "China’s YMTC Is Just 1 Year Behind The West On NAND, While CXMT Trails By Just 2 Years On DRAM And 3 Years On HBM, According To Korea Semiconductor Industry Association - Wccftech",
+      "tag": "demand",
+      "date": "2026-09-15",
+      "score": 7,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "china-s-ymtc-is-just-1-year-behind-the-west-on-nand-3baf4004",
       "url": "/stories/china-s-ymtc-is-just-1-year-behind-the-west-on-nand-3baf4004.html",
       "title": "China’s YMTC Is Just 1 Year Behind The West On NAND, While CXMT Trails By Just 2 Years On DRAM And 3 Years On HBM, According To Korea Semiconductor Industry Association",
@@ -133,6 +320,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "nasdaq-100-inside-the-index-micron-technology-mu-nas-1dabab1a",
+      "url": "/stories/nasdaq-100-inside-the-index-micron-technology-mu-nas-1dabab1a.html",
+      "title": "Nasdaq-100® Inside the Index: Micron Technology (MU) - Nasdaq",
+      "tag": "supply",
+      "date": "2026-09-15",
+      "score": 8,
+      "pick": false,
+      "source": "Nasdaq",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "asus-ludicrous-20th-anniversary-bundle-is-now-the-ch-5113ccba",
