@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-09-16T16:52:37.733Z",
-  "count": 882,
+  "generatedAt": "2026-09-16T21:16:29.503Z",
+  "count": 894,
   "stories": [
+    {
+      "slug": "mod-pushes-nvidia-rtx-5090-laptop-gpu-to-225-w-ae6be591",
+      "url": "/stories/mod-pushes-nvidia-rtx-5090-laptop-gpu-to-225-w-ae6be591.html",
+      "title": "Mod Pushes NVIDIA RTX 5090 Laptop GPU to 225 W",
+      "tag": "demand",
+      "date": "2026-09-16",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-explores-first-us-memory-production-deal-wi-15305a87",
+      "url": "/stories/sk-hynix-explores-first-us-memory-production-deal-wi-15305a87.html",
+      "title": "SK Hynix Explores First US Memory Production Deal With Intel in Ohio - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-is-reportedly-helping-sk-hynix-to-build-its-fi-bc5c049a",
+      "url": "/stories/intel-is-reportedly-helping-sk-hynix-to-build-its-fi-bc5c049a.html",
+      "title": "Intel is reportedly helping SK Hynix to build its first ever memory chip factory in US; the whole deal ma - The Times of India",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "The Times of India",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-intel-eye-us-memory-chip-deal-etfs-to-watch-04c0d0a0",
+      "url": "/stories/sk-hynix-intel-eye-us-memory-chip-deal-etfs-to-watch-04c0d0a0.html",
+      "title": "SK Hynix, Intel Eye US Memory Chip Deal: ETFs to Watch - Intel (NASDAQ:INTC) - Benzinga",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Benzinga",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-benchmarks-a-512-mi355x-gpu-cluster-in-mlperf-6-1187b0d8",
+      "url": "/stories/amd-benchmarks-a-512-mi355x-gpu-cluster-in-mlperf-6-1187b0d8.html",
+      "title": "AMD Benchmarks A 512 “MI355X” GPU Cluster In MLPerf 6.1 While NVIDIA Retains Strong Position With Blackwell & First Vera Rubin Submit, Intel Arc Pro & Xeon Submitted Too",
+      "tag": "demand",
+      "date": "2026-09-16",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "apple-weighs-return-to-server-market-with-nvidia-net-45d88dd4",
+      "url": "/stories/apple-weighs-return-to-server-market-with-nvidia-net-45d88dd4.html",
+      "title": "Apple Weighs Return to Server Market with NVIDIA Networking Technology",
+      "tag": "demand",
+      "date": "2026-09-16",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "steamos-is-getting-native-nvidia-gpu-driver-support-1f26b0ac",
       "url": "/stories/steamos-is-getting-native-nvidia-gpu-driver-support-1f26b0ac.html",
@@ -23,6 +89,17 @@
       "pick": false,
       "source": "CryptoRank",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "sk-hynix-mulling-making-chips-in-us-taipei-times-c6e6d5fe",
+      "url": "/stories/sk-hynix-mulling-making-chips-in-us-taipei-times-c6e6d5fe.html",
+      "title": "SK Hynix mulling making chips in US - Taipei Times",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Taipei Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "kioxia-halts-nand-price-hikes-to-prevent-demand-slum-d3f4d646",
@@ -234,6 +311,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "trump-s-well-intentioned-semiconductor-tariff-is-a-1-067287f8",
+      "url": "/stories/trump-s-well-intentioned-semiconductor-tariff-is-a-1-067287f8.html",
+      "title": "Trump’s well-intentioned semiconductor tariff is a $1.6 trillion self-inflicted wound - Washington Examiner",
+      "tag": "macro",
+      "date": "2026-09-16",
+      "score": 6,
+      "pick": false,
+      "source": "Washington Examiner",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
       "slug": "pick-up-a-giant-18-inch-rtx-5080-powered-asus-gaming-d5030603",
       "url": "/stories/pick-up-a-giant-18-inch-rtx-5080-powered-asus-gaming-d5030603.html",
       "title": "Pick up a giant 18-inch RTX 5080-powered Asus gaming laptop from Best Buy and save $600 — the ROG Strix G18 also comes with 32GB of memory and a 2TB SSD",
@@ -308,6 +396,28 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-and-intel-may-produce-memory-in-the-us-ukrm-a59a1c9f",
+      "url": "/stories/sk-hynix-and-intel-may-produce-memory-in-the-us-ukrm-a59a1c9f.html",
+      "title": "SK Hynix and Intel may produce memory in the US - UkrMedia News",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "UkrMedia News",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-up-nearly-5-on-reported-sk-hynix-us-memory-chi-f7cfb149",
+      "url": "/stories/intel-up-nearly-5-on-reported-sk-hynix-us-memory-chi-f7cfb149.html",
+      "title": "Intel up nearly 5% on reported SK Hynix US memory chip talks - Proactive financial news",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Proactive financial news",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -388,6 +498,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "former-lambda-groq-alums-secure-875m-to-build-memory-55633cc7",
+      "url": "/stories/former-lambda-groq-alums-secure-875m-to-build-memory-55633cc7.html",
+      "title": "Former Lambda, Groq alums secure $875M to build ‘memory-first’ AI inference chips - SDxCentral",
+      "tag": "demand",
+      "date": "2026-09-16",
+      "score": 7,
+      "pick": false,
+      "source": "SDxCentral",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "sk-hynix-intel-discussing-ohio-memory-production-in-1bcd03e3",
       "url": "/stories/sk-hynix-intel-discussing-ohio-memory-production-in-1bcd03e3.html",
       "title": "SK Hynix, Intel Discussing Ohio Memory Production in the US : 국제 : JKN - 재경일보",
@@ -452,6 +573,17 @@
       "pick": false,
       "source": "The News International",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-plays-down-speculation-of-intel-fab-tie-up-419bb8b6",
+      "url": "/stories/sk-hynix-plays-down-speculation-of-intel-fab-tie-up-419bb8b6.html",
+      "title": "SK hynix plays down speculation of Intel fab tie-up - Aju Press",
+      "tag": "fab",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Aju Press",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
       "slug": "intc-skhy-stocks-jump-overnight-intel-s-delayed-ohio-4382c9fe",
