@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-17T11:38:53.585Z",
-  "count": 911,
+  "generatedAt": "2026-09-17T16:58:17.969Z",
+  "count": 924,
   "stories": [
+    {
+      "slug": "gpu-relief-pushed-to-2028-as-dram-jumps-a-record-95-5a390ec9",
+      "url": "/stories/gpu-relief-pushed-to-2028-as-dram-jumps-a-record-95-5a390ec9.html",
+      "title": "GPU Relief Pushed to 2028 as DRAM Jumps a Record 95% [2026] - tech-insider.org",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "tech-insider.org",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-may-do-another-price-hike-as-it-reportedly-acc-e04f5fbb",
+      "url": "/stories/apple-may-do-another-price-hike-as-it-reportedly-acc-e04f5fbb.html",
+      "title": "Apple may do another price hike as it reportedly accepts Samsung's higher memory prices for next year - GSMArena.com news - gsmarena.com",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "gsmarena.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-notifies-partners-of-10-price-hike-as-increased-46571128",
+      "url": "/stories/amd-notifies-partners-of-10-price-hike-as-increased-46571128.html",
+      "title": "AMD Notifies Partners of 10% Price Hike As Increased TSMC Wafer Costs Could Squeeze Ryzen CPU Lineup For Q4 2026",
+      "tag": "fab",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "investigation-details-how-billions-worth-of-export-r-11373351",
+      "url": "/stories/investigation-details-how-billions-worth-of-export-r-11373351.html",
+      "title": "Investigation details how billions' worth of export-restricted Nvidia AI chips are sold to China — report details how Chinese firms skirt Trump's regulations",
+      "tag": "demand",
+      "date": "2026-09-17",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "sk-hynix-s-intel-liaisons-what-you-need-to-know-219a34e8",
       "url": "/stories/sk-hynix-s-intel-liaisons-what-you-need-to-know-219a34e8.html",
@@ -25,6 +69,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "corsair-s-32gb-vengeance-kits-are-the-cheapest-ddr5-a9995942",
+      "url": "/stories/corsair-s-32gb-vengeance-kits-are-the-cheapest-ddr5-a9995942.html",
+      "title": "Corsair's 32GB Vengeance kits are the cheapest DDR5 RAM on the market right now — lock down 6,200 MT/s speeds for $419.99 or save $10 on a slower RGB kit for $409.99 before memory prices climb further - Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "corsair-s-32gb-vengeance-kits-are-the-cheapest-ddr5-56249415",
       "url": "/stories/corsair-s-32gb-vengeance-kits-are-the-cheapest-ddr5-56249415.html",
       "title": "Corsair's 32GB Vengeance kits are the cheapest DDR5 RAM on the market right now — lock down 6,200 MT/s speeds for $419.99 or save $10 on a slower RGB kit for $409.99 before memory prices climb further",
@@ -33,6 +88,28 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-and-intel-explore-us-memory-chip-partnershi-8dfee3e8",
+      "url": "/stories/sk-hynix-and-intel-explore-us-memory-chip-partnershi-8dfee3e8.html",
+      "title": "SK Hynix and Intel explore US memory chip partnership - verdict.co.uk",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "verdict.co.uk",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-s-512gb-module-lands-as-management-reshuffle-7e30f0d2",
+      "url": "/stories/micron-s-512gb-module-lands-as-management-reshuffle-7e30f0d2.html",
+      "title": "Micron's 512GB Module Lands as Management Reshuffle Meets a Taiwan Labor Deadline - ad-hoc-news.de",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "ad-hoc-news.de",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -80,6 +157,28 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "sk-hynix-intel-explore-us-memory-chip-production-dea-a9310798",
+      "url": "/stories/sk-hynix-intel-explore-us-memory-chip-production-dea-a9310798.html",
+      "title": "SK Hynix, Intel explore US memory chip production deal - scanx.trade",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "scanx.trade",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "citi-believes-global-memory-supply-tightness-will-pe-577e4a70",
+      "url": "/stories/citi-believes-global-memory-supply-tightness-will-pe-577e4a70.html",
+      "title": "Citi Believes Global Memory Supply Tightness Will Persist Until 2031, and the Price Increase Cycle Is Expected to Remain Strong - NAI500",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "NAI500",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "sk-hynix-in-talks-over-u-s-memory-chip-production-re-5d203472",
       "url": "/stories/sk-hynix-in-talks-over-u-s-memory-chip-production-re-5d203472.html",
       "title": "SK hynix in talks over U.S. memory chip production : Reuters - 매일경제",
@@ -111,6 +210,17 @@
       "pick": false,
       "source": "Seoul Economic Daily",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-electronics-to-stack-memory-directly-atop-ai-f242a2ca",
+      "url": "/stories/samsung-electronics-to-stack-memory-directly-atop-ai-f242a2ca.html",
+      "title": "Samsung Electronics to Stack Memory Directly Atop AI Accelerators, Targeting 10x Response Speed - finance.biggo.com",
+      "tag": "demand",
+      "date": "2026-09-17",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "ddr5-ram-prices-surge-5-5-fold-seen-worsening-in-202-040dbb65",
@@ -146,6 +256,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "intel-stock-jumps-as-sk-hynix-weighs-u-s-memory-chip-ff947a72",
+      "url": "/stories/intel-stock-jumps-as-sk-hynix-weighs-u-s-memory-chip-ff947a72.html",
+      "title": "Intel stock jumps as SK Hynix weighs U.S. memory-chip deal - Wichita Eagle",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Wichita Eagle",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "apple-reportedly-building-server-packed-with-m-serie-066b9142",
       "url": "/stories/apple-reportedly-building-server-packed-with-m-serie-066b9142.html",
       "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
@@ -154,6 +275,28 @@
       "score": 8,
       "pick": false,
       "source": "Ars Technica",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "no-plans-have-been-confirmed-regarding-the-reported-6fea04e1",
+      "url": "/stories/no-plans-have-been-confirmed-regarding-the-reported-6fea04e1.html",
+      "title": "No plans have been confirmed regarding the reported talks between SK hynix and Intel on memory chip production in the U.S. - SK hynix",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "SK hynix",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-may-soon-team-up-with-intel-to-build-memory-07dcc9cb",
+      "url": "/stories/sk-hynix-may-soon-team-up-with-intel-to-build-memory-07dcc9cb.html",
+      "title": "SK hynix may soon team up with Intel to build memory chips in the US for the first time - TweakTown",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "TweakTown",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
