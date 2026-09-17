@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-09-16T21:16:29.503Z",
-  "count": 894,
+  "generatedAt": "2026-09-17T04:50:25.790Z",
+  "count": 904,
   "stories": [
+    {
+      "slug": "sk-hynix-in-talks-over-u-s-memory-chip-production-re-5d203472",
+      "url": "/stories/sk-hynix-in-talks-over-u-s-memory-chip-production-re-5d203472.html",
+      "title": "SK hynix in talks over U.S. memory chip production : Reuters - 매일경제",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "매일경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "server-dram-prices-jump-5-5-fold-in-a-year-as-ai-dem-8422e0a3",
+      "url": "/stories/server-dram-prices-jump-5-5-fold-in-a-year-as-ai-dem-8422e0a3.html",
+      "title": "Server DRAM Prices Jump 5.5-Fold in a Year as AI Demand Defies Slowdown Talk - Seoul Economic Daily",
+      "tag": "demand",
+      "date": "2026-09-17",
+      "score": 7,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-chip-profit-seen-at-370-trillion-won-as-ddr5-00a2541b",
+      "url": "/stories/samsung-chip-profit-seen-at-370-trillion-won-as-ddr5-00a2541b.html",
+      "title": "Samsung Chip Profit Seen at 370 Trillion Won as DDR5 Prices Jump 5.5-Fold - Seoul Economic Daily",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ddr5-ram-prices-surge-5-5-fold-seen-worsening-in-202-040dbb65",
+      "url": "/stories/ddr5-ram-prices-surge-5-5-fold-seen-worsening-in-202-040dbb65.html",
+      "title": "DDR5 RAM prices surge 5.5-fold, seen worsening in 2027 - 디지털투데이",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "디지털투데이",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-s-b200-gpus-currently-command-a-residual-valu-f46b863f",
+      "url": "/stories/nvidia-s-b200-gpus-currently-command-a-residual-valu-f46b863f.html",
+      "title": "NVIDIA’s B200 GPUs Currently Command A Residual Value That Exceeds Their Original Launch Price By 58 Percent!",
+      "tag": "demand",
+      "date": "2026-09-16",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dram-pricing-will-mean-more-iphone-price-hikes-in-20-78cad3d3",
+      "url": "/stories/dram-pricing-will-mean-more-iphone-price-hikes-in-20-78cad3d3.html",
+      "title": "DRAM pricing will mean more iPhone price hikes in 2027, no relief through 2028 - AppleInsider",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "AppleInsider",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-reportedly-building-server-packed-with-m-serie-066b9142",
+      "url": "/stories/apple-reportedly-building-server-packed-with-m-serie-066b9142.html",
+      "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "mod-pushes-nvidia-rtx-5090-laptop-gpu-to-225-w-ae6be591",
       "url": "/stories/mod-pushes-nvidia-rtx-5090-laptop-gpu-to-225-w-ae6be591.html",
@@ -322,6 +399,17 @@
       "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
     },
     {
+      "slug": "samsung-shifts-memory-manufacturing-focus-toward-ai-d1ce45ea",
+      "url": "/stories/samsung-shifts-memory-manufacturing-focus-toward-ai-d1ce45ea.html",
+      "title": "Samsung shifts memory manufacturing focus toward AI-driven high-bandwidth memory - Global Sources",
+      "tag": "demand",
+      "date": "2026-09-16",
+      "score": 7,
+      "pick": false,
+      "source": "Global Sources",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "pick-up-a-giant-18-inch-rtx-5080-powered-asus-gaming-d5030603",
       "url": "/stories/pick-up-a-giant-18-inch-rtx-5080-powered-asus-gaming-d5030603.html",
       "title": "Pick up a giant 18-inch RTX 5080-powered Asus gaming laptop from Best Buy and save $600 — the ROG Strix G18 also comes with 32GB of memory and a 2TB SSD",
@@ -454,6 +542,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "intel-sk-hynix-shares-jump-on-report-they-re-discuss-a872d1d1",
+      "url": "/stories/intel-sk-hynix-shares-jump-on-report-they-re-discuss-a872d1d1.html",
+      "title": "Intel, SK Hynix shares jump on report they're discussing U.S. memory chip manufacturing - Longbridge",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "Longbridge",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "intel-sk-hynix-shares-jump-on-report-they-re-discuss-fe466f81",
       "url": "/stories/intel-sk-hynix-shares-jump-on-report-they-re-discuss-fe466f81.html",
       "title": "Intel, SK Hynix shares jump on report they're discussing U.S. memory chip manufacturing - Longbridge",
@@ -550,6 +649,17 @@
       "score": 8,
       "pick": false,
       "source": "NDTV Profit",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-spot-market-ddr4-prices-diverge-by-chip-density-77add4af",
+      "url": "/stories/dram-spot-market-ddr4-prices-diverge-by-chip-density-77add4af.html",
+      "title": "DRAM Spot Market: DDR4 Prices Diverge by Chip Density as DDR5 Demand Cools - XenoSpectrum",
+      "tag": "supply",
+      "date": "2026-09-16",
+      "score": 8,
+      "pick": false,
+      "source": "XenoSpectrum",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
