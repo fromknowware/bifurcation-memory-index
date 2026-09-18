@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-09-18T11:11:27.496Z",
-  "count": 948,
+  "generatedAt": "2026-09-18T16:22:39.687Z",
+  "count": 963,
   "stories": [
+    {
+      "slug": "china-s-premier-memory-maker-cxmt-eyes-producing-fla-f3bf27ed",
+      "url": "/stories/china-s-premier-memory-maker-cxmt-eyes-producing-fla-f3bf27ed.html",
+      "title": "China's premier memory maker CXMT eyes producing flash for SSDs, report claims — 3D NAND research and development line rumored for its second manufacturing facility near Beijing",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-s-ai-memory-crunch-keeps-dram-prices-heading-07f51d79",
+      "url": "/stories/micron-s-ai-memory-crunch-keeps-dram-prices-heading-07f51d79.html",
+      "title": "Micron’s AI Memory Crunch Keeps DRAM Prices Heading Higher - Finimize",
+      "tag": "demand",
+      "date": "2026-09-18",
+      "score": 7,
+      "pick": false,
+      "source": "Finimize",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-offloads-ddr5-module-output-to-shield-pc-mar-1a05e779",
+      "url": "/stories/samsung-offloads-ddr5-module-output-to-shield-pc-mar-1a05e779.html",
+      "title": "Samsung Offloads DDR5 Module Output To Shield PC Market From AI Shortages - Ubergizmo",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "Ubergizmo",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "tsmc-secures-approval-for-sub-1-4-nanometer-manufact-a2e877f9",
+      "url": "/stories/tsmc-secures-approval-for-sub-1-4-nanometer-manufact-a2e877f9.html",
+      "title": "TSMC Secures Approval For Sub-1.4 Nanometer Manufacturing Plants, Says Report As Race With Intel Heats Up",
+      "tag": "fab",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "nor-flash-and-slc-nand-production-are-under-threat-a-ddd83a4a",
+      "url": "/stories/nor-flash-and-slc-nand-production-are-under-threat-a-ddd83a4a.html",
+      "title": "NOR Flash and SLC NAND production are under threat as capacity gets routed to more profitable products — 'severe undersupply' threatens everyday electronics",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "mu-stock-could-see-sizable-multiple-expansion-rbc-sa-e842d230",
+      "url": "/stories/mu-stock-could-see-sizable-multiple-expansion-rbc-sa-e842d230.html",
+      "title": "MU Stock Could See ‘Sizable’ Multiple Expansion, RBC Says Citing AI-Driven Memory Demand - TradingView",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "what-lies-ahead-of-dram-etf-as-memory-crisis-may-int-c41f9e11",
+      "url": "/stories/what-lies-ahead-of-dram-etf-as-memory-crisis-may-int-c41f9e11.html",
+      "title": "What Lies Ahead of DRAM ETF as Memory Crisis May Intensify in 2027? - TradingView",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-denies-deal-with-intel-on-us-memory-product-ee183ce7",
+      "url": "/stories/sk-hynix-denies-deal-with-intel-on-us-memory-product-ee183ce7.html",
+      "title": "SK Hynix denies deal with Intel on US memory production - Techzine Global",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "Techzine Global",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-demand-will-keep-dram-market-under-pressure-e140230a",
+      "url": "/stories/ai-demand-will-keep-dram-market-under-pressure-e140230a.html",
+      "title": "AI Demand Will Keep DRAM Market Under Pressure",
+      "tag": "demand",
+      "date": "2026-09-18",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "china-s-cxmt-eyes-nand-flash-push-amid-ai-memory-sho-30b4b360",
+      "url": "/stories/china-s-cxmt-eyes-nand-flash-push-amid-ai-memory-sho-30b4b360.html",
+      "title": "China’s CXMT eyes NAND flash push amid AI memory shortage - TNGlobal",
+      "tag": "demand",
+      "date": "2026-09-18",
+      "score": 7,
+      "pick": false,
+      "source": "TNGlobal",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "save-300-on-this-4k-gaming-pc-with-a-9800x3d-and-rtx-d84ef34f",
       "url": "/stories/save-300-on-this-4k-gaming-pc-with-a-9800x3d-and-rtx-d84ef34f.html",
@@ -11,6 +121,17 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-s-solidigm-unit-is-weighing-nand-memory-chi-f5622125",
+      "url": "/stories/sk-hynix-s-solidigm-unit-is-weighing-nand-memory-chi-f5622125.html",
+      "title": "SK Hynix’s Solidigm unit is weighing NAND memory chip factory in US, sources say - WHTC",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "WHTC",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -47,6 +168,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "sk-hynix-and-intel-explore-us-memory-chip-partnershi-900174d0",
+      "url": "/stories/sk-hynix-and-intel-explore-us-memory-chip-partnershi-900174d0.html",
+      "title": "SK Hynix and Intel explore US memory chip partnership - Tech Monitor",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "Tech Monitor",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "samsung-s-zhbm-stacks-memory-on-top-of-ai-chips-aims-ae77f231",
       "url": "/stories/samsung-s-zhbm-stacks-memory-on-top-of-ai-chips-aims-ae77f231.html",
       "title": "Samsung's zHBM stacks memory on top of AI chips, aims for 8x HBM5 - Pasquale Pillitteri",
@@ -56,6 +188,17 @@
       "pick": false,
       "source": "Pasquale Pillitteri",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-nand-memory-plans-signal-market-expansion-strat-faaead67",
+      "url": "/stories/cxmt-nand-memory-plans-signal-market-expansion-strat-faaead67.html",
+      "title": "CXMT NAND Memory Plans Signal Market Expansion - StratNews Global",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "StratNews Global",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "chinese-ai-chip-prices-surge-amid-hbm-shortage-qz-co-0ac0e04a",
@@ -77,6 +220,17 @@
       "score": 8,
       "pick": false,
       "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-s-cxmt-scales-production-to-rival-samsung-amid-b22baac7",
+      "url": "/stories/china-s-cxmt-scales-production-to-rival-samsung-amid-b22baac7.html",
+      "title": "China’s CXMT scales production to rival Samsung amid global memory chip shortages - The News International",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "The News International",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -143,6 +297,17 @@
       "score": 8,
       "pick": false,
       "source": "thestreet.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-intel-ohio-memory-talks-explained-neoteo-50e003e7",
+      "url": "/stories/sk-hynix-intel-ohio-memory-talks-explained-neoteo-50e003e7.html",
+      "title": "SK hynix Intel Ohio memory talks explained - NeoTeo",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "NeoTeo",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
