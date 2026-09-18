@@ -5,11 +5,50 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-17T21:20:24.897Z</updated>
+  <updated>2026-09-18T04:41:11.256Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMifkFVX3lxTFBOc3pTZlVPelpteTNncEJKQWlaZC1pQThsMk8xM0lGZG1wX2kxYkNHVUxMS1lZNGdIeEVqdzdDR25TZHBFd0JTQ3c3OXRmVk1sYnhwZmxsRVFzUTRWbHRTczZTUDJDMUkwc2duQTBEUGhhOWhsTVh6eWM1bXJHQQ?oc=5</id>
+    <title type="html">SK Hynix has a $4 billion problem Intel could help solve - thestreet.com</title>
+    <link href="https://news.google.com/rss/articles/CBMifkFVX3lxTFBOc3pTZlVPelpteTNncEJKQWlaZC1pQThsMk8xM0lGZG1wX2kxYkNHVUxMS1lZNGdIeEVqdzdDR25TZHBFd0JTQ3c3OXRmVk1sYnhwZmxsRVFzUTRWbHRTczZTUDJDMUkwc2duQTBEUGhhOWhsTVh6eWM1bXJHQQ?oc=5" />
+    <link rel="related" href="/stories/sk-hynix-has-a-4-billion-problem-intel-could-help-so-895e053c.html" />
+    <updated>2026-09-18T00:33:00.000Z</updated>
+    <author><name>thestreet.com</name></author>
+    <summary type="html">SK Hynix has a $4 billion problem Intel could help solve thestreet.com RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;SK Hynix has a $4 billion problem Intel could help solve thestreet.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/352814/intel-reportedly-preparing-8p-8e-raptor-lake-next-chip-to-replace-core-i5-14600k</id>
+    <title type="html">Intel Reportedly Preparing 8P+8E &amp;#039;&amp;#039;Raptor Lake Next&amp;quot; Chip to Replace Core i5-14600K</title>
+    <link href="https://www.techpowerup.com/352814/intel-reportedly-preparing-8p-8e-raptor-lake-next-chip-to-replace-core-i5-14600k" />
+    <link rel="related" href="/stories/intel-reportedly-preparing-8p-8e-039-039-raptor-lake-1d1de515.html" />
+    <updated>2026-09-17T23:08:02.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">Intel is reportedly preparing to retire the Core i5-14600K in favor of a new &quot;Raptor Lake Next&quot; chip with eight P-cores and eight E-cores. According to leaker Jaykihn on X (spotted by VideoCardz ), the successor will have two more Performance cores than the current 14600K, putting it on par with the Core i7-14700K in P-core count, though not necessarily in cache or clocks. Raptor Lake Next is the RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Intel is reportedly preparing to retire the Core i5-14600K in favor of a new &quot;Raptor Lake Next&quot; chip with eight P-cores and eight E-cores. According to leaker Jaykihn on X (spotted by VideoCardz ), the successor will have two more Performance cores than the current 14600K, putting it on par with the Core i7-14700K in P-core count, though not necessarily in cache or clocks. Raptor Lake Next is the&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.eetimes.com/u-s-awards-anderon-1b-for-quantum-wafer-manufacturing/</id>
+    <title type="html">U.S. Awards Anderon $1B for Quantum Wafer Manufacturing</title>
+    <link href="https://www.eetimes.com/u-s-awards-anderon-1b-for-quantum-wafer-manufacturing/" />
+    <link rel="related" href="/stories/u-s-awards-anderon-1b-for-quantum-wafer-manufacturin-a299a67d.html" />
+    <updated>2026-09-17T22:00:00.000Z</updated>
+    <author><name>EE Times</name></author>
+    <summary type="html"> RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiugFBVV95cUxNSEFJX2w4X2Ficlkwcnp6dGE3d2V4QU9LckpmcGFxUHZUaWpRTW5jM0xxVkNKSUg5Z3BhVUdMbGJkTXByOEY0anAxN0FKenE4S21CbWVUa18tV1cwNEs4WmlITHIwSkRLS0QtUmlnQ3VfRDFtTWVibThlM1ZpSk1LOFlBZ3VOVkJIeEFlZUZfb2VvV2I5emRxQnROenZ5UzI0aDJCM0N2eEY0MlZZaVAxSTNKcEFSS2p6ZWfSAbYBQVVfeXFMT0VBelZEY20zVXBTLXQ0U09IeVFJcEg2dEljRU1kYmJ1d1VhVHlmMVZCUkxMMklxcmdYZWdvck1RTDd2cVN5OWNSTWxTaGtILVB6ekF5eERlcUY5REZWV01zSEpKZW1QR1IwaVVHaW9pbEdXZnAydFZPY2JKS1NscTFELWp1MlhRMElzU2g1UmJ5Q0FiTXNBSTdhaTREbzFCemJBcGlCSFJWdTA1Vy1QNzNOUEdmR2c?oc=5</id>
     <title type="html">Samsung to outsource all of its DRAM manufacturing and focus on HBM production - GSMArena.com news - GSMArena.com</title>
@@ -21,7 +60,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Samsung to outsource all of its DRAM manufacturing and focus on HBM production - GSMArena.com news GSMArena.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung to outsource all of its DRAM manufacturing and focus on HBM production - GSMArena.com news GSMArena.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMivwFBVV95cUxNcVRRNmdsNmxVTVZwX19ZUXplV3dtcEpMMUMtcHRVNzhSRE9sQWxFSXRPeWlYQzJtdWYtOG1PelRxMHFWSEM4a3BsODVkS2pJYXF6d3JaaFZkRjNnbmtBc3NTanBjV0NrZXc4dFJ5ZXpVbUVHUzk5bVJJLXlobm16OGNxX2NGQjV2NmphVGplTzF6RmF3QzVROElHVkNtR28tcjNEWmV2enhleDB6eXdNMzJHbjVCR3dPOGI4aHhtaw?oc=5</id>
@@ -34,7 +73,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;The Memory Shortage Is Not Over: More Upside for Micron and Sandisk? TradingView&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The Memory Shortage Is Not Over: More Upside for Micron and Sandisk? TradingView&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMy1ORXJpblpZSUtnOEV0Q0NXa1VoSkZOdzlFbHVrekUzdjBES1lRNjJjZjNRdF8tT3d6aXg0SFAxNHlueHk2ZTVKQ19uV1R4RTd4dndLMFNnVWotemZ3M1VDTDVLSmgxWnJpWFA2N09YT0FZaHEwb3NlOThpUEktNEJZS2hRN0c1MDdhM3pNdFZmQlYzX080d253c3pYX1FSNFRRdVpkbmlIS2YyaWxwRGM4dVpDTEk4b0xBaGZOMmY1cm91Q0lDUld1ZXNJdUlnbmRmUlExSE1LZnRCbl94OC1RNnBGVjg?oc=5</id>
@@ -47,7 +86,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;High Bandwidth Flash: A New Memory for AI Data Centers and Edge Computing Electronic Design&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;High Bandwidth Flash: A New Memory for AI Data Centers and Edge Computing Electronic Design&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMieEFVX3lxTE5iUl9iYVk3ckJ6aW5GdFdCWUtiNXRDN0VQTkdwVDQ1QTdrMkpsWElLSHFYN295TGJ6NDI0QUVRVnNaWjRlcy1xTHNXS3RaZm5ONHRObmktdFZiODUyT08xVE02Zml6ZGZpSmNXWUdHZUFTM1pfX3NaNw?oc=5</id>
@@ -73,7 +112,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;The HBM Pricing Cycle That Will Define SKHQ in 2026 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The HBM Pricing Cycle That Will Define SKHQ in 2026 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMinAFBVV95cUxNcm9BU0FmX3RoakNNLXBLWlY2dVBPa1BuMndNRnVURktwZ3FtXzFKN0ozWTZoM1VXeVBsdW12M2FNeTI2Ml9MWXlvYTJQTU9iMU1SM3NQLUVNdTVLanBIR0tsVUJuVi1SZHYwMTVoUHBqLVZkRjVOSXdGbTEySUNaUXdsSWZmbVQ3a2N5Qy1ZWG9mamk2b0xqU2psQTI?oc=5</id>
@@ -86,7 +125,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;If Memory Chip Prices Fall, Here’s What Happens to the Korea Semiconductor ETF KCHP Yahoo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;If Memory Chip Prices Fall, Here’s What Happens to the Korea Semiconductor ETF KCHP Yahoo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZkx6eUFUeXVyNmx1eE5tTVJpVkI1TmVPWldzc3JwYjNteVVqVjh4aC1oZWZTaXFiZXVnVVRlOE5jaXdIT1F5VUlpVjhsU2V4Sy1MYzc0WTdJa0NBSDFPd1g0Q0IwNDZscUFPNF9pdUNtd3VGU1ZhSWVFNXR2UkZUYk95bGFmSkM2R1pNcFJNVklzNkxjNjI1Qkp4TDBLa25pZXVzUlFZWlhlS3FreWI3RlRaX0FUbE9HWmdhS013RDdzMUQyWUFMeFlRQ0gtMEdXeFJUR01qONIB0wFBVV95cUxNbUlkYnFZRTRHVGtlWmpMcFg1UGpqZ1NnQWVReXRWT29ZaHVrSHhoMk1IYXhTQkc1VXpwRnhpLXlIWVNEQ1VlZENPaHhZbjJtdl9TczB3T3BFRmRzenFnTGlLWXpwUkcydEFyLTEtNjA4aURMWnFmQVpmZGhTMEdRYk9TdDNYRkZIOF9WQUxfbGdRNGVIUjhOV2VrZ1p5Yk9mYkMxUTRPaVk1RndveEZvQWtTQ0I1a2RsUS0tamhKTU1jYlJqYVo1RlFlb3FLc203ckRB?oc=5</id>
@@ -139,6 +178,19 @@
     <category term="tag:supply" />
     
     <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEUxamdtRUFUUWFVSmN6MkVXbzFMTmtucS1Kb05UcTc3ay0zT25TaHRkYU5IOThuMnhiSWJGSVZsYkQxV1ptdGJaOTlxNVdyc0VXd1ZtWUdHZGYzeUprSVR5RkpRd1dmVmFQb0gxclJoSV9JWTBRekd3STgzWl9GZkN1QV9vUkdEa1lKSEI0bTZuaVVSVjFhaGRSbzJiUVJNUTIyS1JXOFF3ODFfMEZPdm1sNml4ZEp5QkFsQWNwUFVvdw?oc=5</id>
+    <title type="html">Why a stronger dram doesn't necessarily lead to lower prices for imported goods - 5 factors - Arka.am</title>
+    <link href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEUxamdtRUFUUWFVSmN6MkVXbzFMTmtucS1Kb05UcTc3ay0zT25TaHRkYU5IOThuMnhiSWJGSVZsYkQxV1ptdGJaOTlxNVdyc0VXd1ZtWUdHZGYzeUprSVR5RkpRd1dmVmFQb0gxclJoSV9JWTBRekd3STgzWl9GZkN1QV9vUkdEa1lKSEI0bTZuaVVSVjFhaGRSbzJiUVJNUTIyS1JXOFF3ODFfMEZPdm1sNml4ZEp5QkFsQWNwUFVvdw?oc=5" />
+    <link rel="related" href="/stories/why-a-stronger-dram-doesn-t-necessarily-lead-to-lowe-14f1f295.html" />
+    <updated>2026-09-17T11:23:00.000Z</updated>
+    <author><name>Arka.am</name></author>
+    <summary type="html">Why a stronger dram doesn't necessarily lead to lower prices for imported goods - 5 factors Arka.am RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Why a stronger dram doesn't necessarily lead to lower prices for imported goods - 5 factors Arka.am&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/apple-eyes-nvidia-nvlink-to-power-its-new-custom-m8-ultra-ai-servers-historically-bitter-rivals-reportedly-team-up-for-2029-data-center-push</id>

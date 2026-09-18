@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-17T21:20:27.056Z",
-  "count": 929,
+  "generatedAt": "2026-09-18T04:41:13.283Z",
+  "count": 933,
   "stories": [
+    {
+      "slug": "sk-hynix-has-a-4-billion-problem-intel-could-help-so-895e053c",
+      "url": "/stories/sk-hynix-has-a-4-billion-problem-intel-could-help-so-895e053c.html",
+      "title": "SK Hynix has a $4 billion problem Intel could help solve - thestreet.com",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "thestreet.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-reportedly-preparing-8p-8e-039-039-raptor-lake-1d1de515",
+      "url": "/stories/intel-reportedly-preparing-8p-8e-039-039-raptor-lake-1d1de515.html",
+      "title": "Intel Reportedly Preparing 8P+8E &#039;&#039;Raptor Lake Next\" Chip to Replace Core i5-14600K",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "u-s-awards-anderon-1b-for-quantum-wafer-manufacturin-a299a67d",
+      "url": "/stories/u-s-awards-anderon-1b-for-quantum-wafer-manufacturin-a299a67d.html",
+      "title": "U.S. Awards Anderon $1B for Quantum Wafer Manufacturing",
+      "tag": "fab",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "samsung-to-outsource-all-of-its-dram-manufacturing-a-61a82475",
       "url": "/stories/samsung-to-outsource-all-of-its-dram-manufacturing-a-61a82475.html",
@@ -110,6 +143,17 @@
       "score": 8,
       "pick": false,
       "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "why-a-stronger-dram-doesn-t-necessarily-lead-to-lowe-14f1f295",
+      "url": "/stories/why-a-stronger-dram-doesn-t-necessarily-lead-to-lowe-14f1f295.html",
+      "title": "Why a stronger dram doesn't necessarily lead to lower prices for imported goods - 5 factors - Arka.am",
+      "tag": "supply",
+      "date": "2026-09-17",
+      "score": 8,
+      "pick": false,
+      "source": "Arka.am",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
