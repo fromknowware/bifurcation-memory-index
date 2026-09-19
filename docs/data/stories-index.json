@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-19T15:51:46.335Z",
-  "count": 982,
+  "generatedAt": "2026-09-19T20:37:57.959Z",
+  "count": 984,
   "stories": [
+    {
+      "slug": "ai-in-chip-design-from-code-generation-to-eda-orches-b5354ec7",
+      "url": "/stories/ai-in-chip-design-from-code-generation-to-eda-orches-b5354ec7.html",
+      "title": "AI in Chip Design: From Code Generation to EDA Orchestration (University of Edinburgh)",
+      "tag": "supply",
+      "date": "2026-09-19",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-mu-unveils-breakthrough-memory-product-it-say-8a33a409",
+      "url": "/stories/micron-mu-unveils-breakthrough-memory-product-it-say-8a33a409.html",
+      "title": "Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market - Insider Monkey",
+      "tag": "supply",
+      "date": "2026-09-19",
+      "score": 8,
+      "pick": false,
+      "source": "Insider Monkey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "citi-forecasts-widening-memory-chip-shortages-throug-a1e967a6",
       "url": "/stories/citi-forecasts-widening-memory-chip-shortages-throug-a1e967a6.html",
