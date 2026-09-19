@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-19T04:35:10.580Z",
-  "count": 977,
+  "generatedAt": "2026-09-19T10:56:16.647Z",
+  "count": 978,
   "stories": [
     {
       "slug": "kioxia-xl1-cxl-xl-flash-nand-device-shown-9908a689",
@@ -78,6 +78,17 @@
       "pick": false,
       "source": "The Register",
       "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "micron-stock-rises-as-rbc-sees-ai-memory-demand-supp-9980cca6",
+      "url": "/stories/micron-stock-rises-as-rbc-sees-ai-memory-demand-supp-9980cca6.html",
+      "title": "Micron stock rises as RBC sees AI memory demand supporting valuation - TradingView",
+      "tag": "demand",
+      "date": "2026-09-18",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "sk-hynix-in-talks-with-intel-to-make-memory-chips-in-f571c826",
