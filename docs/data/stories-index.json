@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-19T10:56:16.647Z",
-  "count": 978,
+  "generatedAt": "2026-09-19T15:51:46.335Z",
+  "count": 982,
   "stories": [
+    {
+      "slug": "citi-forecasts-widening-memory-chip-shortages-throug-a1e967a6",
+      "url": "/stories/citi-forecasts-widening-memory-chip-shortages-throug-a1e967a6.html",
+      "title": "Citi Forecasts Widening Memory Chip Shortages Through 2031 as AI Demand Expands - Yahoo Finance",
+      "tag": "demand",
+      "date": "2026-09-19",
+      "score": 7,
+      "pick": false,
+      "source": "Yahoo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "tsmc-s-operations-boss-says-ai-cannot-fully-overcome-a65f6bb3",
+      "url": "/stories/tsmc-s-operations-boss-says-ai-cannot-fully-overcome-a65f6bb3.html",
+      "title": "TSMC’s Operations Boss Says AI Cannot Fully Overcome Limitations To Design Next-Generation Chip Manufacturing Tech Such as 1.4-nanometer Node",
+      "tag": "fab",
+      "date": "2026-09-19",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "this-week-on-tom-s-hardware-premium-september-19-202-a6535509",
+      "url": "/stories/this-week-on-tom-s-hardware-premium-september-19-202-a6535509.html",
+      "title": "This week on Tom's Hardware Premium: September 19, 2026 — Steam Frame interview, killer AI models, and the DRAM crisis deepens",
+      "tag": "supply",
+      "date": "2026-09-19",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "kioxia-xl1-cxl-xl-flash-nand-device-shown-9908a689",
       "url": "/stories/kioxia-xl1-cxl-xl-flash-nand-device-shown-9908a689.html",
@@ -56,6 +89,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-in-talks-with-intel-on-us-memory-chip-produ-0e5e67b1",
+      "url": "/stories/sk-hynix-in-talks-with-intel-on-us-memory-chip-produ-0e5e67b1.html",
+      "title": "SK Hynix in talks with Intel on US memory chip production - indiagazette.com",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "indiagazette.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "nvidia-s-doubling-promise-has-two-bottlenecks-memory-9645fe08",

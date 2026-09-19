@@ -5,11 +5,50 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-19T10:56:14.402Z</updated>
+  <updated>2026-09-19T15:51:44.325Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMioAFBVV95cUxQVC1sTElMZ3liZGNHNUJnNUhhUEZ2di16cUZvVDNDY2E1ZXFkd1FFMFlvX1NiQ3RkbmJJSkd3aVkwRlZOZE1ibjF4QWlST3BSQ3F1VVpacE1KQUhIZGVKTnFfekpYazZOclFnVU5jTXBtTkwzNDV6azlwR2kyQmlDSnk4c3l2VU95dFM5QnBTTmtVRlNCTTB1ZTB2amdoWUVP?oc=5</id>
+    <title type="html">Citi Forecasts Widening Memory Chip Shortages Through 2031 as AI Demand Expands - Yahoo Finance</title>
+    <link href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQVC1sTElMZ3liZGNHNUJnNUhhUEZ2di16cUZvVDNDY2E1ZXFkd1FFMFlvX1NiQ3RkbmJJSkd3aVkwRlZOZE1ibjF4QWlST3BSQ3F1VVpacE1KQUhIZGVKTnFfekpYazZOclFnVU5jTXBtTkwzNDV6azlwR2kyQmlDSnk4c3l2VU95dFM5QnBTTmtVRlNCTTB1ZTB2amdoWUVP?oc=5" />
+    <link rel="related" href="/stories/citi-forecasts-widening-memory-chip-shortages-throug-a1e967a6.html" />
+    <updated>2026-09-19T14:54:45.000Z</updated>
+    <author><name>Yahoo Finance</name></author>
+    <summary type="html">Citi Forecasts Widening Memory Chip Shortages Through 2031 as AI Demand Expands Yahoo Finance RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Citi Forecasts Widening Memory Chip Shortages Through 2031 as AI Demand Expands Yahoo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/tsmcs-operations-boss-says-ai-cannot-fully-overcome-limitations-to-design-next-generation-chip-manufacturing-tech-such-as-1-4-nanometer-node/</id>
+    <title type="html">TSMC’s Operations Boss Says AI Cannot Fully Overcome Limitations To Design Next-Generation Chip Manufacturing Tech Such as 1.4-nanometer Node</title>
+    <link href="https://wccftech.com/tsmcs-operations-boss-says-ai-cannot-fully-overcome-limitations-to-design-next-generation-chip-manufacturing-tech-such-as-1-4-nanometer-node/" />
+    <link rel="related" href="/stories/tsmc-s-operations-boss-says-ai-cannot-fully-overcome-a65f6bb3.html" />
+    <updated>2026-09-19T13:26:30.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">The Taiwan Semiconductor Manufacturing Company (TSMC)'s co-chief operating officer, Y. J. Mii, believes that artificial intelligence is akin to a three-year-old Superman. The executive made the remarks while speaking to students of the National Taiwan University and his remarks came as the debate about AI intensifies following remarks by executives and media reports of rogue software. Mii insisted RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;The Taiwan Semiconductor Manufacturing Company (TSMC)'s co-chief operating officer, Y. J. Mii, believes that artificial intelligence is akin to a three-year-old Superman. The executive made the remarks while speaking to students of the National Taiwan University and his remarks came as the debate about AI intensifies following remarks by executives and media reports of rogue software. Mii insisted&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-september-19-2026-steam-frame-interview-killer-ai-models-and-the-dram-crisis-deepens</id>
+    <title type="html">This week on Tom's Hardware Premium: September 19, 2026 — Steam Frame interview, killer AI models, and the DRAM crisis deepens</title>
+    <link href="https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-september-19-2026-steam-frame-interview-killer-ai-models-and-the-dram-crisis-deepens" />
+    <link rel="related" href="/stories/this-week-on-tom-s-hardware-premium-september-19-202-a6535509.html" />
+    <updated>2026-09-19T12:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.servethehome.com/kioxia-xl1-cxl-xl-flash-nand-device-shown/</id>
     <title type="html">Kioxia XL1 CXL XL-FLASH NAND Device Shown</title>
@@ -76,6 +115,19 @@
     <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
+    <id>https://news.google.com/rss/articles/CBMiowFBVV95cUxQQVphVUY5ejBlY1lseHlaQmxsc00wSHpWQks0UXZsWVQ0WlRTYkxSam9zeFBfcXozOEpIdTFhcjI2Y2NvbnRwN293Z0NLWXRGRjBGX3llbzV0TzRHLWNuY0dzS0ZQUEdOZW9NNVBuOGZXai01Rm5CUUR0czJnRU9qbEhEYVhhc1RZNWF2ZllPRzMxdk1EQ0owWlVyaHp3WWx3Rktr?oc=5</id>
+    <title type="html">SK Hynix in talks with Intel on US memory chip production - indiagazette.com</title>
+    <link href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQQVphVUY5ejBlY1lseHlaQmxsc00wSHpWQks0UXZsWVQ0WlRTYkxSam9zeFBfcXozOEpIdTFhcjI2Y2NvbnRwN293Z0NLWXRGRjBGX3llbzV0TzRHLWNuY0dzS0ZQUEdOZW9NNVBuOGZXai01Rm5CUUR0czJnRU9qbEhEYVhhc1RZNWF2ZllPRzMxdk1EQ0owWlVyaHp3WWx3Rktr?oc=5" />
+    <link rel="related" href="/stories/sk-hynix-in-talks-with-intel-on-us-memory-chip-produ-0e5e67b1.html" />
+    <updated>2026-09-18T21:24:00.000Z</updated>
+    <author><name>indiagazette.com</name></author>
+    <summary type="html">SK Hynix in talks with Intel on US memory chip production indiagazette.com RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;SK Hynix in talks with Intel on US memory chip production indiagazette.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <id>https://news.google.com/rss/articles/CBMizwFBVV95cUxOdm9kVGtBcmNtZngzWmxxQVhIakFKUHJHUGRpc29LejI4akFDWk5YYXZJTEZZWUhacF90SkwxSU1va2p3RlFwU1poMHdzb2FqZGJhOS1WbUVkOFpqZUxCSU9KZWcxZmtiVFJuQm9iM2NOZEFFTnZsYkxBOVd1RElXVWRlekt3WTFwYTkxcTJtWm02eDlRNjhWRDV3QWRzUWxMZmRndXYycDA5YklRakI1RE9tSFdpY3ZyaFg2eWExZTdKUWFSR0x5TGllX3hmOG8?oc=5</id>
     <title type="html">Nvidia's Doubling Promise Has Two Bottlenecks: Memory Chips and Substations - AD HOC NEWS</title>
     <link href="https://news.google.com/rss/articles/CBMizwFBVV95cUxOdm9kVGtBcmNtZngzWmxxQVhIakFKUHJHUGRpc29LejI4akFDWk5YYXZJTEZZWUhacF90SkwxSU1va2p3RlFwU1poMHdzb2FqZGJhOS1WbUVkOFpqZUxCSU9KZWcxZmtiVFJuQm9iM2NOZEFFTnZsYkxBOVd1RElXVWRlekt3WTFwYTkxcTJtWm02eDlRNjhWRDV3QWRzUWxMZmRndXYycDA5YklRakI1RE9tSFdpY3ZyaFg2eWExZTdKUWFSR0x5TGllX3hmOG8?oc=5" />
@@ -112,7 +164,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Micron stock rises as RBC sees AI memory demand supporting valuation TradingView&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron stock rises as RBC sees AI memory demand supporting valuation TradingView&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNWsxZGRWVEVBSXRGOXN1Mnl4TnpPYm9GR3VSRG9uTHBqUy1tQnpvcldJNG9hOEk0MmNXTXdvdEd6RFhsRndWMFFsYl9NQ252SmE2eldHWllTMFlxcHRMc1RmM1NYYV9FeXU2bWNxZ01kQVc4XzZKNEFwdGV6SGhWLUVDUGxWX0hucFY5cGgxWEJlTnZLT0xJbDRKU25Sb0YyS3BoWWh2NnVNMXAzdUI4OEdlaTUtemgz?oc=5</id>
