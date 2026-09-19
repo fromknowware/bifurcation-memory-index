@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-09-18T20:53:05.041Z",
-  "count": 969,
+  "generatedAt": "2026-09-19T04:35:10.580Z",
+  "count": 977,
   "stories": [
+    {
+      "slug": "kioxia-xl1-cxl-xl-flash-nand-device-shown-9908a689",
+      "url": "/stories/kioxia-xl1-cxl-xl-flash-nand-device-shown-9908a689.html",
+      "title": "Kioxia XL1 CXL XL-FLASH NAND Device Shown",
+      "tag": "supply",
+      "date": "2026-09-19",
+      "score": 8,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "you-have-a-limited-window-to-grab-apple-s-14-inch-m5-f76783c3",
+      "url": "/stories/you-have-a-limited-window-to-grab-apple-s-14-inch-m5-f76783c3.html",
+      "title": "You Have A Limited Window To Grab Apple’s 14-Inch M5 MacBook Pro With 24GB Unified Memory And A 1TB SSD From B&H for $1,899 After A Whopping $320 Discount",
+      "tag": "supply",
+      "date": "2026-09-19",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chinese-dram-maker-cxmt-is-reportedly-preparing-to-e-6adf6e85",
+      "url": "/stories/chinese-dram-maker-cxmt-is-reportedly-preparing-to-e-6adf6e85.html",
+      "title": "Chinese DRAM Maker CXMT Is Reportedly Preparing to Enter the NAND Flash Market",
+      "tag": "fab",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "intel-puts-high-na-euv-into-production-but-stitching-35250e88",
+      "url": "/stories/intel-puts-high-na-euv-into-production-but-stitching-35250e88.html",
+      "title": "Intel Puts High-NA EUV into Production, but Stitching Still Has Something to Prove",
+      "tag": "fab",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "amd-shares-first-official-benchmarks-for-epyc-venice-91fe3a78",
+      "url": "/stories/amd-shares-first-official-benchmarks-for-epyc-venice-91fe3a78.html",
+      "title": "AMD shares first official benchmarks for EPYC 'Venice' CPUs, targets Nvidia — company claims 256-core chip is more than twice as fast as Nvidia Vera, 96-core model 20% faster per-core",
+      "tag": "demand",
+      "date": "2026-09-18",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "nvidia-s-doubling-promise-has-two-bottlenecks-memory-9645fe08",
       "url": "/stories/nvidia-s-doubling-promise-has-two-bottlenecks-memory-9645fe08.html",
@@ -12,6 +67,17 @@
       "pick": false,
       "source": "AD HOC NEWS",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "compsci-grads-facing-recession-like-job-prospects-th-b94f8ee8",
+      "url": "/stories/compsci-grads-facing-recession-like-job-prospects-th-b94f8ee8.html",
+      "title": "Compsci grads facing recession-like job prospects thanks to AI",
+      "tag": "macro",
+      "date": "2026-09-18",
+      "score": 6,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
     },
     {
       "slug": "sk-hynix-in-talks-with-intel-to-make-memory-chips-in-f571c826",
@@ -146,6 +212,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "intel-s-ohio-lifeline-why-the-sk-hynix-talks-matter-b84f5454",
+      "url": "/stories/intel-s-ohio-lifeline-why-the-sk-hynix-talks-matter-b84f5454.html",
+      "title": "Intel's Ohio Lifeline? Why the SK Hynix Talks Matter - TradingView",
+      "tag": "supply",
+      "date": "2026-09-18",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "ai-demand-will-keep-dram-market-under-pressure-e140230a",
       "url": "/stories/ai-demand-will-keep-dram-market-under-pressure-e140230a.html",
       "title": "AI Demand Will Keep DRAM Market Under Pressure",
@@ -177,6 +254,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-is-still-22-below-its-all-time-high-heading-i-847f0520",
+      "url": "/stories/micron-is-still-22-below-its-all-time-high-heading-i-847f0520.html",
+      "title": "Micron Is Still 22% Below Its All-Time High Heading Into Earnings -- Buying Opportunity or Warning Sign? - The Motley Fool",
+      "tag": "earnings",
+      "date": "2026-09-18",
+      "score": 7,
+      "pick": false,
+      "source": "The Motley Fool",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "sk-hynix-s-solidigm-unit-is-weighing-nand-memory-chi-f5622125",
