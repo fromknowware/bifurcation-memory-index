@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-20T16:03:38.184Z",
-  "count": 990,
+  "generatedAt": "2026-09-20T20:47:33.771Z",
+  "count": 994,
   "stories": [
+    {
+      "slug": "acer-warns-pc-prices-could-rise-by-up-to-20-despite-3156515a",
+      "url": "/stories/acer-warns-pc-prices-could-rise-by-up-to-20-despite-3156515a.html",
+      "title": "Acer warns PC prices could rise by up to 20% despite improving memory supply - tweaktown.com",
+      "tag": "supply",
+      "date": "2026-09-20",
+      "score": 8,
+      "pick": false,
+      "source": "tweaktown.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-prices-may-peak-in-mid-2027-acer-chairman-jas-8ed3e0b0",
+      "url": "/stories/memory-prices-may-peak-in-mid-2027-acer-chairman-jas-8ed3e0b0.html",
+      "title": "Memory Prices May Peak in Mid-2027? Acer Chairman Jason Chen: Samsung, SK Hynix, Micron Call for Price Hikes Merely to Control Prices - TradingKey",
+      "tag": "supply",
+      "date": "2026-09-20",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "acer-chairman-jason-chen-declares-memory-shortage-ca-8175b07f",
       "url": "/stories/acer-chairman-jason-chen-declares-memory-shortage-ca-8175b07f.html",
@@ -25,6 +47,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "ai-is-eating-the-memory-supply-chain-and-samsung-s-l-cffc59aa",
+      "url": "/stories/ai-is-eating-the-memory-supply-chain-and-samsung-s-l-cffc59aa.html",
+      "title": "AI Is Eating the Memory Supply Chain, and Samsung’s Latest Move Shows How - Memeburn",
+      "tag": "supply",
+      "date": "2026-09-20",
+      "score": 8,
+      "pick": false,
+      "source": "Memeburn",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "solidigm-reportedly-plans-its-first-nand-fab-in-the-6312bf9d",
       "url": "/stories/solidigm-reportedly-plans-its-first-nand-fab-in-the-6312bf9d.html",
       "title": "Solidigm Reportedly Plans Its First NAND Fab in the United States",
@@ -34,6 +67,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "china-s-cxmt-begins-mass-production-of-5th-gen-dram-f512e55a",
+      "url": "/stories/china-s-cxmt-begins-mass-production-of-5th-gen-dram-f512e55a.html",
+      "title": "China's CXMT Begins Mass Production of 5th-Gen DRAM, Unveils 24Gb LPDDR5X in Pursuit of Samsung, SK Hynix - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-20",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "skyrocketing-memory-prices-forcing-tech-giants-to-be-187367ff",
