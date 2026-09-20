@@ -5,11 +5,24 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-20T04:51:54.078Z</updated>
+  <updated>2026-09-20T11:20:28.322Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.techpowerup.com/352855/solidigm-reportedly-plans-its-first-nand-fab-in-the-united-states</id>
+    <title type="html">Solidigm Reportedly Plans Its First NAND Fab in the United States</title>
+    <link href="https://www.techpowerup.com/352855/solidigm-reportedly-plans-its-first-nand-fab-in-the-united-states" />
+    <link rel="related" href="/stories/solidigm-reportedly-plans-its-first-nand-fab-in-the-6312bf9d.html" />
+    <updated>2026-09-20T09:26:37.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">SK hynix subsidiary Solidigm is reportedly planning to open its first NAND Flash manufacturing facility in the United States. To address global supply chain challenges, SK hynix is exploring ways to expand its production capabilities worldwide and create a more resilient operation against geopolitical events. Currently, Solidigm operates in the United States with its headquarters and R&amp;D center, w RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;SK hynix subsidiary Solidigm is reportedly planning to open its first NAND Flash manufacturing facility in the United States. To address global supply chain challenges, SK hynix is exploring ways to expand its production capabilities worldwide and create a more resilient operation against geopolitical events. Currently, Solidigm operates in the United States with its headquarters and R&amp;D center, w&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0anJ0cktDUkhFQU9YZWZycVhoQkJfUERCYWR4cEphX1dlT0tUMERrZEdtUFkwMDZaOGg0ckRZZXoyUGFUdG43UTZIcmZpUmlYLWFR?oc=5</id>
     <title type="html">Skyrocketing Memory Prices Forcing Tech Giants to Become Hardware Scavengers? Google Dismantling Old Servers Amid Critical Shortage - 36Kr</title>
@@ -21,7 +34,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Skyrocketing Memory Prices Forcing Tech Giants to Become Hardware Scavengers? Google Dismantling Old Servers Amid Critical Shortage 36Kr&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Skyrocketing Memory Prices Forcing Tech Giants to Become Hardware Scavengers? Google Dismantling Old Servers Amid Critical Shortage 36Kr&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://semiengineering.com/ai-in-chip-design-from-code-generation-to-eda-orchestration-university-of-edinburgh/</id>
@@ -47,7 +60,7 @@
     <category term="google-news:DDR5 market" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market Yahoo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market Yahoo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMixAFBVV95cUxQSEFxeW5TcnpLd0NZYUVOcjJkNk9XQW9teXRySVBGZGZnX0Z6S1NoOTJQZDY0b1RhUlBjSzR5azlrejJOV2hRTWs3MnVJb2JEUndlV08tVy0xb29ZTFdidFRpZ3JuUThoQjBSVm9Udnk2b1EwcXcwRkk4cnM5VEc3VXJvaVVDQkp1cU10MFhBWHYtQUc5Q3hUYjVzamY2NkRHM0ZZM3FDenRPVXY5S21Zc1ppbDd6MlpVTTlaZ2ExNGQ1YW9M0gHMAUFVX3lxTFBleExBcXhFVUt5NTJDWlFCX01ubll1dkRuNlhxNGg2TnlVMG1QaWc5alRzRXc1RDloUlQwV0prS2U4WjJUSzFqOVRUNHNWbUhPQTdUUWhhcjhRdW9OaXRpNzljVnBvNzBPVXRpaDBaZDl3N1pSWUR5UzdUZzc4aERtLWN2b19mSm9aOG9lb1d3S01Qc3FRVlpQX3VTUmk1cVFnYkZfX0hWaGxIVjZTWHZSTUhCNVVncVZhMTZ6bFljUlV1aGc2V3JiQW1YNQ?oc=5</id>
