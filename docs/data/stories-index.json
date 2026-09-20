@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-20T11:20:30.262Z",
-  "count": 987,
+  "generatedAt": "2026-09-20T16:03:38.184Z",
+  "count": 990,
   "stories": [
+    {
+      "slug": "acer-chairman-jason-chen-declares-memory-shortage-ca-8175b07f",
+      "url": "/stories/acer-chairman-jason-chen-declares-memory-shortage-ca-8175b07f.html",
+      "title": "Acer Chairman Jason Chen Declares Memory Shortage Can’t Last Until 2030, Yet Prices Still Climb Before Mid-2027 Relief",
+      "tag": "earnings",
+      "date": "2026-09-20",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "amd-s-new-ray-tracing-technique-slashes-bvh-memory-u-5215ca15",
+      "url": "/stories/amd-s-new-ray-tracing-technique-slashes-bvh-memory-u-5215ca15.html",
+      "title": "AMD’s New Ray Tracing Technique Slashes BVH Memory Usage From 80 GB to Just 1.7 GB, Runs 500 Million Animated Triangles at 60+ FPS on RX 9070 XT",
+      "tag": "supply",
+      "date": "2026-09-20",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "solidigm-reportedly-plans-its-first-nand-fab-in-the-6312bf9d",
       "url": "/stories/solidigm-reportedly-plans-its-first-nand-fab-in-the-6312bf9d.html",
@@ -22,6 +44,17 @@
       "score": 8,
       "pick": false,
       "source": "36Kr",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "steam-deck-price-increase-hits-46-amid-dram-crisis-t-87c11787",
+      "url": "/stories/steam-deck-price-increase-hits-46-amid-dram-crisis-t-87c11787.html",
+      "title": "Steam Deck Price Increase Hits 46% Amid DRAM Crisis - tech-insider.org",
+      "tag": "supply",
+      "date": "2026-09-20",
+      "score": 8,
+      "pick": false,
+      "source": "tech-insider.org",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {

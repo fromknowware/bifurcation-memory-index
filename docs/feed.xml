@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-20T11:20:28.322Z</updated>
+  <updated>2026-09-20T16:03:36.348Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://wccftech.com/acer-chairman-jason-chen-declares-memory-shortage-cant-last-until-2030/</id>
+    <title type="html">Acer Chairman Jason Chen Declares Memory Shortage Can’t Last Until 2030, Yet Prices Still Climb Before Mid-2027 Relief</title>
+    <link href="https://wccftech.com/acer-chairman-jason-chen-declares-memory-shortage-cant-last-until-2030/" />
+    <link rel="related" href="/stories/acer-chairman-jason-chen-declares-memory-shortage-ca-8175b07f.html" />
+    <updated>2026-09-20T14:54:00.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Acer predicts market stability after Mid-2027, but the PC component prices will continue to rise till then. PC Prices Expected to Rise by 5-20% in Q4 2026, Followed by More Hikes in 2027 Before Hitting Stability in Second Half We all have been waiting for PC component prices to decline, but the current pricing trend clearly shows that we are far away from that point. We have been reporting new pri RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="opml" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Acer predicts market stability after Mid-2027, but the PC component prices will continue to rise till then. PC Prices Expected to Rise by 5-20% in Q4 2026, Followed by More Hikes in 2027 Before Hitting Stability in Second Half We all have been waiting for PC component prices to decline, but the current pricing trend clearly shows that we are far away from that point. We have been reporting new pri&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/amds-new-ray-tracing-technique-slashes-bvh-memory-usage-from-80-gb-to-just-1-7-gb-runs-500-million-animated-triangles-at-60-fps-on-rx-9070-xt/</id>
+    <title type="html">AMD’s New Ray Tracing Technique Slashes BVH Memory Usage From 80 GB to Just 1.7 GB, Runs 500 Million Animated Triangles at 60+ FPS on RX 9070 XT</title>
+    <link href="https://wccftech.com/amds-new-ray-tracing-technique-slashes-bvh-memory-usage-from-80-gb-to-just-1-7-gb-runs-500-million-animated-triangles-at-60-fps-on-rx-9070-xt/" />
+    <link rel="related" href="/stories/amd-s-new-ray-tracing-technique-slashes-bvh-memory-u-5215ca15.html" />
+    <updated>2026-09-20T14:50:05.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">AMD has showcased a particularly impressive graphics research breakthrough that could significantly reduce the memory and computational costs associated with ray tracing complex animated environments. Its tetrahedral cage technique allows hundreds of millions of independently animated triangles to be ray traced in real time without the enormous acceleration structure (AKA Bounding Volume Hierarchy RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;AMD has showcased a particularly impressive graphics research breakthrough that could significantly reduce the memory and computational costs associated with ray tracing complex animated environments. Its tetrahedral cage technique allows hundreds of millions of independently animated triangles to be ray traced in real time without the enormous acceleration structure (AKA Bounding Volume Hierarchy&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.techpowerup.com/352855/solidigm-reportedly-plans-its-first-nand-fab-in-the-united-states</id>
     <title type="html">Solidigm Reportedly Plans Its First NAND Fab in the United States</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;SK hynix subsidiary Solidigm is reportedly planning to open its first NAND Flash manufacturing facility in the United States. To address global supply chain challenges, SK hynix is exploring ways to expand its production capabilities worldwide and create a more resilient operation against geopolitical events. Currently, Solidigm operates in the United States with its headquarters and R&amp;D center, w&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SK hynix subsidiary Solidigm is reportedly planning to open its first NAND Flash manufacturing facility in the United States. To address global supply chain challenges, SK hynix is exploring ways to expand its production capabilities worldwide and create a more resilient operation against geopolitical events. Currently, Solidigm operates in the United States with its headquarters and R&amp;D center, w&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0anJ0cktDUkhFQU9YZWZycVhoQkJfUERCYWR4cEphX1dlT0tUMERrZEdtUFkwMDZaOGg0ckRZZXoyUGFUdG43UTZIcmZpUmlYLWFR?oc=5</id>
@@ -35,6 +61,19 @@
     <category term="tag:supply" />
     
     <content type="html">&lt;p&gt;Skyrocketing Memory Prices Forcing Tech Giants to Become Hardware Scavengers? Google Dismantling Old Servers Amid Critical Shortage 36Kr&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMid0FVX3lxTE9zRXpzakE1TzNqMjZWQXoyMF90aGhkbVV3cnByZWhDZms2LVhvRnJlZzltNl82bFN3VUFiOHZnYVl0TUh5X1g5WUdON3B4bWczdXg2UVh3OWNuQkMtUXZDQmw0RnhIZHpmRnhVcXRjTEowTTh3aklZ?oc=5</id>
+    <title type="html">Steam Deck Price Increase Hits 46% Amid DRAM Crisis - tech-insider.org</title>
+    <link href="https://news.google.com/rss/articles/CBMid0FVX3lxTE9zRXpzakE1TzNqMjZWQXoyMF90aGhkbVV3cnByZWhDZms2LVhvRnJlZzltNl82bFN3VUFiOHZnYVl0TUh5X1g5WUdON3B4bWczdXg2UVh3OWNuQkMtUXZDQmw0RnhIZHpmRnhVcXRjTEowTTh3aklZ?oc=5" />
+    <link rel="related" href="/stories/steam-deck-price-increase-hits-46-amid-dram-crisis-t-87c11787.html" />
+    <updated>2026-09-20T01:27:49.000Z</updated>
+    <author><name>tech-insider.org</name></author>
+    <summary type="html">Steam Deck Price Increase Hits 46% Amid DRAM Crisis tech-insider.org RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Steam Deck Price Increase Hits 46% Amid DRAM Crisis tech-insider.org&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://semiengineering.com/ai-in-chip-design-from-code-generation-to-eda-orchestration-university-of-edinburgh/</id>
