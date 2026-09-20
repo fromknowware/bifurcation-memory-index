@@ -5,11 +5,24 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-19T20:37:55.561Z</updated>
+  <updated>2026-09-20T04:51:54.078Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0anJ0cktDUkhFQU9YZWZycVhoQkJfUERCYWR4cEphX1dlT0tUMERrZEdtUFkwMDZaOGg0ckRZZXoyUGFUdG43UTZIcmZpUmlYLWFR?oc=5</id>
+    <title type="html">Skyrocketing Memory Prices Forcing Tech Giants to Become Hardware Scavengers? Google Dismantling Old Servers Amid Critical Shortage - 36Kr</title>
+    <link href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0anJ0cktDUkhFQU9YZWZycVhoQkJfUERCYWR4cEphX1dlT0tUMERrZEdtUFkwMDZaOGg0ckRZZXoyUGFUdG43UTZIcmZpUmlYLWFR?oc=5" />
+    <link rel="related" href="/stories/skyrocketing-memory-prices-forcing-tech-giants-to-be-187367ff.html" />
+    <updated>2026-09-20T04:23:30.000Z</updated>
+    <author><name>36Kr</name></author>
+    <summary type="html">Skyrocketing Memory Prices Forcing Tech Giants to Become Hardware Scavengers? Google Dismantling Old Servers Amid Critical Shortage 36Kr RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Skyrocketing Memory Prices Forcing Tech Giants to Become Hardware Scavengers? Google Dismantling Old Servers Amid Critical Shortage 36Kr&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://semiengineering.com/ai-in-chip-design-from-code-generation-to-eda-orchestration-university-of-edinburgh/</id>
     <title type="html">AI in Chip Design: From Code Generation to EDA Orchestration (University of Edinburgh)</title>
@@ -21,7 +34,20 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Researchers at the University of Edinburgh published a technical perspective titled “LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration.” Abstract Excerpt: “In this Perspective, we instead define three hierarchical roles that reveal how capability accumulates: a Generator that produces design artifacts in a single pass, an Agent that refines outputs... » read mor&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Researchers at the University of Edinburgh published a technical perspective titled “LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration.” Abstract Excerpt: “In this Perspective, we instead define three hierarchical roles that reveal how capability accumulates: a Generator that produces design artifacts in a single pass, an Agent that refines outputs... » read mor&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMinwFBVV95cUxOUGRWY0dOS3J1QndQQzVNems4VFBITXEzMW56Tk84MDVoRVExMm05V0hlcG5tRkxOTGh0M1RrU1hyRUZHdnp5bzBaX2tFRzFDX2NZX0VXdU9sdXk2V0lUWmRQX0Z5QkV1RmdIZXoyWV9mTUVsMk0teEF3S1NZYVRMeXVCdXY5dnJZTlM0VGg1X3BmNm0td3dUWWQ1dlJDV00?oc=5</id>
+    <title type="html">Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market - Yahoo Finance</title>
+    <link href="https://news.google.com/rss/articles/CBMinwFBVV95cUxOUGRWY0dOS3J1QndQQzVNems4VFBITXEzMW56Tk84MDVoRVExMm05V0hlcG5tRkxOTGh0M1RrU1hyRUZHdnp5bzBaX2tFRzFDX2NZX0VXdU9sdXk2V0lUWmRQX0Z5QkV1RmdIZXoyWV9mTUVsMk0teEF3S1NZYVRMeXVCdXY5dnJZTlM0VGg1X3BmNm0td3dUWWQ1dlJDV00?oc=5" />
+    <link rel="related" href="/stories/micron-mu-unveils-breakthrough-memory-product-it-say-5642746e.html" />
+    <updated>2026-09-19T17:11:52.000Z</updated>
+    <author><name>Yahoo Finance</name></author>
+    <summary type="html">Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market Yahoo Finance RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DDR5 market" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market Yahoo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMixAFBVV95cUxQSEFxeW5TcnpLd0NZYUVOcjJkNk9XQW9teXRySVBGZGZnX0Z6S1NoOTJQZDY0b1RhUlBjSzR5azlrejJOV2hRTWs3MnVJb2JEUndlV08tVy0xb29ZTFdidFRpZ3JuUThoQjBSVm9Udnk2b1EwcXcwRkk4cnM5VEc3VXJvaVVDQkp1cU10MFhBWHYtQUc5Q3hUYjVzamY2NkRHM0ZZM3FDenRPVXY5S21Zc1ppbDd6MlpVTTlaZ2ExNGQ1YW9M0gHMAUFVX3lxTFBleExBcXhFVUt5NTJDWlFCX01ubll1dkRuNlhxNGg2TnlVMG1QaWc5alRzRXc1RDloUlQwV0prS2U4WjJUSzFqOVRUNHNWbUhPQTdUUWhhcjhRdW9OaXRpNzljVnBvNzBPVXRpaDBaZDl3N1pSWUR5UzdUZzc4aERtLWN2b19mSm9aOG9lb1d3S01Qc3FRVlpQX3VTUmk1cVFnYkZfX0hWaGxIVjZTWHZSTUhCNVVncVZhMTZ6bFljUlV1aGc2V3JiQW1YNQ?oc=5</id>
@@ -34,7 +60,7 @@
     <category term="google-news:DDR5 market" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market Insider Monkey&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market Insider Monkey&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMioAFBVV95cUxQVC1sTElMZ3liZGNHNUJnNUhhUEZ2di16cUZvVDNDY2E1ZXFkd1FFMFlvX1NiQ3RkbmJJSkd3aVkwRlZOZE1ibjF4QWlST3BSQ3F1VVpacE1KQUhIZGVKTnFfekpYazZOclFnVU5jTXBtTkwzNDV6azlwR2kyQmlDSnk4c3l2VU95dFM5QnBTTmtVRlNCTTB1ZTB2amdoWUVP?oc=5</id>

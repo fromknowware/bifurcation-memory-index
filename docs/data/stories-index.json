@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-19T20:37:57.959Z",
-  "count": 984,
+  "generatedAt": "2026-09-20T04:51:55.987Z",
+  "count": 986,
   "stories": [
+    {
+      "slug": "skyrocketing-memory-prices-forcing-tech-giants-to-be-187367ff",
+      "url": "/stories/skyrocketing-memory-prices-forcing-tech-giants-to-be-187367ff.html",
+      "title": "Skyrocketing Memory Prices Forcing Tech Giants to Become Hardware Scavengers? Google Dismantling Old Servers Amid Critical Shortage - 36Kr",
+      "tag": "supply",
+      "date": "2026-09-20",
+      "score": 8,
+      "pick": false,
+      "source": "36Kr",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "ai-in-chip-design-from-code-generation-to-eda-orches-b5354ec7",
       "url": "/stories/ai-in-chip-design-from-code-generation-to-eda-orches-b5354ec7.html",
@@ -11,6 +22,17 @@
       "score": 8,
       "pick": false,
       "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-mu-unveils-breakthrough-memory-product-it-say-5642746e",
+      "url": "/stories/micron-mu-unveils-breakthrough-memory-product-it-say-5642746e.html",
+      "title": "Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market - Yahoo Finance",
+      "tag": "supply",
+      "date": "2026-09-19",
+      "score": 8,
+      "pick": false,
+      "source": "Yahoo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
