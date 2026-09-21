@@ -5,11 +5,206 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-21T04:52:55.985Z</updated>
+  <updated>2026-09-21T12:44:57.914Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/china-crafts-working-3nm-gate-all-around-transistors-without-euv-stacked-nanosheets-target-3nm-without-euv-but-full-node-remains-distant</id>
+    <title type="html">China crafts working 3nm gate-all-around transistors without EUV — stacked nanosheets target 3nm without EUV, but full node remains distant</title>
+    <link href="https://www.tomshardware.com/tech-industry/china-crafts-working-3nm-gate-all-around-transistors-without-euv-stacked-nanosheets-target-3nm-without-euv-but-full-node-remains-distant" />
+    <link rel="related" href="/stories/china-crafts-working-3nm-gate-all-around-transistors-fb94c26e.html" />
+    <updated>2026-09-21T12:30:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMirwFBVV95cUxOcU8xUWF0ampualhBRHNxekNSbG1YQnlURTNYbGRSTXVqUk5mMWRFQ2FqcGRLaUlDVWtlOGlQTnNOV3pmbGtLRHRXN1lBdWJRa0E3NS1BR09uZnJfZTRWOEVNdlNDdXNpYnZEWGVMNXNNNWdheVdNaFZvY2Rab0xJYzR2YjNRdDhUeXpqQzFmWkJGZUExOGhhV2hHakhQZDhEeEdlR0tSSFFuNmlmLW040gG0AUFVX3lxTE1ybmJjS3c1MFJFV2pkR0k5bjBFZU4tQmwxb1pVcmFJeU0tdGk0VnVHd2J2Ylc3ck14MjNFNDZPcDJXdzljVjdGb2Z0aUlPVzVBTVZRY0JzandMRHFvTmRmLXlLZ3V1UFBubC1ZZnVSSEU1dnR6UnZRTUZVa21VOExfYUFJQ19ULVRXTV8wcFM3RUplY0s3bW5XTkdiRDlNbS1aczVzSThldlNiTU1BQk9NczdzTA?oc=5</id>
+    <title type="html">Samsung Might Boost HBM4 Chip Production 2.5x by 2027 as Redhot AI Chip Demand Continues - Wccftech</title>
+    <link href="https://news.google.com/rss/articles/CBMirwFBVV95cUxOcU8xUWF0ampualhBRHNxekNSbG1YQnlURTNYbGRSTXVqUk5mMWRFQ2FqcGRLaUlDVWtlOGlQTnNOV3pmbGtLRHRXN1lBdWJRa0E3NS1BR09uZnJfZTRWOEVNdlNDdXNpYnZEWGVMNXNNNWdheVdNaFZvY2Rab0xJYzR2YjNRdDhUeXpqQzFmWkJGZUExOGhhV2hHakhQZDhEeEdlR0tSSFFuNmlmLW040gG0AUFVX3lxTE1ybmJjS3c1MFJFV2pkR0k5bjBFZU4tQmwxb1pVcmFJeU0tdGk0VnVHd2J2Ylc3ck14MjNFNDZPcDJXdzljVjdGb2Z0aUlPVzVBTVZRY0JzandMRHFvTmRmLXlLZ3V1UFBubC1ZZnVSSEU1dnR6UnZRTUZVa21VOExfYUFJQ19ULVRXTV8wcFM3RUplY0s3bW5XTkdiRDlNbS1aczVzSThldlNiTU1BQk9NczdzTA?oc=5" />
+    <link rel="related" href="/stories/samsung-might-boost-hbm4-chip-production-2-5x-by-202-e31bab45.html" />
+    <updated>2026-09-21T12:01:54.000Z</updated>
+    <author><name>Wccftech</name></author>
+    <summary type="html">Samsung Might Boost HBM4 Chip Production 2.5x by 2027 as Redhot AI Chip Demand Continues Wccftech RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Samsung Might Boost HBM4 Chip Production 2.5x by 2027 as Redhot AI Chip Demand Continues Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/samsung-might-boost-hbm4-chip-production-2-5x-by-2027-as-redhot-ai-chip-demand-continues/</id>
+    <title type="html">Samsung Might Boost HBM4 Chip Production 2.5x by 2027 as Redhot AI Chip Demand Continues</title>
+    <link href="https://wccftech.com/samsung-might-boost-hbm4-chip-production-2-5x-by-2027-as-redhot-ai-chip-demand-continues/" />
+    <link rel="related" href="/stories/samsung-might-boost-hbm4-chip-production-2-5x-by-202-1b76c4e1.html" />
+    <updated>2026-09-21T12:01:54.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Memory giant Samsung is preparing to aggressively scale up its production of the next-generation HBM4 memory chips, suggests a report from the Korean media. Samsung, like other memory chip manufacturers, is facing high demand for its products amidst a global shortage ushered in due to high demand from the AI data center buildout. The report bases its conclusion on increased orders for components u RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Memory giant Samsung is preparing to aggressively scale up its production of the next-generation HBM4 memory chips, suggests a report from the Korean media. Samsung, like other memory chip manufacturers, is facing high demand for its products amidst a global shortage ushered in due to high demand from the AI data center buildout. The report bases its conclusion on increased orders for components u&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.eetimes.com/chinas-dram-specialist-cxmt-eyes-nand-flash-entry/</id>
+    <title type="html">China’s DRAM Specialist CXMT Eyes NAND Flash Entry</title>
+    <link href="https://www.eetimes.com/chinas-dram-specialist-cxmt-eyes-nand-flash-entry/" />
+    <link rel="related" href="/stories/china-s-dram-specialist-cxmt-eyes-nand-flash-entry-e1e3b50b.html" />
+    <updated>2026-09-21T11:58:25.000Z</updated>
+    <author><name>EE Times</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/nvidia-rtx-60-2028-launch-rumor/</id>
+    <title type="html">The 2028 Launch Rumor For NVIDIA RTX 60 “Rubin” GPUs Isn’t Surprising At All, And Makes Sense Given The Current Memory &amp; Price Trajectory</title>
+    <link href="https://wccftech.com/nvidia-rtx-60-2028-launch-rumor/" />
+    <link rel="related" href="/stories/the-2028-launch-rumor-for-nvidia-rtx-60-rubin-gpus-i-47eedd9e.html" />
+    <updated>2026-09-21T10:35:25.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">NVIDIA is reportedly going to launch its RTX 60 GPUs codenamed Rubin in 2028, and it makes a lot of sense why the launch is so far away. Don't Expect RTX 60 GPUs For A Long Time, But It's Better To Wait Than Getting A Lineup That Only Enthusiasts Could Buy Recently, there have been many rumors surrounding NVIDIA's next-generation RTX 60 GPUs. The rumors have mostly been centered around the launch RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;NVIDIA is reportedly going to launch its RTX 60 GPUs codenamed Rubin in 2028, and it makes a lot of sense why the launch is so far away. Don't Expect RTX 60 GPUs For A Long Time, But It's Better To Wait Than Getting A Lineup That Only Enthusiasts Could Buy Recently, there have been many rumors surrounding NVIDIA's next-generation RTX 60 GPUs. The rumors have mostly been centered around the launch&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMikgJBVV95cUxOdThsYl9oVW9fQzZBanR1SENkZFE0dUVjb0JEZi1ObXNqOHVMdWYxTW9OZVJQV0xObC1VY1B5MWFYSm1faTBwSEcyaTI2blA2RHdaRTRGTkdDUVQ3WlIyM0J5WmtHWjhiZTFqdHhnYlVabVdWNUI4QW9LcnRwTGdOV2F5YmsyR1FfaXcyejdvQ0ZGbW43WXNhMnpQVTZ2VzhVejlfUmdqSFVfWG1BYlJ2Y0oxR1F6ZHZaUzNuT1o5eXAxWmpkY09mRHJrbTNoOVVLcUZXRW0xald6ZXVGVVN3RUc3a0t3WV9mR1FqSXFhSDZESnJpdEcxUXlTUUFsY2tUa3hPb3pmRHNOSi1PeE1YdHFR?oc=5</id>
+    <title type="html">High Bandwidth Memory Market Growth is Driven by AI - GlobeNewswire</title>
+    <link href="https://news.google.com/rss/articles/CBMikgJBVV95cUxOdThsYl9oVW9fQzZBanR1SENkZFE0dUVjb0JEZi1ObXNqOHVMdWYxTW9OZVJQV0xObC1VY1B5MWFYSm1faTBwSEcyaTI2blA2RHdaRTRGTkdDUVQ3WlIyM0J5WmtHWjhiZTFqdHhnYlVabVdWNUI4QW9LcnRwTGdOV2F5YmsyR1FfaXcyejdvQ0ZGbW43WXNhMnpQVTZ2VzhVejlfUmdqSFVfWG1BYlJ2Y0oxR1F6ZHZaUzNuT1o5eXAxWmpkY09mRHJrbTNoOVVLcUZXRW0xald6ZXVGVVN3RUc3a0t3WV9mR1FqSXFhSDZESnJpdEcxUXlTUUFsY2tUa3hPb3pmRHNOSi1PeE1YdHFR?oc=5" />
+    <link rel="related" href="/stories/high-bandwidth-memory-market-growth-is-driven-by-ai-c750dd59.html" />
+    <updated>2026-09-21T10:30:00.000Z</updated>
+    <author><name>GlobeNewswire</name></author>
+    <summary type="html">High Bandwidth Memory Market Growth is Driven by AI GlobeNewswire RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;High Bandwidth Memory Market Growth is Driven by AI GlobeNewswire&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWEhUMDU3X084S3E3aXY2aWl4eEF6Zmh5MFpERWhyZ0xxMWk1cWNuLTkzOWFGQUl6b3gxVUM0Tk4yVnFtVW9LaU4yNXVNMm1GcE9BVFM1U1NmMUFLRWUyZzZXMHF1ZHdMdTFuU0w3TjdiMF95T2tPa2lWd2dqMHVNWkg3bWRfdFBpY3lJNmlzOENMSGlPdlBsU2Y1WlJzV2xtdGFfVDJEczg5Wmd0d3pQcHFMWVk0bzE5?oc=5</id>
+    <title type="html">How Much Of Micron's Revenue Has A Price Ceiling? - Trefis</title>
+    <link href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWEhUMDU3X084S3E3aXY2aWl4eEF6Zmh5MFpERWhyZ0xxMWk1cWNuLTkzOWFGQUl6b3gxVUM0Tk4yVnFtVW9LaU4yNXVNMm1GcE9BVFM1U1NmMUFLRWUyZzZXMHF1ZHdMdTFuU0w3TjdiMF95T2tPa2lWd2dqMHVNWkg3bWRfdFBpY3lJNmlzOENMSGlPdlBsU2Y1WlJzV2xtdGFfVDJEczg5Wmd0d3pQcHFMWVk0bzE5?oc=5" />
+    <link rel="related" href="/stories/how-much-of-micron-s-revenue-has-a-price-ceiling-tre-a1ce34ff.html" />
+    <updated>2026-09-21T10:11:56.000Z</updated>
+    <author><name>Trefis</name></author>
+    <summary type="html">How Much Of Micron's Revenue Has A Price Ceiling? Trefis RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;How Much Of Micron's Revenue Has A Price Ceiling? Trefis&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMi0AJBVV95cUxPbVZDTTFRWmRmbGhzMjBtd1NBQTlkZUZWZWtXUHpUcmJUcnFrLUo3OXA0cnl6Sk9aaC1FMUJpbVNPazUzWmk4NlVRMmtmVG5YTFhjYXZMdWlvaHpodWJLYUxHQTdzamdVQmNoNGU5ZEg1X3NadlFwQWlZM1FTb3BmTXFFNGNwaGt6ZEtjVDBqeEtwTHpLYUFDWkk5d2lLb3lNOGFSYnpUXzY4UHkzUE80cUJpVTlSTE41aC14OGZYbk1YVDVfcjl5dlE5UUNwNTZyQXFHMEpwUXJfc19kTWp1bWZOWjc3amdXQk1DbWd6cm1hN2hLUUZfNTJLazVuSllBLWhTOU41STdEZVVISzRzandyNFJ4QjZfRlMwVnJkV2FVNWtFY2VZZlRZYjMzdWVvSHFtcko5OVMxWlhfamw5ZVNaR2FHeFZxRXhJS28tcHk?oc=5</id>
+    <title type="html">Acer CEO says memory makers are hyping 2030 shortage fears to protect margins — PC prices set to decline by late 2027, cheaper Chinese capacity coming online delivers lower memory prices - Tom's Hardware</title>
+    <link href="https://news.google.com/rss/articles/CBMi0AJBVV95cUxPbVZDTTFRWmRmbGhzMjBtd1NBQTlkZUZWZWtXUHpUcmJUcnFrLUo3OXA0cnl6Sk9aaC1FMUJpbVNPazUzWmk4NlVRMmtmVG5YTFhjYXZMdWlvaHpodWJLYUxHQTdzamdVQmNoNGU5ZEg1X3NadlFwQWlZM1FTb3BmTXFFNGNwaGt6ZEtjVDBqeEtwTHpLYUFDWkk5d2lLb3lNOGFSYnpUXzY4UHkzUE80cUJpVTlSTE41aC14OGZYbk1YVDVfcjl5dlE5UUNwNTZyQXFHMEpwUXJfc19kTWp1bWZOWjc3amdXQk1DbWd6cm1hN2hLUUZfNTJLazVuSllBLWhTOU41STdEZVVISzRzandyNFJ4QjZfRlMwVnJkV2FVNWtFY2VZZlRZYjMzdWVvSHFtcko5OVMxWlhfamw5ZVNaR2FHeFZxRXhJS28tcHk?oc=5" />
+    <link rel="related" href="/stories/acer-ceo-says-memory-makers-are-hyping-2030-shortage-231a1d4e.html" />
+    <updated>2026-09-21T10:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html">Acer CEO says memory makers are hyping 2030 shortage fears to protect margins — PC prices set to decline by late 2027, cheaper Chinese capacity coming online delivers lower memory prices Tom's Hardware RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Acer CEO says memory makers are hyping 2030 shortage fears to protect margins — PC prices set to decline by late 2027, cheaper Chinese capacity coming online delivers lower memory prices Tom's Hardware&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/dram/acer-ceo-says-memory-makers-are-hyping-2030-shortage-fears-to-protect-margins-pc-prices-set-to-decline-by-late-2027-cheaper-chinese-capacity-coming-online-delivers-lower-memory-prices</id>
+    <title type="html">Acer CEO says memory makers are hyping 2030 shortage fears to protect margins — PC prices set to decline by late 2027, cheaper Chinese capacity coming online delivers lower memory prices</title>
+    <link href="https://www.tomshardware.com/pc-components/dram/acer-ceo-says-memory-makers-are-hyping-2030-shortage-fears-to-protect-margins-pc-prices-set-to-decline-by-late-2027-cheaper-chinese-capacity-coming-online-delivers-lower-memory-prices" />
+    <link rel="related" href="/stories/acer-ceo-says-memory-makers-are-hyping-2030-shortage-ef6167b3.html" />
+    <updated>2026-09-21T10:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/gpus/nvidias-next-gen-rtx-60-gpus-might-not-be-released-until-2028-prominent-leaker-claims-gaming-takes-a-back-seat-as-company-focuses-on-delivering-data-center-products</id>
+    <title type="html">Nvidia's next-gen RTX 60 GPUs might not be released until 2028, prominent leaker claims — gaming takes a back seat as company focuses on delivering data center products</title>
+    <link href="https://www.tomshardware.com/pc-components/gpus/nvidias-next-gen-rtx-60-gpus-might-not-be-released-until-2028-prominent-leaker-claims-gaming-takes-a-back-seat-as-company-focuses-on-delivering-data-center-products" />
+    <link rel="related" href="/stories/nvidia-s-next-gen-rtx-60-gpus-might-not-be-released-340020f9.html" />
+    <updated>2026-09-21T09:52:19.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR0pQV1padXdQVHRxZmwzX01IeFQ3am1pRlFISXctYWhMY01pamN5RjlrMTJjWVgzZFVDdzdjbHB0US1qamhSaDZMUjQ0YTlrRnliaUx2cjQ2ajdVbVUwUGctODR5UGZIekowdTFhcC1LQU9kZVZmX2xDanBlOE14RmpTenFtTWZ4?oc=5</id>
+    <title type="html">CXMT Starts Mass Production of Fifth-Gen DRAM - Technology Org</title>
+    <link href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR0pQV1padXdQVHRxZmwzX01IeFQ3am1pRlFISXctYWhMY01pamN5RjlrMTJjWVgzZFVDdzdjbHB0US1qamhSaDZMUjQ0YTlrRnliaUx2cjQ2ajdVbVUwUGctODR5UGZIekowdTFhcC1LQU9kZVZmX2xDanBlOE14RmpTenFtTWZ4?oc=5" />
+    <link rel="related" href="/stories/cxmt-starts-mass-production-of-fifth-gen-dram-techno-3747293b.html" />
+    <updated>2026-09-21T09:48:52.000Z</updated>
+    <author><name>Technology Org</name></author>
+    <summary type="html">CXMT Starts Mass Production of Fifth-Gen DRAM Technology Org RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;CXMT Starts Mass Production of Fifth-Gen DRAM Technology Org&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sZkl4SF95TDVhWHlKWV91VWFOX01IakF4clJUWkxKNDZUel9xMnZ5bEZTZmNPRDFDU3JWSmlWdFRoaW1jcFBibWZ4eksyRXFaNDJXaXZJSkJSYUptZUxKMm1NU2tOZw?oc=5</id>
+    <title type="html">Why AI’s Inference Boom Is Forcing a Rethink Of Chips and Memory - IEEE Spectrum</title>
+    <link href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sZkl4SF95TDVhWHlKWV91VWFOX01IakF4clJUWkxKNDZUel9xMnZ5bEZTZmNPRDFDU3JWSmlWdFRoaW1jcFBibWZ4eksyRXFaNDJXaXZJSkJSYUptZUxKMm1NU2tOZw?oc=5" />
+    <link rel="related" href="/stories/why-ai-s-inference-boom-is-forcing-a-rethink-of-chip-2df0aedd.html" />
+    <updated>2026-09-21T09:48:52.000Z</updated>
+    <author><name>IEEE Spectrum</name></author>
+    <summary type="html">Why AI’s Inference Boom Is Forcing a Rethink Of Chips and Memory IEEE Spectrum RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Why AI’s Inference Boom Is Forcing a Rethink Of Chips and Memory IEEE Spectrum&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/352888/stronger-north-american-demand-to-keep-enterprise-ssd-prices-on-an-upward-trend-in-4q26</id>
+    <title type="html">(PR) Stronger North American Demand to Keep Enterprise SSD Prices on an Upward Trend in 4Q26</title>
+    <link href="https://www.techpowerup.com/352888/stronger-north-american-demand-to-keep-enterprise-ssd-prices-on-an-upward-trend-in-4q26" />
+    <link rel="related" href="/stories/pr-stronger-north-american-demand-to-keep-enterprise-33113613.html" />
+    <updated>2026-09-21T08:42:44.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">U.S. CSPs have recently upgraded their enterprise SSD demand forecasts over the past two weeks, according to TrendForce's research. This shift is mainly driven by major CSPs speeding up deployments and expanding enterprise SSD use across more applications. Notably, this demand increase isn't confined to high-performance TLC products; QLC products, known for their superior cost efficiency and capac RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;U.S. CSPs have recently upgraded their enterprise SSD demand forecasts over the past two weeks, according to TrendForce's research. This shift is mainly driven by major CSPs speeding up deployments and expanding enterprise SSD use across more applications. Notably, this demand increase isn't confined to high-performance TLC products; QLC products, known for their superior cost efficiency and capac&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/tsmc-1-4nm-four-plants-operational-q2-2028-wafer-price/</id>
+    <title type="html">TSMC Reportedly Has Grand Plans For Its 1.4nm Node With Four Plants Said To Be Operational By Q2 2028, Price Per Wafer Surprisingly Only Marginally Higher Than N2</title>
+    <link href="https://wccftech.com/tsmc-1-4nm-four-plants-operational-q2-2028-wafer-price/" />
+    <link rel="related" href="/stories/tsmc-reportedly-has-grand-plans-for-its-1-4nm-node-w-eaa4a2cb.html" />
+    <updated>2026-09-21T06:57:32.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">As the 2nm “N2” and “N2P” nodes pick up steam, TSMC is said to have set its sights on its cutting-edge 1.4nm lithography, making it the first time that the Taiwanese semiconductor giant will move towards the sub-2nm process. The company reportedly has set its ambitions sky high as it intends to set up a total of four fabrication plants by the second quarter of 2028. Also, what’s surprising about t RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;As the 2nm “N2” and “N2P” nodes pick up steam, TSMC is said to have set its sights on its cutting-edge 1.4nm lithography, making it the first time that the Taiwanese semiconductor giant will move towards the sub-2nm process. The company reportedly has set its ambitions sky high as it intends to set up a total of four fabrication plants by the second quarter of 2028. Also, what’s surprising about t&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMimAFBVV95cUxNY01OYTVkNEx6Z2w1ZE1jUDlIQy1RRWt1UDYwbnoyOGYwSW1ZLWZDUVUzUTNmYUpNUGVWT0NJOTZxaGNqWHdOaWRIczZROGI4WndKeGNHQjJDVnFYRVZ3RkVNRXZCaDR0RW93XzN5cGZBZVJ5UnpKa0M2RklVckJqbjFaS09XUWJoekhOcEpzMXZJQXhQdVRPYQ?oc=5</id>
+    <title type="html">China’s CXMT Says It Has Reached Advanced DRAM Mass Production, Challenging Samsung, SK Hynix and Micron in Memory Chips - Yahoo Finance</title>
+    <link href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNY01OYTVkNEx6Z2w1ZE1jUDlIQy1RRWt1UDYwbnoyOGYwSW1ZLWZDUVUzUTNmYUpNUGVWT0NJOTZxaGNqWHdOaWRIczZROGI4WndKeGNHQjJDVnFYRVZ3RkVNRXZCaDR0RW93XzN5cGZBZVJ5UnpKa0M2RklVckJqbjFaS09XUWJoekhOcEpzMXZJQXhQdVRPYQ?oc=5" />
+    <link rel="related" href="/stories/china-s-cxmt-says-it-has-reached-advanced-dram-mass-3e1bae56.html" />
+    <updated>2026-09-21T04:14:00.000Z</updated>
+    <author><name>Yahoo Finance</name></author>
+    <summary type="html">China’s CXMT Says It Has Reached Advanced DRAM Mass Production, Challenging Samsung, SK Hynix and Micron in Memory Chips Yahoo Finance RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:Samsung SK Hynix Micron earnings" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;China’s CXMT Says It Has Reached Advanced DRAM Mass Production, Challenging Samsung, SK Hynix and Micron in Memory Chips Yahoo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMizAFBVV95cUxOSGRDdHJqVmQzNVlsSWdOd1FqaGItU0NaZEZKYTJ5Y0ZVeHdMaWJqSzhOalZYdTVMU2dJb0VjY1hHZHFHc3ZBc2NYTi1jaHdRNlA3RGNVRjgtekNtMWRRZEUyRHR3ZHE5N1V6bWt0a1JMa1Fwcjl0eFA0eUNnZTJ4UUk0YWowbnVRbE9WLTJXazVSWFVOMTB6Q2YxMTV6TUpCTE9vdERGNTZNZmFyeHJwLTNlY1o3SC1tTUhkbXZsMURCZ0VQUzcwZXpJZko?oc=5</id>
     <title type="html">Acer warns PC prices could rise by up to 20% despite improving memory supply - tweaktown.com</title>
