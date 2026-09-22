@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-09-22T11:35:23.035Z",
-  "count": 1045,
+  "generatedAt": "2026-09-22T16:55:44.269Z",
+  "count": 1061,
   "stories": [
+    {
+      "slug": "cxmt-chases-nand-as-ymtc-storms-into-dram-territory-80d3a211",
+      "url": "/stories/cxmt-chases-nand-as-ymtc-storms-into-dram-territory-80d3a211.html",
+      "title": "CXMT Chases NAND as YMTC Storms Into DRAM Territory, Igniting a Chinese Memory & Storage Chip Turf War, Says Report",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-set-for-strong-earnings-on-soaring-dram-and-n-5f00341a",
+      "url": "/stories/micron-set-for-strong-earnings-on-soaring-dram-and-n-5f00341a.html",
+      "title": "Micron set for strong earnings on soaring DRAM and NAND prices, but stock may dip before rising again. - Pluang",
+      "tag": "earnings",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "Pluang",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "alibaba-brags-that-its-next-gen-zhenwu-v900-ai-chip-40917a4b",
+      "url": "/stories/alibaba-brags-that-its-next-gen-zhenwu-v900-ai-chip-40917a4b.html",
+      "title": "Alibaba Brags That Its Next-Gen Zhenwu V900 AI Chip Offers More On-Package Memory Than NVIDIA H200, Outlines Plans To Deploy 20 GW Of Compute, And Teases 4-10 trillion parameters For Upcoming Qwen Models",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ai-demand-splits-dram-and-nand-markets-chosun-com-733de717",
+      "url": "/stories/ai-demand-splits-dram-and-nand-markets-chosun-com-733de717.html",
+      "title": "AI Demand Splits DRAM and NAND Markets - chosun.com",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "chosun.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "amd-adds-gddr7-support-in-gpu-driver-preparing-for-r-584dca7c",
+      "url": "/stories/amd-adds-gddr7-support-in-gpu-driver-preparing-for-r-584dca7c.html",
+      "title": "AMD Adds GDDR7 Support in GPU Driver, Preparing for RDNA 5 Launch",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "kingston-leads-global-memory-revenue-chart-with-colo-2656177f",
+      "url": "/stories/kingston-leads-global-memory-revenue-chart-with-colo-2656177f.html",
+      "title": "Kingston leads global memory revenue chart, with colossal 62% market share - Club386",
+      "tag": "earnings",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "Club386",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-accelerates-hbm4-volume-production-bernstein-3596411b",
+      "url": "/stories/samsung-accelerates-hbm4-volume-production-bernstein-3596411b.html",
+      "title": "Samsung accelerates HBM4 volume production! Bernstein forecasts a 72% quarter-on-quarter surge in HBM revenue for Q3 as memory market sentiment continues to heat up. - 富途牛牛",
+      "tag": "earnings",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "富途牛牛",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "nvidia-announces-dsx-ready-qualification-program-for-b48f31c0",
+      "url": "/stories/nvidia-announces-dsx-ready-qualification-program-for-b48f31c0.html",
+      "title": "NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pr-goodram-expands-its-gaming-focused-rival-series-w-dec78f70",
+      "url": "/stories/pr-goodram-expands-its-gaming-focused-rival-series-w-dec78f70.html",
+      "title": "(PR) Goodram Expands Its Gaming-Focused RIVAL Series With RIVAL Charge DDR5 Memory",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "eu-datacenter-green-scorecard-finally-escapes-brusse-b47ab8b3",
+      "url": "/stories/eu-datacenter-green-scorecard-finally-escapes-brusse-b47ab8b3.html",
+      "title": "EU datacenter green scorecard finally escapes Brussels",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-refuses-to-let-am4-die-pushing-fresh-bios-to-9-y-90fdf403",
+      "url": "/stories/amd-refuses-to-let-am4-die-pushing-fresh-bios-to-9-y-90fdf403.html",
+      "title": "AMD Refuses To Let AM4 Die, Pushing Fresh BIOS To 9-Year-Old A320 Boards As DDR5 Costs Soar",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-ai-chip-prices-jump-50-as-hbm-shortage-bites-2-ed924391",
+      "url": "/stories/china-ai-chip-prices-jump-50-as-hbm-shortage-bites-2-ed924391.html",
+      "title": "China AI Chip Prices Jump 50% as HBM Shortage Bites [2026] - shattered.io",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-2-gb-gddr7-memory-chips-reach-end-of-life-lea-6f99e3e6",
+      "url": "/stories/micron-2-gb-gddr7-memory-chips-reach-end-of-life-lea-6f99e3e6.html",
+      "title": "Micron 2 GB GDDR7 Memory Chips Reach End Of Life, Leaving RTX 50 Series Fully Dependent On Samsung And SK Hynix",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "firm-dram-quotations-keep-spot-prices-elevated-astut-817e7a6c",
+      "url": "/stories/firm-dram-quotations-keep-spot-prices-elevated-astut-817e7a6c.html",
+      "title": "Firm DRAM quotations keep spot prices elevated - Astute Group",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "Astute Group",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "dram-is-now-more-expensive-than-compute-chips-on-per-d78bd629",
       "url": "/stories/dram-is-now-more-expensive-than-compute-chips-on-per-d78bd629.html",
@@ -58,6 +212,17 @@
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
+      "slug": "samsung-reportedly-ramps-4nm-capacity-for-memory-chi-564dff0d",
+      "url": "/stories/samsung-reportedly-ramps-4nm-capacity-for-memory-chi-564dff0d.html",
+      "title": "Samsung Reportedly Ramps 4nm Capacity For Memory Chips, Stepping Up Competition With SK Hynix, Micron - finance.yahoo.com",
+      "tag": "fab",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "finance.yahoo.com",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
       "slug": "dram-module-revenue-surged-59-yoy-in-2025-as-crowdin-1f9f8d4a",
       "url": "/stories/dram-module-revenue-surged-59-yoy-in-2025-as-crowdin-1f9f8d4a.html",
       "title": "DRAM Module Revenue Surged 59% YoY in 2025 as Crowding-Out Effect Constrained Chip Supply and Drove Prices Higher - TechPowerUp",
@@ -89,6 +254,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "dram-module-revenue-surged-59-yoy-in-2025-as-crowdin-3eaaa4c8",
+      "url": "/stories/dram-module-revenue-surged-59-yoy-in-2025-as-crowdin-3eaaa4c8.html",
+      "title": "DRAM Module Revenue Surged 59% YoY in 2025 as Crowding-Out Effect Constrains Chip Supply and Drives Prices Higher - TechPowerUp",
+      "tag": "earnings",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "pr-dram-module-revenue-surged-59-yoy-in-2025-as-crow-d2b7b322",
