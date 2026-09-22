@@ -5,11 +5,63 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-22T16:55:42.197Z</updated>
+  <updated>2026-09-22T21:16:54.307Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://wccftech.com/openai-unleashes-a-new-price-war-with-gpt-6-sol-and-gpt-6-luna-now-priced-below-claude-opus-5-5-and-deepseeks-v4-1-flash-respectively-negating-the-rationale-for-open-weight-models/</id>
+    <title type="html">OpenAI Unleashes A New Price War, With GPT-6 Sol And GPT-6 Luna Now Priced Below Claude Opus 5.5 And DeepSeek’s V4.1 Flash, Respectively, Negating The Rationale For Open-Weight Models</title>
+    <link href="https://wccftech.com/openai-unleashes-a-new-price-war-with-gpt-6-sol-and-gpt-6-luna-now-priced-below-claude-opus-5-5-and-deepseeks-v4-1-flash-respectively-negating-the-rationale-for-open-weight-models/" />
+    <link rel="related" href="/stories/openai-unleashes-a-new-price-war-with-gpt-6-sol-and-74ea4aff.html" />
+    <updated>2026-09-22T19:55:36.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">OpenAI has just done the unthinkable by offering unparalleled performance per dollar with its GPT-6 Sol and GPT-6 Luna models, with the latter's API prices even lower than those from the reigning champ of efficiency, DeepSeek's V4.1 Flash. Also, with Anthropic and OpenAI both releasing newer models today, and just days after their last such model launch, we can safely assume that the calls for pac RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;OpenAI has just done the unthinkable by offering unparalleled performance per dollar with its GPT-6 Sol and GPT-6 Luna models, with the latter's API prices even lower than those from the reigning champ of efficiency, DeepSeek's V4.1 Flash. Also, with Anthropic and OpenAI both releasing newer models today, and just days after their last such model launch, we can safely assume that the calls for pac&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://semiengineering.com/wafer-scale-sub-5nm-channel-monolayer-mos2-transistors-cmu-uf-mit-et-al/</id>
+    <title type="html">Wafer-Scale Sub-5nm Channel Monolayer MoS2 Transistors (CMU, UF, MIT et al.)</title>
+    <link href="https://semiengineering.com/wafer-scale-sub-5nm-channel-monolayer-mos2-transistors-cmu-uf-mit-et-al/" />
+    <link rel="related" href="/stories/wafer-scale-sub-5nm-channel-monolayer-mos2-transisto-5a1fdebf.html" />
+    <updated>2026-09-22T17:51:42.000Z</updated>
+    <author><name>SemiEngineering</name></author>
+    <summary type="html">Researchers at Carnegie Mellon University, University of Florida, MIT, Texas A&amp;M University et al. published a technical paper titled “Wafer-scale 2D MoS₂ transistors with sub-5 nm channel length and subthreshold performance beyond the silicon limit.” Abstract Excerpt “Here, we report monolayer MoS₂ transistors with physical channel lengths below 5 nm, achieving a subthreshold swing of 88 mV/dec.. RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Researchers at Carnegie Mellon University, University of Florida, MIT, Texas A&amp;M University et al. published a technical paper titled “Wafer-scale 2D MoS₂ transistors with sub-5 nm channel length and subthreshold performance beyond the silicon limit.” Abstract Excerpt “Here, we report monolayer MoS₂ transistors with physical channel lengths below 5 nm, achieving a subthreshold swing of 88 mV/dec..&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/352957/amd-shows-off-ray-tracing-tech-that-slashes-gpu-memory-use-by-47x</id>
+    <title type="html">AMD Shows Off Ray Tracing Tech That Slashes GPU Memory Use By 47x</title>
+    <link href="https://www.techpowerup.com/352957/amd-shows-off-ray-tracing-tech-that-slashes-gpu-memory-use-by-47x" />
+    <link rel="related" href="/stories/amd-shows-off-ray-tracing-tech-that-slashes-gpu-memo-d5aa60f2.html" />
+    <updated>2026-09-22T17:50:25.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">AMD has detailed a new ray tracing technique called tetrahedral cages, and according to a blog post on the company's GPUOpen developer site , it can cut BVH memory use by roughly 47x while speeding up BVH updates by around 90x. AMD demoed the tech on a large scene with about 25,000 independently animated plants, running at 60+ FPS at 1080p on a Radeon RX 9070 XT. In a conventional setup, every uni RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;AMD has detailed a new ray tracing technique called tetrahedral cages, and according to a blog post on the company's GPUOpen developer site , it can cut BVH memory use by roughly 47x while speeding up BVH updates by around 90x. AMD demoed the tech on a large scene with about 25,000 independently animated plants, running at 60+ FPS at 1080p on a Radeon RX 9070 XT. In a conventional setup, every uni&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMivgFBVV95cUxPdVhrVkNJVDhDc0ZlS1R1UlF0WGgzMVA4anpDRlRkT2JqTnA4UWV6YjNpcEU0VnVBUXNQZ3ZRdDQwWGEzSzJpTzVFVG1rSnRtelIycGs2bmJubzFrSE96dkRRbGI4OXdMbzc1SGFvR01GcTF2MjlJU20wVm5oelFVcEp3UEh2THBBT3FSV3BiUW9Da1lVd1c3T2hWaGxqbS1nclQ1RWMxRF9MQlAzemZEOHNDSHJDY3NqVXItUXFB?oc=5</id>
+    <title type="html">Stifel Has Message For Micron Stock Investors Before Earnings - TradingView</title>
+    <link href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPdVhrVkNJVDhDc0ZlS1R1UlF0WGgzMVA4anpDRlRkT2JqTnA4UWV6YjNpcEU0VnVBUXNQZ3ZRdDQwWGEzSzJpTzVFVG1rSnRtelIycGs2bmJubzFrSE96dkRRbGI4OXdMbzc1SGFvR01GcTF2MjlJU20wVm5oelFVcEp3UEh2THBBT3FSV3BiUW9Da1lVd1c3T2hWaGxqbS1nclQ1RWMxRF9MQlAzemZEOHNDSHJDY3NqVXItUXFB?oc=5" />
+    <link rel="related" href="/stories/stifel-has-message-for-micron-stock-investors-before-3a310e29.html" />
+    <updated>2026-09-22T17:41:48.000Z</updated>
+    <author><name>TradingView</name></author>
+    <summary type="html">Stifel Has Message For Micron Stock Investors Before Earnings TradingView RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Stifel Has Message For Micron Stock Investors Before Earnings TradingView&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://wccftech.com/cxmt-chases-nand-as-ymtc-storms-into-dram-territory-igniting-a-chinese-memory-storage-chip-turf-war-says-report/</id>
     <title type="html">CXMT Chases NAND as YMTC Storms Into DRAM Territory, Igniting a Chinese Memory &amp; Storage Chip Turf War, Says Report</title>
@@ -21,7 +73,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Chinese memory and storage manufacturers ChangXin Memory Technologies (CXMT) and Yangtze Memory Technologies Corp. (YMTC) are gearing up to compete with each other, says a report from DigiTimes. The two firms, which have grown in global prominence as AI demand continues to disrupt the technology supply chain, have so far focused on different kinds of semiconductors. With CXMT focused on DRAM and Y&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Chinese memory and storage manufacturers ChangXin Memory Technologies (CXMT) and Yangtze Memory Technologies Corp. (YMTC) are gearing up to compete with each other, says a report from DigiTimes. The two firms, which have grown in global prominence as AI demand continues to disrupt the technology supply chain, have so far focused on different kinds of semiconductors. With CXMT focused on DRAM and Y&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMilAFBVV95cUxPUkRwWjNrS0wxMHJnMl8wcHVYTlpBWTVzYk1PQ0g4dG9JN1k0SnItY1pjTW9IZWppeGY0UXQxWjJidGl4d2lhZGhxX1JveWtkM0hsSWY3MGtIZlV2Tlk0djVpVnlxS2p2YXFSMlZfcFZ6Yl9aWVlmU3g3VkFKMHZ6VndYbzByZEg5WGx4NFZLcXFrX0hs?oc=5</id>
@@ -34,7 +86,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;Micron set for strong earnings on soaring DRAM and NAND prices, but stock may dip before rising again. Pluang&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron set for strong earnings on soaring DRAM and NAND prices, but stock may dip before rising again. Pluang&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/alibaba-brags-that-its-next-gen-zhenwu-v900-ai-chip-offers-more-on-package-memory-than-nvidia-h200-outlines-plans-to-deploy-20-gw-of-compute-and-teases-4-10-trillion-parameters-for-upcoming-qwen-mod/</id>
@@ -47,7 +99,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Alibaba stole the show at today's Apsara Conference in Hangzhou, China, detailing ambitious compute deployment plans, offering tantalizing details about its upcoming Zhenwu V900 chip, and laying down the gauntlet by disclosing between 4 trillion and 10 trillion parameters for its upcoming Qwen 4.5 and Qwen 5.0 AI models. Alibaba's upcoming Zhenwu V900 chip will have 216GB of on-package memory vs.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Alibaba stole the show at today's Apsara Conference in Hangzhou, China, detailing ambitious compute deployment plans, offering tantalizing details about its upcoming Zhenwu V900 chip, and laying down the gauntlet by disclosing between 4 trillion and 10 trillion parameters for its upcoming Qwen 4.5 and Qwen 5.0 AI models. Alibaba's upcoming Zhenwu V900 chip will have 216GB of on-package memory vs.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTXF5M3ZfU3E5b2VyRXJva3RMcGEzU3AxeEJJT3JoOW1WOVRqNm5VUGEwQVotR3hsNDR4Umx4Y0M5VVRZLVRtZWs0Q19VRXpRSFhMQzEteHJRRGlJWWRqSGI2dDkxcUNNSmVMWXc5Tm1zdVFFTk1NcDU1T09VU0R2dVk2TG1KYnk5?oc=5</id>
@@ -60,7 +112,7 @@
     <category term="google-news:NAND flash supply" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;AI Demand Splits DRAM and NAND Markets chosun.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;AI Demand Splits DRAM and NAND Markets chosun.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/352940/amd-adds-gddr7-support-in-gpu-driver-preparing-for-rdna-5-launch</id>
@@ -73,7 +125,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;AMD has submitted patches to its open-source graphics card drivers for Linux, adding support for GDDR7 memory, as anticipation builds for the company's next-generation RDNA 5 GPUs. In the AMDGPU open-source driver, GDDR7 is now listed among the supported VRAM types. Currently, AMD's graphics cards use GDDR6 for the consumer RDNA 4-based Radeon RX 9000 series, while Instinct MI data center and work&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;AMD has submitted patches to its open-source graphics card drivers for Linux, adding support for GDDR7 memory, as anticipation builds for the company's next-generation RDNA 5 GPUs. In the AMDGPU open-source driver, GDDR7 is now listed among the supported VRAM types. Currently, AMD's graphics cards use GDDR6 for the consumer RDNA 4-based Radeon RX 9000 series, while Instinct MI data center and work&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMihwFBVV95cUxOUjRCcl8xM3B1am4xRXJKaUwxSGNsZWRsVC1IZnVSS0l1U1VJMXk1bmxVZzRWZHo4RHdBUUZyMXk5QjU4eTduN1FSbVJhWGo1SW9PYzZkUFdHNmFueHpwdTR0b0kwYkwwTExmSHJsTnk5NjJxbmJiT2xHRXlwSWFpUUxScGZ1cTA?oc=5</id>
@@ -86,7 +138,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;Kingston leads global memory revenue chart, with colossal 62% market share Club386&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Kingston leads global memory revenue chart, with colossal 62% market share Club386&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiugFBVV95cUxQOUcwdi1ZVEJheFhrdmVfX3dCa3ZZQW1uVEFoRXdidHN5dHVXdFFDNm5UMnRoVFQ0eEYzczdENXhxbEwyVnE0TktkaXl1Y1ZHb0pNbkw2UnZjMDBOOEEtcUtlYVZ5MFJ6MkN4WW1KT2dIemQ4Q0VmT0xkcHhoWUIxYzBhOVZhcVVrX2prdDAxM0xGd2hNazd1NWQyYzk3akZFRFB1eEY0aUNRX3gzUGQzOV93OGFoQUpMdUE?oc=5</id>
@@ -99,7 +151,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;Samsung accelerates HBM4 volume production! Bernstein forecasts a 72% quarter-on-quarter surge in HBM revenue for Q3 as memory market sentiment continues to heat up. 富途牛牛&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung accelerates HBM4 volume production! Bernstein forecasts a 72% quarter-on-quarter surge in HBM revenue for Q3 as memory market sentiment continues to heat up. 富途牛牛&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.servethehome.com/nvidia-announces-dsx-ready-qualification-program-for-data-center-power-and-cooling-hardware/</id>
@@ -112,7 +164,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;NVIDIA this week has launched DSX Ready, a new qualification program for data center cooling and power hardware, for use with constructing AI data centers based on NVIDIA's DSX AI factory blueprint The post NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;NVIDIA this week has launched DSX Ready, a new qualification program for data center cooling and power hardware, for use with constructing AI data centers based on NVIDIA's DSX AI factory blueprint The post NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/352945/goodram-expands-its-gaming-focused-rival-series-with-rival-charge-ddr5-memory</id>
@@ -125,7 +177,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Goodram is expanding its gaming-focused RIVAL series with RIVAL Charge DDR5 memory. The new DIMM modules are designed for computers based on DDR5 platforms, including both new systems and upgraded configurations. The series includes variants with speeds of up to 6800 MT/s and latencies starting from CL30, as well as kits with a total capacity of up to 64 GB. Gaming today is about more than just th&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Goodram is expanding its gaming-focused RIVAL series with RIVAL Charge DDR5 memory. The new DIMM modules are designed for computers based on DDR5 platforms, including both new systems and upgraded configurations. The series includes variants with speeds of up to 6800 MT/s and latencies starting from CL30, as well as kits with a total capacity of up to 64 GB. Gaming today is about more than just th&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.theregister.com/on-prem/2026/09/22/eu-datacenter-green-scorecard-finally-escapes-brussels/5298167</id>
@@ -138,7 +190,20 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Long-delayed sustainability labels land as Commission eyes minimum efficiency standards&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Long-delayed sustainability labels land as Commission eyes minimum efficiency standards&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlhvczhFdTdFVHpwX05UY1BfRThWTGdJU0dqZnFMWHBPOUd4b2VkWUYyYmpjSk9zcXdFeFRPV1BiSEhKTVN1UE5rN1hkVjMyUGdDYlg0bDNMSHFPRWlfeGhfX3NkUDAzQlhQZUZ5UTR5T3FqQWxxRVNMZUJtTktIMlVnVzBHbmtQM0RzMjhHMERMaU8tYVBlenJvWWFMNTFOR0ZLUGt4Sk0tRnEx?oc=5</id>
+    <title type="html">Apple reportedly locks in 2027 memory prices, and Android phone makers could pay more - Sportskeeda Tech</title>
+    <link href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlhvczhFdTdFVHpwX05UY1BfRThWTGdJU0dqZnFMWHBPOUd4b2VkWUYyYmpjSk9zcXdFeFRPV1BiSEhKTVN1UE5rN1hkVjMyUGdDYlg0bDNMSHFPRWlfeGhfX3NkUDAzQlhQZUZ5UTR5T3FqQWxxRVNMZUJtTktIMlVnVzBHbmtQM0RzMjhHMERMaU8tYVBlenJvWWFMNTFOR0ZLUGt4Sk0tRnEx?oc=5" />
+    <link rel="related" href="/stories/apple-reportedly-locks-in-2027-memory-prices-and-and-c79d60d9.html" />
+    <updated>2026-09-22T12:31:19.000Z</updated>
+    <author><name>Sportskeeda Tech</name></author>
+    <summary type="html">Apple reportedly locks in 2027 memory prices, and Android phone makers could pay more Sportskeeda Tech RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Apple reportedly locks in 2027 memory prices, and Android phone makers could pay more Sportskeeda Tech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/amd-refuses-to-let-am4-die-pushing-fresh-bios-to-9-year-old-a320-boards/</id>
@@ -151,7 +216,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;AMD doesn't let AM4 die and keeps it alive by launching newer processors and releasing newer BIOS updates. ASUS Rolls Out BIOS Update With Latest AMD AGESA Firmware for PRIME A320M-A Motherboard, One of the Oldest AM4 Motherboards Still Receiving Support An entry-level motherboard like the ASUS Prime A320M-A is still receiving updates nearly 9 years after its release. This particular model was lau&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;AMD doesn't let AM4 die and keeps it alive by launching newer processors and releasing newer BIOS updates. ASUS Rolls Out BIOS Update With Latest AMD AGESA Firmware for PRIME A320M-A Motherboard, One of the Oldest AM4 Motherboards Still Receiving Support An entry-level motherboard like the ASUS Prime A320M-A is still receiving updates nearly 9 years after its release. This particular model was lau&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMic0FVX3lxTE55T01JdXFPclF6eXp1dUtKV3JjNFZtTXhKb0pwRXlOb3pTclVsZVV3VFluZFR1YlBIWmZpSUpUX1BDVk1YbEVYVlA1ajJEWTVUeEJEc0dSQTlHaEg3WE82eU9DV19sLVk2Q1V5MHgxakg4S1E?oc=5</id>
@@ -164,7 +229,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;China AI Chip Prices Jump 50% as HBM Shortage Bites [2026] shattered.io&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;China AI Chip Prices Jump 50% as HBM Shortage Bites [2026] shattered.io&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/sk-hynix-2-gb-gddr7-memory-chips-reach-end-of-life/</id>
@@ -177,7 +242,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;The company hardly supplied its GDDR7 memory chips to NVIDIA for a couple of months, but already ended the production of 2 GB memory module Micron Puts 2 GB GDDR7 28 Gbps and 32 Gbps Chips to EOL, While Producing Only 3 GB GDDR7 Modules We thought the situation would improve after Micron decided to enter the market with its GDDR7 memory chips. Micron joined the list of memory suppliers in mid-2025&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The company hardly supplied its GDDR7 memory chips to NVIDIA for a couple of months, but already ended the production of 2 GB memory module Micron Puts 2 GB GDDR7 28 Gbps and 32 Gbps Chips to EOL, While Producing Only 3 GB GDDR7 Modules We thought the situation would improve after Micron decided to enter the market with its GDDR7 memory chips. Micron joined the list of memory suppliers in mid-2025&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMikgFBVV95cUxPWnpZYUE2V1VUTEhfVTlQN0tDdkNjUTlvZTAydzVoMURtRzJQbm5jaTRMUVRHTm5XM1FuTDA4NWZCYy1kY2xIR21uSUZuN1Q2QkZJc1FMU2hyT1g1ZHYwdElKVFRnQ2dNQWh1d0duVGlpRmJiN215ZVY0NHQteU13TGZTd2V4RzlrRmJhWXBoV3dJQQ?oc=5</id>
@@ -190,7 +255,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Firm DRAM quotations keep spot prices elevated Astute Group&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Firm DRAM quotations keep spot prices elevated Astute Group&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMigAJBVV95cUxNc3FyNEY1Y2Z5RlVDUlE3MkdETi1ielNrTEFCeHFQc2sweUw0MWF0VTB1Q1NSVXdzMlBITWJPekMzRWxhX25acmlZQ21qVHNZSFhYdXJsVEpkOXV0enFDaHp3Z2pHSmxoVnZoUzhPVHRmUkY5bzkzV01KdFhRUlRKN1Iya0kxMVdVcnpmVVBRVlp1S1lnUE94N2E4OGVZWldMSk8zeW9DbnN5T2paejRrLTRRbkp2dWFRYkYtelAtc00wSnBMa01vSVpqaGhoSTB5UDA4SGs5RlRob09UNzZJeTlfeFNQVWFPdnpZNTEyWUNVYTJiWUVLbDdJcnUxSmlx?oc=5</id>
@@ -268,7 +333,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Samsung Reportedly Ramps 4nm Capacity For Memory Chips, Stepping Up Competition With SK Hynix, Micron finance.yahoo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung Reportedly Ramps 4nm Capacity For Memory Chips, Stepping Up Competition With SK Hynix, Micron finance.yahoo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNXk0SHV0RXNoME8yd1FHWWpQSGhIWklMNnEwSTZtZlUtbW5TZG5FUHVheUE0Nms1ZWNIRXEydGcwY0NzeUVaS3Q2WUF3aWFadzI1NVphb0NHQ3NLZ1FuUE1QOW9HcFV3ejY4ZWtHbUZybzU3M19rT3NyX2xkU2stVnZmUURCZkpERzdGX2dGeDBzcDZjME5GaVJ1SEdJaDR1R1Q3dEpnQS01LW1BZXI5UmFaNGkzR0FaeXZKT29QQjFlZTRDZkJnMmxQRFlmcXhmdzkzUGZvZTNCbFdfUHNoVtIB5gFBVV95cUxPMkpRX2dWLTlCWU16NllFLTNDbHpaV3BhSFp1RzdiZFJXZWxHZ0RmY2xLYlR5MjV1WndONlFYMFRlcU4taUhkVWZLQVNUckhWQmJxUjBBVElCRlp3R1d1TndpS0FGQXJNSnFSclJMNHl4NnpVOFRBeEVUaVQxaDZCMmRiYzhPYlJUR3dLNkpRRzBYUnZiWW5reDJKWGt6a25PVkU4dFktbFJxcVRiRjRVeEk1dlkwdUtqazRnRjdLSzNFODRhVzBFa24zNndWeVFkbHM0c1pZRXYzVU5CemZCdU11VWpoUQ?oc=5</id>
@@ -320,7 +385,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;DRAM Module Revenue Surged 59% YoY in 2025 as Crowding-Out Effect Constrains Chip Supply and Drives Prices Higher TechPowerUp&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;DRAM Module Revenue Surged 59% YoY in 2025 as Crowding-Out Effect Constrains Chip Supply and Drives Prices Higher TechPowerUp&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/352934/dram-module-revenue-surged-59-yoy-in-2025-as-crowding-out-effect-constrained-chip-supply-and-drove-prices-higher</id>
@@ -386,6 +451,19 @@
     <category term="tag:supply" />
     
     <content type="html">&lt;p&gt;Micron Stock Price Forecast: MU Stock Poised to Hit All-Time High as Tight Memory Supply Continues to Support Price Increases TradingKey&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMihgFBVV95cUxQWGxJNk9nekdWN3lNQ3hoTnZER1ZVcUZSemZBbVVFQm9MYzR2RmlKcVlzVWJHZmIwMmlEUGR4SnpZdTQ1NTlhdThhNmRKUUI0WlItbXR3aHladEtMcDVBbDNyY1JFcVBEWnR0bU9MNzJkbTAzUTFhRHhNU2FpVk80U3hSOU1zdw?oc=5</id>
+    <title type="html">Memory Price Jumps Are Making PC Shoppers Hesitate - Finimize</title>
+    <link href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQWGxJNk9nekdWN3lNQ3hoTnZER1ZVcUZSemZBbVVFQm9MYzR2RmlKcVlzVWJHZmIwMmlEUGR4SnpZdTQ1NTlhdThhNmRKUUI0WlItbXR3aHladEtMcDVBbDNyY1JFcVBEWnR0bU9MNzJkbTAzUTFhRHhNU2FpVk80U3hSOU1zdw?oc=5" />
+    <link rel="related" href="/stories/memory-price-jumps-are-making-pc-shoppers-hesitate-f-6dbbc8df.html" />
+    <updated>2026-09-22T00:13:48.000Z</updated>
+    <author><name>Finimize</name></author>
+    <summary type="html">Memory Price Jumps Are Making PC Shoppers Hesitate Finimize RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Memory Price Jumps Are Making PC Shoppers Hesitate Finimize&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE83bmpDRUhEeDZ3TkFxQWFjdHgtTlB3VnQ0OG81OVhLSzNyZXVnMHQzSzFaejFkSDNMU1huWmFPb0JFQWUxNmRYdFp5d3Vybkw5bi1ZazU1aG5sN2xrdE55TW41QjQ1NEthWTlVUDlBNzJhdklQbGc?oc=5</id>

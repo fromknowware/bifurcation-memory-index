@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-22T16:55:44.269Z",
-  "count": 1061,
+  "generatedAt": "2026-09-22T21:16:56.932Z",
+  "count": 1067,
   "stories": [
+    {
+      "slug": "openai-unleashes-a-new-price-war-with-gpt-6-sol-and-74ea4aff",
+      "url": "/stories/openai-unleashes-a-new-price-war-with-gpt-6-sol-and-74ea4aff.html",
+      "title": "OpenAI Unleashes A New Price War, With GPT-6 Sol And GPT-6 Luna Now Priced Below Claude Opus 5.5 And DeepSeek’s V4.1 Flash, Respectively, Negating The Rationale For Open-Weight Models",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "wafer-scale-sub-5nm-channel-monolayer-mos2-transisto-5a1fdebf",
+      "url": "/stories/wafer-scale-sub-5nm-channel-monolayer-mos2-transisto-5a1fdebf.html",
+      "title": "Wafer-Scale Sub-5nm Channel Monolayer MoS2 Transistors (CMU, UF, MIT et al.)",
+      "tag": "fab",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "amd-shows-off-ray-tracing-tech-that-slashes-gpu-memo-d5aa60f2",
+      "url": "/stories/amd-shows-off-ray-tracing-tech-that-slashes-gpu-memo-d5aa60f2.html",
+      "title": "AMD Shows Off Ray Tracing Tech That Slashes GPU Memory Use By 47x",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "stifel-has-message-for-micron-stock-investors-before-3a310e29",
+      "url": "/stories/stifel-has-message-for-micron-stock-investors-before-3a310e29.html",
+      "title": "Stifel Has Message For Micron Stock Investors Before Earnings - TradingView",
+      "tag": "earnings",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
     {
       "slug": "cxmt-chases-nand-as-ymtc-storms-into-dram-territory-80d3a211",
       "url": "/stories/cxmt-chases-nand-as-ymtc-storms-into-dram-territory-80d3a211.html",
@@ -110,6 +154,17 @@
       "score": 8,
       "pick": false,
       "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-reportedly-locks-in-2027-memory-prices-and-and-c79d60d9",
+      "url": "/stories/apple-reportedly-locks-in-2027-memory-prices-and-and-c79d60d9.html",
+      "title": "Apple reportedly locks in 2027 memory prices, and Android phone makers could pay more - Sportskeeda Tech",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "Sportskeeda Tech",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -319,6 +374,17 @@
       "score": 8,
       "pick": false,
       "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-price-jumps-are-making-pc-shoppers-hesitate-f-6dbbc8df",
+      "url": "/stories/memory-price-jumps-are-making-pc-shoppers-hesitate-f-6dbbc8df.html",
+      "title": "Memory Price Jumps Are Making PC Shoppers Hesitate - Finimize",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "Finimize",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
