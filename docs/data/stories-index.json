@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-09-22T04:52:36.527Z",
-  "count": 1035,
+  "generatedAt": "2026-09-22T11:35:23.035Z",
+  "count": 1045,
   "stories": [
+    {
+      "slug": "dram-is-now-more-expensive-than-compute-chips-on-per-d78bd629",
+      "url": "/stories/dram-is-now-more-expensive-than-compute-chips-on-per-d78bd629.html",
+      "title": "DRAM is now more expensive than compute chips on per-area basis — AI demand drives memory die value past leading-edge silicon - Tom's Hardware",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "memory-chips-are-now-more-expensive-to-make-than-com-69b4c551",
+      "url": "/stories/memory-chips-are-now-more-expensive-to-make-than-com-69b4c551.html",
+      "title": "Memory chips are now more expensive to make than compute chips on a per-area basis — AI demand drives DRAM die value past leading-edge silicon",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "this-299-2tb-msi-ssd-is-one-of-the-least-expensive-p-883ccdc0",
+      "url": "/stories/this-299-2tb-msi-ssd-is-one-of-the-least-expensive-p-883ccdc0.html",
+      "title": "This $299 2TB MSI SSD is one of the least expensive PCIe 4.0 SSDs you can buy right now —  just 10 cents per GB yields a speedy upgrade for your internal storage",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "new-dapustor-ssd-pairs-high-capacity-qlc-with-a-perm-27b076bb",
+      "url": "/stories/new-dapustor-ssd-pairs-high-capacity-qlc-with-a-perm-27b076bb.html",
+      "title": "New DapuStor SSD pairs high-capacity QLC with a permanent pSLC region — trades 6% to 20% of its QLC capacity for more than 7x faster random writes",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-s-cxmt-hits-12nm-class-dram-milestone-new-5th-b7093f82",
+      "url": "/stories/china-s-cxmt-hits-12nm-class-dram-milestone-new-5th-b7093f82.html",
+      "title": "China's CXMT hits 12nm-class DRAM milestone — new 5th-gen DRAM tech uses quadruple-patterning to boost die capacity by 50%",
+      "tag": "fab",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "dram-module-revenue-surged-59-yoy-in-2025-as-crowdin-1f9f8d4a",
+      "url": "/stories/dram-module-revenue-surged-59-yoy-in-2025-as-crowdin-1f9f8d4a.html",
+      "title": "DRAM Module Revenue Surged 59% YoY in 2025 as Crowding-Out Effect Constrained Chip Supply and Drove Prices Higher - TechPowerUp",
+      "tag": "earnings",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-reportedly-ramps-4nm-capacity-for-memory-chi-3fc24e25",
+      "url": "/stories/samsung-reportedly-ramps-4nm-capacity-for-memory-chi-3fc24e25.html",
+      "title": "Samsung Reportedly Ramps 4nm Capacity For Memory Chips, Stepping Up Competition With SK Hynix, Micron - Stocktwits",
+      "tag": "fab",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "Stocktwits",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "tsmc-s-progress-in-advanced-nodes-is-why-samsung-may-48a4b02d",
+      "url": "/stories/tsmc-s-progress-in-advanced-nodes-is-why-samsung-may-48a4b02d.html",
+      "title": "TSMC’s Progress In Advanced Nodes Is Why Samsung May Never Close The Gap With Its Rival; 1.4nm Trial Production In Q1 2027, AI Boom Propels 3nm Output To New Heights",
+      "tag": "fab",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "pr-dram-module-revenue-surged-59-yoy-in-2025-as-crow-d2b7b322",
+      "url": "/stories/pr-dram-module-revenue-surged-59-yoy-in-2025-as-crow-d2b7b322.html",
+      "title": "(PR) DRAM Module Revenue Surged 59% YoY in 2025 as Crowding-Out Effect Constrained Chip Supply and Drove Prices Higher",
+      "tag": "earnings",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "ai-demand-breaks-dram-nand-synchronization-b15a9d6e",
+      "url": "/stories/ai-demand-breaks-dram-nand-synchronization-b15a9d6e.html",
+      "title": "AI Demand Breaks DRAM-NAND Synchronization - 조선일보",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "sk-hynix-targets-ai-inference-bottlenecks-with-new-m-0e4077a6",
       "url": "/stories/sk-hynix-targets-ai-inference-bottlenecks-with-new-m-0e4077a6.html",
