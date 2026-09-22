@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-09-21T21:57:43.593Z",
-  "count": 1028,
+  "generatedAt": "2026-09-22T04:52:36.527Z",
+  "count": 1035,
   "stories": [
+    {
+      "slug": "sk-hynix-targets-ai-inference-bottlenecks-with-new-m-0e4077a6",
+      "url": "/stories/sk-hynix-targets-ai-inference-bottlenecks-with-new-m-0e4077a6.html",
+      "title": "SK hynix Targets AI Inference Bottlenecks With New Memory Technologies - Korea IT Times",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "Korea IT Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-looks-beyond-hbm-as-ai-memory-race-enters-n-f3a77d7b",
+      "url": "/stories/sk-hynix-looks-beyond-hbm-as-ai-memory-race-enters-n-f3a77d7b.html",
+      "title": "SK hynix Looks Beyond HBM as AI Memory Race Enters Next Phase - Korea IT Times",
+      "tag": "demand",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "Korea IT Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-stock-price-forecast-mu-stock-poised-to-hit-a-a9b66e28",
+      "url": "/stories/micron-stock-price-forecast-mu-stock-poised-to-hit-a-a9b66e28.html",
+      "title": "Micron Stock Price Forecast: MU Stock Poised to Hit All-Time High as Tight Memory Supply Continues to Support Price Increases - TradingKey",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-electronics-dram-expansion-won-t-ease-commod-dce224e2",
+      "url": "/stories/samsung-electronics-dram-expansion-won-t-ease-commod-dce224e2.html",
+      "title": "Samsung Electronics' DRAM Expansion Won't Ease Commodity Shortage — Price Rally Seen Prolonged - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "california-tightens-datacenter-rules-on-water-and-po-26fe7e1e",
+      "url": "/stories/california-tightens-datacenter-rules-on-water-and-po-26fe7e1e.html",
+      "title": "California tightens datacenter rules on water and power",
+      "tag": "supply",
+      "date": "2026-09-21",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "concurrent-hbm-and-host-memory-access-improves-llm-i-dd0ef4d0",
+      "url": "/stories/concurrent-hbm-and-host-memory-access-improves-llm-i-dd0ef4d0.html",
+      "title": "Concurrent HBM And Host Memory Access Improves LLM Inference Throughput (Georgia Tech, Nvidia, Stanford)",
+      "tag": "demand",
+      "date": "2026-09-21",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "if-meta-s-muse-personal-agent-scales-to-just-100-mil-aaf16403",
+      "url": "/stories/if-meta-s-muse-personal-agent-scales-to-just-100-mil-aaf16403.html",
+      "title": "If Meta’s Muse Personal Agent Scales To Just 100 Million Users, It Would Require 1.58 Million AMD Ryzen CPUs, 800 Petabyte Of RAM, And 10,000 Petabyte Of SSD Under Ideal Conditions",
+      "tag": "supply",
+      "date": "2026-09-21",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "sk-hynix-and-intel-explore-us-memory-chip-manufactur-5a1b4eed",
       "url": "/stories/sk-hynix-and-intel-explore-us-memory-chip-manufactur-5a1b4eed.html",
