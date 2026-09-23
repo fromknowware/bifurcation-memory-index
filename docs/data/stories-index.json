@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-23T04:42:48.836Z",
-  "count": 1073,
+  "generatedAt": "2026-09-23T11:32:42.174Z",
+  "count": 1079,
   "stories": [
+    {
+      "slug": "this-32gb-corsair-vengeance-ddr5-6000-memory-is-the-ca960928",
+      "url": "/stories/this-32gb-corsair-vengeance-ddr5-6000-memory-is-the-ca960928.html",
+      "title": "This 32GB Corsair Vengeance DDR5-6000 memory is the cheapest kit available",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "cxmt-corporation-stock-rises-2-6-percent-as-dram-inv-a553fb0f",
+      "url": "/stories/cxmt-corporation-stock-rises-2-6-percent-as-dram-inv-a553fb0f.html",
+      "title": "CXMT Corporation stock rises 2.6 percent as DRAM investment surges - AD HOC NEWS",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "AD HOC NEWS",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-holds-goldman-s-buy-rating-as-samsung-close-6d300bcf",
+      "url": "/stories/sk-hynix-holds-goldman-s-buy-rating-as-samsung-close-6d300bcf.html",
+      "title": "SK Hynix Holds Goldman's Buy Rating as Samsung Closes In and CXMT Ramps Up - AD HOC NEWS",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "AD HOC NEWS",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "building-a-connected-contextual-data-backbone-for-ai-e3ea28dc",
+      "url": "/stories/building-a-connected-contextual-data-backbone-for-ai-e3ea28dc.html",
+      "title": "Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "trendforce-dram-module-revenue-surges-59-yoy-in-2025-784a559f",
       "url": "/stories/trendforce-dram-module-revenue-surges-59-yoy-in-2025-784a559f.html",
@@ -12,6 +56,17 @@
       "pick": false,
       "source": "EE Times Asia",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-electronics-sk-hynix-nearing-early-end-to-35-8b4cdc6f",
+      "url": "/stories/samsung-electronics-sk-hynix-nearing-early-end-to-35-8b4cdc6f.html",
+      "title": "Samsung Electronics, SK Hynix Nearing Early End to ₩35 Trillion Buyback Programs; KOSPI Supply-Demand Gap Looms - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "micron-039-s-2-gb-gddr7-memory-chips-reportedly-reac-7e791038",
@@ -56,6 +111,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-earnings-are-set-for-a-10x-jump-the-stock-is-86472681",
+      "url": "/stories/micron-earnings-are-set-for-a-10x-jump-the-stock-is-86472681.html",
+      "title": "Micron Earnings Are Set for a 10x Jump: The Stock Is Still the Cheapest in Tech - Benzinga",
+      "tag": "earnings",
+      "date": "2026-09-22",
+      "score": 7,
+      "pick": false,
+      "source": "Benzinga",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "wafer-scale-sub-5nm-channel-monolayer-mos2-transisto-5a1fdebf",
