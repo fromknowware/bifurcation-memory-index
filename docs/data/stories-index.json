@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-22T21:16:56.932Z",
-  "count": 1067,
+  "generatedAt": "2026-09-23T04:42:48.836Z",
+  "count": 1073,
   "stories": [
+    {
+      "slug": "trendforce-dram-module-revenue-surges-59-yoy-in-2025-784a559f",
+      "url": "/stories/trendforce-dram-module-revenue-surges-59-yoy-in-2025-784a559f.html",
+      "title": "TrendForce: DRAM Module Revenue Surges 59% YoY in 2025 - EE Times Asia",
+      "tag": "earnings",
+      "date": "2026-09-23",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times Asia",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "micron-039-s-2-gb-gddr7-memory-chips-reportedly-reac-7e791038",
+      "url": "/stories/micron-039-s-2-gb-gddr7-memory-chips-reportedly-reac-7e791038.html",
+      "title": "Micron&#039;s 2 GB GDDR7 Memory Chips Reportedly Reach End of Life",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kiwoom-sees-samsung-miss-q3-profit-but-bets-on-hbm-a-bddf1051",
+      "url": "/stories/kiwoom-sees-samsung-miss-q3-profit-but-bets-on-hbm-a-bddf1051.html",
+      "title": "Kiwoom sees Samsung miss Q3 profit but bets on HBM and foundry growth - CHOSUNBIZ - Chosunbiz",
+      "tag": "fab",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "sk-hynix-ceo-says-that-ai-industry-cannot-exist-with-0274ae63",
+      "url": "/stories/sk-hynix-ceo-says-that-ai-industry-cannot-exist-with-0274ae63.html",
+      "title": "SK Hynix CEO Says That AI Industry Cannot Exist Without Memory As the Company Builds Next-Gen Memory Across A Fleet of Global Production Bases to Maintain Market Dominance",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "openai-unleashes-a-new-price-war-with-gpt-6-sol-and-74ea4aff",
       "url": "/stories/openai-unleashes-a-new-price-war-with-gpt-6-sol-and-74ea4aff.html",
@@ -47,6 +91,17 @@
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
+      "slug": "apple-iphone-18-memory-costs-rising-dram-and-nand-pr-435e6102",
+      "url": "/stories/apple-iphone-18-memory-costs-rising-dram-and-nand-pr-435e6102.html",
+      "title": "Apple iPhone 18 Memory Costs: Rising DRAM and NAND Prices Add Pressure - TechInsights",
+      "tag": "supply",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "TechInsights",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "cxmt-chases-nand-as-ymtc-storms-into-dram-territory-80d3a211",
       "url": "/stories/cxmt-chases-nand-as-ymtc-storms-into-dram-territory-80d3a211.html",
       "title": "CXMT Chases NAND as YMTC Storms Into DRAM Territory, Igniting a Chinese Memory & Storage Chip Turf War, Says Report",
@@ -67,6 +122,17 @@
       "pick": false,
       "source": "Pluang",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "sk-hynix-says-no-plans-confirmed-for-us-memory-chip-7157c645",
+      "url": "/stories/sk-hynix-says-no-plans-confirmed-for-us-memory-chip-7157c645.html",
+      "title": "SK hynix says no plans confirmed for US memory chip production with Intel - Cleanroom Technology",
+      "tag": "fab",
+      "date": "2026-09-22",
+      "score": 8,
+      "pick": false,
+      "source": "Cleanroom Technology",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
       "slug": "alibaba-brags-that-its-next-gen-zhenwu-v900-ai-chip-40917a4b",
