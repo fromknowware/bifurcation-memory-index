@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-09-23T16:55:48.953Z",
-  "count": 1090,
+  "generatedAt": "2026-09-23T21:29:09.870Z",
+  "count": 1107,
   "stories": [
+    {
+      "slug": "wafer-prices-could-surge-40-in-2027-on-ai-demand-202-01637572",
+      "url": "/stories/wafer-prices-could-surge-40-in-2027-on-ai-demand-202-01637572.html",
+      "title": "Wafer Prices Could Surge 40% in 2027 on AI Demand [2026] - shattered.io",
+      "tag": "fab",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "alibaba-unveils-roadmap-on-full-stack-ai-strategy-fr-e36e5f3d",
+      "url": "/stories/alibaba-unveils-roadmap-on-full-stack-ai-strategy-fr-e36e5f3d.html",
+      "title": "Alibaba Unveils Roadmap on Full-Stack AI Strategy from Chips, Cloud Infrastructure, Models to Agents",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "cadence-locks-in-tsmc-a14-tool-certification-cutting-1e90fd8d",
+      "url": "/stories/cadence-locks-in-tsmc-a14-tool-certification-cutting-1e90fd8d.html",
+      "title": "Cadence Locks In TSMC A14 Tool Certification, Cutting Design Iterations By 2.5X As It Races Toward Agentic AI Chips",
+      "tag": "fab",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "citi-resets-micron-target-after-surprise-tradingview-9cf94e11",
+      "url": "/stories/citi-resets-micron-target-after-surprise-tradingview-9cf94e11.html",
+      "title": "Citi Resets Micron Target After Surprise - tradingview.com",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "tradingview.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "an-msi-vector-a18-hx-advertised-on-amazon-with-beefy-8e436857",
+      "url": "/stories/an-msi-vector-a18-hx-advertised-on-amazon-with-beefy-8e436857.html",
+      "title": "An MSI Vector A18 HX Advertised On Amazon With Beefy Hardware, 32GB RAM, And In “Really Good” Condition, Caught Buyer Off Guard As It Came Without Any Memory Or SSD",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "silicon-wafer-prices-to-surge-40-in-2027-as-ai-deman-a1e23799",
+      "url": "/stories/silicon-wafer-prices-to-surge-40-in-2027-as-ai-deman-a1e23799.html",
+      "title": "Silicon Wafer Prices to Surge 40% in 2027 as AI Demand Squeezes the Chip Supply Chain",
+      "tag": "fab",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "exclusive-ai-is-supercharging-memory-stocks-this-fun-bfd17fa3",
+      "url": "/stories/exclusive-ai-is-supercharging-memory-stocks-this-fun-bfd17fa3.html",
+      "title": "EXCLUSIVE: AI Is Supercharging Memory Stocks–This Fund Manager Says Earnings May Be Lying - tradingview.com",
+      "tag": "earnings",
+      "date": "2026-09-23",
+      "score": 7,
+      "pick": false,
+      "source": "tradingview.com",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "micron-price-target-raised-to-1-300-by-citi-on-stron-01e00da7",
+      "url": "/stories/micron-price-target-raised-to-1-300-by-citi-on-stron-01e00da7.html",
+      "title": "Micron Price Target Raised to $1,300 by Citi on Stronger DRAM Pricing, Undersupply - Yahoo Finance",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "Yahoo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-price-target-raised-to-1-300-by-citi-on-stron-e38a4e8c",
+      "url": "/stories/micron-price-target-raised-to-1-300-by-citi-on-stron-e38a4e8c.html",
+      "title": "Micron Price Target Raised to $1,300 by Citi on Stronger DRAM Pricing, Undersupply - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "citi-revamps-micron-stock-price-target-for-2027-trad-cfb7cde4",
+      "url": "/stories/citi-revamps-micron-stock-price-target-for-2027-trad-cfb7cde4.html",
+      "title": "Citi Revamps Micron Stock Price Target For 2027 - tradingview.com",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "tradingview.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "anthropic-blocks-huawei-chips-from-using-latest-opus-55bc1bd7",
       "url": "/stories/anthropic-blocks-huawei-chips-from-using-latest-opus-55bc1bd7.html",
@@ -22,6 +132,28 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "an-epyc-trip-to-venice-everything-we-do-and-don-t-kn-374b0ec6",
+      "url": "/stories/an-epyc-trip-to-venice-everything-we-do-and-don-t-kn-374b0ec6.html",
+      "title": "An Epyc trip to Venice: Everything we do and don't know about AMD's 256-core monster chip",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "new-dram-value-per-area-chart-draws-attention-amid-r-892fa09e",
+      "url": "/stories/new-dram-value-per-area-chart-draws-attention-amid-r-892fa09e.html",
+      "title": "New DRAM value‑per‑area chart draws attention amid rising memory prices - KitGuru",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "KitGuru",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -58,6 +190,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "ai-server-what-comes-after-more-powerful-gpus-kings-1190e992",
+      "url": "/stories/ai-server-what-comes-after-more-powerful-gpus-kings-1190e992.html",
+      "title": "AI Server: What Comes After More Powerful GPUs? - Kings Research",
+      "tag": "demand",
+      "date": "2026-09-23",
+      "score": 7,
+      "pick": false,
+      "source": "Kings Research",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "amd-adds-gddr7-memory-support-to-open-source-linux-g-219f8500",
       "url": "/stories/amd-adds-gddr7-memory-support-to-open-source-linux-g-219f8500.html",
       "title": "AMD adds GDDR7 memory support to open-source Linux graphics driver",
@@ -66,6 +209,17 @@
       "score": 8,
       "pick": false,
       "source": "KitGuru",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "mu-stock-gets-mixed-takes-from-wall-street-on-memory-167a7b28",
+      "url": "/stories/mu-stock-gets-mixed-takes-from-wall-street-on-memory-167a7b28.html",
+      "title": "MU Stock Gets Mixed Takes From Wall Street On Memory Tightness, DRAM Pricing Strength - Yahoo Finance",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "Yahoo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -113,6 +267,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "cxmt-chases-nand-as-ymtc-storms-into-dram-turf-2026-ae5f4a32",
+      "url": "/stories/cxmt-chases-nand-as-ymtc-storms-into-dram-turf-2026-ae5f4a32.html",
+      "title": "CXMT Chases NAND as YMTC Storms Into DRAM Turf [2026] - tech-insider.org",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "tech-insider.org",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "this-32gb-corsair-vengeance-ddr5-6000-memory-is-the-ca960928",
       "url": "/stories/this-32gb-corsair-vengeance-ddr5-6000-memory-is-the-ca960928.html",
       "title": "This 32GB Corsair Vengeance DDR5-6000 memory is the cheapest kit available",
@@ -135,6 +300,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "cxmt-s-ddr5-push-complicates-the-dram-equation-for-s-b403fa8b",
+      "url": "/stories/cxmt-s-ddr5-push-complicates-the-dram-equation-for-s-b403fa8b.html",
+      "title": "CXMT’s DDR5 Push Complicates the DRAM Equation for Samsung and SK Hynix - 인사이트코리아",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "인사이트코리아",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "insights-memory-spot-price-update-dram-spot-prices-h-a6c3003f",
       "url": "/stories/insights-memory-spot-price-update-dram-spot-prices-h-a6c3003f.html",
       "title": "[Insights] Memory Spot Price Update: DRAM Spot Prices Hold Cautious Tone; DDR4 2Gx8 Drops 3.6% - trendforce.com",
@@ -154,6 +330,17 @@
       "score": 8,
       "pick": false,
       "source": "AD HOC NEWS",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-s-cxmt-ramps-dram-investment-as-ai-boom-tighte-a7329425",
+      "url": "/stories/china-s-cxmt-ramps-dram-investment-as-ai-boom-tighte-a7329425.html",
+      "title": "China’s CXMT ramps DRAM investment as AI boom tightens supply, pressuring Korea - CHOSUNBIZ - Chosunbiz",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "Chosunbiz",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
