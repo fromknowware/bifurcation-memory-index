@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-09-23T11:32:42.174Z",
-  "count": 1079,
+  "generatedAt": "2026-09-23T16:55:48.953Z",
+  "count": 1090,
   "stories": [
+    {
+      "slug": "anthropic-blocks-huawei-chips-from-using-latest-opus-55bc1bd7",
+      "url": "/stories/anthropic-blocks-huawei-chips-from-using-latest-opus-55bc1bd7.html",
+      "title": "Anthropic Blocks Huawei Chips From Using Latest Opus 5.5 to Develop AI Models, Yet Amazon Appears To Have Gotten Caught in the Crossfire",
+      "tag": "earnings",
+      "date": "2026-09-23",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "china-s-ymtc-wins-patent-battle-against-micron-in-on-edf93122",
+      "url": "/stories/china-s-ymtc-wins-patent-battle-against-micron-in-on-edf93122.html",
+      "title": "China's YMTC wins patent battle against Micron in ongoing 3-year legal war over memory patents",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "new-dram-value-per-area-chart-draws-attention-amid-r-1b530a70",
+      "url": "/stories/new-dram-value-per-area-chart-draws-attention-amid-r-1b530a70.html",
+      "title": "New DRAM value‑per‑area chart draws attention amid rising memory prices - KitGuru",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "KitGuru",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "new-dram-value-per-area-chart-draws-attention-amid-r-b13d5b23",
+      "url": "/stories/new-dram-value-per-area-chart-draws-attention-amid-r-b13d5b23.html",
+      "title": "New DRAM value‑per‑area chart draws attention amid rising memory prices",
+      "tag": "fab",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "KitGuru",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "micron-in-focus-as-citi-ups-estimates-on-better-than-6d31f811",
+      "url": "/stories/micron-in-focus-as-citi-ups-estimates-on-better-than-6d31f811.html",
+      "title": "Micron in focus as Citi ups estimates on better-than-expected DRAM pricing (MU:NASDAQ) - Seeking Alpha",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "Seeking Alpha",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-adds-gddr7-memory-support-to-open-source-linux-g-219f8500",
+      "url": "/stories/amd-adds-gddr7-memory-support-to-open-source-linux-g-219f8500.html",
+      "title": "AMD adds GDDR7 memory support to open-source Linux graphics driver",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "KitGuru",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-s-bytedance-gained-access-to-over-2-000-nvidia-6dae774f",
+      "url": "/stories/china-s-bytedance-gained-access-to-over-2-000-nvidia-6dae774f.html",
+      "title": "China's ByteDance gained access to over 2,000 Nvidia B200 chips through Norway data center",
+      "tag": "demand",
+      "date": "2026-09-23",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "alibaba-unveils-zhenwu-v900-ai-accelerator-claims-it-7d2cb604",
+      "url": "/stories/alibaba-unveils-zhenwu-v900-ai-accelerator-claims-it-7d2cb604.html",
+      "title": "Alibaba unveils Zhenwu V900 AI accelerator, claims it's 'the most powerful AI chip in China'",
+      "tag": "demand",
+      "date": "2026-09-23",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-chases-nand-as-ymtc-preps-dram-3-sources-say-20-4bfd74ab",
+      "url": "/stories/cxmt-chases-nand-as-ymtc-preps-dram-3-sources-say-20-4bfd74ab.html",
+      "title": "CXMT Chases NAND as YMTC Preps DRAM, 3 Sources Say [2026] - shattered.io",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-begins-to-add-gddr7-support-to-its-linux-gpu-dri-41168b0e",
+      "url": "/stories/amd-begins-to-add-gddr7-support-to-its-linux-gpu-dri-41168b0e.html",
+      "title": "AMD begins to add GDDR7 support to its Linux GPU drivers",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "this-32gb-corsair-vengeance-ddr5-6000-memory-is-the-ca960928",
       "url": "/stories/this-32gb-corsair-vengeance-ddr5-6000-memory-is-the-ca960928.html",
@@ -22,6 +132,17 @@
       "score": 8,
       "pick": false,
       "source": "AD HOC NEWS",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "insights-memory-spot-price-update-dram-spot-prices-h-a6c3003f",
+      "url": "/stories/insights-memory-spot-price-update-dram-spot-prices-h-a6c3003f.html",
+      "title": "[Insights] Memory Spot Price Update: DRAM Spot Prices Hold Cautious Tone; DDR4 2Gx8 Drops 3.6% - trendforce.com",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "trendforce.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
