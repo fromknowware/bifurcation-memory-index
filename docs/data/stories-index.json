@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-09-24T04:47:02.432Z",
-  "count": 1113,
+  "generatedAt": "2026-09-24T11:42:42.475Z",
+  "count": 1124,
   "stories": [
+    {
+      "slug": "micron-s-memory-boom-is-showing-up-in-prices-gurufoc-88b40937",
+      "url": "/stories/micron-s-memory-boom-is-showing-up-in-prices-gurufoc-88b40937.html",
+      "title": "Micron's Memory Boom Is Showing Up in Prices - GuruFocus",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "GuruFocus",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "wici-one-unveils-wireless-wi-fi-7-egpu-with-built-in-82e599ca",
+      "url": "/stories/wici-one-unveils-wireless-wi-fi-7-egpu-with-built-in-82e599ca.html",
+      "title": "WiCi One unveils wireless Wi-Fi 7 eGPU with built-in 4TB SSD for local AI",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "mu-sndk-extend-slide-for-a-second-day-as-memory-rall-385f2508",
+      "url": "/stories/mu-sndk-extend-slide-for-a-second-day-as-memory-rall-385f2508.html",
+      "title": "MU, SNDK Extend Slide For A Second Day As Memory Rally Fizzles: Micron Results Next Week To Test AI Demand - tradingview.com",
+      "tag": "demand",
+      "date": "2026-09-24",
+      "score": 7,
+      "pick": false,
+      "source": "tradingview.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "3-stocks-that-get-paid-more-when-memory-prices-rise-1c719b3e",
+      "url": "/stories/3-stocks-that-get-paid-more-when-memory-prices-rise-1c719b3e.html",
+      "title": "3 Stocks That Get Paid More When Memory Prices Rise. I'd Buy Only 1 of Them. - The Globe and Mail",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "The Globe and Mail",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-earnings-preview-five-key-things-memory-inves-0d3a0941",
+      "url": "/stories/micron-earnings-preview-five-key-things-memory-inves-0d3a0941.html",
+      "title": "Micron Earnings Preview: Five Key Things Memory Investors Need to Watch - TradingKey",
+      "tag": "earnings",
+      "date": "2026-09-24",
+      "score": 7,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "ai-memory-crowding-out-effect-intensifies-broad-smar-0b4d64f9",
+      "url": "/stories/ai-memory-crowding-out-effect-intensifies-broad-smar-0b4d64f9.html",
+      "title": "AI Memory Crowding-Out Effect Intensifies: Broad Smartphone Price Hikes Loom Next Year - finance.biggo.com",
+      "tag": "demand",
+      "date": "2026-09-24",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "when-ai-agents-cross-chip-design-silos-104647c4",
+      "url": "/stories/when-ai-agents-cross-chip-design-silos-104647c4.html",
+      "title": "When AI Agents Cross Chip Design Silos",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-value-per-unit-area-surpasses-tsmc-2nm-wafer-pr-9ac004bf",
+      "url": "/stories/dram-value-per-unit-area-surpasses-tsmc-2nm-wafer-pr-9ac004bf.html",
+      "title": "DRAM Value Per Unit Area Surpasses TSMC 2nm Wafer Price by Over 50% - finance.biggo.com",
+      "tag": "fab",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "buyers-defend-dram-price-fixing-case-against-chipmak-f7849e32",
       "url": "/stories/buyers-defend-dram-price-fixing-case-against-chipmak-f7849e32.html",
@@ -23,6 +111,28 @@
       "pick": false,
       "source": "Longbridge",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-module-market-surges-59-supply-shortage-unlikel-6deaeac7",
+      "url": "/stories/dram-module-market-surges-59-supply-shortage-unlikel-6deaeac7.html",
+      "title": "DRAM Module Market Surges 59%; Supply Shortage Unlikely to Ease Before 2028 - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-electronics-and-sk-hynix-q3-operating-profit-84fcefdd",
+      "url": "/stories/samsung-electronics-and-sk-hynix-q3-operating-profit-84fcefdd.html",
+      "title": "Samsung Electronics and SK Hynix Q3 Operating Profit Combined Forecast Nears 190 Trillion Won; China's CXMT Emerges as Wild Card - finance.biggo.com",
+      "tag": "earnings",
+      "date": "2026-09-23",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "micron-eyes-50-billion-in-q4-revenue-rapidly-closing-54acec33",
@@ -286,6 +396,17 @@
       "score": 8,
       "pick": false,
       "source": "Yahoo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "mu-stock-gets-mixed-takes-from-wall-street-on-memory-dae979a6",
+      "url": "/stories/mu-stock-gets-mixed-takes-from-wall-street-on-memory-dae979a6.html",
+      "title": "MU Stock Gets Mixed Takes From Wall Street On Memory Tightness, DRAM Pricing Strength - Stocktwits",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "Stocktwits",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
