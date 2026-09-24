@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-09-24T17:08:27.948Z",
-  "count": 1135,
+  "generatedAt": "2026-09-24T21:29:40.832Z",
+  "count": 1142,
   "stories": [
+    {
+      "slug": "new-jersey-fines-data-center-1-1m-after-drone-pics-e-feac966e",
+      "url": "/stories/new-jersey-fines-data-center-1-1m-after-drone-pics-e-feac966e.html",
+      "title": "New Jersey fines data center $1.1M after drone pics expose 62 gas generators",
+      "tag": "demand",
+      "date": "2026-09-24",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "vertiv-to-buy-king-environmental-services-to-bolster-a6b7e0a2",
+      "url": "/stories/vertiv-to-buy-king-environmental-services-to-bolster-a6b7e0a2.html",
+      "title": "Vertiv to Buy King Environmental Services to Bolster Data Center Cooling",
+      "tag": "demand",
+      "date": "2026-09-24",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-s-strong-dram-mix-and-limited-hbm-exposu-plua-dc455c55",
+      "url": "/stories/micron-s-strong-dram-mix-and-limited-hbm-exposu-plua-dc455c55.html",
+      "title": "Micron's strong DRAM mix and limited HBM exposu... - Pluang",
+      "tag": "demand",
+      "date": "2026-09-24",
+      "score": 7,
+      "pick": false,
+      "source": "Pluang",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "1b-dram-now-costs-54-more-per-square-millimeter-than-25f99b98",
+      "url": "/stories/1b-dram-now-costs-54-more-per-square-millimeter-than-25f99b98.html",
+      "title": "1b DRAM Now Costs 54% More Per Square Millimeter Than TSMC’s Equal-Sized N2 Wafer, Despite Being Far Easier To Fabricate - Wccftech",
+      "tag": "fab",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "1b-dram-now-costs-54-more-per-square-millimeter-than-563a5661",
+      "url": "/stories/1b-dram-now-costs-54-more-per-square-millimeter-than-563a5661.html",
+      "title": "1b DRAM Now Costs 54% More Per Square Millimeter Than TSMC’s Equal-Sized N2 Wafer, Despite Being Far Easier To Fabricate",
+      "tag": "fab",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "micron-stock-gets-a-big-wall-street-boost-ahead-of-e-4b04f118",
       "url": "/stories/micron-stock-gets-a-big-wall-street-boost-ahead-of-e-4b04f118.html",
@@ -12,6 +67,17 @@
       "pick": false,
       "source": "theglobeandmail.com",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "google-s-first-suncatcher-orbital-data-center-test-l-6639c7e0",
+      "url": "/stories/google-s-first-suncatcher-orbital-data-center-test-l-6639c7e0.html",
+      "title": "Google's first Suncatcher orbital data center test launches October 1",
+      "tag": "demand",
+      "date": "2026-09-24",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "tsmc-rumored-to-have-started-pilot-production-of-1-4-e579d62c",
@@ -165,6 +231,17 @@
       "score": 8,
       "pick": false,
       "source": "The Globe and Mail",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "3-stocks-that-get-paid-more-when-memory-prices-rise-2258974c",
+      "url": "/stories/3-stocks-that-get-paid-more-when-memory-prices-rise-2258974c.html",
+      "title": "3 Stocks That Get Paid More When Memory Prices Rise. I'd Buy Only 1 of Them. - AOL.com",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "AOL.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
