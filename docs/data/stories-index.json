@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-09-24T11:42:42.475Z",
-  "count": 1124,
+  "generatedAt": "2026-09-24T17:08:27.948Z",
+  "count": 1135,
   "stories": [
+    {
+      "slug": "micron-stock-gets-a-big-wall-street-boost-ahead-of-e-4b04f118",
+      "url": "/stories/micron-stock-gets-a-big-wall-street-boost-ahead-of-e-4b04f118.html",
+      "title": "Micron Stock Gets a Big Wall Street Boost Ahead of Earnings - theglobeandmail.com",
+      "tag": "earnings",
+      "date": "2026-09-24",
+      "score": 7,
+      "pick": false,
+      "source": "theglobeandmail.com",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "tsmc-rumored-to-have-started-pilot-production-of-1-4-e579d62c",
+      "url": "/stories/tsmc-rumored-to-have-started-pilot-production-of-1-4-e579d62c.html",
+      "title": "TSMC Rumored To Have Started Pilot Production of 1.4nm Chips as it Races To 2028 Volume Production",
+      "tag": "fab",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "china-s-rising-memory-chip-supply-may-burst-the-dram-0b0675f0",
+      "url": "/stories/china-s-rising-memory-chip-supply-may-burst-the-dram-0b0675f0.html",
+      "title": "China's rising memory chip supply may burst the DRAM and NAND price bubble by mid-2027, says Acer chairman. - Pluang",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "Pluang",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-shares-pull-back-for-two-days-as-usitc-launch-429def84",
+      "url": "/stories/micron-shares-pull-back-for-two-days-as-usitc-launch-429def84.html",
+      "title": "Micron Shares Pull Back for Two Days as USITC Launches DRAM Patent Probe; Citi Defies Trend to Raise Target Price to $1,300 - TradingKey",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "inside-tsmc-s-evolving-design-ecosystem-shaping-the-2d61965c",
+      "url": "/stories/inside-tsmc-s-evolving-design-ecosystem-shaping-the-2d61965c.html",
+      "title": "Inside TSMC’s Evolving Design Ecosystem: Shaping the Future of AI, with AI",
+      "tag": "fab",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "after-ionq-buyout-skywater-reiterates-role-as-quantu-1eea2a17",
+      "url": "/stories/after-ionq-buyout-skywater-reiterates-role-as-quantu-1eea2a17.html",
+      "title": "After IonQ Buyout, SkyWater Reiterates Role as Quantum Foundry",
+      "tag": "fab",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "skhy-mu-samsung-s-memory-technology-lead-over-china-a038d308",
+      "url": "/stories/skhy-mu-samsung-s-memory-technology-lead-over-china-a038d308.html",
+      "title": "SKHY, MU, Samsung's Memory Technology Lead Over China’s CXMT Unlikely To Narrow Soon, Says Futurum Analyst - Stocktwits",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "Stocktwits",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-s-rally-looks-overdone-until-you-price-the-me-1e2445fb",
+      "url": "/stories/micron-s-rally-looks-overdone-until-you-price-the-me-1e2445fb.html",
+      "title": "Micron’s Rally Looks Overdone Until You Price The Memory Shortage - Trefis",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "Trefis",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "leading-semiconductor-analyst-says-amd-should-be-inv-634d1147",
+      "url": "/stories/leading-semiconductor-analyst-says-amd-should-be-inv-634d1147.html",
+      "title": "Leading semiconductor analyst says AMD should be investigated for 'treason' over availability of restricted chips in China, AMD blames diversion of export-controlled RFSoC",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "estimating-the-risk-of-recession-in-the-us-139b1838",
+      "url": "/stories/estimating-the-risk-of-recession-in-the-us-139b1838.html",
+      "title": "Estimating the risk of recession in the US",
+      "tag": "macro",
+      "date": "2026-09-24",
+      "score": 6,
+      "pick": false,
+      "source": "FRED Blog",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "micron-discontinues-2gb-gddr7-chips-for-gaming-gpus-08da1fb9",
+      "url": "/stories/micron-discontinues-2gb-gddr7-chips-for-gaming-gpus-08da1fb9.html",
+      "title": "Micron discontinues 2GB GDDR7 chips for gaming GPUs as it pivots toward higher-density memory for AI",
+      "tag": "demand",
+      "date": "2026-09-24",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "micron-s-memory-boom-is-showing-up-in-prices-gurufoc-88b40937",
       "url": "/stories/micron-s-memory-boom-is-showing-up-in-prices-gurufoc-88b40937.html",
