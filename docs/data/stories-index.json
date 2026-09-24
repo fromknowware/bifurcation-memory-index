@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-23T21:29:09.870Z",
-  "count": 1107,
+  "generatedAt": "2026-09-24T04:47:02.432Z",
+  "count": 1113,
   "stories": [
+    {
+      "slug": "buyers-defend-dram-price-fixing-case-against-chipmak-f7849e32",
+      "url": "/stories/buyers-defend-dram-price-fixing-case-against-chipmak-f7849e32.html",
+      "title": "Buyers Defend DRAM Price-Fixing Case Against Chipmakers - Law360",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "Law360",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "martin-shkreli-shorts-micron-2-months-after-saying-i-1c82b641",
+      "url": "/stories/martin-shkreli-shorts-micron-2-months-after-saying-i-1c82b641.html",
+      "title": "Martin Shkreli Shorts Micron 2 Months After Saying ‘I Like Micron’: ‘If Memory Prices Drop, It’s All Over’ - Longbridge",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "Longbridge",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-eyes-50-billion-in-q4-revenue-rapidly-closing-54acec33",
+      "url": "/stories/micron-eyes-50-billion-in-q4-revenue-rapidly-closing-54acec33.html",
+      "title": "Micron Eyes $50 Billion in Q4 Revenue, Rapidly Closing In on Samsung and SK Hynix with HBM4 - finance.biggo.com",
+      "tag": "earnings",
+      "date": "2026-09-23",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
     {
       "slug": "wafer-prices-could-surge-40-in-2027-on-ai-demand-202-01637572",
       "url": "/stories/wafer-prices-could-surge-40-in-2027-on-ai-demand-202-01637572.html",
@@ -58,6 +91,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "citi-lifts-micron-price-target-to-1-300-on-tight-mem-1dedb862",
+      "url": "/stories/citi-lifts-micron-price-target-to-1-300-on-tight-mem-1dedb862.html",
+      "title": "Citi Lifts Micron Price Target to $1,300 on Tight Memory Supply - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "silicon-wafer-prices-to-surge-40-in-2027-as-ai-deman-a1e23799",
       "url": "/stories/silicon-wafer-prices-to-surge-40-in-2027-as-ai-deman-a1e23799.html",
       "title": "Silicon Wafer Prices to Surge 40% in 2027 as AI Demand Squeezes the Chip Supply Chain",
@@ -78,6 +122,28 @@
       "pick": false,
       "source": "tradingview.com",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "why-are-memory-prices-rising-in-2026-ai-boom-tighten-4025524f",
+      "url": "/stories/why-are-memory-prices-rising-in-2026-ai-boom-tighten-4025524f.html",
+      "title": "Why Are Memory Prices Rising in 2026? AI Boom Tightens DRAM, HBM and NAND Supply - InfotechLead",
+      "tag": "demand",
+      "date": "2026-09-23",
+      "score": 7,
+      "pick": false,
+      "source": "InfotechLead",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-price-target-raised-to-1-300-by-citi-on-stron-0424f031",
+      "url": "/stories/micron-price-target-raised-to-1-300-by-citi-on-stron-0424f031.html",
+      "title": "Micron Price Target Raised to $1,300 by Citi on Stronger DRAM Pricing, Undersupply - AOL.com",
+      "tag": "supply",
+      "date": "2026-09-23",
+      "score": 8,
+      "pick": false,
+      "source": "AOL.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "micron-price-target-raised-to-1-300-by-citi-on-stron-01e00da7",
