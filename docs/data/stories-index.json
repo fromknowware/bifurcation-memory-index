@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-24T21:29:40.832Z",
-  "count": 1142,
+  "generatedAt": "2026-09-25T04:55:06.242Z",
+  "count": 1146,
   "stories": [
+    {
+      "slug": "micron-holds-the-fate-of-semiconductor-stocks-after-929477dd",
+      "url": "/stories/micron-holds-the-fate-of-semiconductor-stocks-after-929477dd.html",
+      "title": "Micron Holds the Fate of Semiconductor Stocks After Chuseok, Could Trigger a New Rally for Samsung Electronics and SK hynix [Weekend Money] - 아시아경제",
+      "tag": "supply",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "아시아경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "forget-betting-on-micron-alone-the-26b-memory-etf-ow-7c31ca70",
+      "url": "/stories/forget-betting-on-micron-alone-the-26b-memory-etf-ow-7c31ca70.html",
+      "title": "Forget Betting on Micron Alone: The $26B Memory ETF Owns MU, SK Hynix, and Samsung at a September Discount - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "investment-guide-for-the-technology-semiconductor-ha-19ce7c15",
+      "url": "/stories/investment-guide-for-the-technology-semiconductor-ha-19ce7c15.html",
+      "title": "Investment Guide for the Technology Semiconductor/Hardware Sector: Cyclical Framework Driven by AI and Outlook for Memory Chips - news.futunn.com",
+      "tag": "supply",
+      "date": "2026-09-24",
+      "score": 8,
+      "pick": false,
+      "source": "news.futunn.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "new-jersey-fines-data-center-1-1m-after-drone-pics-e-feac966e",
       "url": "/stories/new-jersey-fines-data-center-1-1m-after-drone-pics-e-feac966e.html",
@@ -23,6 +56,17 @@
       "pick": false,
       "source": "HPCwire",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-stock-gets-a-big-wall-street-boost-ahead-of-e-0d38d1d6",
+      "url": "/stories/micron-stock-gets-a-big-wall-street-boost-ahead-of-e-0d38d1d6.html",
+      "title": "Micron Stock Gets a Big Wall Street Boost Ahead of Earnings - Longbridge",
+      "tag": "earnings",
+      "date": "2026-09-24",
+      "score": 7,
+      "pick": false,
+      "source": "Longbridge",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "micron-s-strong-dram-mix-and-limited-hbm-exposu-plua-dc455c55",
