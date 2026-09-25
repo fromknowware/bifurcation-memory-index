@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-09-25T11:48:32.873Z",
-  "count": 1152,
+  "generatedAt": "2026-09-25T17:08:42.088Z",
+  "count": 1163,
   "stories": [
+    {
+      "slug": "netapp-plans-peak-aio-acquisition-to-scale-storage-f-f7488497",
+      "url": "/stories/netapp-plans-peak-aio-acquisition-to-scale-storage-f-f7488497.html",
+      "title": "NetApp Plans PEAK:AIO Acquisition to Scale Storage for AI Clouds",
+      "tag": "supply",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-files-patent-for-ai-tool-to-help-developers-d-2b671b4f",
+      "url": "/stories/nvidia-files-patent-for-ai-tool-to-help-developers-d-2b671b4f.html",
+      "title": "NVIDIA Files Patent for AI Tool to Help Developers Diagnose GPU Performance Issues",
+      "tag": "demand",
+      "date": "2026-09-25",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-expects-14a-node-to-be-within-5-of-tsmc-039-s-8ceeffad",
+      "url": "/stories/intel-expects-14a-node-to-be-within-5-of-tsmc-039-s-8ceeffad.html",
+      "title": "Intel Expects 14A Node to Be Within 5% of TSMC&#039;s A14",
+      "tag": "fab",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "tower-semiconductor-to-invest-4-billion-in-japanese-e9ab125b",
+      "url": "/stories/tower-semiconductor-to-invest-4-billion-in-japanese-e9ab125b.html",
+      "title": "Tower Semiconductor to invest $4 billion in Japanese ops to set up massive optical connectivity hub",
+      "tag": "supply",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "meta-muse-runs-agents-on-amd-epyc-turin-hosts-with-t-3970d99d",
+      "url": "/stories/meta-muse-runs-agents-on-amd-epyc-turin-hosts-with-t-3970d99d.html",
+      "title": "Meta Muse runs agents on AMD EPYC Turin hosts with two cores and 8GB of memory",
+      "tag": "supply",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "elon-musk-goes-all-in-to-bring-a-whopping-1-2-millio-c8ea1473",
+      "url": "/stories/elon-musk-goes-all-in-to-bring-a-whopping-1-2-millio-c8ea1473.html",
+      "title": "Elon Musk Goes All In To Bring A Whopping 1.2 Million NVIDIA’s Latest GPUs Online In His Mega Data Center To Take On OpenAI",
+      "tag": "demand",
+      "date": "2026-09-25",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "msi-store-deal-drops-ryzen-7-9800x3d-b850-motherboar-815e240e",
+      "url": "/stories/msi-store-deal-drops-ryzen-7-9800x3d-b850-motherboar-815e240e.html",
+      "title": "MSI Store Deal Drops Ryzen 7 9800X3D, B850 Motherboard And 1TB SSD To $654 As Component Costs Keep Climbing",
+      "tag": "supply",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-mu-hbm-demand-and-nand-pricing-define-the-mem-cad95094",
+      "url": "/stories/micron-mu-hbm-demand-and-nand-pricing-define-the-mem-cad95094.html",
+      "title": "Micron (MU): HBM Demand and NAND Pricing Define the Memory Cycle Test - AlphaStreet",
+      "tag": "demand",
+      "date": "2026-09-25",
+      "score": 7,
+      "pick": false,
+      "source": "AlphaStreet",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ddr5-laptop-memory-prices-surge-6x-in-12-months-sche-4f0814e2",
+      "url": "/stories/ddr5-laptop-memory-prices-surge-6x-in-12-months-sche-4f0814e2.html",
+      "title": "DDR5 laptop memory prices surge 6X in 12 months — Schenker raises laptop prices and warns shortage will last through 2027, other components also on the rise - Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ddr5-laptop-memory-prices-surge-6x-in-12-months-1e490642",
+      "url": "/stories/ddr5-laptop-memory-prices-surge-6x-in-12-months-1e490642.html",
+      "title": "DDR5 laptop memory prices surge 6X in 12 months",
+      "tag": "supply",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-expects-14a-to-be-within-5-the-performance-of-27a1eff5",
+      "url": "/stories/intel-expects-14a-to-be-within-5-the-performance-of-27a1eff5.html",
+      "title": "Intel expects 14A to be 'within 5%' the performance of TSMC's A14",
+      "tag": "fab",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "ai-s-hbm-hunger-is-making-ordinary-ram-more-expensiv-3882b740",
       "url": "/stories/ai-s-hbm-hunger-is-making-ordinary-ram-more-expensiv-3882b740.html",
