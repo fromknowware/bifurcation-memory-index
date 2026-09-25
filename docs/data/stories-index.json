@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-09-25T04:55:06.242Z",
-  "count": 1146,
+  "generatedAt": "2026-09-25T11:48:32.873Z",
+  "count": 1152,
   "stories": [
+    {
+      "slug": "ai-s-hbm-hunger-is-making-ordinary-ram-more-expensiv-3882b740",
+      "url": "/stories/ai-s-hbm-hunger-is-making-ordinary-ram-more-expensiv-3882b740.html",
+      "title": "AI's HBM Hunger Is Making Ordinary RAM More Expensive Than TSMC's Most Advanced Chips - gagadget.com",
+      "tag": "fab",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "gagadget.com",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "new-jersey-hits-microsoft-linked-ai-data-center-with-d125f870",
+      "url": "/stories/new-jersey-hits-microsoft-linked-ai-data-center-with-d125f870.html",
+      "title": "New Jersey hits Microsoft-linked AI data center with record fine for 62 unpermitted power generators, issues 45-day shutdown deadline",
+      "tag": "demand",
+      "date": "2026-09-25",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "tsmc-begins-a14-pilot-production-risk-production-nex-bd6c6f56",
+      "url": "/stories/tsmc-begins-a14-pilot-production-risk-production-nex-bd6c6f56.html",
+      "title": "TSMC Begins A14 Pilot Production, Risk Production Next Year",
+      "tag": "fab",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "nvidia-dlss-5-power-draw-hits-647w-as-power-connecto-1bf0aa9a",
+      "url": "/stories/nvidia-dlss-5-power-draw-hits-647w-as-power-connecto-1bf0aa9a.html",
+      "title": "Nvidia DLSS 5 power draw hits 647W as power connector runs hotter than the GPU die, upscales frame rates and flame temps on 16-pin",
+      "tag": "demand",
+      "date": "2026-09-25",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "google-s-orbital-ai-data-center-test-packs-four-tpus-e00d0323",
+      "url": "/stories/google-s-orbital-ai-data-center-test-packs-four-tpus-e00d0323.html",
+      "title": "Google's orbital AI data center test packs four TPUs and 1,000W of solar power",
+      "tag": "demand",
+      "date": "2026-09-25",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-arc-gpu-graphics-drivers-101-9033-beta-release-0af981c8",
+      "url": "/stories/intel-arc-gpu-graphics-drivers-101-9033-beta-release-0af981c8.html",
+      "title": "Intel Arc GPU Graphics Drivers 101.9033 Beta Released",
+      "tag": "supply",
+      "date": "2026-09-25",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "micron-holds-the-fate-of-semiconductor-stocks-after-929477dd",
       "url": "/stories/micron-holds-the-fate-of-semiconductor-stocks-after-929477dd.html",
