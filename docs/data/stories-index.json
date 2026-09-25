@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-25T17:08:42.088Z",
-  "count": 1163,
+  "generatedAt": "2026-09-25T21:33:17.127Z",
+  "count": 1165,
   "stories": [
+    {
+      "slug": "huawei-and-alibaba-tout-progress-in-ai-chip-clusters-0cc2ac0f",
+      "url": "/stories/huawei-and-alibaba-tout-progress-in-ai-chip-clusters-0cc2ac0f.html",
+      "title": "Huawei and Alibaba Tout Progress in AI Chip, Clusters, and Models",
+      "tag": "demand",
+      "date": "2026-09-25",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ai-was-supposed-to-hit-new-grads-hard-so-far-unemplo-039495fd",
+      "url": "/stories/ai-was-supposed-to-hit-new-grads-hard-so-far-unemplo-039495fd.html",
+      "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+      "tag": "macro",
+      "date": "2026-09-25",
+      "score": 6,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
     {
       "slug": "netapp-plans-peak-aio-acquisition-to-scale-storage-f-f7488497",
       "url": "/stories/netapp-plans-peak-aio-acquisition-to-scale-storage-f-f7488497.html",
