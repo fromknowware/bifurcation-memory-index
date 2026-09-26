@@ -5,11 +5,24 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-26T16:21:34.256Z</updated>
+  <updated>2026-09-26T21:08:09.528Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiowFBVV95cUxNY1ZRbjZ0bHJIQ1FqVXRJQ0xWd1QtYUgyQldTMTdla28zQjl0eFZTR2RIZ2t2eG1jcEt5TUxzTUZ6WTlhYk85a2tBZHZjeWFTaG1jb1g4YndMVW15MjJWai1XeWFHM2dHRDRNWnVhSUctaklRa0h1VjhyblN4VnlpTm14NmpMWkJKdjViTHZnNTR5TUJhWldYZ2p2RzZqX0J3c2U0?oc=5</id>
+    <title type="html">Micron Q4 Earnings Preview: Can Revenue Top $50 Billion, and Will MU Stock Keep Rising? - TradingKey</title>
+    <link href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNY1ZRbjZ0bHJIQ1FqVXRJQ0xWd1QtYUgyQldTMTdla28zQjl0eFZTR2RIZ2t2eG1jcEt5TUxzTUZ6WTlhYk85a2tBZHZjeWFTaG1jb1g4YndMVW15MjJWai1XeWFHM2dHRDRNWnVhSUctaklRa0h1VjhyblN4VnlpTm14NmpMWkJKdjViTHZnNTR5TUJhWldYZ2p2RzZqX0J3c2U0?oc=5" />
+    <link rel="related" href="/stories/micron-q4-earnings-preview-can-revenue-top-50-billio-b7a10dbf.html" />
+    <updated>2026-09-26T21:05:36.000Z</updated>
+    <author><name>TradingKey</name></author>
+    <summary type="html">Micron Q4 Earnings Preview: Can Revenue Top $50 Billion, and Will MU Stock Keep Rising? TradingKey RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Micron Q4 Earnings Preview: Can Revenue Top $50 Billion, and Will MU Stock Keep Rising? TradingKey&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/ssds/sandisk-optimus-gx-pro-850p-2tb-ssd-review</id>
     <title type="html">Sandisk Optimus GX Pro 850P 2TB SSD review: A PS5 SSD you recognize at a price you don’t</title>
@@ -21,7 +34,20 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMikAFBVV95cUxQeloxSzZ6bG5wb0Rmd2YxblVfTTlyVnVQREV5VFFnb1NZU1ZndmI5cHpKY09CMTY0aHR1Ymwwbk04bjl6TTBHYUVxWVdnTUV4YnVlWVNKQ0hGTDRERXozQWdkNEhXeDVCOXBoc3VLX0lsNks5R0hKUUZndmROZWU2NUtDUDRGS3R0ZjZEM3o3YnU?oc=5</id>
+    <title type="html">SK hynix Intel Ohio memory talks explained - NeoTeo</title>
+    <link href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQeloxSzZ6bG5wb0Rmd2YxblVfTTlyVnVQREV5VFFnb1NZU1ZndmI5cHpKY09CMTY0aHR1Ymwwbk04bjl6TTBHYUVxWVdnTUV4YnVlWVNKQ0hGTDRERXozQWdkNEhXeDVCOXBoc3VLX0lsNks5R0hKUUZndmROZWU2NUtDUDRGS3R0ZjZEM3o3YnU?oc=5" />
+    <link rel="related" href="/stories/sk-hynix-intel-ohio-memory-talks-explained-neoteo-82fba134.html" />
+    <updated>2026-09-26T11:21:32.000Z</updated>
+    <author><name>NeoTeo</name></author>
+    <summary type="html">SK hynix Intel Ohio memory talks explained NeoTeo RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;SK hynix Intel Ohio memory talks explained NeoTeo&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/qualcomm-flagship-snapdragon-soc-5-40ghz-tsmc-2nm-n2p/</id>

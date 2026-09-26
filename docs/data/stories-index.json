@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-26T16:21:35.948Z",
-  "count": 1169,
+  "generatedAt": "2026-09-26T21:08:11.536Z",
+  "count": 1171,
   "stories": [
+    {
+      "slug": "micron-q4-earnings-preview-can-revenue-top-50-billio-b7a10dbf",
+      "url": "/stories/micron-q4-earnings-preview-can-revenue-top-50-billio-b7a10dbf.html",
+      "title": "Micron Q4 Earnings Preview: Can Revenue Top $50 Billion, and Will MU Stock Keep Rising? - TradingKey",
+      "tag": "earnings",
+      "date": "2026-09-26",
+      "score": 7,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
     {
       "slug": "sandisk-optimus-gx-pro-850p-2tb-ssd-review-a-ps5-ssd-2ce88497",
       "url": "/stories/sandisk-optimus-gx-pro-850p-2tb-ssd-review-a-ps5-ssd-2ce88497.html",
@@ -11,6 +22,17 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-intel-ohio-memory-talks-explained-neoteo-82fba134",
+      "url": "/stories/sk-hynix-intel-ohio-memory-talks-explained-neoteo-82fba134.html",
+      "title": "SK hynix Intel Ohio memory talks explained - NeoTeo",
+      "tag": "supply",
+      "date": "2026-09-26",
+      "score": 8,
+      "pick": false,
+      "source": "NeoTeo",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
