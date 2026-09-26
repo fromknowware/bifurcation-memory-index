@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-25T21:33:14.828Z</updated>
+  <updated>2026-09-26T04:55:31.568Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcnFxajF1ODVGU2RPZlJKNTZwVHZWRTE1MkU4RGJNZU15NS1XNUdYRWxLSC1NNlQ3RHlsb21maWpSVVJoUGxmUDI3bUNld2t0RDR5OXlvZ3hTWjdzODgtWkRrUXNNSHJNQVhNeUFkaHJzS1JIVXROZjRfLVhORWNhUzg3WUFIYjJ5aWVPY1NCU3hBTkRlTENjYnFHZ2NaM3dZdnJtVlk1YVBFcmNHUVV0eUtrelRJX1Rya1o2T1ZPQU14S28?oc=5</id>
+    <title type="html">SanDisk Stock Price Forecast: AI Storage Demand Drives NAND Prices Higher, Can the Stock Break $2,000? - TradingKey</title>
+    <link href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcnFxajF1ODVGU2RPZlJKNTZwVHZWRTE1MkU4RGJNZU15NS1XNUdYRWxLSC1NNlQ3RHlsb21maWpSVVJoUGxmUDI3bUNld2t0RDR5OXlvZ3hTWjdzODgtWkRrUXNNSHJNQVhNeUFkaHJzS1JIVXROZjRfLVhORWNhUzg3WUFIYjJ5aWVPY1NCU3hBTkRlTENjYnFHZ2NaM3dZdnJtVlk1YVBFcmNHUVV0eUtrelRJX1Rya1o2T1ZPQU14S28?oc=5" />
+    <link rel="related" href="/stories/sandisk-stock-price-forecast-ai-storage-demand-drive-e65143cd.html" />
+    <updated>2026-09-26T04:06:52.000Z</updated>
+    <author><name>TradingKey</name></author>
+    <summary type="html">SanDisk Stock Price Forecast: AI Storage Demand Drives NAND Prices Higher, Can the Stock Break $2,000? TradingKey RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:NAND flash supply" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;SanDisk Stock Price Forecast: AI Storage Demand Drives NAND Prices Higher, Can the Stock Break $2,000? TradingKey&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMibEFVX3lxTE45QXRUYlFWTmZ0QlhPM2ZfRG1mQXdqckd5OTBsU0FKZDBuTGhVbkNvckVSZGFEQVlDaUtUanhGYzAwTlZoTy0xYVh6SHNXcFFudzZmSDNrb0toWGdZcW4wYUVEQjRUc3h5dmhFcg?oc=5</id>
+    <title type="html">Huang’s 2x Chip Vow Locks Up 37% of HBM Supply [2026] - shattered.io</title>
+    <link href="https://news.google.com/rss/articles/CBMibEFVX3lxTE45QXRUYlFWTmZ0QlhPM2ZfRG1mQXdqckd5OTBsU0FKZDBuTGhVbkNvckVSZGFEQVlDaUtUanhGYzAwTlZoTy0xYVh6SHNXcFFudzZmSDNrb0toWGdZcW4wYUVEQjRUc3h5dmhFcg?oc=5" />
+    <link rel="related" href="/stories/huang-s-2x-chip-vow-locks-up-37-of-hbm-supply-2026-s-b084dd8c.html" />
+    <updated>2026-09-25T22:52:21.000Z</updated>
+    <author><name>shattered.io</name></author>
+    <summary type="html">Huang’s 2x Chip Vow Locks Up 37% of HBM Supply [2026] shattered.io RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Huang’s 2x Chip Vow Locks Up 37% of HBM Supply [2026] shattered.io&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.hpcwire.com/2026/09/25/huawei-and-alibaba-tout-progress-in-ai-chip-clusters-and-models/</id>
     <title type="html">Huawei and Alibaba Tout Progress in AI Chip, Clusters, and Models</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Chinese tech companies made several announcements recently that show they’re pushing the limits on scale, including new cluster, interconnect, and storage offerings from Huawei and new chips, servers, and AI models from Alibaba. Huawei made several announcements during its annual Huawei Connect 2026 conference in Shanghai on September 17, showcasing new products designed to deliver […] The post Hu&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Chinese tech companies made several announcements recently that show they’re pushing the limits on scale, including new cluster, interconnect, and storage offerings from Huawei and new chips, servers, and AI models from Alibaba. Huawei made several announcements during its annual Huawei Connect 2026 conference in Shanghai on September 17, showcasing new products designed to deliver […] The post Hu&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/</id>
@@ -34,7 +60,7 @@
     <category term="opml" />
     <category term="tag:macro" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Deterministic MACRO signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.hpcwire.com/off-the-wire/netapp-plans-peakaio-acquisition-to-scale-storage-for-ai-clouds/</id>
