@@ -5,11 +5,24 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-26T04:55:31.568Z</updated>
+  <updated>2026-09-26T11:22:16.192Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://wccftech.com/qualcomm-flagship-snapdragon-soc-5-40ghz-tsmc-2nm-n2p/</id>
+    <title type="html">Qualcomm’s Next Flagship Snapdragon SoC To Target Higher Frequencies Of 5.40GHz While Sticking With TSMC’s 2nm N2P Node, But IPC Gains Are Rumored To Stay Under 10%</title>
+    <link href="https://wccftech.com/qualcomm-flagship-snapdragon-soc-5-40ghz-tsmc-2nm-n2p/" />
+    <link rel="related" href="/stories/qualcomm-s-next-flagship-snapdragon-soc-to-target-hi-373a458d.html" />
+    <updated>2026-09-26T10:14:30.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">A new Snapdragon chipset is rumored to be in development and is said to be codenamed “Honu,” suggesting that Qualcomm isn’t taking a break after just having announced the Snapdragon 8 Elite Extreme Gen 6 and Snapdragon 8 Elite Gen 6. For next year’s SoC, the San Diego firm isn’t expected to stay on TSMC’s 2nm “N2P” process, while targeting higher clock speeds, but we shouldn’t get excited for a ma RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;A new Snapdragon chipset is rumored to be in development and is said to be codenamed “Honu,” suggesting that Qualcomm isn’t taking a break after just having announced the Snapdragon 8 Elite Extreme Gen 6 and Snapdragon 8 Elite Gen 6. For next year’s SoC, the San Diego firm isn’t expected to stay on TSMC’s 2nm “N2P” process, while targeting higher clock speeds, but we shouldn’t get excited for a ma&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcnFxajF1ODVGU2RPZlJKNTZwVHZWRTE1MkU4RGJNZU15NS1XNUdYRWxLSC1NNlQ3RHlsb21maWpSVVJoUGxmUDI3bUNld2t0RDR5OXlvZ3hTWjdzODgtWkRrUXNNSHJNQVhNeUFkaHJzS1JIVXROZjRfLVhORWNhUzg3WUFIYjJ5aWVPY1NCU3hBTkRlTENjYnFHZ2NaM3dZdnJtVlk1YVBFcmNHUVV0eUtrelRJX1Rya1o2T1ZPQU14S28?oc=5</id>
     <title type="html">SanDisk Stock Price Forecast: AI Storage Demand Drives NAND Prices Higher, Can the Stock Break $2,000? - TradingKey</title>
@@ -21,7 +34,7 @@
     <category term="google-news:NAND flash supply" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;SanDisk Stock Price Forecast: AI Storage Demand Drives NAND Prices Higher, Can the Stock Break $2,000? TradingKey&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SanDisk Stock Price Forecast: AI Storage Demand Drives NAND Prices Higher, Can the Stock Break $2,000? TradingKey&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMibEFVX3lxTE45QXRUYlFWTmZ0QlhPM2ZfRG1mQXdqckd5OTBsU0FKZDBuTGhVbkNvckVSZGFEQVlDaUtUanhGYzAwTlZoTy0xYVh6SHNXcFFudzZmSDNrb0toWGdZcW4wYUVEQjRUc3h5dmhFcg?oc=5</id>
@@ -34,7 +47,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Huang’s 2x Chip Vow Locks Up 37% of HBM Supply [2026] shattered.io&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Huang’s 2x Chip Vow Locks Up 37% of HBM Supply [2026] shattered.io&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.hpcwire.com/2026/09/25/huawei-and-alibaba-tout-progress-in-ai-chip-clusters-and-models/</id>

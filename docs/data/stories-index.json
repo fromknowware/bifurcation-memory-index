@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-26T04:55:33.625Z",
-  "count": 1167,
+  "generatedAt": "2026-09-26T11:22:18.062Z",
+  "count": 1168,
   "stories": [
+    {
+      "slug": "qualcomm-s-next-flagship-snapdragon-soc-to-target-hi-373a458d",
+      "url": "/stories/qualcomm-s-next-flagship-snapdragon-soc-to-target-hi-373a458d.html",
+      "title": "Qualcomm’s Next Flagship Snapdragon SoC To Target Higher Frequencies Of 5.40GHz While Sticking With TSMC’s 2nm N2P Node, But IPC Gains Are Rumored To Stay Under 10%",
+      "tag": "fab",
+      "date": "2026-09-26",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "sandisk-stock-price-forecast-ai-storage-demand-drive-e65143cd",
       "url": "/stories/sandisk-stock-price-forecast-ai-storage-demand-drive-e65143cd.html",
