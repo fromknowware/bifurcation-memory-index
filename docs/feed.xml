@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-09-27T11:59:55.958Z</updated>
+  <updated>2026-09-27T16:56:38.242Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/gpus/thieves-steal-nvidia-labeled-trailers-expecting-massive-ai-gpu-payday-but-score-40-000-pounds-of-sand-instead-crooks-duped-by-20-tons-of-ballast-sand</id>
+    <title type="html">Thieves steal Nvidia-labeled trailers expecting massive AI GPU payday, but score 40,000 pounds of sand instead</title>
+    <link href="https://www.tomshardware.com/pc-components/gpus/thieves-steal-nvidia-labeled-trailers-expecting-massive-ai-gpu-payday-but-score-40-000-pounds-of-sand-instead-crooks-duped-by-20-tons-of-ballast-sand" />
+    <link rel="related" href="/stories/thieves-steal-nvidia-labeled-trailers-expecting-mass-4c99aa7d.html" />
+    <updated>2026-09-27T14:14:40.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.eetimes.com/full-stack-semiconductor-solutions-for-industry-and-digital-energy-applications/</id>
+    <title type="html">Full-Stack Semiconductor Solutions for Smart, Secure Industry and Digital Energy</title>
+    <link href="https://www.eetimes.com/full-stack-semiconductor-solutions-for-industry-and-digital-energy-applications/" />
+    <link rel="related" href="/stories/full-stack-semiconductor-solutions-for-smart-secure-3d296106.html" />
+    <updated>2026-09-27T14:00:00.000Z</updated>
+    <author><name>EE Times</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/taiwans-chip-talisman-snack-faces-production-halt-after-94-percent-strike-vote-workers-demand-share-of-usd176-million-factory-sale-to-ase</id>
     <title type="html">Taiwan's chip talisman snack faces production halt after 94% strike vote</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHlpVlhDYktLenZZUWc1R1ZUbGFHTERJLWtYSk9MbF9qV0w4NlE1VGVEeVp1VzdoX1VXQ29KZzNlYVAybUZBZ210ZS1KdF9Db1I0U1B5dC1rOEVvU21FYUVYNURIUFpBaGlOZHl6bUI3NE1pQUZ4dDZYSXcwZTlreDJ5TXRsNmJyZTlRcmZ5dURIRWFOYmxNM3l3R0pVMG5WWlE?oc=5</id>
@@ -34,7 +60,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;SK hynix considers memory chip production in the US — Korea Herald UA.NEWS&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SK hynix considers memory chip production in the US — Korea Herald UA.NEWS&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiV0FVX3lxTE9CMlE3RFpxVkxYcW9TY0JQMmZZaWhIdzRhQXdPakZDTjcwTHBPa0dkLWxiX0lEQTRWWHdBOFFmTDNQck1KWDVqakxtWS00ZXI4Z0JuMVZ3Zw?oc=5</id>
@@ -47,7 +73,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Why SK hynix is weighing US memory production The Korea Herald&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Why SK hynix is weighing US memory production The Korea Herald&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiygFBVV95cUxQdWhuV0NxSXJwVG1ZUTlsdHpHc2FRTXVQQVgwdnpwQW9mSkZrb2pSdDlvNTRVLWFuM3V5T1pxd0FpbGpKTkhPQTFZYnVIYnQxTXlFNmt5NUpUNDktUFJ1SkQ2dGlaZTltejhoYTF5WEtRTHNzcUN3V0VoeEdYQ1J6b01scUNkWHBuNExUZkt2TjhMdzVITFRMczJURGpKaERjd0p1SEE0SE9vVHFSbnlGMHhUNkt0X2tuOWpHa0ZTak9FVTBkWHJ3VDNn?oc=5</id>

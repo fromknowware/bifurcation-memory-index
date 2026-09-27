@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-27T11:59:58.587Z",
-  "count": 1177,
+  "generatedAt": "2026-09-27T16:56:40.397Z",
+  "count": 1179,
   "stories": [
+    {
+      "slug": "thieves-steal-nvidia-labeled-trailers-expecting-mass-4c99aa7d",
+      "url": "/stories/thieves-steal-nvidia-labeled-trailers-expecting-mass-4c99aa7d.html",
+      "title": "Thieves steal Nvidia-labeled trailers expecting massive AI GPU payday, but score 40,000 pounds of sand instead",
+      "tag": "demand",
+      "date": "2026-09-27",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "full-stack-semiconductor-solutions-for-smart-secure-3d296106",
+      "url": "/stories/full-stack-semiconductor-solutions-for-smart-secure-3d296106.html",
+      "title": "Full-Stack Semiconductor Solutions for Smart, Secure Industry and Digital Energy",
+      "tag": "supply",
+      "date": "2026-09-27",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "taiwan-s-chip-talisman-snack-faces-production-halt-a-92ae498c",
       "url": "/stories/taiwan-s-chip-talisman-snack-faces-production-halt-a-92ae498c.html",
