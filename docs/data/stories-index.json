@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-27T05:16:25.407Z",
-  "count": 1174,
+  "generatedAt": "2026-09-27T11:59:58.587Z",
+  "count": 1177,
   "stories": [
+    {
+      "slug": "taiwan-s-chip-talisman-snack-faces-production-halt-a-92ae498c",
+      "url": "/stories/taiwan-s-chip-talisman-snack-faces-production-halt-a-92ae498c.html",
+      "title": "Taiwan's chip talisman snack faces production halt after 94% strike vote",
+      "tag": "supply",
+      "date": "2026-09-27",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-considers-memory-chip-production-in-the-us-4cbf3ab7",
+      "url": "/stories/sk-hynix-considers-memory-chip-production-in-the-us-4cbf3ab7.html",
+      "title": "SK hynix considers memory chip production in the US — Korea Herald - UA.NEWS",
+      "tag": "supply",
+      "date": "2026-09-27",
+      "score": 8,
+      "pick": false,
+      "source": "UA.NEWS",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "why-sk-hynix-is-weighing-us-memory-production-the-ko-c6bcf56b",
+      "url": "/stories/why-sk-hynix-is-weighing-us-memory-production-the-ko-c6bcf56b.html",
+      "title": "Why SK hynix is weighing US memory production - The Korea Herald",
+      "tag": "supply",
+      "date": "2026-09-27",
+      "score": 8,
+      "pick": false,
+      "source": "The Korea Herald",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "snapdragon-summit-2026-memory-price-burden-could-las-da89f685",
       "url": "/stories/snapdragon-summit-2026-memory-price-burden-could-las-da89f685.html",
