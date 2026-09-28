@@ -1,7 +1,249 @@
 {
-  "generatedAt": "2026-09-28T13:50:30.806Z",
-  "count": 1193,
+  "generatedAt": "2026-09-28T23:14:58.099Z",
+  "count": 1218,
   "stories": [
+    {
+      "slug": "nvidia-s-glass-packaging-push-could-reshape-ai-chips-ed212334",
+      "url": "/stories/nvidia-s-glass-packaging-push-could-reshape-ai-chips-ed212334.html",
+      "title": "Nvidia’s Glass Packaging Push Could Reshape AI Chips - 24/7 Wall St.",
+      "tag": "demand",
+      "date": "2026-09-28",
+      "score": 7,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-ceo-lip-bu-tan-calls-tsmc-a-partner-not-a-riva-5b3801db",
+      "url": "/stories/intel-ceo-lip-bu-tan-calls-tsmc-a-partner-not-a-riva-5b3801db.html",
+      "title": "Intel CEO Lip-Bu Tan Calls TSMC a Partner Not a Rival, Even as He Rebuilds the Foundry",
+      "tag": "fab",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "experts-worry-about-nvidia-s-ai-chip-sales-in-china-afbffbce",
+      "url": "/stories/experts-worry-about-nvidia-s-ai-chip-sales-in-china-afbffbce.html",
+      "title": "Experts worry about Nvidia's AI chip sales in China and influence over Trump",
+      "tag": "demand",
+      "date": "2026-09-28",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "colorful-resorts-to-rtx-3050-and-ddr4-for-p15e-budge-27ec7c46",
+      "url": "/stories/colorful-resorts-to-rtx-3050-and-ddr4-for-p15e-budge-27ec7c46.html",
+      "title": "Colorful Resorts to RTX 3050 and DDR4 for P15E Budget Gaming Laptop",
+      "tag": "demand",
+      "date": "2026-09-28",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "data-center-ai-at-the-power-limit-when-data-movement-c788ac65",
+      "url": "/stories/data-center-ai-at-the-power-limit-when-data-movement-c788ac65.html",
+      "title": "Data Center AI at the Power Limit: When Data Movement Defines Performance",
+      "tag": "demand",
+      "date": "2026-09-28",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-stock-gets-stunning-price-target-hike-just-be-3e1c1e3e",
+      "url": "/stories/micron-stock-gets-stunning-price-target-hike-just-be-3e1c1e3e.html",
+      "title": "Micron Stock Gets Stunning Price Target Hike Just Before Earnings - TradingView",
+      "tag": "earnings",
+      "date": "2026-09-28",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "baird-lifts-micron-price-target-to-1-520-on-agentic-5496299a",
+      "url": "/stories/baird-lifts-micron-price-target-to-1-520-on-agentic-5496299a.html",
+      "title": "Baird Lifts Micron Price Target to $1,520 on Agentic AI Demand Surge - finance.biggo.com",
+      "tag": "demand",
+      "date": "2026-09-28",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "chips-ju-offers-80m-for-european-ai-chips-and-comput-2a00943e",
+      "url": "/stories/chips-ju-offers-80m-for-european-ai-chips-and-comput-2a00943e.html",
+      "title": "Chips JU Offers €80M for European AI Chips and Compute Systems",
+      "tag": "demand",
+      "date": "2026-09-28",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "early-amd-gorgon-halo-ai-mini-pc-packs-192gb-ram-for-cb852243",
+      "url": "/stories/early-amd-gorgon-halo-ai-mini-pc-packs-192gb-ram-for-cb852243.html",
+      "title": "Early AMD 'Gorgon Halo' AI mini-PC packs 192GB RAM for an eye-watering $7,099",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "synopsys-debuts-autopilot-platform-for-developing-ch-686c5435",
+      "url": "/stories/synopsys-debuts-autopilot-platform-for-developing-ch-686c5435.html",
+      "title": "Synopsys debuts Autopilot platform for developing chips autonomously using AI",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "gmktec-prices-evo-x5-pro-ai-workstation-at-6-599-und-b8108eef",
+      "url": "/stories/gmktec-prices-evo-x5-pro-ai-workstation-at-6-599-und-b8108eef.html",
+      "title": "GMKtec Prices EVO-X5 Pro AI Workstation At $6,599, Undercutting Rivals While Running 320B Local Models On A Single Chip",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-stock-target-raised-at-baird-on-higher-dram-p-95dfe1d1",
+      "url": "/stories/micron-stock-target-raised-at-baird-on-higher-dram-p-95dfe1d1.html",
+      "title": "Micron stock target raised at Baird on higher DRAM pricing assumptions - Investing.com",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "Investing.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "get-free-access-to-ai-chip-design-week-on-tom-s-hard-3c12de6a",
+      "url": "/stories/get-free-access-to-ai-chip-design-week-on-tom-s-hard-3c12de6a.html",
+      "title": "Get free access to AI Chip Design week on Tom's Hardware Premium — sign up for an account to read all the in-depth reports",
+      "tag": "demand",
+      "date": "2026-09-28",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "panther-lake-teardown-shows-intel-18a-near-tsmc-n3e-1a954dea",
+      "url": "/stories/panther-lake-teardown-shows-intel-18a-near-tsmc-n3e-1a954dea.html",
+      "title": "Panther Lake Teardown Shows Intel 18A Near TSMC N3E, Newer TSMC Nodes Still Ahead",
+      "tag": "fab",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "kingston-retains-no-1-position-in-global-dram-module-5fda77c5",
+      "url": "/stories/kingston-retains-no-1-position-in-global-dram-module-5fda77c5.html",
+      "title": "Kingston Retains No. 1 Position in Global DRAM Module Market - TechPowerUp",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kingston-retains-no-1-position-in-global-dram-module-313717ea",
+      "url": "/stories/kingston-retains-no-1-position-in-global-dram-module-313717ea.html",
+      "title": "Kingston Retains No. 1 Position in Global DRAM Module Market - TechPowerUp",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-kingston-retains-no-1-position-in-global-dram-mod-5a2cd6bd",
+      "url": "/stories/pr-kingston-retains-no-1-position-in-global-dram-mod-5a2cd6bd.html",
+      "title": "(PR) Kingston Retains No. 1 Position in Global DRAM Module Market",
+      "tag": "earnings",
+      "date": "2026-09-28",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-and-sk-hynix-fell-over-5-here-s-what-micron-47abd813",
+      "url": "/stories/samsung-and-sk-hynix-fell-over-5-here-s-what-micron-47abd813.html",
+      "title": "Samsung and SK Hynix Fell Over 5%. Here’s What Micron’s September 30 Report Must Show - Yahoo Finance",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "Yahoo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "montage-technology-announces-mass-production-of-gen-4d234a26",
+      "url": "/stories/montage-technology-announces-mass-production-of-gen-4d234a26.html",
+      "title": "Montage Technology Announces Mass Production of Gen 5 DDR5 Register Clock Driver - TechPowerUp",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-montage-technology-announces-mass-production-of-g-dcfd4e16",
+      "url": "/stories/pr-montage-technology-announces-mass-production-of-g-dcfd4e16.html",
+      "title": "(PR) Montage Technology Announces Mass Production of Gen 5 DDR5 Register Clock Driver",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "4-memory-semiconductor-stocks-to-watch-in-october-20-0ea35eca",
+      "url": "/stories/4-memory-semiconductor-stocks-to-watch-in-october-20-0ea35eca.html",
+      "title": "4 Memory Semiconductor Stocks to Watch in October 2026 - Yahoo Finance",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "Yahoo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kingston-retains-no-1-position-in-global-dram-module-9f540400",
+      "url": "/stories/kingston-retains-no-1-position-in-global-dram-module-9f540400.html",
+      "title": "Kingston Retains No. 1 Position in Global DRAM Module Market - Voice of Alexandria",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "Voice of Alexandria",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "kingston-retains-no-1-position-in-global-dram-module-ea9d568c",
       "url": "/stories/kingston-retains-no-1-position-in-global-dram-module-ea9d568c.html",
@@ -22,6 +264,28 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-boom-led-memory-chip-demand-to-boost-micron-s-dra-fb08197a",
+      "url": "/stories/ai-boom-led-memory-chip-demand-to-boost-micron-s-dra-fb08197a.html",
+      "title": "AI Boom-Led Memory Chip Demand to Boost Micron's DRAM Revenues in Q4 - TradingView",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-boom-led-memory-chip-demand-to-boost-micron-s-dra-c30ef398",
+      "url": "/stories/ai-boom-led-memory-chip-demand-to-boost-micron-s-dra-c30ef398.html",
+      "title": "AI Boom-Led Memory Chip Demand to Boost Micron's DRAM Revenues in Q4 - Yahoo Finance",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "Yahoo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -78,6 +342,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-heads-into-earnings-with-memory-prices-still-3a72aeeb",
+      "url": "/stories/micron-heads-into-earnings-with-memory-prices-still-3a72aeeb.html",
+      "title": "Micron Heads Into Earnings With Memory Prices Still Climbing and Supply Nowhere Near Enough - TradingView",
+      "tag": "earnings",
+      "date": "2026-09-28",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "micron-stock-price-forecast-can-mu-retest-record-hig-c0bdf078",
