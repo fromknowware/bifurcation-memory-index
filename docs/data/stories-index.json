@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-28T23:14:58.099Z",
-  "count": 1218,
+  "generatedAt": "2026-09-29T05:41:42.536Z",
+  "count": 1223,
   "stories": [
+    {
+      "slug": "sk-hynix-deepens-ai-memory-collaboration-with-tsmc-e-d96e3c6d",
+      "url": "/stories/sk-hynix-deepens-ai-memory-collaboration-with-tsmc-e-d96e3c6d.html",
+      "title": "SK hynix Deepens AI Memory Collaboration with TSMC, Extending Roadmap from HBM4 to HBM5 - Korea IT Times",
+      "tag": "fab",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "Korea IT Times",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "hbm-may-account-for-nearly-30-of-industry-wide-dram-0ae98de7",
+      "url": "/stories/hbm-may-account-for-nearly-30-of-industry-wide-dram-0ae98de7.html",
+      "title": "HBM may account for nearly 30% of industry-wide DRAM capacity next year, says Samsung: Report - electronics.economictimes.indiatimes.com",
+      "tag": "demand",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "electronics.economictimes.indiatimes.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "nvidia-s-glass-packaging-push-could-reshape-ai-chips-ed212334",
       "url": "/stories/nvidia-s-glass-packaging-push-could-reshape-ai-chips-ed212334.html",
@@ -113,6 +135,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "kingston-retains-no-1-position-in-global-dram-module-0843e771",
+      "url": "/stories/kingston-retains-no-1-position-in-global-dram-module-0843e771.html",
+      "title": "Kingston Retains No. 1 Position in Global DRAM Module Market - 01net",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "01net",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "gmktec-prices-evo-x5-pro-ai-workstation-at-6-599-und-b8108eef",
       "url": "/stories/gmktec-prices-evo-x5-pro-ai-workstation-at-6-599-und-b8108eef.html",
       "title": "GMKtec Prices EVO-X5 Pro AI Workstation At $6,599, Undercutting Rivals While Running 320B Local Models On A Single Chip",
@@ -188,6 +221,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-and-sk-hynix-fell-over-5-here-s-what-micron-36229b5f",
+      "url": "/stories/samsung-and-sk-hynix-fell-over-5-here-s-what-micron-36229b5f.html",
+      "title": "Samsung and SK Hynix Fell Over 5%. Here’s What Micron’s September 30 Report Must Show - TIKR.com",
+      "tag": "supply",
+      "date": "2026-09-28",
+      "score": 8,
+      "pick": false,
+      "source": "TIKR.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "samsung-and-sk-hynix-fell-over-5-here-s-what-micron-47abd813",
@@ -330,6 +374,17 @@
       "score": 7,
       "pick": false,
       "source": "shattered.io",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "south-korea-s-ai-chip-giants-are-fighting-for-a-bigg-480d659d",
+      "url": "/stories/south-korea-s-ai-chip-giants-are-fighting-for-a-bigg-480d659d.html",
+      "title": "South Korea’s AI chip giants are fighting for a bigger role in America’s AI boom - Rest of World",
+      "tag": "demand",
+      "date": "2026-09-28",
+      "score": 7,
+      "pick": false,
+      "source": "Rest of World",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
