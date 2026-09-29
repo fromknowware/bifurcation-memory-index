@@ -1,7 +1,194 @@
 {
-  "generatedAt": "2026-09-29T12:49:39.449Z",
-  "count": 1234,
+  "generatedAt": "2026-09-29T22:13:31.525Z",
+  "count": 1254,
   "stories": [
+    {
+      "slug": "apple-s-m5-macbook-pro-gets-an-attractive-160-discou-a043be7f",
+      "url": "/stories/apple-s-m5-macbook-pro-gets-an-attractive-160-discou-a043be7f.html",
+      "title": "Apple’s M5 MacBook Pro Gets An Attractive $160 Discount On Amazon For The Base Model, Giving You 16GB Of Unified Memory & 1TB SSD For $1,839",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "semifive-signs-52m-ai-chip-development-deal-with-us-9eebf6a5",
+      "url": "/stories/semifive-signs-52m-ai-chip-development-deal-with-us-9eebf6a5.html",
+      "title": "SEMIFIVE Signs $52M AI Chip Development Deal with US Company",
+      "tag": "demand",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "gigabyte-launches-anime-themed-b760m-aorus-ari-wifi6-bfe1c4da",
+      "url": "/stories/gigabyte-launches-anime-themed-b760m-aorus-ari-wifi6-bfe1c4da.html",
+      "title": "Gigabyte Launches Anime Themed B760M AORUS Ari WiFi6E DDR4 Motherboard",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "gigabyte-intros-three-ddr4-motherboards-for-amd-and-b160730c",
+      "url": "/stories/gigabyte-intros-three-ddr4-motherboards-for-amd-and-b160730c.html",
+      "title": "GIGABYTE Intros Three DDR4 Motherboards For AMD And Intel Processors In Japan",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-stock-jumps-3-leading-memory-chip-st-pluang-8b13571e",
+      "url": "/stories/sk-hynix-stock-jumps-3-leading-memory-chip-st-pluang-8b13571e.html",
+      "title": "SK Hynix stock jumps 3%, leading memory chip st... - Pluang",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "Pluang",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "occam-foundry-gains-austin-mayor-s-support-and-tacc-92a6366c",
+      "url": "/stories/occam-foundry-gains-austin-mayor-s-support-and-tacc-92a6366c.html",
+      "title": "Occam Foundry Gains Austin Mayor’s Support and TACC Partnership for Quantum Campus",
+      "tag": "fab",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "a-35b-llm-used-for-tackling-complex-database-work-se-b2d9be53",
+      "url": "/stories/a-35b-llm-used-for-tackling-complex-database-work-se-b2d9be53.html",
+      "title": "A 35B LLM Used For Tackling Complex Database Work Seemingly Destroyed One DDR4 RAM Stick In 90 Minutes, User Claims It Wasn’t A Temperature Issue",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-montage-technology-announces-mass-production-of-d-d89ef552",
+      "url": "/stories/pr-montage-technology-announces-mass-production-of-d-d89ef552.html",
+      "title": "(PR) Montage Technology Announces Mass-Production of DDR5-9200 Clock Driver (CKD)",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "three-companies-make-the-vast-majority-of-microchips-89acbfe7",
+      "url": "/stories/three-companies-make-the-vast-majority-of-microchips-89acbfe7.html",
+      "title": "Three companies make the vast majority of microchips used in everyday electronic devices. But recently those companies — Micron, Samsung, and SK Hynix — have all shifted at least some production capacity toward high-bandwidth memory, or HBM, chips - LinkedIn",
+      "tag": "demand",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "LinkedIn",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "kingston-retains-number-one-spot-for-global-dram-rev-8e44aaba",
+      "url": "/stories/kingston-retains-number-one-spot-for-global-dram-rev-8e44aaba.html",
+      "title": "Kingston retains number one spot for global DRAM revenue, with more than 60% of market share - PC Guide",
+      "tag": "earnings",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "PC Guide",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "memory-supercycle-intensifies-bernstein-sees-dram-na-baf382ef",
+      "url": "/stories/memory-supercycle-intensifies-bernstein-sees-dram-na-baf382ef.html",
+      "title": "Memory Supercycle Intensifies: Bernstein Sees DRAM, NAND Prices Up Nearly 20% This Quarter - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-chip-market-remains-robust-bernstein-dram-and-9b066bb3",
+      "url": "/stories/memory-chip-market-remains-robust-bernstein-dram-and-9b066bb3.html",
+      "title": "Memory chip market remains robust! Bernstein: DRAM and NAND prices may rise nearly 20% in Q3; cycle expected to begin \"normalizing\" by 2028 - 富途牛牛",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "富途牛牛",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "schneider-gives-datacenter-switchgear-the-software-d-92b39134",
+      "url": "/stories/schneider-gives-datacenter-switchgear-the-software-d-92b39134.html",
+      "title": "Schneider gives datacenter switchgear the software-defined treatment",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hbm-is-the-key-towards-samsung-s-foundry-recovery-an-b5f19dab",
+      "url": "/stories/hbm-is-the-key-towards-samsung-s-foundry-recovery-an-b5f19dab.html",
+      "title": "HBM Is The Key Towards Samsung’s Foundry Recovery; Analysts Estimate That Next-Generation Memory Reduced The Company’s Losses By 41% In Just One Year",
+      "tag": "fab",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "micron-reports-q4-amid-rising-chinese-dram-supp-plua-b1f821f3",
+      "url": "/stories/micron-reports-q4-amid-rising-chinese-dram-supp-plua-b1f821f3.html",
+      "title": "Micron reports Q4 amid rising Chinese DRAM supp... - Pluang",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "Pluang",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "foreign-capital-exodus-meets-earnings-upgrades-south-933405ee",
+      "url": "/stories/foreign-capital-exodus-meets-earnings-upgrades-south-933405ee.html",
+      "title": "Foreign Capital Exodus Meets Earnings Upgrades: South Korea's Memory Chip Sector at a 4.7x P/E Crossroads - finance.biggo.com",
+      "tag": "earnings",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "pr-innodisk-launches-ddr5-8000-rdimm-for-edge-ai-and-67eaf608",
+      "url": "/stories/pr-innodisk-launches-ddr5-8000-rdimm-for-edge-ai-and-67eaf608.html",
+      "title": "(PR) Innodisk Launches DDR5 8000 RDIMM for Edge AI and High-Performance Computing",
+      "tag": "demand",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "silicon-is-starting-to-design-silicon-how-ai-is-bein-a9d02da5",
       "url": "/stories/silicon-is-starting-to-design-silicon-how-ai-is-bein-a9d02da5.html",
@@ -36,6 +223,28 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "hbm-prices-surge-over-double-next-year-businesskorea-749bf90c",
+      "url": "/stories/hbm-prices-surge-over-double-next-year-businesskorea-749bf90c.html",
+      "title": "HBM Prices Surge Over Double Next Year - Businesskorea",
+      "tag": "demand",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "south-korea-s-shinhan-asset-management-to-launch-etf-6b647f10",
+      "url": "/stories/south-korea-s-shinhan-asset-management-to-launch-etf-6b647f10.html",
+      "title": "South Korea’s Shinhan Asset Management to Launch ETF Targeting US Memory Semiconductor Stocks - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "server-ddr5-rdimm-prices-surge-past-2-000-businessko-1788a1e0",
       "url": "/stories/server-ddr5-rdimm-prices-surge-past-2-000-businessko-1788a1e0.html",
       "title": "Server DDR5 RDIMM Prices Surge Past $2,000 - Businesskorea",
@@ -56,6 +265,17 @@
       "pick": false,
       "source": "Chosunbiz",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "the-ai-boom-has-made-memory-chips-the-star-of-the-sh-3af74e09",
+      "url": "/stories/the-ai-boom-has-made-memory-chips-the-star-of-the-sh-3af74e09.html",
+      "title": "The AI boom has made memory chips the star of the show; Singapore stakes its role in advanced packaging - Singapore Economic Development Board (EDB)",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "Singapore Economic Development Board (EDB)",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "wici-one-turns-a-single-rtx-5090-into-a-wireless-gpu-44849696",
