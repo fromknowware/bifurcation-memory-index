@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-09-29T05:41:42.536Z",
-  "count": 1223,
+  "generatedAt": "2026-09-29T12:49:39.449Z",
+  "count": 1234,
   "stories": [
+    {
+      "slug": "silicon-is-starting-to-design-silicon-how-ai-is-bein-a9d02da5",
+      "url": "/stories/silicon-is-starting-to-design-silicon-how-ai-is-bein-a9d02da5.html",
+      "title": "Silicon is starting to design silicon — how AI is being used in chipmaking, from EDA tools to OpenAI's Jalapeño and beyond",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "former-evga-employee-blames-nvidia-s-tightening-grip-95e54e73",
+      "url": "/stories/former-evga-employee-blames-nvidia-s-tightening-grip-95e54e73.html",
+      "title": "Former EVGA Employee Blames NVIDIA’s Tightening Grip For Company’s GPU Collapse, Left Years Before The 2022 Exit",
+      "tag": "demand",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-patent-embeds-microleds-in-chip-packaging-tech-5c2cb1b6",
+      "url": "/stories/intel-patent-embeds-microleds-in-chip-packaging-tech-5c2cb1b6.html",
+      "title": "Intel patent embeds MicroLEDs in chip packaging — technology may enable embedded optical interconnects through TGVs",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "server-ddr5-rdimm-prices-surge-past-2-000-businessko-1788a1e0",
+      "url": "/stories/server-ddr5-rdimm-prices-surge-past-2-000-businessko-1788a1e0.html",
+      "title": "Server DDR5 RDIMM Prices Surge Past $2,000 - Businesskorea",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hbm-prices-surge-as-ai-demand-and-hbm4-shift-tighten-72001638",
+      "url": "/stories/hbm-prices-surge-as-ai-demand-and-hbm4-shift-tighten-72001638.html",
+      "title": "HBM prices surge as AI demand and HBM4 shift tighten supply - CHOSUNBIZ - Chosunbiz",
+      "tag": "demand",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "wici-one-turns-a-single-rtx-5090-into-a-wireless-gpu-44849696",
+      "url": "/stories/wici-one-turns-a-single-rtx-5090-into-a-wireless-gpu-44849696.html",
+      "title": "WiCi One Turns a Single RTX 5090 Into a Wireless GPU Shared Over Wi-Fi 7 for Local AI and Gaming",
+      "tag": "demand",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "tsmc-oip-chip-industry-growth-blows-past-forecast-550d9c93",
+      "url": "/stories/tsmc-oip-chip-industry-growth-blows-past-forecast-550d9c93.html",
+      "title": "TSMC OIP: Chip Industry Growth Blows Past Forecast",
+      "tag": "fab",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "moore-8217-s-law-ai-applying-agentic-ai-across-chip-0f6942cf",
+      "url": "/stories/moore-8217-s-law-ai-applying-agentic-ai-across-chip-0f6942cf.html",
+      "title": "Moore&#8217;s Law AI: Applying Agentic AI Across Chip Design",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "montage-technology-mass-produces-ddr5-9200-clock-dri-f97b437e",
+      "url": "/stories/montage-technology-mass-produces-ddr5-9200-clock-dri-f97b437e.html",
+      "title": "Montage Technology Mass-Produces DDR5-9200 Clock Driver Chip, Targeting AI Client Memory - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "framework-s-most-powerful-desktop-will-be-available-f87eeeb2",
+      "url": "/stories/framework-s-most-powerful-desktop-will-be-available-f87eeeb2.html",
+      "title": "Framework’s Most Powerful Desktop Will Be Available For Pre-Order This Week, Featuring AMD’s Ryzen AI MAX+ 495 Chip, 192 GB Memory, As It Delivers A Strong AI Punch In A Tiny Box",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-s-montage-technology-begins-mass-producing-ddr-3542b293",
+      "url": "/stories/china-s-montage-technology-begins-mass-producing-ddr-3542b293.html",
+      "title": "China’s Montage Technology Begins Mass Producing DDR5 9200 MT/s CKDs For Mainstream Memory & DDR5 8000 MT/s For Enterprise-Aimed RDIMMs",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "sk-hynix-deepens-ai-memory-collaboration-with-tsmc-e-d96e3c6d",
       "url": "/stories/sk-hynix-deepens-ai-memory-collaboration-with-tsmc-e-d96e3c6d.html",
