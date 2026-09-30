@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-09-29T22:13:31.525Z",
-  "count": 1254,
+  "generatedAt": "2026-09-30T05:29:58.814Z",
+  "count": 1260,
   "stories": [
+    {
+      "slug": "changxin-tech-earns-77-6-billion-yuan-in-first-half-51572603",
+      "url": "/stories/changxin-tech-earns-77-6-billion-yuan-in-first-half-51572603.html",
+      "title": "Changxin Tech Earns 77.6 Billion Yuan in First Half Year, Places 34.9 Billion Yuan Bet on Next-Generation DRAM - eu.36kr.com",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "eu.36kr.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-servers-compete-for-memory-capacity-as-ddr5-modul-383135db",
+      "url": "/stories/ai-servers-compete-for-memory-capacity-as-ddr5-modul-383135db.html",
+      "title": "AI Servers Compete for Memory Capacity as DDR5 Module Prices Surge More Than Fivefold in 10 Months - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-target-prices-raised-on-record-earn-8b993c43",
+      "url": "/stories/samsung-sk-hynix-target-prices-raised-on-record-earn-8b993c43.html",
+      "title": "Samsung, SK hynix Target Prices Raised on Record Earnings Outlook - Businesskorea",
+      "tag": "earnings",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "divergence-in-ai-demand-token-usage-surges-h100-pric-95ccea1d",
+      "url": "/stories/divergence-in-ai-demand-token-usage-surges-h100-pric-95ccea1d.html",
+      "title": "Divergence in AI Demand: Token Usage Surges, H100 Prices Drop While B200 Rebounds, DRAM Prices Fall for the First Time After Five Consecutive Increases - 富途牛牛",
+      "tag": "demand",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "富途牛牛",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "as-memory-prices-surge-pc-buying-criteria-shift-16gb-f8a5c82b",
+      "url": "/stories/as-memory-prices-surge-pc-buying-criteria-shift-16gb-f8a5c82b.html",
+      "title": "As Memory Prices Surge, PC Buying Criteria Shift—16GB Becomes the New Minimum - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-29",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "apple-s-m5-macbook-pro-gets-an-attractive-160-discou-a043be7f",
       "url": "/stories/apple-s-m5-macbook-pro-gets-an-attractive-160-discou-a043be7f.html",
@@ -34,6 +89,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-executive-hbm-to-consume-nearly-30-of-global-244636dd",
+      "url": "/stories/samsung-executive-hbm-to-consume-nearly-30-of-global-244636dd.html",
+      "title": "Samsung Executive: HBM to Consume Nearly 30% of Global DRAM Capacity Next Year, Accelerating Squeeze on Conventional Memory Supply - finance.biggo.com",
+      "tag": "demand",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "gigabyte-intros-three-ddr4-motherboards-for-amd-and-b160730c",
