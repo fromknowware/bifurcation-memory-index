@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-09-30T05:29:58.814Z",
-  "count": 1260,
+  "generatedAt": "2026-09-30T12:31:41.917Z",
+  "count": 1271,
   "stories": [
+    {
+      "slug": "the-state-of-agentic-ai-in-chip-design-tools-in-2026-ae4d7b65",
+      "url": "/stories/the-state-of-agentic-ai-in-chip-design-tools-in-2026-ae4d7b65.html",
+      "title": "The state of agentic AI in chip design tools in 2026",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "developer-trains-a-small-ai-on-a-single-rtx-3080-ti-c25ff75e",
+      "url": "/stories/developer-trains-a-small-ai-on-a-single-rtx-3080-ti-c25ff75e.html",
+      "title": "Developer trains a small AI on a single RTX 3080 Ti gaming GPU to 'play' Pokémon Red",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "america-is-planning-more-ai-datacenters-than-its-chi-c30f05a8",
+      "url": "/stories/america-is-planning-more-ai-datacenters-than-its-chi-c30f05a8.html",
+      "title": "America is planning more AI datacenters than its chip supply can fill",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-prices-surge-again-in-q4-on-ai-server-demand-6d917223",
+      "url": "/stories/memory-prices-surge-again-in-q4-on-ai-server-demand-6d917223.html",
+      "title": "Memory Prices Surge Again in Q4 on AI Server Demand... DRAM Expected to Rise Up to 20% - asiae.co.kr",
+      "tag": "demand",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "asiae.co.kr",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dram-market-to-stay-tight-in-q4-as-prices-rise-10-15-c53503fb",
+      "url": "/stories/dram-market-to-stay-tight-in-q4-as-prices-rise-10-15-c53503fb.html",
+      "title": "DRAM market to stay tight in Q4 as prices rise 10–15% - Communications Today",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "Communications Today",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "netlist-seeks-us-import-ban-on-micron-memory-chips-u-d5318664",
+      "url": "/stories/netlist-seeks-us-import-ban-on-micron-memory-chips-u-d5318664.html",
+      "title": "Netlist Seeks US Import Ban on Micron Memory Chips Used by Nvidia and Google - Electronics For You BUSINESS",
+      "tag": "demand",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "Electronics For You BUSINESS",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "insights-memory-spot-price-update-dram-market-quiet-415423e0",
+      "url": "/stories/insights-memory-spot-price-update-dram-market-quiet-415423e0.html",
+      "title": "[Insights] Memory Spot Price Update: DRAM Market Quiet Amid Holidays; NAND Buying Stays Weak - TrendForce",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "TrendForce",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "data-center-energy-trends-force-a-rethink-of-chip-po-e3f2e806",
+      "url": "/stories/data-center-energy-trends-force-a-rethink-of-chip-po-e3f2e806.html",
+      "title": "Data Center Energy Trends Force A Rethink Of Chip Power Delivery",
+      "tag": "demand",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "msi-stealth-16-ai-with-an-rtx-5070-ti-32gb-ram-was-s-ff10b50a",
+      "url": "/stories/msi-stealth-16-ai-with-an-rtx-5070-ti-32gb-ram-was-s-ff10b50a.html",
+      "title": "MSI Stealth 16 AI+ With An RTX 5070 Ti & 32GB RAM Was Spotted At A Retail Outlet For A Whopping $1,549.99 Off, But Customer Still Questioned If It’s A Solid Deal",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hbm-supply-constraints-to-keep-memory-prices-rising-c63b57e5",
+      "url": "/stories/hbm-supply-constraints-to-keep-memory-prices-rising-c63b57e5.html",
+      "title": "HBM supply constraints to keep memory prices rising through 2027 - TrendForce - Telecompaper",
+      "tag": "demand",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "Telecompaper",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "changxin-tech-earns-77-6-billion-yuan-in-first-half-51572603",
       "url": "/stories/changxin-tech-earns-77-6-billion-yuan-in-first-half-51572603.html",
@@ -177,6 +287,17 @@
       "pick": false,
       "source": "PC Guide",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "amd-s-new-256-core-epyc-server-chip-nearly-matches-a-4142cbb4",
+      "url": "/stories/amd-s-new-256-core-epyc-server-chip-nearly-matches-a-4142cbb4.html",
+      "title": "AMD's new 256-core EPYC server chip nearly matches an RTX 5090's memory bandwidth - Startup Fortune",
+      "tag": "demand",
+      "date": "2026-09-29",
+      "score": 7,
+      "pick": false,
+      "source": "Startup Fortune",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "memory-supercycle-intensifies-bernstein-sees-dram-na-baf382ef",
