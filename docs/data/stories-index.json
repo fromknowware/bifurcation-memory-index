@@ -1,7 +1,150 @@
 {
-  "generatedAt": "2026-09-30T12:31:41.917Z",
-  "count": 1271,
+  "generatedAt": "2026-09-30T22:13:46.886Z",
+  "count": 1284,
   "stories": [
+    {
+      "slug": "pr-micron-reports-record-fiscal-fourth-quarter-and-f-16cc411b",
+      "url": "/stories/pr-micron-reports-record-fiscal-fourth-quarter-and-f-16cc411b.html",
+      "title": "(PR) Micron Reports Record Fiscal Fourth-Quarter and Full-Year 2026 Results",
+      "tag": "earnings",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "micron-forecasts-quarterly-revenue-above-estimates-w-616cb48a",
+      "url": "/stories/micron-forecasts-quarterly-revenue-above-estimates-w-616cb48a.html",
+      "title": "Micron forecasts quarterly revenue above estimates - WTVB",
+      "tag": "earnings",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "WTVB",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "huawei-boss-claims-homegrown-ai-chip-sales-top-nvidi-407468f3",
+      "url": "/stories/huawei-boss-claims-homegrown-ai-chip-sales-top-nvidi-407468f3.html",
+      "title": "Huawei boss claims homegrown AI chip sales top Nvidia in China",
+      "tag": "demand",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-stock-flashes-new-warning-sign-before-earning-c82b6569",
+      "url": "/stories/micron-stock-flashes-new-warning-sign-before-earning-c82b6569.html",
+      "title": "Micron Stock Flashes New Warning Sign Before Earnings - TradingView",
+      "tag": "earnings",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "laptop-maker-warns-of-price-hikes-as-ddr5-ram-costs-b4428edb",
+      "url": "/stories/laptop-maker-warns-of-price-hikes-as-ddr5-ram-costs-b4428edb.html",
+      "title": "Laptop maker warns of price hikes as DDR5 RAM costs surge sixfold - Sportskeeda Tech",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "Sportskeeda Tech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-now-costs-54-more-than-tsmc-2nm-silicon-2026-sh-12563b1a",
+      "url": "/stories/dram-now-costs-54-more-than-tsmc-2nm-silicon-2026-sh-12563b1a.html",
+      "title": "DRAM Now Costs 54% More Than TSMC 2nm Silicon [2026] - shattered.io",
+      "tag": "fab",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "intel-media-driver-gets-crescent-island-xe3p-gpu-sup-064ba896",
+      "url": "/stories/intel-media-driver-gets-crescent-island-xe3p-gpu-sup-064ba896.html",
+      "title": "Intel Media Driver Gets \"Crescent Island\" Xe3P GPU Support",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-chip-design-week-1d653954",
+      "url": "/stories/ai-chip-design-week-1d653954.html",
+      "title": "AI Chip Design Week",
+      "tag": "demand",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-earnings-preview-the-5-key-requirements-for-a-49e89415",
+      "url": "/stories/micron-earnings-preview-the-5-key-requirements-for-a-49e89415.html",
+      "title": "Micron Earnings Preview: The 5 key requirements for a successful Q4 | FXStreet - شبكة تواصل الإخبارية",
+      "tag": "earnings",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "شبكة تواصل الإخبارية",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "tsmc-s-3-nm-ramp-looks-different-in-historical-conte-1d19e571",
+      "url": "/stories/tsmc-s-3-nm-ramp-looks-different-in-historical-conte-1d19e571.html",
+      "title": "TSMC’s 3-nm Ramp Looks Different in Historical Context",
+      "tag": "fab",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "openai-s-dot-vm-is-hosted-on-an-amd-epyc-9v74-80-cor-5456f31c",
+      "url": "/stories/openai-s-dot-vm-is-hosted-on-an-amd-epyc-9v74-80-cor-5456f31c.html",
+      "title": "OpenAI’s Dot VM Is Hosted On An AMD EPYC 9V74 80-Core Processor, Where Each 9-Core VM Instance Has 9.73 GB Of Memory, And Sports A Multi-Core Score Of 9435 On Geekbench 7",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "synopsys-and-amazon-expand-partnership-for-custom-si-3b26f2a8",
+      "url": "/stories/synopsys-and-amazon-expand-partnership-for-custom-si-3b26f2a8.html",
+      "title": "Synopsys and Amazon Expand Partnership for Custom Silicon and AI Chip Design",
+      "tag": "demand",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "september-dram-and-nand-flash-contract-prices-hit-re-b705dc49",
+      "url": "/stories/september-dram-and-nand-flash-contract-prices-hit-re-b705dc49.html",
+      "title": "September DRAM and NAND Flash Contract Prices Hit Record Highs, Though Gains Slow - finance.biggo.com",
+      "tag": "supply",
+      "date": "2026-09-30",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "the-state-of-agentic-ai-in-chip-design-tools-in-2026-ae4d7b65",
       "url": "/stories/the-state-of-agentic-ai-in-chip-design-tools-in-2026-ae4d7b65.html",
