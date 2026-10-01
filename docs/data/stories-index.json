@@ -1,7 +1,205 @@
 {
-  "generatedAt": "2026-10-01T05:48:57.978Z",
-  "count": 1303,
+  "generatedAt": "2026-10-01T13:09:38.099Z",
+  "count": 1324,
   "stories": [
+    {
+      "slug": "real-gdp-growth-by-state-second-quarter-2026-f7d6c827",
+      "url": "/stories/real-gdp-growth-by-state-second-quarter-2026-f7d6c827.html",
+      "title": "Real GDP growth by state: Second quarter 2026",
+      "tag": "macro",
+      "date": "2026-10-01",
+      "score": 6,
+      "pick": false,
+      "source": "FRED Blog",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "micron-projects-tightening-ram-shortages-through-202-ba63da65",
+      "url": "/stories/micron-projects-tightening-ram-shortages-through-202-ba63da65.html",
+      "title": "Micron projects tightening RAM shortages through 2028 as it generates record profit",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-ceo-says-memory-supply-will-be-much-tighter-i-329381b4",
+      "url": "/stories/micron-ceo-says-memory-supply-will-be-much-tighter-i-329381b4.html",
+      "title": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
+      "tag": "earnings",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "grab-a-huge-520-saving-on-this-rtx-5090-gaming-lapto-e9074be4",
+      "url": "/stories/grab-a-huge-520-saving-on-this-rtx-5090-gaming-lapto-e9074be4.html",
+      "title": "Grab a huge $520 saving on this RTX 5090 gaming laptop from MSI with 64GB DDR5 and a 2TB SSD",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-lawsuit-claims-chinese-memory-maker-ymtc-poac-4810bc22",
+      "url": "/stories/micron-lawsuit-claims-chinese-memory-maker-ymtc-poac-4810bc22.html",
+      "title": "Micron lawsuit claims Chinese memory maker YMTC poached its engineers, then sued it using its own stolen tech",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "india-may-see-costlier-smartphones-as-ram-shortage-w-b48bf4a2",
+      "url": "/stories/india-may-see-costlier-smartphones-as-ram-shortage-w-b48bf4a2.html",
+      "title": "India may see costlier smartphones as RAM shortage worsens: World’s biggest memory chip maker says demand w... - Bhaskar English",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "Bhaskar English",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "citi-reiterates-micron-technology-stock-buy-rating-o-2c845b2e",
+      "url": "/stories/citi-reiterates-micron-technology-stock-buy-rating-o-2c845b2e.html",
+      "title": "Citi reiterates Micron Technology stock Buy rating on DRAM outlook - Investing.com India",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "Investing.com India",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "biwin-cuts-ssd-prices-for-amazon-prime-day-d368c89a",
+      "url": "/stories/biwin-cuts-ssd-prices-for-amazon-prime-day-d368c89a.html",
+      "title": "Biwin cuts SSD prices for Amazon Prime Day",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "KitGuru",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-server-demand-sustains-memory-contract-price-incr-f6ad2866",
+      "url": "/stories/ai-server-demand-sustains-memory-contract-price-incr-f6ad2866.html",
+      "title": "AI Server Demand Sustains Memory Contract Price Increases in 4Q26, While Consumer-Side Pressure Persists - TechPowerUp",
+      "tag": "demand",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pr-ai-server-demand-sustains-memory-contract-price-i-b31d8e05",
+      "url": "/stories/pr-ai-server-demand-sustains-memory-contract-price-i-b31d8e05.html",
+      "title": "(PR) AI Server Demand Sustains Memory Contract Price Increases in 4Q26, While Consumer-Side Pressure Persists",
+      "tag": "demand",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "semiconductor-boom-turns-korean-chip-equipment-found-0dc1dfc3",
+      "url": "/stories/semiconductor-boom-turns-korean-chip-equipment-found-0dc1dfc3.html",
+      "title": "Semiconductor Boom Turns Korean Chip-Equipment Founder Into A Billionaire - Forbes",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "Forbes",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-nand-prices-hit-record-highs-again-in-september-be2cdddf",
+      "url": "/stories/dram-nand-prices-hit-record-highs-again-in-september-be2cdddf.html",
+      "title": "DRAM, NAND Prices Hit Record Highs Again in September - thelec.net",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "thelec.net",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-posts-record-earnings-signals-upside-for-sams-4b309617",
+      "url": "/stories/micron-posts-record-earnings-signals-upside-for-sams-4b309617.html",
+      "title": "Micron posts record earnings, signals upside for Samsung, SK hynix - Korea JoongAng Daily",
+      "tag": "earnings",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "Korea JoongAng Daily",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "micron-s-record-revenue-lifts-samsung-sk-hynix-towar-97f2d3f4",
+      "url": "/stories/micron-s-record-revenue-lifts-samsung-sk-hynix-towar-97f2d3f4.html",
+      "title": "Micron's Record Revenue Lifts Samsung, SK Hynix Toward 200 Trillion - 조선일보",
+      "tag": "earnings",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "pc-dram-jumps-as-korea-suppliers-pivot-to-servers-na-e99838b9",
+      "url": "/stories/pc-dram-jumps-as-korea-suppliers-pivot-to-servers-na-e99838b9.html",
+      "title": "Pc dram jumps as Korea suppliers pivot to servers; nand steadies at highs - CHOSUNBIZ - Chosunbiz",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-has-profited-from-the-memory-shortage-dram-re-79401ea5",
+      "url": "/stories/micron-has-profited-from-the-memory-shortage-dram-re-79401ea5.html",
+      "title": "Micron has profited from the memory shortage: DRAM revenue rose by 343% over the past year - Mezha",
+      "tag": "earnings",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "Mezha",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "phones-may-get-more-expensive-as-ram-supply-worsens-57bf6161",
+      "url": "/stories/phones-may-get-more-expensive-as-ram-supply-worsens-57bf6161.html",
+      "title": "Phones may get more expensive as RAM supply worsens and Micron celebrates higher prices - India Today",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "India Today",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-defined-vehicles-push-compute-memory-and-validati-73bb5aaa",
+      "url": "/stories/ai-defined-vehicles-push-compute-memory-and-validati-73bb5aaa.html",
+      "title": "AI-Defined Vehicles Push Compute, Memory, And Validation Limits",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "micron-earnings-ai-chip-demand-drives-fresh-memory-b-410b01aa",
       "url": "/stories/micron-earnings-ai-chip-demand-drives-fresh-memory-b-410b01aa.html",
@@ -12,6 +210,17 @@
       "pick": false,
       "source": "The Economic Times",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "3d-ferroelectric-memory-could-break-ai-s-high-bandwi-ed00519a",
+      "url": "/stories/3d-ferroelectric-memory-could-break-ai-s-high-bandwi-ed00519a.html",
+      "title": "3D Ferroelectric Memory Could Break AI’s High-Bandwidth Memory Bottleneck - Telecom Review Africa",
+      "tag": "demand",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "Telecom Review Africa",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "memory-semiconductor-prices-hit-record-highs-in-sept-2967516b",
@@ -66,6 +275,17 @@
       "score": 7,
       "pick": false,
       "source": "The Register",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-electronics-sk-hynix-open-lower-despite-micr-7170a3d4",
+      "url": "/stories/samsung-electronics-sk-hynix-open-lower-despite-micr-7170a3d4.html",
+      "title": "Samsung Electronics, SK hynix open lower despite Micron’s record earnings - mkbn.mk.co.kr",
+      "tag": "earnings",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "mkbn.mk.co.kr",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
@@ -165,6 +385,17 @@
       "score": 7,
       "pick": false,
       "source": "SiliconANGLE",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "micron-technology-q4-2026-earnings-call-micron-posts-012b5e54",
+      "url": "/stories/micron-technology-q4-2026-earnings-call-micron-posts-012b5e54.html",
+      "title": "[Micron Technology Q4 2026 Earnings Call] Micron Posts Record $54.2B Quarter, Guides to $61.5B as AI Memory Crunch Deepens - finance.biggo.com",
+      "tag": "earnings",
+      "date": "2026-09-30",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
