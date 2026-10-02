@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-10-02T12:30:58.185Z",
-  "count": 1370,
+  "generatedAt": "2026-10-02T22:12:01.728Z",
+  "count": 1386,
   "stories": [
+    {
+      "slug": "amazon-s-1b-plan-to-combat-data-center-backlash-draw-fc190a6a",
+      "url": "/stories/amazon-s-1b-plan-to-combat-data-center-backlash-draw-fc190a6a.html",
+      "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+      "tag": "demand",
+      "date": "2026-10-02",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "this-is-bics-nand-close-up-from-kioxia-and-sandisk-50d1fc6a",
+      "url": "/stories/this-is-bics-nand-close-up-from-kioxia-and-sandisk-50d1fc6a.html",
+      "title": "This is BiCS NAND Close Up from Kioxia and Sandisk",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "shut-up-and-take-our-money-amazon-plows-1b-into-quas-f72ba70b",
+      "url": "/stories/shut-up-and-take-our-money-amazon-plows-1b-into-quas-f72ba70b.html",
+      "title": "Shut up and take our money: Amazon plows $1B into quashing datacenter dissent",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvi-d61e1d34",
+      "url": "/stories/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvi-d61e1d34.html",
+      "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+      "tag": "demand",
+      "date": "2026-10-02",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pr-gigabyte-ai-top-atom-64gb-unified-memory-version-abd5dec7",
+      "url": "/stories/pr-gigabyte-ai-top-atom-64gb-unified-memory-version-abd5dec7.html",
+      "title": "(PR) Gigabyte AI TOP ATOM 64GB Unified Memory Version Expands Possibilities for Desktop AI Development",
+      "tag": "demand",
+      "date": "2026-10-02",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "leaked-intel-nova-lake-product-list-has-three-bfc-ch-84b7ba42",
+      "url": "/stories/leaked-intel-nova-lake-product-list-has-three-bfc-ch-84b7ba42.html",
+      "title": "Leaked Intel Nova Lake product list has three 'BFC' chips with up to 144MB of game-boosting L3 cache",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "californian-accused-of-shipping-300m-worth-of-nvidia-237ab5ba",
+      "url": "/stories/californian-accused-of-shipping-300m-worth-of-nvidia-237ab5ba.html",
+      "title": "Californian accused of shipping $300M worth of Nvidia chips to China without Uncle Sam’s approval",
+      "tag": "demand",
+      "date": "2026-10-02",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "biwin-s-cl-100-mini-is-a-particularly-puny-but-poten-5ff564aa",
+      "url": "/stories/biwin-s-cl-100-mini-is-a-particularly-puny-but-poten-5ff564aa.html",
+      "title": "BiWin's CL 100 Mini is a particularly puny but potent SSD for portable gaming",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "power-approval-set-to-delay-oracle-s-wisconsin-ai-da-918b28e9",
+      "url": "/stories/power-approval-set-to-delay-oracle-s-wisconsin-ai-da-918b28e9.html",
+      "title": "Power approval set to delay Oracle's Wisconsin AI datacenter",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amazon-and-synopsys-ink-multi-year-billion-dollar-de-48e947be",
+      "url": "/stories/amazon-and-synopsys-ink-multi-year-billion-dollar-de-48e947be.html",
+      "title": "Amazon and Synopsys ink multi-year billion-dollar deal in multi-year IP agreement to accelerate AI chip design efforts",
+      "tag": "demand",
+      "date": "2026-10-02",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-axes-the-standard-shield-tv-and-hikes-shield-c2a53785",
+      "url": "/stories/nvidia-axes-the-standard-shield-tv-and-hikes-shield-c2a53785.html",
+      "title": "NVIDIA Axes The Standard Shield TV And Hikes Shield TV Pro By $100 To $299, Blaming Rising DRAM Costs",
+      "tag": "demand",
+      "date": "2026-10-02",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-debuts-4-999-dgx-spark-with-half-the-ram-and-2f7ab464",
+      "url": "/stories/nvidia-debuts-4-999-dgx-spark-with-half-the-ram-and-2f7ab464.html",
+      "title": "Nvidia debuts $4,999 DGX Spark with half the RAM and storage, amid memory crunch",
+      "tag": "demand",
+      "date": "2026-10-02",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "amazon-interested-in-moving-8-billion-of-gpus-off-it-6e3039b8",
+      "url": "/stories/amazon-interested-in-moving-8-billion-of-gpus-off-it-6e3039b8.html",
+      "title": "Amazon Interested In Moving $8 Billion Of GPUs Off Its Books As Report Suggests Wall Street Grows Wary Of NVIDIA’s $500 Billion GPU Plan",
+      "tag": "demand",
+      "date": "2026-10-02",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "fractile-ceo-walter-goodwin-ai-chips-need-25x-more-m-8e25e63c",
+      "url": "/stories/fractile-ceo-walter-goodwin-ai-chips-need-25x-more-m-8e25e63c.html",
+      "title": "Fractile CEO Walter Goodwin: AI Chips Need 25x More Memory Bandwidth, Not More Compute - finance.biggo.com",
+      "tag": "demand",
+      "date": "2026-10-02",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "pr-asrock-deskslim-series-delivers-rtx-pro-blackwell-f201ace1",
       "url": "/stories/pr-asrock-deskslim-series-delivers-rtx-pro-blackwell-f201ace1.html",
@@ -14,6 +168,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "micron-now-has-an-88-margin-on-consumer-memory-as-pr-09f468d0",
+      "url": "/stories/micron-now-has-an-88-margin-on-consumer-memory-as-pr-09f468d0.html",
+      "title": "Micron now has an 88% margin on consumer memory as price hikes drive profits — client business is Micron's only unit that shipped less memory this quarter - Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "micron-now-has-an-88-margin-on-consumer-memory-as-pr-26e9abe6",
       "url": "/stories/micron-now-has-an-88-margin-on-consumer-memory-as-pr-26e9abe6.html",
       "title": "Micron now has an 88% margin on consumer memory as price hikes drive profits",
@@ -22,6 +187,17 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-keeps-memory-prices-climbing-in-q4-as-consumer-de-068e2aa9",
+      "url": "/stories/ai-keeps-memory-prices-climbing-in-q4-as-consumer-de-068e2aa9.html",
+      "title": "AI keeps memory prices climbing in Q4 as consumer demand weakens - evertiq.com",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "evertiq.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {

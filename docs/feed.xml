@@ -5,11 +5,193 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-02T12:30:55.783Z</updated>
+  <updated>2026-10-02T22:11:59.413Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/</id>
+    <title type="html">Amazon’s $1B plan to combat data center backlash draws more backlash</title>
+    <link href="https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/" />
+    <link rel="related" href="/stories/amazon-s-1b-plan-to-combat-data-center-backlash-draw-fc190a6a.html" />
+    <updated>2026-10-02T20:30:27.000Z</updated>
+    <author><name>Ars Technica</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.servethehome.com/this-is-bics-nand-close-up-from-kioxia-and-sandisk/</id>
+    <title type="html">This is BiCS NAND Close Up from Kioxia and Sandisk</title>
+    <link href="https://www.servethehome.com/this-is-bics-nand-close-up-from-kioxia-and-sandisk/" />
+    <link rel="related" href="/stories/this-is-bics-nand-close-up-from-kioxia-and-sandisk-50d1fc6a.html" />
+    <updated>2026-10-02T19:55:22.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <summary type="html">We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome . RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.theregister.com/systems/2026/10/02/shut-up-and-take-our-money-amazon-plows-1b-into-quashing-datacenter-dissent/5300914</id>
+    <title type="html">Shut up and take our money: Amazon plows $1B into quashing datacenter dissent</title>
+    <link href="https://www.theregister.com/systems/2026/10/02/shut-up-and-take-our-money-amazon-plows-1b-into-quashing-datacenter-dissent/5300914" />
+    <link rel="related" href="/stories/shut-up-and-take-our-money-amazon-plows-1b-into-quas-f72ba70b.html" />
+    <updated>2026-10-02T19:30:56.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">Thou shalt love the datacenter! Verily, thou shalt rejoice in the house of the datacenter! RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Thou shalt love the datacenter! Verily, thou shalt rejoice in the house of the datacenter!&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/</id>
+    <title type="html">US arrests tech CEO accused of smuggling $300M in Nvidia chips into China</title>
+    <link href="https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/" />
+    <link rel="related" href="/stories/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvi-d61e1d34.html" />
+    <updated>2026-10-02T18:39:36.000Z</updated>
+    <author><name>Ars Technica</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/353342/gigabyte-ai-top-atom-64gb-unified-memory-version-expands-possibilities-for-desktop-ai-development</id>
+    <title type="html">(PR) Gigabyte AI TOP ATOM 64GB Unified Memory Version Expands Possibilities for Desktop AI Development</title>
+    <link href="https://www.techpowerup.com/353342/gigabyte-ai-top-atom-64gb-unified-memory-version-expands-possibilities-for-desktop-ai-development" />
+    <link rel="related" href="/stories/pr-gigabyte-ai-top-atom-64gb-unified-memory-version-abd5dec7.html" />
+    <updated>2026-10-02T16:39:21.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">Gigabyte today announced the launch of a new 64 GB unified memory version of Gigabyte AI TOP ATOM, expanding its existing 128 GB offering. Available starting October 23, the new configuration retains the hardware design of AI TOP ATOM, based on the NVIDIA DGX Spark platform, giving developers, researchers, and enterprise teams greater flexibility to select the configuration that best fits their AI RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Gigabyte today announced the launch of a new 64 GB unified memory version of Gigabyte AI TOP ATOM, expanding its existing 128 GB offering. Available starting October 23, the new configuration retains the hardware design of AI TOP ATOM, based on the NVIDIA DGX Spark platform, giving developers, researchers, and enterprise teams greater flexibility to select the configuration that best fits their AI&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/cpus/rumored-intel-nova-lake-table-lists-three-bfc-chips-with-up-to-144mb-of-l3-next-gen-cpu-lineup-takes-shape-with-up-to-28-cores-in-core-ultra-9-4970k-bfc</id>
+    <title type="html">Leaked Intel Nova Lake product list has three 'BFC' chips with up to 144MB of game-boosting L3 cache</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/rumored-intel-nova-lake-table-lists-three-bfc-chips-with-up-to-144mb-of-l3-next-gen-cpu-lineup-takes-shape-with-up-to-28-cores-in-core-ultra-9-4970k-bfc" />
+    <link rel="related" href="/stories/leaked-intel-nova-lake-product-list-has-three-bfc-ch-84b7ba42.html" />
+    <updated>2026-10-02T15:34:13.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.theregister.com/security/2026/10/02/californian-accused-of-shipping-300m-worth-of-nvidia-chips-to-china-without-uncle-sams-approval/5300856</id>
+    <title type="html">Californian accused of shipping $300M worth of Nvidia chips to China without Uncle Sam’s approval</title>
+    <link href="https://www.theregister.com/security/2026/10/02/californian-accused-of-shipping-300m-worth-of-nvidia-chips-to-china-without-uncle-sams-approval/5300856" />
+    <link rel="related" href="/stories/californian-accused-of-shipping-300m-worth-of-nvidia-237ab5ba.html" />
+    <updated>2026-10-02T15:20:00.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">Prosecutors claim Greg Lui helped China procure advanced hardware to develop, ahem, 'super intelligence’ RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Prosecutors claim Greg Lui helped China procure advanced hardware to develop, ahem, 'super intelligence’&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/storage/biwins-cl-100-mini-is-a-particularly-puny-but-potent-ssd-for-portable-gaming-15-x-17-mm-in-size-and-up-to-2tb-in-capacity</id>
+    <title type="html">BiWin's CL 100 Mini is a particularly puny but potent SSD for portable gaming</title>
+    <link href="https://www.tomshardware.com/pc-components/storage/biwins-cl-100-mini-is-a-particularly-puny-but-potent-ssd-for-portable-gaming-15-x-17-mm-in-size-and-up-to-2tb-in-capacity" />
+    <link rel="related" href="/stories/biwin-s-cl-100-mini-is-a-particularly-puny-but-poten-5ff564aa.html" />
+    <updated>2026-10-02T14:30:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832</id>
+    <title type="html">Power approval set to delay Oracle's Wisconsin AI datacenter</title>
+    <link href="https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832" />
+    <link rel="related" href="/stories/power-approval-set-to-delay-oracle-s-wisconsin-ai-da-918b28e9.html" />
+    <updated>2026-10-02T13:50:39.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">Grid connection awaits regulatory approval, putting planned 2027 customer delivery at risk RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Grid connection awaits regulatory approval, putting planned 2027 customer delivery at risk&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities</id>
+    <title type="html">Amazon and Synopsys ink multi-year billion-dollar deal in multi-year IP agreement to accelerate AI chip design efforts</title>
+    <link href="https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities" />
+    <link rel="related" href="/stories/amazon-and-synopsys-ink-multi-year-billion-dollar-de-48e947be.html" />
+    <updated>2026-10-02T13:50:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/nvidia-axes-standard-shield-tv-hikes-shield-tv-pro-to-299-blaming-rising-dram-costs/</id>
+    <title type="html">NVIDIA Axes The Standard Shield TV And Hikes Shield TV Pro By $100 To $299, Blaming Rising DRAM Costs</title>
+    <link href="https://wccftech.com/nvidia-axes-standard-shield-tv-hikes-shield-tv-pro-to-299-blaming-rising-dram-costs/" />
+    <link rel="related" href="/stories/nvidia-axes-the-standard-shield-tv-and-hikes-shield-c2a53785.html" />
+    <updated>2026-10-02T13:00:02.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">NVIDIA is raising the price of its Shield TV Pro to $299 as it discontinues the base model following memory and component price hikes. NVIDIA's Popular Streaming Platform, Shield, Is Getting More Expensive &amp; One Model Is Being Discontinued The Shield platform started as NVIDIA's take on the handheld and portable console segment. The first Shield device, the Portable, was equipped with a Tegra 4 So RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;NVIDIA is raising the price of its Shield TV Pro to $299 as it discontinues the base model following memory and component price hikes. NVIDIA's Popular Streaming Platform, Shield, Is Getting More Expensive &amp; One Model Is Being Discontinued The Shield platform started as NVIDIA's take on the handheld and portable console segment. The first Shield device, the Portable, was equipped with a Tegra 4 So&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.theregister.com/systems/2026/10/02/nvidia-debuts-4999-dgx-spark-with-half-the-ram-and-storage-amid-memory-crunch/5300622</id>
+    <title type="html">Nvidia debuts $4,999 DGX Spark with half the RAM and storage, amid memory crunch</title>
+    <link href="https://www.theregister.com/systems/2026/10/02/nvidia-debuts-4999-dgx-spark-with-half-the-ram-and-storage-amid-memory-crunch/5300622" />
+    <link rel="related" href="/stories/nvidia-debuts-4-999-dgx-spark-with-half-the-ram-and-2f7ab464.html" />
+    <updated>2026-10-02T13:00:00.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">Meanwhile 128 GB version jumps to $6,950, nearly 75% above its launch price RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Meanwhile 128 GB version jumps to $6,950, nearly 75% above its launch price&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/amazon-interested-in-moving-8-billion-of-gpus-off-its-books-as-report-suggests-wall-street-grows-wary-of-nvidias-500-billion-gpu-plan/</id>
+    <title type="html">Amazon Interested In Moving $8 Billion Of GPUs Off Its Books As Report Suggests Wall Street Grows Wary Of NVIDIA’s $500 Billion GPU Plan</title>
+    <link href="https://wccftech.com/amazon-interested-in-moving-8-billion-of-gpus-off-its-books-as-report-suggests-wall-street-grows-wary-of-nvidias-500-billion-gpu-plan/" />
+    <link rel="related" href="/stories/amazon-interested-in-moving-8-billion-of-gpus-off-it-6e3039b8.html" />
+    <updated>2026-10-02T12:32:22.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Cloud computing giant Amazon is reportedly offloading roughly $8 billion worth of NVIDIA GPUs to shell companies in order to remove them from its balance sheet, suggests a report from the Financial Times. The move will see Amazon retain control of the GPUs and access to them, but also enable it to shift the riskier and costly aspects of owning the NVIDIA chips to outside investors. Amazon's deal i RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Cloud computing giant Amazon is reportedly offloading roughly $8 billion worth of NVIDIA GPUs to shell companies in order to remove them from its balance sheet, suggests a report from the Financial Times. The move will see Amazon retain control of the GPUs and access to them, but also enable it to shift the riskier and costly aspects of owning the NVIDIA chips to outside investors. Amazon's deal i&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiW0FVX3lxTE05SS0wUWkybngtMnpmaFI1UWpPdzkxeUJVU3J2R2tUSGJyOHZuWTFoYnp1X01kZWpMcVMyanVydnZuYmVEYlM5SHVXaXVxT1dXUjA0WGpYSzFoaGs?oc=5</id>
+    <title type="html">Fractile CEO Walter Goodwin: AI Chips Need 25x More Memory Bandwidth, Not More Compute - finance.biggo.com</title>
+    <link href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE05SS0wUWkybngtMnpmaFI1UWpPdzkxeUJVU3J2R2tUSGJyOHZuWTFoYnp1X01kZWpMcVMyanVydnZuYmVEYlM5SHVXaXVxT1dXUjA0WGpYSzFoaGs?oc=5" />
+    <link rel="related" href="/stories/fractile-ceo-walter-goodwin-ai-chips-need-25x-more-m-8e25e63c.html" />
+    <updated>2026-10-02T12:08:00.000Z</updated>
+    <author><name>finance.biggo.com</name></author>
+    <summary type="html">Fractile CEO Walter Goodwin: AI Chips Need 25x More Memory Bandwidth, Not More Compute finance.biggo.com RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Fractile CEO Walter Goodwin: AI Chips Need 25x More Memory Bandwidth, Not More Compute finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.techpowerup.com/353335/asrock-deskslim-series-delivers-rtx-pro-blackwell-performance-in-a-compact-5l-workstation</id>
     <title type="html">(PR) ASRock DeskSlim Series Delivers RTX PRO Blackwell Performance in a Compact 5L Workstation</title>
@@ -21,7 +203,20 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;ASRock, the global leading manufacturer of motherboards, graphics cards, mini PCs, gaming monitors, power supply units, and AIO liquid coolers, today announced that the DeskSlim X600 and DeskSlim B760 compact desktop platforms support NVIDIA RTX PRO 4000 Blackwell SFF Edition and NVIDIA RTX PRO 2000 Blackwell professional graphics cards. Designed for professional users who require desktop-class ex&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;ASRock, the global leading manufacturer of motherboards, graphics cards, mini PCs, gaming monitors, power supply units, and AIO liquid coolers, today announced that the DeskSlim X600 and DeskSlim B760 compact desktop platforms support NVIDIA RTX PRO 4000 Blackwell SFF Edition and NVIDIA RTX PRO 2000 Blackwell professional graphics cards. Designed for professional users who require desktop-class ex&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiqwJBVV95cUxOV0YwTmVqQkdlUlZSU3RnNkV3YTdrMDJZOHFYa2FDcUxCX3BtdGZ1SjJfaDlCWmNiMUFhaFFVc0VKMUdSTVpVQWpHXzJVREppcVVtdjExUnVOdUk2dFI3TG1JTHRPRGpsMnBPS1RoZDRndlhqVTNXRldFOVZUY253VjlTMUp2WEpoTnpjZ1doRjJTaVdMVDRBUW5GcTNjZUl0M1hZbHRSZjUxakFXdmVxMnBEV19zbXVxTlpma1NXRk5XbEMzZ3ZnM1ZDbmFGYkhQNGNZZXExdFZ0Y09aclBVYzBRMkQxLUtYc2NqZ3BibTMxWVA0UXE4N1RuOWV6WFIyYmtmQUxBLUNlYWVVMzdZMGpJNmdZMWh4T0Z4RGNlUENoQU15dDBtOVgwMA?oc=5</id>
+    <title type="html">Micron now has an 88% margin on consumer memory as price hikes drive profits — client business is Micron's only unit that shipped less memory this quarter - Tom's Hardware</title>
+    <link href="https://news.google.com/rss/articles/CBMiqwJBVV95cUxOV0YwTmVqQkdlUlZSU3RnNkV3YTdrMDJZOHFYa2FDcUxCX3BtdGZ1SjJfaDlCWmNiMUFhaFFVc0VKMUdSTVpVQWpHXzJVREppcVVtdjExUnVOdUk2dFI3TG1JTHRPRGpsMnBPS1RoZDRndlhqVTNXRldFOVZUY253VjlTMUp2WEpoTnpjZ1doRjJTaVdMVDRBUW5GcTNjZUl0M1hZbHRSZjUxakFXdmVxMnBEV19zbXVxTlpma1NXRk5XbEMzZ3ZnM1ZDbmFGYkhQNGNZZXExdFZ0Y09aclBVYzBRMkQxLUtYc2NqZ3BibTMxWVA0UXE4N1RuOWV6WFIyYmtmQUxBLUNlYWVVMzdZMGpJNmdZMWh4T0Z4RGNlUENoQU15dDBtOVgwMA?oc=5" />
+    <link rel="related" href="/stories/micron-now-has-an-88-margin-on-consumer-memory-as-pr-09f468d0.html" />
+    <updated>2026-10-02T11:40:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html">Micron now has an 88% margin on consumer memory as price hikes drive profits — client business is Micron's only unit that shipped less memory this quarter Tom's Hardware RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Micron now has an 88% margin on consumer memory as price hikes drive profits — client business is Micron's only unit that shipped less memory this quarter Tom's Hardware&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/dram/micron-now-has-an-88-percent-margin-on-consumer-memory-price-hikes-drive-revenue-client-business-is-microns-only-unit-that-shipped-less-memory-this-quarter</id>
@@ -34,7 +229,20 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiogFBVV95cUxPUjBDOW5hMHRHRVBLdXdLRURXejEzeEN0Z29lS1ZfMzc2bW4wVG1oX1U4RVJkbVB0Y2NSS0Q1ajhqZEI5VG1XVzNqX0tPQmFaTUp1S2I3bUJTNjhudFE0QThFNS1jcXdzN0k5MzVwaXZPVmlYRWtfbDE1dGZpMjludjRYTHVDVDBlTC00U0hfWkZ6VzJSOWtXSjFROTFoUjlFSVE?oc=5</id>
+    <title type="html">AI keeps memory prices climbing in Q4 as consumer demand weakens - evertiq.com</title>
+    <link href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPUjBDOW5hMHRHRVBLdXdLRURXejEzeEN0Z29lS1ZfMzc2bW4wVG1oX1U4RVJkbVB0Y2NSS0Q1ajhqZEI5VG1XVzNqX0tPQmFaTUp1S2I3bUJTNjhudFE0QThFNS1jcXdzN0k5MzVwaXZPVmlYRWtfbDE1dGZpMjludjRYTHVDVDBlTC00U0hfWkZ6VzJSOWtXSjFROTFoUjlFSVE?oc=5" />
+    <link rel="related" href="/stories/ai-keeps-memory-prices-climbing-in-q4-as-consumer-de-068e2aa9.html" />
+    <updated>2026-10-02T11:32:33.000Z</updated>
+    <author><name>evertiq.com</name></author>
+    <summary type="html">AI keeps memory prices climbing in Q4 as consumer demand weakens evertiq.com RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;AI keeps memory prices climbing in Q4 as consumer demand weakens evertiq.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMijwJBVV95cUxPQmpUaVBMcHhwanBYWkItaHM1Z3ZYeWltT2dHX1JOWlp4SDRxcktmRTllZTE3SFBaR2cxS2dfUDhPa0lzUVFxX3BBNm1TRzZGelZqVW9oT2MyT2R3b3pSSXdRN2YwWGJHYmNIa0xjd1Q0ZVNmd1J5U1ZsTzcweTdvNllUcUthU0UwUHp6V1MyQ3IwNG9xOHFXa0o0dkJVSFJNWGRpdFJYWk92OHI3eV9Lb19RM1dNYnNNQl90YkFaRGZvUGtFZXVZaUJOeDdzMkc4dnhfUTltemMzc1h3VEszNVI3YW5NVk5MYnQxcXVURTZZNFRaVmZGd0JKZGEwMTVnQ2NsaWRlTWZfX0ViT3Br?oc=5</id>
@@ -47,7 +255,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Memory shortages drive Raspberry Pi prices up by up to 23% — escalating LPDDR4, LPDDR5 costs trigger the third price hike of the year Tom's Hardware&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Memory shortages drive Raspberry Pi prices up by up to 23% — escalating LPDDR4, LPDDR5 costs trigger the third price hike of the year Tom's Hardware&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiYkFVX3lxTE4yT21ZdjlQSXlhMkx4aF93Z0JMM0VYQkowdmVuUThYSG8zU1Zrc21Jcml0QjVEcy1hZ3BpdFhYYmRuTmZVNlQxNWpLT0FfS0RyN3R4Mi1PT0tJSFpwQklacWpB?oc=5</id>
@@ -60,7 +268,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Samsung vs SK hynix: AI Memory Chip Race 2026 SNS Insider&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung vs SK hynix: AI Memory Chip Race 2026 SNS Insider&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMilAFBVV95cUxQN251ZU1UWVdoMXJ4VDNNQ0I3WGpnVEkweVU4OUh0V3ZJc3RObU42eHZObXZIVHZ2X0hUdktQNHdOb3p4T1FlX3Mya0piazhOR1JLZkp3bmh2eFdHem1CZ1l2TzAxT0d1NGhzMlZaNmd2SzZQZjdQSFlPVzFrMWNybTlJeGQ0Y1BtSVJRdHBoRWwzZm1D?oc=5</id>
@@ -73,7 +281,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Samsung HBM to Take 30% of DRAM Capacity by 2027 SNS Insider&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung HBM to Take 30% of DRAM Capacity by 2027 SNS Insider&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNjhIX2VTNTNSNkl0RV9fYWV3clU4Z2c5V2pMUXVBVVBKU1JEUmZEZ3BXS09CUXVGZFJqNmFUaHYzMXpRenBWQ2VBal93MDl5dmlscWdBdXd4d1FNREVBMExYVzZzTFVaZTZGZWhKQTdrbk9zUVUyNlR6UXpEV3VwZGNaT3JqVW5LRXMwSjNZQ0ZGRHhpektQRWp2Y0ZDb2FpZjJ6MWYyWmt6UQ?oc=5</id>
@@ -86,7 +294,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Volantis Raises $88 Million to Tackle AI Inference Memory Bottleneck citybiz.co&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Volantis Raises $88 Million to Tackle AI Inference Memory Bottleneck citybiz.co&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/samsung-hbm4-pricing-3x-hbm3e-dram-market/</id>
@@ -99,7 +307,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;HBM technology has reportedly been the driving force for Samsung’s foundry business recovery, and the technology giant is finding new ways to ensure that the next-generation memory retains its “cash cow” status. According to the latest figures, the company is said to charge three times the price for HBM4, and it appears that it already has some customers lined up. At present, Samsung is negotiatin&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;HBM technology has reportedly been the driving force for Samsung’s foundry business recovery, and the technology giant is finding new ways to ensure that the next-generation memory retains its “cash cow” status. According to the latest figures, the company is said to charge three times the price for HBM4, and it appears that it already has some customers lined up. At present, Samsung is negotiatin&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/353323/intel-releases-arc-gpu-graphics-drivers-101-9034-beta</id>
@@ -112,7 +320,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Intel today released the latest Arc GPU Graphics Drivers. Version 101.9034 Beta comes with optimization for &quot;Gears of War: E-Day,&quot; and &quot;Ace Combat 8: Wings of Theve.&quot; The driver release notes don't specify any new issues being fixed with this release, but Intel identified a handful new issues to fix in future driver updates. This is a beta driver, and so it's only recommended to use this if you pl&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Intel today released the latest Arc GPU Graphics Drivers. Version 101.9034 Beta comes with optimization for &quot;Gears of War: E-Day,&quot; and &quot;Ace Combat 8: Wings of Theve.&quot; The driver release notes don't specify any new issues being fixed with this release, but Intel identified a handful new issues to fix in future driver updates. This is a beta driver, and so it's only recommended to use this if you pl&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMirAFBVV95cUxQMEN0bUdfV3JJbUxMbHM0TkdvdWdTRXRpWEdyVHRfRjdnbWRfZXZDUkF5b083NGNfdEVoS202ZGZnQlhWanQwbUR2Uy1qTldmYkZGYl9BX21OTmpzOTUzbHpyVzd2OEk4NlhoY2NESUZ1ZWRHWFpialhobl9CTnJiVzJHSjk5WkJmUHVTbG1DYVpmM0dmMS1zRlJtY2dxSnRGdU5FLVVzTUZ3UjYx?oc=5</id>
@@ -125,7 +333,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Bernstein: Memory chip shortage to persist until 2028; sets Micron price target at $1,300 moomoo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Bernstein: Memory chip shortage to persist until 2028; sets Micron price target at $1,300 moomoo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMioAFBVV95cUxPZDVLQjhRQXVEU25VTTgtWkw0bmVXcFhVMGd2NVVWaXVHazU1T09UeWlzYkhDWmlvOVVpTW10dTJrMDRSLXNvSDU2X2JGejU1UlRrVXU5STRtTEt6VFhkZjVzaEtxZVNHM29oWF9qVUxfOS1ILWRWLWd5NTdBVTVmcGZHSjNlU1V5eUtNQWRFSWpPUnRKcHUyQmVSQjcwSnlt?oc=5</id>
@@ -138,7 +346,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Micron Closes In on SK hynix in DRAM After Record Quarter Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron Closes In on SK hynix in DRAM After Record Quarter Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ2lwN0JOdFY5ZFlKVHk0RlpJVWhfSmdzWGJRemhUaDJoRThDZjU2a0c5cmdKWUtwTEY2Z1JQQUoxUEdkT0xuVk9FRGpOaHYzd3Nqczk5UGJjQ1B3aVVCUjFlYk1Lb0EzQ3ZYUkVwaTNpRTlKS3U0Wmg1OTJiTVc4WkJNZ1BUTlJJLTJEeFFuZlVTYXRHaTRLZjFQX0VfNEt0VXRjSmQtTVl5YUpXY2ZDaVBfNlVXNnNYTUhjV1diWkU0RGIxYkJnRHBSM1FtQk13MDl5Q0pTb0NDMmp0?oc=5</id>
@@ -151,7 +359,7 @@
     <category term="google-news:NAND flash supply" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Micron Says Memory Supply Will Be Much Tighter in 2028. Sandisk's Contracts Limit How Much It Can Gain. fool.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron Says Memory Supply Will Be Much Tighter in 2028. Sandisk's Contracts Limit How Much It Can Gain. fool.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMijAJBVV95cUxPV2Z2UDN5Nm5uQWU3UEZqdUhZUlB3eVRxaXFhZHVBSGhFSG41bDZiY1VyRV9YdjJIczZSSEliVDIxNm9yNHZ6Z2JNcEljeEgzUTFPal9jSzlkRHAyakM0UFZhVjQyTGhxM3JyQWQ1X1R5ZTBKc1o1MFJmRVJvSmdITjJBbm9IejVhd3JsWWRjQzltdmZyWVNtZm1VSkFkT2F4QlBQdUpuNTJKa1BGb2dzaVJKOWpuZ3BzdDlPZXRHeFloNUJnMFlUb1k3YUplQ05JSzRqMXdkbUpwNk9FOUNOOTZpcFhvNHE1eVBOcTBWOW8xYzRYWDQ3T0VjRS1MWmxQMnJQLUhDR2ljRnZx?oc=5</id>
@@ -177,7 +385,7 @@
     <category term="google-news:Samsung SK Hynix Micron earnings" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Micron Closes In on No. 2 DRAM Spot, Gap With SK Hynix Narrows to 1 Percentage Point finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron Closes In on No. 2 DRAM Spot, Gap With SK Hynix Narrows to 1 Percentage Point finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYkx5MFMtRzVUOVg2c0tza0FuWUNnSlZGX19uRFdseGEybWwxYkFCdkptUW5XUTlFakQ0UGRBRXhEYXUwUnNtbjRXVUFUYktFSHdGbFBGNW1xZktjZHdfY2JtNm83NHluREkxN244MXNVMzVMZFJfY09ucTBtTGVNT2dkQ1MzQ2xsb1pTWE9PTWM4Y2RNeW9sdjJYSDdqNC1QSzZKWVB1UzEtbDMwTmRjNXRxS3B2RkdfVkhXOGVWdEYzMDh4TzhQa050YjdybmZLWEppMVA0X09GWlppeFBVbEh5WnpJaHhWQ3c?oc=5</id>
@@ -320,7 +528,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Micron says robots will keep RAM prices high, even if the AI bubble pops techspot.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron says robots will keep RAM prices high, even if the AI bubble pops techspot.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTFB5dkdRS0luNWIydEJaMzFuRVJGbVJQeDhUeFUtYjB0eGUzZ0tBdFZ1azJ6QUpGVVJQbU1mR21CSDh0WnluZG5GZm1QVXp5M1J4bS1RR1ozRFhUN2I1YXUxYWYwbDFWdWlMNUpmclc0blAtR0taWGc?oc=5</id>
@@ -502,7 +710,7 @@
     <category term="google-news:DDR5 market" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Gigabyte Revives the DDR4 Market With Three New Motherboards eTeknix&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Gigabyte Revives the DDR4 Market With Three New Motherboards eTeknix&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://fredblog.stlouisfed.org/2026/10/real-gdp-growth-by-state-second-quarter-2026/</id>
