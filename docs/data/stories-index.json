@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-10-01T22:39:37.689Z",
-  "count": 1344,
+  "generatedAt": "2026-10-02T05:34:10.870Z",
+  "count": 1356,
   "stories": [
+    {
+      "slug": "micron-says-memory-supply-will-be-much-tighter-in-20-7f20c5b8",
+      "url": "/stories/micron-says-memory-supply-will-be-much-tighter-in-20-7f20c5b8.html",
+      "title": "Micron Says Memory Supply Will Be Much Tighter in 2028. Sandisk's Contracts Limit How Much It Can Gain. - The Globe and Mail",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "The Globe and Mail",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kb-securities-forecasts-accelerated-memory-cycle-wit-9787452b",
+      "url": "/stories/kb-securities-forecasts-accelerated-memory-cycle-wit-9787452b.html",
+      "title": "KB Securities forecasts accelerated memory cycle with Samsung and SK Hynix as top picks - globalsources.com",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "globalsources.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-closes-in-on-sk-hynix-for-2nd-place-in-q2-dra-c9257a1b",
+      "url": "/stories/micron-closes-in-on-sk-hynix-for-2nd-place-in-q2-dra-c9257a1b.html",
+      "title": "Micron Closes In on SK Hynix for 2nd Place in Q2 DRAM Market - news.sbs.co.kr",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "news.sbs.co.kr",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-maintains-dram-lead-as-micron-closes-in-on-s-916fe40d",
+      "url": "/stories/samsung-maintains-dram-lead-as-micron-closes-in-on-s-916fe40d.html",
+      "title": "Samsung Maintains DRAM Lead as Micron Closes In on SK hynix - 아시아경제",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "아시아경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "google-launches-first-datacenter-satellite-and-resea-f2903df9",
+      "url": "/stories/google-launches-first-datacenter-satellite-and-resea-f2903df9.html",
+      "title": "Google launches first datacenter satellite and research that finds orbiting bit barns can work",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-s-numbers-show-why-hbm4-memory-is-worth-15x-i-8169a763",
+      "url": "/stories/micron-s-numbers-show-why-hbm4-memory-is-worth-15x-i-8169a763.html",
+      "title": "Micron’s Numbers Show Why HBM4 Memory Is Worth 15X Its Weight In Gold",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "The Next Platform",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "semiconductor-stocks-surge-across-the-board-on-micro-33ed5da4",
+      "url": "/stories/semiconductor-stocks-surge-across-the-board-on-micro-33ed5da4.html",
+      "title": "Semiconductor stocks surge across the board on Micron's blowout earnings and South Korea's export boom - finance.biggo.com",
+      "tag": "earnings",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "will-samsung-and-sk-hynix-rally-too-semiconductor-st-8f96fb55",
+      "url": "/stories/will-samsung-and-sk-hynix-rally-too-semiconductor-st-8f96fb55.html",
+      "title": "\"Will Samsung and SK hynix Rally Too?\"... Semiconductor Stocks Get a Boost from Micron’s Record Earnings [1-Minute Brief] - 아시아경제",
+      "tag": "earnings",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "아시아경제",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "ai-inference-memory-wall-breaker-volantis-raises-88m-06e3d4df",
+      "url": "/stories/ai-inference-memory-wall-breaker-volantis-raises-88m-06e3d4df.html",
+      "title": "AI Inference Memory-Wall Breaker Volantis Raises $88M Series A - Wowtale",
+      "tag": "demand",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "Wowtale",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "taiwanese-social-media-users-mock-samsung-s-plan-to-2be3e4e2",
       "url": "/stories/taiwanese-social-media-users-mock-samsung-s-plan-to-2be3e4e2.html",
@@ -44,6 +143,17 @@
       "score": 8,
       "pick": false,
       "source": "Ars Technica",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-ram-shortage-2028-prices-could-stay-high-for-5257278b",
+      "url": "/stories/micron-ram-shortage-2028-prices-could-stay-high-for-5257278b.html",
+      "title": "Micron RAM Shortage 2028: Prices Could Stay High for Years - iPhone in Canada",
+      "tag": "supply",
+      "date": "2026-10-01",
+      "score": 8,
+      "pick": false,
+      "source": "iPhone in Canada",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -212,6 +322,17 @@
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
+      "slug": "ai-memory-boom-could-make-future-galaxy-flagships-mo-4b2b8162",
+      "url": "/stories/ai-memory-boom-could-make-future-galaxy-flagships-mo-4b2b8162.html",
+      "title": "AI Memory Boom Could Make Future Galaxy Flagships More Expensive - SammyGuru",
+      "tag": "demand",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "SammyGuru",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "grab-a-huge-520-saving-on-this-rtx-5090-gaming-lapto-e9074be4",
       "url": "/stories/grab-a-huge-520-saving-on-this-rtx-5090-gaming-lapto-e9074be4.html",
       "title": "Grab a huge $520 saving on this RTX 5090 gaming laptop from MSI with 64GB DDR5 and a 2TB SSD",
@@ -330,6 +451,17 @@
       "score": 7,
       "pick": false,
       "source": "Korea JoongAng Daily",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "while-u-s-micron-the-third-largest-memory-chipmaker-08e67c10",
+      "url": "/stories/while-u-s-micron-the-third-largest-memory-chipmaker-08e67c10.html",
+      "title": "While U.S. Micron, the third-largest memory chipmaker, was the first to start its earnings season sm.. - 매일경제",
+      "tag": "earnings",
+      "date": "2026-10-01",
+      "score": 7,
+      "pick": false,
+      "source": "매일경제",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
