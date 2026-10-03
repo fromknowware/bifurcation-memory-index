@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-02T22:11:59.413Z</updated>
+  <updated>2026-10-03T05:15:52.556Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://wccftech.com/elon-musk-halves-tesla-ai5-memory-amid-memory-shortage-then-bumps-it-to-96gb-to-dodge-sitting-at-the-bottom-barrel-of-chip-specifications/</id>
+    <title type="html">Elon Musk Halves Tesla AI5 Memory Amid Memory Shortage, Then Bumps It To 96GB To Dodge Sitting At The Bottom Barrel Of Chip Specifications</title>
+    <link href="https://wccftech.com/elon-musk-halves-tesla-ai5-memory-amid-memory-shortage-then-bumps-it-to-96gb-to-dodge-sitting-at-the-bottom-barrel-of-chip-specifications/" />
+    <link rel="related" href="/stories/elon-musk-halves-tesla-ai5-memory-amid-memory-shorta-bef9c65c.html" />
+    <updated>2026-10-02T22:35:05.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Tesla CEO Elon Musk has clarified that instead of using 72GB of DDR5 RAM, his firm's AI5 chip will instead use 96GB in order to ensure that the firm is not the only one relying on using the minimum 72GB specification for the chip that will power the Optimus humanoid robot. Musk had earlier remarked that Tesla had slashed the RAM for its AI5 and AI6 chips in half in order to ensure adequate memory RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Tesla CEO Elon Musk has clarified that instead of using 72GB of DDR5 RAM, his firm's AI5 chip will instead use 96GB in order to ensure that the firm is not the only one relying on using the minimum 72GB specification for the chip that will power the Optimus humanoid robot. Musk had earlier remarked that Tesla had slashed the RAM for its AI5 and AI6 chips in half in order to ensure adequate memory&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiekFVX3lxTE1rbW9RbW42ay00NmpLdWtsbzR5UnZxMVFyTlVJNVZmN0JQbjI2dmxYb05MZnlOTGNXQ3g5VnhMRS1NSVViUFNlSTZTSVlXbzVvYmlwWjZsY0JuRDFOUUp3VjNGMjVFX0hzckVOQlJiN29UbFQ4eWRrd05R?oc=5</id>
+    <title type="html">Nvidia DGX Spark 64GB Launches at $4,999 as Memory Prices Surge [2026] - tech-insider.org</title>
+    <link href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1rbW9RbW42ay00NmpLdWtsbzR5UnZxMVFyTlVJNVZmN0JQbjI2dmxYb05MZnlOTGNXQ3g5VnhMRS1NSVViUFNlSTZTSVlXbzVvYmlwWjZsY0JuRDFOUUp3VjNGMjVFX0hzckVOQlJiN29UbFQ4eWRrd05R?oc=5" />
+    <link rel="related" href="/stories/nvidia-dgx-spark-64gb-launches-at-4-999-as-memory-pr-20a15203.html" />
+    <updated>2026-10-02T20:34:53.000Z</updated>
+    <author><name>tech-insider.org</name></author>
+    <summary type="html">Nvidia DGX Spark 64GB Launches at $4,999 as Memory Prices Surge [2026] tech-insider.org RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Nvidia DGX Spark 64GB Launches at $4,999 as Memory Prices Surge [2026] tech-insider.org&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/</id>
     <title type="html">Amazon’s $1B plan to combat data center backlash draws more backlash</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.servethehome.com/this-is-bics-nand-close-up-from-kioxia-and-sandisk/</id>
@@ -34,7 +60,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.theregister.com/systems/2026/10/02/shut-up-and-take-our-money-amazon-plows-1b-into-quashing-datacenter-dissent/5300914</id>
@@ -47,7 +73,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Thou shalt love the datacenter! Verily, thou shalt rejoice in the house of the datacenter!&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Thou shalt love the datacenter! Verily, thou shalt rejoice in the house of the datacenter!&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/</id>
@@ -60,7 +86,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/353342/gigabyte-ai-top-atom-64gb-unified-memory-version-expands-possibilities-for-desktop-ai-development</id>
@@ -73,7 +99,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Gigabyte today announced the launch of a new 64 GB unified memory version of Gigabyte AI TOP ATOM, expanding its existing 128 GB offering. Available starting October 23, the new configuration retains the hardware design of AI TOP ATOM, based on the NVIDIA DGX Spark platform, giving developers, researchers, and enterprise teams greater flexibility to select the configuration that best fits their AI&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Gigabyte today announced the launch of a new 64 GB unified memory version of Gigabyte AI TOP ATOM, expanding its existing 128 GB offering. Available starting October 23, the new configuration retains the hardware design of AI TOP ATOM, based on the NVIDIA DGX Spark platform, giving developers, researchers, and enterprise teams greater flexibility to select the configuration that best fits their AI&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/cpus/rumored-intel-nova-lake-table-lists-three-bfc-chips-with-up-to-144mb-of-l3-next-gen-cpu-lineup-takes-shape-with-up-to-28-cores-in-core-ultra-9-4970k-bfc</id>
@@ -86,7 +112,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.theregister.com/security/2026/10/02/californian-accused-of-shipping-300m-worth-of-nvidia-chips-to-china-without-uncle-sams-approval/5300856</id>
@@ -99,7 +125,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Prosecutors claim Greg Lui helped China procure advanced hardware to develop, ahem, 'super intelligence’&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Prosecutors claim Greg Lui helped China procure advanced hardware to develop, ahem, 'super intelligence’&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/storage/biwins-cl-100-mini-is-a-particularly-puny-but-potent-ssd-for-portable-gaming-15-x-17-mm-in-size-and-up-to-2tb-in-capacity</id>
@@ -112,7 +138,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832</id>
@@ -125,7 +151,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Grid connection awaits regulatory approval, putting planned 2027 customer delivery at risk&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Grid connection awaits regulatory approval, putting planned 2027 customer delivery at risk&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities</id>
@@ -138,7 +164,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/nvidia-axes-standard-shield-tv-hikes-shield-tv-pro-to-299-blaming-rising-dram-costs/</id>
@@ -151,7 +177,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;NVIDIA is raising the price of its Shield TV Pro to $299 as it discontinues the base model following memory and component price hikes. NVIDIA's Popular Streaming Platform, Shield, Is Getting More Expensive &amp; One Model Is Being Discontinued The Shield platform started as NVIDIA's take on the handheld and portable console segment. The first Shield device, the Portable, was equipped with a Tegra 4 So&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;NVIDIA is raising the price of its Shield TV Pro to $299 as it discontinues the base model following memory and component price hikes. NVIDIA's Popular Streaming Platform, Shield, Is Getting More Expensive &amp; One Model Is Being Discontinued The Shield platform started as NVIDIA's take on the handheld and portable console segment. The first Shield device, the Portable, was equipped with a Tegra 4 So&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.theregister.com/systems/2026/10/02/nvidia-debuts-4999-dgx-spark-with-half-the-ram-and-storage-amid-memory-crunch/5300622</id>
@@ -164,7 +190,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Meanwhile 128 GB version jumps to $6,950, nearly 75% above its launch price&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Meanwhile 128 GB version jumps to $6,950, nearly 75% above its launch price&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/amazon-interested-in-moving-8-billion-of-gpus-off-its-books-as-report-suggests-wall-street-grows-wary-of-nvidias-500-billion-gpu-plan/</id>
@@ -177,7 +203,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Cloud computing giant Amazon is reportedly offloading roughly $8 billion worth of NVIDIA GPUs to shell companies in order to remove them from its balance sheet, suggests a report from the Financial Times. The move will see Amazon retain control of the GPUs and access to them, but also enable it to shift the riskier and costly aspects of owning the NVIDIA chips to outside investors. Amazon's deal i&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Cloud computing giant Amazon is reportedly offloading roughly $8 billion worth of NVIDIA GPUs to shell companies in order to remove them from its balance sheet, suggests a report from the Financial Times. The move will see Amazon retain control of the GPUs and access to them, but also enable it to shift the riskier and costly aspects of owning the NVIDIA chips to outside investors. Amazon's deal i&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiW0FVX3lxTE05SS0wUWkybngtMnpmaFI1UWpPdzkxeUJVU3J2R2tUSGJyOHZuWTFoYnp1X01kZWpMcVMyanVydnZuYmVEYlM5SHVXaXVxT1dXUjA0WGpYSzFoaGs?oc=5</id>
@@ -190,7 +216,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Fractile CEO Walter Goodwin: AI Chips Need 25x More Memory Bandwidth, Not More Compute finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Fractile CEO Walter Goodwin: AI Chips Need 25x More Memory Bandwidth, Not More Compute finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/353335/asrock-deskslim-series-delivers-rtx-pro-blackwell-performance-in-a-compact-5l-workstation</id>
@@ -216,7 +242,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Micron now has an 88% margin on consumer memory as price hikes drive profits — client business is Micron's only unit that shipped less memory this quarter Tom's Hardware&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron now has an 88% margin on consumer memory as price hikes drive profits — client business is Micron's only unit that shipped less memory this quarter Tom's Hardware&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/dram/micron-now-has-an-88-percent-margin-on-consumer-memory-price-hikes-drive-revenue-client-business-is-microns-only-unit-that-shipped-less-memory-this-quarter</id>
@@ -242,7 +268,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;AI keeps memory prices climbing in Q4 as consumer demand weakens evertiq.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;AI keeps memory prices climbing in Q4 as consumer demand weakens evertiq.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMijwJBVV95cUxPQmpUaVBMcHhwanBYWkItaHM1Z3ZYeWltT2dHX1JOWlp4SDRxcktmRTllZTE3SFBaR2cxS2dfUDhPa0lzUVFxX3BBNm1TRzZGelZqVW9oT2MyT2R3b3pSSXdRN2YwWGJHYmNIa0xjd1Q0ZVNmd1J5U1ZsTzcweTdvNllUcUthU0UwUHp6V1MyQ3IwNG9xOHFXa0o0dkJVSFJNWGRpdFJYWk92OHI3eV9Lb19RM1dNYnNNQl90YkFaRGZvUGtFZXVZaUJOeDdzMkc4dnhfUTltemMzc1h3VEszNVI3YW5NVk5MYnQxcXVURTZZNFRaVmZGd0JKZGEwMTVnQ2NsaWRlTWZfX0ViT3Br?oc=5</id>

@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-02T22:12:01.728Z",
-  "count": 1386,
+  "generatedAt": "2026-10-03T05:15:55.119Z",
+  "count": 1388,
   "stories": [
+    {
+      "slug": "elon-musk-halves-tesla-ai5-memory-amid-memory-shorta-bef9c65c",
+      "url": "/stories/elon-musk-halves-tesla-ai5-memory-amid-memory-shorta-bef9c65c.html",
+      "title": "Elon Musk Halves Tesla AI5 Memory Amid Memory Shortage, Then Bumps It To 96GB To Dodge Sitting At The Bottom Barrel Of Chip Specifications",
+      "tag": "supply",
+      "date": "2026-10-02",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-dgx-spark-64gb-launches-at-4-999-as-memory-pr-20a15203",
+      "url": "/stories/nvidia-dgx-spark-64gb-launches-at-4-999-as-memory-pr-20a15203.html",
+      "title": "Nvidia DGX Spark 64GB Launches at $4,999 as Memory Prices Surge [2026] - tech-insider.org",
+      "tag": "demand",
+      "date": "2026-10-02",
+      "score": 7,
+      "pick": false,
+      "source": "tech-insider.org",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "amazon-s-1b-plan-to-combat-data-center-backlash-draw-fc190a6a",
       "url": "/stories/amazon-s-1b-plan-to-combat-data-center-backlash-draw-fc190a6a.html",
