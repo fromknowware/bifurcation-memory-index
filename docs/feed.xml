@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-03T21:12:27.498Z</updated>
+  <updated>2026-10-04T05:49:38.578Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMingFBVV95cUxQNXNVdDZfby1EYTlnRTEtYkRpdm10RkFqWGxJZ1FSaXdNOHN6aUJMZjVyREVXYl9od0Y1NERsOFNlaUEwejk3NEdhckFQQ0E4UXVRby1rUVhkazZ5SkNjT2U4dkxlRzh5NmNOVWI5UDhDby1MekFSZFVnYmRGRnNrWDJUTXhlRlRDTkxkNm5ESjJLRVBHb2pvTzF4d1lIQQ?oc=5</id>
+    <title type="html">After Micron's Earnings Beat, Eyes Turn to Samsung and SK hynix - Seoul Economic Daily</title>
+    <link href="https://news.google.com/rss/articles/CBMingFBVV95cUxQNXNVdDZfby1EYTlnRTEtYkRpdm10RkFqWGxJZ1FSaXdNOHN6aUJMZjVyREVXYl9od0Y1NERsOFNlaUEwejk3NEdhckFQQ0E4UXVRby1rUVhkazZ5SkNjT2U4dkxlRzh5NmNOVWI5UDhDby1MekFSZFVnYmRGRnNrWDJUTXhlRlRDTkxkNm5ESjJLRVBHb2pvTzF4d1lIQQ?oc=5" />
+    <link rel="related" href="/stories/after-micron-s-earnings-beat-eyes-turn-to-samsung-an-c05d1b05.html" />
+    <updated>2026-10-04T04:00:05.000Z</updated>
+    <author><name>Seoul Economic Daily</name></author>
+    <summary type="html">After Micron's Earnings Beat, Eyes Turn to Samsung and SK hynix Seoul Economic Daily RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:Samsung SK Hynix Micron earnings" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;After Micron's Earnings Beat, Eyes Turn to Samsung and SK hynix Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTFBLaTE4V01pMHpjUHJrRi1wbVlYS3FJQmxUd3duWW9VZHdDcWtfQzlGUDRQT2liT21fdnNjVUFkWFdzZWNBTno0Vl95RnNoeWxjMEdQaklyRFJjd2s4cjAtRUpJdHRyOE5lNXVrbUJhdWtiQUxsN3c?oc=5</id>
+    <title type="html">Semiconductor Bonuses Emerge as Earnings Wildcard as Micron Flags $1 Billion in Added Costs - finance.biggo.com</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBLaTE4V01pMHpjUHJrRi1wbVlYS3FJQmxUd3duWW9VZHdDcWtfQzlGUDRQT2liT21fdnNjVUFkWFdzZWNBTno0Vl95RnNoeWxjMEdQaklyRFJjd2s4cjAtRUpJdHRyOE5lNXVrbUJhdWtiQUxsN3c?oc=5" />
+    <link rel="related" href="/stories/semiconductor-bonuses-emerge-as-earnings-wildcard-as-4c677dbc.html" />
+    <updated>2026-10-03T22:25:00.000Z</updated>
+    <author><name>finance.biggo.com</name></author>
+    <summary type="html">Semiconductor Bonuses Emerge as Earnings Wildcard as Micron Flags $1 Billion in Added Costs finance.biggo.com RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:Samsung SK Hynix Micron earnings" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Semiconductor Bonuses Emerge as Earnings Wildcard as Micron Flags $1 Billion in Added Costs finance.biggo.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.tomshardware.com/service-providers/streaming/7-year-old-nvidia-shield-tv-pro-gets-shocking-50-percent-price-hike-driven-by-ai-memory-shortage-chipmaker-axes-entry-level-shield-tv-as-component-prices-soar</id>
     <title type="html">7-year-old Nvidia Shield TV Pro gets shocking 50% price hike driven by AI memory shortage</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMieEFVX3lxTE5saUhVZTNfUlNDOXI0SEppcHV0aGZHTXBCTUxCNEdSc21FN05kdnVkbHl2bDZTWmpYaEYzZmItOEdjZnVzdEM4UzZqeFRpWHFaeFVtMWpva0JNeWFhWDZBYVItdTFzTnNreTRJN2FscnVZLUZFSDk5Rw?oc=5</id>
@@ -63,6 +89,19 @@
     <content type="html">&lt;p&gt;Consoles Could Get More Expensive Again in 2027 as Memory Maker Warns of ‘Much Higher Prices’ Amid RAM Shortage levelup.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
+    <id>https://news.google.com/rss/articles/CBMiggJBVV95cUxQTWw3ODY3NmpzSGs4dkpfSjZpRktFdlg0TWVjX01Vel9LblFlODBlcnpHY1JHUFVHVFY5bEFnV1FHZHVwVlV2UmNjVXhkNlJSalRTUDRJZFpZMDYwSDNFS3RRd0pYa2MzTlhJbE9QTFBBMG44TDd1Sk1NSlh5YlNzMjl2NFVldjVRQjh3WXhGdDgyNFVsVERpRW9vd3UwcEVlVVI0aGNtdEhmYXFCSHBYQnVHR2d2Q2o5QUdKblRaWnQxbDhuZ0pmcHNxeGhzWVljVENObWM4RWFSZldXY1U4NTdfMFFkeUlMZFhEYU5WRDhNdTBWVnE4aHFtMEZwWlJfcVE?oc=5</id>
+    <title type="html">SanDisk Slips 4.4% as Toshiba Capacity Talk and Micron's Muted Reception Rattle Memory Stocks - AD HOC NEWS</title>
+    <link href="https://news.google.com/rss/articles/CBMiggJBVV95cUxQTWw3ODY3NmpzSGs4dkpfSjZpRktFdlg0TWVjX01Vel9LblFlODBlcnpHY1JHUFVHVFY5bEFnV1FHZHVwVlV2UmNjVXhkNlJSalRTUDRJZFpZMDYwSDNFS3RRd0pYa2MzTlhJbE9QTFBBMG44TDd1Sk1NSlh5YlNzMjl2NFVldjVRQjh3WXhGdDgyNFVsVERpRW9vd3UwcEVlVVI0aGNtdEhmYXFCSHBYQnVHR2d2Q2o5QUdKblRaWnQxbDhuZ0pmcHNxeGhzWVljVENObWM4RWFSZldXY1U4NTdfMFFkeUlMZFhEYU5WRDhNdTBWVnE4aHFtMEZwWlJfcVE?oc=5" />
+    <link rel="related" href="/stories/sandisk-slips-4-4-as-toshiba-capacity-talk-and-micro-91d18050.html" />
+    <updated>2026-10-03T13:51:00.000Z</updated>
+    <author><name>AD HOC NEWS</name></author>
+    <summary type="html">SanDisk Slips 4.4% as Toshiba Capacity Talk and Micron's Muted Reception Rattle Memory Stocks AD HOC NEWS RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:NAND flash supply" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;SanDisk Slips 4.4% as Toshiba Capacity Talk and Micron's Muted Reception Rattle Memory Stocks AD HOC NEWS&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <id>https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNWRrN3FRbjc3U3JiZkpDeFQ1ZWZDYmlfTE5aWTNxYW50MUVrWEZYTmNYOFFFa1FQcTR3V0Q3M3hEazE5RFlibDVQY0xrTDdSN3pVWFd0aVNzWElQSnh2b1ByNHNGaFJlMXNBTFBjOGNodTkzM0xCWDBSWXdEZGJGY01hejJ2aXVtNmxabWZQMk1Nc0szbHZvSkdvczhxMWYwTjJZSTBuZDhkM1paRWpTbjRSRlNLSjVGaWJ1c0NReGVQd0gyRVdfd3dNbDgxal9PM0hjek1aVzU?oc=5</id>
     <title type="html">SanDisk Slips 4.4% as Toshiba Capacity Talk and Micron's Muted Reception Rattle Memory Stocks - AD HOC NEWS</title>
     <link href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNWRrN3FRbjc3U3JiZkpDeFQ1ZWZDYmlfTE5aWTNxYW50MUVrWEZYTmNYOFFFa1FQcTR3V0Q3M3hEazE5RFlibDVQY0xrTDdSN3pVWFd0aVNzWElQSnh2b1ByNHNGaFJlMXNBTFBjOGNodTkzM0xCWDBSWXdEZGJGY01hejJ2aXVtNmxabWZQMk1Nc0szbHZvSkdvczhxMWYwTjJZSTBuZDhkM1paRWpTbjRSRlNLSjVGaWJ1c0NReGVQd0gyRVdfd3dNbDgxal9PM0hjek1aVzU?oc=5" />
@@ -73,7 +112,20 @@
     <category term="google-news:NAND flash supply" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;SanDisk Slips 4.4% as Toshiba Capacity Talk and Micron's Muted Reception Rattle Memory Stocks AD HOC NEWS&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SanDisk Slips 4.4% as Toshiba Capacity Talk and Micron's Muted Reception Rattle Memory Stocks AD HOC NEWS&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiWEFVX3lxTE9OdUpHTWVBQngzSUFCZnZIQUFEaElrZXZlblZHX0Vib1ZlRno4SnpiT3RBR21DZHlGZkxsOWZHUWNveFFRWno1ZFZyOWJJdWE5UjJNblk1N00?oc=5</id>
+    <title type="html">Volantis Raises $88 Million for Optical Chips Targeting AI Memory Bottlenecks - tokenpost.com</title>
+    <link href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE9OdUpHTWVBQngzSUFCZnZIQUFEaElrZXZlblZHX0Vib1ZlRno4SnpiT3RBR21DZHlGZkxsOWZHUWNveFFRWno1ZFZyOWJJdWE5UjJNblk1N00?oc=5" />
+    <link rel="related" href="/stories/volantis-raises-88-million-for-optical-chips-targeti-c5779913.html" />
+    <updated>2026-10-03T12:32:06.000Z</updated>
+    <author><name>tokenpost.com</name></author>
+    <summary type="html">Volantis Raises $88 Million for Optical Chips Targeting AI Memory Bottlenecks tokenpost.com RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Volantis Raises $88 Million for Optical Chips Targeting AI Memory Bottlenecks tokenpost.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/353352/tsmc-explores-collaboration-with-elon-musks-terafab-project</id>
