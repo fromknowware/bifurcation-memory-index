@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-04T12:18:55.961Z",
-  "count": 1401,
+  "generatedAt": "2026-10-04T21:22:10.127Z",
+  "count": 1403,
   "stories": [
+    {
+      "slug": "modder-brings-nvidia-pascal-gpu-support-to-windows-x-8c7ffcd1",
+      "url": "/stories/modder-brings-nvidia-pascal-gpu-support-to-windows-x-8c7ffcd1.html",
+      "title": "Modder brings Nvidia Pascal GPU support to Windows XP 32-bit",
+      "tag": "demand",
+      "date": "2026-10-04",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "microsoft-using-wetlands-and-native-gardens-to-camou-d74b4762",
+      "url": "/stories/microsoft-using-wetlands-and-native-gardens-to-camou-d74b4762.html",
+      "title": "Microsoft using wetlands and native gardens to 'camouflage' 20-plus data center sites by blending them into nature",
+      "tag": "demand",
+      "date": "2026-10-04",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "after-micron-s-earnings-beat-eyes-turn-to-samsung-an-c05d1b05",
       "url": "/stories/after-micron-s-earnings-beat-eyes-turn-to-samsung-an-c05d1b05.html",
