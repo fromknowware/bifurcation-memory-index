@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-10-05T05:35:48.378Z",
-  "count": 1405,
+  "generatedAt": "2026-10-05T14:33:20.217Z",
+  "count": 1416,
   "stories": [
+    {
+      "slug": "teamgroup-s-4tb-t-force-g50-evo-pcie-nvme-gen-4-ssd-89692091",
+      "url": "/stories/teamgroup-s-4tb-t-force-g50-evo-pcie-nvme-gen-4-ssd-89692091.html",
+      "title": "TeamGroup’s 4TB T-FORCE G50 EVO PCIe NVMe Gen 4 SSD Has A limited-Time Offer On Newegg, Fresh Promo Reduces The Price To $385.99, So Hurry Up",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "tencent-scores-100-000-offshore-ai-chip-deal-with-or-3109a487",
+      "url": "/stories/tencent-scores-100-000-offshore-ai-chip-deal-with-or-3109a487.html",
+      "title": "Tencent scores 100,000 offshore AI chip deal with Oracle for $7 billion despite climbing prices",
+      "tag": "demand",
+      "date": "2026-10-05",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "32gb-dethrones-16gb-as-top-ram-capacity-in-gaming-ri-9450c2f9",
+      "url": "/stories/32gb-dethrones-16gb-as-top-ram-capacity-in-gaming-ri-9450c2f9.html",
+      "title": "32GB dethrones 16GB as top RAM capacity in gaming rigs despite memory shortage",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amazon-ends-secret-data-center-pacts-and-pledges-1-b-80256291",
+      "url": "/stories/amazon-ends-secret-data-center-pacts-and-pledges-1-b-80256291.html",
+      "title": "Amazon ends secret data center pacts and pledges $1 billion to host towns",
+      "tag": "demand",
+      "date": "2026-10-05",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "google-ai-data-center-project-investigated-after-420-79dc7064",
+      "url": "/stories/google-ai-data-center-project-investigated-after-420-79dc7064.html",
+      "title": "Google AI data center project investigated after 420 football fields of Finnish forest demolished",
+      "tag": "demand",
+      "date": "2026-10-05",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ryzen-7-9800x3d-drops-to-429-with-free-aio-and-game-7b9b9f61",
+      "url": "/stories/ryzen-7-9800x3d-drops-to-429-with-free-aio-and-game-7b9b9f61.html",
+      "title": "Ryzen 7 9800X3D Drops To $429 With Free AIO And Game As AMD Slashes Prices Of Several X3D Chips",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "customer-sends-two-stick-16-000-ddr5-memory-kit-to-r-acdafd25",
+      "url": "/stories/customer-sends-two-stick-16-000-ddr5-memory-kit-to-r-acdafd25.html",
+      "title": "Customer sends two-stick $16,000 DDR5 memory kit to repair shop",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kingston-retains-top-spot-in-global-dram-module-mark-e12a3a3c",
+      "url": "/stories/kingston-retains-top-spot-in-global-dram-module-mark-e12a3a3c.html",
+      "title": "Kingston retains top spot in global DRAM module market for 2025 - nasilemaktech.com",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "nasilemaktech.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kingston-retains-top-spot-in-global-dram-module-mark-13b62d29",
+      "url": "/stories/kingston-retains-top-spot-in-global-dram-module-mark-13b62d29.html",
+      "title": "Kingston retains top spot in global DRAM module market with 62% share - My Everyday Tech",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "My Everyday Tech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kingston-holds-onto-its-spot-as-the-world-s-top-dram-0d71f740",
+      "url": "/stories/kingston-holds-onto-its-spot-as-the-world-s-top-dram-0d71f740.html",
+      "title": "Kingston holds onto its spot as the world's top DRAM module supplier, with 62% of the market - Tech Critter",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "Tech Critter",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "this-super-fast-ai-workstation-packs-amd-ryzen-ai-ma-3a4dfbc7",
       "url": "/stories/this-super-fast-ai-workstation-packs-amd-ryzen-ai-ma-3a4dfbc7.html",
@@ -23,6 +133,17 @@
       "pick": false,
       "source": "theinvestor.co.kr",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "news-ai-hbm-drive-memory-testing-demand-how-china-s-dec39600",
+      "url": "/stories/news-ai-hbm-drive-memory-testing-demand-how-china-s-dec39600.html",
+      "title": "[News] AI, HBM Drive Memory Testing Demand: How China’s Suppliers Are Challenging an 80%-Import Market - TrendForce",
+      "tag": "demand",
+      "date": "2026-10-05",
+      "score": 7,
+      "pick": false,
+      "source": "TrendForce",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "modder-brings-nvidia-pascal-gpu-support-to-windows-x-8c7ffcd1",

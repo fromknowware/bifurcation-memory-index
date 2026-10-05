@@ -5,11 +5,141 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-05T05:35:46.357Z</updated>
+  <updated>2026-10-05T14:33:18.098Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://wccftech.com/teamgroup-4tb-t-force-g50-evo-gen4-ssd-newegg-deal/</id>
+    <title type="html">TeamGroup’s 4TB T-FORCE G50 EVO PCIe NVMe Gen 4 SSD Has A limited-Time Offer On Newegg, Fresh Promo Reduces The Price To $385.99, So Hurry Up</title>
+    <link href="https://wccftech.com/teamgroup-4tb-t-force-g50-evo-gen4-ssd-newegg-deal/" />
+    <link rel="related" href="/stories/teamgroup-s-4tb-t-force-g50-evo-pcie-nvme-gen-4-ssd-89692091.html" />
+    <updated>2026-10-05T13:27:50.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">The DRAM shortage has guaranteed that you won’t find any solid SSD or memory deal, but Newegg just listed something out of a dream because TeamGroup’s 4TB T-FORCE G50 EVO has just received a limited-time price cut at Newegg. This PCIe NVMe Gen 4 solid-state drive now sells for $385.99, and the listing mentions a $70 discount through the promo code APC852. However, the offer is time-limited and cou RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;The DRAM shortage has guaranteed that you won’t find any solid SSD or memory deal, but Newegg just listed something out of a dream because TeamGroup’s 4TB T-FORCE G50 EVO has just received a limited-time price cut at Newegg. This PCIe NVMe Gen 4 solid-state drive now sells for $385.99, and the listing mentions a $70 discount through the promo code APC852. However, the offer is time-limited and cou&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/data-centers/tencent-scores-100-000-offshore-ai-chip-deal-with-oracle-for-usd7-billion-despite-climbing-prices-per-hour-costs-estimated-to-be-43-percent-under-standard-h100-rental-rates</id>
+    <title type="html">Tencent scores 100,000 offshore AI chip deal with Oracle for $7 billion despite climbing prices</title>
+    <link href="https://www.tomshardware.com/tech-industry/data-centers/tencent-scores-100-000-offshore-ai-chip-deal-with-oracle-for-usd7-billion-despite-climbing-prices-per-hour-costs-estimated-to-be-43-percent-under-standard-h100-rental-rates" />
+    <link rel="related" href="/stories/tencent-scores-100-000-offshore-ai-chip-deal-with-or-3109a487.html" />
+    <updated>2026-10-05T13:20:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/video-games/pc-gaming/32gb-ram-config-hits-top-spot-on-steam-survey-despite-memory-chip-shortage-amd-closing-in-on-intel-at-more-than-48-percent-share</id>
+    <title type="html">32GB dethrones 16GB as top RAM capacity in gaming rigs despite memory shortage</title>
+    <link href="https://www.tomshardware.com/video-games/pc-gaming/32gb-ram-config-hits-top-spot-on-steam-survey-despite-memory-chip-shortage-amd-closing-in-on-intel-at-more-than-48-percent-share" />
+    <link rel="related" href="/stories/32gb-dethrones-16gb-as-top-ram-capacity-in-gaming-ri-9450c2f9.html" />
+    <updated>2026-10-05T13:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-ends-secret-data-center-pacts-and-pledges-usd1-billion-to-host-towns-aws-promises-30-000-home-efficiency-retrofits-amid-100-proposed-bans</id>
+    <title type="html">Amazon ends secret data center pacts and pledges $1 billion to host towns</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-ends-secret-data-center-pacts-and-pledges-usd1-billion-to-host-towns-aws-promises-30-000-home-efficiency-retrofits-amid-100-proposed-bans" />
+    <link rel="related" href="/stories/amazon-ends-secret-data-center-pacts-and-pledges-1-b-80256291.html" />
+    <updated>2026-10-05T12:20:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/data-centers/google-ai-data-center-project-investigated-after-420-football-fields-of-finnish-forest-razed-trees-were-removed-before-a-mandatory-environmental-impact-assessment-say-reports</id>
+    <title type="html">Google AI data center project investigated after 420 football fields of Finnish forest demolished</title>
+    <link href="https://www.tomshardware.com/tech-industry/data-centers/google-ai-data-center-project-investigated-after-420-football-fields-of-finnish-forest-razed-trees-were-removed-before-a-mandatory-environmental-impact-assessment-say-reports" />
+    <link rel="related" href="/stories/google-ai-data-center-project-investigated-after-420-79dc7064.html" />
+    <updated>2026-10-05T12:15:37.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/ryzen-7-9800x3d-drops-to-429-with-free-aio-and-game/</id>
+    <title type="html">Ryzen 7 9800X3D Drops To $429 With Free AIO And Game As AMD Slashes Prices Of Several X3D Chips</title>
+    <link href="https://wccftech.com/ryzen-7-9800x3d-drops-to-429-with-free-aio-and-game/" />
+    <link rel="related" href="/stories/ryzen-7-9800x3d-drops-to-429-with-free-aio-and-game-7b9b9f61.html" />
+    <updated>2026-10-05T11:58:54.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Another day of amazing Ryzen deals. Today, you can grab your favorite AMD X3D processor for an unusually low price alongside a free component. Newegg Slashes Ryzen 7 9800X3D to $429 While Pairing MSI 240 AIO and Onimusha Game Copy for Free; Multiple X3D Chips are on Offer Too AMD is offering some great discounts once again, and this might be the perfect time to upgrade your build if you were waiti RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Another day of amazing Ryzen deals. Today, you can grab your favorite AMD X3D processor for an unusually low price alongside a free component. Newegg Slashes Ryzen 7 9800X3D to $429 While Pairing MSI 240 AIO and Onimusha Game Copy for Free; Multiple X3D Chips are on Offer Too AMD is offering some great discounts once again, and this might be the perfect time to upgrade your build if you were waiti&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/ddr5/customer-sends-two-stick-usd16-000-ddr5-memory-kit-to-repair-shop-soaring-replacement-costs-make-dimm-repairs-viable-technician-revives-dead-module-with-hot-air-reflow-and-new-pmic</id>
+    <title type="html">Customer sends two-stick $16,000 DDR5 memory kit to repair shop</title>
+    <link href="https://www.tomshardware.com/pc-components/ddr5/customer-sends-two-stick-usd16-000-ddr5-memory-kit-to-repair-shop-soaring-replacement-costs-make-dimm-repairs-viable-technician-revives-dead-module-with-hot-air-reflow-and-new-pmic" />
+    <link rel="related" href="/stories/customer-sends-two-stick-16-000-ddr5-memory-kit-to-r-acdafd25.html" />
+    <updated>2026-10-05T10:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMic0FVX3lxTE9WakdSRHVnZFpzOGFuWjMzeUhSZlBBTHV4eHE0anZaMGVNTE9Ga2h3NW54S01kcXMzVXFjMlJMWlduRUJFcTYxWFQ3NWpONzZkRDMyTTBXal81c0tUSzZyaldfX0dBM2NBS0dxbW1fUlZqOWM?oc=5</id>
+    <title type="html">Kingston retains top spot in global DRAM module market for 2025 - nasilemaktech.com</title>
+    <link href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9WakdSRHVnZFpzOGFuWjMzeUhSZlBBTHV4eHE0anZaMGVNTE9Ga2h3NW54S01kcXMzVXFjMlJMWlduRUJFcTYxWFQ3NWpONzZkRDMyTTBXal81c0tUSzZyaldfX0dBM2NBS0dxbW1fUlZqOWM?oc=5" />
+    <link rel="related" href="/stories/kingston-retains-top-spot-in-global-dram-module-mark-e12a3a3c.html" />
+    <updated>2026-10-05T07:15:47.000Z</updated>
+    <author><name>nasilemaktech.com</name></author>
+    <summary type="html">Kingston retains top spot in global DRAM module market for 2025 nasilemaktech.com RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DDR5 market" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Kingston retains top spot in global DRAM module market for 2025 nasilemaktech.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMimgFBVV95cUxOQV95QzZ5dEp2cEM4VjFpbzhTVGtpcVNEZl8xNXM1SlhycGtvSWZKRTFldFI5eno0alNyMjN2LUNiTmlCTFQ1M055WTItUXZBakxqYi1hZDE3cGo4UVNqeTBYNHVMaHJHY3dKTnBZTVVSQ2lsMnlWanJvQk40MmFuNjlXLXRoVTd2NzRlMnB0bVFJLW1yRDRUM0d3?oc=5</id>
+    <title type="html">Kingston retains top spot in global DRAM module market with 62% share - My Everyday Tech</title>
+    <link href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOQV95QzZ5dEp2cEM4VjFpbzhTVGtpcVNEZl8xNXM1SlhycGtvSWZKRTFldFI5eno0alNyMjN2LUNiTmlCTFQ1M055WTItUXZBakxqYi1hZDE3cGo4UVNqeTBYNHVMaHJHY3dKTnBZTVVSQ2lsMnlWanJvQk40MmFuNjlXLXRoVTd2NzRlMnB0bVFJLW1yRDRUM0d3?oc=5" />
+    <link rel="related" href="/stories/kingston-retains-top-spot-in-global-dram-module-mark-13b62d29.html" />
+    <updated>2026-10-05T07:10:31.000Z</updated>
+    <author><name>My Everyday Tech</name></author>
+    <summary type="html">Kingston retains top spot in global DRAM module market with 62% share My Everyday Tech RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Kingston retains top spot in global DRAM module market with 62% share My Everyday Tech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMid0FVX3lxTE1uYVE4ZTMtdU85Mmpucm5yYjJnZEtMcGpKclFxRnJheEluRmE0Q0NwNWUwTWxPdjVLRDB3QWZRN291bFN6cFhmOEdQUVVjNEF1dk5UUTlwNVJLY2JUWXZNRURMQnYzMFU2Sm9ZYmlzdGZzVE52ZUc4?oc=5</id>
+    <title type="html">Kingston holds onto its spot as the world's top DRAM module supplier, with 62% of the market - Tech Critter</title>
+    <link href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1uYVE4ZTMtdU85Mmpucm5yYjJnZEtMcGpKclFxRnJheEluRmE0Q0NwNWUwTWxPdjVLRDB3QWZRN291bFN6cFhmOEdQUVVjNEF1dk5UUTlwNVJLY2JUWXZNRURMQnYzMFU2Sm9ZYmlzdGZzVE52ZUc4?oc=5" />
+    <link rel="related" href="/stories/kingston-holds-onto-its-spot-as-the-world-s-top-dram-0d71f740.html" />
+    <updated>2026-10-05T06:57:55.000Z</updated>
+    <author><name>Tech Critter</name></author>
+    <summary type="html">Kingston holds onto its spot as the world's top DRAM module supplier, with 62% of the market Tech Critter RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DDR5 market" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Kingston holds onto its spot as the world's top DRAM module supplier, with 62% of the market Tech Critter&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://wccftech.com/super-fast-ai-workstation-amd-ryzen-ai-max-495-in-128-192-gb-radeon-ai-pro-r9700/</id>
     <title type="html">This Super-Fast AI Workstation Packs AMD Ryzen AI MAX+ 495 in 128 &amp; 192 GB Flavors Starting at $5999, &amp; Is Paired With A Radeon AI Pro R9700 For Up To 224 GB Memory</title>
@@ -21,7 +151,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Lucebox has introduced its new local AI PC, the Zero 495, which packs the AMD Ryzen AI MAX+ 495, 128 GB memory &amp; leaves room for a Radeon AI PRO R9700. Local AI Monster, Lucebox Zero 495, Packs AMD's Fastest Gorgon Halo Chip &amp; Can Also Be Configured With The Fastest Radeon AI Pro GPU The era of local AI is upon us, with clients and enterprises quickly moving away from expensive cloud providers to&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Lucebox has introduced its new local AI PC, the Zero 495, which packs the AMD Ryzen AI MAX+ 495, 128 GB memory &amp; leaves room for a Radeon AI PRO R9700. Local AI Monster, Lucebox Zero 495, Packs AMD's Fastest Gorgon Halo Chip &amp; Can Also Be Configured With The Fastest Radeon AI Pro GPU The era of local AI is upon us, with clients and enterprises quickly moving away from expensive cloud providers to&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GMUZxU0Z3RkpSdmJ2NHdlaHZSQ3dMWnlGRUk5bTJJWHMwb1BVazlZNEJiemZUdlhYTC1iUlJKWGZoOTZGaFg1T0FTZFlDaGZ1TG92bWRFVmlmdw?oc=5</id>
@@ -34,7 +164,20 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Samsung set for record W100tr quarterly profit on memory boom theinvestor.co.kr&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung set for record W100tr quarterly profit on memory boom theinvestor.co.kr&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEN2Q19GYlFITHpQcDQxcmRLMVJBb0tFSTVBQ2ppSlJ4YmZQaW9fZk5ERWpHSHhIam1oUkhkb1gyeUl3RVFpMEtINmoyd0pVbUdnRVFWYnBKLTZiWEd0ejJfZnlxQ254eFRuWE12dGNHRzR3X0lMMkZQbFlaTW5BOG9memFQYmZ0eXMzaVN1QnlFVWhNLTFFY1pNVGUwekV1dC1sQzFoZlpDNlZrT19aYW9XZDZBV0E4Q19kNEM0a1ZTZTdqRlR1SW9EX0pDZWg0REJFOElrSQ?oc=5</id>
+    <title type="html">[News] AI, HBM Drive Memory Testing Demand: How China’s Suppliers Are Challenging an 80%-Import Market - TrendForce</title>
+    <link href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEN2Q19GYlFITHpQcDQxcmRLMVJBb0tFSTVBQ2ppSlJ4YmZQaW9fZk5ERWpHSHhIam1oUkhkb1gyeUl3RVFpMEtINmoyd0pVbUdnRVFWYnBKLTZiWEd0ejJfZnlxQ254eFRuWE12dGNHRzR3X0lMMkZQbFlaTW5BOG9memFQYmZ0eXMzaVN1QnlFVWhNLTFFY1pNVGUwekV1dC1sQzFoZlpDNlZrT19aYW9XZDZBV0E4Q19kNEM0a1ZTZTdqRlR1SW9EX0pDZWg0REJFOElrSQ?oc=5" />
+    <link rel="related" href="/stories/news-ai-hbm-drive-memory-testing-demand-how-china-s-dec39600.html" />
+    <updated>2026-10-05T03:31:38.000Z</updated>
+    <author><name>TrendForce</name></author>
+    <summary type="html">[News] AI, HBM Drive Memory Testing Demand: How China’s Suppliers Are Challenging an 80%-Import Market TrendForce RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;[News] AI, HBM Drive Memory Testing Demand: How China’s Suppliers Are Challenging an 80%-Import Market TrendForce&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/gpu-drivers/modder-brings-nvidia-pascal-gpu-support-to-windows-xp-32-bit-modded-drivers-unlock-better-displayport-and-hdmi-support-for-modern-monitors</id>
