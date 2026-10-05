@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-04T21:22:10.127Z",
-  "count": 1403,
+  "generatedAt": "2026-10-05T05:35:48.378Z",
+  "count": 1405,
   "stories": [
+    {
+      "slug": "this-super-fast-ai-workstation-packs-amd-ryzen-ai-ma-3a4dfbc7",
+      "url": "/stories/this-super-fast-ai-workstation-packs-amd-ryzen-ai-ma-3a4dfbc7.html",
+      "title": "This Super-Fast AI Workstation Packs AMD Ryzen AI MAX+ 495 in 128 & 192 GB Flavors Starting at $5999, & Is Paired With A Radeon AI Pro R9700 For Up To 224 GB Memory",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-set-for-record-w100tr-quarterly-profit-on-me-08741599",
+      "url": "/stories/samsung-set-for-record-w100tr-quarterly-profit-on-me-08741599.html",
+      "title": "Samsung set for record W100tr quarterly profit on memory boom - theinvestor.co.kr",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "theinvestor.co.kr",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "modder-brings-nvidia-pascal-gpu-support-to-windows-x-8c7ffcd1",
       "url": "/stories/modder-brings-nvidia-pascal-gpu-support-to-windows-x-8c7ffcd1.html",
