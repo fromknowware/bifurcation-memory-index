@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-06T00:01:37.154Z",
-  "count": 1427,
+  "generatedAt": "2026-10-06T06:17:38.734Z",
+  "count": 1437,
   "stories": [
+    {
+      "slug": "atlassian-warns-of-critical-file-access-flaw-in-its-54902ae7",
+      "url": "/stories/atlassian-warns-of-critical-file-access-flaw-in-its-54902ae7.html",
+      "title": "Atlassian warns of critical file access flaw in its datacenter products",
+      "tag": "supply",
+      "date": "2026-10-06",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "trendforce-raises-2027-hbm-price-forecast-as-supply-8316272e",
+      "url": "/stories/trendforce-raises-2027-hbm-price-forecast-as-supply-8316272e.html",
+      "title": "TrendForce Raises 2027 HBM Price Forecast as Supply Constraints Persist - EE Times Asia",
+      "tag": "demand",
+      "date": "2026-10-06",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times Asia",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "kingston-holds-global-dram-module-lead-with-62-share-ce7b1855",
+      "url": "/stories/kingston-holds-global-dram-module-lead-with-62-share-ce7b1855.html",
+      "title": "Kingston holds global DRAM module lead with 62% share - IT Brief Asia",
+      "tag": "supply",
+      "date": "2026-10-06",
+      "score": 8,
+      "pick": false,
+      "source": "IT Brief Asia",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ymtc-employee-says-memory-shortage-could-last-3-more-06283a28",
+      "url": "/stories/ymtc-employee-says-memory-shortage-could-last-3-more-06283a28.html",
+      "title": "YMTC Employee Says Memory Shortage Could Last 3 More Years as NAND Forecasts Diverge - XenoSpectrum",
+      "tag": "supply",
+      "date": "2026-10-06",
+      "score": 8,
+      "pick": false,
+      "source": "XenoSpectrum",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "these-32gb-ddr5-memory-kits-are-the-cheapest-availab-181315f3",
       "url": "/stories/these-32gb-ddr5-memory-kits-are-the-cheapest-availab-181315f3.html",
@@ -33,6 +77,28 @@
       "score": 8,
       "pick": false,
       "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "schneider-electric-drops-22-6b-on-ptc-as-datacenter-0b853dc0",
+      "url": "/stories/schneider-electric-drops-22-6b-on-ptc-as-datacenter-0b853dc0.html",
+      "title": "Schneider Electric drops $22.6B on PTC as datacenter boom rains money on infra companies",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-technology-inc-mu-stock-analysis-and-forecast-dd7056e5",
+      "url": "/stories/micron-technology-inc-mu-stock-analysis-and-forecast-dd7056e5.html",
+      "title": "Micron Technology Inc (MU) Stock Analysis &amp; Forecast - tradingkey.com",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "tradingkey.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -69,6 +135,28 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "get-rid-of-apple-s-ai-bloatware-and-reclaim-12-gb-of-d016d826",
+      "url": "/stories/get-rid-of-apple-s-ai-bloatware-and-reclaim-12-gb-of-d016d826.html",
+      "title": "Get rid of Apple's AI bloatware and reclaim 12 GB of storage with this open source tool",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "why-is-micron-nasdaq-mu-stock-jumping-on-record-resu-3ea44f35",
+      "url": "/stories/why-is-micron-nasdaq-mu-stock-jumping-on-record-resu-3ea44f35.html",
+      "title": "Why is Micron (NASDAQ:MU) stock jumping on record results and AI memory demand? - Kalkine Media",
+      "tag": "demand",
+      "date": "2026-10-05",
+      "score": 7,
+      "pick": false,
+      "source": "Kalkine Media",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "the-552b-deepseek-v4-1-flash-model-offers-a-peak-out-6bfb7c2e",
       "url": "/stories/the-552b-deepseek-v4-1-flash-model-offers-a-peak-out-6bfb7c2e.html",
       "title": "The 552B DeepSeek V4.1-Flash Model Offers A Peak Output Of 494 Tokens/Second When Powered By An At-Home Rig Spanning 4x NVIDIA DGX Spark Units",
@@ -78,6 +166,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "altman-backed-volantis-reveals-plan-to-vault-the-mem-70eab1c1",
+      "url": "/stories/altman-backed-volantis-reveals-plan-to-vault-the-mem-70eab1c1.html",
+      "title": "Altman-backed Volantis reveals plan to vault the memory wall by baking photonics into AI accelerators",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "row-parallel-dram-computing-cuts-data-reorganization-c1dc3164",
@@ -122,6 +221,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "why-is-micron-technology-nasdaq-mu-riding-a-wave-of-41169f12",
+      "url": "/stories/why-is-micron-technology-nasdaq-mu-riding-a-wave-of-41169f12.html",
+      "title": "Why Is Micron Technology (NASDAQ:MU) Riding A Wave Of AI Memory Demand? - Kalkine Media",
+      "tag": "demand",
+      "date": "2026-10-05",
+      "score": 7,
+      "pick": false,
+      "source": "Kalkine Media",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "teamgroup-s-4tb-t-force-g50-evo-pcie-nvme-gen-4-ssd-89692091",
