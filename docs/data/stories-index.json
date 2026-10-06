@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-10-05T14:33:20.217Z",
-  "count": 1416,
+  "generatedAt": "2026-10-06T00:01:37.154Z",
+  "count": 1427,
   "stories": [
+    {
+      "slug": "these-32gb-ddr5-memory-kits-are-the-cheapest-availab-181315f3",
+      "url": "/stories/these-32gb-ddr5-memory-kits-are-the-cheapest-availab-181315f3.html",
+      "title": "These 32GB DDR5 memory kits are the cheapest available on the market — we found the cheapest one around, plus AMD- and Intel-tailored options - tomshardware.com",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "tomshardware.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "get-into-a-32gb-ddr5-memory-kit-for-less-this-big-de-410fc3ef",
+      "url": "/stories/get-into-a-32gb-ddr5-memory-kit-for-less-this-big-de-410fc3ef.html",
+      "title": "Get into a 32GB DDR5 memory kit for less this Big Deals Day with these picks",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-and-micron-face-dram-price-manipula-ecb353d0",
+      "url": "/stories/samsung-sk-hynix-and-micron-face-dram-price-manipula-ecb353d0.html",
+      "title": "Samsung, SK Hynix and Micron Face DRAM Price Manipulation Lawsuit: Is the Memory Market Manipulated? - TradingKey",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kioxia-cm9-r-15-36tb-e3-s-nvme-ssd-review-a688a5b0",
+      "url": "/stories/kioxia-cm9-r-15-36tb-e3-s-nvme-ssd-review-a688a5b0.html",
+      "title": "Kioxia CM9-R 15.36TB E3.S NVMe SSD Review",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kepler-aims-to-launch-energy-saving-replacement-for-46ebb4b5",
+      "url": "/stories/kepler-aims-to-launch-energy-saving-replacement-for-46ebb4b5.html",
+      "title": "Kepler Aims to Launch Energy-Saving Replacement for HBM in 2027",
+      "tag": "demand",
+      "date": "2026-10-05",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-rtx-5060-ti-gaming-pc-hits-999-with-8-core-ry-53423b92",
+      "url": "/stories/nvidia-rtx-5060-ti-gaming-pc-hits-999-with-8-core-ry-53423b92.html",
+      "title": "Nvidia RTX 5060 Ti gaming PC hits $999 with 8-core Ryzen CPU, 16GB RAM, and 1TB PCIe 4.0 SSD — $600 instant savings on a complete 1080p powerhouse",
+      "tag": "demand",
+      "date": "2026-10-05",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "the-552b-deepseek-v4-1-flash-model-offers-a-peak-out-6bfb7c2e",
+      "url": "/stories/the-552b-deepseek-v4-1-flash-model-offers-a-peak-out-6bfb7c2e.html",
+      "title": "The 552B DeepSeek V4.1-Flash Model Offers A Peak Output Of 494 Tokens/Second When Powered By An At-Home Rig Spanning 4x NVIDIA DGX Spark Units",
+      "tag": "demand",
+      "date": "2026-10-05",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "row-parallel-dram-computing-cuts-data-reorganization-c1dc3164",
+      "url": "/stories/row-parallel-dram-computing-cuts-data-reorganization-c1dc3164.html",
+      "title": "Row-Parallel DRAM Computing Cuts Data-Reorganization Overhead (Syracuse, FAU, TU Dresden)",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chinese-nand-maker-ymtc-reportedly-expects-memory-sh-0a0963d5",
+      "url": "/stories/chinese-nand-maker-ymtc-reportedly-expects-memory-sh-0a0963d5.html",
+      "title": "Chinese NAND Maker YMTC Reportedly Expects Memory Shortage to Last Another Three Years - TechPowerUp",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chinese-nand-maker-ymtc-reportedly-expects-memory-sh-8abca196",
+      "url": "/stories/chinese-nand-maker-ymtc-reportedly-expects-memory-sh-8abca196.html",
+      "title": "Chinese NAND Maker YMTC Reportedly Expects Memory Shortage to Last Another Three Years - TechPowerUp",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chinese-nand-maker-ymtc-reportedly-expects-memory-sh-281922d1",
+      "url": "/stories/chinese-nand-maker-ymtc-reportedly-expects-memory-sh-281922d1.html",
+      "title": "Chinese NAND Maker YMTC Reportedly Expects Memory Shortage to Last Another Three Years",
+      "tag": "supply",
+      "date": "2026-10-05",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "teamgroup-s-4tb-t-force-g50-evo-pcie-nvme-gen-4-ssd-89692091",
       "url": "/stories/teamgroup-s-4tb-t-force-g50-evo-pcie-nvme-gen-4-ssd-89692091.html",
