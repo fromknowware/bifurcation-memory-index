@@ -1,7 +1,150 @@
 {
-  "generatedAt": "2026-10-06T18:20:24.428Z",
-  "count": 1459,
+  "generatedAt": "2026-10-07T05:56:25.912Z",
+  "count": 1475,
   "stories": [
+    {
+      "slug": "ram-ssd-prices-may-rise-further-as-u-s-cloud-demand-6464c15f",
+      "url": "/stories/ram-ssd-prices-may-rise-further-as-u-s-cloud-demand-6464c15f.html",
+      "title": "RAM, SSD prices may rise further as U.S. cloud demand tightens DRAM supply - 디지털투데이",
+      "tag": "supply",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "디지털투데이",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "rx-9070-gre-hits-529-as-gpu-memory-prices-jump-200-2-ff520141",
+      "url": "/stories/rx-9070-gre-hits-529-as-gpu-memory-prices-jump-200-2-ff520141.html",
+      "title": "RX 9070 GRE Hits $529 as GPU Memory Prices Jump 200% [2026] - https://tech-insider.org/",
+      "tag": "supply",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "https://tech-insider.org/",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nanya-technology-said-to-raise-dram-contract-prices-3d2a5413",
+      "url": "/stories/nanya-technology-said-to-raise-dram-contract-prices-3d2a5413.html",
+      "title": "Nanya Technology Said to Raise DRAM Contract Prices by Up to 20% as Shortage Deepens - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pre-market-taiwan-and-singapore-stocks-news-nanya-te-fe863374",
+      "url": "/stories/pre-market-taiwan-and-singapore-stocks-news-nanya-te-fe863374.html",
+      "title": "PRE-MARKET TAIWAN AND SINGAPORE STOCKS NEWS: Nanya Technology (2408 TT) reportedly notified customers of another DRAM contract price increase of up to 20%, according to industry sources - Newsquawk",
+      "tag": "supply",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "Newsquawk",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-semiconductor-shift-from-gpus-to-dram-amid-bottle-b6c57d84",
+      "url": "/stories/ai-semiconductor-shift-from-gpus-to-dram-amid-bottle-b6c57d84.html",
+      "title": "AI Semiconductor Shift From GPUs to DRAM Amid Bottlenecks - 조선일보",
+      "tag": "supply",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-s-ai-memory-boom-looks-real-but-less-explosi-91bcaa82",
+      "url": "/stories/samsung-s-ai-memory-boom-looks-real-but-less-explosi-91bcaa82.html",
+      "title": "Samsung’s AI Memory Boom Looks Real, But Less Explosive - Finimize",
+      "tag": "demand",
+      "date": "2026-10-06",
+      "score": 7,
+      "pick": false,
+      "source": "Finimize",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-q3-profit-soars-nine-fold-memory-chip-margin-cdfdaf74",
+      "url": "/stories/samsung-q3-profit-soars-nine-fold-memory-chip-margin-cdfdaf74.html",
+      "title": "Samsung Q3 Profit Soars Nine-Fold, Memory Chip Margins Remain Flat - Global Banking &amp; Finance Review",
+      "tag": "supply",
+      "date": "2026-10-06",
+      "score": 8,
+      "pick": false,
+      "source": "Global Banking &amp; Finance Review",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-s-memory-wall-swyx-on-ai-engineering-the-cognitiv-ace21c92",
+      "url": "/stories/ai-s-memory-wall-swyx-on-ai-engineering-the-cognitiv-ace21c92.html",
+      "title": "AI’s Memory Wall + Swyx on AI Engineering｜The Cognitive Revolution - finance.biggo.com",
+      "tag": "demand",
+      "date": "2026-10-06",
+      "score": 7,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ultra-compact-photonic-bends-reduce-loss-while-meeti-06065fff",
+      "url": "/stories/ultra-compact-photonic-bends-reduce-loss-while-meeti-06065fff.html",
+      "title": "Ultra-Compact Photonic Bends Reduce Loss While Meeting Foundry Rules (Georgia Tech)",
+      "tag": "fab",
+      "date": "2026-10-06",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "programmable-memory-controller-eases-adoption-of-new-162abfdf",
+      "url": "/stories/programmable-memory-controller-eases-adoption-of-new-162abfdf.html",
+      "title": "Programmable Memory Controller Eases Adoption of New DRAM Techniques (ETH Zürich, CISPA, NYU)",
+      "tag": "supply",
+      "date": "2026-10-06",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "an-old-gpu-mining-rig-with-9-gpus-sporting-54gb-vram-90b76e2f",
+      "url": "/stories/an-old-gpu-mining-rig-with-9-gpus-sporting-54gb-vram-90b76e2f.html",
+      "title": "An Old GPU Mining Rig With 9 GPUs Sporting 54GB VRAM Is An LLM User’s Dream; Buyer Purchased Hardware At A Throwaway Figure By Negotiating The Price Down To $35",
+      "tag": "supply",
+      "date": "2026-10-06",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-to-pay-netlist-600-million-in-five-year-ai-me-dda6911c",
+      "url": "/stories/micron-to-pay-netlist-600-million-in-five-year-ai-me-dda6911c.html",
+      "title": "Micron to Pay Netlist $600 Million in Five-Year AI Memory Patent Deal - The420.in",
+      "tag": "demand",
+      "date": "2026-10-06",
+      "score": 7,
+      "pick": false,
+      "source": "The420.in",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ai-memory-shortage-could-last-years-morgan-stanley-n-6f0093fe",
+      "url": "/stories/ai-memory-shortage-could-last-years-morgan-stanley-n-6f0093fe.html",
+      "title": "AI Memory Shortage Could Last Years; Morgan Stanley Names Nvidia, Micron Among 6 Outperformers - BigGo Finance",
+      "tag": "demand",
+      "date": "2026-10-06",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "axelera-ai-data-center-inference-performance-in-the-48b4e7ea",
       "url": "/stories/axelera-ai-data-center-inference-performance-in-the-48b4e7ea.html",
@@ -58,6 +201,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "sk-hynix-shares-drop-4-on-earnings-caution-des-pluan-8b00107c",
+      "url": "/stories/sk-hynix-shares-drop-4-on-earnings-caution-des-pluan-8b00107c.html",
+      "title": "SK Hynix shares drop 4% on earnings caution des... - Pluang",
+      "tag": "earnings",
+      "date": "2026-10-06",
+      "score": 7,
+      "pick": false,
+      "source": "Pluang",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
       "slug": "sk-hynix-falls-4-on-earnings-caution-before-a-rebala-e841c261",
       "url": "/stories/sk-hynix-falls-4-on-earnings-caution-before-a-rebala-e841c261.html",
       "title": "SK Hynix Falls 4% on Earnings Caution Before a Rebalancing Goldman Says Favors It; SanDisk Slips 2%, Micron Holds Firm - 24/7 Wall St.",
@@ -105,6 +259,17 @@
       "slug": "ymtc-warns-nand-supply-crunch-could-last-until-2029-42e2ab41",
       "url": "/stories/ymtc-warns-nand-supply-crunch-could-last-until-2029-42e2ab41.html",
       "title": "YMTC Warns NAND Supply Crunch Could Last Until 2029 as AI Infrastructure Crowds Out Consumer-Grade Capacity - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-06",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-to-pay-netlist-600-million-to-end-memory-pate-c849b6af",
+      "url": "/stories/micron-to-pay-netlist-600-million-to-end-memory-pate-c849b6af.html",
+      "title": "Micron to Pay Netlist $600 Million to End Memory Patent Fight - BigGo Finance",
       "tag": "supply",
       "date": "2026-10-06",
       "score": 8,
@@ -165,6 +330,17 @@
       "score": 8,
       "pick": false,
       "source": "The Cool Down",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "are-you-ready-for-the-ram-crisis-to-last-another-3-y-960536f2",
+      "url": "/stories/are-you-ready-for-the-ram-crisis-to-last-another-3-y-960536f2.html",
+      "title": "Are you ready for the RAM crisis to last another 3 years? We could see ''meaningful price increases' by the end of this year — and there's no light at the end of the tunnel - TechRadar",
+      "tag": "supply",
+      "date": "2026-10-06",
+      "score": 8,
+      "pick": false,
+      "source": "TechRadar",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
