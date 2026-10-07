@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-10-07T13:19:40.785Z",
-  "count": 1488,
+  "generatedAt": "2026-10-07T23:03:50.624Z",
+  "count": 1500,
   "stories": [
+    {
+      "slug": "samsung-s-ai-memory-chip-boom-lifted-profit-again-fi-ca947bbe",
+      "url": "/stories/samsung-s-ai-memory-chip-boom-lifted-profit-again-fi-ca947bbe.html",
+      "title": "Samsung’s AI Memory Chip Boom Lifted Profit Again - Finimize",
+      "tag": "demand",
+      "date": "2026-10-07",
+      "score": 7,
+      "pick": false,
+      "source": "Finimize",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-s-rtx-spark-pcs-combine-the-best-of-gaming-ai-22a7aeb6",
+      "url": "/stories/nvidia-s-rtx-spark-pcs-combine-the-best-of-gaming-ai-22a7aeb6.html",
+      "title": "NVIDIA’s RTX Spark PCs Combine The Best of Gaming & AI on Windows, Bringing Grace & Blackwell To Powerful, Slim & Sleek Designs, Available For Pre-Order",
+      "tag": "demand",
+      "date": "2026-10-07",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-s-ai-powerhouse-dgx-station-breaks-out-of-lin-515330e4",
+      "url": "/stories/nvidia-s-ai-powerhouse-dgx-station-breaks-out-of-lin-515330e4.html",
+      "title": "NVIDIA’s AI-Powerhouse “DGX Station” Breaks Out Of Linux, Cramming 748 GB Of Memory And 20 PFLOPs Into A Windows Workstation",
+      "tag": "demand",
+      "date": "2026-10-07",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "why-ai-8217-s-limit-is-power-not-chips-gopi-sirineni-ae24be08",
+      "url": "/stories/why-ai-8217-s-limit-is-power-not-chips-gopi-sirineni-ae24be08.html",
+      "title": "Why AI&#8217;s Limit Is Power, Not Chips: Gopi Sirineni at AI Infra Summit 2026",
+      "tag": "demand",
+      "date": "2026-10-07",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "hyper-na-euv-the-next-extension-beyond-high-na-litho-f35388ee",
+      "url": "/stories/hyper-na-euv-the-next-extension-beyond-high-na-litho-f35388ee.html",
+      "title": "Hyper-NA EUV: The Next Extension Beyond High NA Lithography (Carl Zeiss, ASML)",
+      "tag": "fab",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-says-the-ai-memory-chip-shortage-will-not-ea-2b495c08",
+      "url": "/stories/samsung-says-the-ai-memory-chip-shortage-will-not-ea-2b495c08.html",
+      "title": "Samsung Says the AI Memory Chip Shortage Will Not Ease Before 2028 - Startup Fortune",
+      "tag": "demand",
+      "date": "2026-10-07",
+      "score": 7,
+      "pick": false,
+      "source": "Startup Fortune",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "amd-explores-samsung-foundry-deal-as-ai-chip-demand-0e9fbe1e",
+      "url": "/stories/amd-explores-samsung-foundry-deal-as-ai-chip-demand-0e9fbe1e.html",
+      "title": "AMD Explores Samsung Foundry Deal as AI Chip Demand Drives Supply Expansion - The420.in",
+      "tag": "fab",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "The420.in",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "elon-musk-is-aligned-with-china-warns-taiwanese-op-e-5c7b3b58",
+      "url": "/stories/elon-musk-is-aligned-with-china-warns-taiwanese-op-e-5c7b3b58.html",
+      "title": "Elon Musk Is Aligned With China, Warns Taiwanese Op-Ed, Advising TSMC To Reject Terafab Chip Making Project Partnership",
+      "tag": "fab",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "memory-chip-crunch-and-semiconductor-trade-amd-samsu-8eb00e65",
+      "url": "/stories/memory-chip-crunch-and-semiconductor-trade-amd-samsu-8eb00e65.html",
+      "title": "Memory Chip Crunch and Semiconductor Trade (AMD-Samsung, Samsung Q3, Micron) - Gotrade",
+      "tag": "supply",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "Gotrade",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-hbm4e-passes-testing-for-nvidia-039-s-rubin-9a803cf8",
+      "url": "/stories/samsung-hbm4e-passes-testing-for-nvidia-039-s-rubin-9a803cf8.html",
+      "title": "Samsung HBM4E Passes Testing for NVIDIA&#039;s \"Rubin Ultra\" GPU",
+      "tag": "demand",
+      "date": "2026-10-07",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "musk-rejects-rumors-of-tsmc-takeover-of-terafab-inte-262919e3",
+      "url": "/stories/musk-rejects-rumors-of-tsmc-takeover-of-terafab-inte-262919e3.html",
+      "title": "Musk rejects rumors of TSMC takeover of Terafab — Intel reaffirms 14A node deal as Musk floats cleanroom 'sublease'",
+      "tag": "fab",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "when-one-datacenter-is-no-longer-enough-22f5d8d5",
+      "url": "/stories/when-one-datacenter-is-no-longer-enough-22f5d8d5.html",
+      "title": "When one datacenter is no longer enough",
+      "tag": "supply",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "sk-hynix-reportedly-faces-difficulties-in-hbm-hybrid-38b01a32",
       "url": "/stories/sk-hynix-reportedly-faces-difficulties-in-hbm-hybrid-38b01a32.html",
