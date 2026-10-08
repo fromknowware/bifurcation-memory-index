@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-10-07T23:03:50.624Z",
-  "count": 1500,
+  "generatedAt": "2026-10-08T06:00:11.104Z",
+  "count": 1514,
   "stories": [
+    {
+      "slug": "u-s-dram-market-trends-in-ai-and-hpc-growth-kings-re-56cea7f1",
+      "url": "/stories/u-s-dram-market-trends-in-ai-and-hpc-growth-kings-re-56cea7f1.html",
+      "title": "U.S. DRAM Market Trends in AI and HPC Growth - Kings Research",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "Kings Research",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-s-smartphone-business-yielding-no-profits-fo-5bab07b6",
+      "url": "/stories/samsung-s-smartphone-business-yielding-no-profits-fo-5bab07b6.html",
+      "title": "Samsung’s Smartphone Business Yielding No Profits For Company Due To Rising Memory Costs, New Rumor Claims A 30% Production Is In Tow To Reduce Further Losses",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-is-the-lynchpin-of-the-it-industry-and-doubly-1a8e059f",
+      "url": "/stories/memory-is-the-lynchpin-of-the-it-industry-and-doubly-1a8e059f.html",
+      "title": "Memory Is The Lynchpin Of The IT Industry, And Doubly So For AI",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "The Next Platform",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-profit-up-almost-nine-fold-with-memory-chip-c4724c39",
+      "url": "/stories/samsung-profit-up-almost-nine-fold-with-memory-chip-c4724c39.html",
+      "title": "Samsung profit up almost nine-fold with memory chip windfall - Moneycontrol.com",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "Moneycontrol.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-q3-profit-jumps-nearly-nine-fold-on-ai-chip-812d4e20",
+      "url": "/stories/samsung-q3-profit-jumps-nearly-nine-fold-on-ai-chip-812d4e20.html",
+      "title": "Samsung Q3 Profit Jumps Nearly Nine-Fold On AI Chip Demand - BusinessToday Malaysia",
+      "tag": "demand",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "BusinessToday Malaysia",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-posts-record-80b-q3-profit-as-ai-chip-boom-e-8f24af3b",
+      "url": "/stories/samsung-posts-record-80b-q3-profit-as-ai-chip-boom-e-8f24af3b.html",
+      "title": "Samsung Posts Record $80B Q3 Profit as AI Chip Boom Explodes - The Tech Buzz",
+      "tag": "demand",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "The Tech Buzz",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-reaches-new-profit-record-with-memory-chip-w-775bcd72",
+      "url": "/stories/samsung-reaches-new-profit-record-with-memory-chip-w-775bcd72.html",
+      "title": "Samsung reaches new profit record with memory chip windfall - The Business Times",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "The Business Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "singapore-s-central-bank-wants-all-fintech-ai-use-ca-ec60cdca",
+      "url": "/stories/singapore-s-central-bank-wants-all-fintech-ai-use-ca-ec60cdca.html",
+      "title": "Singapore’s central bank wants all FinTech AI use cases subject to independent review",
+      "tag": "macro",
+      "date": "2026-10-08",
+      "score": 6,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "samsung-q3-profit-jumps-nearly-nine-fold-as-ai-memor-726c58c8",
+      "url": "/stories/samsung-q3-profit-jumps-nearly-nine-fold-as-ai-memor-726c58c8.html",
+      "title": "Samsung Q3 profit jumps nearly nine-fold as AI memory boom lifts chip earnings - CitiNewsroom.com",
+      "tag": "earnings",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "CitiNewsroom.com",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "this-is-the-cheapest-4tb-ssd-for-prime-day-at-only-1-1afb9644",
+      "url": "/stories/this-is-the-cheapest-4tb-ssd-for-prime-day-at-only-1-1afb9644.html",
+      "title": "This is the cheapest 4TB SSD for Prime Day at only 10 cents per gigabyte",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "demand-for-memory-chips-continues-to-surge-samsung-h-ac5dd64f",
+      "url": "/stories/demand-for-memory-chips-continues-to-surge-samsung-h-ac5dd64f.html",
+      "title": "Demand for memory chips continues to surge! Samsung has released its preliminary results: Q3 operating profit exceeded 100 trillion won for the first time, soaring nearly ninefold year over year. - 富途牛牛",
+      "tag": "earnings",
+      "date": "2026-10-07",
+      "score": 7,
+      "pick": false,
+      "source": "富途牛牛",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "elevate-your-steam-deck-and-rog-ally-s-ssd-storage-f-9e1e388f",
+      "url": "/stories/elevate-your-steam-deck-and-rog-ally-s-ssd-storage-f-9e1e388f.html",
+      "title": "Elevate your Steam Deck and ROG Ally's SSD storage for just $0.13 per GB",
+      "tag": "supply",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "samsung-s-ai-memory-chip-boom-lifted-profit-again-fi-ca947bbe",
       "url": "/stories/samsung-s-ai-memory-chip-boom-lifted-profit-again-fi-ca947bbe.html",
@@ -157,6 +289,17 @@
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
+      "slug": "samsung-passes-qualification-tests-for-hbm4e-chips-w-be110374",
+      "url": "/stories/samsung-passes-qualification-tests-for-hbm4e-chips-w-be110374.html",
+      "title": "Samsung passes qualification tests for HBM4E chips with Nvidia, major hyperscalers - KED Global",
+      "tag": "demand",
+      "date": "2026-10-07",
+      "score": 7,
+      "pick": false,
+      "source": "KED Global",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "this-ryzen-5-9600x-combo-deal-on-newegg-helps-you-sa-710db85a",
       "url": "/stories/this-ryzen-5-9600x-combo-deal-on-newegg-helps-you-sa-710db85a.html",
       "title": "This Ryzen 5 9600X Combo Deal On Newegg Helps You Save $254 And Includes A Free AIO, 32GB DDR5 RAM Kit, 1TB Gen 4 SSD, And A Motherboard, All For Just $824.99",
@@ -231,6 +374,17 @@
       "score": 8,
       "pick": false,
       "source": "Yonhap News Agency",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "from-sk-hynix-to-the-world-qrt-eyes-quantum-leap-in-e6b3ecd5",
+      "url": "/stories/from-sk-hynix-to-the-world-qrt-eyes-quantum-leap-in-e6b3ecd5.html",
+      "title": "From SK hynix to the world: QRT eyes quantum leap in memory chips and space - 헤럴드경제",
+      "tag": "supply",
+      "date": "2026-10-07",
+      "score": 8,
+      "pick": false,
+      "source": "헤럴드경제",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
