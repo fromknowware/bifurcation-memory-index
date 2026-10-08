@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-10-08T13:25:51.711Z",
-  "count": 1529,
+  "generatedAt": "2026-10-08T23:19:19.146Z",
+  "count": 1543,
   "stories": [
+    {
+      "slug": "samsung-s-operating-profit-hit-a-record-80-billion-l-85670ac0",
+      "url": "/stories/samsung-s-operating-profit-hit-a-record-80-billion-l-85670ac0.html",
+      "title": "Samsung's Operating Profit Hit a Record $80 Billion. Like Micron's Memory Prices, Its Growth Is Slowing. - The Globe and Mail",
+      "tag": "earnings",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "The Globe and Mail",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "amd-engineer-details-zen-6-ibs-memory-profiler-b49fd34e",
+      "url": "/stories/amd-engineer-details-zen-6-ibs-memory-profiler-b49fd34e.html",
+      "title": "AMD Engineer Details Zen 6 IBS Memory Profiler",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "why-custom-silicon-matters-in-ai-data-centers-26383b28",
+      "url": "/stories/why-custom-silicon-matters-in-ai-data-centers-26383b28.html",
+      "title": "Why Custom Silicon Matters in AI Data Centers",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "liquidjet-infuses-diamonds-within-its-coldplates-for-f2edd7f2",
+      "url": "/stories/liquidjet-infuses-diamonds-within-its-coldplates-for-f2edd7f2.html",
+      "title": "LiquidJet Infuses Diamonds Within Its Coldplates for Enterprise AI Chips, Boosting Tokens/Watt Revenue By 35% & Reducing Temperatures By 10C",
+      "tag": "earnings",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "globalfoundries-to-produce-silicon-interposers-for-t-6a2e49f6",
+      "url": "/stories/globalfoundries-to-produce-silicon-interposers-for-t-6a2e49f6.html",
+      "title": "GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US — Five-year agreement valued at $2 billion",
+      "tag": "fab",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "high-severity-nvidia-bug-could-crash-gpu-monitoring-b26b982a",
+      "url": "/stories/high-severity-nvidia-bug-could-crash-gpu-monitoring-b26b982a.html",
+      "title": "High-severity Nvidia bug could crash GPU monitoring on exposed servers",
+      "tag": "demand",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-s-ai-chip-boom-drives-record-80b-third-quart-eb131634",
+      "url": "/stories/samsung-s-ai-chip-boom-drives-record-80b-third-quart-eb131634.html",
+      "title": "Samsung’s AI chip boom drives record $80B third-quarter profit forecast - The American Bazaar",
+      "tag": "demand",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "The American Bazaar",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "tsmc-taps-globalfoundries-to-bolster-us-silicon-inte-b4dc3552",
+      "url": "/stories/tsmc-taps-globalfoundries-to-bolster-us-silicon-inte-b4dc3552.html",
+      "title": "TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal",
+      "tag": "fab",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "amd-ceo-visits-samsung-for-hbm-samsung-wants-foundry-c3b0dd23",
+      "url": "/stories/amd-ceo-visits-samsung-for-hbm-samsung-wants-foundry-c3b0dd23.html",
+      "title": "AMD CEO Visits Samsung for HBM, Samsung Wants Foundry Orders in Return",
+      "tag": "fab",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "department-of-war-dishes-out-1-5-billion-loan-commit-e6e24876",
+      "url": "/stories/department-of-war-dishes-out-1-5-billion-loan-commit-e6e24876.html",
+      "title": "Department of War dishes out $1.5 billion loan commitment to boost semiconductor supply chain",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-alphacool-launches-es-1-slot-gpu-cooler-for-black-ba7fe388",
+      "url": "/stories/pr-alphacool-launches-es-1-slot-gpu-cooler-for-black-ba7fe388.html",
+      "title": "(PR) Alphacool Launches ES 1-Slot GPU Cooler for Blackwell and Radeon AI PRO GPUs",
+      "tag": "demand",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pr-kioxia-announces-e1-l-qlc-based-ssd-designed-for-1a57209e",
+      "url": "/stories/pr-kioxia-announces-e1-l-qlc-based-ssd-designed-for-1a57209e.html",
+      "title": "(PR) Kioxia Announces E1.L QLC-Based SSD Designed for Hyperscale Data Centers",
+      "tag": "demand",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "kioxia-ld4-e1-l-qlc-nvme-ssd-announced-10e08100",
       "url": "/stories/kioxia-ld4-e1-l-qlc-nvme-ssd-announced-10e08100.html",
@@ -12,6 +144,17 @@
       "pick": false,
       "source": "ServeTheHome",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-s-dram-sales-reach-40b-can-ai-demand-drive-gr-7dc0f004",
+      "url": "/stories/micron-s-dram-sales-reach-40b-can-ai-demand-drive-gr-7dc0f004.html",
+      "title": "Micron's DRAM Sales Reach $40B: Can AI Demand Drive Growth? - TradingView",
+      "tag": "demand",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "amd-seeks-broader-partnership-with-samsung-as-it-loo-747a2732",
@@ -100,6 +243,17 @@
       "pick": false,
       "source": "Seoul Economic Daily",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-driven-inflation-hits-laptop-market-2027-shipment-e2b443ef",
+      "url": "/stories/ai-driven-inflation-hits-laptop-market-2027-shipment-e2b443ef.html",
+      "title": "AI-Driven Inflation Hits Laptop Market: 2027 Shipments Could See High Single-Digit Decline - BigGo Finance",
+      "tag": "macro",
+      "date": "2026-10-08",
+      "score": 6,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
     },
     {
       "slug": "nanya-technology-stock-gets-a-dram-price-increase-of-e774259c",
