@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-10-08T06:00:11.104Z",
-  "count": 1514,
+  "generatedAt": "2026-10-08T13:25:51.711Z",
+  "count": 1529,
   "stories": [
+    {
+      "slug": "kioxia-ld4-e1-l-qlc-nvme-ssd-announced-10e08100",
+      "url": "/stories/kioxia-ld4-e1-l-qlc-nvme-ssd-announced-10e08100.html",
+      "title": "Kioxia LD4 E1.L QLC NVMe SSD Announced",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-seeks-broader-partnership-with-samsung-as-it-loo-747a2732",
+      "url": "/stories/amd-seeks-broader-partnership-with-samsung-as-it-loo-747a2732.html",
+      "title": "AMD seeks 'broader partnership' with Samsung as it looks to secure memory supply",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-rival-samsung-s-outlook-gets-a-70-billion-jol-0bf8d959",
+      "url": "/stories/micron-rival-samsung-s-outlook-gets-a-70-billion-jol-0bf8d959.html",
+      "title": "Micron Rival Samsung's Outlook Gets a $70 Billion Jolt - TradingView",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-eyes-80b-quarterly-profit-as-memory-buyers-p-5ac008a9",
+      "url": "/stories/samsung-eyes-80b-quarterly-profit-as-memory-buyers-p-5ac008a9.html",
+      "title": "Samsung eyes $80B quarterly profit as memory buyers pay the price",
+      "tag": "demand",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "memory-price-surge-squeezes-margins-samsung-reported-3549de2a",
+      "url": "/stories/memory-price-surge-squeezes-margins-samsung-reported-3549de2a.html",
+      "title": "Memory price surge squeezes margins: Samsung reportedly cutting Q4 smartphone production by up to 30% - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-minisforum-launches-the-ms-s1-max-p495-with-192gb-2fd32294",
+      "url": "/stories/pr-minisforum-launches-the-ms-s1-max-p495-with-192gb-2fd32294.html",
+      "title": "(PR) Minisforum Launches the MS-S1 MAX-P495 with 192GB Unified Memory, Expanding Its Local AI Computing Strategy",
+      "tag": "demand",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-s-profit-just-rose-nearly-ninefold-on-memory-9cdaba89",
+      "url": "/stories/samsung-s-profit-just-rose-nearly-ninefold-on-memory-9cdaba89.html",
+      "title": "Samsung’s Profit Just Rose Nearly Ninefold on Memory Chips - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-the-ai-memory-boom-is-real-but-2028-earnings-ma-26aa1168",
+      "url": "/stories/dram-the-ai-memory-boom-is-real-but-2028-earnings-ma-26aa1168.html",
+      "title": "DRAM: The AI Memory Boom Is Real, But 2028 Earnings Matter More Than Today's Low P/E - Seeking Alpha",
+      "tag": "earnings",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "Seeking Alpha",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "memory-price-surge-lifts-samsung-s-chip-arm-squeezes-aa0f7f09",
+      "url": "/stories/memory-price-surge-lifts-samsung-s-chip-arm-squeezes-aa0f7f09.html",
+      "title": "Memory Price Surge Lifts Samsung's Chip Arm, Squeezes Device Unit - Seoul Economic Daily",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nanya-technology-stock-gets-a-dram-price-increase-of-e774259c",
+      "url": "/stories/nanya-technology-stock-gets-a-dram-price-increase-of-e774259c.html",
+      "title": "Nanya Technology stock gets a DRAM price increase of up to 20 percent - AD HOC NEWS",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "AD HOC NEWS",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "robert-kovacs-northernindex-com-why-memory-and-stora-fc76271b",
+      "url": "/stories/robert-kovacs-northernindex-com-why-memory-and-stora-fc76271b.html",
+      "title": "Robert Kovacs (NorthernIndex.com) | Why Memory and Storage Companies Could Be the Next Big AI Winners - FinancialContent",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "FinancialContent",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "rohm-semiconductor-expands-back-end-chip-manufacturi-5ec40013",
+      "url": "/stories/rohm-semiconductor-expands-back-end-chip-manufacturi-5ec40013.html",
+      "title": "Rohm Semiconductor Expands Back-End Chip Manufacturing Outsourcing",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "key-facts-micron-mu-q4-54-23b-rev-dram-asps-140-trad-5b13ea78",
+      "url": "/stories/key-facts-micron-mu-q4-54-23b-rev-dram-asps-140-trad-5b13ea78.html",
+      "title": "Key facts: Micron (MU) Q4 $54.23B rev; DRAM ASPs +140% - TradingView",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-profit-up-almost-nine-fold-with-memory-chip-b2f18977",
+      "url": "/stories/samsung-profit-up-almost-nine-fold-with-memory-chip-b2f18977.html",
+      "title": "Samsung profit up almost nine-fold with memory chip windfall - The Edge Singapore",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "The Edge Singapore",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "u-s-dram-market-trends-in-ai-and-hpc-growth-kings-re-56cea7f1",
       "url": "/stories/u-s-dram-market-trends-in-ai-and-hpc-growth-kings-re-56cea7f1.html",
@@ -11,6 +165,17 @@
       "score": 8,
       "pick": false,
       "source": "Kings Research",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-rises-alongside-micron-s-surge-extending-st-3116e607",
+      "url": "/stories/sk-hynix-rises-alongside-micron-s-surge-extending-st-3116e607.html",
+      "title": "SK Hynix Rises Alongside Micron's Surge, Extending Stock Coupling to Sixth Session - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
