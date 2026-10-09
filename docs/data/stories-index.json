@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-10-09T13:13:42.600Z",
-  "count": 1563,
+  "generatedAt": "2026-10-09T22:36:34.991Z",
+  "count": 1568,
   "stories": [
+    {
+      "slug": "dram-buy-the-dip-in-the-most-important-ai-bottleneck-56077eea",
+      "url": "/stories/dram-buy-the-dip-in-the-most-important-ai-bottleneck-56077eea.html",
+      "title": "DRAM: Buy The Dip In The Most Important AI Bottleneck (BATS:DRAM) - Seeking Alpha",
+      "tag": "supply",
+      "date": "2026-10-09",
+      "score": 8,
+      "pick": false,
+      "source": "Seeking Alpha",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-wants-to-become-the-go-to-foundry-for-asics-an-ae3886a5",
+      "url": "/stories/intel-wants-to-become-the-go-to-foundry-for-asics-an-ae3886a5.html",
+      "title": "Intel Wants To Become The Go-To Foundry For ASICs And Specialized Chips, And Lip-Bu Tan’s Secret Weapon Is A Former Marvell Exec",
+      "tag": "fab",
+      "date": "2026-10-09",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-s-chip-profit-jumps-nearly-ninefold-as-ai-me-95859b8b",
+      "url": "/stories/samsung-s-chip-profit-jumps-nearly-ninefold-as-ai-me-95859b8b.html",
+      "title": "Samsung's chip profit jumps nearly ninefold as AI memory demand soars - Startup Fortune",
+      "tag": "demand",
+      "date": "2026-10-09",
+      "score": 7,
+      "pick": false,
+      "source": "Startup Fortune",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "teram-exits-stealth-with-37m-seed-to-break-the-ai-me-92ea2fca",
+      "url": "/stories/teram-exits-stealth-with-37m-seed-to-break-the-ai-me-92ea2fca.html",
+      "title": "TeRAM exits stealth with $37M seed to break the AI memory wall - Dealroom",
+      "tag": "demand",
+      "date": "2026-10-09",
+      "score": 7,
+      "pick": false,
+      "source": "Dealroom",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ai-compute-demand-holds-firm-bernstein-names-tsmc-sa-9b65c661",
+      "url": "/stories/ai-compute-demand-holds-firm-bernstein-names-tsmc-sa-9b65c661.html",
+      "title": "AI Compute Demand Holds Firm: Bernstein Names TSMC, Samsung, and MediaTek as Top Semiconductor Picks - BigGo Finance",
+      "tag": "fab",
+      "date": "2026-10-09",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "microsoft-365-slashes-storage-capacity-for-shared-ac-a995551a",
       "url": "/stories/microsoft-365-slashes-storage-capacity-for-shared-ac-a995551a.html",
