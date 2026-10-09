@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-08T23:19:19.146Z",
-  "count": 1543,
+  "generatedAt": "2026-10-09T06:05:49.208Z",
+  "count": 1548,
   "stories": [
+    {
+      "slug": "intel-again-tipped-for-major-foundry-business-win-as-e7a61b5c",
+      "url": "/stories/intel-again-tipped-for-major-foundry-business-win-as-e7a61b5c.html",
+      "title": "Intel Again Tipped For Major Foundry Business Win As NVIDIA Might Use Foveros Chip Technology In H2 2028, Says Analyst",
+      "tag": "fab",
+      "date": "2026-10-09",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "sk-hynix-samsung-push-16-layer-hbm4-as-rubin-favors-03078d27",
+      "url": "/stories/sk-hynix-samsung-push-16-layer-hbm4-as-rubin-favors-03078d27.html",
+      "title": "SK hynix, Samsung push 16-layer HBM4 as Rubin favors 12 - The Korea Herald",
+      "tag": "supply",
+      "date": "2026-10-09",
+      "score": 8,
+      "pick": false,
+      "source": "The Korea Herald",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ukrainian-drone-attack-takes-out-russian-datacenter-e48dc591",
+      "url": "/stories/ukrainian-drone-attack-takes-out-russian-datacenter-e48dc591.html",
+      "title": "Ukrainian drone attack takes out Russian datacenter",
+      "tag": "supply",
+      "date": "2026-10-09",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-micron-post-80-margins-supercycle-t-5eedf451",
+      "url": "/stories/samsung-sk-hynix-micron-post-80-margins-supercycle-t-5eedf451.html",
+      "title": "Samsung, SK Hynix, Micron Post 80% Margins, Supercycle to 2030 - 조선일보",
+      "tag": "supply",
+      "date": "2026-10-08",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "samsung-s-operating-profit-hit-a-record-80-billion-l-85670ac0",
       "url": "/stories/samsung-s-operating-profit-hit-a-record-80-billion-l-85670ac0.html",
@@ -132,6 +176,17 @@
       "score": 7,
       "pick": false,
       "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-s-dram-sales-reach-40b-can-ai-demand-drive-gr-885c8fcb",
+      "url": "/stories/micron-s-dram-sales-reach-40b-can-ai-demand-drive-gr-885c8fcb.html",
+      "title": "Micron's DRAM Sales Reach $40B: Can AI Demand Drive Growth? - The Globe and Mail",
+      "tag": "demand",
+      "date": "2026-10-08",
+      "score": 7,
+      "pick": false,
+      "source": "The Globe and Mail",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
