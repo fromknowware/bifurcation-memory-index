@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-09T22:36:29.345Z</updated>
+  <updated>2026-10-10T05:49:36.435Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://wccftech.com/elon-musk-would-be-better-off-sending-rockets-to-mars-than-productively-making-chips-through-terafab-says-individual-knowledgable-about-tsmcs-internal-affairs/</id>
+    <title type="html">Elon Musk Would Be Better Off Sending Rockets To Mars Than Productively Making Chips Through Terafab, Says Individual Knowledgable About TSMC’s Internal Affairs</title>
+    <link href="https://wccftech.com/elon-musk-would-be-better-off-sending-rockets-to-mars-than-productively-making-chips-through-terafab-says-individual-knowledgable-about-tsmcs-internal-affairs/" />
+    <link rel="related" href="/stories/elon-musk-would-be-better-off-sending-rockets-to-mar-5d258b33.html" />
+    <updated>2026-10-09T23:09:19.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Elon Musk's plans to produce chips at his Terafab project might be more difficult to execute than sending humans to Mars, according to an individual familiar with TSMC's internal affairs quoted by the Korean publication Hankyung. The report quotes an official from Samsung, an analyst from the South Korean firm Hanwha and the individual with knowledge about TSMC to share that while building a fabri RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Elon Musk's plans to produce chips at his Terafab project might be more difficult to execute than sending humans to Mars, according to an individual familiar with TSMC's internal affairs quoted by the Korean publication Hankyung. The report quotes an official from Samsung, an analyst from the South Korean firm Hanwha and the individual with knowledge about TSMC to share that while building a fabri&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/</id>
+    <title type="html">Ukraine’s drones knock out AI data center belonging to &quot;Russia’s Google&quot;</title>
+    <link href="https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/" />
+    <link rel="related" href="/stories/ukraine-s-drones-knock-out-ai-data-center-belonging-b839d83c.html" />
+    <updated>2026-10-09T22:04:07.000Z</updated>
+    <author><name>Ars Technica</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ2N6NkJDZW1acUZrV3lVeHFxSThaUkJDTEZHaDYxU2ZYLTl1d2JUbDZZVUR3VVJsbUhJWFEtZE9mLVJhbVY5WWlVNTM3WVhLLWk2bVUtb0RPTlF2blZnMnlYVk5pUFF0dkVwMkRMbm9FUVM4UmYwbkRrWHA5MFhVWGRfZ0JieHZId0I2SDFwS0s5Q0IxRnlSMg?oc=5</id>
     <title type="html">DRAM: Buy The Dip In The Most Important AI Bottleneck (BATS:DRAM) - Seeking Alpha</title>
@@ -21,7 +47,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;DRAM: Buy The Dip In The Most Important AI Bottleneck (BATS:DRAM) Seeking Alpha&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;DRAM: Buy The Dip In The Most Important AI Bottleneck (BATS:DRAM) Seeking Alpha&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/intel-wants-to-become-the-go-to-foundry-for-asics-and-specialized-chips-and-lip-bu-tans-secret-weapon-is-a-former-marvell-exec/</id>
@@ -34,7 +60,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Intel is currently in the process of shedding its notoriously labyrinthine bureaucratic layers and the attendant inertia, while eyeing new markets and product categories for its fledgling advanced fabrication nodes, with the scorching-hot ASIC market serving as one such high-probability gambit on the part of the chipmaker's new CEO, Lip-Bu Tan. As evidence, look no further than Intel's hiring of D&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Intel is currently in the process of shedding its notoriously labyrinthine bureaucratic layers and the attendant inertia, while eyeing new markets and product categories for its fledgling advanced fabrication nodes, with the scorching-hot ASIC market serving as one such high-probability gambit on the part of the chipmaker's new CEO, Lip-Bu Tan. As evidence, look no further than Intel's hiring of D&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMinAFBVV95cUxNbTcxTE9DZFEwM2p1QnhzdW51cndiWC1lQ0R0RnFDZlZ4QkgyanI0VVRYMlBUdk1MWFhGc2VKeVRYTG5ON0o0b21FTDFIMVh4eG96dG93UkZ4RmMtdERzNVpLdVBZNVpMSk43NmxWRjc0SU5ycXFxZzNjTzI1VnlpZFVrVGFtb0ZYbGp4Wno0SDE0NThYRnZsdHRmbUo?oc=5</id>
@@ -47,7 +73,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Samsung's chip profit jumps nearly ninefold as AI memory demand soars Startup Fortune&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung's chip profit jumps nearly ninefold as AI memory demand soars Startup Fortune&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMimwFBVV95cUxQb2VVaDFPcGs2eTJmcExfMUlvekJTaWI0RkE5Q0ZGcTNscHluZGtHakNrVTZsNU5hT0tTalo5Q3ZXODFuZnQwZFBhdTFvR2xnMnNORDVSQlhVemh2NVNVSUZPWGIxWEgwZ2xudTdsNHhYVWFkYzhreDhsbE0zN2VCTDdFS2JaVEx3NmlmWGtjcHlHZ2g5WDAxV282bw?oc=5</id>
@@ -60,7 +86,20 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;TeRAM exits stealth with $37M seed to break the AI memory wall Dealroom&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;TeRAM exits stealth with $37M seed to break the AI memory wall Dealroom&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMimAFBVV95cUxPSFlZeUJQU0hxYXhwUC1jdWtaRU5id19uWDFxbzdKRzdRQ3h4bmdEekIzblVncS1FYU1CUW5jUE9vVEZpcDFzU2JnaUJVcndJaFh1XzUtbWo0MFhjN1diSEkxY1lxQkVRQjFwb05NZ0tCaWk4RF9DV015QVpNZV8tNGxremd5ZW8wZ3lIMjc5RWNJR25zMGRGSg?oc=5</id>
+    <title type="html">Not Micron. Not Sandisk. This Memory Stock Is Quietly Gaining Share. - The Motley Fool</title>
+    <link href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPSFlZeUJQU0hxYXhwUC1jdWtaRU5id19uWDFxbzdKRzdRQ3h4bmdEekIzblVncS1FYU1CUW5jUE9vVEZpcDFzU2JnaUJVcndJaFh1XzUtbWo0MFhjN1diSEkxY1lxQkVRQjFwb05NZ0tCaWk4RF9DV015QVpNZV8tNGxremd5ZW8wZ3lIMjc5RWNJR25zMGRGSg?oc=5" />
+    <link rel="related" href="/stories/not-micron-not-sandisk-this-memory-stock-is-quietly-c91e901f.html" />
+    <updated>2026-10-09T16:40:00.000Z</updated>
+    <author><name>The Motley Fool</name></author>
+    <summary type="html">Not Micron. Not Sandisk. This Memory Stock Is Quietly Gaining Share. The Motley Fool RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Not Micron. Not Sandisk. This Memory Stock Is Quietly Gaining Share. The Motley Fool&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE90ZGk5eFRnXzJ0VW5Zb1lGR0w0THhCQXRnSVh5X1c5eHBRRWR4dzJSZTdjcllRTG5ZOGxsMnR1YTNST0M4dGphM2dHcmE3UXVEbXI2NHQzaWl6NTZRdF80WTBERFB6OExXeENHTGdxRGFRdGRDcmc?oc=5</id>
@@ -73,7 +112,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;AI Compute Demand Holds Firm: Bernstein Names TSMC, Samsung, and MediaTek as Top Semiconductor Picks BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;AI Compute Demand Holds Firm: Bernstein Names TSMC, Samsung, and MediaTek as Top Semiconductor Picks BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/software/cloud-storage/microsoft-365-slashes-storage-capacity-for-shared-accounts-amid-industry-wide-shortages-2tb-limit-to-take-effect-after-april-2027</id>

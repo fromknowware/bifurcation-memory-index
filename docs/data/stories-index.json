@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-09T22:36:34.991Z",
-  "count": 1568,
+  "generatedAt": "2026-10-10T05:49:38.762Z",
+  "count": 1571,
   "stories": [
+    {
+      "slug": "elon-musk-would-be-better-off-sending-rockets-to-mar-5d258b33",
+      "url": "/stories/elon-musk-would-be-better-off-sending-rockets-to-mar-5d258b33.html",
+      "title": "Elon Musk Would Be Better Off Sending Rockets To Mars Than Productively Making Chips Through Terafab, Says Individual Knowledgable About TSMC’s Internal Affairs",
+      "tag": "fab",
+      "date": "2026-10-09",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ukraine-s-drones-knock-out-ai-data-center-belonging-b839d83c",
+      "url": "/stories/ukraine-s-drones-knock-out-ai-data-center-belonging-b839d83c.html",
+      "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+      "tag": "demand",
+      "date": "2026-10-09",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "dram-buy-the-dip-in-the-most-important-ai-bottleneck-56077eea",
       "url": "/stories/dram-buy-the-dip-in-the-most-important-ai-bottleneck-56077eea.html",
@@ -45,6 +67,17 @@
       "pick": false,
       "source": "Dealroom",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "not-micron-not-sandisk-this-memory-stock-is-quietly-c91e901f",
+      "url": "/stories/not-micron-not-sandisk-this-memory-stock-is-quietly-c91e901f.html",
+      "title": "Not Micron. Not Sandisk. This Memory Stock Is Quietly Gaining Share. - The Motley Fool",
+      "tag": "supply",
+      "date": "2026-10-09",
+      "score": 8,
+      "pick": false,
+      "source": "The Motley Fool",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "ai-compute-demand-holds-firm-bernstein-names-tsmc-sa-9b65c661",
