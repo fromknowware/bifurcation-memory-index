@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-10-10T05:49:38.762Z",
-  "count": 1571,
+  "generatedAt": "2026-10-10T12:28:41.153Z",
+  "count": 1577,
   "stories": [
+    {
+      "slug": "nvidia-reportedly-halts-geforce-rtx-5090-production-2581d1a7",
+      "url": "/stories/nvidia-reportedly-halts-geforce-rtx-5090-production-2581d1a7.html",
+      "title": "Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs",
+      "tag": "demand",
+      "date": "2026-10-10",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-reportedly-ending-the-rtx-5090-reserves-gb202-d257cff3",
+      "url": "/stories/nvidia-reportedly-ending-the-rtx-5090-reserves-gb202-d257cff3.html",
+      "title": "NVIDIA Reportedly Ending the RTX 5090, Reserves GB202 Silicon for Workstation GPUs",
+      "tag": "demand",
+      "date": "2026-10-10",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ukrainian-drones-strike-largest-data-center-in-russi-e10b73e8",
+      "url": "/stories/ukrainian-drones-strike-largest-data-center-in-russi-e10b73e8.html",
+      "title": "Ukrainian drones strike largest data center in Russia, multiple parts of 1.4 million square foot campus knocked offline",
+      "tag": "demand",
+      "date": "2026-10-10",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "memory-price-surge-erodes-pc-margins-forcing-makers-c4118760",
+      "url": "/stories/memory-price-surge-erodes-pc-margins-forcing-makers-c4118760.html",
+      "title": "Memory Price Surge Erodes PC Margins, Forcing Makers Back to DDR4 and Older Platforms - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-10",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-have-set-a-dangerous-greed-cycle-th-e08fb2f4",
+      "url": "/stories/samsung-sk-hynix-have-set-a-dangerous-greed-cycle-th-e08fb2f4.html",
+      "title": "Samsung & SK hynix Have Set A Dangerous Greed Cycle That Has Trickled Down To Suppliers Like ASML, Who Now Want To Match Their Customers’ Profit Margins",
+      "tag": "earnings",
+      "date": "2026-10-10",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "nvidia-reportedly-axes-rtx-5090-production-diverting-279320c8",
+      "url": "/stories/nvidia-reportedly-axes-rtx-5090-production-diverting-279320c8.html",
+      "title": "NVIDIA Reportedly Axes RTX 5090 Production, Diverting GB202 Chips To PRO Cards As Gamers Get An RTX 5080 24 GB",
+      "tag": "demand",
+      "date": "2026-10-10",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "elon-musk-would-be-better-off-sending-rockets-to-mar-5d258b33",
       "url": "/stories/elon-musk-would-be-better-off-sending-rockets-to-mar-5d258b33.html",

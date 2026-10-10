@@ -5,11 +5,89 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-10T05:49:36.435Z</updated>
+  <updated>2026-10-10T12:28:39.006Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-halts-geforce-rtx-5090-production-in-favor-of-ai-data-center-and-professional-gpus-impending-supply-drought-expected-to-drive-up-prices-rtx-5080-24gb-rumored-as-new-gaming-flagship</id>
+    <title type="html">Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs</title>
+    <link href="https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-halts-geforce-rtx-5090-production-in-favor-of-ai-data-center-and-professional-gpus-impending-supply-drought-expected-to-drive-up-prices-rtx-5080-24gb-rumored-as-new-gaming-flagship" />
+    <link rel="related" href="/stories/nvidia-reportedly-halts-geforce-rtx-5090-production-2581d1a7.html" />
+    <updated>2026-10-10T12:20:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/353578/nvidia-reportedly-ending-the-rtx-5090-reserves-gb202-silicon-for-workstation-gpus</id>
+    <title type="html">NVIDIA Reportedly Ending the RTX 5090, Reserves GB202 Silicon for Workstation GPUs</title>
+    <link href="https://www.techpowerup.com/353578/nvidia-reportedly-ending-the-rtx-5090-reserves-gb202-silicon-for-workstation-gpus" />
+    <link rel="related" href="/stories/nvidia-reportedly-ending-the-rtx-5090-reserves-gb202-d257cff3.html" />
+    <updated>2026-10-10T11:36:04.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">NVIDIA has reportedly stopped allocating GB202 silicon to the GeForce RTX 5090, according to leaker MEGAsizeGPU (@Zed__Wang) on X. &quot;No more GB202 for 5090, confirmed,&quot; the leaker posted, adding in a follow-up that &quot;all future GB202 supplies are RTX Pro exclusive.&quot; GB202 is the largest &quot;Blackwell&quot; graphics chip, and the RTX 5090 doesn't even max it out. The same chip powers the 96 GB RTX PRO 6000 w RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;NVIDIA has reportedly stopped allocating GB202 silicon to the GeForce RTX 5090, according to leaker MEGAsizeGPU (@Zed__Wang) on X. &quot;No more GB202 for 5090, confirmed,&quot; the leaker posted, adding in a follow-up that &quot;all future GB202 supplies are RTX Pro exclusive.&quot; GB202 is the largest &quot;Blackwell&quot; graphics chip, and the RTX 5090 doesn't even max it out. The same chip powers the 96 GB RTX PRO 6000 w&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/data-centers/second-russian-data-center-targeted-by-ukrainian-drones-in-just-two-days-as-yandex-reels-from-another-service-outage-russian-state-media-admits-that-multiple-modules-completely-taken-out</id>
+    <title type="html">Ukrainian drones strike largest data center in Russia, multiple parts of 1.4 million square foot campus knocked offline</title>
+    <link href="https://www.tomshardware.com/tech-industry/data-centers/second-russian-data-center-targeted-by-ukrainian-drones-in-just-two-days-as-yandex-reels-from-another-service-outage-russian-state-media-admits-that-multiple-modules-completely-taken-out" />
+    <link rel="related" href="/stories/ukrainian-drones-strike-largest-data-center-in-russi-e10b73e8.html" />
+    <updated>2026-10-10T10:30:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE9pTTFoZVlRd0pnMnFGVUlpRk9NdnhwMWJLNEVzc1VocE1xelEwb3NCMzUwTUVmZm93QUlTTUo3U3AzZG5Ydlp5LUp3VzV2ZmktQWlJekxjRDhjMEp2MEZLUkZQdUpEQzZ1a3F1ZTljSXp6OHB2Nmc?oc=5</id>
+    <title type="html">Memory Price Surge Erodes PC Margins, Forcing Makers Back to DDR4 and Older Platforms - BigGo Finance</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9pTTFoZVlRd0pnMnFGVUlpRk9NdnhwMWJLNEVzc1VocE1xelEwb3NCMzUwTUVmZm93QUlTTUo3U3AzZG5Ydlp5LUp3VzV2ZmktQWlJekxjRDhjMEp2MEZLUkZQdUpEQzZ1a3F1ZTljSXp6OHB2Nmc?oc=5" />
+    <link rel="related" href="/stories/memory-price-surge-erodes-pc-margins-forcing-makers-c4118760.html" />
+    <updated>2026-10-10T09:25:00.000Z</updated>
+    <author><name>BigGo Finance</name></author>
+    <summary type="html">Memory Price Surge Erodes PC Margins, Forcing Makers Back to DDR4 and Older Platforms BigGo Finance RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Memory Price Surge Erodes PC Margins, Forcing Makers Back to DDR4 and Older Platforms BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/samsung-sk-hynix-greed-asml-euv-duv-parts-price-hike/</id>
+    <title type="html">Samsung &amp; SK hynix Have Set A Dangerous Greed Cycle That Has Trickled Down To Suppliers Like ASML, Who Now Want To Match Their Customers’ Profit Margins</title>
+    <link href="https://wccftech.com/samsung-sk-hynix-greed-asml-euv-duv-parts-price-hike/" />
+    <link rel="related" href="/stories/samsung-sk-hynix-have-set-a-dangerous-greed-cycle-th-e08fb2f4.html" />
+    <updated>2026-10-10T09:01:22.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">The profits being raked in by Samsung and SK hynix during the DRAM shortage have made both memory manufacturers the source of envy amongst high-profile suppliers like ASML, which is now reportedly seeking a price hike to match what its clients are generating in annual net earnings. According to the latest report, the changes have been finalized, setting a perilous precedent across the entire indus RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="opml" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;The profits being raked in by Samsung and SK hynix during the DRAM shortage have made both memory manufacturers the source of envy amongst high-profile suppliers like ASML, which is now reportedly seeking a price hike to match what its clients are generating in annual net earnings. According to the latest report, the changes have been finalized, setting a perilous precedent across the entire indus&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/nvidia-axes-rtx-5090-production-gamers-get-rtx-5080-24-gb/</id>
+    <title type="html">NVIDIA Reportedly Axes RTX 5090 Production, Diverting GB202 Chips To PRO Cards As Gamers Get An RTX 5080 24 GB</title>
+    <link href="https://wccftech.com/nvidia-axes-rtx-5090-production-gamers-get-rtx-5080-24-gb/" />
+    <link rel="related" href="/stories/nvidia-reportedly-axes-rtx-5090-production-diverting-279320c8.html" />
+    <updated>2026-10-10T07:50:46.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">NVIDIA is reportedly ending production of the RTX 5090 and will now introduce a new model for enthusiasts, the RTX 5080 24 GB. NVIDIA GeForce RTX 50 Lineup To Get Major Changes Soon, RTX 5080 24 GB Replaces RTX 5090 32 GB The NVIDIA GeForce RTX 5090 launched back in January 2025, and there have been many reports of the card getting EOL'd or facing production cuts, but none of them have been conclu RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;NVIDIA is reportedly ending production of the RTX 5090 and will now introduce a new model for enthusiasts, the RTX 5080 24 GB. NVIDIA GeForce RTX 50 Lineup To Get Major Changes Soon, RTX 5080 24 GB Replaces RTX 5090 32 GB The NVIDIA GeForce RTX 5090 launched back in January 2025, and there have been many reports of the card getting EOL'd or facing production cuts, but none of them have been conclu&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://wccftech.com/elon-musk-would-be-better-off-sending-rockets-to-mars-than-productively-making-chips-through-terafab-says-individual-knowledgable-about-tsmcs-internal-affairs/</id>
     <title type="html">Elon Musk Would Be Better Off Sending Rockets To Mars Than Productively Making Chips Through Terafab, Says Individual Knowledgable About TSMC’s Internal Affairs</title>
@@ -21,7 +99,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Elon Musk's plans to produce chips at his Terafab project might be more difficult to execute than sending humans to Mars, according to an individual familiar with TSMC's internal affairs quoted by the Korean publication Hankyung. The report quotes an official from Samsung, an analyst from the South Korean firm Hanwha and the individual with knowledge about TSMC to share that while building a fabri&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Elon Musk's plans to produce chips at his Terafab project might be more difficult to execute than sending humans to Mars, according to an individual familiar with TSMC's internal affairs quoted by the Korean publication Hankyung. The report quotes an official from Samsung, an analyst from the South Korean firm Hanwha and the individual with knowledge about TSMC to share that while building a fabri&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/</id>
@@ -34,7 +112,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ2N6NkJDZW1acUZrV3lVeHFxSThaUkJDTEZHaDYxU2ZYLTl1d2JUbDZZVUR3VVJsbUhJWFEtZE9mLVJhbVY5WWlVNTM3WVhLLWk2bVUtb0RPTlF2blZnMnlYVk5pUFF0dkVwMkRMbm9FUVM4UmYwbkRrWHA5MFhVWGRfZ0JieHZId0I2SDFwS0s5Q0IxRnlSMg?oc=5</id>
@@ -99,7 +177,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Not Micron. Not Sandisk. This Memory Stock Is Quietly Gaining Share. The Motley Fool&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Not Micron. Not Sandisk. This Memory Stock Is Quietly Gaining Share. The Motley Fool&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE90ZGk5eFRnXzJ0VW5Zb1lGR0w0THhCQXRnSVh5X1c5eHBRRWR4dzJSZTdjcllRTG5ZOGxsMnR1YTNST0M4dGphM2dHcmE3UXVEbXI2NHQzaWl6NTZRdF80WTBERFB6OExXeENHTGdxRGFRdGRDcmc?oc=5</id>
