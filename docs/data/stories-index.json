@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-10T12:28:41.153Z",
-  "count": 1577,
+  "generatedAt": "2026-10-10T21:41:50.808Z",
+  "count": 1582,
   "stories": [
+    {
+      "slug": "cxmt-to-leapfrog-samsung-by-2-years-as-it-gears-up-t-67e12326",
+      "url": "/stories/cxmt-to-leapfrog-samsung-by-2-years-as-it-gears-up-t-67e12326.html",
+      "title": "CXMT To Leapfrog Samsung By ~2 Years, As It Gears Up To Introduce A DDR5 RDIMM Product That Leverages The 4F² Memory Cell Architecture Before Year-End",
+      "tag": "supply",
+      "date": "2026-10-10",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "super-micro-smuggling-co-conspirator-pleads-guilty-t-427df22f",
+      "url": "/stories/super-micro-smuggling-co-conspirator-pleads-guilty-t-427df22f.html",
+      "title": "Super Micro smuggling co-conspirator pleads guilty to sending AI chips to China",
+      "tag": "supply",
+      "date": "2026-10-10",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "senate-investigation-says-that-some-ai-data-center-c-95eecf10",
+      "url": "/stories/senate-investigation-says-that-some-ai-data-center-c-95eecf10.html",
+      "title": "Senate investigation says that some AI data center claims are misleading",
+      "tag": "demand",
+      "date": "2026-10-10",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "us-based-system-integrator-says-gpu-prices-are-expec-87b5dc08",
+      "url": "/stories/us-based-system-integrator-says-gpu-prices-are-expec-87b5dc08.html",
+      "title": "US-Based System Integrator Says GPU Prices Are Expected To Soar Significantly, Making It Difficult To Secure Enough Inventory",
+      "tag": "supply",
+      "date": "2026-10-10",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "nvidia-reportedly-halts-geforce-rtx-5090-production-2581d1a7",
       "url": "/stories/nvidia-reportedly-halts-geforce-rtx-5090-production-2581d1a7.html",
@@ -67,6 +111,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pc-shipments-drop-20-1-in-q3-2026-as-dram-soars-http-0046eb2d",
+      "url": "/stories/pc-shipments-drop-20-1-in-q3-2026-as-dram-soars-http-0046eb2d.html",
+      "title": "PC Shipments Drop 20.1% in Q3 2026 as DRAM Soars - https://tech-insider.org/",
+      "tag": "earnings",
+      "date": "2026-10-10",
+      "score": 7,
+      "pick": false,
+      "source": "https://tech-insider.org/",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "elon-musk-would-be-better-off-sending-rockets-to-mar-5d258b33",
