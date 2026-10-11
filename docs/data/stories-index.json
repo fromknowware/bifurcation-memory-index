@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-10T21:41:50.808Z",
-  "count": 1582,
+  "generatedAt": "2026-10-11T05:43:37.361Z",
+  "count": 1585,
   "stories": [
+    {
+      "slug": "sk-hynix-q3-operating-profit-projected-at-77-trillio-99d8005f",
+      "url": "/stories/sk-hynix-q3-operating-profit-projected-at-77-trillio-99d8005f.html",
+      "title": "SK Hynix Q3 Operating Profit Projected at 77 Trillion Won…Challenging 80% Margin, Shattering Manufacturing Norms - BigGo Finance",
+      "tag": "earnings",
+      "date": "2026-10-11",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
     {
       "slug": "cxmt-to-leapfrog-samsung-by-2-years-as-it-gears-up-t-67e12326",
       "url": "/stories/cxmt-to-leapfrog-samsung-by-2-years-as-it-gears-up-t-67e12326.html",
@@ -11,6 +22,17 @@
       "score": 8,
       "pick": false,
       "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "game-hardware-sales-hit-13-year-low-as-dram-soars-20-236171c9",
+      "url": "/stories/game-hardware-sales-hit-13-year-low-as-dram-soars-20-236171c9.html",
+      "title": "Game Hardware Sales Hit 13-Year Low as DRAM Soars [2026] - https://tech-insider.org/",
+      "tag": "supply",
+      "date": "2026-10-10",
+      "score": 8,
+      "pick": false,
+      "source": "https://tech-insider.org/",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -100,6 +122,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-mobile-loss-widens-in-q3-as-memory-prices-so-9ce36e84",
+      "url": "/stories/samsung-mobile-loss-widens-in-q3-as-memory-prices-so-9ce36e84.html",
+      "title": "Samsung Mobile Loss Widens in Q3 As Memory Prices Soar - eTeknix",
+      "tag": "supply",
+      "date": "2026-10-10",
+      "score": 8,
+      "pick": false,
+      "source": "eTeknix",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "nvidia-reportedly-axes-rtx-5090-production-diverting-279320c8",
