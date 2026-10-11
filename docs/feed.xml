@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-11T12:46:11.507Z</updated>
+  <updated>2026-10-11T21:56:06.722Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/ssds/sandisk-nas-800-1-92tb-ssd-review</id>
+    <title type="html">Sandisk NAS 800 1.92TB SSD Review: Endurance at a premium</title>
+    <link href="https://www.tomshardware.com/pc-components/ssds/sandisk-nas-800-1-92tb-ssd-review" />
+    <link rel="related" href="/stories/sandisk-nas-800-1-92tb-ssd-review-endurance-at-a-pre-bb87d34a.html" />
+    <updated>2026-10-11T13:05:59.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMihAFBVV95cUxQYUtlM21zNEs0TGNqTm9xQS1PQTNhNlgxUGJqY2MyRG9PYzE3c2dSdnhPQXhtMFJUZjFla2FYUVRxNjNPYmQxWWNfeUMzYzBsUjBDLV9ha1U1VF9LRFZJY3pvdV9YVS10QzVJbUVQQlNHbzgwNU1wb0pLUXRpZUpZMmJEeDnSAYoBQVVfeXFMTVU1QVBYQ1F1RFZmQmdPc0VwZUx3R3dwM2phbmI3M1Z4VDl6U2RFX3VhVURRY1BGNlNtNk5SQTJIRXNKMDFmTS1zMy1wVXl3eXhOaTV1ZUxBbDNVQ1BoWm9EZ2J1VXh3MXd5TWo5bHhNckNmODhNT0tRc0k4X25obVZoU21DZWN0dENn?oc=5</id>
+    <title type="html">Qualcomm CEO Hints That Smartphones Capable Of Running 100B LLMs Could Arrive By 2028, Without Addressing Two Elephants In The Room; DRAM Supply &amp;amp; Cost - Wccftech</title>
+    <link href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQYUtlM21zNEs0TGNqTm9xQS1PQTNhNlgxUGJqY2MyRG9PYzE3c2dSdnhPQXhtMFJUZjFla2FYUVRxNjNPYmQxWWNfeUMzYzBsUjBDLV9ha1U1VF9LRFZJY3pvdV9YVS10QzVJbUVQQlNHbzgwNU1wb0pLUXRpZUpZMmJEeDnSAYoBQVVfeXFMTVU1QVBYQ1F1RFZmQmdPc0VwZUx3R3dwM2phbmI3M1Z4VDl6U2RFX3VhVURRY1BGNlNtNk5SQTJIRXNKMDFmTS1zMy1wVXl3eXhOaTV1ZUxBbDNVQ1BoWm9EZ2J1VXh3MXd5TWo5bHhNckNmODhNT0tRc0k4X25obVZoU21DZWN0dENn?oc=5" />
+    <link rel="related" href="/stories/qualcomm-ceo-hints-that-smartphones-capable-of-runni-374483b5.html" />
+    <updated>2026-10-11T11:57:03.000Z</updated>
+    <author><name>Wccftech</name></author>
+    <summary type="html">Qualcomm CEO Hints That Smartphones Capable Of Running 100B LLMs Could Arrive By 2028, Without Addressing Two Elephants In The Room; DRAM Supply &amp; Cost Wccftech RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Qualcomm CEO Hints That Smartphones Capable Of Running 100B LLMs Could Arrive By 2028, Without Addressing Two Elephants In The Room; DRAM Supply &amp; Cost Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://wccftech.com/qualcomm-ceo-smartphones-100b-llms-2028-dram-supply-cost/</id>
     <title type="html">Qualcomm CEO Hints That Smartphones Capable Of Running 100B LLMs Could Arrive By 2028, Without Addressing Two Elephants In The Room; DRAM Supply &amp; Cost</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;The biggest bottleneck of running denser AI models on smartphones is the memory count, and looking at the DRAM situation, it’s unlikely that we’ll cross the 16GB threshold soon. However, Qualcomm CEO Cristiano Amon believes that we’ll soon be living in an era where handsets can run 100B LLMs continuously and confirms that AI companies are building smartphones that can achieve this feat. As for the&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The biggest bottleneck of running denser AI models on smartphones is the memory count, and looking at the DRAM situation, it’s unlikely that we’ll cross the 16GB threshold soon. However, Qualcomm CEO Cristiano Amon believes that we’ll soon be living in an era where handsets can run 100B LLMs continuously and confirms that AI companies are building smartphones that can achieve this feat. As for the&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMid0FVX3lxTE5KQjNHUnV1Tm11OVdYdEtkVEtZQWl3MmxyaG4xeG1lbXZkc0pHVi1KSTRVd0RpbTRSX1JQUF9tSkVrc29TWnpLdFBfNXJBcTlhVXVVRlVlRkUtTHBKT28tT19IX3NubDFtVlBPZ0pyY1FVeEdTUHdJ?oc=5</id>
@@ -34,7 +60,20 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Humanoids emerge as new growth engine for Samsung, SK Hynix KED Global&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Humanoids emerge as new growth engine for Samsung, SK Hynix KED Global&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiekFVX3lxTE9ITmVfMEdyV25TM3E2ZE9aNFhKRHB4MzlRMWZUV1VnSjZWR1JDVW41R1VBZGU1M19QQ3dwY2xBZTZtdXl4NjViOGd3NHo5Q0Q5YkdsWVlfeFlaeE9VTENJclpyWE1YejdRaXY5VDVaUjJkRU8yZDJBV05n0gF_QVVfeXFMTU9kdVIyVmFYRkpwTnRjblNpQTVaNUdrQnpXdEh2dFZBVVEyT0c4WkNIMThKN1F1d3VHaFpLNF9YMEcxd2ZSck5MN1NKRWM3elBrV0M3ekh5ckd1SXFFZGJ1aEg4MlYxODQwYmk0cll0NV9Yalh1NlhOLXhRVGJLbw?oc=5</id>
+    <title type="html">CPU, DRAM, And SSD Now Eat 68% Of A $900 Laptop’s Build Cost, Forcing Makers Into Three Difficult Choices - Wccftech</title>
+    <link href="https://news.google.com/rss/articles/CBMiekFVX3lxTE9ITmVfMEdyV25TM3E2ZE9aNFhKRHB4MzlRMWZUV1VnSjZWR1JDVW41R1VBZGU1M19QQ3dwY2xBZTZtdXl4NjViOGd3NHo5Q0Q5YkdsWVlfeFlaeE9VTENJclpyWE1YejdRaXY5VDVaUjJkRU8yZDJBV05n0gF_QVVfeXFMTU9kdVIyVmFYRkpwTnRjblNpQTVaNUdrQnpXdEh2dFZBVVEyT0c4WkNIMThKN1F1d3VHaFpLNF9YMEcxd2ZSck5MN1NKRWM3elBrV0M3ekh5ckd1SXFFZGJ1aEg4MlYxODQwYmk0cll0NV9Yalh1NlhOLXhRVGJLbw?oc=5" />
+    <link rel="related" href="/stories/cpu-dram-and-ssd-now-eat-68-of-a-900-laptop-s-build-80abad5f.html" />
+    <updated>2026-10-11T09:33:02.000Z</updated>
+    <author><name>Wccftech</name></author>
+    <summary type="html">CPU, DRAM, And SSD Now Eat 68% Of A $900 Laptop’s Build Cost, Forcing Makers Into Three Difficult Choices Wccftech RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;CPU, DRAM, And SSD Now Eat 68% Of A $900 Laptop’s Build Cost, Forcing Makers Into Three Difficult Choices Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/notebooks-at-risk-of-declining-shipments-in-2027/</id>
@@ -47,7 +86,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;The component costs keep rising, and are now expected to affect the notebook shipments next year. TrendForce Expects Notebook Shipments to Fall by Single-Digit Percentage in 2027 Due to Rising Component Costs Not just standalone purchases, but also buying PCs, such as pre-built systems and laptops, has become incredibly difficult due to soaring component costs. We continue to see GPUs, memory, and&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The component costs keep rising, and are now expected to affect the notebook shipments next year. TrendForce Expects Notebook Shipments to Fall by Single-Digit Percentage in 2027 Due to Rising Component Costs Not just standalone purchases, but also buying PCs, such as pre-built systems and laptops, has become incredibly difficult due to soaring component costs. We continue to see GPUs, memory, and&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/nvidia-cuda-moat-rtx-spark-laptop-sales-surface-laptop-ultra-128gb-out-of-stock/</id>
@@ -60,7 +99,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Microsoft’s product page for the Surface Laptop Ultra shows the RTX Spark, 128GB unified memory, and 1TB SSD configuration priced at $5,899.99 is already listed as out of stock. While the lower-tier options are up for grabs, it indicates that the sellout may partly reflect limited early supply, but that’s unconfirmed because Microsoft hasn’t shared any data. However, the demand behind these RTX Sp&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Microsoft’s product page for the Surface Laptop Ultra shows the RTX Spark, 128GB unified memory, and 1TB SSD configuration priced at $5,899.99 is already listed as out of stock. While the lower-tier options are up for grabs, it indicates that the sellout may partly reflect limited early supply, but that’s unconfirmed because Microsoft hasn’t shared any data. However, the demand behind these RTX Sp&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.theregister.com/science/2026/10/11/researchers-work-out-how-to-control-2d-semiconductor-growth-for-future-chips/5301666</id>
@@ -73,7 +112,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Korean boffins use oxygen to stop crystals forming in the wrong places, aiming to get tech to commercial sector by 2030&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Korean boffins use oxygen to stop crystals forming in the wrong places, aiming to get tech to commercial sector by 2030&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/claude-ai-identifies-faulty-gskill-ram-bsod-free-replacement/</id>
@@ -86,7 +125,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;A user’s PC, completing its 5-year birthday, started showing various BSODs with error codes 0x0A, 0x1E, 0x3B, and 0x1A. Using Claude, the individual identified that his G.SKILL RAM was the reason behind these crashes, but since we’re in the middle of a memory crisis, it wasn’t financially feasible for the majority of consumers to order a replacement kit. Thankfully, Claude also helped the user wit&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;A user’s PC, completing its 5-year birthday, started showing various BSODs with error codes 0x0A, 0x1E, 0x3B, and 0x1A. Using Claude, the individual identified that his G.SKILL RAM was the reason behind these crashes, but since we’re in the middle of a memory crisis, it wasn’t financially feasible for the majority of consumers to order a replacement kit. Thankfully, Claude also helped the user wit&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMib0FVX3lxTE5ObEVSRmVyVmZENzFSem43aWlKWUFiY0w4MUhCQ3dJeFp4RU1kaDcxMXBBUm52UGZEQW9EUnZUaHB4WU51RF85bmZwSEg3bmRZQnlMVTlhdUh1TlJoT0ZZYnVlM2dKdDNiUHhTT1d1VQ?oc=5</id>
@@ -99,7 +138,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Why Is RAM So Expensive? How the AI Boom Is Raising the Price of Every Gadget You Buy Technology Org&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Why Is RAM So Expensive? How the AI Boom Is Raising the Price of Every Gadget You Buy Technology Org&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE1xQUx1MVN3cVByVF9ScXVyYmFkMVM3QmU5dXlwdi1tdlVzeVJyWmRrTnZMODd4RzVVYll6d3ViZnBYUmsxckRudlEzZlpJQnBFVlNZZ2d0Z0M4UTUwZnBaZkZUbE9kSTN5US1lSHl6cEFfYjdUUXc?oc=5</id>
