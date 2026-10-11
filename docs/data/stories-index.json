@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-10-11T05:43:37.361Z",
-  "count": 1585,
+  "generatedAt": "2026-10-11T12:46:13.861Z",
+  "count": 1592,
   "stories": [
+    {
+      "slug": "qualcomm-ceo-hints-that-smartphones-capable-of-runni-f845d11b",
+      "url": "/stories/qualcomm-ceo-hints-that-smartphones-capable-of-runni-f845d11b.html",
+      "title": "Qualcomm CEO Hints That Smartphones Capable Of Running 100B LLMs Could Arrive By 2028, Without Addressing Two Elephants In The Room; DRAM Supply & Cost",
+      "tag": "supply",
+      "date": "2026-10-11",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "humanoids-emerge-as-new-growth-engine-for-samsung-sk-29513f0a",
+      "url": "/stories/humanoids-emerge-as-new-growth-engine-for-samsung-sk-29513f0a.html",
+      "title": "Humanoids emerge as new growth engine for Samsung, SK Hynix - KED Global",
+      "tag": "supply",
+      "date": "2026-10-11",
+      "score": 8,
+      "pick": false,
+      "source": "KED Global",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "cpu-dram-and-ssd-now-eat-68-of-a-900-laptop-s-build-0b50aabe",
+      "url": "/stories/cpu-dram-and-ssd-now-eat-68-of-a-900-laptop-s-build-0b50aabe.html",
+      "title": "CPU, DRAM, And SSD Now Eat 68% Of A $900 Laptop’s Build Cost, Forcing Makers Into Three Difficult Choices",
+      "tag": "supply",
+      "date": "2026-10-11",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-s-cuda-moat-is-accelerating-rtx-spark-laptop-5f202c8f",
+      "url": "/stories/nvidia-s-cuda-moat-is-accelerating-rtx-spark-laptop-5f202c8f.html",
+      "title": "NVIDIA’s CUDA Moat Is Accelerating RTX Spark Laptop Sales, Higher 128GB Unified Memory Options Belonging To Surface Laptop Ultra Already Out Of Stock",
+      "tag": "demand",
+      "date": "2026-10-11",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "researchers-work-out-how-to-control-2d-semiconductor-3f8bb13e",
+      "url": "/stories/researchers-work-out-how-to-control-2d-semiconductor-3f8bb13e.html",
+      "title": "Researchers work out how to control 2D semiconductor growth for future chips",
+      "tag": "supply",
+      "date": "2026-10-11",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "claude-narrowed-down-faulty-g-skill-ram-as-the-culpr-571c4cb9",
+      "url": "/stories/claude-narrowed-down-faulty-g-skill-ram-as-the-culpr-571c4cb9.html",
+      "title": "Claude Narrowed Down Faulty G.SKILL RAM As The Culprit For Random BSODs Coming From A User’s PC, AI Also Aided In RMA Process, Resulting In A Free Memory Replacement",
+      "tag": "supply",
+      "date": "2026-10-11",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "why-is-ram-so-expensive-how-the-ai-boom-is-raising-t-70a5634f",
+      "url": "/stories/why-is-ram-so-expensive-how-the-ai-boom-is-raising-t-70a5634f.html",
+      "title": "Why Is RAM So Expensive? How the AI Boom Is Raising the Price of Every Gadget You Buy - Technology Org",
+      "tag": "supply",
+      "date": "2026-10-11",
+      "score": 8,
+      "pick": false,
+      "source": "Technology Org",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "sk-hynix-q3-operating-profit-projected-at-77-trillio-99d8005f",
       "url": "/stories/sk-hynix-q3-operating-profit-projected-at-77-trillio-99d8005f.html",
