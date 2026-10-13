@@ -1,7 +1,183 @@
 {
-  "generatedAt": "2026-10-13T14:08:25.508Z",
-  "count": 1671,
+  "generatedAt": "2026-10-13T22:42:27.476Z",
+  "count": 1693,
   "stories": [
+    {
+      "slug": "cooler-master-gpu-shield-gets-lower-price-and-warran-e6cb1b3e",
+      "url": "/stories/cooler-master-gpu-shield-gets-lower-price-and-warran-e6cb1b3e.html",
+      "title": "Cooler Master GPU Shield Gets Lower Price and Warranty Period in EU",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amperesand-aims-to-smooth-ai-data-center-power-spike-cbeaad2e",
+      "url": "/stories/amperesand-aims-to-smooth-ai-data-center-power-spike-cbeaad2e.html",
+      "title": "Amperesand Aims to Smooth AI Data Center Power Spikes",
+      "tag": "demand",
+      "date": "2026-10-13",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "hp-crams-a-full-pc-inside-a-keyboard-featuring-ryzen-153cbf81",
+      "url": "/stories/hp-crams-a-full-pc-inside-a-keyboard-featuring-ryzen-153cbf81.html",
+      "title": "HP Crams A Full PC Inside A Keyboard, Featuring Ryzen AI Pro 400 And Support For Up To 64 GB RAM",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-unleashes-a-swarm-of-mac-minions-to-share-gpu-4b04abda",
+      "url": "/stories/apple-unleashes-a-swarm-of-mac-minions-to-share-gpu-4b04abda.html",
+      "title": "Apple unleashes a swarm of Mac Minions to share GPU resources for large AI tasks",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "d-matrix-announces-squadron-compute-clusters-for-ai-9bc4f458",
+      "url": "/stories/d-matrix-announces-squadron-compute-clusters-for-ai-9bc4f458.html",
+      "title": "d-Matrix Announces Squadron Compute Clusters for AI Inference at Data Center Scale",
+      "tag": "demand",
+      "date": "2026-10-13",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sandisk-stock-price-forecast-changxin-memory-s-new-d-4bed0144",
+      "url": "/stories/sandisk-stock-price-forecast-changxin-memory-s-new-d-4bed0144.html",
+      "title": "SanDisk Stock Price Forecast: ChangXin Memory’s New DRAM Architecture Collaterally Hits NAND, HBF High-Bandwidth Flash Key to Turnaround - TradingKey",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "scaleway-deploys-ai-supercomputer-in-sweden-with-amd-7ec65d0c",
+      "url": "/stories/scaleway-deploys-ai-supercomputer-in-sweden-with-amd-7ec65d0c.html",
+      "title": "Scaleway Deploys AI Supercomputer in Sweden with AMD Instinct MI355X GPUs",
+      "tag": "demand",
+      "date": "2026-10-13",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "tsmc-could-hit-its-2027-2nm-capacity-goals-a-year-ea-fc304c29",
+      "url": "/stories/tsmc-could-hit-its-2027-2nm-capacity-goals-a-year-ea-fc304c29.html",
+      "title": "TSMC Could Hit Its 2027 2nm Capacity Goals A Year Early As NVIDIA, AMD And Apple Pile On Orders For Latest Chipmaking Tech",
+      "tag": "fab",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "cathie-wood-drops-bombshell-take-on-ai-memory-stocks-3c7e61e2",
+      "url": "/stories/cathie-wood-drops-bombshell-take-on-ai-memory-stocks-3c7e61e2.html",
+      "title": "Cathie Wood Drops Bombshell Take on AI Memory Stocks - TradingView",
+      "tag": "demand",
+      "date": "2026-10-13",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-stocks-fall-4-64-as-china-s-dram-push-tests-p-0e530cea",
+      "url": "/stories/micron-stocks-fall-4-64-as-china-s-dram-push-tests-p-0e530cea.html",
+      "title": "Micron Stocks Fall 4.64% as China's DRAM Push Tests Pricing Power - TradingView",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-s-ex-ceo-pat-gelsinger-says-hbm-is-a-hideous-m-4fe66747",
+      "url": "/stories/intel-s-ex-ceo-pat-gelsinger-says-hbm-is-a-hideous-m-4fe66747.html",
+      "title": "Intel’s Ex-CEO Pat Gelsinger Says HBM Is A “Hideous Memory,” Replete With Terrible Bit Density, And Thermal And Shoreline Bandwidth Issues, Even As Nanya Reiterates DRAM Shortages Till 2028",
+      "tag": "demand",
+      "date": "2026-10-13",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ramageddon-smartphone-prices-surge-20-amid-global-me-3dd37258",
+      "url": "/stories/ramageddon-smartphone-prices-surge-20-amid-global-me-3dd37258.html",
+      "title": "RAMageddon — Smartphone Prices Surge 20% Amid Global Memory Shortage - The Korea Daily",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "The Korea Daily",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "marvell-boosts-cxl-connected-memory-capacity-and-spe-40524b4b",
+      "url": "/stories/marvell-boosts-cxl-connected-memory-capacity-and-spe-40524b4b.html",
+      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind - Blocks &amp; Files",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "Blocks &amp; Files",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "why-micron-stock-dropped-again-on-tuesday-the-globe-6e25c212",
+      "url": "/stories/why-micron-stock-dropped-again-on-tuesday-the-globe-6e25c212.html",
+      "title": "Why Micron Stock Dropped Again on Tuesday - The Globe and Mail",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "The Globe and Mail",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-sk-hynix-stocks-tumble-as-chip-sell-off-deepe-22343787",
+      "url": "/stories/micron-sk-hynix-stocks-tumble-as-chip-sell-off-deepe-22343787.html",
+      "title": "Micron, SK Hynix stocks tumble as chip sell-off deepens following South Korean market rout - Yahoo Finance",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "Yahoo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "qnity-expands-thermal-management-solutions-for-ai-me-d83f75db",
+      "url": "/stories/qnity-expands-thermal-management-solutions-for-ai-me-d83f75db.html",
+      "title": "Qnity Expands Thermal Management Solutions for AI Memory Cooling - I-Connect007",
+      "tag": "demand",
+      "date": "2026-10-13",
+      "score": 7,
+      "pick": false,
+      "source": "I-Connect007",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "credo-breaks-the-memory-wall-using-amd-programmable-24a4dc3c",
       "url": "/stories/credo-breaks-the-memory-wall-using-amd-programmable-24a4dc3c.html",
@@ -12,6 +188,28 @@
       "pick": false,
       "source": "News-Press NOW",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "credo-breaks-the-memory-wall-using-amd-programmable-4a77a362",
+      "url": "/stories/credo-breaks-the-memory-wall-using-amd-programmable-4a77a362.html",
+      "title": "Credo Breaks the Memory Wall Using AMD Programmable Logic-Based AI Accelerators - Credo Technology Group Holding Ltd - Investor Relations",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "Credo Technology Group Holding Ltd - Investor Relations",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "is-micron-technology-nasdaq-mu-a-structural-winner-i-a65f8585",
+      "url": "/stories/is-micron-technology-nasdaq-mu-a-structural-winner-i-a65f8585.html",
+      "title": "Is Micron Technology (NASDAQ:MU) A Structural Winner In The AI Memory Cycle? - Kalkine Media",
+      "tag": "demand",
+      "date": "2026-10-13",
+      "score": 7,
+      "pick": false,
+      "source": "Kalkine Media",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "credo-breaks-the-memory-wall-using-amd-programmable-469e50a4",
@@ -36,6 +234,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "micron-s-hbm4-ramp-up-can-higher-pricing-lift-margin-64a778d6",
+      "url": "/stories/micron-s-hbm4-ramp-up-can-higher-pricing-lift-margin-64a778d6.html",
+      "title": "Micron's HBM4 Ramp-Up: Can Higher Pricing Lift Margins Further? - TradingView",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "for-just-1-449-this-gigabyte-laptop-packs-an-rtx-507-bf43cb5e",
       "url": "/stories/for-just-1-449-this-gigabyte-laptop-packs-an-rtx-507-bf43cb5e.html",
       "title": "For Just $1,449, This GIGABYTE Laptop Packs An RTX 5070 Ti, 32 GB RAM, And 1 TB SSD Alongside A Blazing-Fast 165 Hz Display",
@@ -44,6 +253,17 @@
       "score": 8,
       "pick": false,
       "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "cathie-wood-warns-china-capacity-could-worsen-memory-7a43d7de",
+      "url": "/stories/cathie-wood-warns-china-capacity-could-worsen-memory-7a43d7de.html",
+      "title": "Cathie Wood Warns China Capacity Could Worsen Memory-Chip Cycles - Briefs Finance",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "Briefs Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -78,6 +298,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "easy-money-is-past-why-investors-are-rethinking-the-1ad9d14d",
+      "url": "/stories/easy-money-is-past-why-investors-are-rethinking-the-1ad9d14d.html",
+      "title": "‘Easy money is past’: why investors are rethinking the AI memory-chip trade - South China Morning Post",
+      "tag": "demand",
+      "date": "2026-10-13",
+      "score": 7,
+      "pick": false,
+      "source": "South China Morning Post",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "european-datacenter-boom-threatens-higher-energy-bil-13152b40",
@@ -122,6 +353,17 @@
       "pick": false,
       "source": "Pluang",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-amd-demo-memory-expansion-to-ease-ai-bottlen-eb83e9b7",
+      "url": "/stories/samsung-amd-demo-memory-expansion-to-ease-ai-bottlen-eb83e9b7.html",
+      "title": "Samsung, AMD Demo Memory Expansion to Ease AI Bottleneck - Seoul Economic Daily",
+      "tag": "demand",
+      "date": "2026-10-13",
+      "score": 7,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "samsung-ai-memory-strategy-adds-cxl-pooling-with-amd-aff81e74",
