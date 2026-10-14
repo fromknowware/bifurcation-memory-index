@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-10-14T11:48:38.317Z",
-  "count": 1711,
+  "generatedAt": "2026-10-14T17:08:12.901Z",
+  "count": 1721,
   "stories": [
+    {
+      "slug": "micron-takes-another-hit-as-china-chip-fears-flare-t-cce3f2d8",
+      "url": "/stories/micron-takes-another-hit-as-china-chip-fears-flare-t-cce3f2d8.html",
+      "title": "Micron Takes Another Hit as China Chip Fears Flare - TradingView",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "characterization-of-hbm-power-consumption-eth-zurich-b923bed4",
+      "url": "/stories/characterization-of-hbm-power-consumption-eth-zurich-b923bed4.html",
+      "title": "Characterization of HBM Power Consumption (ETH Zurich, NYU)",
+      "tag": "demand",
+      "date": "2026-10-14",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-could-be-prioritizing-dram-s-lucrative-retu-8f3a8309",
+      "url": "/stories/sk-hynix-could-be-prioritizing-dram-s-lucrative-retu-8f3a8309.html",
+      "title": "SK hynix Could Be Prioritizing DRAM’s Lucrative Returns, Giving Rise To Speculations Surrounding HBM4’s Technical Problems As Backend Equipment Orders Slip To 2027",
+      "tag": "demand",
+      "date": "2026-10-14",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-s-pivot-towards-the-4f2-memory-cell-architectur-76f1fe79",
+      "url": "/stories/cxmt-s-pivot-towards-the-4f2-memory-cell-architectur-76f1fe79.html",
+      "title": "CXMT’s Pivot Towards The 4F² Memory Cell Architecture Can Allow It To Transition To 1d DRAM From 1c, But Yield-Related Skepticism Persists",
+      "tag": "fab",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "sk-hynix-to-place-custom-tiny-cpu-cores-in-its-ssd-c-2d9d5ac9",
+      "url": "/stories/sk-hynix-to-place-custom-tiny-cpu-cores-in-its-ssd-c-2d9d5ac9.html",
+      "title": "SK hynix to place custom tiny CPU cores in its SSD controllers to ease Arm load as drive speeds rocket",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "elon-musk-hints-at-samsung-charging-too-much-for-mem-15921ace",
+      "url": "/stories/elon-musk-hints-at-samsung-charging-too-much-for-mem-15921ace.html",
+      "title": "Elon Musk hints at Samsung charging too much for memory chips - SamMobile",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "SamMobile",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "asml-s-euv-expansion-runs-through-zeiss-aa843726",
+      "url": "/stories/asml-s-euv-expansion-runs-through-zeiss-aa843726.html",
+      "title": "ASML’s EUV Expansion Runs Through Zeiss",
+      "tag": "fab",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ai-memory-chips-2026-spherical-insights-d051a05d",
+      "url": "/stories/ai-memory-chips-2026-spherical-insights-d051a05d.html",
+      "title": "AI Memory Chips 2026 - Spherical Insights",
+      "tag": "demand",
+      "date": "2026-10-14",
+      "score": 7,
+      "pick": false,
+      "source": "Spherical Insights",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "elon-musk-s-terafab-will-reportedly-receive-its-firs-0d60c227",
+      "url": "/stories/elon-musk-s-terafab-will-reportedly-receive-its-firs-0d60c227.html",
+      "title": "Elon Musk's Terafab will reportedly receive its first EUV tool from ASML in mid-2027",
+      "tag": "fab",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ddr5-pricing-is-insane-greater-than-5x-increase-in-a-997b1408",
+      "url": "/stories/ddr5-pricing-is-insane-greater-than-5x-increase-in-a-997b1408.html",
+      "title": "DDR5 pricing is insane – Greater than 5x increase in a year - OC3D",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "OC3D",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "offset-extortionate-memory-pricing-with-32gb-of-ddr5-85bf8e35",
       "url": "/stories/offset-extortionate-memory-pricing-with-32gb-of-ddr5-85bf8e35.html",
