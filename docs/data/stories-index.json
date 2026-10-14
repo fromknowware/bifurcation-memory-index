@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-10-14T04:50:17.566Z",
-  "count": 1700,
+  "generatedAt": "2026-10-14T11:48:38.317Z",
+  "count": 1711,
   "stories": [
+    {
+      "slug": "offset-extortionate-memory-pricing-with-32gb-of-ddr5-85bf8e35",
+      "url": "/stories/offset-extortionate-memory-pricing-with-32gb-of-ddr5-85bf8e35.html",
+      "title": "Offset extortionate memory pricing with 32GB of DDR5-6000 RAM for $151 with this 9800X3D bundle",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "a-jailbroken-ps5-got-turned-into-a-local-ai-server-t-7049a6c7",
+      "url": "/stories/a-jailbroken-ps5-got-turned-into-a-local-ai-server-t-7049a6c7.html",
+      "title": "A Jailbroken PS5 Got Turned Into a Local AI Server That Can Run A 27B LLM, Smaller Models Can Reach Impressive Speeds Of 124 Tok/s, But There Are Limitations",
+      "tag": "demand",
+      "date": "2026-10-14",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-gpu-prices-spike-in-japan-prices-up-to-41-hig-29a70abf",
+      "url": "/stories/nvidia-gpu-prices-spike-in-japan-prices-up-to-41-hig-29a70abf.html",
+      "title": "Nvidia GPU prices spike in Japan; prices up to 41% higher than Amazon US",
+      "tag": "demand",
+      "date": "2026-10-14",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "32gb-of-ddr5-6000-ram-now-costs-450-86ce2983",
+      "url": "/stories/32gb-of-ddr5-6000-ram-now-costs-450-86ce2983.html",
+      "title": "32GB of DDR5 6000 RAM now costs $450",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "cxmt-s-4f2-ddr5-memory-plan-to-leapfrog-samsung-othe-b2f6984e",
+      "url": "/stories/cxmt-s-4f2-ddr5-memory-plan-to-leapfrog-samsung-othe-b2f6984e.html",
+      "title": "CXMT’s 4F² DDR5 Memory Plan To ‘Leapfrog’ Samsung & Others By Two Years Is A Paper Tiger, Say Analysts, As Sanctions Push It Into Bitter Corner",
+      "tag": "macro",
+      "date": "2026-10-14",
+      "score": 6,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "sk-hynix-a-november-deadline-a-talent-drain-to-china-c157ed9f",
+      "url": "/stories/sk-hynix-a-november-deadline-a-talent-drain-to-china-c157ed9f.html",
+      "title": "SK Hynix: A November Deadline, a Talent Drain to China, and the Case for 3D DRAM - ad-hoc-news.de",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "ad-hoc-news.de",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-sees-20-fold-ai-infrastructure-growth-korea-5bc6c55b",
+      "url": "/stories/sk-hynix-sees-20-fold-ai-infrastructure-growth-korea-5bc6c55b.html",
+      "title": "SK hynix sees 20-fold AI infrastructure growth - Korea JoongAng Daily",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "Korea JoongAng Daily",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-sink-on-cxmt-dram-tease-businesskor-ac44d865",
+      "url": "/stories/samsung-sk-hynix-sink-on-cxmt-dram-tease-businesskor-ac44d865.html",
+      "title": "Samsung, SK Hynix Sink on CXMT DRAM Tease - Businesskorea",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-looks-beyond-hbm-to-tackle-ai-memory-bottle-30a0ddf2",
+      "url": "/stories/sk-hynix-looks-beyond-hbm-to-tackle-ai-memory-bottle-30a0ddf2.html",
+      "title": "SK hynix looks beyond HBM to tackle AI memory bottlenecks - The Korea Herald",
+      "tag": "demand",
+      "date": "2026-10-14",
+      "score": 7,
+      "pick": false,
+      "source": "The Korea Herald",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "musk-says-memory-prices-outrageous-except-micron-rem-50e78261",
       "url": "/stories/musk-says-memory-prices-outrageous-except-micron-rem-50e78261.html",
@@ -80,6 +179,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "samsung-expands-ai-memory-storage-strategies-borneo-7e37e0e8",
+      "url": "/stories/samsung-expands-ai-memory-storage-strategies-borneo-7e37e0e8.html",
+      "title": "Samsung expands AI memory, storage strategies - Borneo Bulletin",
+      "tag": "demand",
+      "date": "2026-10-13",
+      "score": 7,
+      "pick": false,
+      "source": "Borneo Bulletin",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "hp-crams-a-full-pc-inside-a-keyboard-featuring-ryzen-153cbf81",
       "url": "/stories/hp-crams-a-full-pc-inside-a-keyboard-featuring-ryzen-153cbf81.html",
       "title": "HP Crams A Full PC Inside A Keyboard, Featuring Ryzen AI Pro 400 And Support For Up To 64 GB RAM",
@@ -155,6 +265,17 @@
       "pick": false,
       "source": "TradingView",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-stocks-fall-4-64-as-china-s-dram-push-tests-p-cd6c0814",
+      "url": "/stories/micron-stocks-fall-4-64-as-china-s-dram-push-tests-p-cd6c0814.html",
+      "title": "Micron Stocks Fall 4.64% as China's DRAM Push Tests Pricing Power - Yahoo Finance",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "Yahoo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "micron-stocks-fall-4-64-as-china-s-dram-push-tests-p-0e530cea",
