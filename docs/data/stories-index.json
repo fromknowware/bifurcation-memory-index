@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-10-13T22:42:27.476Z",
-  "count": 1693,
+  "generatedAt": "2026-10-14T04:50:17.566Z",
+  "count": 1700,
   "stories": [
+    {
+      "slug": "musk-says-memory-prices-outrageous-except-micron-rem-50e78261",
+      "url": "/stories/musk-says-memory-prices-outrageous-except-micron-rem-50e78261.html",
+      "title": "Musk Says Memory Prices \"Outrageous\" Except Micron—Remarks Seen Targeting Samsung, SK Hynix - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "musk-calls-micron-memory-prices-reasonable-2026-http-a7ab7495",
+      "url": "/stories/musk-calls-micron-memory-prices-reasonable-2026-http-a7ab7495.html",
+      "title": "Musk Calls Micron Memory Prices Reasonable [2026] - https://tech-insider.org/",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "https://tech-insider.org/",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "musk-slams-memory-chip-pricing-raising-questions-ove-2f9fadac",
+      "url": "/stories/musk-slams-memory-chip-pricing-raising-questions-ove-2f9fadac.html",
+      "title": "Musk Slams Memory Chip Pricing, Raising Questions Over Samsung, SK hynix - Businesskorea",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-slumps-10-as-cxmt-s-4f2-dram-ambitions-meet-f644c4d0",
+      "url": "/stories/sk-hynix-slumps-10-as-cxmt-s-4f2-dram-ambitions-meet-f644c4d0.html",
+      "title": "SK Hynix Slumps 10% as CXMT's 4F² DRAM Ambitions Meet Fading Buyback Support - ad-hoc-news.de",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "ad-hoc-news.de",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "upscale-ai-launches-token-fabric-to-make-rival-ai-ch-5ad952d8",
+      "url": "/stories/upscale-ai-launches-token-fabric-to-make-rival-ai-ch-5ad952d8.html",
+      "title": "Upscale AI Launches Token Fabric to Make Rival AI Chips Work Together",
+      "tag": "demand",
+      "date": "2026-10-13",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "cooler-master-gpu-shield-gets-lower-price-and-warran-e6cb1b3e",
       "url": "/stories/cooler-master-gpu-shield-gets-lower-price-and-warran-e6cb1b3e.html",
@@ -143,6 +198,17 @@
       "score": 8,
       "pick": false,
       "source": "Blocks &amp; Files",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "why-micron-stock-dropped-again-on-tuesday-the-globe-8457286d",
+      "url": "/stories/why-micron-stock-dropped-again-on-tuesday-the-globe-8457286d.html",
+      "title": "Why Micron Stock Dropped Again on Tuesday - The Globe and Mail",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "The Globe and Mail",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -418,6 +484,17 @@
       "score": 8,
       "pick": false,
       "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-plunges-9-on-china-dram-scare-a-clear-trigg-67e0aa1d",
+      "url": "/stories/sk-hynix-plunges-9-on-china-dram-scare-a-clear-trigg-67e0aa1d.html",
+      "title": "SK Hynix Plunges 9% on China DRAM Scare: “A Clear Trigger for the Selloff” - Yahoo Finance",
+      "tag": "supply",
+      "date": "2026-10-13",
+      "score": 8,
+      "pick": false,
+      "source": "Yahoo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
