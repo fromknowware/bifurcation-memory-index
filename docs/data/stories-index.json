@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-10-15T11:25:23.445Z",
-  "count": 1746,
+  "generatedAt": "2026-10-15T16:58:14.793Z",
+  "count": 1764,
   "stories": [
+    {
+      "slug": "pr-sp-industrial-introduces-six-new-enterprise-ssd-s-32546977",
+      "url": "/stories/pr-sp-industrial-introduces-six-new-enterprise-ssd-s-32546977.html",
+      "title": "(PR) SP Industrial Introduces Six New Enterprise SSD Solutions",
+      "tag": "demand",
+      "date": "2026-10-15",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "leaker-hints-at-512-gb-partner-versions-of-intel-039-d1dd9c49",
+      "url": "/stories/leaker-hints-at-512-gb-partner-versions-of-intel-039-d1dd9c49.html",
+      "title": "Leaker Hints at 512 GB Partner Versions of Intel&#039;s GPU D-Series",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-fadu-reveals-world-039-s-first-file-semantic-ssd-cf528e0f",
+      "url": "/stories/pr-fadu-reveals-world-039-s-first-file-semantic-ssd-cf528e0f.html",
+      "title": "(PR) FADU Reveals World&#039;s First \"File-Semantic SSD\" (FS-SSD) at OCP 2026",
+      "tag": "demand",
+      "date": "2026-10-15",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-electronics-highlights-limits-of-ai-memory-s-700d7b22",
+      "url": "/stories/samsung-electronics-highlights-limits-of-ai-memory-s-700d7b22.html",
+      "title": "Samsung Electronics Highlights Limits of AI Memory Standardization at JEDEC Forum - THE ELEC, Korea Electronics Industry Media",
+      "tag": "demand",
+      "date": "2026-10-15",
+      "score": 7,
+      "pick": false,
+      "source": "THE ELEC, Korea Electronics Industry Media",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "techwing-s-third-quarter-revenue-more-than-doubles-o-6dfd47e7",
+      "url": "/stories/techwing-s-third-quarter-revenue-more-than-doubles-o-6dfd47e7.html",
+      "title": "Techwing's Third-Quarter Revenue More Than Doubles on Memory Chip Boom - THE ELEC, Korea Electronics Industry Media",
+      "tag": "earnings",
+      "date": "2026-10-15",
+      "score": 7,
+      "pick": false,
+      "source": "THE ELEC, Korea Electronics Industry Media",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "why-is-micron-stock-still-dropping-the-globe-and-mai-e1e7f4d0",
+      "url": "/stories/why-is-micron-stock-still-dropping-the-globe-and-mai-e1e7f4d0.html",
+      "title": "Why Is Micron Stock Still Dropping? - The Globe and Mail",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "The Globe and Mail",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chinese-startup-unveils-first-euv-light-source-proto-702165b0",
+      "url": "/stories/chinese-startup-unveils-first-euv-light-source-proto-702165b0.html",
+      "title": "Chinese Startup Unveils First EUV Light Source Prototype To Challenge ASML’s Monopoly, But Dutch Firm Won’t Be Losing Any Sleep Over This Progress",
+      "tag": "fab",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "data-orchestration-the-foundation-for-the-next-gener-1f12a123",
+      "url": "/stories/data-orchestration-the-foundation-for-the-next-gener-1f12a123.html",
+      "title": "Data Orchestration: The Foundation for the Next-generation Semiconductor Enterprise",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sandisk-sinks-5-6-as-rate-jitters-and-a-chinese-dram-acd13edf",
+      "url": "/stories/sandisk-sinks-5-6-as-rate-jitters-and-a-chinese-dram-acd13edf.html",
+      "title": "SanDisk Sinks 5.6% as Rate Jitters and a Chinese DRAM Story Hit the Wrong Target - ad-hoc-news.de",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "ad-hoc-news.de",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "tsmc-sends-scouts-to-check-whether-america-s-datacen-2c90d674",
+      "url": "/stories/tsmc-sends-scouts-to-check-whether-america-s-datacen-2c90d674.html",
+      "title": "TSMC sends scouts to check whether America's datacenters can deliver",
+      "tag": "fab",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "asus-expertbook-a7-gets-ryzen-ai-300-cpus-and-3k-120-52f27b08",
+      "url": "/stories/asus-expertbook-a7-gets-ryzen-ai-300-cpus-and-3k-120-52f27b08.html",
+      "title": "ASUS ExpertBook A7 Gets Ryzen AI 300 CPUs And 3K 120 Hz OLED Screen, But Storage Tops Out At Just 512 GB",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-arc-gpu-graphics-drivers-101-9150-whql-release-897542e4",
+      "url": "/stories/intel-arc-gpu-graphics-drivers-101-9150-whql-release-897542e4.html",
+      "title": "Intel Arc GPU Graphics Drivers 101.9150 WHQL Released",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "netlist-expands-memory-product-line-with-new-ddr5-mo-35a34854",
+      "url": "/stories/netlist-expands-memory-product-line-with-new-ddr5-mo-35a34854.html",
+      "title": "Netlist expands memory product line with new DDR5 modules By Investing.com - Investing.com Canada",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "Investing.com Canada",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "save-249-on-32gb-of-ddr5-with-this-3-item-newegg-bun-46df5dba",
+      "url": "/stories/save-249-on-32gb-of-ddr5-with-this-3-item-newegg-bun-46df5dba.html",
+      "title": "Save $249 on 32GB of DDR5 with this 3-item Newegg bundle",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "tsmc-confirms-it-is-considering-terafab-chipmaking-e-aa46a0d7",
       "url": "/stories/tsmc-confirms-it-is-considering-terafab-chipmaking-e-aa46a0d7.html",
@@ -22,6 +176,17 @@
       "score": 8,
       "pick": false,
       "source": "Kings Research",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "elon-musk-calls-out-memory-makers-over-extortionate-85f3a79a",
+      "url": "/stories/elon-musk-calls-out-memory-makers-over-extortionate-85f3a79a.html",
+      "title": "Elon Musk calls out memory makers over 'extortionate' chip pricing, says Micron is playing smart for long-term loyalty — yet Micron is pulling in 90% margins on consumer RAM - Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -66,6 +231,28 @@
       "score": 8,
       "pick": false,
       "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-prices-set-to-rise-further-in-fourth-quarter-f4672caa",
+      "url": "/stories/memory-prices-set-to-rise-further-in-fourth-quarter-f4672caa.html",
+      "title": "Memory prices set to rise further in fourth quarter, boosting earnings at Korean chipmakers - 머니투데이",
+      "tag": "earnings",
+      "date": "2026-10-15",
+      "score": 7,
+      "pick": false,
+      "source": "머니투데이",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "agentic-ai-alters-the-cpu-gpu-balance-f20f5885",
+      "url": "/stories/agentic-ai-alters-the-cpu-gpu-balance-f20f5885.html",
+      "title": "Agentic AI Alters The CPU-GPU Balance",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -132,6 +319,17 @@
       "score": 8,
       "pick": false,
       "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "uk-ddr5-32gb-kit-jumps-5-3x-in-13-months-but-spec-ch-1a28d627",
+      "url": "/stories/uk-ddr5-32gb-kit-jumps-5-3x-in-13-months-but-spec-ch-1a28d627.html",
+      "title": "UK DDR5 32GB Kit Jumps 5.3x in 13 Months, but Spec Choices Can Still Cut Costs - XenoSpectrum",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "XenoSpectrum",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
