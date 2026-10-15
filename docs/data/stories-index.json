@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-10-15T16:58:14.793Z",
-  "count": 1764,
+  "generatedAt": "2026-10-15T21:20:44.216Z",
+  "count": 1770,
   "stories": [
+    {
+      "slug": "dram-giants-get-rich-as-china-builds-a-threat-24-7-w-c7b45975",
+      "url": "/stories/dram-giants-get-rich-as-china-builds-a-threat-24-7-w-c7b45975.html",
+      "title": "DRAM Giants Get Rich as China Builds a Threat - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ddr5-ai-server-memory-market-to-reach-usd-6-80-billi-f59c0230",
+      "url": "/stories/ddr5-ai-server-memory-market-to-reach-usd-6-80-billi-f59c0230.html",
+      "title": "DDR5 AI Server Memory Market to Reach USD 6.80 Billion by 2035 as 256 GB Modules and Multi-Terabyte Hosts Scale - DC Market Insights - PR Newswire",
+      "tag": "demand",
+      "date": "2026-10-15",
+      "score": 7,
+      "pick": false,
+      "source": "PR Newswire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pr-xcena-showcases-cxl-memory-innovations-for-ai-inf-2cd8fe47",
+      "url": "/stories/pr-xcena-showcases-cxl-memory-innovations-for-ai-inf-2cd8fe47.html",
+      "title": "(PR) XCENA Showcases CXL Memory Innovations for AI Inference at OCP Global Summit 2026",
+      "tag": "demand",
+      "date": "2026-10-15",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "elon-musk-s-terafab-poached-a-ton-of-talent-from-sam-51fddb11",
+      "url": "/stories/elon-musk-s-terafab-poached-a-ton-of-talent-from-sam-51fddb11.html",
+      "title": "Elon Musk’s Terafab Poached “A Ton” Of Talent From Samsung’s Taylor Fab, As Tesla Asked For “Shitty Terms” On The AI5 Chip, A Korean Engineer Claims",
+      "tag": "fab",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "sk-hynix-reportedly-playing-hardball-with-trump-admi-d31b2986",
+      "url": "/stories/sk-hynix-reportedly-playing-hardball-with-trump-admi-d31b2986.html",
+      "title": "SK hynix reportedly playing hardball with Trump admin over 3D NAND fab",
+      "tag": "fab",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "pr-sp-industrial-introduces-six-new-enterprise-ssd-s-32546977",
       "url": "/stories/pr-sp-industrial-introduces-six-new-enterprise-ssd-s-32546977.html",
@@ -155,6 +210,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-s-longsys-sees-nine-month-net-profit-surge-nea-32457b2c",
+      "url": "/stories/china-s-longsys-sees-nine-month-net-profit-surge-nea-32457b2c.html",
+      "title": "China's Longsys sees nine-month net profit surge nearly 20-fold as memory price tailwind fades - BigGo Finance",
+      "tag": "earnings",
+      "date": "2026-10-15",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "tsmc-confirms-it-is-considering-terafab-chipmaking-e-aa46a0d7",
