@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-10-15T04:35:03.900Z",
-  "count": 1736,
+  "generatedAt": "2026-10-15T11:25:23.445Z",
+  "count": 1746,
   "stories": [
+    {
+      "slug": "tsmc-confirms-it-is-considering-terafab-chipmaking-e-aa46a0d7",
+      "url": "/stories/tsmc-confirms-it-is-considering-terafab-chipmaking-e-aa46a0d7.html",
+      "title": "TSMC confirms it is considering Terafab chipmaking expansion with Elon Musk",
+      "tag": "fab",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "dram-market-can-china-challenge-the-big-three-kings-227544b2",
+      "url": "/stories/dram-market-can-china-challenge-the-big-three-kings-227544b2.html",
+      "title": "DRAM Market: Can China Challenge the Big Three? - Kings Research",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "Kings Research",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "elon-musk-calls-out-memory-makers-over-extortionate-9fba3827",
+      "url": "/stories/elon-musk-calls-out-memory-makers-over-extortionate-9fba3827.html",
+      "title": "Elon Musk calls out memory makers over 'extortionate' chip pricing, says Micron is playing smart for long-term loyalty",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-rubin-gpus-expected-to-stick-with-12-hi-hbm4-867d6c66",
+      "url": "/stories/nvidia-rubin-gpus-expected-to-stick-with-12-hi-hbm4-867d6c66.html",
+      "title": "NVIDIA Rubin GPUs Expected To Stick With 12-Hi HBM4 Despite Reports Of An 8-Hi Shift, As HBM Prices Could Surge 121% In 2027",
+      "tag": "demand",
+      "date": "2026-10-15",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "two-killed-one-seriously-hurt-in-explosion-at-intel-be036c4e",
+      "url": "/stories/two-killed-one-seriously-hurt-in-explosion-at-intel-be036c4e.html",
+      "title": "Two killed, one seriously hurt in explosion at Intel’s chip plant in Israel",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "the-ai-boom-grants-sk-hynix-newfound-negotiating-pow-8608b747",
+      "url": "/stories/the-ai-boom-grants-sk-hynix-newfound-negotiating-pow-8608b747.html",
+      "title": "The AI Boom Grants SK hynix Newfound Negotiating Power As Memory Giant Wants Its Chipmaking Equipment In China In Exchange For A Salivating Offer With The U.S.",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "innodisk-ddr5-8000-rdimm-targets-rising-demand-in-ed-05cbee74",
+      "url": "/stories/innodisk-ddr5-8000-rdimm-targets-rising-demand-in-ed-05cbee74.html",
+      "title": "Innodisk DDR5 8000 RDIMM targets rising demand in edge AI - Astute Group",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "Astute Group",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "musk-says-china-will-mass-produce-memory-chips-by-20-9bdc8a6c",
+      "url": "/stories/musk-says-china-will-mass-produce-memory-chips-by-20-9bdc8a6c.html",
+      "title": "Musk Says China Will Mass-Produce Memory Chips by 2028, Praises Micron's Pricing While Taking Aim at Korean Rivals - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "samsung-sk-hynix-escalate-korea-ai-chip-race-with-hb-93601a36",
       "url": "/stories/samsung-sk-hynix-escalate-korea-ai-chip-race-with-hb-93601a36.html",
@@ -58,6 +146,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "samsung-chases-faster-hbm4-sk-hynix-goes-taller-kore-3d112f81",
+      "url": "/stories/samsung-chases-faster-hbm4-sk-hynix-goes-taller-kore-3d112f81.html",
+      "title": "Samsung Chases Faster HBM4, SK Hynix Goes Taller: Korea’s AI Memory War Begins - Tech Times",
+      "tag": "demand",
+      "date": "2026-10-14",
+      "score": 7,
+      "pick": false,
+      "source": "Tech Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "semiconductor-supercycle-a-boon-for-chipmakers-a-ban-dfe064af",
       "url": "/stories/semiconductor-supercycle-a-boon-for-chipmakers-a-ban-dfe064af.html",
       "title": "Semiconductor supercycle a boon for chipmakers, a bane for smartphone brands - Korea JoongAng Daily",
@@ -77,6 +176,17 @@
       "score": 8,
       "pick": false,
       "source": "TweakTown",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-sees-20-fold-jump-in-ai-compute-needs-by-20-3193312e",
+      "url": "/stories/sk-hynix-sees-20-fold-jump-in-ai-compute-needs-by-20-3193312e.html",
+      "title": "SK Hynix sees 20-fold jump in AI compute needs by 2030 - KED Global",
+      "tag": "supply",
+      "date": "2026-10-14",
+      "score": 8,
+      "pick": false,
+      "source": "KED Global",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
