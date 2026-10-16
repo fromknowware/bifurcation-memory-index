@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-10-16T04:29:00.035Z",
-  "count": 1775,
+  "generatedAt": "2026-10-16T11:20:03.880Z",
+  "count": 1786,
   "stories": [
+    {
+      "slug": "corsair-s-vengeance-rgb-ddr5-32gb-memory-receives-a-6327dd55",
+      "url": "/stories/corsair-s-vengeance-rgb-ddr5-32gb-memory-receives-a-6327dd55.html",
+      "title": "Corsair's Vengeance RGB DDR5 32GB memory receives a $108 price cut",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "newegg-has-slashed-260-off-this-all-amd-4k-gaming-pc-3d3c91f4",
+      "url": "/stories/newegg-has-slashed-260-off-this-all-amd-4k-gaming-pc-3d3c91f4.html",
+      "title": "Newegg has slashed $260 off this all-AMD 4K gaming PC — 9800X3D and Radeon RX 9070 XT combo comes with 32GB of DDR5 and a 2TB SSD",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "general-purpose-dram-that-s-thin-for-server-price-ju-56e8dcfa",
+      "url": "/stories/general-purpose-dram-that-s-thin-for-server-price-ju-56e8dcfa.html",
+      "title": "General purpose DRAM that's thin for server... Price jumps up to 15% in Q4 - 매일경제",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "매일경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-squeezes-two-crescent-island-gpus-onto-one-liq-d05a0634",
+      "url": "/stories/intel-squeezes-two-crescent-island-gpus-onto-one-liq-d05a0634.html",
+      "title": "Intel Squeezes Two Crescent Island GPUs Onto One Liquid-Cooled OAM Card, And First Xe3P Die Shots Show A Chip Smaller Than Big Battlemage",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-team-group-t-create-expert-ai-cqdimm-ddr5-memory-0f02ac18",
+      "url": "/stories/pr-team-group-t-create-expert-ai-cqdimm-ddr5-memory-0f02ac18.html",
+      "title": "(PR) Team Group T-Create Expert Ai CQDIMM DDR5 Memory Wins Good Design Award 2026",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ibm-opens-its-0-7nm-nanostack-process-to-chip-design-a6a348cb",
+      "url": "/stories/ibm-opens-its-0-7nm-nanostack-process-to-chip-design-a6a348cb.html",
+      "title": "IBM Opens Its 0.7nm Nanostack Process To Chip Designers In Q1 2027, Shipping Design Kits For Tech That Could Be The Next Breakthrough For Reducing AI Chip Size",
+      "tag": "fab",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "malaysia-s-semiconductor-export-surged-82-in-first-e-7323636a",
+      "url": "/stories/malaysia-s-semiconductor-export-surged-82-in-first-e-7323636a.html",
+      "title": "Malaysia's Semiconductor Export Surged 82% In First Eight Months, Can This Momentum Continue? - BusinessToday Malaysia",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "BusinessToday Malaysia",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "did-samsung-just-break-the-memory-trade-what-s-next-31769523",
+      "url": "/stories/did-samsung-just-break-the-memory-trade-what-s-next-31769523.html",
+      "title": "Did Samsung Just Break The Memory Trade? What's Next For MU, SNDK And SKHY Happy Mother's Day (adYFmfsP0m) - Unisba Media",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "Unisba Media",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "malaysia-s-semiconductor-exports-surge-82-4pct-in-fi-f1133358",
       "url": "/stories/malaysia-s-semiconductor-exports-surge-82-4pct-in-fi-f1133358.html",
@@ -36,6 +124,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "yang-yige-micron-overtakes-sk-hynix-on-the-legacy-dr-d55203e4",
+      "url": "/stories/yang-yige-micron-overtakes-sk-hynix-on-the-legacy-dr-d55203e4.html",
+      "title": "Yang Yige: Micron Overtakes SK Hynix on the \"Legacy DRAM Price Surge,\" but the Real Test Lies in HBM4E - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "quick-spark-dram-etf-extends-losing-streak-but-ceo-s-2c147e0f",
       "url": "/stories/quick-spark-dram-etf-extends-losing-streak-but-ceo-s-2c147e0f.html",
       "title": "QUICK SPARK: DRAM ETF Extends Losing Streak, But CEO Sees Long-Term Upside - TradingView",
@@ -55,6 +154,17 @@
       "score": 8,
       "pick": false,
       "source": "Pluang",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-giants-get-rich-as-china-builds-a-threat-24-7-w-a5d4189b",
+      "url": "/stories/dram-giants-get-rich-as-china-builds-a-threat-24-7-w-a5d4189b.html",
+      "title": "DRAM Giants Get Rich as China Builds a Threat - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -122,6 +232,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "why-is-micron-stock-still-dropping-the-motley-fool-14fde3e3",
+      "url": "/stories/why-is-micron-stock-still-dropping-the-motley-fool-14fde3e3.html",
+      "title": "Why Is Micron Stock Still Dropping? - The Motley Fool",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "The Motley Fool",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "leaker-hints-at-512-gb-partner-versions-of-intel-039-d1dd9c49",
