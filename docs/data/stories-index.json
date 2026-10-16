@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-10-16T11:20:03.880Z",
-  "count": 1786,
+  "generatedAt": "2026-10-16T16:36:32.557Z",
+  "count": 1799,
   "stories": [
+    {
+      "slug": "china-startup-demoes-prototype-euv-light-source-06c3a221",
+      "url": "/stories/china-startup-demoes-prototype-euv-light-source-06c3a221.html",
+      "title": "China startup demoes prototype EUV light source",
+      "tag": "fab",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-to-break-ground-on-second-taylor-fab-in-nove-bb71f835",
+      "url": "/stories/samsung-to-break-ground-on-second-taylor-fab-in-nove-bb71f835.html",
+      "title": "Samsung to Break Ground on Second Taylor Fab in November, Production Targeted for 2030",
+      "tag": "fab",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "just-how-rosy-is-that-datacenter-buildout-forecast-646caa20",
+      "url": "/stories/just-how-rosy-is-that-datacenter-buildout-forecast-646caa20.html",
+      "title": "Just How Rosy Is That Datacenter Buildout Forecast?",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "The Next Platform",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-stocks-slide-again-as-micron-drops-over-3-but-33387bff",
+      "url": "/stories/memory-stocks-slide-again-as-micron-drops-over-3-but-33387bff.html",
+      "title": "Memory Stocks Slide Again as Micron Drops Over 3%, But Goldman Says Market Overestimates CXMT Tech Impact - TradingKey",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "data-center-power-a-prominent-highlight-of-ocp-2026-4ca1d89c",
+      "url": "/stories/data-center-power-a-prominent-highlight-of-ocp-2026-4ca1d89c.html",
+      "title": "Data Center Power a Prominent Highlight of OCP 2026",
+      "tag": "demand",
+      "date": "2026-10-16",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "china-now-requires-an-export-license-for-all-new-lar-e74d3191",
+      "url": "/stories/china-now-requires-an-export-license-for-all-new-lar-e74d3191.html",
+      "title": "China Now Requires An Export License For All New Large AI Models, Potentially Affecting Moonshot’s Unreleased Kimi K3.1, As Taiwan Criminalizes Smuggling Of Advanced Chips To China",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-sandisk-and-micron-drop-3-despite-goldman-s-2bb16c20",
+      "url": "/stories/sk-hynix-sandisk-and-micron-drop-3-despite-goldman-s-2bb16c20.html",
+      "title": "SK Hynix, SanDisk, and Micron Drop 3% Despite Goldman Sachs Calling China Chip Fears Overdone - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-s-memory-chip-crunch-is-crushing-the-smartphone-m-72d761e4",
+      "url": "/stories/ai-s-memory-chip-crunch-is-crushing-the-smartphone-m-72d761e4.html",
+      "title": "AI’s memory chip crunch is crushing the smartphone market - Fast Company",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "Fast Company",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "skhy-stock-slumps-as-cxmt-dram-claims-rattle-chip-tr-c99aa244",
+      "url": "/stories/skhy-stock-slumps-as-cxmt-dram-claims-rattle-chip-tr-c99aa244.html",
+      "title": "SKHY Stock Slumps As CXMT DRAM Claims Rattle Chip Traders - StocksToTrade",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "StocksToTrade",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-s-u-s-subsidiary-has-an-ace-up-its-sleeve-t-db887634",
+      "url": "/stories/sk-hynix-s-u-s-subsidiary-has-an-ace-up-its-sleeve-t-db887634.html",
+      "title": "SK hynix’s U.S. Subsidiary Has An Ace Up Its Sleeve To Soften China-Related Restrictions; Hiring Lobbying Veteran Who Has Been A 30-Year Acquaintance Of Donald Trump",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "skhy-stock-slides-as-cxmt-dram-claims-rattle-chip-tr-2918c4eb",
+      "url": "/stories/skhy-stock-slides-as-cxmt-dram-claims-rattle-chip-tr-2918c4eb.html",
+      "title": "SKHY Stock Slides As CXMT DRAM Claims Rattle Chip Traders - Timothy Sykes",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "Timothy Sykes",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "corsair-s-vengeance-rgb-ddr5-32gb-memory-receives-a-6327dd55",
       "url": "/stories/corsair-s-vengeance-rgb-ddr5-32gb-memory-receives-a-6327dd55.html",
@@ -23,6 +144,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-unveils-next-gen-ai-memory-technologies-kor-16c71099",
+      "url": "/stories/sk-hynix-unveils-next-gen-ai-memory-technologies-kor-16c71099.html",
+      "title": "SK hynix unveils next-gen AI memory technologies - Korea JoongAng Daily",
+      "tag": "demand",
+      "date": "2026-10-16",
+      "score": 7,
+      "pick": false,
+      "source": "Korea JoongAng Daily",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "general-purpose-dram-that-s-thin-for-server-price-ju-56e8dcfa",
@@ -55,6 +187,17 @@
       "score": 8,
       "pick": false,
       "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "server-prices-surge-fourfold-amid-memory-shortage-a-31257db4",
+      "url": "/stories/server-prices-surge-fourfold-amid-memory-shortage-a-31257db4.html",
+      "title": "Server Prices Surge Fourfold Amid Memory Shortage—A Double-Edged Sword for Samsung and SK Hynix - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
