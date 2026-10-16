@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-10-15T21:20:44.216Z",
-  "count": 1770,
+  "generatedAt": "2026-10-16T04:29:00.035Z",
+  "count": 1775,
   "stories": [
+    {
+      "slug": "malaysia-s-semiconductor-exports-surge-82-4pct-in-fi-f1133358",
+      "url": "/stories/malaysia-s-semiconductor-exports-surge-82-4pct-in-fi-f1133358.html",
+      "title": "Malaysia's semiconductor exports surge 82.4pct in first eight months of 2026 - KLSE Screener",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "KLSE Screener",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-showcases-next-generation-ai-memory-technol-084cd1d3",
+      "url": "/stories/sk-hynix-showcases-next-generation-ai-memory-technol-084cd1d3.html",
+      "title": "SK hynix showcases next-generation AI memory technologies beyond HBM - The Korea Times",
+      "tag": "demand",
+      "date": "2026-10-16",
+      "score": 7,
+      "pick": false,
+      "source": "The Korea Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "server-prices-surge-up-to-fourfold-as-ai-demand-sque-22a7d5a9",
+      "url": "/stories/server-prices-surge-up-to-fourfold-as-ai-demand-sque-22a7d5a9.html",
+      "title": "Server Prices Surge Up to Fourfold as AI Demand Squeezes Memory Supply - Businesskorea",
+      "tag": "demand",
+      "date": "2026-10-16",
+      "score": 7,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "quick-spark-dram-etf-extends-losing-streak-but-ceo-s-2c147e0f",
+      "url": "/stories/quick-spark-dram-etf-extends-losing-streak-but-ceo-s-2c147e0f.html",
+      "title": "QUICK SPARK: DRAM ETF Extends Losing Streak, But CEO Sees Long-Term Upside - TradingView",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-giants-profit-massively-amid-shortage-but-china-a1194eac",
+      "url": "/stories/dram-giants-profit-massively-amid-shortage-but-china-a1194eac.html",
+      "title": "DRAM giants profit massively amid shortage, but China's CXMT is expanding capacity to challenge their dominance. - Pluang",
+      "tag": "supply",
+      "date": "2026-10-15",
+      "score": 8,
+      "pick": false,
+      "source": "Pluang",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "dram-giants-get-rich-as-china-builds-a-threat-24-7-w-c7b45975",
       "url": "/stories/dram-giants-get-rich-as-china-builds-a-threat-24-7-w-c7b45975.html",
