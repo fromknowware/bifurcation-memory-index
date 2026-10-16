@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-16T16:36:32.557Z",
-  "count": 1799,
+  "generatedAt": "2026-10-16T21:05:21.595Z",
+  "count": 1802,
   "stories": [
+    {
+      "slug": "sk-hynix-stock-outlook-can-explosive-growth-in-ai-in-a71ef875",
+      "url": "/stories/sk-hynix-stock-outlook-can-explosive-growth-in-ai-in-a71ef875.html",
+      "title": "SK Hynix Stock Outlook: Can Explosive Growth in AI Inference Demand Drive Sustained Growth Through 2030? - TradingKey",
+      "tag": "demand",
+      "date": "2026-10-16",
+      "score": 7,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "chinese-startup-unveils-first-homegrown-euv-laser-so-c40221a6",
+      "url": "/stories/chinese-startup-unveils-first-homegrown-euv-laser-so-c40221a6.html",
+      "title": "Chinese Startup Unveils First Homegrown EUV Laser Source",
+      "tag": "fab",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "china-startup-demoes-prototype-euv-light-source-06c3a221",
       "url": "/stories/china-startup-demoes-prototype-euv-light-source-06c3a221.html",
@@ -132,6 +154,17 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-stock-drop-triggers-buy-the-dip-calls-no-one-d6d6fd0a",
+      "url": "/stories/micron-stock-drop-triggers-buy-the-dip-calls-no-one-d6d6fd0a.html",
+      "title": "Micron Stock Drop Triggers ‘Buy the Dip’ Calls. No One’s Listening. - Barron's",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "Barron's",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
