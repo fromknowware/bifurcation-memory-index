@@ -5,11 +5,63 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-17T10:40:37.338Z</updated>
+  <updated>2026-10-17T15:31:26.235Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://wccftech.com/intel-to-use-core-ultra-4000-for-all-nova-lake-families/</id>
+    <title type="html">Intel Nova Lake Reportedly Ditches The Expected Core Ultra 400 Name For Laptop H And U Chips, As All Five Families Adopt Core Ultra 4000</title>
+    <link href="https://wccftech.com/intel-to-use-core-ultra-4000-for-all-nova-lake-families/" />
+    <link rel="related" href="/stories/intel-nova-lake-reportedly-ditches-the-expected-core-42e71e4e.html" />
+    <updated>2026-10-17T14:05:41.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">The next-gen Intel processors will have a common naming convention for all of its variants. Intel to Use Core Ultra 4000 Naming for All Desktop and Laptop CPUs, Confirms Leaker Several leaks and reliable reports have confirmed that Intel will utilize the &quot;Core Ultra 4000&quot; naming convention for some of the upcoming Nova Lake processor families. We have seen the naming convention appear in popular h RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;The next-gen Intel processors will have a common naming convention for all of its variants. Intel to Use Core Ultra 4000 Naming for All Desktop and Laptop CPUs, Confirms Leaker Several leaks and reliable reports have confirmed that Intel will utilize the &quot;Core Ultra 4000&quot; naming convention for some of the upcoming Nova Lake processor families. We have seen the naming convention appear in popular h&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/nvidia-denies-rtx-5090-discontinuation-reports/</id>
+    <title type="html">NVIDIA Denies RTX 5090 Discontinuation Reports; Jeff Fisher Confirms Flagship GPU Will Continue Shipping</title>
+    <link href="https://wccftech.com/nvidia-denies-rtx-5090-discontinuation-reports/" />
+    <link rel="related" href="/stories/nvidia-denies-rtx-5090-discontinuation-reports-jeff-64cfdb76.html" />
+    <updated>2026-10-17T13:28:00.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">While we see multiple reports indicating the discontinuation of the flagship Blackwell GeForce GPU, NVIDIA, on the other hand, denies such reports. NVIDIA's Jeff Fisher Says RTX 5090 isn't Discontinued After Acknowledging Supply Constraints Multiple Taiwanese publications have reported NVIDIA's refutation of reports that the RTX 5090 is being discontinued. If you have been following us, you must b RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;While we see multiple reports indicating the discontinuation of the flagship Blackwell GeForce GPU, NVIDIA, on the other hand, denies such reports. NVIDIA's Jeff Fisher Says RTX 5090 isn't Discontinued After Acknowledging Supply Constraints Multiple Taiwanese publications have reported NVIDIA's refutation of reports that the RTX 5090 is being discontinued. If you have been following us, you must b&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/semiconductors/taiwan-targets-illicit-ai-server-exports-to-china-with-five-year-prison-terms-strict-new-controls-follow-us-tariff-deal-and-super-micro-raid</id>
+    <title type="html">Taiwan targets illicit AI server exports to China with five-year prison terms</title>
+    <link href="https://www.tomshardware.com/tech-industry/semiconductors/taiwan-targets-illicit-ai-server-exports-to-china-with-five-year-prison-terms-strict-new-controls-follow-us-tariff-deal-and-super-micro-raid" />
+    <link rel="related" href="/stories/taiwan-targets-illicit-ai-server-exports-to-china-wi-39f2ad0d.html" />
+    <updated>2026-10-17T12:20:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/michael-dell-memory-shortage-ai-servers-gonna-get-worse-dell-stock/</id>
+    <title type="html">Michael Dell Predicts The Memory Shortage Is Only “Gonna Get Worse” In 2027, As Company Sits On An Untapped Gold Mine With $95 Billion In Back-Ordered AI Servers</title>
+    <link href="https://wccftech.com/michael-dell-memory-shortage-ai-servers-gonna-get-worse-dell-stock/" />
+    <link rel="related" href="/stories/michael-dell-predicts-the-memory-shortage-is-only-go-a1d9b51e.html" />
+    <updated>2026-10-17T10:51:35.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Dell CEO Michael Dell has issued a stark warning regarding the global semiconductor ecosystem, stating that component shortages in the form of HBM and DRAM are expected to worsen next year. Despite sitting on a record backlog of back-ordered enterprise and AI server infrastructure, Dell faces a critical operational bottleneck, with one piece of the puzzle determining how quickly it can add $95 bil RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Dell CEO Michael Dell has issued a stark warning regarding the global semiconductor ecosystem, stating that component shortages in the form of HBM and DRAM are expected to worsen next year. Despite sitting on a record backlog of back-ordered enterprise and AI server infrastructure, Dell faces a critical operational bottleneck, with one piece of the puzzle determining how quickly it can add $95 bil&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/employee-exclusive-asml-lego-set-now-available-on-rebrickable-custom-creation-modifies-original-version-to-add-more-details-now-requires-810-parts</id>
     <title type="html">ASML's employee-only High-NA EUV Lego kit gets an open 810-piece fan replica</title>
@@ -21,7 +73,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMikAFBVV95cUxQd0Q3Y1VPSHFpeHVnQlRpZmNkQUgxNGhnMUgyekVlS2JUZUFxZnplV0ZDZWltS2xQSWRPSGlSRmdOUUVSRjhyVDZRTjlkVWVZN3RxcVZvMjJCejBjaEJXYlZfcjFCTm5DbEJEUU9KQWhkRGlrZVY3WlJLV3dKNUFDX3dwalhEaTRmdWZoMlJyZEY?oc=5</id>
@@ -34,7 +86,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;PS6 RAM and SSD costs rise to &quot;over $680&quot; – claims leaker OC3D&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;PS6 RAM and SSD costs rise to &quot;over $680&quot; – claims leaker OC3D&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiiAFBVV95cUxONXJ1UmM4bzl2ZEt0RWVEcWNNODJMSW9VbTJIUmRaQzhoYWYxWk80dS00cTNsSFowX1gtLVpFTmF4NS1rUDZnbnh0b28wMENLcVo2dkFfRVZkVDg3MEFEcjl1TXNta21xWWhxMU15djBSRXY0bTdZckVRSE50ZWJqX0hLbkc3UGVo?oc=5</id>
@@ -47,7 +99,7 @@
     <category term="google-news:Samsung SK Hynix Micron earnings" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;ChangXin Memory Technologies' Q3 Revenue Surges Sevenfold 조선일보&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;ChangXin Memory Technologies' Q3 Revenue Surges Sevenfold 조선일보&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMihAFBVV95cUxPRzJqODlXeGhqbXlvWHlkRC13dXRvYUY1UkRadDF4SlpXTkpEM3ZHSS1wdDM3NzZtN1UtdExoQUwxcVZ3aGJKODZkZl9IMTBCenp3RFpObWJWVFRKcVRZYkw4bGMzN1JYMmZiajVDUlJzeWFsWkthWGFibDI5YW44eHJFVmY?oc=5</id>

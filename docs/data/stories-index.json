@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-17T10:40:39.274Z",
-  "count": 1809,
+  "generatedAt": "2026-10-17T15:31:28.855Z",
+  "count": 1813,
   "stories": [
+    {
+      "slug": "intel-nova-lake-reportedly-ditches-the-expected-core-42e71e4e",
+      "url": "/stories/intel-nova-lake-reportedly-ditches-the-expected-core-42e71e4e.html",
+      "title": "Intel Nova Lake Reportedly Ditches The Expected Core Ultra 400 Name For Laptop H And U Chips, As All Five Families Adopt Core Ultra 4000",
+      "tag": "supply",
+      "date": "2026-10-17",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-denies-rtx-5090-discontinuation-reports-jeff-64cfdb76",
+      "url": "/stories/nvidia-denies-rtx-5090-discontinuation-reports-jeff-64cfdb76.html",
+      "title": "NVIDIA Denies RTX 5090 Discontinuation Reports; Jeff Fisher Confirms Flagship GPU Will Continue Shipping",
+      "tag": "demand",
+      "date": "2026-10-17",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "taiwan-targets-illicit-ai-server-exports-to-china-wi-39f2ad0d",
+      "url": "/stories/taiwan-targets-illicit-ai-server-exports-to-china-wi-39f2ad0d.html",
+      "title": "Taiwan targets illicit AI server exports to China with five-year prison terms",
+      "tag": "demand",
+      "date": "2026-10-17",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "michael-dell-predicts-the-memory-shortage-is-only-go-a1d9b51e",
+      "url": "/stories/michael-dell-predicts-the-memory-shortage-is-only-go-a1d9b51e.html",
+      "title": "Michael Dell Predicts The Memory Shortage Is Only “Gonna Get Worse” In 2027, As Company Sits On An Untapped Gold Mine With $95 Billion In Back-Ordered AI Servers",
+      "tag": "demand",
+      "date": "2026-10-17",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "asml-s-employee-only-high-na-euv-lego-kit-gets-an-op-1e10299e",
       "url": "/stories/asml-s-employee-only-high-na-euv-lego-kit-gets-an-op-1e10299e.html",
