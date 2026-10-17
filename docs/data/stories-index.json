@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-16T21:05:21.595Z",
-  "count": 1802,
+  "generatedAt": "2026-10-17T04:22:21.342Z",
+  "count": 1806,
   "stories": [
+    {
+      "slug": "can-micron-and-sandisk-break-the-memory-cycle-nai500-13535aec",
+      "url": "/stories/can-micron-and-sandisk-break-the-memory-cycle-nai500-13535aec.html",
+      "title": "Can Micron and Sandisk Break the Memory Cycle? - NAI500",
+      "tag": "supply",
+      "date": "2026-10-17",
+      "score": 8,
+      "pick": false,
+      "source": "NAI500",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "transformative-changes-in-memory-chip-market-present-76506423",
+      "url": "/stories/transformative-changes-in-memory-chip-market-present-76506423.html",
+      "title": "Transformative Changes in Memory Chip Market Present Investment Opportunities - Intellectia AI",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "Intellectia AI",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "giga-computing-powers-scaleway-8217-s-new-amd-instin-f2716fc6",
+      "url": "/stories/giga-computing-powers-scaleway-8217-s-new-amd-instin-f2716fc6.html",
+      "title": "Giga Computing Powers Scaleway&#8217;s New AMD Instinct GPU Services to Accelerate AI Workloads",
+      "tag": "demand",
+      "date": "2026-10-16",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "sk-hynix-stock-outlook-can-explosive-growth-in-ai-in-a71ef875",
       "url": "/stories/sk-hynix-stock-outlook-can-explosive-growth-in-ai-in-a71ef875.html",
@@ -23,6 +56,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "micron-stock-tumbles-despite-analyst-calls-semicondu-53e627cc",
+      "url": "/stories/micron-stock-tumbles-despite-analyst-calls-semicondu-53e627cc.html",
+      "title": "Micron stock tumbles despite analyst calls semiconductor selloff overblown - TheStreet",
+      "tag": "supply",
+      "date": "2026-10-16",
+      "score": 8,
+      "pick": false,
+      "source": "TheStreet",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "china-startup-demoes-prototype-euv-light-source-06c3a221",
