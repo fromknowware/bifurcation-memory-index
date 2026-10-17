@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-17T15:31:28.855Z",
-  "count": 1813,
+  "generatedAt": "2026-10-17T20:34:31.944Z",
+  "count": 1817,
   "stories": [
+    {
+      "slug": "micron-s-edge-inference-memory-could-solve-hbm-s-pow-0425ae6d",
+      "url": "/stories/micron-s-edge-inference-memory-could-solve-hbm-s-pow-0425ae6d.html",
+      "title": "Micron’s Edge Inference Memory Could Solve HBM’s Power Efficiency Weakness, Ushering The Age Of AI-Powered Robots With A Mass Production Target Of 2028",
+      "tag": "demand",
+      "date": "2026-10-17",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "microsoft-s-maia-300-swaps-raw-compute-for-a-2-5x-me-5c90a32b",
+      "url": "/stories/microsoft-s-maia-300-swaps-raw-compute-for-a-2-5x-me-5c90a32b.html",
+      "title": "Microsoft's Maia 300 swaps raw compute for a 2.5x memory bandwidth gain as it moves to make in-house silicon its main AI engine while claiming a 40% efficiency bump — could going the Google route be the pin that pops the Nvidia AI bubble? - TechRadar",
+      "tag": "demand",
+      "date": "2026-10-17",
+      "score": 7,
+      "pick": false,
+      "source": "TechRadar",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-is-down-30-from-its-high-and-just-lost-its-1-ce1b37d6",
+      "url": "/stories/micron-is-down-30-from-its-high-and-just-lost-its-1-ce1b37d6.html",
+      "title": "Micron Is Down 30% From Its High and Just Lost Its $1 Trillion Status - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-10-17",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-market-evolution-micron-and-sandisk-insights-a13abf65",
+      "url": "/stories/memory-market-evolution-micron-and-sandisk-insights-a13abf65.html",
+      "title": "Memory Market Evolution: Micron and Sandisk Insights - Intellectia AI",
+      "tag": "demand",
+      "date": "2026-10-17",
+      "score": 7,
+      "pick": false,
+      "source": "Intellectia AI",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "intel-nova-lake-reportedly-ditches-the-expected-core-42e71e4e",
       "url": "/stories/intel-nova-lake-reportedly-ditches-the-expected-core-42e71e4e.html",

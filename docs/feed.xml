@@ -5,11 +5,63 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-17T15:31:26.235Z</updated>
+  <updated>2026-10-17T20:34:28.693Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://wccftech.com/micron-edge-inference-memory-hbm-power-efficiency-ai-robots/</id>
+    <title type="html">Micron’s Edge Inference Memory Could Solve HBM’s Power Efficiency Weakness, Ushering The Age Of AI-Powered Robots With A Mass Production Target Of 2028</title>
+    <link href="https://wccftech.com/micron-edge-inference-memory-hbm-power-efficiency-ai-robots/" />
+    <link rel="related" href="/stories/micron-s-edge-inference-memory-could-solve-hbm-s-pow-0425ae6d.html" />
+    <updated>2026-10-17T20:22:53.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Generative AI could eventually transition to physical artificial intelligence, resulting in the mass production of humanoids that can make decisions based on proactive behavior. This is expected to become possible thanks to Micron’s Edge Inference Memory (EIM), which aims to deliver the same low-power properties as LPDDR while delivering the low-latency and high-bandwidth attributes of HBM. Best o RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Generative AI could eventually transition to physical artificial intelligence, resulting in the mass production of humanoids that can make decisions based on proactive behavior. This is expected to become possible thanks to Micron’s Edge Inference Memory (EIM), which aims to deliver the same low-power properties as LPDDR while delivering the low-latency and high-bandwidth attributes of HBM. Best o&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMihgNBVV95cUxNenhHLTV5aWcwRlkySV9IVURTellwS2p3aXZib2lnLVdrRDl6OGIyNmd3R0MxY0FXdE1oSW5FSDQzcHZIS00weExLZVZWWGJNRURrNmFKRDlMLW12M0Q5VnUxVFNtaVdXZU1aZlM3RFJHcjltZXoweWgwLUR5SjBCVlRWWGI3cmU0ZXdSMGpnZ1duU1BwdzZGc1dBb3hNSXJmNTNia1pHTzZ4WHF3Ukw5ZU9MQ2E3eFBqWDhma1BVNkM1QnJLdUtZaXF4WnloM2Q3SXFCYU5SNDVhS2lkSzB3akZkaEQyckw5Y09JRmt0REoyRlNJSGYteE8yclhkd09JWVJTUENNbkh5MmRHbEl1aEt1cktVYW9ZX016OFZtMHZWckpYcFBuOVoxS0ZRVDRTZ2w4Qy1iVkJoMWUtZXBuR2RhS3hVZFdPX3FDbWhpYlZmUjN0Q2thbDVqNXhYTnZyRGJtYVpyNEpiZ2lqOXZzWEo3S09CbzRpZHl2cHFZb0hsOTFqSHc?oc=5</id>
+    <title type="html">Microsoft's Maia 300 swaps raw compute for a 2.5x memory bandwidth gain as it moves to make in-house silicon its main AI engine while claiming a 40% efficiency bump — could going the Google route be the pin that pops the Nvidia AI bubble? - TechRadar</title>
+    <link href="https://news.google.com/rss/articles/CBMihgNBVV95cUxNenhHLTV5aWcwRlkySV9IVURTellwS2p3aXZib2lnLVdrRDl6OGIyNmd3R0MxY0FXdE1oSW5FSDQzcHZIS00weExLZVZWWGJNRURrNmFKRDlMLW12M0Q5VnUxVFNtaVdXZU1aZlM3RFJHcjltZXoweWgwLUR5SjBCVlRWWGI3cmU0ZXdSMGpnZ1duU1BwdzZGc1dBb3hNSXJmNTNia1pHTzZ4WHF3Ukw5ZU9MQ2E3eFBqWDhma1BVNkM1QnJLdUtZaXF4WnloM2Q3SXFCYU5SNDVhS2lkSzB3akZkaEQyckw5Y09JRmt0REoyRlNJSGYteE8yclhkd09JWVJTUENNbkh5MmRHbEl1aEt1cktVYW9ZX016OFZtMHZWckpYcFBuOVoxS0ZRVDRTZ2w4Qy1iVkJoMWUtZXBuR2RhS3hVZFdPX3FDbWhpYlZmUjN0Q2thbDVqNXhYTnZyRGJtYVpyNEpiZ2lqOXZzWEo3S09CbzRpZHl2cHFZb0hsOTFqSHc?oc=5" />
+    <link rel="related" href="/stories/microsoft-s-maia-300-swaps-raw-compute-for-a-2-5x-me-5c90a32b.html" />
+    <updated>2026-10-17T19:20:00.000Z</updated>
+    <author><name>TechRadar</name></author>
+    <summary type="html">Microsoft's Maia 300 swaps raw compute for a 2.5x memory bandwidth gain as it moves to make in-house silicon its main AI engine while claiming a 40% efficiency bump — could going the Google route be the pin that pops the Nvidia AI bubble? TechRadar RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Microsoft's Maia 300 swaps raw compute for a 2.5x memory bandwidth gain as it moves to make in-house silicon its main AI engine while claiming a 40% efficiency bump — could going the Google route be the pin that pops the Nvidia AI bubble? TechRadar&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDgyNmdyZzd3R0ltd0hjNWtvMnJiaVJmNXVzY0RPZVlhVUVYZTNHT0JSdlZiUXZhQlppbktHVXd4ZGdULUVpeWpHcEd6MUpkSkZxU3YyZEtfNFNSakRfbm1xcWtJWU5fZ0kwQzVUd3Qwc3pzT1ZjS2MyaThrM3J1a2xwVmxsYmhuUndNOXZqUWE3dzRJX3IyaUFreVZrWkRpRXRFb3o0YmRFeGhDMS1fTg?oc=5</id>
+    <title type="html">Micron Is Down 30% From Its High and Just Lost Its $1 Trillion Status - 24/7 Wall St.</title>
+    <link href="https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDgyNmdyZzd3R0ltd0hjNWtvMnJiaVJmNXVzY0RPZVlhVUVYZTNHT0JSdlZiUXZhQlppbktHVXd4ZGdULUVpeWpHcEd6MUpkSkZxU3YyZEtfNFNSakRfbm1xcWtJWU5fZ0kwQzVUd3Qwc3pzT1ZjS2MyaThrM3J1a2xwVmxsYmhuUndNOXZqUWE3dzRJX3IyaUFreVZrWkRpRXRFb3o0YmRFeGhDMS1fTg?oc=5" />
+    <link rel="related" href="/stories/micron-is-down-30-from-its-high-and-just-lost-its-1-ce1b37d6.html" />
+    <updated>2026-10-17T16:45:00.000Z</updated>
+    <author><name>24/7 Wall St.</name></author>
+    <summary type="html">Micron Is Down 30% From Its High and Just Lost Its $1 Trillion Status 24/7 Wall St. RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Micron Is Down 30% From Its High and Just Lost Its $1 Trillion Status 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMihgFBVV95cUxOeDZIRnRkcnlmMHZ3MGE5WTU5dFB0a2VMYTIzUm44eHpRTmhKcDdRZXh3R0xJVmRBcVNvaUowLTlWSkQwdW1fUFBYOV9OQVNXVlVnQ3JjS25PTjc2NUlZaGN3R0dSeXVyYWVsdHozQldNcUFfRXpXVnJVZDctcGk1Rm9HVXJMZw?oc=5</id>
+    <title type="html">Memory Market Evolution: Micron and Sandisk Insights - Intellectia AI</title>
+    <link href="https://news.google.com/rss/articles/CBMihgFBVV95cUxOeDZIRnRkcnlmMHZ3MGE5WTU5dFB0a2VMYTIzUm44eHpRTmhKcDdRZXh3R0xJVmRBcVNvaUowLTlWSkQwdW1fUFBYOV9OQVNXVlVnQ3JjS25PTjc2NUlZaGN3R0dSeXVyYWVsdHozQldNcUFfRXpXVnJVZDctcGk1Rm9HVXJMZw?oc=5" />
+    <link rel="related" href="/stories/memory-market-evolution-micron-and-sandisk-insights-a13abf65.html" />
+    <updated>2026-10-17T16:08:09.000Z</updated>
+    <author><name>Intellectia AI</name></author>
+    <summary type="html">Memory Market Evolution: Micron and Sandisk Insights Intellectia AI RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Memory Market Evolution: Micron and Sandisk Insights Intellectia AI&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://wccftech.com/intel-to-use-core-ultra-4000-for-all-nova-lake-families/</id>
     <title type="html">Intel Nova Lake Reportedly Ditches The Expected Core Ultra 400 Name For Laptop H And U Chips, As All Five Families Adopt Core Ultra 4000</title>
@@ -21,7 +73,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;The next-gen Intel processors will have a common naming convention for all of its variants. Intel to Use Core Ultra 4000 Naming for All Desktop and Laptop CPUs, Confirms Leaker Several leaks and reliable reports have confirmed that Intel will utilize the &quot;Core Ultra 4000&quot; naming convention for some of the upcoming Nova Lake processor families. We have seen the naming convention appear in popular h&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The next-gen Intel processors will have a common naming convention for all of its variants. Intel to Use Core Ultra 4000 Naming for All Desktop and Laptop CPUs, Confirms Leaker Several leaks and reliable reports have confirmed that Intel will utilize the &quot;Core Ultra 4000&quot; naming convention for some of the upcoming Nova Lake processor families. We have seen the naming convention appear in popular h&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/nvidia-denies-rtx-5090-discontinuation-reports/</id>
@@ -34,7 +86,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;While we see multiple reports indicating the discontinuation of the flagship Blackwell GeForce GPU, NVIDIA, on the other hand, denies such reports. NVIDIA's Jeff Fisher Says RTX 5090 isn't Discontinued After Acknowledging Supply Constraints Multiple Taiwanese publications have reported NVIDIA's refutation of reports that the RTX 5090 is being discontinued. If you have been following us, you must b&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;While we see multiple reports indicating the discontinuation of the flagship Blackwell GeForce GPU, NVIDIA, on the other hand, denies such reports. NVIDIA's Jeff Fisher Says RTX 5090 isn't Discontinued After Acknowledging Supply Constraints Multiple Taiwanese publications have reported NVIDIA's refutation of reports that the RTX 5090 is being discontinued. If you have been following us, you must b&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/semiconductors/taiwan-targets-illicit-ai-server-exports-to-china-with-five-year-prison-terms-strict-new-controls-follow-us-tariff-deal-and-super-micro-raid</id>
@@ -47,7 +99,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/michael-dell-memory-shortage-ai-servers-gonna-get-worse-dell-stock/</id>
@@ -60,7 +112,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Dell CEO Michael Dell has issued a stark warning regarding the global semiconductor ecosystem, stating that component shortages in the form of HBM and DRAM are expected to worsen next year. Despite sitting on a record backlog of back-ordered enterprise and AI server infrastructure, Dell faces a critical operational bottleneck, with one piece of the puzzle determining how quickly it can add $95 bil&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Dell CEO Michael Dell has issued a stark warning regarding the global semiconductor ecosystem, stating that component shortages in the form of HBM and DRAM are expected to worsen next year. Despite sitting on a record backlog of back-ordered enterprise and AI server infrastructure, Dell faces a critical operational bottleneck, with one piece of the puzzle determining how quickly it can add $95 bil&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/employee-exclusive-asml-lego-set-now-available-on-rebrickable-custom-creation-modifies-original-version-to-add-more-details-now-requires-810-parts</id>
