@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-17T04:22:21.342Z",
-  "count": 1806,
+  "generatedAt": "2026-10-17T10:40:39.274Z",
+  "count": 1809,
   "stories": [
+    {
+      "slug": "asml-s-employee-only-high-na-euv-lego-kit-gets-an-op-1e10299e",
+      "url": "/stories/asml-s-employee-only-high-na-euv-lego-kit-gets-an-op-1e10299e.html",
+      "title": "ASML's employee-only High-NA EUV Lego kit gets an open 810-piece fan replica",
+      "tag": "fab",
+      "date": "2026-10-17",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ps6-ram-and-ssd-costs-rise-to-over-680-claims-leaker-d1c8120e",
+      "url": "/stories/ps6-ram-and-ssd-costs-rise-to-over-680-claims-leaker-d1c8120e.html",
+      "title": "PS6 RAM and SSD costs rise to \"over $680\" – claims leaker - OC3D",
+      "tag": "supply",
+      "date": "2026-10-17",
+      "score": 8,
+      "pick": false,
+      "source": "OC3D",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "changxin-memory-technologies-q3-revenue-surges-seven-79aa0a4e",
+      "url": "/stories/changxin-memory-technologies-q3-revenue-surges-seven-79aa0a4e.html",
+      "title": "ChangXin Memory Technologies' Q3 Revenue Surges Sevenfold - 조선일보",
+      "tag": "earnings",
+      "date": "2026-10-17",
+      "score": 7,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
     {
       "slug": "can-micron-and-sandisk-break-the-memory-cycle-nai500-13535aec",
       "url": "/stories/can-micron-and-sandisk-break-the-memory-cycle-nai500-13535aec.html",
