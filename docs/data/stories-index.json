@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-10-18T04:28:46.229Z",
-  "count": 1819,
+  "generatedAt": "2026-10-18T11:01:05.236Z",
+  "count": 1824,
   "stories": [
+    {
+      "slug": "nvidia-s-development-of-custom-hbm-drops-samsung-s-a-90220b6e",
+      "url": "/stories/nvidia-s-development-of-custom-hbm-drops-samsung-s-a-90220b6e.html",
+      "title": "NVIDIA’s Development Of Custom HBM Drops Samsung’s And TSMC’s Foundry Rivalry, As Both Manufacturers Join Forces To Develop “Base Die” On The 3nm Node",
+      "tag": "fab",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "apple-more-likely-to-introduce-its-first-1-4nm-chips-1c6bd7a6",
+      "url": "/stories/apple-more-likely-to-introduce-its-first-1-4nm-chips-1c6bd7a6.html",
+      "title": "Apple More Likely To Introduce Its First 1.4nm Chips In Two Years As TSMC Races To Mass Production Stage In H1 2028, Trying To Prevent AI Outstripping Supply",
+      "tag": "fab",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "sony-s-playstation-6-price-is-set-to-surpass-1000-as-28e839e1",
+      "url": "/stories/sony-s-playstation-6-price-is-set-to-surpass-1000-as-28e839e1.html",
+      "title": "Sony’s PlayStation 6 Price Is Set To Surpass $1000, As RAM and SSD Costs Have Risen Over $680",
+      "tag": "supply",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-chip-shortage-2026-pc-prices-up-17-gartner-sa-217d95a7",
+      "url": "/stories/memory-chip-shortage-2026-pc-prices-up-17-gartner-sa-217d95a7.html",
+      "title": "Memory Chip Shortage 2026: PC Prices Up 17%, Gartner Says - shattered.io",
+      "tag": "supply",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "musk-s-criticism-of-samsung-sk-s-memory-chip-pricing-f400e0e5",
+      "url": "/stories/musk-s-criticism-of-samsung-sk-s-memory-chip-pricing-f400e0e5.html",
+      "title": "Musk's criticism of Samsung, SK's memory chip pricing runs counter to market logic: expert - The Korea Times",
+      "tag": "supply",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "The Korea Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "ddr5-ram-hits-450-for-32gb-as-ai-shortage-bites-2026-78109f6d",
       "url": "/stories/ddr5-ram-hits-450-for-32gb-as-ai-shortage-bites-2026-78109f6d.html",
