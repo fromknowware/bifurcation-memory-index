@@ -5,11 +5,63 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-18T11:01:02.576Z</updated>
+  <updated>2026-10-18T15:50:31.299Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUU9lZVVSQjI1eDg4c3VLOUM0WnR4TVlYWWJKc2ZKa19mc25OekxzSlFXOTlRVW9VY0o3V1ZVa1JuVEJoMk9jaHllU0xmSmRhZ1d1ZnQxNWp1VEhacVI2VVJfN3JqY21ISHZzanZ5cjQ2UWFNUFE2OC00dTIyazNLRVpJamdTSXFG?oc=5</id>
+    <title type="html">Chinese DRAM Company CXMT Posts 600% Revenue Surge in Q3 - 조선일보</title>
+    <link href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUU9lZVVSQjI1eDg4c3VLOUM0WnR4TVlYWWJKc2ZKa19mc25OekxzSlFXOTlRVW9VY0o3V1ZVa1JuVEJoMk9jaHllU0xmSmRhZ1d1ZnQxNWp1VEhacVI2VVJfN3JqY21ISHZzanZ5cjQ2UWFNUFE2OC00dTIyazNLRVpJamdTSXFG?oc=5" />
+    <link rel="related" href="/stories/chinese-dram-company-cxmt-posts-600-revenue-surge-in-8ab8cd05.html" />
+    <updated>2026-10-18T15:37:33.000Z</updated>
+    <author><name>조선일보</name></author>
+    <summary type="html">Chinese DRAM Company CXMT Posts 600% Revenue Surge in Q3 조선일보 RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Chinese DRAM Company CXMT Posts 600% Revenue Surge in Q3 조선일보&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVd3RU5QdzNwZHd0cUNCbUQxM3B6M2JOTXZZbEE4b3Y4czkxSjBuNklIRXU2S1VyRld6WTlRQUdlZkN3TGNRcng5cjR6ZEViNXNqcHh2RnlRU2hWVXRPUVFjVXRvd2FaaTVkd002aUk4WHlEQ2wxTGk3alF5S0FUTGNMUXF2dV9QUjk4eThjcWVPaVBLYzc2c0NUaUN4UUVMcVZTSERiMDE5VXp0NDdoVFpuS2E0TGZoUnBrRTExcnZDRlJia1VNcU40SUxQcE1y?oc=5</id>
+    <title type="html">Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports - Reuters</title>
+    <link href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVd3RU5QdzNwZHd0cUNCbUQxM3B6M2JOTXZZbEE4b3Y4czkxSjBuNklIRXU2S1VyRld6WTlRQUdlZkN3TGNRcng5cjR6ZEViNXNqcHh2RnlRU2hWVXRPUVFjVXRvd2FaaTVkd002aUk4WHlEQ2wxTGk3alF5S0FUTGNMUXF2dV9QUjk4eThjcWVPaVBLYzc2c0NUaUN4UUVMcVZTSERiMDE5VXp0NDdoVFpuS2E0TGZoUnBrRTExcnZDRlJia1VNcU40SUxQcE1y?oc=5" />
+    <link rel="related" href="/stories/samsung-to-use-tsmc-technology-for-nvidia-s-next-gen-ac637c41.html" />
+    <updated>2026-10-18T12:09:43.000Z</updated>
+    <author><name>Reuters</name></author>
+    <summary type="html">Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports Reuters RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports Reuters&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/data-centers/300-plus-local-data-center-bans-have-only-delayed-just-three-us-projects-bans-much-more-bark-than-bite-only-2-3-gigawatts-of-data-centers-are-held-up-versus-38-gigawatts-expected-online-in-2027</id>
+    <title type="html">300-plus local data center bans have only delayed just three US projects</title>
+    <link href="https://www.tomshardware.com/tech-industry/data-centers/300-plus-local-data-center-bans-have-only-delayed-just-three-us-projects-bans-much-more-bark-than-bite-only-2-3-gigawatts-of-data-centers-are-held-up-versus-38-gigawatts-expected-online-in-2027" />
+    <link rel="related" href="/stories/300-plus-local-data-center-bans-have-only-delayed-ju-761f0081.html" />
+    <updated>2026-10-18T11:45:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/intel-silicon-photonics-are-the-golden-hammer-of-next-gen-systems/</id>
+    <title type="html">Intel Says Silicon Photonics Are The “Golden Hammer” Of Next-Gen Systems As They Are The Only High-Volume Fab Delivering 300mm Indium Phosphide Photonics At Scale</title>
+    <link href="https://wccftech.com/intel-silicon-photonics-are-the-golden-hammer-of-next-gen-systems/" />
+    <link rel="related" href="/stories/intel-says-silicon-photonics-are-the-golden-hammer-o-5e4093ce.html" />
+    <updated>2026-10-18T11:25:03.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Intel has shared its vision of silicon photonics, saying that it is the only volume fab that can provide 300mm InP Silicon at scale to the entire industry. Intel Goes All In On Silicon Photonics With Its Fabs Delivering a 300mm InP Volume Required By Entire Industry &amp; Its Integration Tools Enabling NPO With Lasers During OCP 2026, Intel treated the audience to a look at the future, and that future RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Intel has shared its vision of silicon photonics, saying that it is the only volume fab that can provide 300mm InP Silicon at scale to the entire industry. Intel Goes All In On Silicon Photonics With Its Fabs Delivering a 300mm InP Volume Required By Entire Industry &amp; Its Integration Tools Enabling NPO With Lasers During OCP 2026, Intel treated the audience to a look at the future, and that future&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://wccftech.com/nvidia-custom-hbm-samsung-tsmc-3nm-base-die/</id>
     <title type="html">NVIDIA’s Development Of Custom HBM Drops Samsung’s And TSMC’s Foundry Rivalry, As Both Manufacturers Join Forces To Develop “Base Die” On The 3nm Node</title>
@@ -21,7 +73,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Samsung has typically adopted a “turnkey” approach when developing HBM’s core and base dies, but according to the latest report, NVIDIA’s custom NVHBM requires a more streamlined approach in manufacturing involving Samsung and TSMC. Both firms have seemingly joined forces to develop the base die on the 3nm node, with the end goal being a standardized product requiring fewer quality verification st&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung has typically adopted a “turnkey” approach when developing HBM’s core and base dies, but according to the latest report, NVIDIA’s custom NVHBM requires a more streamlined approach in manufacturing involving Samsung and TSMC. Both firms have seemingly joined forces to develop the base die on the 3nm node, with the end goal being a standardized product requiring fewer quality verification st&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/apple-14nm-chips-tsmc-2028-mass-production-ai-supply/</id>
@@ -34,7 +86,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;TSMC’s latest lithography is typically adopted by Apple in its A-series chipsets to gain a competitive edge in the industry, but on this occasion, the company may be moving to a new manufacturing process out of desperation. As leading-edge chip shipments grow in demand thanks to the AI boom, analysts believe TSMC will race to commence mass production of its 1.4nm node in the first half of 2028, ma&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;TSMC’s latest lithography is typically adopted by Apple in its A-series chipsets to gain a competitive edge in the industry, but on this occasion, the company may be moving to a new manufacturing process out of desperation. As leading-edge chip shipments grow in demand thanks to the AI boom, analysts believe TSMC will race to commence mass production of its 1.4nm node in the first half of 2028, ma&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/sonys-playstation-6-price-set-to-surpass-1000-ram-ssd-costs-680/</id>
@@ -47,7 +99,20 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Despite current market conditions that make it very challenging to launch a new gaming system, as we have seen with Valve's Steam Machine, Sony is reportedly still targeting a late 2027 release for the PlayStation 6. However, it's looking like fewer and fewer gamers will be able to afford the next-generation system at launch, as it's now almost assured it will cost more than $1000 due to just its&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Despite current market conditions that make it very challenging to launch a new gaming system, as we have seen with Valve's Steam Machine, Sony is reportedly still targeting a late 2027 release for the PlayStation 6. However, it's looking like fewer and fewer gamers will be able to afford the next-generation system at launch, as it's now almost assured it will cost more than $1000 due to just its&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMinAFBVV95cUxOVGwzdEhtYnZqMGRIUm5KSE9rNWlRMnh3UWVTdHJyZDFBX1VIZmpsdmExZTduVTFRNEE1SnhJcmczb3NjUjhFMVNtbE9MZHU2OEM5X2g5bGZKU3lWbUNnYkpOd0FhMklDM2EtYWs3aExNZjk0YnJrVm1JTElhYW50V2NFYXJBSjZ1SDBab1BuUllTeGw2aGN5X3gxTXI?oc=5</id>
+    <title type="html">Samsung to Tap TSMC for Nvidia's Custom HBM Base Die - Seoul Economic Daily</title>
+    <link href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOVGwzdEhtYnZqMGRIUm5KSE9rNWlRMnh3UWVTdHJyZDFBX1VIZmpsdmExZTduVTFRNEE1SnhJcmczb3NjUjhFMVNtbE9MZHU2OEM5X2g5bGZKU3lWbUNnYkpOd0FhMklDM2EtYWs3aExNZjk0YnJrVm1JTElhYW50V2NFYXJBSjZ1SDBab1BuUllTeGw2aGN5X3gxTXI?oc=5" />
+    <link rel="related" href="/stories/samsung-to-tap-tsmc-for-nvidia-s-custom-hbm-base-die-03836dd5.html" />
+    <updated>2026-10-18T07:47:48.000Z</updated>
+    <author><name>Seoul Economic Daily</name></author>
+    <summary type="html">Samsung to Tap TSMC for Nvidia's Custom HBM Base Die Seoul Economic Daily RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Samsung to Tap TSMC for Nvidia's Custom HBM Base Die Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMie0FVX3lxTE40VTZ5MUttZGNTTjZINkpyQVcyVmRLdkFXMHRBZlBxWTh3ZzlPSkFlQXAyWVc5SVJ4UUw2TVdDY2JpUnpKckIxLXduYjFFSGFaUHlaYU9YaUhpc1BubHJqckY0Rm5DOUU5SktrNHFsYmkwR0lQTW1PcllHTQ?oc=5</id>
@@ -60,7 +125,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Memory Chip Shortage 2026: PC Prices Up 17%, Gartner Says shattered.io&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Memory Chip Shortage 2026: PC Prices Up 17%, Gartner Says shattered.io&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQlJPQzY5SkRVUjhBemxhZkxLdDgybmNMX3hkUHlZZ0VIeF9uN3IyM3RyU0tYY2I1TTlEY0FpcjNZTEZlZVBZSTBVR0tHUXZpVWREbUNsWDVaOVdmMHA0eTFhcnpMQ21qY1BxVUtwSldOM0dCdlM4akVWWWxMS0RodkZJdUZYdHZ6M3Q2VXlvUlRJX3FFRzNkSlY5OV9YNFVnUHVkYVkyR0dvVDJCaFd5MU5iRDA5MkJVeVFWRTdvRWtnZDZ6WWFLQm5KaGE2eTh1YVA0YzFvdjMxeTjSAeABQVVfeXFMTXd3azJnNlJ4YXp3Q2liRUpxTGg5MEdHclB3V0pfaUoxTGxUQ0FDRFhjZFhXN1BHVC0tcFd2NmlzdUkyUFNGYXNSczZadHVza09PYmM5M0JfTHpCckxiNzdLTTFGMWJyVUJ1RkxfTzF0cmIzdERDLW1CWFhwOXBEdTBsWWdzWFQ0QUFYbmtIUHlfU01fYUs3c2IxMm1WZUZWNGNPNzh5SEpDRG81SElIWnRjZV85RWxjZ3djRi1JZjh5OWJtc0dHY19XNEwwaHB2YTQ5YWhaWTJucE16Zk5iWkw?oc=5</id>
@@ -73,7 +138,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Musk's criticism of Samsung, SK's memory chip pricing runs counter to market logic: expert The Korea Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Musk's criticism of Samsung, SK's memory chip pricing runs counter to market logic: expert The Korea Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMibkFVX3lxTFBSa1AzYWRpbUJmZm1ITTZuT3h1Z25fN091MkpZc0FydmZiOEhZY1NkU3dnRTdFd0pXTWNneThuTkFidnM0Zms0Qm45WmMzQjFNUXI3RU9iSXVUcDE5UmhqZC1ZTXdwVjh4bU1UaVNB?oc=5</id>

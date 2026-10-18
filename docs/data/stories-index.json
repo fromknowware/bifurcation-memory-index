@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-18T11:01:05.236Z",
-  "count": 1824,
+  "generatedAt": "2026-10-18T15:50:33.391Z",
+  "count": 1829,
   "stories": [
+    {
+      "slug": "chinese-dram-company-cxmt-posts-600-revenue-surge-in-8ab8cd05",
+      "url": "/stories/chinese-dram-company-cxmt-posts-600-revenue-surge-in-8ab8cd05.html",
+      "title": "Chinese DRAM Company CXMT Posts 600% Revenue Surge in Q3 - 조선일보",
+      "tag": "earnings",
+      "date": "2026-10-18",
+      "score": 7,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-to-use-tsmc-technology-for-nvidia-s-next-gen-ac637c41",
+      "url": "/stories/samsung-to-use-tsmc-technology-for-nvidia-s-next-gen-ac637c41.html",
+      "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports - Reuters",
+      "tag": "fab",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "Reuters",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "300-plus-local-data-center-bans-have-only-delayed-ju-761f0081",
+      "url": "/stories/300-plus-local-data-center-bans-have-only-delayed-ju-761f0081.html",
+      "title": "300-plus local data center bans have only delayed just three US projects",
+      "tag": "demand",
+      "date": "2026-10-18",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-says-silicon-photonics-are-the-golden-hammer-o-5e4093ce",
+      "url": "/stories/intel-says-silicon-photonics-are-the-golden-hammer-o-5e4093ce.html",
+      "title": "Intel Says Silicon Photonics Are The “Golden Hammer” Of Next-Gen Systems As They Are The Only High-Volume Fab Delivering 300mm Indium Phosphide Photonics At Scale",
+      "tag": "fab",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "nvidia-s-development-of-custom-hbm-drops-samsung-s-a-90220b6e",
       "url": "/stories/nvidia-s-development-of-custom-hbm-drops-samsung-s-a-90220b6e.html",
@@ -34,6 +78,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-to-tap-tsmc-for-nvidia-s-custom-hbm-base-die-03836dd5",
+      "url": "/stories/samsung-to-tap-tsmc-for-nvidia-s-custom-hbm-base-die-03836dd5.html",
+      "title": "Samsung to Tap TSMC for Nvidia's Custom HBM Base Die - Seoul Economic Daily",
+      "tag": "fab",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
       "slug": "memory-chip-shortage-2026-pc-prices-up-17-gartner-sa-217d95a7",
