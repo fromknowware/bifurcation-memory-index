@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-17T20:34:28.693Z</updated>
+  <updated>2026-10-18T04:28:43.987Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMibkFVX3lxTFBSa1AzYWRpbUJmZm1ITTZuT3h1Z25fN091MkpZc0FydmZiOEhZY1NkU3dnRTdFd0pXTWNneThuTkFidnM0Zms0Qm45WmMzQjFNUXI3RU9iSXVUcDE5UmhqZC1ZTXdwVjh4bU1UaVNB?oc=5</id>
+    <title type="html">DDR5 RAM Hits $450 for 32GB as AI Shortage Bites [2026] - https://tech-insider.org/</title>
+    <link href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBSa1AzYWRpbUJmZm1ITTZuT3h1Z25fN091MkpZc0FydmZiOEhZY1NkU3dnRTdFd0pXTWNneThuTkFidnM0Zms0Qm45WmMzQjFNUXI3RU9iSXVUcDE5UmhqZC1ZTXdwVjh4bU1UaVNB?oc=5" />
+    <link rel="related" href="/stories/ddr5-ram-hits-450-for-32gb-as-ai-shortage-bites-2026-78109f6d.html" />
+    <updated>2026-10-18T02:36:20.000Z</updated>
+    <author><name>https://tech-insider.org/</name></author>
+    <summary type="html">DDR5 RAM Hits $450 for 32GB as AI Shortage Bites [2026] https://tech-insider.org/ RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;DDR5 RAM Hits $450 for 32GB as AI Shortage Bites [2026] https://tech-insider.org/&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SclBGQk5xdWdZV2E0aEVNMTd3cHUtdnkzNFBza2d6bkdjRnc4QjZHZ1hJSGg2UjZDV2pITTRZTmZQZEFEclVtS1Myb0s4N2pPd1g2Mnp6cw?oc=5</id>
+    <title type="html">China's CXMT pushes into next-gen DRAM, but can it compete on cost? - The Korea Herald</title>
+    <link href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SclBGQk5xdWdZV2E0aEVNMTd3cHUtdnkzNFBza2d6bkdjRnc4QjZHZ1hJSGg2UjZDV2pITTRZTmZQZEFEclVtS1Myb0s4N2pPd1g2Mnp6cw?oc=5" />
+    <link rel="related" href="/stories/china-s-cxmt-pushes-into-next-gen-dram-but-can-it-co-53a49d68.html" />
+    <updated>2026-10-18T02:02:21.000Z</updated>
+    <author><name>The Korea Herald</name></author>
+    <summary type="html">China's CXMT pushes into next-gen DRAM, but can it compete on cost? The Korea Herald RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;China's CXMT pushes into next-gen DRAM, but can it compete on cost? The Korea Herald&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://wccftech.com/micron-edge-inference-memory-hbm-power-efficiency-ai-robots/</id>
     <title type="html">Micron’s Edge Inference Memory Could Solve HBM’s Power Efficiency Weakness, Ushering The Age Of AI-Powered Robots With A Mass Production Target Of 2028</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Generative AI could eventually transition to physical artificial intelligence, resulting in the mass production of humanoids that can make decisions based on proactive behavior. This is expected to become possible thanks to Micron’s Edge Inference Memory (EIM), which aims to deliver the same low-power properties as LPDDR while delivering the low-latency and high-bandwidth attributes of HBM. Best o&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Generative AI could eventually transition to physical artificial intelligence, resulting in the mass production of humanoids that can make decisions based on proactive behavior. This is expected to become possible thanks to Micron’s Edge Inference Memory (EIM), which aims to deliver the same low-power properties as LPDDR while delivering the low-latency and high-bandwidth attributes of HBM. Best o&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMihgNBVV95cUxNenhHLTV5aWcwRlkySV9IVURTellwS2p3aXZib2lnLVdrRDl6OGIyNmd3R0MxY0FXdE1oSW5FSDQzcHZIS00weExLZVZWWGJNRURrNmFKRDlMLW12M0Q5VnUxVFNtaVdXZU1aZlM3RFJHcjltZXoweWgwLUR5SjBCVlRWWGI3cmU0ZXdSMGpnZ1duU1BwdzZGc1dBb3hNSXJmNTNia1pHTzZ4WHF3Ukw5ZU9MQ2E3eFBqWDhma1BVNkM1QnJLdUtZaXF4WnloM2Q3SXFCYU5SNDVhS2lkSzB3akZkaEQyckw5Y09JRmt0REoyRlNJSGYteE8yclhkd09JWVJTUENNbkh5MmRHbEl1aEt1cktVYW9ZX016OFZtMHZWckpYcFBuOVoxS0ZRVDRTZ2w4Qy1iVkJoMWUtZXBuR2RhS3hVZFdPX3FDbWhpYlZmUjN0Q2thbDVqNXhYTnZyRGJtYVpyNEpiZ2lqOXZzWEo3S09CbzRpZHl2cHFZb0hsOTFqSHc?oc=5</id>
@@ -34,7 +60,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Microsoft's Maia 300 swaps raw compute for a 2.5x memory bandwidth gain as it moves to make in-house silicon its main AI engine while claiming a 40% efficiency bump — could going the Google route be the pin that pops the Nvidia AI bubble? TechRadar&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Microsoft's Maia 300 swaps raw compute for a 2.5x memory bandwidth gain as it moves to make in-house silicon its main AI engine while claiming a 40% efficiency bump — could going the Google route be the pin that pops the Nvidia AI bubble? TechRadar&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDgyNmdyZzd3R0ltd0hjNWtvMnJiaVJmNXVzY0RPZVlhVUVYZTNHT0JSdlZiUXZhQlppbktHVXd4ZGdULUVpeWpHcEd6MUpkSkZxU3YyZEtfNFNSakRfbm1xcWtJWU5fZ0kwQzVUd3Qwc3pzT1ZjS2MyaThrM3J1a2xwVmxsYmhuUndNOXZqUWE3dzRJX3IyaUFreVZrWkRpRXRFb3o0YmRFeGhDMS1fTg?oc=5</id>
@@ -47,7 +73,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Micron Is Down 30% From Its High and Just Lost Its $1 Trillion Status 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron Is Down 30% From Its High and Just Lost Its $1 Trillion Status 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMihgFBVV95cUxOeDZIRnRkcnlmMHZ3MGE5WTU5dFB0a2VMYTIzUm44eHpRTmhKcDdRZXh3R0xJVmRBcVNvaUowLTlWSkQwdW1fUFBYOV9OQVNXVlVnQ3JjS25PTjc2NUlZaGN3R0dSeXVyYWVsdHozQldNcUFfRXpXVnJVZDctcGk1Rm9HVXJMZw?oc=5</id>
@@ -60,7 +86,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Memory Market Evolution: Micron and Sandisk Insights Intellectia AI&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Memory Market Evolution: Micron and Sandisk Insights Intellectia AI&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/intel-to-use-core-ultra-4000-for-all-nova-lake-families/</id>

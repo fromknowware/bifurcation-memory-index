@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-17T20:34:31.944Z",
-  "count": 1817,
+  "generatedAt": "2026-10-18T04:28:46.229Z",
+  "count": 1819,
   "stories": [
+    {
+      "slug": "ddr5-ram-hits-450-for-32gb-as-ai-shortage-bites-2026-78109f6d",
+      "url": "/stories/ddr5-ram-hits-450-for-32gb-as-ai-shortage-bites-2026-78109f6d.html",
+      "title": "DDR5 RAM Hits $450 for 32GB as AI Shortage Bites [2026] - https://tech-insider.org/",
+      "tag": "supply",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "https://tech-insider.org/",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-s-cxmt-pushes-into-next-gen-dram-but-can-it-co-53a49d68",
+      "url": "/stories/china-s-cxmt-pushes-into-next-gen-dram-but-can-it-co-53a49d68.html",
+      "title": "China's CXMT pushes into next-gen DRAM, but can it compete on cost? - The Korea Herald",
+      "tag": "supply",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "The Korea Herald",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "micron-s-edge-inference-memory-could-solve-hbm-s-pow-0425ae6d",
       "url": "/stories/micron-s-edge-inference-memory-could-solve-hbm-s-pow-0425ae6d.html",
