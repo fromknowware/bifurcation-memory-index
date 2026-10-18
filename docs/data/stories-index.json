@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-18T15:50:33.391Z",
-  "count": 1829,
+  "generatedAt": "2026-10-18T20:39:44.265Z",
+  "count": 1835,
   "stories": [
+    {
+      "slug": "kingston-dram-market-share-hits-62-to-top-trendforce-1cea88c4",
+      "url": "/stories/kingston-dram-market-share-hits-62-to-top-trendforce-1cea88c4.html",
+      "title": "Kingston DRAM Market Share Hits 62% to Top TrendForce Ranking - Gadget Pilipinas",
+      "tag": "supply",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "Gadget Pilipinas",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "colorful-manages-6600-mt-s-at-cl28-with-192-gb-ddr5-f16ac40b",
+      "url": "/stories/colorful-manages-6600-mt-s-at-cl28-with-192-gb-ddr5-f16ac40b.html",
+      "title": "Colorful Manages 6600 MT/s At CL28 With 192 GB DDR5 Memory Kit On Its Latest X870E Ultra-S Motherboard",
+      "tag": "supply",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-taps-tsmc-3nm-for-nvidia-nvhbm-chips-2026-ht-119e079e",
+      "url": "/stories/samsung-taps-tsmc-3nm-for-nvidia-nvhbm-chips-2026-ht-119e079e.html",
+      "title": "Samsung Taps TSMC 3nm for Nvidia NVHBM Chips [2026] - https://tech-insider.org/",
+      "tag": "fab",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "https://tech-insider.org/",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "chinese-dram-company-cxmt-posts-600-revenue-surge-in-8ab8cd05",
       "url": "/stories/chinese-dram-company-cxmt-posts-600-revenue-surge-in-8ab8cd05.html",
@@ -14,6 +47,17 @@
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
+      "slug": "samsung-to-use-tsmc-s-3nm-process-for-nvidia-s-next-d4dbf3a2",
+      "url": "/stories/samsung-to-use-tsmc-s-3nm-process-for-nvidia-s-next-d4dbf3a2.html",
+      "title": "Samsung to use TSMC's 3nm process for Nvidia's next-gen AI memory chips - The News International",
+      "tag": "fab",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "The News International",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
       "slug": "samsung-to-use-tsmc-technology-for-nvidia-s-next-gen-ac637c41",
       "url": "/stories/samsung-to-use-tsmc-technology-for-nvidia-s-next-gen-ac637c41.html",
       "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports - Reuters",
@@ -22,6 +66,17 @@
       "score": 8,
       "pick": false,
       "source": "Reuters",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-to-use-tsmc-technology-for-nvidia-s-next-gen-38eedd0c",
+      "url": "/stories/samsung-to-use-tsmc-technology-for-nvidia-s-next-gen-38eedd0c.html",
+      "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports - CNA",
+      "tag": "fab",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "CNA",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
@@ -133,6 +188,17 @@
       "pick": false,
       "source": "The Korea Herald",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "tesla-accused-of-pressuring-samsung-on-foundry-terms-74dc0084",
+      "url": "/stories/tesla-accused-of-pressuring-samsung-on-foundry-terms-74dc0084.html",
+      "title": "Tesla Accused of Pressuring Samsung on Foundry Terms as Musk's Memory Price Rhetoric Signals Deeper Strategy - BigGo Finance",
+      "tag": "fab",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
       "slug": "micron-s-edge-inference-memory-could-solve-hbm-s-pow-0425ae6d",
