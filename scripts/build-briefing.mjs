@@ -111,8 +111,16 @@ function main() {
   const dayN = Math.max(1, Math.floor((now - start) / 86400000) + 1);
   const daysLabel = settings.ramageddonLabel.replace('{n}', dayN);
 
-  // Top notes: signal desc, then date desc; prefer items with verdicts
-  const scored = items
+  // Top notes: signal desc, then date desc; prefer items with verdicts.
+  // Only draw from the last RECENCY_HOURS — feed.xml is a growing archive
+  // (back to 2024), and editorial picks are permanently scored 10/10 with
+  // no decay, so without this window old picks would crowd out fresh news
+  // forever instead of the briefing ever reflecting the current day.
+  const RECENCY_HOURS = 48;
+  const cutoff = new Date(now - RECENCY_HOURS * 60 * 60 * 1000);
+  const eligible = items.filter((it) => it.publishedAt && new Date(it.publishedAt) >= cutoff);
+  const pool = eligible.length ? eligible : items;
+  const scored = pool
     .map((it) => ({ it, score: it.signal ?? (it.editorialPick ? 10 : 6) }))
     .sort((a, b) => b.score - a.score || new Date(b.it.publishedAt) - new Date(a.it.publishedAt));
   const top = scored.slice(0, 7);
@@ -125,7 +133,7 @@ function main() {
       .replace(/\n/g, '<br>')
       .replace(/^#+ .*$/gm, '');
   } else {
-    editorial = `The RAM Index read ${items.length} stories from the last 24h of memory-market news against the thesis — commodity DRAM supply reallocation toward HBM, and what it means for R_C, R_AI, and the composite signal. ${top.length} made the cut. The full archive is on the <a href="/stories/index.html" style="color:var(--hbm);">Stories</a> page.`;
+    editorial = `The RAM Index read ${pool.length} stories from the last ${RECENCY_HOURS}h of memory-market news against the thesis — commodity DRAM supply reallocation toward HBM, and what it means for R_C, R_AI, and the composite signal. ${top.length} made the cut. The full archive is on the <a href="/stories/index.html" style="color:var(--hbm);">Stories</a> page.`;
   }
 
   const notes = top.map(({ it, score }) => {
