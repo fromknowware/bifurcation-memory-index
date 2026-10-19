@@ -305,7 +305,46 @@ async function fetchOpml() {
 
 // ── Source: Raindrop dropbox (editorial picks) ──────────────────────
 
-async function fetchRaindrop() {
+// Raindrop's API only exposes `created` (when the bookmark was saved) and
+// `lastUpdate` — never the underlying article's actual publish date. Using
+// `created` as publishedAt made picks display as "published" whenever an
+// editor got around to bookmarking them, which could be days or months
+// after the article actually ran. So for picks not already in the feed, we
+// scrape the linked page for a real publish-date meta tag and only fall
+// back to the Raindrop save time if that fails.
+const ARTICLE_DATE_RE = /<meta\b[^>]*(?:property|name)=["'](?:article:published_time|og:published_time|datePublished|pubdate|publishdate|date|dc\.date|sailthru\.date)["'][^>]*>/i;
+
+function extractArticleDate(html) {
+  const metaMatch = html.match(ARTICLE_DATE_RE);
+  if (metaMatch) {
+    const content = metaMatch[0].match(/content=["']([^"']+)["']/i);
+    if (content) return content[1];
+  }
+  const ld = html.match(/"datePublished"\s*:\s*"([^"]+)"/i);
+  if (ld) return ld[1];
+  const time = html.match(/<time\b[^>]*\bdatetime=["']([^"']+)["']/i);
+  if (time) return time[1];
+  return null;
+}
+
+async function fetchArticlePublishedDate(url) {
+  try {
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; RAM-Index-Feed/1.0)' },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    const raw = extractArticleDate(html);
+    if (!raw) return null;
+    const d = new Date(raw);
+    return Number.isNaN(d.getTime()) ? null : d.toISOString();
+  } catch {
+    return null;
+  }
+}
+
+async function fetchRaindrop(existingKeys = new Set()) {
   const token = process.env.RAINDROP_API_TOKEN;
   const collectionId = process.env.RAINDROP_COLLECTION_ID || '71684447';
   if (!token) return [];
@@ -318,11 +357,21 @@ async function fetchRaindrop() {
     });
     if (!res.ok) throw new Error(`Raindrop API error: ${res.status} ${res.statusText}`);
     const data = await res.json();
-    return data.items.map((item) => ({
+    const picks = data.items.map((item) => ({
       title: item.title, url: item.link, excerpt: item.excerpt || '',
       source: item.domain || 'Raindrop', sourceFeed: 'raindrop',
-      publishedAt: item.created, editorialPick: true,
+      editorialPick: true, savedAt: item.created,
     }));
+    // Only worth scraping picks that are actually new — ones already in the
+    // feed get deduped out anyway, so don't spend a fetch on them.
+    await Promise.allSettled(picks.map(async (item) => {
+      if (existingKeys.has(dedupKey(item))) {
+        item.publishedAt = item.savedAt;
+        return;
+      }
+      item.publishedAt = (await fetchArticlePublishedDate(item.url)) || item.savedAt;
+    }));
+    return picks;
   } catch (e) {
     console.warn(`  raindrop: ${e.message}`);
     return [];
@@ -499,10 +548,11 @@ async function main() {
   }
 
   // 2. Gather new items from sources
+  const existingKeys = new Set(existing.map(dedupKey));
   const sources = [];
   if (process.env.GOOGLE_NEWS_ENABLED !== '0') sources.push(['google-news', fetchGoogleNews()]);
   sources.push(['opml', fetchOpml()]);
-  sources.push(['raindrop', fetchRaindrop()]);
+  sources.push(['raindrop', fetchRaindrop(existingKeys)]);
 
   const fresh = [];
   for (const [name, promise] of sources) {
@@ -516,7 +566,7 @@ async function main() {
   }
 
   // 3. Dedup new items against each other and against the existing feed
-  const seen = new Set(existing.map(dedupKey));
+  const seen = existingKeys;
   const cleanFresh = fresh
     .filter((item) => {
       const key = dedupKey(item);
