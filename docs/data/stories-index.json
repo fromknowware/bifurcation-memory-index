@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-10-19T13:09:24.364Z",
-  "count": 1855,
+  "generatedAt": "2026-10-19T22:19:44.780Z",
+  "count": 1872,
   "stories": [
+    {
+      "slug": "u-s-big-tech-wields-china-memory-threat-but-samsung-ff5c28eb",
+      "url": "/stories/u-s-big-tech-wields-china-memory-threat-but-samsung-ff5c28eb.html",
+      "title": "U.S. big tech wields China memory threat, but Samsung and SK hold pricing power - CHOSUNBIZ - Chosunbiz",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-is-doubling-ram-production-to-keep-everyday-ga-aeafc16c",
+      "url": "/stories/china-is-doubling-ram-production-to-keep-everyday-ga-aeafc16c.html",
+      "title": "China Is Doubling RAM Production to Keep Everyday Gadget Prices from Skyrocketing - Android Headlines",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "Android Headlines",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-s-next-gen-cpo-technology-puts-optics-directl-c2569a44",
+      "url": "/stories/nvidia-s-next-gen-cpo-technology-puts-optics-directl-c2569a44.html",
+      "title": "NVIDIA’s Next-Gen CPO Technology Puts Optics Directly On The Interposer While DWDM Pushes Optical Speeds To 256 Gb/s, First Prototypes Already Made For Future Chips",
+      "tag": "demand",
+      "date": "2026-10-19",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-taps-tsmc-for-nvhbm-base-die-production-4b754af7",
+      "url": "/stories/samsung-taps-tsmc-for-nvhbm-base-die-production-4b754af7.html",
+      "title": "Samsung Taps TSMC for NVHBM Base Die Production",
+      "tag": "fab",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "agentic-ai-explores-heterogeneous-chip-and-interconn-c7215f1e",
+      "url": "/stories/agentic-ai-explores-heterogeneous-chip-and-interconn-c7215f1e.html",
+      "title": "Agentic AI Explores Heterogeneous Chip and Interconnect Architectures (Argonne, UIUC)",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-s-minimax-and-deepseek-have-a-compute-capacity-eb21dcf0",
+      "url": "/stories/china-s-minimax-and-deepseek-have-a-compute-capacity-eb21dcf0.html",
+      "title": "China’s MiniMax And DeepSeek Have A Compute Capacity Of Sub-100,000 H100-Equvalent GPUs, And Yet Their Latest Models Continue To Scale The Frontier Curve, With Distillation Failing To Explain This Disparity",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-maps-ai-memory-roadmap-hbm4-hits-2-6x-gains-2-f08d8cd2",
+      "url": "/stories/micron-maps-ai-memory-roadmap-hbm4-hits-2-6x-gains-2-f08d8cd2.html",
+      "title": "Micron Maps AI Memory Roadmap: HBM4 Hits 2.6x Gains [2026] - shattered.io",
+      "tag": "demand",
+      "date": "2026-10-19",
+      "score": 7,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "memory-stocks-rally-as-tech-selloff-unwinds-micron-c-32778f62",
+      "url": "/stories/memory-stocks-rally-as-tech-selloff-unwinds-micron-c-32778f62.html",
+      "title": "Memory Stocks Rally as Tech Selloff Unwinds: Micron Climbs 4%, Sandisk Jumps 7%, SK Hynix Rises 5% - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-unveils-480gb-ai-gpu-to-target-large-scale-inf-956ceb2c",
+      "url": "/stories/intel-unveils-480gb-ai-gpu-to-target-large-scale-inf-956ceb2c.html",
+      "title": "Intel Unveils 480GB AI GPU to Target Large-Scale Inference With LPDDR5X Memory - Konsulteer",
+      "tag": "demand",
+      "date": "2026-10-19",
+      "score": 7,
+      "pick": false,
+      "source": "Konsulteer",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ps6-ram-and-ssd-costs-reportedly-nearing-700-c30cac85",
+      "url": "/stories/ps6-ram-and-ssd-costs-reportedly-nearing-700-c30cac85.html",
+      "title": "PS6 RAM and SSD costs reportedly nearing $700",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "KitGuru",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "cxmt-is-expected-to-add-over-100-000-dram-wafers-per-174427f9",
+      "url": "/stories/cxmt-is-expected-to-add-over-100-000-dram-wafers-per-174427f9.html",
+      "title": "CXMT Is Expected To Add Over 100,000 DRAM Wafers Per Month Within A Year, Aiming At Consumer Electronics Squeezed By The Memory Shortage - Wccftech",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "cxmt-is-expected-to-add-over-100-000-dram-wafers-per-1d6e8f48",
       "url": "/stories/cxmt-is-expected-to-add-over-100-000-dram-wafers-per-1d6e8f48.html",
@@ -47,6 +168,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "keybanc-hbm-prices-to-double-in-q1-2027-as-long-term-e737c559",
+      "url": "/stories/keybanc-hbm-prices-to-double-in-q1-2027-as-long-term-e737c559.html",
+      "title": "KeyBanc: HBM Prices to Double in Q1 2027 as Long-Term Contract Renewals Fuel Increases - BigGo Finance",
+      "tag": "earnings",
+      "date": "2026-10-19",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
       "slug": "intel-ceo-lip-bu-tan-says-china-is-not-that-far-behi-2e8fc070",
       "url": "/stories/intel-ceo-lip-bu-tan-says-china-is-not-that-far-behi-2e8fc070.html",
       "title": "Intel CEO Lip-Bu Tan Says China Is “Not That Far Behind” In Chip Manufacturing, Despite US Sanctions Blocking Its Access To EUV Machines",
@@ -58,6 +190,28 @@
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
+      "slug": "samsung-said-to-use-tsmc-tech-for-nvidia-s-next-gene-49c81879",
+      "url": "/stories/samsung-said-to-use-tsmc-tech-for-nvidia-s-next-gene-49c81879.html",
+      "title": "Samsung said to use TSMC tech for Nvidia's next-generation memory chips (SSNLF:OTCMKTS) - Seeking Alpha",
+      "tag": "fab",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "Seeking Alpha",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "bank-of-america-bets-that-memory-chip-profitability-772c2eb4",
+      "url": "/stories/bank-of-america-bets-that-memory-chip-profitability-772c2eb4.html",
+      "title": "Bank of America bets that memory chip profitability will dominate the market. Retail investors are flocking to leveraged semiconductor ETFs. Is a counter-rally in AI computing power and technology themes imminent? - 富途牛牛",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "富途牛牛",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "samsung-to-use-tsmc-technology-for-nvidia-s-next-gen-d73faa1a",
       "url": "/stories/samsung-to-use-tsmc-technology-for-nvidia-s-next-gen-d73faa1a.html",
       "title": "Samsung to Use TSMC Technology for Nvidia's Next-generation Memory Chips - ASHARQ AL-AWSAT English",
@@ -67,6 +221,17 @@
       "pick": false,
       "source": "ASHARQ AL-AWSAT English",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-electro-mechanics-wins-251-million-chip-subs-ab271f18",
+      "url": "/stories/samsung-electro-mechanics-wins-251-million-chip-subs-ab271f18.html",
+      "title": "Samsung Electro-Mechanics Wins $251 Million Chip Substrate Order From Big Tech Client - Seoul Economic Daily",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "micron-stock-forecast-cxmt-and-taiwan-labor-risk-dra-8f789bf8",
@@ -100,6 +265,17 @@
       "pick": false,
       "source": "TradingKey",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-to-use-tsmc-s-3nm-technology-for-nvidia-s-ne-ccbc974d",
+      "url": "/stories/samsung-to-use-tsmc-s-3nm-technology-for-nvidia-s-ne-ccbc974d.html",
+      "title": "Samsung to use TSMC’s 3nm technology for Nvidia’s next-gen AI memory chips - YugaTech",
+      "tag": "fab",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "YugaTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
       "slug": "breaking-the-memory-bottleneck-in-ai-and-hpc-socs-d6b4b2b3",
@@ -159,6 +335,17 @@
     {
       "slug": "if-i-could-only-own-1-artificial-intelligence-ai-mem-122693ff",
       "url": "/stories/if-i-could-only-own-1-artificial-intelligence-ai-mem-122693ff.html",
+      "title": "If I Could Only Own 1 Artificial Intelligence (AI) Memory Stock for the Next 5 Years, It Wouldn't Be Micron. - The Globe and Mail",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "The Globe and Mail",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "if-i-could-only-own-1-artificial-intelligence-ai-mem-61f786fa",
+      "url": "/stories/if-i-could-only-own-1-artificial-intelligence-ai-mem-61f786fa.html",
       "title": "If I Could Only Own 1 Artificial Intelligence (AI) Memory Stock for the Next 5 Years, It Wouldn't Be Micron. - The Globe and Mail",
       "tag": "supply",
       "date": "2026-10-19",
