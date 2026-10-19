@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-10-19T04:37:19.520Z",
-  "count": 1843,
+  "generatedAt": "2026-10-19T13:09:24.364Z",
+  "count": 1855,
   "stories": [
+    {
+      "slug": "cxmt-is-expected-to-add-over-100-000-dram-wafers-per-1d6e8f48",
+      "url": "/stories/cxmt-is-expected-to-add-over-100-000-dram-wafers-per-1d6e8f48.html",
+      "title": "CXMT Is Expected To Add Over 100,000 DRAM Wafers Per Month Within A Year, Aiming At Consumer Electronics Squeezed By The Memory Shortage",
+      "tag": "demand",
+      "date": "2026-10-19",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-the-undisputed-king-of-memory-chips-nasdaq-mu-762c2ff0",
+      "url": "/stories/micron-the-undisputed-king-of-memory-chips-nasdaq-mu-762c2ff0.html",
+      "title": "Micron: The Undisputed King Of Memory Chips (NASDAQ:MU) - Seeking Alpha",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "Seeking Alpha",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "call-of-duty-modern-warfare-4-on-switch-2-looks-shar-67033b3a",
+      "url": "/stories/call-of-duty-modern-warfare-4-on-switch-2-looks-shar-67033b3a.html",
+      "title": "Call of Duty: Modern Warfare 4 on Switch 2 Looks Sharper With DLSS Than SMAA, According to Digital Foundry",
+      "tag": "fab",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "sk-hynix-subsidiary-solidigm-s-u-s-nand-plant-and-ov-328a6120",
+      "url": "/stories/sk-hynix-subsidiary-solidigm-s-u-s-nand-plant-and-ov-328a6120.html",
+      "title": "SK hynix Subsidiary Solidigm’s U.S. NAND Plant And Overseas Equipment Export Plans For China Could Go Up In Smoke As Korean Authorities Sprout Regulatory Hurdles",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-ceo-lip-bu-tan-says-china-is-not-that-far-behi-2e8fc070",
+      "url": "/stories/intel-ceo-lip-bu-tan-says-china-is-not-that-far-behi-2e8fc070.html",
+      "title": "Intel CEO Lip-Bu Tan Says China Is “Not That Far Behind” In Chip Manufacturing, Despite US Sanctions Blocking Its Access To EUV Machines",
+      "tag": "fab",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-to-use-tsmc-technology-for-nvidia-s-next-gen-d73faa1a",
+      "url": "/stories/samsung-to-use-tsmc-technology-for-nvidia-s-next-gen-d73faa1a.html",
+      "title": "Samsung to Use TSMC Technology for Nvidia's Next-generation Memory Chips - ASHARQ AL-AWSAT English",
+      "tag": "fab",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "ASHARQ AL-AWSAT English",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "micron-stock-forecast-cxmt-and-taiwan-labor-risk-dra-8f789bf8",
+      "url": "/stories/micron-stock-forecast-cxmt-and-taiwan-labor-risk-dra-8f789bf8.html",
+      "title": "Micron Stock Forecast: CXMT and Taiwan Labor Risk Drag MU Toward $856 Support Despite Record AI Demand - TradingKey",
+      "tag": "demand",
+      "date": "2026-10-19",
+      "score": 7,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ai-inference-is-running-into-a-memory-bottleneck-hua-c1530254",
+      "url": "/stories/ai-inference-is-running-into-a-memory-bottleneck-hua-c1530254.html",
+      "title": "AI inference is running into a memory bottleneck. Huawei wants to tackle it with OceanStor M900",
+      "tag": "demand",
+      "date": "2026-10-19",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-sk-hynix-pull-back-sharply-in-october-as-sou-c793e66c",
+      "url": "/stories/samsung-sk-hynix-pull-back-sharply-in-october-as-sou-c793e66c.html",
+      "title": "Samsung, SK Hynix Pull Back Sharply in October as South Korea Pension Fund Holdings Shrink About $132 Billion From Late June: Can Memory Stock Rally Sustain? - TradingKey",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "breaking-the-memory-bottleneck-in-ai-and-hpc-socs-d6b4b2b3",
+      "url": "/stories/breaking-the-memory-bottleneck-in-ai-and-hpc-socs-d6b4b2b3.html",
+      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
+      "tag": "demand",
+      "date": "2026-10-19",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-tells-suppliers-to-tap-tsmc-process-for-next-a46603a1",
+      "url": "/stories/nvidia-tells-suppliers-to-tap-tsmc-process-for-next-a46603a1.html",
+      "title": "Nvidia Tells Suppliers to Tap TSMC Process for Next-Generation Memory Chips - The Information",
+      "tag": "fab",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "The Information",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "cxmt-says-ai-demand-flipped-its-dram-business-profit-11e8011f",
       "url": "/stories/cxmt-says-ai-demand-flipped-its-dram-business-profit-11e8011f.html",
@@ -12,6 +133,17 @@
       "pick": false,
       "source": "Finimize",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-to-use-tsmc-s-3nm-process-for-nvidia-s-next-6d809dbd",
+      "url": "/stories/samsung-to-use-tsmc-s-3nm-process-for-nvidia-s-next-6d809dbd.html",
+      "title": "Samsung to Use TSMC’s 3nm Process for Nvidia’s Next-Generation HBM｜Daily News Digest｜2026-10-19｜web only - 天下雜誌",
+      "tag": "fab",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "天下雜誌",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
     },
     {
       "slug": "samsung-to-use-tsmc-process-for-nvidia-s-next-genera-f7b23271",
