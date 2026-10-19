@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-10-18T20:39:44.265Z",
-  "count": 1835,
+  "generatedAt": "2026-10-19T04:37:19.520Z",
+  "count": 1843,
   "stories": [
+    {
+      "slug": "cxmt-says-ai-demand-flipped-its-dram-business-profit-11e8011f",
+      "url": "/stories/cxmt-says-ai-demand-flipped-its-dram-business-profit-11e8011f.html",
+      "title": "CXMT Says AI Demand Flipped Its DRAM Business Profitable - Finimize",
+      "tag": "demand",
+      "date": "2026-10-19",
+      "score": 7,
+      "pick": false,
+      "source": "Finimize",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-to-use-tsmc-process-for-nvidia-s-next-genera-f7b23271",
+      "url": "/stories/samsung-to-use-tsmc-process-for-nvidia-s-next-genera-f7b23271.html",
+      "title": "Samsung to use TSMC process for Nvidia’s next-generation memory chips - Taiwan News",
+      "tag": "fab",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "Taiwan News",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "if-i-could-only-own-1-artificial-intelligence-ai-mem-122693ff",
+      "url": "/stories/if-i-could-only-own-1-artificial-intelligence-ai-mem-122693ff.html",
+      "title": "If I Could Only Own 1 Artificial Intelligence (AI) Memory Stock for the Next 5 Years, It Wouldn't Be Micron. - The Globe and Mail",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "The Globe and Mail",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nanoelectromechanical-switches-target-more-efficient-f5d8e149",
+      "url": "/stories/nanoelectromechanical-switches-target-more-efficient-f5d8e149.html",
+      "title": "Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel)",
+      "tag": "supply",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-prices-rise-but-semiconductor-stocks-plunge-as-81f0a87b",
+      "url": "/stories/dram-prices-rise-but-semiconductor-stocks-plunge-as-81f0a87b.html",
+      "title": "DRAM prices rise, but semiconductor stocks plunge as interest-rate and cost pressures fuel AI investment fears - 파이낸셜뉴스",
+      "tag": "supply",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "파이낸셜뉴스",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "newegg-s-ryzen-7-9800x3d-cpu-bundle-is-189-off-and-i-cd12b62b",
+      "url": "/stories/newegg-s-ryzen-7-9800x3d-cpu-bundle-is-189-off-and-i-cd12b62b.html",
+      "title": "Newegg’s Ryzen 7 9800X3D CPU Bundle Is $189 Off And Includes A 32GB DDR5 RAM kit And ASUS Motherboard, But You’ll Love These Freebies Worth $185",
+      "tag": "supply",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-to-use-tsmc-s-3nm-process-for-nvidia-s-next-61dae12b",
+      "url": "/stories/samsung-to-use-tsmc-s-3nm-process-for-nvidia-s-next-61dae12b.html",
+      "title": "Samsung to use TSMC’s 3nm process for Nvidia’s next-generation HBM chips: Report - Firstpost",
+      "tag": "fab",
+      "date": "2026-10-18",
+      "score": 8,
+      "pick": false,
+      "source": "Firstpost",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "musk-calls-memory-pricing-extortionate-as-sk-hynix-m-b8f28cc0",
+      "url": "/stories/musk-calls-memory-pricing-extortionate-as-sk-hynix-m-b8f28cc0.html",
+      "title": "Musk Calls Memory Pricing Extortionate as SK Hynix Maps Out Life After HBM - ad-hoc-news.de",
+      "tag": "demand",
+      "date": "2026-10-18",
+      "score": 7,
+      "pick": false,
+      "source": "ad-hoc-news.de",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "kingston-dram-market-share-hits-62-to-top-trendforce-1cea88c4",
       "url": "/stories/kingston-dram-market-share-hits-62-to-top-trendforce-1cea88c4.html",
