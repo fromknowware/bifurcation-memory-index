@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T22:19:44.780Z",
+  "generatedAt": "2026-10-20T00:49:42.726Z",
   "count": 1872,
   "stories": [
     {
@@ -19895,7 +19895,7 @@
       "url": "/stories/micron-q3-fy2026-guidance-ddr5-asp-up-40-qoq-capacit-c6ff9c7b.html",
       "title": "Micron Q3 FY2026 guidance: DDR5 ASP up 40% QoQ; capacity allocation shifting further to HBM3E",
       "tag": "earnings",
-      "date": "2026-06-12",
+      "date": "2026-06-10",
       "score": 10,
       "pick": true,
       "source": "Hudson Labs / Micron IR",
@@ -19913,105 +19913,6 @@
       "verdict": ""
     },
     {
-      "slug": "new-intel-supported-memory-design-packs-nine-vertica-0bcd73e5",
-      "url": "/stories/new-intel-supported-memory-design-packs-nine-vertica-0bcd73e5.html",
-      "title": "New Intel-supported memory design packs nine vertical layers",
-      "tag": "supply",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "techradar.com",
-      "verdict": ""
-    },
-    {
-      "slug": "samsung-shifts-focus-from-hbm-to-ddr5-modules-ddr5-r-1f7423c0",
-      "url": "/stories/samsung-shifts-focus-from-hbm-to-ddr5-modules-ddr5-r-1f7423c0.html",
-      "title": "Samsung shifts focus from HBM to DDR5 modules: DDR5 RAM results in FAR more profits than HBM",
-      "tag": "demand",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "tweaktown.com",
-      "verdict": ""
-    },
-    {
-      "slug": "ai-memory-is-sold-out-causing-an-unprecedented-surge-908cc963",
-      "url": "/stories/ai-memory-is-sold-out-causing-an-unprecedented-surge-908cc963.html",
-      "title": "AI memory is sold out, causing an unprecedented surge in prices",
-      "tag": "demand",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "cnbc.com",
-      "verdict": ""
-    },
-    {
-      "slug": "the-high-bandwidth-memory-hbm-bottleneck-can-still-c-5389bb32",
-      "url": "/stories/the-high-bandwidth-memory-hbm-bottleneck-can-still-c-5389bb32.html",
-      "title": "The High-Bandwidth Memory (HBM) Bottleneck Can Still Cause Micron's Stock to Soar | The Motley Fool",
-      "tag": "demand",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "fool.com",
-      "verdict": ""
-    },
-    {
-      "slug": "how-far-can-chinese-hbm-go-cbe0ce6b",
-      "url": "/stories/how-far-can-chinese-hbm-go-cbe0ce6b.html",
-      "title": "How Far Can Chinese HBM Go?",
-      "tag": "demand",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "chinatalk.media",
-      "verdict": ""
-    },
-    {
-      "slug": "samsung-shows-first-hbm5-mockup-with-heat-path-block-31f4fc54",
-      "url": "/stories/samsung-shows-first-hbm5-mockup-with-heat-path-block-31f4fc54.html",
-      "title": "Samsung shows first HBM5 mockup with Heat Path Block cooling — thermal race with SK hynix shaping up",
-      "tag": "supply",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "tomshardware.com",
-      "verdict": ""
-    },
-    {
-      "slug": "ram-raid-profit-frenzy-sees-micron-sk-hynix-hit-1t-m-61b3273e",
-      "url": "/stories/ram-raid-profit-frenzy-sees-micron-sk-hynix-hit-1t-m-61b3273e.html",
-      "title": "RAM-raid profit frenzy sees Micron, SK Hynix hit $1T market caps",
-      "tag": "supply",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "sdxcentral.com",
-      "verdict": ""
-    },
-    {
-      "slug": "a-45-000-person-labor-strike-at-samsung-s-memory-chi-37ec5f6b",
-      "url": "/stories/a-45-000-person-labor-strike-at-samsung-s-memory-chi-37ec5f6b.html",
-      "title": "A 45,000-person labor strike at Samsung's memory chip plants could throw a wrench into the AI boom | Fortune",
-      "tag": "supply",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "fortune.com",
-      "verdict": ""
-    },
-    {
-      "slug": "ram-prices-2026-buy-now-or-wait-as-gartner-forecasts-10f4155c",
-      "url": "/stories/ram-prices-2026-buy-now-or-wait-as-gartner-forecasts-10f4155c.html",
-      "title": "RAM Prices 2026: Buy Now or Wait as Gartner Forecasts 130% Memory Cost Surge",
-      "tag": "supply",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "techtimes.com",
-      "verdict": ""
-    },
-    {
       "slug": "micron-mu-vs-sandisk-sndk-pure-play-memory-stocks-co-a39934be",
       "url": "/stories/micron-mu-vs-sandisk-sndk-pure-play-memory-stocks-co-a39934be.html",
       "title": "Micron (MU) vs Sandisk (SNDK): Pure-Play Memory Stocks Compared for 2026",
@@ -20020,72 +19921,6 @@
       "score": 10,
       "pick": true,
       "source": "heygotrade.com",
-      "verdict": ""
-    },
-    {
-      "slug": "is-ai-s-high-bandwidth-memory-crunch-about-to-hit-yo-94a67404",
-      "url": "/stories/is-ai-s-high-bandwidth-memory-crunch-about-to-hit-yo-94a67404.html",
-      "title": "Is AI’s High Bandwidth Memory Crunch About to Hit Your Wallet?",
-      "tag": "demand",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "spectrum.ieee.org",
-      "verdict": ""
-    },
-    {
-      "slug": "sk-hynix-is-embedding-cooling-into-hbm-memory-to-sto-2d3d2f9a",
-      "url": "/stories/sk-hynix-is-embedding-cooling-into-hbm-memory-to-sto-2d3d2f9a.html",
-      "title": "SK Hynix is embedding cooling into HBM memory to stop AI chips from overheating",
-      "tag": "demand",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "techspot.com",
-      "verdict": ""
-    },
-    {
-      "slug": "harvard-s-chip-expert-has-a-warning-for-ai-memory-in-d6d6caab",
-      "url": "/stories/harvard-s-chip-expert-has-a-warning-for-ai-memory-in-d6d6caab.html",
-      "title": "Harvard's chip expert has a warning for AI memory investors: 'This too will pass' | Fortune",
-      "tag": "demand",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "fortune.com",
-      "verdict": ""
-    },
-    {
-      "slug": "ram-is-reportedly-back-in-production-but-it-still-wo-a9bc5d4b",
-      "url": "/stories/ram-is-reportedly-back-in-production-but-it-still-wo-a9bc5d4b.html",
-      "title": "RAM Is Reportedly Back In Production — But It Still Won't Be Enough",
-      "tag": "supply",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "aol.com",
-      "verdict": ""
-    },
-    {
-      "slug": "beyond-hbm-the-flash-memory-technology-that-could-re-9d0f3e60",
-      "url": "/stories/beyond-hbm-the-flash-memory-technology-that-could-re-9d0f3e60.html",
-      "title": "Beyond HBM: The flash memory technology that could reshape AI infrastructure",
-      "tag": "demand",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "sdxcentral.com",
-      "verdict": ""
-    },
-    {
-      "slug": "intel-prepares-hbm-killer-hb3dm-memory-stacks-with-z-8d01f038",
-      "url": "/stories/intel-prepares-hbm-killer-hb3dm-memory-stacks-with-z-8d01f038.html",
-      "title": "Intel Prepares HBM Killer: HB3DM Memory Stacks with Z-Angle Technology",
-      "tag": "demand",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "techpowerup.com",
       "verdict": ""
     },
     {
@@ -20111,83 +19946,6 @@
       "verdict": ""
     },
     {
-      "slug": "ddr5-ram-hits-375-floor-for-pc-builders-hbm-takes-th-b75794f8",
-      "url": "/stories/ddr5-ram-hits-375-floor-for-pc-builders-hbm-takes-th-b75794f8.html",
-      "title": "DDR5 RAM Hits $375 Floor for PC Builders: HBM Takes Three Times More Wafers",
-      "tag": "fab",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "techtimes.com",
-      "verdict": ""
-    },
-    {
-      "slug": "amd-s-plan-to-fix-ram-costs-bring-back-bygone-cpus-a329f648",
-      "url": "/stories/amd-s-plan-to-fix-ram-costs-bring-back-bygone-cpus-a329f648.html",
-      "title": "AMD’s Plan to Fix RAM Costs: Bring Back Bygone CPUs",
-      "tag": "supply",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "gizmodo.com",
-      "verdict": ""
-    },
-    {
-      "slug": "lexar-regional-manager-says-that-ram-prices-are-expe-6fdbfa99",
-      "url": "/stories/lexar-regional-manager-says-that-ram-prices-are-expe-6fdbfa99.html",
-      "title": "Lexar regional manager says that RAM prices are expected to double by the end of the year — 'discounts' and stabilized prices result from distributors getting rid of old stock or sourcing products from other regions",
-      "tag": "supply",
-      "date": "2026-06-07",
-      "score": 10,
-      "pick": true,
-      "source": "tomshardware.com",
-      "verdict": ""
-    },
-    {
-      "slug": "is-dram-at-a-permanently-higher-plateau-asia-times-215d1a55",
-      "url": "/stories/is-dram-at-a-permanently-higher-plateau-asia-times-215d1a55.html",
-      "title": "Is DRAM at a permanently higher plateau? - Asia Times",
-      "tag": "supply",
-      "date": "2026-06-06",
-      "score": 10,
-      "pick": true,
-      "source": "asiatimes.com",
-      "verdict": ""
-    },
-    {
-      "slug": "how-a-nudge-from-nvidia-propelled-micron-to-a-1-tril-250169d8",
-      "url": "/stories/how-a-nudge-from-nvidia-propelled-micron-to-a-1-tril-250169d8.html",
-      "title": "How a nudge from Nvidia propelled Micron to a $1-trillion market cap - The Globe and Mail",
-      "tag": "demand",
-      "date": "2026-06-06",
-      "score": 10,
-      "pick": true,
-      "source": "theglobeandmail.com",
-      "verdict": ""
-    },
-    {
-      "slug": "nvidia-ceo-says-ai-s-future-isn-t-just-copper-global-9ebe37db",
-      "url": "/stories/nvidia-ceo-says-ai-s-future-isn-t-just-copper-global-9ebe37db.html",
-      "title": "NVIDIA CEO Says AI's Future Isn't Just Copper - Global X Copper Miners ETF (ARCA:COPX), Marvell Technolog - Benzinga",
-      "tag": "demand",
-      "date": "2026-06-06",
-      "score": 10,
-      "pick": true,
-      "source": "benzinga.com",
-      "verdict": ""
-    },
-    {
-      "slug": "micron-and-sk-hynix-cross-1-trillion-valuations-as-c-fb419c49",
-      "url": "/stories/micron-and-sk-hynix-cross-1-trillion-valuations-as-c-fb419c49.html",
-      "title": "Micron and SK Hynix Cross $1 Trillion Valuations as Chip Shortage Fuels AI Boom - 24/7 Wall St.",
-      "tag": "supply",
-      "date": "2026-06-06",
-      "score": 10,
-      "pick": true,
-      "source": "247wallst.com",
-      "verdict": ""
-    },
-    {
       "slug": "sk-hynix-tells-investors-its-us-listing-plan-wins-th-4a217a55",
       "url": "/stories/sk-hynix-tells-investors-its-us-listing-plan-wins-th-4a217a55.html",
       "title": "SK Hynix tells investors its US listing plan wins their strong backing — Reuters",
@@ -20210,20 +19968,9 @@
       "verdict": ""
     },
     {
-      "slug": "nand-flash-makers-earned-a-record-46-billion-in-reve-bcc3e4f0",
-      "url": "/stories/nand-flash-makers-earned-a-record-46-billion-in-reve-bcc3e4f0.html",
-      "title": "NAND flash makers earned a record $46 billion in revenues over the first quarter of 2026, a shocking 3.5 times more than last year | PC Gamer",
-      "tag": "supply",
-      "date": "2026-06-06",
-      "score": 10,
-      "pick": true,
-      "source": "pcgamer.com",
-      "verdict": ""
-    },
-    {
-      "slug": "silicon-motion-increases-sales-of-ssd-controllers-am-7c0d803f",
-      "url": "/stories/silicon-motion-increases-sales-of-ssd-controllers-am-7c0d803f.html",
-      "title": "Silicon Motion increases sales of SSD controllers amid NAND shortage, but expects NAND shortages to get worse in 2027 — 'supply conditions will become even worse' | Tom's Hardware",
+      "slug": "lexar-regional-manager-says-that-ram-prices-are-expe-6fdbfa99",
+      "url": "/stories/lexar-regional-manager-says-that-ram-prices-are-expe-6fdbfa99.html",
+      "title": "Lexar regional manager says that RAM prices are expected to double by the end of the year — 'discounts' and stabilized prices result from distributors getting rid of old stock or sourcing products from other regions",
       "tag": "supply",
       "date": "2026-06-06",
       "score": 10,
@@ -20232,14 +19979,36 @@
       "verdict": ""
     },
     {
-      "slug": "sk-hynix-ascends-as-new-memory-king-with-high-bandwi-83edf21c",
-      "url": "/stories/sk-hynix-ascends-as-new-memory-king-with-high-bandwi-83edf21c.html",
-      "title": "SK Hynix ascends as new memory king with high-bandwidth AI chips - Nikkei Asia",
-      "tag": "demand",
-      "date": "2026-06-06",
+      "slug": "ram-prices-2026-buy-now-or-wait-as-gartner-forecasts-10f4155c",
+      "url": "/stories/ram-prices-2026-buy-now-or-wait-as-gartner-forecasts-10f4155c.html",
+      "title": "RAM Prices 2026: Buy Now or Wait as Gartner Forecasts 130% Memory Cost Surge",
+      "tag": "supply",
+      "date": "2026-06-05",
       "score": 10,
       "pick": true,
-      "source": "asia.nikkei.com",
+      "source": "techtimes.com",
+      "verdict": ""
+    },
+    {
+      "slug": "is-dram-at-a-permanently-higher-plateau-asia-times-215d1a55",
+      "url": "/stories/is-dram-at-a-permanently-higher-plateau-asia-times-215d1a55.html",
+      "title": "Is DRAM at a permanently higher plateau? - Asia Times",
+      "tag": "supply",
+      "date": "2026-06-05",
+      "score": 10,
+      "pick": true,
+      "source": "asiatimes.com",
+      "verdict": ""
+    },
+    {
+      "slug": "ram-is-reportedly-back-in-production-but-it-still-wo-a9bc5d4b",
+      "url": "/stories/ram-is-reportedly-back-in-production-but-it-still-wo-a9bc5d4b.html",
+      "title": "RAM Is Reportedly Back In Production — But It Still Won't Be Enough",
+      "tag": "supply",
+      "date": "2026-06-05",
+      "score": 10,
+      "pick": true,
+      "source": "aol.com",
       "verdict": ""
     },
     {
@@ -20247,10 +20016,21 @@
       "url": "/stories/news-sk-hynix-reportedly-to-double-dram-capacity-to-b07b550c.html",
       "title": "[News] SK hynix Reportedly to Double DRAM Capacity to 1M Monthly Wafers by 2030, Speeds Yongin Expansion",
       "tag": "supply",
-      "date": "2026-06-06",
+      "date": "2026-06-05",
       "score": 10,
       "pick": true,
       "source": "trendforce.com",
+      "verdict": ""
+    },
+    {
+      "slug": "nvidia-ceo-says-ai-s-future-isn-t-just-copper-global-9ebe37db",
+      "url": "/stories/nvidia-ceo-says-ai-s-future-isn-t-just-copper-global-9ebe37db.html",
+      "title": "NVIDIA CEO Says AI's Future Isn't Just Copper - Global X Copper Miners ETF (ARCA:COPX), Marvell Technolog - Benzinga",
+      "tag": "demand",
+      "date": "2026-06-05",
+      "score": 10,
+      "pick": true,
+      "source": "benzinga.com",
       "verdict": ""
     },
     {
@@ -20258,10 +20038,32 @@
       "url": "/stories/building-semiconductor-chips-in-india-is-no-longer-t-94ac0db9.html",
       "title": "Building Semiconductor Chips In India Is No Longer The Hard Part — It Is Building The Ecosystem Around Them",
       "tag": "supply",
-      "date": "2026-06-06",
+      "date": "2026-06-05",
       "score": 10,
       "pick": true,
       "source": "swarajyamag.com",
+      "verdict": ""
+    },
+    {
+      "slug": "ddr5-ram-hits-375-floor-for-pc-builders-hbm-takes-th-b75794f8",
+      "url": "/stories/ddr5-ram-hits-375-floor-for-pc-builders-hbm-takes-th-b75794f8.html",
+      "title": "DDR5 RAM Hits $375 Floor for PC Builders: HBM Takes Three Times More Wafers",
+      "tag": "fab",
+      "date": "2026-06-04",
+      "score": 10,
+      "pick": true,
+      "source": "techtimes.com",
+      "verdict": ""
+    },
+    {
+      "slug": "silicon-motion-increases-sales-of-ssd-controllers-am-7c0d803f",
+      "url": "/stories/silicon-motion-increases-sales-of-ssd-controllers-am-7c0d803f.html",
+      "title": "Silicon Motion increases sales of SSD controllers amid NAND shortage, but expects NAND shortages to get worse in 2027 — 'supply conditions will become even worse' | Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-06-04",
+      "score": 10,
+      "pick": true,
+      "source": "tomshardware.com",
       "verdict": ""
     },
     {
@@ -20276,6 +20078,105 @@
       "verdict": "Bifurcation gap widens ¢ R_AI remains capped while R_C spikes. Weight "
     },
     {
+      "slug": "samsung-shows-first-hbm5-mockup-with-heat-path-block-31f4fc54",
+      "url": "/stories/samsung-shows-first-hbm5-mockup-with-heat-path-block-31f4fc54.html",
+      "title": "Samsung shows first HBM5 mockup with Heat Path Block cooling — thermal race with SK hynix shaping up",
+      "tag": "supply",
+      "date": "2026-06-03",
+      "score": 10,
+      "pick": true,
+      "source": "tomshardware.com",
+      "verdict": ""
+    },
+    {
+      "slug": "nand-flash-makers-earned-a-record-46-billion-in-reve-bcc3e4f0",
+      "url": "/stories/nand-flash-makers-earned-a-record-46-billion-in-reve-bcc3e4f0.html",
+      "title": "NAND flash makers earned a record $46 billion in revenues over the first quarter of 2026, a shocking 3.5 times more than last year | PC Gamer",
+      "tag": "supply",
+      "date": "2026-06-03",
+      "score": 10,
+      "pick": true,
+      "source": "pcgamer.com",
+      "verdict": ""
+    },
+    {
+      "slug": "sk-hynix-ascends-as-new-memory-king-with-high-bandwi-83edf21c",
+      "url": "/stories/sk-hynix-ascends-as-new-memory-king-with-high-bandwi-83edf21c.html",
+      "title": "SK Hynix ascends as new memory king with high-bandwidth AI chips - Nikkei Asia",
+      "tag": "demand",
+      "date": "2026-06-02",
+      "score": 10,
+      "pick": true,
+      "source": "asia.nikkei.com",
+      "verdict": ""
+    },
+    {
+      "slug": "how-a-nudge-from-nvidia-propelled-micron-to-a-1-tril-250169d8",
+      "url": "/stories/how-a-nudge-from-nvidia-propelled-micron-to-a-1-tril-250169d8.html",
+      "title": "How a nudge from Nvidia propelled Micron to a $1-trillion market cap - The Globe and Mail",
+      "tag": "demand",
+      "date": "2026-06-02",
+      "score": 10,
+      "pick": true,
+      "source": "theglobeandmail.com",
+      "verdict": ""
+    },
+    {
+      "slug": "micron-and-sk-hynix-cross-1-trillion-valuations-as-c-fb419c49",
+      "url": "/stories/micron-and-sk-hynix-cross-1-trillion-valuations-as-c-fb419c49.html",
+      "title": "Micron and SK Hynix Cross $1 Trillion Valuations as Chip Shortage Fuels AI Boom - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-06-02",
+      "score": 10,
+      "pick": true,
+      "source": "247wallst.com",
+      "verdict": ""
+    },
+    {
+      "slug": "amd-s-plan-to-fix-ram-costs-bring-back-bygone-cpus-a329f648",
+      "url": "/stories/amd-s-plan-to-fix-ram-costs-bring-back-bygone-cpus-a329f648.html",
+      "title": "AMD’s Plan to Fix RAM Costs: Bring Back Bygone CPUs",
+      "tag": "supply",
+      "date": "2026-06-01",
+      "score": 10,
+      "pick": true,
+      "source": "gizmodo.com",
+      "verdict": ""
+    },
+    {
+      "slug": "ram-raid-profit-frenzy-sees-micron-sk-hynix-hit-1t-m-61b3273e",
+      "url": "/stories/ram-raid-profit-frenzy-sees-micron-sk-hynix-hit-1t-m-61b3273e.html",
+      "title": "RAM-raid profit frenzy sees Micron, SK Hynix hit $1T market caps",
+      "tag": "supply",
+      "date": "2026-05-27",
+      "score": 10,
+      "pick": true,
+      "source": "sdxcentral.com",
+      "verdict": ""
+    },
+    {
+      "slug": "sk-hynix-is-embedding-cooling-into-hbm-memory-to-sto-2d3d2f9a",
+      "url": "/stories/sk-hynix-is-embedding-cooling-into-hbm-memory-to-sto-2d3d2f9a.html",
+      "title": "SK Hynix is embedding cooling into HBM memory to stop AI chips from overheating",
+      "tag": "demand",
+      "date": "2026-05-26",
+      "score": 10,
+      "pick": true,
+      "source": "techspot.com",
+      "verdict": ""
+    },
+    {
+      "slug": "a-45-000-person-labor-strike-at-samsung-s-memory-chi-37ec5f6b",
+      "url": "/stories/a-45-000-person-labor-strike-at-samsung-s-memory-chi-37ec5f6b.html",
+      "title": "A 45,000-person labor strike at Samsung's memory chip plants could throw a wrench into the AI boom | Fortune",
+      "tag": "supply",
+      "date": "2026-05-17",
+      "score": 10,
+      "pick": true,
+      "source": "fortune.com",
+      "verdict": ""
+    },
+    {
       "slug": "samsung-delays-1c-nm-dram-ramp-by-2-quarters-citing-8eff68bc",
       "url": "/stories/samsung-delays-1c-nm-dram-ramp-by-2-quarters-citing-8eff68bc.html",
       "title": "Samsung delays 1c-nm DRAM ramp by 2 quarters citing yield challenges at Pyeongtaek P4 fab",
@@ -20287,6 +20188,50 @@
       "verdict": "The commodity spike extends; downside risk to our base-case RI decline in 2027."
     },
     {
+      "slug": "new-intel-supported-memory-design-packs-nine-vertica-0bcd73e5",
+      "url": "/stories/new-intel-supported-memory-design-packs-nine-vertica-0bcd73e5.html",
+      "title": "New Intel-supported memory design packs nine vertical layers",
+      "tag": "supply",
+      "date": "2026-05-13",
+      "score": 10,
+      "pick": true,
+      "source": "techradar.com",
+      "verdict": ""
+    },
+    {
+      "slug": "harvard-s-chip-expert-has-a-warning-for-ai-memory-in-d6d6caab",
+      "url": "/stories/harvard-s-chip-expert-has-a-warning-for-ai-memory-in-d6d6caab.html",
+      "title": "Harvard's chip expert has a warning for AI memory investors: 'This too will pass' | Fortune",
+      "tag": "demand",
+      "date": "2026-05-11",
+      "score": 10,
+      "pick": true,
+      "source": "fortune.com",
+      "verdict": ""
+    },
+    {
+      "slug": "beyond-hbm-the-flash-memory-technology-that-could-re-9d0f3e60",
+      "url": "/stories/beyond-hbm-the-flash-memory-technology-that-could-re-9d0f3e60.html",
+      "title": "Beyond HBM: The flash memory technology that could reshape AI infrastructure",
+      "tag": "demand",
+      "date": "2026-05-11",
+      "score": 10,
+      "pick": true,
+      "source": "sdxcentral.com",
+      "verdict": ""
+    },
+    {
+      "slug": "intel-prepares-hbm-killer-hb3dm-memory-stacks-with-z-8d01f038",
+      "url": "/stories/intel-prepares-hbm-killer-hb3dm-memory-stacks-with-z-8d01f038.html",
+      "title": "Intel Prepares HBM Killer: HB3DM Memory Stacks with Z-Angle Technology",
+      "tag": "demand",
+      "date": "2026-04-29",
+      "score": 10,
+      "pick": true,
+      "source": "techpowerup.com",
+      "verdict": ""
+    },
+    {
       "slug": "making-ram-at-home-c3ecc585",
       "url": "/stories/making-ram-at-home-c3ecc585.html",
       "title": "Making RAM at Home",
@@ -20295,17 +20240,6 @@
       "score": 10,
       "pick": true,
       "source": "youtube.com",
-      "verdict": ""
-    },
-    {
-      "slug": "mind-the-gap-the-semiconductor-industry-is-relying-o-d2f672ca",
-      "url": "/stories/mind-the-gap-the-semiconductor-industry-is-relying-o-d2f672ca.html",
-      "title": "Mind the gap! The semiconductor industry is relying on the wrong materials",
-      "tag": "supply",
-      "date": "2026-04-22",
-      "score": 10,
-      "pick": true,
-      "source": "phys.org",
       "verdict": ""
     },
     {
@@ -20320,14 +20254,14 @@
       "verdict": ""
     },
     {
-      "slug": "a-guide-to-understanding-gpus-and-maximizing-gpu-uti-ba945bdb",
-      "url": "/stories/a-guide-to-understanding-gpus-and-maximizing-gpu-uti-ba945bdb.html",
-      "title": "A Guide to Understanding GPUs and Maximizing GPU Utilization | Towards Data Science",
+      "slug": "mind-the-gap-the-semiconductor-industry-is-relying-o-d2f672ca",
+      "url": "/stories/mind-the-gap-the-semiconductor-industry-is-relying-o-d2f672ca.html",
+      "title": "Mind the gap! The semiconductor industry is relying on the wrong materials",
       "tag": "supply",
       "date": "2026-04-20",
       "score": 10,
       "pick": true,
-      "source": "towardsdatascience.com",
+      "source": "phys.org",
       "verdict": ""
     },
     {
@@ -20353,14 +20287,47 @@
       "verdict": "Downstream stocks (INTC, QCOM) will see BOM pressure in Q2¢Q3 earnings."
     },
     {
+      "slug": "a-guide-to-understanding-gpus-and-maximizing-gpu-uti-ba945bdb",
+      "url": "/stories/a-guide-to-understanding-gpus-and-maximizing-gpu-uti-ba945bdb.html",
+      "title": "A Guide to Understanding GPUs and Maximizing GPU Utilization | Towards Data Science",
+      "tag": "supply",
+      "date": "2026-04-14",
+      "score": 10,
+      "pick": true,
+      "source": "towardsdatascience.com",
+      "verdict": ""
+    },
+    {
       "slug": "modern-dram-is-based-on-a-brilliant-design-from-ibm-cdb51c5f",
       "url": "/stories/modern-dram-is-based-on-a-brilliant-design-from-ibm-cdb51c5f.html",
       "title": "Modern DRAM is based on a brilliant design from IBM. But, we're still paying for a latency penalty that's existed since the 60s! In this video, I'm introducing my personal research project… | Laurie Kirk | 25 comments",
       "tag": "supply",
-      "date": "2026-04-08",
+      "date": "2026-04-07",
       "score": 10,
       "pick": true,
       "source": "linkedin.com",
+      "verdict": ""
+    },
+    {
+      "slug": "is-ai-s-high-bandwidth-memory-crunch-about-to-hit-yo-94a67404",
+      "url": "/stories/is-ai-s-high-bandwidth-memory-crunch-about-to-hit-yo-94a67404.html",
+      "title": "Is AI’s High Bandwidth Memory Crunch About to Hit Your Wallet?",
+      "tag": "demand",
+      "date": "2026-04-06",
+      "score": 10,
+      "pick": true,
+      "source": "spectrum.ieee.org",
+      "verdict": ""
+    },
+    {
+      "slug": "the-high-bandwidth-memory-hbm-bottleneck-can-still-c-5389bb32",
+      "url": "/stories/the-high-bandwidth-memory-hbm-bottleneck-can-still-c-5389bb32.html",
+      "title": "The High-Bandwidth Memory (HBM) Bottleneck Can Still Cause Micron's Stock to Soar | The Motley Fool",
+      "tag": "demand",
+      "date": "2026-04-03",
+      "score": 10,
+      "pick": true,
+      "source": "fool.com",
       "verdict": ""
     },
     {
@@ -20401,21 +20368,10 @@
       "url": "/stories/inverse-designed-nanophotonic-neural-network-acceler-7ea84d19.html",
       "title": "Inverse-designed nanophotonic neural network accelerators for ultra-compact optical computing | Nature Communications",
       "tag": "supply",
-      "date": "2026-03-05",
+      "date": "2026-03-04",
       "score": 10,
       "pick": true,
       "source": "nature.com",
-      "verdict": ""
-    },
-    {
-      "slug": "john-carmack-muses-using-a-long-fiber-line-as-an-l2-667845b5",
-      "url": "/stories/john-carmack-muses-using-a-long-fiber-line-as-an-l2-667845b5.html",
-      "title": "John Carmack muses using a long fiber line as an L2 cache for streaming AI data — programmer imagines fiber as alternative to DRAM",
-      "tag": "supply",
-      "date": "2026-03-03",
-      "score": 10,
-      "pick": true,
-      "source": "tomshardware.com",
       "verdict": ""
     },
     {
@@ -20430,11 +20386,22 @@
       "verdict": ""
     },
     {
+      "slug": "john-carmack-muses-using-a-long-fiber-line-as-an-l2-667845b5",
+      "url": "/stories/john-carmack-muses-using-a-long-fiber-line-as-an-l2-667845b5.html",
+      "title": "John Carmack muses using a long fiber line as an L2 cache for streaming AI data — programmer imagines fiber as alternative to DRAM",
+      "tag": "supply",
+      "date": "2026-02-09",
+      "score": 10,
+      "pick": true,
+      "source": "tomshardware.com",
+      "verdict": ""
+    },
+    {
       "slug": "tower-semiconductor-surges-to-15-billion-valuation-t-a56f0ba5",
       "url": "/stories/tower-semiconductor-surges-to-15-billion-valuation-t-a56f0ba5.html",
       "title": "Tower Semiconductor surges to $15 billion valuation, tripling Intel’s abandoned bid | Ctech",
       "tag": "supply",
-      "date": "2026-01-31",
+      "date": "2026-01-29",
       "score": 10,
       "pick": true,
       "source": "calcalistech.com",
@@ -20456,10 +20423,43 @@
       "url": "/stories/chinese-scientists-shrink-semiconductor-chip-into-fi-a711d484.html",
       "title": "Chinese scientists shrink semiconductor chip into fibre as thin as human hair",
       "tag": "supply",
-      "date": "2026-01-25",
+      "date": "2026-01-23",
       "score": 10,
       "pick": true,
       "source": "sc.mp",
+      "verdict": ""
+    },
+    {
+      "slug": "ai-memory-is-sold-out-causing-an-unprecedented-surge-908cc963",
+      "url": "/stories/ai-memory-is-sold-out-causing-an-unprecedented-surge-908cc963.html",
+      "title": "AI memory is sold out, causing an unprecedented surge in prices",
+      "tag": "demand",
+      "date": "2026-01-10",
+      "score": 10,
+      "pick": true,
+      "source": "cnbc.com",
+      "verdict": ""
+    },
+    {
+      "slug": "samsung-shifts-focus-from-hbm-to-ddr5-modules-ddr5-r-1f7423c0",
+      "url": "/stories/samsung-shifts-focus-from-hbm-to-ddr5-modules-ddr5-r-1f7423c0.html",
+      "title": "Samsung shifts focus from HBM to DDR5 modules: DDR5 RAM results in FAR more profits than HBM",
+      "tag": "demand",
+      "date": "2025-12-09",
+      "score": 10,
+      "pick": true,
+      "source": "tweaktown.com",
+      "verdict": ""
+    },
+    {
+      "slug": "how-far-can-chinese-hbm-go-cbe0ce6b",
+      "url": "/stories/how-far-can-chinese-hbm-go-cbe0ce6b.html",
+      "title": "How Far Can Chinese HBM Go?",
+      "tag": "demand",
+      "date": "2025-12-05",
+      "score": 10,
+      "pick": true,
+      "source": "chinatalk.media",
       "verdict": ""
     },
     {
@@ -20500,7 +20500,7 @@
       "url": "/stories/what-does-semiconductor-disruption-look-like-1d498fbe.html",
       "title": "What Does Semiconductor Disruption Look Like?",
       "tag": "supply",
-      "date": "2025-09-26",
+      "date": "2025-09-25",
       "score": 10,
       "pick": true,
       "source": "semiengineering.com",
@@ -20533,7 +20533,7 @@
       "url": "/stories/semiconductor-ev-autonomy-testing-becomes-more-effic-f6eaea56.html",
       "title": "Semiconductor, EV autonomy testing becomes more efficient with Nigel AI",
       "tag": "supply",
-      "date": "2025-07-28",
+      "date": "2025-07-26",
       "score": 10,
       "pick": true,
       "source": "interestingengineering.com",
@@ -20555,7 +20555,7 @@
       "url": "/stories/world-s-first-semiconductor-made-by-quantum-tech-stu-63f00ab1.html",
       "title": "World’s first semiconductor made by quantum tech stuns chip industry",
       "tag": "supply",
-      "date": "2025-07-05",
+      "date": "2025-07-02",
       "score": 10,
       "pick": true,
       "source": "share.google",
@@ -20566,7 +20566,7 @@
       "url": "/stories/new-rambo-attack-steals-data-using-ram-in-air-gapped-b1b2f509.html",
       "title": "New RAMBO attack steals data using RAM in air-gapped computers",
       "tag": "supply",
-      "date": "2024-09-09",
+      "date": "2024-09-07",
       "score": 10,
       "pick": true,
       "source": "bleepingcomputer.com",
