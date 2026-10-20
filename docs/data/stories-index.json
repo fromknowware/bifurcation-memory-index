@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-10-20T11:32:45.287Z",
-  "count": 1883,
+  "generatedAt": "2026-10-20T17:00:27.243Z",
+  "count": 1899,
   "stories": [
+    {
+      "slug": "intel-vs-micron-who-is-more-exposed-by-chinese-rival-81f20b57",
+      "url": "/stories/intel-vs-micron-who-is-more-exposed-by-chinese-rival-81f20b57.html",
+      "title": "Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress? - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "elon-musk-tried-to-buy-chip-plants-from-intel-tsmc-a-bdaeaf26",
+      "url": "/stories/elon-musk-tried-to-buy-chip-plants-from-intel-tsmc-a-bdaeaf26.html",
+      "title": "Elon Musk Tried To Buy Chip Plants From Intel, TSMC And Micron Before Building Terafab, But Was Snubbed And Pivoted To Partnerships To Fuel Plan For “Million Times’ Of Earth Economy",
+      "tag": "fab",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "micron-cxmt-unveil-new-memory-push-businesskorea-45c3fa9b",
+      "url": "/stories/micron-cxmt-unveil-new-memory-push-businesskorea-45c3fa9b.html",
+      "title": "Micron, CXMT Unveil New Memory Push - Businesskorea",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-s-12-core-ryzen-cpu-with-a-single-12-core-zen-6-86318169",
+      "url": "/stories/amd-s-12-core-ryzen-cpu-with-a-single-12-core-zen-6-86318169.html",
+      "title": "AMD’s 12-Core Ryzen CPU With A Single 12-Core “Zen 6” CCD Could Match The Ryzen 9 9950X3D2 “Zen 5” Chip In Multi-Threaded Performance, Says Hydra Tool Creator",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "mysterious-amd-zen-6-apu-with-24gb-of-lpddr5-memory-94a037c0",
+      "url": "/stories/mysterious-amd-zen-6-apu-with-24gb-of-lpddr5-memory-94a037c0.html",
+      "title": "Mysterious AMD Zen 6 APU with 24GB of LPDDR5 memory appears in benchmarks",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "smartphone-oems-are-now-resorting-to-recycling-dram-e8c37043",
+      "url": "/stories/smartphone-oems-are-now-resorting-to-recycling-dram-e8c37043.html",
+      "title": "Smartphone OEMs Are Now Resorting To Recycling DRAM That Is 5 To 6 Years Old To Push Up Shipment Volumes",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "skhy-stock-drops-as-china-s-cxmt-rattles-dram-trade-1bbca6ae",
+      "url": "/stories/skhy-stock-drops-as-china-s-cxmt-rattles-dram-trade-1bbca6ae.html",
+      "title": "SKHY Stock Drops As China’s CXMT Rattles DRAM Trade - Timothy Sykes",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "Timothy Sykes",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "system-integrator-informs-about-another-10-15-hike-i-58a225c9",
+      "url": "/stories/system-integrator-informs-about-another-10-15-hike-i-58a225c9.html",
+      "title": "System Integrator Informs About Another 10-15% Hike In DDR5 Memory Price, Leading To Cancellation Of Existing Orders",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-competition-is-real-but-the-selloff-creates-a-t-98607e76",
+      "url": "/stories/dram-competition-is-real-but-the-selloff-creates-a-t-98607e76.html",
+      "title": "DRAM: Competition Is Real, But The Selloff Creates A Tactical Buying Opportunity - Seeking Alpha",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "Seeking Alpha",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-signs-huge-dram-and-hbm-contracts-gsmarena-c-4b6d4e11",
+      "url": "/stories/samsung-signs-huge-dram-and-hbm-contracts-gsmarena-c-4b6d4e11.html",
+      "title": "Samsung signs huge DRAM and HBM contracts - GSMArena.com news - GSMArena.com",
+      "tag": "demand",
+      "date": "2026-10-20",
+      "score": 7,
+      "pick": false,
+      "source": "GSMArena.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "china-s-tech-giants-drop-35-billion-on-export-compli-60fbfe50",
+      "url": "/stories/china-s-tech-giants-drop-35-billion-on-export-compli-60fbfe50.html",
+      "title": "China’s tech giants drop $35 billion on export-compliant Nvidia RTX Pro 5500 workstation GPU orders to power AI ambitions, according to reports",
+      "tag": "demand",
+      "date": "2026-10-20",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-built-its-first-nova-lake-8-16-samples-on-its-87a96a27",
+      "url": "/stories/intel-built-its-first-nova-lake-8-16-samples-on-its-87a96a27.html",
+      "title": "Intel Built Its First Nova Lake 8+16 Samples On Its Own 18A-P With Backside Power, Then Handed The Compute Tiles To TSMC’s N2P",
+      "tag": "fab",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "modal-taps-nvidia-vera-cpus-after-firm-s-internal-te-48de51a9",
+      "url": "/stories/modal-taps-nvidia-vera-cpus-after-firm-s-internal-te-48de51a9.html",
+      "title": "Modal taps Nvidia Vera CPUs after firm's internal tests show 2x throughput over Intel and AMD chips",
+      "tag": "demand",
+      "date": "2026-10-20",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "skhy-stock-slides-as-china-s-cxmt-rattles-dram-trade-136e3c12",
+      "url": "/stories/skhy-stock-slides-as-china-s-cxmt-rattles-dram-trade-136e3c12.html",
+      "title": "SKHY Stock Slides As China’s CXMT Rattles DRAM Trade - Timothy Sykes",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "Timothy Sykes",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "electronics-hobbyist-converts-120-ddr5-sodimm-kit-in-f3bb9faa",
       "url": "/stories/electronics-hobbyist-converts-120-ddr5-sodimm-kit-in-f3bb9faa.html",
@@ -22,6 +176,17 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-shortage-drives-chinese-smartphones-to-recycle-daba070a",
+      "url": "/stories/dram-shortage-drives-chinese-smartphones-to-recycle-daba070a.html",
+      "title": "DRAM Shortage Drives Chinese Smartphones to Recycle Used Chips — Even Weighing All-Recycled Budget Models - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -66,6 +231,17 @@
       "score": 8,
       "pick": false,
       "source": "SammyGuru",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-s-2027-memory-output-already-80-booked-kb-se-397a7ee2",
+      "url": "/stories/samsung-s-2027-memory-output-already-80-booked-kb-se-397a7ee2.html",
+      "title": "Samsung's 2027 memory output already 80% booked: KB Securities - The Korea Herald",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "The Korea Herald",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
