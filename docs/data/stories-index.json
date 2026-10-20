@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-10-20T04:46:48.704Z",
-  "count": 1876,
+  "generatedAt": "2026-10-20T11:32:45.287Z",
+  "count": 1883,
   "stories": [
+    {
+      "slug": "electronics-hobbyist-converts-120-ddr5-sodimm-kit-in-f3bb9faa",
+      "url": "/stories/electronics-hobbyist-converts-120-ddr5-sodimm-kit-in-f3bb9faa.html",
+      "title": "Electronics hobbyist converts $120 DDR5 SODIMM kit into ‘$1000’ desktop kit to fight RAM crisis",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pick-up-this-ddr5-gaming-pc-for-only-899-8ceb793d",
+      "url": "/stories/pick-up-this-ddr5-gaming-pc-for-only-899-8ceb793d.html",
+      "title": "Pick up this DDR5 gaming PC for only $899",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-standardizes-hbm-production-at-tsmc-techzine-265677ca",
+      "url": "/stories/nvidia-standardizes-hbm-production-at-tsmc-techzine-265677ca.html",
+      "title": "Nvidia standardizes HBM production at TSMC - Techzine Global",
+      "tag": "fab",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "Techzine Global",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "news-dram-prices-seen-rising-20-qoq-in-4q26-despite-8b62a85e",
+      "url": "/stories/news-dram-prices-seen-rising-20-qoq-in-4q26-despite-8b62a85e.html",
+      "title": "[News] DRAM Prices Seen Rising 20% QoQ in 4Q26 Despite Slower Gains; AI Demand, Tight Supply Support Outlook - TrendForce",
+      "tag": "demand",
+      "date": "2026-10-20",
+      "score": 7,
+      "pick": false,
+      "source": "TrendForce",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-s-2027-memory-output-already-80-booked-kb-se-d5cb5b1c",
+      "url": "/stories/samsung-s-2027-memory-output-already-80-booked-kb-se-d5cb5b1c.html",
+      "title": "Samsung's 2027 memory output already 80% booked: KB Securities - The Investor",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "The Investor",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-secures-80-of-its-2027-memory-chip-orders-in-f8c82271",
+      "url": "/stories/samsung-secures-80-of-its-2027-memory-chip-orders-in-f8c82271.html",
+      "title": "Samsung Secures 80% of Its 2027 Memory Chip Orders in Advance - SammyGuru",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "SammyGuru",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026-7b5acc95",
       "url": "/stories/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026-7b5acc95.html",
@@ -11,6 +77,17 @@
       "score": 7,
       "pick": false,
       "source": "ServeTheHome",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-developing-eim-a-stacked-lpddr-memory-for-rob-4c7f9bb3",
+      "url": "/stories/micron-developing-eim-a-stacked-lpddr-memory-for-rob-4c7f9bb3.html",
+      "title": "Micron Developing EIM, a Stacked-LPDDR Memory for Robot AI - XenoSpectrum",
+      "tag": "demand",
+      "date": "2026-10-20",
+      "score": 7,
+      "pick": false,
+      "source": "XenoSpectrum",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
