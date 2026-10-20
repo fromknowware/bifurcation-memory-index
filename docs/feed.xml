@@ -5,7 +5,7 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-19T22:19:42.538Z</updated>
+  <updated>2026-10-20T00:49:29.354Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
@@ -21,7 +21,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;U.S. big tech wields China memory threat, but Samsung and SK hold pricing power - CHOSUNBIZ Chosunbiz&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;U.S. big tech wields China memory threat, but Samsung and SK hold pricing power - CHOSUNBIZ Chosunbiz&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMikwFBVV95cUxPeXZDVm96ZkRocEhOb2lJYUNzRk5kUXk0eDl0b1RRTHVzczRuOE1fNWRXcGp6ZjExb1Fwd2NhS3lCTUxfTGdzTlVLNW02TzJMU01qZTJzVjUwaFlZU2Z6Q2RoU0xDUlN4MHhMUmQ5SDhwWl9GNVNLZ2lHdnluLXJTclVXRU45eGVfYW16cC1RbndWTDA?oc=5</id>
@@ -34,7 +34,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;China Is Doubling RAM Production to Keep Everyday Gadget Prices from Skyrocketing Android Headlines&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;China Is Doubling RAM Production to Keep Everyday Gadget Prices from Skyrocketing Android Headlines&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/nvidia-next-gen-cpo-technology-optics-directly-on-the-interposer/</id>
@@ -47,7 +47,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;NVIDIA has developed prototypes of its next-generation CPO and Optical Fiber technologies which will be leveraged by future products. NVIDIA Aims Advanced CPOs On Future Chips, Moving Optical Engines From Substrates To Interposer As the industry moves to develop advanced CPO (Co-Packaged Optics) solutions to address AI and compute requirements at scale, researchers at NVIDIA are already developing&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;NVIDIA has developed prototypes of its next-generation CPO and Optical Fiber technologies which will be leveraged by future products. NVIDIA Aims Advanced CPOs On Future Chips, Moving Optical Engines From Substrates To Interposer As the industry moves to develop advanced CPO (Co-Packaged Optics) solutions to address AI and compute requirements at scale, researchers at NVIDIA are already developing&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/353882/samsung-taps-tsmc-for-nvhbm-base-die-production</id>
@@ -60,7 +60,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Samsung is reportedly collaborating with the world's largest chip maker, TSMC, to secure a base die supply for NVIDIA's newly announced NVHBM memory standard . NVHBM integrates the controller into the 3D HBM stack, significantly enhancing performance and efficiency. Compared to standard HBM4E, NVIDIA claims up to 30% more memory bandwidth, 15% lower HBM power consumption, and up to 25% more usable&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung is reportedly collaborating with the world's largest chip maker, TSMC, to secure a base die supply for NVIDIA's newly announced NVHBM memory standard . NVHBM integrates the controller into the 3D HBM stack, significantly enhancing performance and efficiency. Compared to standard HBM4E, NVIDIA claims up to 30% more memory bandwidth, 15% lower HBM power consumption, and up to 25% more usable&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://semiengineering.com/agentic-ai-explores-heterogeneous-chip-and-interconnect-architectures-argonne-uiuc/</id>
@@ -73,7 +73,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Researchers at Argonne National Laboratory and the University of Illinois Urbana-Champaign published a technical paper titled “Agentic AI for Heterogeneous System Design Across Chip, Scale-Up, and Scale-Out Domains.” Abstract Excerpt: “The design space of modern AI/HPC systems has expanded rapidly across compute architectures, including GPUs, dataflow processors, and RISC-V accelerators; memory te&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Researchers at Argonne National Laboratory and the University of Illinois Urbana-Champaign published a technical paper titled “Agentic AI for Heterogeneous System Design Across Chip, Scale-Up, and Scale-Out Domains.” Abstract Excerpt: “The design space of modern AI/HPC systems has expanded rapidly across compute architectures, including GPUs, dataflow processors, and RISC-V accelerators; memory te&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/chinas-minimax-and-deepseek-have-a-compute-capacity-of-sub-100000-h100-equvalent-gpus-and-yet-their-latest-models-continue-to-scale-the-frontier-curve-with-distillation-failing-to-explain-this-di/</id>
@@ -86,7 +86,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;The heretofore uncontested placement of the DeepSeek-V4.1-Flash-1017 model at the pareto on the agentic benchmark score vs. cost curve (which simply means that the model achieves an optimal balance between the two) was fairly short-lived, with the new MiniMax M3.1 Flash having just taken a lead. Even so, with Anthropic and OpenAI both clamping down on distillation attempts, it is uncertain if Chin&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The heretofore uncontested placement of the DeepSeek-V4.1-Flash-1017 model at the pareto on the agentic benchmark score vs. cost curve (which simply means that the model achieves an optimal balance between the two) was fairly short-lived, with the new MiniMax M3.1 Flash having just taken a lead. Even so, with Anthropic and OpenAI both clamping down on distillation attempts, it is uncertain if Chin&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yM1JiTl9fMGtIRWgxWHZudlFOcWNkN20zZ1ozeVVHUGRiWk9PZzhueUFrazdKNzBjS1VGX3lTNmF2QUxaNFhsNzNsemRabm1zOFpIc2tNTk50eGJNRnR1V3BENA?oc=5</id>
@@ -99,7 +99,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Micron Maps AI Memory Roadmap: HBM4 Hits 2.6x Gains [2026] shattered.io&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron Maps AI Memory Roadmap: HBM4 Hits 2.6x Gains [2026] shattered.io&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN19kYkI0VTV6ZVd3XzN2WnZTYTJFZmxnZExfYUU1eXJ1azRBYTV2eXd1NkVzWXNqaVplSVM3M0V6blJRaWJaYWdYUGY2Y2hYanRxT3FBNlgtdDFFelJ6UWlqV3MzUlcwYjdFYlE3Z2owNTN1dFlXaVVpeDdodEFHUXdVak5XQ21RR04zWWFCajZqTERScVZ2MTNHdEZBMFBoM0MyZE1PQTAtMkFwdmhIeXBoR1VUa3JpTVdfTWFkSFgxSmYzV0VEWGhIVHh5OWFQckE?oc=5</id>
@@ -112,7 +112,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Memory Stocks Rally as Tech Selloff Unwinds: Micron Climbs 4%, Sandisk Jumps 7%, SK Hynix Rises 5% 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Memory Stocks Rally as Tech Selloff Unwinds: Micron Climbs 4%, Sandisk Jumps 7%, SK Hynix Rises 5% 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiswFBVV95cUxQVS1CWkowYTRTYzM2Y1Y0SVQxMmZUM2hsQkZMVzNYT0wyRFdjWk96UzNmQVZyaGwyZ3ZHWmhGbThmZ1dZWUNZeUI0WUw5eXp6b3BJVndOa3NFYWFJMHBWdHkwQmRIU3Zma3JvejBBeEVoODF1SmhGdlZMa25TQUY4LThyb3hLWnRWdTYzRXdTV1JGS2RTSHlaeFduZHJza3RvNXc0alVIUURQZW5XcDliaUp1NA?oc=5</id>
@@ -125,7 +125,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Intel Unveils 480GB AI GPU to Target Large-Scale Inference With LPDDR5X Memory Konsulteer&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Intel Unveils 480GB AI GPU to Target Large-Scale Inference With LPDDR5X Memory Konsulteer&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.kitguru.net/gaming/matthew-wilson/ps6-ram-and-ssd-costs-reportedly-nearing-700/</id>
@@ -138,7 +138,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;A few months ago, it came to light that next‑generation consoles could break the $1000 barrier due to rising component costs through 2026. If recent information is accurate, that outcome is now looking increasingly likely, as it has been claimed that the RAM and SSD for the PlayStation 6 alone are currently costing close to … The post PS6 RAM and SSD costs reportedly nearing $700 first appeared on&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;A few months ago, it came to light that next‑generation consoles could break the $1000 barrier due to rising component costs through 2026. If recent information is accurate, that outcome is now looking increasingly likely, as it has been claimed that the RAM and SSD for the PlayStation 6 alone are currently costing close to … The post PS6 RAM and SSD costs reportedly nearing $700 first appeared on&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWlVtVTg4SkxvSmktdG9ocDZud3dKcEhZTmdlNng3c1pmbmdYY1VBVFBtNjY0MkJqUUZuVExMYmw4Q0hlb3BYTmZIa1BQMFlkQkNkcTBubVJDYmp4LTZVOGlESzVqSHpSdV9ZNkhqR3k5bTNIaXpxVVlTcEhaQWw3UEMxTW5hWDdQV0tvUkNzSm05UHJucFlwWUZ1aEhOQWg1YnNOdHZWQnVRVldHLWxIb0luYW5OWWM1X0paR0tjc2xNOVBjZGNfTWI3cEdPbFI2cVl3TUhmX0FWMTRzbjVwS0FpSkpfQ2tMeHJadNIB8gFBVV95cUxQanVPcVZaUGxGQVVfSm01T3pBNDNBdHB2bUdaanlvblZ5aWF6Z0FGVXF2QWVuVFBraFUtSkNpWEpTQ2RZRkgzb29MMi1IZHlvTzVDLXJuRHB5Nm4wNFgxRTJvWkhoclpMQUJoRXl1RWtNc2pUVjBVRkdOUlhBaDA3WGpSNUR4UVh5ZEt5OTVZU2ZCMHlMZVVUNjU2dW1lZW5tRDlRbEVLelliYzllWjQwenB6RVlmcW9YZXIwOWJLdUMxYnRzSE9sWUNteHlCX0UxU2lleEtmUHZiVW9SajIwQUpKV2RVUUQ2WXNfbF9TN1k2dw?oc=5</id>
@@ -151,7 +151,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;CXMT Is Expected To Add Over 100,000 DRAM Wafers Per Month Within A Year, Aiming At Consumer Electronics Squeezed By The Memory Shortage Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;CXMT Is Expected To Add Over 100,000 DRAM Wafers Per Month Within A Year, Aiming At Consumer Electronics Squeezed By The Memory Shortage Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/cxmt-is-expected-to-add-over-100000-dram-wafers-per-month-within-a-year-aiming-at-consumer-electronics-squeezed-by-the-memory-shortage/</id>
@@ -216,7 +216,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;KeyBanc: HBM Prices to Double in Q1 2027 as Long-Term Contract Renewals Fuel Increases BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;KeyBanc: HBM Prices to Double in Q1 2027 as Long-Term Contract Renewals Fuel Increases BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/intel-ceo-lip-bu-tan-says-china-is-not-that-far-behind-in-chip-manufacturing-despite-us-sanctions-blocking-its-access-to-euv-machines/</id>
@@ -242,7 +242,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Samsung said to use TSMC tech for Nvidia's next-generation memory chips (SSNLF:OTCMKTS) Seeking Alpha&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung said to use TSMC tech for Nvidia's next-generation memory chips (SSNLF:OTCMKTS) Seeking Alpha&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMirAFBVV95cUxPTDFkMUtiRzlRRUg0czRubU5hNVo3M01zdEZ4Y3BHTWVzaEVGSExyQ1BkSXVvZElZRkM4c1puVmJFbmRPQVNsdC1jTEdSUTBHNGtqUFQ0RWhYNHhmcFExWWlLcFY1bmF5cXRlWkg2Y3U3MEJiRXlPOVlKUVNLVmJmWl83NDh1cXV5aTI0ZTFNT0RUMHdBcDR3X3JXSmVTR0ZuN1RxY0lsb0dqaktL?oc=5</id>
@@ -255,7 +255,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Bank of America bets that memory chip profitability will dominate the market. Retail investors are flocking to leveraged semiconductor ETFs. Is a counter-rally in AI computing power and technology themes imminent? 富途牛牛&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Bank of America bets that memory chip profitability will dominate the market. Retail investors are flocking to leveraged semiconductor ETFs. Is a counter-rally in AI computing power and technology themes imminent? 富途牛牛&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMirwFBVV95cUxQdUpSczhPX25IbnVTb2VFS25ONGFWQ2pTVlBJMy1OZ0V6UV9QQ0VwTHlOR3NhekkzU0ZiWExUajQ2ZHVCUGtqeUh3U3dkTWZwNW5pYkFtTUV3SWNlT0lfM0l0TnBndHBQVVBhSzIwZkJzXzQ0Nnc0RkxSLThYZWMyMXRuOE9lMW9HSW9la3BEUDZUVm1TTy1tSU5LZDZabFZCZ2pXU09wSmxJRTdxZk04?oc=5</id>
@@ -281,7 +281,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Samsung Electro-Mechanics Wins $251 Million Chip Substrate Order From Big Tech Client Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung Electro-Mechanics Wins $251 Million Chip Substrate Order From Big Tech Client Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVDY0S19KTFRjVHF2aXdHM1dlU3FGOFB1QUpkaUlpSURUbm5aRmlrdzEyN2Q3SnZCUzdLOG90OGI0V1Z1d1VlWGsybG93XzFNaVQ0dEszSVEwVkFpWkJSUlNfdGN2eDJXTHpPUURZVnc4cWJmSl9tT2owdzR6QXpYNDFJOURiX3RFcjdkR0tpbmVNRkg0U3NwekFHYWFHYl9tM3RPbVV0MDVMQXZwYm83ZU5SYzhkNVVKdV9QMHY3QWcyWVF0bWU2YkdUQl9SbHV5aTBzeGt5cHc2QQ?oc=5</id>
@@ -333,7 +333,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Samsung to use TSMC’s 3nm technology for Nvidia’s next-gen AI memory chips YugaTech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung to use TSMC’s 3nm technology for Nvidia’s next-gen AI memory chips YugaTech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/</id>
@@ -424,7 +424,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;If I Could Only Own 1 Artificial Intelligence (AI) Memory Stock for the Next 5 Years, It Wouldn't Be Micron. The Globe and Mail&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;If I Could Only Own 1 Artificial Intelligence (AI) Memory Stock for the Next 5 Years, It Wouldn't Be Micron. The Globe and Mail&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel/</id>
@@ -23519,7 +23519,7 @@
     <title type="html">Micron Q3 FY2026 guidance: DDR5 ASP up 40% QoQ; capacity allocation shifting further to HBM3E</title>
     <link href="https://www.hudson-labs.com/research/micron-q3-2026-earnings" />
     <link rel="related" href="/stories/micron-q3-fy2026-guidance-ddr5-asp-up-40-qoq-capacit-c6ff9c7b.html" />
-    <updated>2026-06-12T00:00:00Z</updated>
+    <updated>2026-06-10T00:00:00.000Z</updated>
     <author><name>Hudson Labs / Micron IR</name></author>
     <summary type="html">Confirms the commodity super-spike is supply-driven, not demand-led. RI implication: R_C continues to rise through Q3; composite RI likely holds above 0.8 through year-end if HBM conversion persists.</summary>
     <category term="SUPPLY" />
@@ -23541,123 +23541,6 @@
     <content type="html">&lt;p&gt;U.S.-traded chipmakers plunged on Friday, losing about $1.3 trillion in market value, with deep losses in AI heavy ¢hitters including Nvidia , Micron Technology and Advanced Micro Devices , as Broadcom's &lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://www.techradar.com/pro/details-of-intels-hbm-killer-memory-tech-emerge-revealing-nine-layers-up-to-9gb-of-dram-capacity-and-almost-as-much-bandwidth-as-hbm4-that-powers-nvidias-vera-rubin-ai-platform</id>
-    <title type="html">New Intel-supported memory design packs nine vertical layers</title>
-    <link href="https://www.techradar.com/pro/details-of-intels-hbm-killer-memory-tech-emerge-revealing-nine-layers-up-to-9gb-of-dram-capacity-and-almost-as-much-bandwidth-as-hbm4-that-powers-nvidias-vera-rubin-ai-platform" />
-    <link rel="related" href="/stories/new-intel-supported-memory-design-packs-nine-vertica-0bcd73e5.html" />
-    <updated>2026-06-07T07:11:57.026Z</updated>
-    <author><name>techradar.com</name></author>
-    <summary type="html">Intel and SoftBank reveal radical stacked memory architecture that could reshape AI hardware economics within several years</summary>
-    <category term="RAM" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Intel and SoftBank reveal radical stacked memory architecture that could reshape AI hardware economics within several years&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.tweaktown.com/news/109259/samsung-shifts-focus-from-hbm-to-ddr5-modules-ddr5-ram-results-in-far-more-profits-than-hbm/index.html</id>
-    <title type="html">Samsung shifts focus from HBM to DDR5 modules: DDR5 RAM results in FAR more profits than HBM</title>
-    <link href="https://www.tweaktown.com/news/109259/samsung-shifts-focus-from-hbm-to-ddr5-modules-ddr5-ram-results-in-far-more-profits-than-hbm/index.html" />
-    <link rel="related" href="/stories/samsung-shifts-focus-from-hbm-to-ddr5-modules-ddr5-r-1f7423c0.html" />
-    <updated>2026-06-07T07:11:46.312Z</updated>
-    <author><name>tweaktown.com</name></author>
-    <summary type="html">Samsung is reportedly scaling down its HBM production, shifting focus of DRAM production to DDR5 modules because there's FAR more profits to be made.</summary>
-    <category term="RAM" />
-    <category term="tag:demand" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Samsung is reportedly scaling down its HBM production, shifting focus of DRAM production to DDR5 modules because there's FAR more profits to be made.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/01/10/micron-ai-memory-shortage-hbm-nvidia-samsung.html</id>
-    <title type="html">AI memory is sold out, causing an unprecedented surge in prices</title>
-    <link href="https://www.cnbc.com/2026/01/10/micron-ai-memory-shortage-hbm-nvidia-samsung.html" />
-    <link rel="related" href="/stories/ai-memory-is-sold-out-causing-an-unprecedented-surge-908cc963.html" />
-    <updated>2026-06-07T07:11:41.227Z</updated>
-    <author><name>cnbc.com</name></author>
-    <summary type="html">Three primary memory vendors ¢ Micron, SK Hynix and Samsung Electronics ¢</summary>
-    <category term="RAM" />
-    <category term="tag:demand" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Three primary memory vendors ¢ Micron, SK Hynix and Samsung Electronics ¢&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.fool.com/investing/2026/04/03/the-high-bandwidth-memory-hbm-bottleneck-can-still/</id>
-    <title type="html">The High-Bandwidth Memory (HBM) Bottleneck Can Still Cause Micron's Stock to Soar | The Motley Fool</title>
-    <link href="https://www.fool.com/investing/2026/04/03/the-high-bandwidth-memory-hbm-bottleneck-can-still/" />
-    <link rel="related" href="/stories/the-high-bandwidth-memory-hbm-bottleneck-can-still-c-5389bb32.html" />
-    <updated>2026-06-07T07:11:34.079Z</updated>
-    <author><name>fool.com</name></author>
-    <summary type="html">Google's TurboQuant breakthrough alleviates part of the pressure, but the bottleneck still exists.</summary>
-    <category term="RAM" />
-    <category term="tag:demand" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Google's TurboQuant breakthrough alleviates part of the pressure, but the bottleneck still exists.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.chinatalk.media/p/will-china-hit-the-hbm-wall</id>
-    <title type="html">How Far Can Chinese HBM Go?</title>
-    <link href="https://www.chinatalk.media/p/will-china-hit-the-hbm-wall" />
-    <link rel="related" href="/stories/how-far-can-chinese-hbm-go-cbe0ce6b.html" />
-    <updated>2026-06-07T07:11:28.429Z</updated>
-    <author><name>chinatalk.media</name></author>
-    <summary type="html">Given export controls, what HBM node can China reach?</summary>
-    <category term="RAM" />
-    <category term="tag:demand" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Given export controls, what HBM node can China reach?&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling</id>
-    <title type="html">Samsung shows first HBM5 mockup with Heat Path Block cooling — thermal race with SK hynix shaping up</title>
-    <link href="https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling" />
-    <link rel="related" href="/stories/samsung-shows-first-hbm5-mockup-with-heat-path-block-31f4fc54.html" />
-    <updated>2026-06-07T07:11:22.401Z</updated>
-    <author><name>tomshardware.com</name></author>
-    <summary type="html">Both memory leaders now target the same die-to-die hotspot with rival in-package cooling designs.</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Both memory leaders now target the same die-to-die hotspot with rival in-package cooling designs.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.sdxcentral.com/news/ram-raid-profit-frenzy-sees-micron-sk-hynix-hit-1t-market-caps/</id>
-    <title type="html">RAM-raid profit frenzy sees Micron, SK Hynix hit $1T market caps</title>
-    <link href="https://www.sdxcentral.com/news/ram-raid-profit-frenzy-sees-micron-sk-hynix-hit-1t-market-caps/" />
-    <link rel="related" href="/stories/ram-raid-profit-frenzy-sees-micron-sk-hynix-hit-1t-m-61b3273e.html" />
-    <updated>2026-06-07T07:11:16.841Z</updated>
-    <author><name>sdxcentral.com</name></author>
-    <summary type="html">Memory makers laugh all the way to the bank as profits surge</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Memory makers laugh all the way to the bank as profits surge&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://fortune.com/2026/05/17/labor-strike-samsung-ai-hbm-chips-dividend-revolution-memory/</id>
-    <title type="html">A 45,000-person labor strike at Samsung's memory chip plants could throw a wrench into the AI boom | Fortune</title>
-    <link href="https://fortune.com/2026/05/17/labor-strike-samsung-ai-hbm-chips-dividend-revolution-memory/" />
-    <link rel="related" href="/stories/a-45-000-person-labor-strike-at-samsung-s-memory-chi-37ec5f6b.html" />
-    <updated>2026-06-07T07:11:03.669Z</updated>
-    <author><name>fortune.com</name></author>
-    <summary type="html">Nearly 45,00</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Nearly 45,00&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.techtimes.com/articles/317872/20260605/ram-prices-2026-buy-now-wait-gartner-forecasts-130-memory-cost-surge.htm</id>
-    <title type="html">RAM Prices 2026: Buy Now or Wait as Gartner Forecasts 130% Memory Cost Surge</title>
-    <link href="https://www.techtimes.com/articles/317872/20260605/ram-prices-2026-buy-now-wait-gartner-forecasts-130-memory-cost-surge.htm" />
-    <link rel="related" href="/stories/ram-prices-2026-buy-now-or-wait-as-gartner-forecasts-10f4155c.html" />
-    <updated>2026-06-07T07:10:56.779Z</updated>
-    <author><name>techtimes.com</name></author>
-    <summary type="html">On June 3, Tom’s Hardware reported that the cheapest 32GB DDR5 kit available in the United States had climbed to $374.97, with no comparable option selling for less, a detail captured in its daily RAM price tracker.</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;On June 3, Tom’s Hardware reported that the cheapest 32GB DDR5 kit available in the United States had climbed to $374.97, with no comparable option selling for less, a detail captured in its daily RAM price tracker.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://www.heygotrade.com/en/blog/micron-vs-sandisk-memory-stocks-2026/</id>
     <title type="html">Micron (MU) vs Sandisk (SNDK): Pure-Play Memory Stocks Compared for 2026</title>
     <link href="https://www.heygotrade.com/en/blog/micron-vs-sandisk-memory-stocks-2026/" />
@@ -23669,84 +23552,6 @@
     <category term="tag:demand" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Compare Micron (MU) and Sandisk (SNDK) on DRAM, NAND, HBM exposure, hyperscaler wins, margins, and capex. A 2026 pair-trade framework for investors.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://spectrum.ieee.org/high-bandwidth-memory-shortage</id>
-    <title type="html">Is AI’s High Bandwidth Memory Crunch About to Hit Your Wallet?</title>
-    <link href="https://spectrum.ieee.org/high-bandwidth-memory-shortage" />
-    <link rel="related" href="/stories/is-ai-s-high-bandwidth-memory-crunch-about-to-hit-yo-94a67404.html" />
-    <updated>2026-06-07T07:10:44.855Z</updated>
-    <author><name>spectrum.ieee.org</name></author>
-    <summary type="html">And it’s got the munchies for memory chips</summary>
-    <category term="raindrop" />
-    <category term="tag:demand" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;And it’s got the munchies for memory chips&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.techspot.com/news/112532-sk-hynix-embedding-cooling-hbm-memory-stop-ai.html</id>
-    <title type="html">SK Hynix is embedding cooling into HBM memory to stop AI chips from overheating</title>
-    <link href="https://www.techspot.com/news/112532-sk-hynix-embedding-cooling-hbm-memory-stop-ai.html" />
-    <link rel="related" href="/stories/sk-hynix-is-embedding-cooling-into-hbm-memory-to-sto-2d3d2f9a.html" />
-    <updated>2026-06-07T07:10:38.857Z</updated>
-    <author><name>techspot.com</name></author>
-    <summary type="html">SK Hynix has introduced iHBM, a high-bandwidth memory packaging solution that changes how and where heat is managed inside the package. Rather than relying on conventional methods...</summary>
-    <category term="raindrop" />
-    <category term="tag:demand" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;SK Hynix has introduced iHBM, a high-bandwidth memory packaging solution that changes how and where heat is managed inside the package. Rather than relying on conventional methods...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://fortune.com/2026/05/11/ai-memory-chips-semiconductor-stock-boom-price-hikes-dram-shortage-hbm/</id>
-    <title type="html">Harvard's chip expert has a warning for AI memory investors: 'This too will pass' | Fortune</title>
-    <link href="https://fortune.com/2026/05/11/ai-memory-chips-semiconductor-stock-boom-price-hikes-dram-shortage-hbm/" />
-    <link rel="related" href="/stories/harvard-s-chip-expert-has-a-warning-for-ai-memory-in-d6d6caab.html" />
-    <updated>2026-06-07T07:10:30.794Z</updated>
-    <author><name>fortune.com</name></author>
-    <summary type="html">Harvard Business school professor Willy Shih knows that a crash is coming for semiconductors</summary>
-    <category term="raindrop" />
-    <category term="tag:demand" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Harvard Business school professor Willy Shih knows that a crash is coming for semiconductors&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.aol.com/articles/ram-reportedly-back-production-still-164700000.html</id>
-    <title type="html">RAM Is Reportedly Back In Production — But It Still Won't Be Enough</title>
-    <link href="https://www.aol.com/articles/ram-reportedly-back-production-still-164700000.html" />
-    <link rel="related" href="/stories/ram-is-reportedly-back-in-production-but-it-still-wo-a9bc5d4b.html" />
-    <updated>2026-06-07T07:10:25.467Z</updated>
-    <author><name>aol.com</name></author>
-    <summary type="html">More RAM is coming, but the shortage isn't going away. Even with new production ramping up, the supply problems plaguing PC builders could stretch for years.</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;More RAM is coming, but the shortage isn't going away. Even with new production ramping up, the supply problems plaguing PC builders could stretch for years.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.sdxcentral.com/analysis/beyond-hbm-the-flash-memory-technology-that-could-reshape-ai-infrastructure/</id>
-    <title type="html">Beyond HBM: The flash memory technology that could reshape AI infrastructure</title>
-    <link href="https://www.sdxcentral.com/analysis/beyond-hbm-the-flash-memory-technology-that-could-reshape-ai-infrastructure/" />
-    <link rel="related" href="/stories/beyond-hbm-the-flash-memory-technology-that-could-re-9d0f3e60.html" />
-    <updated>2026-06-07T07:10:12.986Z</updated>
-    <author><name>sdxcentral.com</name></author>
-    <summary type="html">Sandisk thinks a NAND-based architecture can smash the memory wall</summary>
-    <category term="raindrop" />
-    <category term="tag:demand" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Sandisk thinks a NAND-based architecture can smash the memory wall&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.techpowerup.com/348646/intel-prepares-hbm-killer-hb3dm-memory-stacks-with-z-angle-technology</id>
-    <title type="html">Intel Prepares HBM Killer: HB3DM Memory Stacks with Z-Angle Technology</title>
-    <link href="https://www.techpowerup.com/348646/intel-prepares-hbm-killer-hb3dm-memory-stacks-with-z-angle-technology" />
-    <link rel="related" href="/stories/intel-prepares-hbm-killer-hb3dm-memory-stacks-with-z-8d01f038.html" />
-    <updated>2026-06-07T07:10:06.437Z</updated>
-    <author><name>techpowerup.com</name></author>
-    <summary type="html">Intel and SoftBank, through their subsidiary Saimemory, have been developing an alternative technology to the popular high-bandwidth memory (HBM) to provide more bandwidth and capacity for memory modules used with powerful AI accelerators. At VLSI 2026 in June, Saimemory is scheduled to present a pa...</summary>
-    <category term="raindrop" />
-    <category term="tag:demand" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Intel and SoftBank, through their subsidiary Saimemory, have been developing an alternative technology to the popular high-bandwidth memory (HBM) to provide more bandwidth and capacity for memory modules used with powerful AI accelerators. At VLSI 2026 in June, Saimemory is scheduled to present a pa...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.msn.com/en-us/news/technology/sk-hynix-builds-innovative-cooling-solution-inside-a-3d-stacked-memory-chip/ar-AA24dtER</id>
@@ -23775,97 +23580,6 @@
     <content type="html">&lt;p&gt;The memory crunch is raising prices for hyperscalers, enterprises and consumers. SK Hynix is benefitting enormously from it, just like the other two major&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://www.techtimes.com/articles/317789/20260604/ddr5-ram-hits-375-floor-pc-builders-hbm-takes-three-times-more-wafers.htm</id>
-    <title type="html">DDR5 RAM Hits $375 Floor for PC Builders: HBM Takes Three Times More Wafers</title>
-    <link href="https://www.techtimes.com/articles/317789/20260604/ddr5-ram-hits-375-floor-pc-builders-hbm-takes-three-times-more-wafers.htm" />
-    <link rel="related" href="/stories/ddr5-ram-hits-375-floor-for-pc-builders-hbm-takes-th-b75794f8.html" />
-    <updated>2026-06-07T07:09:43.410Z</updated>
-    <author><name>techtimes.com</name></author>
-    <summary type="html">DDR5 RAM price 2026 has hit a structural $375 floor for PC builders, confirmed by PCPartPicker data, as AI data centers absorb DRAM wafer capacity at triple the rate of standard memory. Samsung and SK Hynix warn the shortage runs through at least 2027. Here is what builders must budget now — and a</summary>
-    <category term="raindrop" />
-    <category term="tag:fab" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;DDR5 RAM price 2026 has hit a structural $375 floor for PC builders, confirmed by PCPartPicker data, as AI data centers absorb DRAM wafer capacity at triple the rate of standard memory. Samsung and SK Hynix warn the shortage runs through at least 2027. Here is what builders must budget now — and a&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://gizmodo.com/amds-plan-to-fix-ram-costs-bring-back-bygone-cpus-2000765337</id>
-    <title type="html">AMD’s Plan to Fix RAM Costs: Bring Back Bygone CPUs</title>
-    <link href="https://gizmodo.com/amds-plan-to-fix-ram-costs-bring-back-bygone-cpus-2000765337" />
-    <link rel="related" href="/stories/amd-s-plan-to-fix-ram-costs-bring-back-bygone-cpus-a329f648.html" />
-    <updated>2026-06-07T07:09:26.792Z</updated>
-    <author><name>gizmodo.com</name></author>
-    <summary type="html">Decade-old AM4 motherboards now seem even more appealing if you can’t afford to upgrade.</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Decade-old AM4 motherboards now seem even more appealing if you can’t afford to upgrade.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.tomshardware.com/pc-components/ram/lexar-regional-manager-says-that-ram-prices-are-expected-to-double-by-the-end-of-the-year-discounts-and-stabilized-prices-result-from-distributors-getting-rid-of-old-stock-or-sourcing-products-from-other-regions</id>
-    <title type="html">Lexar regional manager says that RAM prices are expected to double by the end of the year — 'discounts' and stabilized prices result from distributors getting rid of old stock or sourcing products from other regions</title>
-    <link href="https://www.tomshardware.com/pc-components/ram/lexar-regional-manager-says-that-ram-prices-are-expected-to-double-by-the-end-of-the-year-discounts-and-stabilized-prices-result-from-distributors-getting-rid-of-old-stock-or-sourcing-products-from-other-regions" />
-    <link rel="related" href="/stories/lexar-regional-manager-says-that-ram-prices-are-expe-6fdbfa99.html" />
-    <updated>2026-06-07T07:09:12.391Z</updated>
-    <author><name>tomshardware.com</name></author>
-    <summary type="html">Don't get your hopes up.</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Don't get your hopes up.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://asiatimes.com/2026/06/is-dram-at-a-permanently-higher-plateau/</id>
-    <title type="html">Is DRAM at a permanently higher plateau? - Asia Times</title>
-    <link href="https://asiatimes.com/2026/06/is-dram-at-a-permanently-higher-plateau/" />
-    <link rel="related" href="/stories/is-dram-at-a-permanently-higher-plateau-asia-times-215d1a55.html" />
-    <updated>2026-06-06T18:40:33.709Z</updated>
-    <author><name>asiatimes.com</name></author>
-    <summary type="html">There are titles one should never write. &quot;The End of History&quot; is one. &quot;Permanent Plateau&quot; is another. As such, anything with the word &quot;permanently&quot; in it</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;There are titles one should never write. &quot;The End of History&quot; is one. &quot;Permanent Plateau&quot; is another. As such, anything with the word &quot;permanently&quot; in it&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.theglobeandmail.com/business/article-how-a-nudge-from-nvidia-propelled-micron-to-a-1-trillion-market-cap/</id>
-    <title type="html">How a nudge from Nvidia propelled Micron to a $1-trillion market cap - The Globe and Mail</title>
-    <link href="https://www.theglobeandmail.com/business/article-how-a-nudge-from-nvidia-propelled-micron-to-a-1-trillion-market-cap/" />
-    <link rel="related" href="/stories/how-a-nudge-from-nvidia-propelled-micron-to-a-1-tril-250169d8.html" />
-    <updated>2026-06-06T18:38:26.777Z</updated>
-    <author><name>theglobeandmail.com</name></author>
-    <summary type="html">Memory chips have shifted from a commodity to higher-margin products tightly integrated into AI systems</summary>
-    <category term="raindrop" />
-    <category term="tag:demand" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Memory chips have shifted from a commodity to higher-margin products tightly integrated into AI systems&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.benzinga.com/markets/commodities/26/06/53023534/nvidia-ceo-says-ais-future-isnt-just-copper</id>
-    <title type="html">NVIDIA CEO Says AI's Future Isn't Just Copper - Global X Copper Miners ETF (ARCA:COPX), Marvell Technolog - Benzinga</title>
-    <link href="https://www.benzinga.com/markets/commodities/26/06/53023534/nvidia-ceo-says-ais-future-isnt-just-copper" />
-    <link rel="related" href="/stories/nvidia-ceo-says-ai-s-future-isn-t-just-copper-global-9ebe37db.html" />
-    <updated>2026-06-06T18:37:18.023Z</updated>
-    <author><name>benzinga.com</name></author>
-    <summary type="html">Is the AI copper supercycle a myth? Explore how power grid constraints and tech innovations are complicating Wall Street's favorite narrative.</summary>
-    <category term="raindrop" />
-    <category term="tag:demand" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Is the AI copper supercycle a myth? Explore how power grid constraints and tech innovations are complicating Wall Street's favorite narrative.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://247wallst.com/investing/2026/06/02/micron-and-sk-hynix-cross-1-trillion-valuations-as-chip-shortage-fuels-ai-boom/</id>
-    <title type="html">Micron and SK Hynix Cross $1 Trillion Valuations as Chip Shortage Fuels AI Boom - 24/7 Wall St.</title>
-    <link href="https://247wallst.com/investing/2026/06/02/micron-and-sk-hynix-cross-1-trillion-valuations-as-chip-shortage-fuels-ai-boom/" />
-    <link rel="related" href="/stories/micron-and-sk-hynix-cross-1-trillion-valuations-as-c-fb419c49.html" />
-    <updated>2026-06-06T18:36:33.642Z</updated>
-    <author><name>247wallst.com</name></author>
-    <summary type="html">The trillion-dollar club just got two new memory chip members. Micron Technology (NASDAQ:MU | MU Price Prediction) and South Korea’s SK Hynix (000660.KS) both crossed $1 trillion in market capitalization for the first time this week, joining Samsung in a rarified tier of semiconductor giants. The move reflects that demand for AI infrastructure continues to ... Micron and SK Hynix Cross $1 Trillion Valuations as Chip Shortage Fuels AI Boom</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;The trillion-dollar club just got two new memory chip members. Micron Technology (NASDAQ:MU | MU Price Prediction) and South Korea’s SK Hynix (000660.KS) both crossed $1 trillion in market capitalization for the first time this week, joining Samsung in a rarified tier of semiconductor giants. The move reflects that demand for AI infrastructure continues to ... Micron and SK Hynix Cross $1 Trillion Valuations as Chip Shortage Fuels AI Boom&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://theedgemalaysia.com/node/805819</id>
     <title type="html">SK Hynix tells investors its US listing plan wins their strong backing — Reuters</title>
     <link href="https://theedgemalaysia.com/node/805819" />
@@ -23892,50 +23606,63 @@
     <content type="html">&lt;p&gt;&quot;Please Make More.&quot; On June 2nd (local time), Jensen Huang, CEO of Nvidia, once again sent a strong message of support to SK hynix, visiting the Nanga&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://www.pcgamer.com/hardware/ssds/nand-flash-makers-earned-a-record-usd46-billion-in-revenues-over-the-first-quarter-of-2026-a-shocking-3-5-times-more-than-last-year/</id>
-    <title type="html">NAND flash makers earned a record $46 billion in revenues over the first quarter of 2026, a shocking 3.5 times more than last year | PC Gamer</title>
-    <link href="https://www.pcgamer.com/hardware/ssds/nand-flash-makers-earned-a-record-usd46-billion-in-revenues-over-the-first-quarter-of-2026-a-shocking-3-5-times-more-than-last-year/" />
-    <link rel="related" href="/stories/nand-flash-makers-earned-a-record-46-billion-in-reve-bcc3e4f0.html" />
-    <updated>2026-06-06T18:32:07.184Z</updated>
-    <author><name>pcgamer.com</name></author>
-    <summary type="html">Over three times what they pulled in, this time last year.</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Over three times what they pulled in, this time last year.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.tomshardware.com/pc-components/ssds/silicon-motion-increases-sales-of-ssd-controllers-amid-nand-shortage-but-expects-nand-shortages-to-get-worse-in-2027-supply-conditions-will-become-even-worse</id>
-    <title type="html">Silicon Motion increases sales of SSD controllers amid NAND shortage, but expects NAND shortages to get worse in 2027 — 'supply conditions will become even worse' | Tom's Hardware</title>
-    <link href="https://www.tomshardware.com/pc-components/ssds/silicon-motion-increases-sales-of-ssd-controllers-amid-nand-shortage-but-expects-nand-shortages-to-get-worse-in-2027-supply-conditions-will-become-even-worse" />
-    <link rel="related" href="/stories/silicon-motion-increases-sales-of-ssd-controllers-am-7c0d803f.html" />
-    <updated>2026-06-06T18:30:18.685Z</updated>
+    <id>https://www.tomshardware.com/pc-components/ram/lexar-regional-manager-says-that-ram-prices-are-expected-to-double-by-the-end-of-the-year-discounts-and-stabilized-prices-result-from-distributors-getting-rid-of-old-stock-or-sourcing-products-from-other-regions</id>
+    <title type="html">Lexar regional manager says that RAM prices are expected to double by the end of the year — 'discounts' and stabilized prices result from distributors getting rid of old stock or sourcing products from other regions</title>
+    <link href="https://www.tomshardware.com/pc-components/ram/lexar-regional-manager-says-that-ram-prices-are-expected-to-double-by-the-end-of-the-year-discounts-and-stabilized-prices-result-from-distributors-getting-rid-of-old-stock-or-sourcing-products-from-other-regions" />
+    <link rel="related" href="/stories/lexar-regional-manager-says-that-ram-prices-are-expe-6fdbfa99.html" />
+    <updated>2026-06-06T13:00:00.000Z</updated>
     <author><name>tomshardware.com</name></author>
-    <summary type="html">The future is not bright for NAND supply.</summary>
+    <summary type="html">Don't get your hopes up.</summary>
     <category term="raindrop" />
     <category term="tag:supply" />
     <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;The future is not bright for NAND supply.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Don't get your hopes up.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://asia.nikkei.com/business/tech/semiconductors/sk-hynix-ascends-as-new-memory-king-with-high-bandwidth-ai-chips</id>
-    <title type="html">SK Hynix ascends as new memory king with high-bandwidth AI chips - Nikkei Asia</title>
-    <link href="https://asia.nikkei.com/business/tech/semiconductors/sk-hynix-ascends-as-new-memory-king-with-high-bandwidth-ai-chips" />
-    <link rel="related" href="/stories/sk-hynix-ascends-as-new-memory-king-with-high-bandwi-83edf21c.html" />
-    <updated>2026-06-06T18:30:02.963Z</updated>
-    <author><name>asia.nikkei.com</name></author>
-    <summary type="html">Nvidia partnership helps South Korean chipmaker supplant Samsung, reap big profits</summary>
+    <id>https://www.techtimes.com/articles/317872/20260605/ram-prices-2026-buy-now-wait-gartner-forecasts-130-memory-cost-surge.htm</id>
+    <title type="html">RAM Prices 2026: Buy Now or Wait as Gartner Forecasts 130% Memory Cost Surge</title>
+    <link href="https://www.techtimes.com/articles/317872/20260605/ram-prices-2026-buy-now-wait-gartner-forecasts-130-memory-cost-surge.htm" />
+    <link rel="related" href="/stories/ram-prices-2026-buy-now-or-wait-as-gartner-forecasts-10f4155c.html" />
+    <updated>2026-06-05T20:01:17.000Z</updated>
+    <author><name>techtimes.com</name></author>
+    <summary type="html">On June 3, Tom’s Hardware reported that the cheapest 32GB DDR5 kit available in the United States had climbed to $374.97, with no comparable option selling for less, a detail captured in its daily RAM price tracker.</summary>
     <category term="raindrop" />
-    <category term="tag:demand" />
+    <category term="tag:supply" />
     <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Nvidia partnership helps South Korean chipmaker supplant Samsung, reap big profits&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;On June 3, Tom’s Hardware reported that the cheapest 32GB DDR5 kit available in the United States had climbed to $374.97, with no comparable option selling for less, a detail captured in its daily RAM price tracker.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://asiatimes.com/2026/06/is-dram-at-a-permanently-higher-plateau/</id>
+    <title type="html">Is DRAM at a permanently higher plateau? - Asia Times</title>
+    <link href="https://asiatimes.com/2026/06/is-dram-at-a-permanently-higher-plateau/" />
+    <link rel="related" href="/stories/is-dram-at-a-permanently-higher-plateau-asia-times-215d1a55.html" />
+    <updated>2026-06-05T19:00:22.000Z</updated>
+    <author><name>asiatimes.com</name></author>
+    <summary type="html">There are titles one should never write. &quot;The End of History&quot; is one. &quot;Permanent Plateau&quot; is another. As such, anything with the word &quot;permanently&quot; in it</summary>
+    <category term="raindrop" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;There are titles one should never write. &quot;The End of History&quot; is one. &quot;Permanent Plateau&quot; is another. As such, anything with the word &quot;permanently&quot; in it&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.aol.com/articles/ram-reportedly-back-production-still-164700000.html</id>
+    <title type="html">RAM Is Reportedly Back In Production — But It Still Won't Be Enough</title>
+    <link href="https://www.aol.com/articles/ram-reportedly-back-production-still-164700000.html" />
+    <link rel="related" href="/stories/ram-is-reportedly-back-in-production-but-it-still-wo-a9bc5d4b.html" />
+    <updated>2026-06-05T16:47:00.000Z</updated>
+    <author><name>aol.com</name></author>
+    <summary type="html">More RAM is coming, but the shortage isn't going away. Even with new production ramping up, the supply problems plaguing PC builders could stretch for years.</summary>
+    <category term="raindrop" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;More RAM is coming, but the shortage isn't going away. Even with new production ramping up, the supply problems plaguing PC builders could stretch for years.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.trendforce.com/news/2026/06/05/news-sk-hynix-reportedly-to-double-dram-capacity-to-1m-monthly-wafers-by-2030-speeds-yongin-expansion/</id>
     <title type="html">[News] SK hynix Reportedly to Double DRAM Capacity to 1M Monthly Wafers by 2030, Speeds Yongin Expansion</title>
     <link href="https://www.trendforce.com/news/2026/06/05/news-sk-hynix-reportedly-to-double-dram-capacity-to-1m-monthly-wafers-by-2030-speeds-yongin-expansion/" />
     <link rel="related" href="/stories/news-sk-hynix-reportedly-to-double-dram-capacity-to-b07b550c.html" />
-    <updated>2026-06-06T18:24:31.654Z</updated>
+    <updated>2026-06-05T14:55:07.000Z</updated>
     <author><name>trendforce.com</name></author>
     <summary type="html">SK hynix is reportedly preparing a major DRAM capacity expansion. According to The Elec, the company has shared plans with key suppliers to nearly dou...</summary>
     <category term="raindrop" />
@@ -23944,17 +23671,56 @@
     <content type="html">&lt;p&gt;SK hynix is reportedly preparing a major DRAM capacity expansion. According to The Elec, the company has shared plans with key suppliers to nearly dou...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
+    <id>https://www.benzinga.com/markets/commodities/26/06/53023534/nvidia-ceo-says-ais-future-isnt-just-copper</id>
+    <title type="html">NVIDIA CEO Says AI's Future Isn't Just Copper - Global X Copper Miners ETF (ARCA:COPX), Marvell Technolog - Benzinga</title>
+    <link href="https://www.benzinga.com/markets/commodities/26/06/53023534/nvidia-ceo-says-ais-future-isnt-just-copper" />
+    <link rel="related" href="/stories/nvidia-ceo-says-ai-s-future-isn-t-just-copper-global-9ebe37db.html" />
+    <updated>2026-06-05T11:15:56.000Z</updated>
+    <author><name>benzinga.com</name></author>
+    <summary type="html">Is the AI copper supercycle a myth? Explore how power grid constraints and tech innovations are complicating Wall Street's favorite narrative.</summary>
+    <category term="raindrop" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Is the AI copper supercycle a myth? Explore how power grid constraints and tech innovations are complicating Wall Street's favorite narrative.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <id>https://swarajyamag.com/technology/building-semiconductor-chips-in-india-is-no-longer-the-hard-part-the-lack-of-an-ecosystem-is#amp_tf=From%20%251%24s&amp;aoh=17807701126538&amp;csi=0&amp;referrer=https%3A%2F%2Fwww.google.com&amp;ampshare=https%3A%2F%2Fswarajyamag.com%2Ftechnology%2Fbuilding-semiconductor-chips-in-india-is-no-longer-the-hard-part-the-lack-of-an-ecosystem-is</id>
     <title type="html">Building Semiconductor Chips In India Is No Longer The Hard Part — It Is Building The Ecosystem Around Them</title>
     <link href="https://swarajyamag.com/technology/building-semiconductor-chips-in-india-is-no-longer-the-hard-part-the-lack-of-an-ecosystem-is#amp_tf=From%20%251%24s&amp;aoh=17807701126538&amp;csi=0&amp;referrer=https%3A%2F%2Fwww.google.com&amp;ampshare=https%3A%2F%2Fswarajyamag.com%2Ftechnology%2Fbuilding-semiconductor-chips-in-india-is-no-longer-the-hard-part-the-lack-of-an-ecosystem-is" />
     <link rel="related" href="/stories/building-semiconductor-chips-in-india-is-no-longer-t-94ac0db9.html" />
-    <updated>2026-06-06T18:23:28.842Z</updated>
+    <updated>2026-06-05T07:20:36.000Z</updated>
     <author><name>swarajyamag.com</name></author>
     <summary type="html"></summary>
     <category term="raindrop" />
     <category term="tag:supply" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techtimes.com/articles/317789/20260604/ddr5-ram-hits-375-floor-pc-builders-hbm-takes-three-times-more-wafers.htm</id>
+    <title type="html">DDR5 RAM Hits $375 Floor for PC Builders: HBM Takes Three Times More Wafers</title>
+    <link href="https://www.techtimes.com/articles/317789/20260604/ddr5-ram-hits-375-floor-pc-builders-hbm-takes-three-times-more-wafers.htm" />
+    <link rel="related" href="/stories/ddr5-ram-hits-375-floor-for-pc-builders-hbm-takes-th-b75794f8.html" />
+    <updated>2026-06-04T20:56:06.000Z</updated>
+    <author><name>techtimes.com</name></author>
+    <summary type="html">DDR5 RAM price 2026 has hit a structural $375 floor for PC builders, confirmed by PCPartPicker data, as AI data centers absorb DRAM wafer capacity at triple the rate of standard memory. Samsung and SK Hynix warn the shortage runs through at least 2027. Here is what builders must budget now — and a</summary>
+    <category term="raindrop" />
+    <category term="tag:fab" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;DDR5 RAM price 2026 has hit a structural $375 floor for PC builders, confirmed by PCPartPicker data, as AI data centers absorb DRAM wafer capacity at triple the rate of standard memory. Samsung and SK Hynix warn the shortage runs through at least 2027. Here is what builders must budget now — and a&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/ssds/silicon-motion-increases-sales-of-ssd-controllers-amid-nand-shortage-but-expects-nand-shortages-to-get-worse-in-2027-supply-conditions-will-become-even-worse</id>
+    <title type="html">Silicon Motion increases sales of SSD controllers amid NAND shortage, but expects NAND shortages to get worse in 2027 — 'supply conditions will become even worse' | Tom's Hardware</title>
+    <link href="https://www.tomshardware.com/pc-components/ssds/silicon-motion-increases-sales-of-ssd-controllers-amid-nand-shortage-but-expects-nand-shortages-to-get-worse-in-2027-supply-conditions-will-become-even-worse" />
+    <link rel="related" href="/stories/silicon-motion-increases-sales-of-ssd-controllers-am-7c0d803f.html" />
+    <updated>2026-06-04T13:08:29.000Z</updated>
+    <author><name>tomshardware.com</name></author>
+    <summary type="html">The future is not bright for NAND supply.</summary>
+    <category term="raindrop" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;The future is not bright for NAND supply.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/06/micron-a-look-at-memory-ahead-of-earning</id>
@@ -23970,6 +23736,123 @@
     <content type="html">&lt;p&gt;HBM allocation lock-in removes capacity from commodity DRAM for another 6 months.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Bifurcation gap widens ¢ R_AI remains capped while R_C spikes. Weight &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
+    <id>https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling</id>
+    <title type="html">Samsung shows first HBM5 mockup with Heat Path Block cooling — thermal race with SK hynix shaping up</title>
+    <link href="https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling" />
+    <link rel="related" href="/stories/samsung-shows-first-hbm5-mockup-with-heat-path-block-31f4fc54.html" />
+    <updated>2026-06-03T15:30:51.000Z</updated>
+    <author><name>tomshardware.com</name></author>
+    <summary type="html">Both memory leaders now target the same die-to-die hotspot with rival in-package cooling designs.</summary>
+    <category term="raindrop" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Both memory leaders now target the same die-to-die hotspot with rival in-package cooling designs.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.pcgamer.com/hardware/ssds/nand-flash-makers-earned-a-record-usd46-billion-in-revenues-over-the-first-quarter-of-2026-a-shocking-3-5-times-more-than-last-year/</id>
+    <title type="html">NAND flash makers earned a record $46 billion in revenues over the first quarter of 2026, a shocking 3.5 times more than last year | PC Gamer</title>
+    <link href="https://www.pcgamer.com/hardware/ssds/nand-flash-makers-earned-a-record-usd46-billion-in-revenues-over-the-first-quarter-of-2026-a-shocking-3-5-times-more-than-last-year/" />
+    <link rel="related" href="/stories/nand-flash-makers-earned-a-record-46-billion-in-reve-bcc3e4f0.html" />
+    <updated>2026-06-03T15:08:23.000Z</updated>
+    <author><name>pcgamer.com</name></author>
+    <summary type="html">Over three times what they pulled in, this time last year.</summary>
+    <category term="raindrop" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Over three times what they pulled in, this time last year.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://asia.nikkei.com/business/tech/semiconductors/sk-hynix-ascends-as-new-memory-king-with-high-bandwidth-ai-chips</id>
+    <title type="html">SK Hynix ascends as new memory king with high-bandwidth AI chips - Nikkei Asia</title>
+    <link href="https://asia.nikkei.com/business/tech/semiconductors/sk-hynix-ascends-as-new-memory-king-with-high-bandwidth-ai-chips" />
+    <link rel="related" href="/stories/sk-hynix-ascends-as-new-memory-king-with-high-bandwi-83edf21c.html" />
+    <updated>2026-06-02T22:20:24.000Z</updated>
+    <author><name>asia.nikkei.com</name></author>
+    <summary type="html">Nvidia partnership helps South Korean chipmaker supplant Samsung, reap big profits</summary>
+    <category term="raindrop" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Nvidia partnership helps South Korean chipmaker supplant Samsung, reap big profits&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.theglobeandmail.com/business/article-how-a-nudge-from-nvidia-propelled-micron-to-a-1-trillion-market-cap/</id>
+    <title type="html">How a nudge from Nvidia propelled Micron to a $1-trillion market cap - The Globe and Mail</title>
+    <link href="https://www.theglobeandmail.com/business/article-how-a-nudge-from-nvidia-propelled-micron-to-a-1-trillion-market-cap/" />
+    <link rel="related" href="/stories/how-a-nudge-from-nvidia-propelled-micron-to-a-1-tril-250169d8.html" />
+    <updated>2026-06-02T12:38:21.000Z</updated>
+    <author><name>theglobeandmail.com</name></author>
+    <summary type="html">Memory chips have shifted from a commodity to higher-margin products tightly integrated into AI systems</summary>
+    <category term="raindrop" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Memory chips have shifted from a commodity to higher-margin products tightly integrated into AI systems&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://247wallst.com/investing/2026/06/02/micron-and-sk-hynix-cross-1-trillion-valuations-as-chip-shortage-fuels-ai-boom/</id>
+    <title type="html">Micron and SK Hynix Cross $1 Trillion Valuations as Chip Shortage Fuels AI Boom - 24/7 Wall St.</title>
+    <link href="https://247wallst.com/investing/2026/06/02/micron-and-sk-hynix-cross-1-trillion-valuations-as-chip-shortage-fuels-ai-boom/" />
+    <link rel="related" href="/stories/micron-and-sk-hynix-cross-1-trillion-valuations-as-c-fb419c49.html" />
+    <updated>2026-06-02T11:42:42.000Z</updated>
+    <author><name>247wallst.com</name></author>
+    <summary type="html">The trillion-dollar club just got two new memory chip members. Micron Technology (NASDAQ:MU | MU Price Prediction) and South Korea’s SK Hynix (000660.KS) both crossed $1 trillion in market capitalization for the first time this week, joining Samsung in a rarified tier of semiconductor giants. The move reflects that demand for AI infrastructure continues to ... Micron and SK Hynix Cross $1 Trillion Valuations as Chip Shortage Fuels AI Boom</summary>
+    <category term="raindrop" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;The trillion-dollar club just got two new memory chip members. Micron Technology (NASDAQ:MU | MU Price Prediction) and South Korea’s SK Hynix (000660.KS) both crossed $1 trillion in market capitalization for the first time this week, joining Samsung in a rarified tier of semiconductor giants. The move reflects that demand for AI infrastructure continues to ... Micron and SK Hynix Cross $1 Trillion Valuations as Chip Shortage Fuels AI Boom&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://gizmodo.com/amds-plan-to-fix-ram-costs-bring-back-bygone-cpus-2000765337</id>
+    <title type="html">AMD’s Plan to Fix RAM Costs: Bring Back Bygone CPUs</title>
+    <link href="https://gizmodo.com/amds-plan-to-fix-ram-costs-bring-back-bygone-cpus-2000765337" />
+    <link rel="related" href="/stories/amd-s-plan-to-fix-ram-costs-bring-back-bygone-cpus-a329f648.html" />
+    <updated>2026-06-01T00:00:58.000Z</updated>
+    <author><name>gizmodo.com</name></author>
+    <summary type="html">Decade-old AM4 motherboards now seem even more appealing if you can’t afford to upgrade.</summary>
+    <category term="raindrop" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Decade-old AM4 motherboards now seem even more appealing if you can’t afford to upgrade.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.sdxcentral.com/news/ram-raid-profit-frenzy-sees-micron-sk-hynix-hit-1t-market-caps/</id>
+    <title type="html">RAM-raid profit frenzy sees Micron, SK Hynix hit $1T market caps</title>
+    <link href="https://www.sdxcentral.com/news/ram-raid-profit-frenzy-sees-micron-sk-hynix-hit-1t-market-caps/" />
+    <link rel="related" href="/stories/ram-raid-profit-frenzy-sees-micron-sk-hynix-hit-1t-m-61b3273e.html" />
+    <updated>2026-05-27T00:00:00.000Z</updated>
+    <author><name>sdxcentral.com</name></author>
+    <summary type="html">Memory makers laugh all the way to the bank as profits surge</summary>
+    <category term="raindrop" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Memory makers laugh all the way to the bank as profits surge&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techspot.com/news/112532-sk-hynix-embedding-cooling-hbm-memory-stop-ai.html</id>
+    <title type="html">SK Hynix is embedding cooling into HBM memory to stop AI chips from overheating</title>
+    <link href="https://www.techspot.com/news/112532-sk-hynix-embedding-cooling-hbm-memory-stop-ai.html" />
+    <link rel="related" href="/stories/sk-hynix-is-embedding-cooling-into-hbm-memory-to-sto-2d3d2f9a.html" />
+    <updated>2026-05-26T22:38:10.000Z</updated>
+    <author><name>techspot.com</name></author>
+    <summary type="html">SK Hynix has introduced iHBM, a high-bandwidth memory packaging solution that changes how and where heat is managed inside the package. Rather than relying on conventional methods...</summary>
+    <category term="raindrop" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;SK Hynix has introduced iHBM, a high-bandwidth memory packaging solution that changes how and where heat is managed inside the package. Rather than relying on conventional methods...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://fortune.com/2026/05/17/labor-strike-samsung-ai-hbm-chips-dividend-revolution-memory/</id>
+    <title type="html">A 45,000-person labor strike at Samsung's memory chip plants could throw a wrench into the AI boom | Fortune</title>
+    <link href="https://fortune.com/2026/05/17/labor-strike-samsung-ai-hbm-chips-dividend-revolution-memory/" />
+    <link rel="related" href="/stories/a-45-000-person-labor-strike-at-samsung-s-memory-chi-37ec5f6b.html" />
+    <updated>2026-05-17T09:03:00.000Z</updated>
+    <author><name>fortune.com</name></author>
+    <summary type="html">Nearly 45,00</summary>
+    <category term="raindrop" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Nearly 45,00&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <id>https://biz.chosun.com/en/en-it/2026/01/13/B7NHD75AJ5C3FOQUHG2GFSOXGU/</id>
     <title type="html">Samsung delays 1c-nm DRAM ramp by 2 quarters citing yield challenges at Pyeongtaek P4 fab</title>
     <link href="https://biz.chosun.com/en/en-it/2026/01/13/B7NHD75AJ5C3FOQUHG2GFSOXGU/" />
@@ -23981,6 +23864,58 @@
     <category term="tag:fab" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;New capacity delayed = tighter supply for longer.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: The commodity spike extends; downside risk to our base-case RI decline in 2027.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techradar.com/pro/details-of-intels-hbm-killer-memory-tech-emerge-revealing-nine-layers-up-to-9gb-of-dram-capacity-and-almost-as-much-bandwidth-as-hbm4-that-powers-nvidias-vera-rubin-ai-platform</id>
+    <title type="html">New Intel-supported memory design packs nine vertical layers</title>
+    <link href="https://www.techradar.com/pro/details-of-intels-hbm-killer-memory-tech-emerge-revealing-nine-layers-up-to-9gb-of-dram-capacity-and-almost-as-much-bandwidth-as-hbm4-that-powers-nvidias-vera-rubin-ai-platform" />
+    <link rel="related" href="/stories/new-intel-supported-memory-design-packs-nine-vertica-0bcd73e5.html" />
+    <updated>2026-05-13T22:30:00.000Z</updated>
+    <author><name>techradar.com</name></author>
+    <summary type="html">Intel and SoftBank reveal radical stacked memory architecture that could reshape AI hardware economics within several years</summary>
+    <category term="RAM" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Intel and SoftBank reveal radical stacked memory architecture that could reshape AI hardware economics within several years&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://fortune.com/2026/05/11/ai-memory-chips-semiconductor-stock-boom-price-hikes-dram-shortage-hbm/</id>
+    <title type="html">Harvard's chip expert has a warning for AI memory investors: 'This too will pass' | Fortune</title>
+    <link href="https://fortune.com/2026/05/11/ai-memory-chips-semiconductor-stock-boom-price-hikes-dram-shortage-hbm/" />
+    <link rel="related" href="/stories/harvard-s-chip-expert-has-a-warning-for-ai-memory-in-d6d6caab.html" />
+    <updated>2026-05-11T20:18:16.000Z</updated>
+    <author><name>fortune.com</name></author>
+    <summary type="html">Harvard Business school professor Willy Shih knows that a crash is coming for semiconductors</summary>
+    <category term="raindrop" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Harvard Business school professor Willy Shih knows that a crash is coming for semiconductors&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.sdxcentral.com/analysis/beyond-hbm-the-flash-memory-technology-that-could-reshape-ai-infrastructure/</id>
+    <title type="html">Beyond HBM: The flash memory technology that could reshape AI infrastructure</title>
+    <link href="https://www.sdxcentral.com/analysis/beyond-hbm-the-flash-memory-technology-that-could-reshape-ai-infrastructure/" />
+    <link rel="related" href="/stories/beyond-hbm-the-flash-memory-technology-that-could-re-9d0f3e60.html" />
+    <updated>2026-05-11T00:00:00.000Z</updated>
+    <author><name>sdxcentral.com</name></author>
+    <summary type="html">Sandisk thinks a NAND-based architecture can smash the memory wall</summary>
+    <category term="raindrop" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Sandisk thinks a NAND-based architecture can smash the memory wall&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/348646/intel-prepares-hbm-killer-hb3dm-memory-stacks-with-z-angle-technology</id>
+    <title type="html">Intel Prepares HBM Killer: HB3DM Memory Stacks with Z-Angle Technology</title>
+    <link href="https://www.techpowerup.com/348646/intel-prepares-hbm-killer-hb3dm-memory-stacks-with-z-angle-technology" />
+    <link rel="related" href="/stories/intel-prepares-hbm-killer-hb3dm-memory-stacks-with-z-8d01f038.html" />
+    <updated>2026-04-29T18:27:27.000Z</updated>
+    <author><name>techpowerup.com</name></author>
+    <summary type="html">Intel and SoftBank, through their subsidiary Saimemory, have been developing an alternative technology to the popular high-bandwidth memory (HBM) to provide more bandwidth and capacity for memory modules used with powerful AI accelerators. At VLSI 2026 in June, Saimemory is scheduled to present a pa...</summary>
+    <category term="raindrop" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Intel and SoftBank, through their subsidiary Saimemory, have been developing an alternative technology to the popular high-bandwidth memory (HBM) to provide more bandwidth and capacity for memory modules used with powerful AI accelerators. At VLSI 2026 in June, Saimemory is scheduled to present a pa...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.youtube.com/watch?v=h6GWikWlAQA&amp;t=11s</id>
@@ -23996,24 +23931,11 @@
     <content type="html">&lt;p&gt;Thanks for the support! https://www.patreon.com/cw/DrSemiconductor Shoutout to Projects in Flight for a helpful reference on the doping:https://www.youtube.c...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://phys.org/news/2026-04-mind-gap-semiconductor-industry-wrong.html</id>
-    <title type="html">Mind the gap! The semiconductor industry is relying on the wrong materials</title>
-    <link href="https://phys.org/news/2026-04-mind-gap-semiconductor-industry-wrong.html" />
-    <link rel="related" href="/stories/mind-the-gap-the-semiconductor-industry-is-relying-o-d2f672ca.html" />
-    <updated>2026-04-22T18:43:13.257Z</updated>
-    <author><name>phys.org</name></author>
-    <summary type="html">2D materials are widely seen as a promising path toward better computer chips. Researchers at TU Wien have now shown that some of these materials are unsuitable due to an underestimated effect. But there are alternatives.</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;2D materials are widely seen as a promising path toward better computer chips. Researchers at TU Wien have now shown that some of these materials are unsuitable due to an underestimated effect. But there are alternatives.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://www.tomshardware.com/pc-components/dram/dr-semiconductor-successfully-fabs-ram-in-garden-shed-cleanroom-array-of-memory-cells-with-12pf-capacitance-groundwork-for-much-larger-future-array</id>
     <title type="html">Enthusiast builds his own RAM in garden shed cleanroom — fledgling array of memory cells groundwork for much larger future project | Tom's Hardware</title>
     <link href="https://www.tomshardware.com/pc-components/dram/dr-semiconductor-successfully-fabs-ram-in-garden-shed-cleanroom-array-of-memory-cells-with-12pf-capacitance-groundwork-for-much-larger-future-array" />
     <link rel="related" href="/stories/enthusiast-builds-his-own-ram-in-garden-shed-cleanro-e429dbc1.html" />
-    <updated>2026-04-22T18:41:52.096Z</updated>
+    <updated>2026-04-22T10:00:00.000Z</updated>
     <author><name>tomshardware.com</name></author>
     <summary type="html">One small step, but the good doctor asks us to ‘stay tuned’ for a PC scale result.</summary>
     <category term="raindrop" />
@@ -24022,17 +23944,17 @@
     <content type="html">&lt;p&gt;One small step, but the good doctor asks us to ‘stay tuned’ for a PC scale result.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://towardsdatascience.com/a-guide-to-gpu-utilization/</id>
-    <title type="html">A Guide to Understanding GPUs and Maximizing GPU Utilization | Towards Data Science</title>
-    <link href="https://towardsdatascience.com/a-guide-to-gpu-utilization/" />
-    <link rel="related" href="/stories/a-guide-to-understanding-gpus-and-maximizing-gpu-uti-ba945bdb.html" />
-    <updated>2026-04-20T09:23:57.256Z</updated>
-    <author><name>towardsdatascience.com</name></author>
-    <summary type="html">In an age of constrained compute, learn how to optimize GPU efficiency through understanding architecture, bottlenecks, and fixes ranging from simple PyTorch commands to custom kernels.</summary>
+    <id>https://phys.org/news/2026-04-mind-gap-semiconductor-industry-wrong.html</id>
+    <title type="html">Mind the gap! The semiconductor industry is relying on the wrong materials</title>
+    <link href="https://phys.org/news/2026-04-mind-gap-semiconductor-industry-wrong.html" />
+    <link rel="related" href="/stories/mind-the-gap-the-semiconductor-industry-is-relying-o-d2f672ca.html" />
+    <updated>2026-04-20T14:00:01.000Z</updated>
+    <author><name>phys.org</name></author>
+    <summary type="html">2D materials are widely seen as a promising path toward better computer chips. Researchers at TU Wien have now shown that some of these materials are unsuitable due to an underestimated effect. But there are alternatives.</summary>
     <category term="raindrop" />
     <category term="tag:supply" />
     <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;In an age of constrained compute, learn how to optimize GPU efficiency through understanding architecture, bottlenecks, and fixes ranging from simple PyTorch commands to custom kernels.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;2D materials are widely seen as a promising path toward better computer chips. Researchers at TU Wien have now shown that some of these materials are unsuitable due to an underestimated effect. But there are alternatives.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.nytimes.com/2026/04/17/technology/cerebras-public-offering-ai.html</id>
@@ -24061,11 +23983,24 @@
     <content type="html">&lt;p&gt;Consumer market absorbs the commodity shock.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Downstream stocks (INTC, QCOM) will see BOM pressure in Q2¢Q3 earnings.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
+    <id>https://towardsdatascience.com/a-guide-to-gpu-utilization/</id>
+    <title type="html">A Guide to Understanding GPUs and Maximizing GPU Utilization | Towards Data Science</title>
+    <link href="https://towardsdatascience.com/a-guide-to-gpu-utilization/" />
+    <link rel="related" href="/stories/a-guide-to-understanding-gpus-and-maximizing-gpu-uti-ba945bdb.html" />
+    <updated>2026-04-14T07:30:05.000Z</updated>
+    <author><name>towardsdatascience.com</name></author>
+    <summary type="html">In an age of constrained compute, learn how to optimize GPU efficiency through understanding architecture, bottlenecks, and fixes ranging from simple PyTorch commands to custom kernels.</summary>
+    <category term="raindrop" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;In an age of constrained compute, learn how to optimize GPU efficiency through understanding architecture, bottlenecks, and fixes ranging from simple PyTorch commands to custom kernels.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <id>https://www.linkedin.com/posts/laurie-kirk_modern-dram-is-based-on-a-brilliant-design-ugcPost-7447333928362754048-7jzK?rcm=ACoAAAJEO3EBTjILifO8AHt_ADunz2h7S7UxJDc</id>
     <title type="html">Modern DRAM is based on a brilliant design from IBM. But, we're still paying for a latency penalty that's existed since the 60s! In this video, I'm introducing my personal research project… | Laurie Kirk | 25 comments</title>
     <link href="https://www.linkedin.com/posts/laurie-kirk_modern-dram-is-based-on-a-brilliant-design-ugcPost-7447333928362754048-7jzK?rcm=ACoAAAJEO3EBTjILifO8AHt_ADunz2h7S7UxJDc" />
     <link rel="related" href="/stories/modern-dram-is-based-on-a-brilliant-design-from-ibm-cdb51c5f.html" />
-    <updated>2026-04-08T02:07:44.615Z</updated>
+    <updated>2026-04-07T17:26:30.023Z</updated>
     <author><name>linkedin.com</name></author>
     <summary type="html">Modern DRAM is based on a brilliant design from IBM. But, we're still paying for a latency penalty that's existed since the 60s! In this video, I'm introducing my personal research project (Tailslayer) that immensely reduces p99.99 latency on traditional RAM! By implementing a hedged read strategy taking advantage of (undocumented!) channel scrambling offsets, I've gotten as much as 15x reductions in tail latency. The technique works across Intel, AMD, Graviton, DDR4, DDR5, x86, ARM, you name it. Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 comments on LinkedIn</summary>
     <category term="raindrop" />
@@ -24074,11 +24009,37 @@
     <content type="html">&lt;p&gt;Modern DRAM is based on a brilliant design from IBM. But, we're still paying for a latency penalty that's existed since the 60s! In this video, I'm introducing my personal research project (Tailslayer) that immensely reduces p99.99 latency on traditional RAM! By implementing a hedged read strategy taking advantage of (undocumented!) channel scrambling offsets, I've gotten as much as 15x reductions in tail latency. The technique works across Intel, AMD, Graviton, DDR4, DDR5, x86, ARM, you name it. Check out the C++ lib I wrote, watch the video, and try it yourself! | 25 comments on LinkedIn&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
+    <id>https://spectrum.ieee.org/high-bandwidth-memory-shortage</id>
+    <title type="html">Is AI’s High Bandwidth Memory Crunch About to Hit Your Wallet?</title>
+    <link href="https://spectrum.ieee.org/high-bandwidth-memory-shortage" />
+    <link rel="related" href="/stories/is-ai-s-high-bandwidth-memory-crunch-about-to-hit-yo-94a67404.html" />
+    <updated>2026-04-06T14:22:58.000Z</updated>
+    <author><name>spectrum.ieee.org</name></author>
+    <summary type="html">And it’s got the munchies for memory chips</summary>
+    <category term="raindrop" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;And it’s got the munchies for memory chips&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.fool.com/investing/2026/04/03/the-high-bandwidth-memory-hbm-bottleneck-can-still/</id>
+    <title type="html">The High-Bandwidth Memory (HBM) Bottleneck Can Still Cause Micron's Stock to Soar | The Motley Fool</title>
+    <link href="https://www.fool.com/investing/2026/04/03/the-high-bandwidth-memory-hbm-bottleneck-can-still/" />
+    <link rel="related" href="/stories/the-high-bandwidth-memory-hbm-bottleneck-can-still-c-5389bb32.html" />
+    <updated>2026-04-03T21:05:00.000Z</updated>
+    <author><name>fool.com</name></author>
+    <summary type="html">Google's TurboQuant breakthrough alleviates part of the pressure, but the bottleneck still exists.</summary>
+    <category term="RAM" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Google's TurboQuant breakthrough alleviates part of the pressure, but the bottleneck still exists.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <id>https://www.tomshardware.com/tech-industry/new-cambridge-human-brain-inspired-chip-could-slash-ai-energy-use</id>
     <title type="html">New Cambridge human brain-inspired chip could slash AI energy use — new type of memristor has roughly a million times lower switching current than conventional devices | Tom's Hardware</title>
     <link href="https://www.tomshardware.com/tech-industry/new-cambridge-human-brain-inspired-chip-could-slash-ai-energy-use" />
     <link rel="related" href="/stories/new-cambridge-human-brain-inspired-chip-could-slash-00b3071e.html" />
-    <updated>2026-03-29T21:48:53.021Z</updated>
+    <updated>2026-03-29T14:22:36.000Z</updated>
     <author><name>tomshardware.com</name></author>
     <summary type="html">The devices use a self-assembled p-n junction inside the oxide film instead of conductive filaments.</summary>
     <category term="raindrop" />
@@ -24117,26 +24078,13 @@
     <title type="html">Inverse-designed nanophotonic neural network accelerators for ultra-compact optical computing | Nature Communications</title>
     <link href="https://www.nature.com/articles/s41467-026-68648-1" />
     <link rel="related" href="/stories/inverse-designed-nanophotonic-neural-network-acceler-7ea84d19.html" />
-    <updated>2026-03-05T18:54:34.551Z</updated>
+    <updated>2026-03-04T00:00:00.000Z</updated>
     <author><name>nature.com</name></author>
     <summary type="html">Scaling of optical computing requires computationally dense and efficient hardware. Here, the authors inverse-design and experimentally demonstrate ultracompact nanophotonic neural network accelerators with high computational density, enabling scalable and energy-efficient analog photonic computing.</summary>
     <category term="raindrop" />
     <category term="tag:supply" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Scaling of optical computing requires computationally dense and efficient hardware. Here, the authors inverse-design and experimentally demonstrate ultracompact nanophotonic neural network accelerators with high computational density, enabling scalable and energy-efficient analog photonic computing.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://www.tomshardware.com/pc-components/ram/john-carmack-muses-using-a-long-fiber-line-as-as-an-l2-cache-for-streaming-ai-data-programmer-imagines-fiber-as-alternative-to-dram</id>
-    <title type="html">John Carmack muses using a long fiber line as an L2 cache for streaming AI data — programmer imagines fiber as alternative to DRAM</title>
-    <link href="https://www.tomshardware.com/pc-components/ram/john-carmack-muses-using-a-long-fiber-line-as-as-an-l2-cache-for-streaming-ai-data-programmer-imagines-fiber-as-alternative-to-dram" />
-    <link rel="related" href="/stories/john-carmack-muses-using-a-long-fiber-line-as-an-l2-667845b5.html" />
-    <updated>2026-03-03T03:49:01.834Z</updated>
-    <author><name>tomshardware.com</name></author>
-    <summary type="html">Yes, it's delay-line memory, but with lasers!</summary>
-    <category term="raindrop" />
-    <category term="tag:supply" />
-    <category term="editorial-pick" />
-    <content type="html">&lt;p&gt;Yes, it's delay-line memory, but with lasers!&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.youtube.com/watch?v=-YNk9_e4pg4</id>
@@ -24152,11 +24100,24 @@
     <content type="html">&lt;p&gt;Visit https://brilliant.org/coldfusion for 20% off a premium subscription.In this episode we cover the insane supply shortage of RAM due to the AI buildout. ...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
+    <id>https://www.tomshardware.com/pc-components/ram/john-carmack-muses-using-a-long-fiber-line-as-as-an-l2-cache-for-streaming-ai-data-programmer-imagines-fiber-as-alternative-to-dram</id>
+    <title type="html">John Carmack muses using a long fiber line as an L2 cache for streaming AI data — programmer imagines fiber as alternative to DRAM</title>
+    <link href="https://www.tomshardware.com/pc-components/ram/john-carmack-muses-using-a-long-fiber-line-as-as-an-l2-cache-for-streaming-ai-data-programmer-imagines-fiber-as-alternative-to-dram" />
+    <link rel="related" href="/stories/john-carmack-muses-using-a-long-fiber-line-as-an-l2-667845b5.html" />
+    <updated>2026-02-09T20:44:36.000Z</updated>
+    <author><name>tomshardware.com</name></author>
+    <summary type="html">Yes, it's delay-line memory, but with lasers!</summary>
+    <category term="raindrop" />
+    <category term="tag:supply" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Yes, it's delay-line memory, but with lasers!&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <id>https://www.calcalistech.com/ctechnews/article/hkphis00l11g</id>
     <title type="html">Tower Semiconductor surges to $15 billion valuation, tripling Intel’s abandoned bid | Ctech</title>
     <link href="https://www.calcalistech.com/ctechnews/article/hkphis00l11g" />
     <link rel="related" href="/stories/tower-semiconductor-surges-to-15-billion-valuation-t-a56f0ba5.html" />
-    <updated>2026-01-31T02:47:31.679Z</updated>
+    <updated>2026-01-29T09:46:09.799Z</updated>
     <author><name>calcalistech.com</name></author>
     <summary type="html">Shares are up more than 160% in six months as investors embrace the AI infrastructure story.</summary>
     <category term="raindrop" />
@@ -24182,13 +24143,52 @@
     <title type="html">Chinese scientists shrink semiconductor chip into fibre as thin as human hair</title>
     <link href="https://sc.mp/jg173" />
     <link rel="related" href="/stories/chinese-scientists-shrink-semiconductor-chip-into-fi-a711d484.html" />
-    <updated>2026-01-25T11:11:29.045Z</updated>
+    <updated>2026-01-23T22:00:11.000Z</updated>
     <author><name>sc.mp</name></author>
     <summary type="html">Advance allows fibres to compute like chips or display information like transistors, paving the way for machine-wearable smart textiles.</summary>
     <category term="raindrop" />
     <category term="tag:supply" />
     <category term="editorial-pick" />
     <content type="html">&lt;p&gt;Advance allows fibres to compute like chips or display information like transistors, paving the way for machine-wearable smart textiles.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/01/10/micron-ai-memory-shortage-hbm-nvidia-samsung.html</id>
+    <title type="html">AI memory is sold out, causing an unprecedented surge in prices</title>
+    <link href="https://www.cnbc.com/2026/01/10/micron-ai-memory-shortage-hbm-nvidia-samsung.html" />
+    <link rel="related" href="/stories/ai-memory-is-sold-out-causing-an-unprecedented-surge-908cc963.html" />
+    <updated>2026-01-10T12:00:01.000Z</updated>
+    <author><name>cnbc.com</name></author>
+    <summary type="html">Three primary memory vendors ¢ Micron, SK Hynix and Samsung Electronics ¢</summary>
+    <category term="RAM" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Three primary memory vendors ¢ Micron, SK Hynix and Samsung Electronics ¢&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tweaktown.com/news/109259/samsung-shifts-focus-from-hbm-to-ddr5-modules-ddr5-ram-results-in-far-more-profits-than-hbm/index.html</id>
+    <title type="html">Samsung shifts focus from HBM to DDR5 modules: DDR5 RAM results in FAR more profits than HBM</title>
+    <link href="https://www.tweaktown.com/news/109259/samsung-shifts-focus-from-hbm-to-ddr5-modules-ddr5-ram-results-in-far-more-profits-than-hbm/index.html" />
+    <link rel="related" href="/stories/samsung-shifts-focus-from-hbm-to-ddr5-modules-ddr5-r-1f7423c0.html" />
+    <updated>2025-12-09T02:08:02.000Z</updated>
+    <author><name>tweaktown.com</name></author>
+    <summary type="html">Samsung is reportedly scaling down its HBM production, shifting focus of DRAM production to DDR5 modules because there's FAR more profits to be made.</summary>
+    <category term="RAM" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Samsung is reportedly scaling down its HBM production, shifting focus of DRAM production to DDR5 modules because there's FAR more profits to be made.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.chinatalk.media/p/will-china-hit-the-hbm-wall</id>
+    <title type="html">How Far Can Chinese HBM Go?</title>
+    <link href="https://www.chinatalk.media/p/will-china-hit-the-hbm-wall" />
+    <link rel="related" href="/stories/how-far-can-chinese-hbm-go-cbe0ce6b.html" />
+    <updated>2025-12-05T11:28:24.000Z</updated>
+    <author><name>chinatalk.media</name></author>
+    <summary type="html">Given export controls, what HBM node can China reach?</summary>
+    <category term="RAM" />
+    <category term="tag:demand" />
+    <category term="editorial-pick" />
+    <content type="html">&lt;p&gt;Given export controls, what HBM node can China reach?&lt;/p&gt;&lt;p&gt;&lt;em&gt;Editorial pick — curated by The RAM Index.&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.reuters.com/legal/litigation/adeia-sues-amd-patent-infringement-over-semiconductor-technology-2025-11-03/</id>
@@ -24221,7 +24221,7 @@
     <title type="html">Scientists smash record in stacking semiconductor transistors for large-area electronics</title>
     <link href="https://techxplore.com/news/2025-10-scientists-stacking-semiconductor-transistors-large.html" />
     <link rel="related" href="/stories/scientists-smash-record-in-stacking-semiconductor-tr-d176775a.html" />
-    <updated>2025-10-17T22:26:46.945Z</updated>
+    <updated>2025-10-17T09:00:01.000Z</updated>
     <author><name>techxplore.com</name></author>
     <summary type="html">King Abdullah University of Science and Technology (KAUST; Saudi Arabia) researchers have set a record in microchip design, achieving the first six-stack hybrid CMOS (complementary metal-oxide semiconductor) for large-area electronics. With no other reported hybrid CMOS exceeding two stacks, the feat marks a new benchmark in integration density and efficiency, opening possibilities in electronic miniaturization and performance.</summary>
     <category term="raindrop" />
@@ -24234,7 +24234,7 @@
     <title type="html">What Does Semiconductor Disruption Look Like?</title>
     <link href="https://semiengineering.com/what-does-semiconductor-disruption-look-like/" />
     <link rel="related" href="/stories/what-does-semiconductor-disruption-look-like-1d498fbe.html" />
-    <updated>2025-09-26T14:22:12.514Z</updated>
+    <updated>2025-09-25T07:10:42.000Z</updated>
     <author><name>semiengineering.com</name></author>
     <summary type="html">While everybody seems to agree that AI will disrupt semiconductor design and EDA tools, nobody has yet suggested what a disrupted flow would actually look like.</summary>
     <category term="raindrop" />
@@ -24260,7 +24260,7 @@
     <title type="html">Female-founded semiconductor AI startup SixSense raises $8.5M | TechCrunch</title>
     <link href="https://techcrunch.com/2025/07/31/female-founded-semiconductor-ai-startup-sixsense-raises-funding/" />
     <link rel="related" href="/stories/female-founded-semiconductor-ai-startup-sixsense-rai-c7511dab.html" />
-    <updated>2025-08-01T04:34:46.355Z</updated>
+    <updated>2025-08-01T00:00:00.000Z</updated>
     <author><name>techcrunch.com</name></author>
     <summary type="html">SixSense offers an AI-powered platform that helps chip makers prevent defects. It landed backing led by Peak XV¢s Surge (formerly Sequoia India &amp; SEA).</summary>
     <category term="JUL" />
@@ -24273,7 +24273,7 @@
     <title type="html">Semiconductor, EV autonomy testing becomes more efficient with Nigel AI</title>
     <link href="https://interestingengineering.com/innovation/semiconductor-ev-autonomy-testing-more-efficient" />
     <link rel="related" href="/stories/semiconductor-ev-autonomy-testing-becomes-more-effic-f6eaea56.html" />
-    <updated>2025-07-28T12:39:46.625Z</updated>
+    <updated>2025-07-26T22:55:41.000Z</updated>
     <author><name>interestingengineering.com</name></author>
     <summary type="html">The solution offers greater proficiency in addressing the complexity of test and measurement across industries like semiconductor, transportation, and electronics.</summary>
     <category term="JUL" />
@@ -24299,7 +24299,7 @@
     <title type="html">World’s first semiconductor made by quantum tech stuns chip industry</title>
     <link href="https://share.google/00bgAmqdO0Atvodgd" />
     <link rel="related" href="/stories/world-s-first-semiconductor-made-by-quantum-tech-stu-63f00ab1.html" />
-    <updated>2025-07-05T19:56:39.301Z</updated>
+    <updated>2025-07-02T14:27:44.000Z</updated>
     <author><name>share.google</name></author>
     <summary type="html">In a first, Australian scientists turned to quantum machine learning to model semiconductor design, outperforming classical approaches.</summary>
     <category term="raindrop" />
@@ -24312,7 +24312,7 @@
     <title type="html">New RAMBO attack steals data using RAM in air-gapped computers</title>
     <link href="https://www.bleepingcomputer.com/news/security/new-rambo-attack-steals-data-using-ram-in-air-gapped-computers/" />
     <link rel="related" href="/stories/new-rambo-attack-steals-data-using-ram-in-air-gapped-b1b2f509.html" />
-    <updated>2024-09-09T08:11:58.520Z</updated>
+    <updated>2024-09-07T14:15:25.000Z</updated>
     <author><name>bleepingcomputer.com</name></author>
     <summary type="html">A novel side-channel attack dubbed  &quot;RAMBO&quot; (Radiation of Air-gapped Memory Bus for Offense) generates electromagnetic radiation from a device's RAM to send data from air-gapped</summary>
     <category term="raindrop" />

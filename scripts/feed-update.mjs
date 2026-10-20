@@ -314,7 +314,7 @@ async function fetchOpml() {
 // back to the Raindrop save time if that fails.
 const ARTICLE_DATE_RE = /<meta\b[^>]*(?:property|name)=["'](?:article:published_time|og:published_time|datePublished|pubdate|publishdate|date|dc\.date|sailthru\.date)["'][^>]*>/i;
 
-function extractArticleDate(html) {
+export function extractArticleDate(html) {
   const metaMatch = html.match(ARTICLE_DATE_RE);
   if (metaMatch) {
     const content = metaMatch[0].match(/content=["']([^"']+)["']/i);
@@ -327,7 +327,7 @@ function extractArticleDate(html) {
   return null;
 }
 
-async function fetchArticlePublishedDate(url) {
+export async function fetchArticlePublishedDate(url) {
   try {
     const res = await fetch(url, {
       headers: { 'User-Agent': 'Mozilla/5.0 (compatible; RAM-Index-Feed/1.0)' },
@@ -484,7 +484,7 @@ export function parseFeed(xml) {
 
 // ── Atom renderer (same schema the front-end parses) ────────────────
 
-function renderAtom(items, generatedAt) {
+export function renderAtom(items, generatedAt) {
   const entries = items.map((item) => `
   <entry>
     <id>${esc(cleanUrl(item.url))}</id>
