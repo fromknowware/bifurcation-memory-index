@@ -5,11 +5,50 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-20T00:49:29.354Z</updated>
+  <updated>2026-10-20T04:46:46.413Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.servethehome.com/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026/</id>
+    <title type="html">NVIDIA BlueField-4 STX Server for CMX at OCP 2026</title>
+    <link href="https://www.servethehome.com/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026/" />
+    <link rel="related" href="/stories/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026-7b5acc95.html" />
+    <updated>2026-10-20T03:53:34.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <summary type="html">At OCP 2026, we saw the NVIDIA BlueField-4 STX server for context memory (CMX) a single NVIDIA Vera platform The post NVIDIA BlueField-4 STX Server for CMX at OCP 2026 appeared first on ServeTheHome . RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;At OCP 2026, we saw the NVIDIA BlueField-4 STX server for context memory (CMX) a single NVIDIA Vera platform The post NVIDIA BlueField-4 STX Server for CMX at OCP 2026 appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE1rU0RwNVQ1OHVVXzJBZGJnNE5VMVpzaHZ1Q0RublhBQ0pnWVNhQ0ExUnByOGpmWmh4cnA3bmlUZDh5TTNZeGhYWDc2Wm0xUUZ2YUtDR2VjT3hIakUtSTNEN051eFNyOW9oVnRQVURTQWJ5NTVoQXc?oc=5</id>
+    <title type="html">Micron Bets on Memory Built for Physical AI, EIM Chip Targeted for 2028 Mass Production - BigGo Finance</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1rU0RwNVQ1OHVVXzJBZGJnNE5VMVpzaHZ1Q0RublhBQ0pnWVNhQ0ExUnByOGpmWmh4cnA3bmlUZDh5TTNZeGhYWDc2Wm0xUUZ2YUtDR2VjT3hIakUtSTNEN051eFNyOW9oVnRQVURTQWJ5NTVoQXc?oc=5" />
+    <link rel="related" href="/stories/micron-bets-on-memory-built-for-physical-ai-eim-chip-fab97e97.html" />
+    <updated>2026-10-20T00:35:00.000Z</updated>
+    <author><name>BigGo Finance</name></author>
+    <summary type="html">Micron Bets on Memory Built for Physical AI, EIM Chip Targeted for 2028 Mass Production BigGo Finance RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Micron Bets on Memory Built for Physical AI, EIM Chip Targeted for 2028 Mass Production BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTFBnWHhxcXFGV1Z2MzQxdk9MTE1RMnNXYTdRZV8tSGphYlEtaGdXMFlZM3FzNWdaTkt1U2NNNVZpYzVaX1U3NVU5Qm5nRTJEbzk3ZHJubG54ZXFlZHVlbUxJdkI2RHRYMG43T05wbGE5cWJkTTNIanc?oc=5</id>
+    <title type="html">AI Swallows Up Memory Supply, Smartphone Prices Surge 300% as Global Shipments Hit 'Worst on Record' - BigGo Finance</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBnWHhxcXFGV1Z2MzQxdk9MTE1RMnNXYTdRZV8tSGphYlEtaGdXMFlZM3FzNWdaTkt1U2NNNVZpYzVaX1U3NVU5Qm5nRTJEbzk3ZHJubG54ZXFlZHVlbUxJdkI2RHRYMG43T05wbGE5cWJkTTNIanc?oc=5" />
+    <link rel="related" href="/stories/ai-swallows-up-memory-supply-smartphone-prices-surge-252bcf64.html" />
+    <updated>2026-10-19T23:55:00.000Z</updated>
+    <author><name>BigGo Finance</name></author>
+    <summary type="html">AI Swallows Up Memory Supply, Smartphone Prices Surge 300% as Global Shipments Hit 'Worst on Record' BigGo Finance RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;AI Swallows Up Memory Supply, Smartphone Prices Surge 300% as Global Shipments Hit 'Worst on Record' BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiekFVX3lxTE53ZEtaNUdHZFZTRTJMRkx1cDRqc29Jc0ZtTDJJVmJCbUs3SHRTR3djUXktQzlHMEh2Yng2eWpPUG4yenJ3NnM4MG1wU2ZxaTRuVndaN2p4TnUtOVZPVy1abHl6QmNiejgyUGp4N1BwOFgyWVlvZU9DLWh30gGOAUFVX3lxTE4ySUFFUlhmTGtWd0pYZzItQnJjVkhZVWhuUVVqZUkyVzI4MzJjVl9GV3ZZdWYtRzl2ZW9xa21PanMxck5jdEVEZ090bHhRTm8wVXk0NGdvRmZxY0dGeUJtLXNYcmhZOFh0QlE3ajNzeG4zbzNCdG01dnZITGZWTk5ZczJfVGVwSW1XX3Q0ZFE?oc=5</id>
     <title type="html">U.S. big tech wields China memory threat, but Samsung and SK hold pricing power - CHOSUNBIZ - Chosunbiz</title>
@@ -22,6 +61,19 @@
     <category term="tag:supply" />
     
     <content type="html">&lt;p&gt;U.S. big tech wields China memory threat, but Samsung and SK hold pricing power - CHOSUNBIZ Chosunbiz&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMimAFBVV95cUxQV18xVlhIdkJLSG5jSHREaUVkYkdOTzBzSGZCQUpKUDlWMDN3NW9ObGZQLWFaTDJhcWVWUEd0S3VpMU1BOXZZZjF2NXFGZTJsanVvaTF5M3BMUEFxM21BbE9XdjhTSG1Kc1IxRFVVZXlNVm1rekNDVXNnbUM4NFJ4cUpUdkdvS3U2dWFGLXA2ZlBkN05YRnFiRg?oc=5</id>
+    <title type="html">South Korean Chipmakers Set for Strong 2027 on Memory Supply Crunch - https://www.briefasia.com/</title>
+    <link href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQV18xVlhIdkJLSG5jSHREaUVkYkdOTzBzSGZCQUpKUDlWMDN3NW9ObGZQLWFaTDJhcWVWUEd0S3VpMU1BOXZZZjF2NXFGZTJsanVvaTF5M3BMUEFxM21BbE9XdjhTSG1Kc1IxRFVVZXlNVm1rekNDVXNnbUM4NFJ4cUpUdkdvS3U2dWFGLXA2ZlBkN05YRnFiRg?oc=5" />
+    <link rel="related" href="/stories/south-korean-chipmakers-set-for-strong-2027-on-memor-462d0cf2.html" />
+    <updated>2026-10-19T20:03:45.000Z</updated>
+    <author><name>https://www.briefasia.com/</name></author>
+    <summary type="html">South Korean Chipmakers Set for Strong 2027 on Memory Supply Crunch https://www.briefasia.com/ RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:NAND flash supply" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;South Korean Chipmakers Set for Strong 2027 on Memory Supply Crunch https://www.briefasia.com/&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMikwFBVV95cUxPeXZDVm96ZkRocEhOb2lJYUNzRk5kUXk0eDl0b1RRTHVzczRuOE1fNWRXcGp6ZjExb1Fwd2NhS3lCTUxfTGdzTlVLNW02TzJMU01qZTJzVjUwaFlZU2Z6Q2RoU0xDUlN4MHhMUmQ5SDhwWl9GNVNLZ2lHdnluLXJTclVXRU45eGVfYW16cC1RbndWTDA?oc=5</id>

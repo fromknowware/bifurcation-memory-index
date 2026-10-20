@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-20T00:49:42.726Z",
-  "count": 1872,
+  "generatedAt": "2026-10-20T04:46:48.704Z",
+  "count": 1876,
   "stories": [
+    {
+      "slug": "nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026-7b5acc95",
+      "url": "/stories/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026-7b5acc95.html",
+      "title": "NVIDIA BlueField-4 STX Server for CMX at OCP 2026",
+      "tag": "demand",
+      "date": "2026-10-20",
+      "score": 7,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-bets-on-memory-built-for-physical-ai-eim-chip-fab97e97",
+      "url": "/stories/micron-bets-on-memory-built-for-physical-ai-eim-chip-fab97e97.html",
+      "title": "Micron Bets on Memory Built for Physical AI, EIM Chip Targeted for 2028 Mass Production - BigGo Finance",
+      "tag": "demand",
+      "date": "2026-10-20",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ai-swallows-up-memory-supply-smartphone-prices-surge-252bcf64",
+      "url": "/stories/ai-swallows-up-memory-supply-smartphone-prices-surge-252bcf64.html",
+      "title": "AI Swallows Up Memory Supply, Smartphone Prices Surge 300% as Global Shipments Hit 'Worst on Record' - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "u-s-big-tech-wields-china-memory-threat-but-samsung-ff5c28eb",
       "url": "/stories/u-s-big-tech-wields-china-memory-threat-but-samsung-ff5c28eb.html",
@@ -11,6 +44,17 @@
       "score": 8,
       "pick": false,
       "source": "Chosunbiz",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "south-korean-chipmakers-set-for-strong-2027-on-memor-462d0cf2",
+      "url": "/stories/south-korean-chipmakers-set-for-strong-2027-on-memor-462d0cf2.html",
+      "title": "South Korean Chipmakers Set for Strong 2027 on Memory Supply Crunch - https://www.briefasia.com/",
+      "tag": "supply",
+      "date": "2026-10-19",
+      "score": 8,
+      "pick": false,
+      "source": "https://www.briefasia.com/",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
