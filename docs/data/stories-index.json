@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-20T17:00:27.243Z",
-  "count": 1899,
+  "generatedAt": "2026-10-20T21:35:27.737Z",
+  "count": 1901,
   "stories": [
+    {
+      "slug": "intel-vs-micron-who-is-more-exposed-by-chinese-rival-a7e2342d",
+      "url": "/stories/intel-vs-micron-who-is-more-exposed-by-chinese-rival-a7e2342d.html",
+      "title": "Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress? - AOL.com",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "AOL.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "intel-vs-micron-who-is-more-exposed-by-chinese-rival-81f20b57",
       "url": "/stories/intel-vs-micron-who-is-more-exposed-by-chinese-rival-81f20b57.html",
@@ -23,6 +34,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-electronics-secures-80-memory-contracts-eyes-d915fd57",
+      "url": "/stories/samsung-electronics-secures-80-memory-contracts-eyes-d915fd57.html",
+      "title": "Samsung Electronics Secures 80% Memory Contracts, Eyes 555 Trillion Profit - 조선일보",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "micron-cxmt-unveil-new-memory-push-businesskorea-45c3fa9b",
