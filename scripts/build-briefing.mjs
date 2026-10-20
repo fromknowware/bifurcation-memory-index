@@ -70,7 +70,7 @@ h1{font-size:24px;color:var(--bright);margin:4px 0 6px;}
 .prev a:hover{color:var(--ram);}
 ` + '\n';
 
-function pageShell(title, body) {
+export function pageShell(title, body) {
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -100,10 +100,21 @@ ${body}
 </html>`;
 }
 
-function main() {
-  const settings = JSON.parse(readFileSync(SETTINGS, 'utf8'));
-  const items = parseFeed(readFileSync(FEED, 'utf8'));
-  const now = new Date();
+// Only draw the top notes from the last RECENCY_HOURS — feed.xml is a
+// growing archive (back to 2024), and editorial picks are permanently
+// scored 10/10 with no decay, so without this window old picks would crowd
+// out fresh news forever instead of the briefing ever reflecting the
+// current day. Exported so the historical-reconstruction script can apply
+// the exact same logic against a past feed.xml snapshot + a past "now".
+export const RECENCY_HOURS = 48;
+
+/**
+ * Build the briefing body HTML for a given item set, point in time, and
+ * settings. Pure function of its inputs (no fs/date-now side effects) so it
+ * can be reused both for "now" (build-briefing.mjs) and for a historical
+ * "as of" reconstruction (backfill-historical-briefings.mjs).
+ */
+export function renderBriefingBody({ items, now, settings, previous, manualEditorial }) {
   const today = now.toISOString().slice(0, 10);
 
   // Day N of RAMageddon
@@ -112,13 +123,8 @@ function main() {
   const daysLabel = settings.ramageddonLabel.replace('{n}', dayN);
 
   // Top notes: signal desc, then date desc; prefer items with verdicts.
-  // Only draw from the last RECENCY_HOURS — feed.xml is a growing archive
-  // (back to 2024), and editorial picks are permanently scored 10/10 with
-  // no decay, so without this window old picks would crowd out fresh news
-  // forever instead of the briefing ever reflecting the current day.
-  const RECENCY_HOURS = 48;
   const cutoff = new Date(now - RECENCY_HOURS * 60 * 60 * 1000);
-  const eligible = items.filter((it) => it.publishedAt && new Date(it.publishedAt) >= cutoff);
+  const eligible = items.filter((it) => it.publishedAt && new Date(it.publishedAt) >= cutoff && new Date(it.publishedAt) <= now);
   const pool = eligible.length ? eligible : items;
   const scored = pool
     .map((it) => ({ it, score: it.signal ?? (it.editorialPick ? 10 : 6) }))
@@ -126,15 +132,9 @@ function main() {
   const top = scored.slice(0, 7);
 
   // Editorial intro: manual note if present, else auto line
-  let editorial = '';
-  const manual = resolve(EDITORIAL_DIR, `${today}.md`);
-  if (existsSync(manual)) {
-    editorial = readFileSync(manual, 'utf8').trim()
-      .replace(/\n/g, '<br>')
-      .replace(/^#+ .*$/gm, '');
-  } else {
-    editorial = `The RAM Index read ${pool.length} stories from the last ${RECENCY_HOURS}h of memory-market news against the thesis — commodity DRAM supply reallocation toward HBM, and what it means for R_C, R_AI, and the composite signal. ${top.length} made the cut. The full archive is on the <a href="/stories/index.html" style="color:var(--hbm);">Stories</a> page.`;
-  }
+  const editorial = manualEditorial
+    ? manualEditorial.trim().replace(/\n/g, '<br>').replace(/^#+ .*$/gm, '')
+    : `The RAM Index read ${pool.length} stories from the last ${RECENCY_HOURS}h of memory-market news against the thesis — commodity DRAM supply reallocation toward HBM, and what it means for R_C, R_AI, and the composite signal. ${top.length} made the cut. The full archive is on the <a href="/stories/index.html" style="color:var(--hbm);">Stories</a> page.`;
 
   const notes = top.map(({ it, score }) => {
     const tag = it.tag || 'supply';
@@ -149,15 +149,6 @@ function main() {
     </div>`;
   }).join('\n');
 
-  // Earlier briefings (dated archives)
-  let previous = [];
-  if (existsSync(BRIEFING_DIR)) {
-    previous = readdirSync(BRIEFING_DIR)
-      .filter((f) => /^\d{4}-\d{2}-\d{2}\.html$/.test(f))
-      .sort()
-      .reverse()
-      .slice(0, 14);
-  }
   const prevHtml = previous.length
     ? `<div class="prev">Earlier briefings: ${previous.map((f) =>
         `<a href="/briefing/${f}">${f.replace('.html', '')}</a>`).join(' · ')}</div>`
@@ -178,10 +169,36 @@ function main() {
   ${prevHtml}
 `;
 
+  return { body, today, dayN, top, pool };
+}
+
+function main() {
+  const settings = JSON.parse(readFileSync(SETTINGS, 'utf8'));
+  const items = parseFeed(readFileSync(FEED, 'utf8'));
+  const now = new Date();
+
+  let manualEditorial;
+  const todayStr = now.toISOString().slice(0, 10);
+  const manual = resolve(EDITORIAL_DIR, `${todayStr}.md`);
+  if (existsSync(manual)) manualEditorial = readFileSync(manual, 'utf8');
+
+  let previous = [];
+  if (existsSync(BRIEFING_DIR)) {
+    previous = readdirSync(BRIEFING_DIR)
+      .filter((f) => /^\d{4}-\d{2}-\d{2}\.html$/.test(f))
+      .sort()
+      .reverse()
+      .slice(0, 14);
+  }
+
+  const { body, today, dayN, top } = renderBriefingBody({ items, now, settings, previous, manualEditorial });
+
   mkdirSync(BRIEFING_DIR, { recursive: true });
   writeFileSync(resolve(BRIEFING_DIR, `${today}.html`), pageShell(`Daily Briefing — ${today}`, body));
   writeFileSync(resolve(BRIEFING_DIR, 'index.html'), pageShell(`Daily Briefing — ${today}`, body));
   console.log(`briefing: ${today} · Day ${dayN} of RAMageddon · ${top.length} notes · ${previous.length} archives`);
 }
 
-main();
+import { pathToFileURL } from 'url';
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (isMain) main();
