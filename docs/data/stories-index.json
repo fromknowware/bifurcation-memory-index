@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-10-21T04:42:46.808Z",
-  "count": 1906,
+  "generatedAt": "2026-10-21T11:45:26.260Z",
+  "count": 1915,
   "stories": [
+    {
+      "slug": "nvidia-s-grand-plan-for-speeding-up-datacenter-deplo-7fe80bb7",
+      "url": "/stories/nvidia-s-grand-plan-for-speeding-up-datacenter-deplo-7fe80bb7.html",
+      "title": "Nvidia's grand plan for speeding up datacenter deployments: AI trailer parks",
+      "tag": "demand",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-starts-discussing-mass-production-plans-for-f0dfc254",
+      "url": "/stories/sk-hynix-starts-discussing-mass-production-plans-for-f0dfc254.html",
+      "title": "SK hynix Starts Discussing Mass Production Plans For iHBM Memory Chips That Aim To Improve Heat Resistance By 30%, Says Report - Wccftech",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-starts-discussing-mass-production-plans-for-72803a53",
+      "url": "/stories/sk-hynix-starts-discussing-mass-production-plans-for-72803a53.html",
+      "title": "SK hynix Starts Discussing Mass Production Plans For iHBM Memory Chips That Aim To Improve Heat Resistance By 30%, Says Report",
+      "tag": "demand",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-s-taiwan-union-will-launch-a-one-day-strike-t-bf5296f1",
+      "url": "/stories/micron-s-taiwan-union-will-launch-a-one-day-strike-t-bf5296f1.html",
+      "title": "Micron's Taiwan union will launch a one-day strike this week, threatening memory production",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "three-workers-killed-one-in-intensive-care-after-fal-814aa998",
+      "url": "/stories/three-workers-killed-one-in-intensive-care-after-fal-814aa998.html",
+      "title": "Three workers killed, one in intensive care after fall at TSMC’s 2nm fab construction site",
+      "tag": "fab",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "jensen-huang-nvidia-gtc-keynote-disrupted-by-greenpe-e7f85d44",
+      "url": "/stories/jensen-huang-nvidia-gtc-keynote-disrupted-by-greenpe-e7f85d44.html",
+      "title": "Jensen Huang Nvidia GTC keynote disrupted by Greenpeace protest over chips in Russian drones",
+      "tag": "demand",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-acquired-groq-is-moving-its-next-gen-lpus-fro-df58fc90",
+      "url": "/stories/nvidia-acquired-groq-is-moving-its-next-gen-lpus-fro-df58fc90.html",
+      "title": "NVIDIA-Acquired Groq Is Moving Its Next-Gen LPUs From SRAM To 3D Stacked DRAM, Betting On Capacity Over Speed As Models Keep Growing",
+      "tag": "demand",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "edge-ai-mcu-features-multimodal-compute-tiered-memor-1a5a61e9",
+      "url": "/stories/edge-ai-mcu-features-multimodal-compute-tiered-memor-1a5a61e9.html",
+      "title": "Edge AI MCU Features Multimodal Compute, Tiered Memory",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "insights-memory-spot-price-update-ddr5-supply-tight-bc516979",
+      "url": "/stories/insights-memory-spot-price-update-ddr5-supply-tight-bc516979.html",
+      "title": "[Insights] Memory Spot Price Update: DDR5 Supply Tight, DDR4 Trading Weak Despite 0.84% Gain in Mainstream Prices - TrendForce",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "TrendForce",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "samsung-s-990-pro-ssd-with-speeds-of-up-to-7-450mb-s-ec3df7e1",
       "url": "/stories/samsung-s-990-pro-ssd-with-speeds-of-up-to-7-450mb-s-ec3df7e1.html",
