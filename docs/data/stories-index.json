@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-21T17:09:40.737Z",
-  "count": 1930,
+  "generatedAt": "2026-10-21T21:40:54.616Z",
+  "count": 1935,
   "stories": [
+    {
+      "slug": "micron-s-ddr6-doubles-ddr5-bandwidth-while-lpddr6-de-23c4dde7",
+      "url": "/stories/micron-s-ddr6-doubles-ddr5-bandwidth-while-lpddr6-de-23c4dde7.html",
+      "title": "Micron’s DDR6 Doubles DDR5 Bandwidth While LPDDR6 Delivers 35% Better Power Efficiency, Both Built On Its Upcoming 1δ DRAM Node, vHBM Goes Vertical & G11 NAND Goes Beyond 400 Layers",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "microsoft-reportedly-cutting-specs-on-entry-level-12-ba586afd",
+      "url": "/stories/microsoft-reportedly-cutting-specs-on-entry-level-12-ba586afd.html",
+      "title": "Microsoft Reportedly Cutting Specs on Entry-Level 12-Inch Surface, AMD Arm Chip in the Mix",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-installs-production-tools-at-fab-62-in-arizona-88d132c5",
+      "url": "/stories/intel-installs-production-tools-at-fab-62-in-arizona-88d132c5.html",
+      "title": "Intel installs production tools at Fab 62 in Arizona, provides updates on Ohio chip fab",
+      "tag": "fab",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "judge-rejects-trump-s-wild-claim-epa-can-dismiss-dat-b1b9ad4b",
+      "url": "/stories/judge-rejects-trump-s-wild-claim-epa-can-dismiss-dat-b1b9ad4b.html",
+      "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
+      "tag": "demand",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "micron-says-rival-dram-design-has-fundamental-proble-640e0e8e",
       "url": "/stories/micron-says-rival-dram-design-has-fundamental-proble-640e0e8e.html",
@@ -23,6 +67,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "south-korean-firms-dominate-hbm-market-amid-ai-chip-2b55191d",
+      "url": "/stories/south-korean-firms-dominate-hbm-market-amid-ai-chip-2b55191d.html",
+      "title": "South Korean firms dominate HBM market amid AI chip surge - 조선일보",
+      "tag": "demand",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "powerchip-semiconductor-manufacturing-fy2026-q3-earn-fe55c985",
