@@ -1,7 +1,150 @@
 {
-  "generatedAt": "2026-10-21T11:45:26.260Z",
-  "count": 1915,
+  "generatedAt": "2026-10-21T17:09:40.737Z",
+  "count": 1930,
   "stories": [
+    {
+      "slug": "micron-says-rival-dram-design-has-fundamental-proble-640e0e8e",
+      "url": "/stories/micron-says-rival-dram-design-has-fundamental-proble-640e0e8e.html",
+      "title": "Micron Says Rival DRAM Design Has ‘Fundamental Problems’: Targets Next-Gen Memory With 3D DRAM, New Chips Planned For 2027 - TradingView",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "4tb-samsung-990-pro-m-2-ssd-falls-27-hits-20-cents-p-159baf08",
+      "url": "/stories/4tb-samsung-990-pro-m-2-ssd-falls-27-hits-20-cents-p-159baf08.html",
+      "title": "4TB Samsung 990 Pro M.2 SSD falls 27%, hits 20 cents per gigabyte",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "powerchip-semiconductor-manufacturing-fy2026-q3-earn-fe55c985",
+      "url": "/stories/powerchip-semiconductor-manufacturing-fy2026-q3-earn-fe55c985.html",
+      "title": "[Powerchip Semiconductor Manufacturing FY2026 Q3 Earnings Call] Taiwan's Powerchip Q3 gross margin soars to 48%, EPS NT$1.38 as it swings to profit; Chairman Hsieh Tsai-chu says company will become world's only legacy DRAM foundry - finance.biggo.com",
+      "tag": "fab",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "finance.biggo.com",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "asml-and-other-critical-semiconductor-equipment-supp-3f9e043c",
+      "url": "/stories/asml-and-other-critical-semiconductor-equipment-supp-3f9e043c.html",
+      "title": "ASML and other critical semiconductor equipment suppliers expedite shipments to Musk's Terafab",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-moves-forward-at-ohio-one-with-first-major-str-2b1e6fae",
+      "url": "/stories/intel-moves-forward-at-ohio-one-with-first-major-str-2b1e6fae.html",
+      "title": "Intel Moves Forward at Ohio One With First Major Structural Truss Installation Arizona Fab 62 Tooling",
+      "tag": "fab",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "pr-corsair-launches-rm1200e-power-supply-with-built-08f792a4",
+      "url": "/stories/pr-corsair-launches-rm1200e-power-supply-with-built-08f792a4.html",
+      "title": "(PR) Corsair Launches RM1200e Power Supply with Built-in PinProtect GPU OCP",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-gives-dgx-and-rtx-systems-a-40-ai-inference-b-3c9cb59b",
+      "url": "/stories/nvidia-gives-dgx-and-rtx-systems-a-40-ai-inference-b-3c9cb59b.html",
+      "title": "NVIDIA Gives DGX And RTX Systems A 40% AI Inference Boost, While DGX Spark Now Clusters Up To 8 Units For 1 TB Memory",
+      "tag": "demand",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "india-s-osat-buildout-puts-semiconductor-testing-in-be9c2ffa",
+      "url": "/stories/india-s-osat-buildout-puts-semiconductor-testing-in-be9c2ffa.html",
+      "title": "India’s OSAT Buildout Puts Semiconductor Testing in Focus",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "why-chip-design-ai-benchmarks-must-go-beyond-functio-4ea657df",
+      "url": "/stories/why-chip-design-ai-benchmarks-must-go-beyond-functio-4ea657df.html",
+      "title": "Why Chip Design AI Benchmarks Must Go Beyond Functional Correctness",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "qualcomm-to-cut-jobs-globally-in-performance-based-l-49592ab6",
+      "url": "/stories/qualcomm-to-cut-jobs-globally-in-performance-based-l-49592ab6.html",
+      "title": "Qualcomm to cut jobs globally in \"performance-based\" layoffs, as company pivots to AI data center and edge computing markets",
+      "tag": "demand",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "can-netlist-s-new-lightning-ull-ddr5-boost-its-ai-ma-b9d5fe31",
+      "url": "/stories/can-netlist-s-new-lightning-ull-ddr5-boost-its-ai-ma-b9d5fe31.html",
+      "title": "Can Netlist's New LIGHTNING ULL DDR5 Boost Its AI Market Reach? - Yahoo Finance",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "Yahoo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "fadu-puts-the-filesystem-inside-the-ssd-s-flash-to-b-ad7432e6",
+      "url": "/stories/fadu-puts-the-filesystem-inside-the-ssd-s-flash-to-b-ad7432e6.html",
+      "title": "FADU puts the filesystem inside the SSD's flash to bypass host CPUs",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-and-sk-hynix-are-upgrading-chinese-factories-52925a01",
+      "url": "/stories/samsung-and-sk-hynix-are-upgrading-chinese-factories-52925a01.html",
+      "title": "Samsung and SK Hynix are upgrading Chinese factories to produce advanced RAM chips as AI data center competition ramps up",
+      "tag": "demand",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "nvidia-s-grand-plan-for-speeding-up-datacenter-deplo-7fe80bb7",
       "url": "/stories/nvidia-s-grand-plan-for-speeding-up-datacenter-deplo-7fe80bb7.html",
@@ -47,6 +190,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "memory-chip-stocks-surge-in-premarket-sk-hynix-up-ov-6dfe1199",
+      "url": "/stories/memory-chip-stocks-surge-in-premarket-sk-hynix-up-ov-6dfe1199.html",
+      "title": "Memory Chip Stocks Surge in Premarket; SK Hynix Up Over 4%, SpaceX Jumps 10% on Earnings Beat - BigGo Finance",
+      "tag": "earnings",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
       "slug": "three-workers-killed-one-in-intensive-care-after-fal-814aa998",
       "url": "/stories/three-workers-killed-one-in-intensive-care-after-fal-814aa998.html",
       "title": "Three workers killed, one in intensive care after fall at TSMC’s 2nm fab construction site",
@@ -67,6 +221,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-dram-expansion-risks-to-micron-and-memory-stock-f35aa792",
+      "url": "/stories/cxmt-dram-expansion-risks-to-micron-and-memory-stock-f35aa792.html",
+      "title": "CXMT DRAM Expansion: Risks to Micron and Memory Stocks - www.equiti.com",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "www.equiti.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "nvidia-acquired-groq-is-moving-its-next-gen-lpus-fro-df58fc90",
