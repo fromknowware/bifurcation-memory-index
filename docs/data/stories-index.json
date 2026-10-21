@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-20T21:35:27.737Z",
-  "count": 1901,
+  "generatedAt": "2026-10-21T04:42:46.808Z",
+  "count": 1906,
   "stories": [
+    {
+      "slug": "samsung-s-990-pro-ssd-with-speeds-of-up-to-7-450mb-s-ec3df7e1",
+      "url": "/stories/samsung-s-990-pro-ssd-with-speeds-of-up-to-7-450mb-s-ec3df7e1.html",
+      "title": "Samsung’s 990 PRO SSD With Speeds Of Up To 7,450MB/s And Capacity Of 4TB Gets A $300 Discount On Amazon, Upgrade Your Storage For $799.90",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "breaking-ai-s-memory-wall-former-tsmc-vp-charts-a-pa-65ed62d2",
+      "url": "/stories/breaking-ai-s-memory-wall-former-tsmc-vp-charts-a-pa-65ed62d2.html",
+      "title": "Breaking AI's memory wall: former TSMC VP charts a path with HBM, optical links and 3D stacking - digitimes",
+      "tag": "fab",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "digitimes",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "micron-to-host-technology-symposium-as-q4-memory-con-a023b152",
+      "url": "/stories/micron-to-host-technology-symposium-as-q4-memory-con-a023b152.html",
+      "title": "Micron to Host Technology Symposium as Q4 Memory Contract Prices Seen Rising Up to 28% - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dell-ceo-says-the-memory-shortage-will-get-worse-in-22531cc2",
+      "url": "/stories/dell-ceo-says-the-memory-shortage-will-get-worse-in-22531cc2.html",
+      "title": "Dell CEO Says the Memory Shortage Will Get Worse in 2027",
+      "tag": "demand",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "intel-vs-micron-who-is-more-exposed-by-chinese-rival-a7e2342d",
       "url": "/stories/intel-vs-micron-who-is-more-exposed-by-chinese-rival-a7e2342d.html",
@@ -88,6 +132,17 @@
       "score": 8,
       "pick": false,
       "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "skhy-stock-drops-as-china-s-cxmt-rattles-dram-trade-4c0574ed",
+      "url": "/stories/skhy-stock-drops-as-china-s-cxmt-rattles-dram-trade-4c0574ed.html",
+      "title": "SKHY Stock Drops As China’s CXMT Rattles DRAM Trade - Timothy Sykes",
+      "tag": "supply",
+      "date": "2026-10-20",
+      "score": 8,
+      "pick": false,
+      "source": "Timothy Sykes",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
