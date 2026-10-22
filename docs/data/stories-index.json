@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-10-22T17:08:12.973Z",
-  "count": 1956,
+  "generatedAt": "2026-10-22T21:33:22.689Z",
+  "count": 1963,
   "stories": [
+    {
+      "slug": "global-pc-shipments-drop-21-in-q3-as-memory-prices-s-7bdf0939",
+      "url": "/stories/global-pc-shipments-drop-21-in-q3-as-memory-prices-s-7bdf0939.html",
+      "title": "Global PC Shipments Drop 21% In Q3 As Memory Prices Surge, And Forecasts Point To An Even Steeper 27% Fall In Q4",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-s-long-delayed-us-fab-expansion-gains-momentum-78524404",
+      "url": "/stories/intel-s-long-delayed-us-fab-expansion-gains-momentum-78524404.html",
+      "title": "Intel’s Long-Delayed US Fab Expansion Gains Momentum As AI Demand Surges, Arizona Fab 62 Targets 2028 While Ohio One Hits Major Construction Milestone",
+      "tag": "fab",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "pr-wd-reports-fiscal-first-quarter-2027-financial-re-6293d9b2",
+      "url": "/stories/pr-wd-reports-fiscal-first-quarter-2027-financial-re-6293d9b2.html",
+      "title": "(PR) WD Reports Fiscal First Quarter 2027 Financial Results",
+      "tag": "earnings",
+      "date": "2026-10-22",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "micron-walks-away-from-4f2-dram-after-two-decades-of-83a90f0e",
+      "url": "/stories/micron-walks-away-from-4f2-dram-after-two-decades-of-83a90f0e.html",
+      "title": "Micron Walks Away From 4F² DRAM After Two Decades of Research, Bets on 3D DRAM Instead",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "from-cloud-ai-to-edge-ai-how-biwin-enables-the-next-5e995dc0",
+      "url": "/stories/from-cloud-ai-to-edge-ai-how-biwin-enables-the-next-5e995dc0.html",
+      "title": "From Cloud AI to Edge AI: How BIWIN Enables the Next Generation of Storage and Memory Solutions",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "deepx-building-open-software-ecosystem-to-scale-phys-5894548e",
+      "url": "/stories/deepx-building-open-software-ecosystem-to-scale-phys-5894548e.html",
+      "title": "Deepx Building Open Software Ecosystem to Scale Physical AI Beyond the Data Center",
+      "tag": "demand",
+      "date": "2026-10-22",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "lattepanda-launches-lattepanda-sigma-2-the-embeddabl-c66517e8",
       "url": "/stories/lattepanda-launches-lattepanda-sigma-2-the-embeddabl-c66517e8.html",
@@ -34,6 +100,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-ai-memory-prices-could-more-than-double-in-aebfe41a",
+      "url": "/stories/sk-hynix-ai-memory-prices-could-more-than-double-in-aebfe41a.html",
+      "title": "SK hynix: AI Memory Prices Could More Than Double In 2027 (NASDAQ:SKHY) - Seeking Alpha",
+      "tag": "demand",
+      "date": "2026-10-22",
+      "score": 7,
+      "pick": false,
+      "source": "Seeking Alpha",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "blackmagic-design-announces-price-increases-due-to-r-18c5ce32",
