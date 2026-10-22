@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-10-22T11:48:31.375Z",
-  "count": 1948,
+  "generatedAt": "2026-10-22T17:08:12.973Z",
+  "count": 1956,
   "stories": [
+    {
+      "slug": "lattepanda-launches-lattepanda-sigma-2-the-embeddabl-c66517e8",
+      "url": "/stories/lattepanda-launches-lattepanda-sigma-2-the-embeddabl-c66517e8.html",
+      "title": "LattePanda Launches LattePanda Sigma 2: The Embeddable AI Single Board Server",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-to-connect-576-rubin-ultra-gpus-using-cpo-to-e2c9be6d",
+      "url": "/stories/nvidia-to-connect-576-rubin-ultra-gpus-using-cpo-to-e2c9be6d.html",
+      "title": "NVIDIA To Connect 576 Rubin Ultra GPUs Using CPO To Create One Giant GPU With The “Highest Performance per Watt” on the Planet Next Year To Drive 10 Trillion-Parameter AI Models",
+      "tag": "demand",
+      "date": "2026-10-22",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "deepseek-s-v4-1-flash-1017-model-just-built-an-explo-a2724b5b",
+      "url": "/stories/deepseek-s-v4-1-flash-1017-model-just-built-an-explo-a2724b5b.html",
+      "title": "DeepSeek’s V4.1-Flash-1017 Model Just Built An Exploit That Escapes Chrome’s Sandbox, As The AI-Driven Assault On The Open Web Goes On An Overdrive",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "blackmagic-design-announces-price-increases-due-to-r-18c5ce32",
+      "url": "/stories/blackmagic-design-announces-price-increases-due-to-r-18c5ce32.html",
+      "title": "Blackmagic Design Announces Price Increases Due to Rising Memory Costs - WebWire",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "WebWire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "tsmc-is-seeking-chipmaking-equipment-that-doesn-t-co-a77dc754",
+      "url": "/stories/tsmc-is-seeking-chipmaking-equipment-that-doesn-t-co-a77dc754.html",
+      "title": "TSMC is seeking chipmaking equipment that doesn't contain Chinese rare-earth magnets",
+      "tag": "fab",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "how-goodram-validates-dram-and-ssd-reliability-in-eu-e21ac8a4",
+      "url": "/stories/how-goodram-validates-dram-and-ssd-reliability-in-eu-e21ac8a4.html",
+      "title": "How Goodram Validates DRAM and SSD Reliability in Europe",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-pulls-the-plug-on-future-4f2-dram-after-two-d-326aaa81",
+      "url": "/stories/micron-pulls-the-plug-on-future-4f2-dram-after-two-d-326aaa81.html",
+      "title": "Micron pulls the plug on future 4F² DRAM after two decades of research in dramatic shift",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "save-238-on-this-9800x3d-combo-deal-with-32gb-ddr5-t-32d44298",
       "url": "/stories/save-238-on-this-9800x3d-combo-deal-with-32gb-ddr5-t-32d44298.html",
@@ -100,6 +177,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "malaysia-s-skyechip-joins-softbank-backed-ai-memory-b6ea89f2",
+      "url": "/stories/malaysia-s-skyechip-joins-softbank-backed-ai-memory-b6ea89f2.html",
+      "title": "Malaysia's SkyeChip Joins SoftBank-Backed AI Memory Project in Japan - Asia Business Outlook",
+      "tag": "demand",
+      "date": "2026-10-22",
+      "score": 7,
+      "pick": false,
+      "source": "Asia Business Outlook",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "nand-flash-shortage-sends-ssd-prices-up-303-in-2026-a67857f2",
