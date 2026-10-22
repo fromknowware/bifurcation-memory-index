@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-21T21:40:54.616Z",
-  "count": 1935,
+  "generatedAt": "2026-10-22T04:40:38.351Z",
+  "count": 1938,
   "stories": [
+    {
+      "slug": "nand-flash-shortage-sends-ssd-prices-up-303-in-2026-a67857f2",
+      "url": "/stories/nand-flash-shortage-sends-ssd-prices-up-303-in-2026-a67857f2.html",
+      "title": "NAND Flash Shortage Sends SSD Prices Up 303% in 2026 - https://tech-insider.org/",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "https://tech-insider.org/",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "to-help-world-gorge-on-gpus-nvidia-brings-cash-bucke-db76ca1d",
+      "url": "/stories/to-help-world-gorge-on-gpus-nvidia-brings-cash-bucke-db76ca1d.html",
+      "title": "To help world gorge on GPUs, Nvidia brings cash bucket to fatten wafer-thin supply chain",
+      "tag": "fab",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "asus-gaming-laptop-returns-from-rma-with-mysterious-898dc100",
+      "url": "/stories/asus-gaming-laptop-returns-from-rma-with-mysterious-898dc100.html",
+      "title": "ASUS Gaming Laptop Returns from RMA with Mysterious RAM Shortage",
+      "tag": "supply",
+      "date": "2026-10-21",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "micron-s-ddr6-doubles-ddr5-bandwidth-while-lpddr6-de-23c4dde7",
       "url": "/stories/micron-s-ddr6-doubles-ddr5-bandwidth-while-lpddr6-de-23c4dde7.html",
