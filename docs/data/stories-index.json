@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-10-22T04:40:38.351Z",
-  "count": 1938,
+  "generatedAt": "2026-10-22T11:48:31.375Z",
+  "count": 1948,
   "stories": [
+    {
+      "slug": "save-238-on-this-9800x3d-combo-deal-with-32gb-ddr5-t-32d44298",
+      "url": "/stories/save-238-on-this-9800x3d-combo-deal-with-32gb-ddr5-t-32d44298.html",
+      "title": "Save $238 on this 9800X3D combo deal with 32GB DDR5 that lets you start a 4K gaming PC build for just over $1,000",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micro-center-just-slashed-ryzen-9800x3d-rx-9070-xt-g-236fd97d",
+      "url": "/stories/micro-center-just-slashed-ryzen-9800x3d-rx-9070-xt-g-236fd97d.html",
+      "title": "Micro Center Just Slashed Ryzen 9800X3D-RX 9070 XT Gaming PC By $850, Dropping It To Only $2,049 With 32 GB RAM And 2 TB SSD",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-s-hbm-base-die-development-is-benefitting-it-dfbf56a5",
+      "url": "/stories/samsung-s-hbm-base-die-development-is-benefitting-it-dfbf56a5.html",
+      "title": "Samsung’s HBM Base Die Development Is Benefitting Its 2nm 5G Modem Advancements, And Could Be The Catalyst For Qualcomm Finding A Foundry Alternative To TSMC - Wccftech",
+      "tag": "fab",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-s-hbm-base-die-development-is-benefitting-it-daef0735",
+      "url": "/stories/samsung-s-hbm-base-die-development-is-benefitting-it-daef0735.html",
+      "title": "Samsung’s HBM Base Die Development Is Benefitting Its 2nm 5G Modem Advancements, And Could Be The Catalyst For Qualcomm Finding A Foundry Alternative To TSMC",
+      "tag": "fab",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ram-and-ssd-prices-keep-rising-what-to-buy-now-and-w-d42032dd",
+      "url": "/stories/ram-and-ssd-prices-keep-rising-what-to-buy-now-and-w-d42032dd.html",
+      "title": "RAM and SSD Prices Keep Rising: What to Buy Now and What to Wait On - Techloy",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "Techloy",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "what-samsung-unveiled-at-fms-2026-zhbm-znand-o-and-v-0162ee96",
+      "url": "/stories/what-samsung-unveiled-at-fms-2026-zhbm-znand-o-and-v-0162ee96.html",
+      "title": "What Samsung Unveiled at FMS 2026: zHBM, zNAND-O and V10 BV-NAND - shattered.io",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "what-breaks-when-packaging-moves-from-wafer-to-panel-1758db4d",
+      "url": "/stories/what-breaks-when-packaging-moves-from-wafer-to-panel-1758db4d.html",
+      "title": "What Breaks When Packaging Moves From Wafer To Panel?",
+      "tag": "fab",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ai-driven-memory-price-surge-seen-reversing-to-20-30-3f20a4d5",
+      "url": "/stories/ai-driven-memory-price-surge-seen-reversing-to-20-30-3f20a4d5.html",
+      "title": "AI-Driven Memory Price Surge Seen Reversing to 20-30% Decline by 2028 - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "while-micron-calls-the-4f2-memory-cell-architecture-ff7786ae",
+      "url": "/stories/while-micron-calls-the-4f2-memory-cell-architecture-ff7786ae.html",
+      "title": "While Micron Calls The 4F² Memory Cell Architecture A “Myth,” YMTC Has Followed CXMT In Lining Up A Prototype That Operates At 9,600 MT/s",
+      "tag": "fab",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "nand-flash-shortage-sends-ssd-prices-up-303-in-2026-a67857f2",
       "url": "/stories/nand-flash-shortage-sends-ssd-prices-up-303-in-2026-a67857f2.html",
@@ -77,6 +176,17 @@
       "score": 7,
       "pick": false,
       "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-technology-maps-ai-memory-future-with-hbm-dra-199c8d93",
+      "url": "/stories/micron-technology-maps-ai-memory-future-with-hbm-dra-199c8d93.html",
+      "title": "Micron Technology Maps AI Memory Future With HBM, DRAM and NAND Roadmap - TradingView",
+      "tag": "demand",
+      "date": "2026-10-21",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
