@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-22T21:33:22.689Z",
-  "count": 1963,
+  "generatedAt": "2026-10-23T04:45:49.867Z",
+  "count": 1966,
   "stories": [
+    {
+      "slug": "micron-54-23b-quarter-korean-chips-win-2026-https-te-009c617a",
+      "url": "/stories/micron-54-23b-quarter-korean-chips-win-2026-https-te-009c617a.html",
+      "title": "Micron $54.23B Quarter: Korean Chips Win [2026] - https://tech-insider.org/",
+      "tag": "supply",
+      "date": "2026-10-23",
+      "score": 8,
+      "pick": false,
+      "source": "https://tech-insider.org/",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "three-physical-walls-are-hitting-ai-datacenter-infra-4a9921e8",
+      "url": "/stories/three-physical-walls-are-hitting-ai-datacenter-infra-4a9921e8.html",
+      "title": "Three Physical Walls Are Hitting AI Datacenter Infrastructure at the Same Time - And the Compound Effects Are Worse",
+      "tag": "supply",
+      "date": "2026-10-23",
+      "score": 8,
+      "pick": false,
+      "source": "The Next Platform",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-fab-62-moves-to-next-phase-begins-equipment-in-3f2b5db5",
+      "url": "/stories/intel-fab-62-moves-to-next-phase-begins-equipment-in-3f2b5db5.html",
+      "title": "Intel Fab 62 Moves to Next Phase, Begins Equipment Installation",
+      "tag": "fab",
+      "date": "2026-10-22",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "global-pc-shipments-drop-21-in-q3-as-memory-prices-s-7bdf0939",
       "url": "/stories/global-pc-shipments-drop-21-in-q3-as-memory-prices-s-7bdf0939.html",
