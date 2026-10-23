@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-10-23T11:35:13.383Z",
-  "count": 1967,
+  "generatedAt": "2026-10-23T17:04:23.806Z",
+  "count": 1974,
   "stories": [
+    {
+      "slug": "micron-s-next-generation-3d-nand-to-double-bit-densi-d928cd0d",
+      "url": "/stories/micron-s-next-generation-3d-nand-to-double-bit-densi-d928cd0d.html",
+      "title": "Micron's next-generation 3D NAND to double bit density with over 400 layers, offering extreme performance",
+      "tag": "supply",
+      "date": "2026-10-23",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "the-ai-memory-wall-is-about-to-get-a-lot-taller-thes-4b87ef62",
+      "url": "/stories/the-ai-memory-wall-is-about-to-get-a-lot-taller-thes-4b87ef62.html",
+      "title": "The AI ‘Memory Wall’ Is About to Get a Lot Taller: These 3 Stocks Will Win Big - AOL.com",
+      "tag": "supply",
+      "date": "2026-10-23",
+      "score": 8,
+      "pick": false,
+      "source": "AOL.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-can-make-advanced-chips-without-euv-but-the-bi-facea843",
+      "url": "/stories/china-can-make-advanced-chips-without-euv-but-the-bi-facea843.html",
+      "title": "China can make advanced chips without EUV, but the bill keeps growing",
+      "tag": "fab",
+      "date": "2026-10-23",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "powerspec-g538-gaming-pc-costs-less-at-1-099-than-it-5025a6dd",
+      "url": "/stories/powerspec-g538-gaming-pc-costs-less-at-1-099-than-it-5025a6dd.html",
+      "title": "PowerSpec G538 Gaming PC Costs Less At $1,099 Than Its Ryzen 5 7500X3D, RX 9060 XT 16 GB And 1 TB SSD Bought Separately",
+      "tag": "supply",
+      "date": "2026-10-23",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-orders-equipment-for-6-000-more-2nm-wafers-a-91a07fb7",
+      "url": "/stories/samsung-orders-equipment-for-6-000-more-2nm-wafers-a-91a07fb7.html",
+      "title": "Samsung Orders Equipment For 6,000 More 2nm Wafers A Month At Its Taylor, Texas Fab, Putting 20,000 Within Reach By The Second Half Of 2027",
+      "tag": "fab",
+      "date": "2026-10-23",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "illegal-nvidia-blackwell-ultra-b300-gpus-found-insid-e7b0b071",
+      "url": "/stories/illegal-nvidia-blackwell-ultra-b300-gpus-found-insid-e7b0b071.html",
+      "title": "Illegal Nvidia Blackwell Ultra B300 GPUs found inside state-owned China Telecom's network",
+      "tag": "demand",
+      "date": "2026-10-23",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sandisk-buy-into-10-29-earnings-this-is-not-a-dram-s-d9e94385",
+      "url": "/stories/sandisk-buy-into-10-29-earnings-this-is-not-a-dram-s-d9e94385.html",
+      "title": "Sandisk: Buy Into 10/29 Earnings - This Is Not A DRAM Stock (NASDAQ:SNDK) - Seeking Alpha",
+      "tag": "earnings",
+      "date": "2026-10-23",
+      "score": 7,
+      "pick": false,
+      "source": "Seeking Alpha",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
     {
       "slug": "memory-price-surge-crushes-upgrade-intentions-global-fe4ada04",
       "url": "/stories/memory-price-surge-crushes-upgrade-intentions-global-fe4ada04.html",

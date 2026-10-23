@@ -5,11 +5,102 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-23T11:35:10.879Z</updated>
+  <updated>2026-10-23T17:04:21.137Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/ssds/microns-next-generation-3d-nand-to-double-bit-density-with-over-400-layers-offering-extreme-performance-g11-3d-nand-promises-42-gb-mm2-and-5-400-mt-s-interface-speed</id>
+    <title type="html">Micron's next-generation 3D NAND to double bit density with over 400 layers, offering extreme performance</title>
+    <link href="https://www.tomshardware.com/pc-components/ssds/microns-next-generation-3d-nand-to-double-bit-density-with-over-400-layers-offering-extreme-performance-g11-3d-nand-promises-42-gb-mm2-and-5-400-mt-s-interface-speed" />
+    <link rel="related" href="/stories/micron-s-next-generation-3d-nand-to-double-bit-densi-d928cd0d.html" />
+    <updated>2026-10-23T15:32:05.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMieEFVX3lxTE5vZmtXQnhWUUdzM1NXNWVJWWxEZEhCSEVXaTBhMmdhUWhta0VES2ZBVmdfb0l2QTFIXzBwOGdLRl94RTB4ZHg0N3RtOGtKWG9pQ2t0dlJqSVEydnI2a0RzR1FqSGxoc1ZMNVpLV3ZxTjNFRmVFVk5MYg?oc=5</id>
+    <title type="html">The AI ‘Memory Wall’ Is About to Get a Lot Taller: These 3 Stocks Will Win Big - AOL.com</title>
+    <link href="https://news.google.com/rss/articles/CBMieEFVX3lxTE5vZmtXQnhWUUdzM1NXNWVJWWxEZEhCSEVXaTBhMmdhUWhta0VES2ZBVmdfb0l2QTFIXzBwOGdLRl94RTB4ZHg0N3RtOGtKWG9pQ2t0dlJqSVEydnI2a0RzR1FqSGxoc1ZMNVpLV3ZxTjNFRmVFVk5MYg?oc=5" />
+    <link rel="related" href="/stories/the-ai-memory-wall-is-about-to-get-a-lot-taller-thes-4b87ef62.html" />
+    <updated>2026-10-23T15:21:51.000Z</updated>
+    <author><name>AOL.com</name></author>
+    <summary type="html">The AI ‘Memory Wall’ Is About to Get a Lot Taller: These 3 Stocks Will Win Big AOL.com RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;The AI ‘Memory Wall’ Is About to Get a Lot Taller: These 3 Stocks Will Win Big AOL.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/semiconductors/china-can-make-advanced-chips-without-euv-but-the-bill-keeps-growing-duv-multiple-patterning-means-bigger-dies-lower-yields-and-longer-manufacturing-times</id>
+    <title type="html">China can make advanced chips without EUV, but the bill keeps growing</title>
+    <link href="https://www.tomshardware.com/tech-industry/semiconductors/china-can-make-advanced-chips-without-euv-but-the-bill-keeps-growing-duv-multiple-patterning-means-bigger-dies-lower-yields-and-longer-manufacturing-times" />
+    <link rel="related" href="/stories/china-can-make-advanced-chips-without-euv-but-the-bi-facea843.html" />
+    <updated>2026-10-23T13:30:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/powerspec-g538-gaming-pc-with-rx-9060-xt-16-gb-listed-at-1099/</id>
+    <title type="html">PowerSpec G538 Gaming PC Costs Less At $1,099 Than Its Ryzen 5 7500X3D, RX 9060 XT 16 GB And 1 TB SSD Bought Separately</title>
+    <link href="https://wccftech.com/powerspec-g538-gaming-pc-with-rx-9060-xt-16-gb-listed-at-1099/" />
+    <link rel="related" href="/stories/powerspec-g538-gaming-pc-costs-less-at-1-099-than-it-5025a6dd.html" />
+    <updated>2026-10-23T13:17:28.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">For nearly $1,100, you cannot get a better deal than this since the SSD, GPU, and CPU alone cost over $1,100. Micro Center Slashes $600 Off PowerSpec G538 Gaming PC, Featuring Radeon RX 9060 XT 16 GB, 16 GB DDR5 RAM, and 1 TB SSD It's hard to imagine a gaming PC for around $1,000 that brings a powerful X3D chip paired with a modern 16 GB graphics card. Before RAMpocalypse, you could build a Radeon RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;For nearly $1,100, you cannot get a better deal than this since the SSD, GPU, and CPU alone cost over $1,100. Micro Center Slashes $600 Off PowerSpec G538 Gaming PC, Featuring Radeon RX 9060 XT 16 GB, 16 GB DDR5 RAM, and 1 TB SSD It's hard to imagine a gaming PC for around $1,000 that brings a powerful X3D chip paired with a modern 16 GB graphics card. Before RAMpocalypse, you could build a Radeon&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/samsung-orders-equipment-for-6000-more-2nm-wafers-a-month-at-its-taylor-texas-fab-putting-20000-within-reach-by-the-second-half-of-2027/</id>
+    <title type="html">Samsung Orders Equipment For 6,000 More 2nm Wafers A Month At Its Taylor, Texas Fab, Putting 20,000 Within Reach By The Second Half Of 2027</title>
+    <link href="https://wccftech.com/samsung-orders-equipment-for-6000-more-2nm-wafers-a-month-at-its-taylor-texas-fab-putting-20000-within-reach-by-the-second-half-of-2027/" />
+    <link rel="related" href="/stories/samsung-orders-equipment-for-6-000-more-2nm-wafers-a-91a07fb7.html" />
+    <updated>2026-10-23T12:26:25.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Semiconductor manufacturing giant Samsung is planning to expand its 2-nanometer production capacity at the Taylor, Texas plant to 6,000 wafers per month. Samsung's Taylor site is part of the firm's manufacturing push to establish chip production in the US, and the site's first plant, Taylor 1, is expected to become operational by the end of this year. Samsung Starts Placing Orders For Additional E RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Semiconductor manufacturing giant Samsung is planning to expand its 2-nanometer production capacity at the Taylor, Texas plant to 6,000 wafers per month. Samsung's Taylor site is part of the firm's manufacturing push to establish chip production in the US, and the site's first plant, Taylor 1, is expected to become operational by the end of this year. Samsung Starts Placing Orders For Additional E&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/data-centers/illegal-nvidia-blackwell-ultra-b300-gpus-found-inside-state-owned-china-telecoms-network-nvidia-says-chip-smuggling-a-drop-in-the-bucket-insists-smuggling-remains-a-nonfactor</id>
+    <title type="html">Illegal Nvidia Blackwell Ultra B300 GPUs found inside state-owned China Telecom's network</title>
+    <link href="https://www.tomshardware.com/tech-industry/data-centers/illegal-nvidia-blackwell-ultra-b300-gpus-found-inside-state-owned-china-telecoms-network-nvidia-says-chip-smuggling-a-drop-in-the-bucket-insists-smuggling-remains-a-nonfactor" />
+    <link rel="related" href="/stories/illegal-nvidia-blackwell-ultra-b300-gpus-found-insid-e7b0b071.html" />
+    <updated>2026-10-23T12:26:23.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMinAFBVV95cUxOd2hsVGR0NEg2LVpackRRNDBaOVpUeTlaSU03eGx1eVB1T1h1aGtEUk1GbG9UbTN3MXYtSU16eTd1bGdOYzk4ekk5aWt5SlU5dVczTEg5S19sZGtVUnBHRVRNM2dzM2FaRWVoRnZRMHEzeE5Lbm9LV3ZBcEJjWTlodjYyY0dCWlNGSi1pU2dYNWptSDBGY2FnY29MZnc?oc=5</id>
+    <title type="html">Sandisk: Buy Into 10/29 Earnings - This Is Not A DRAM Stock (NASDAQ:SNDK) - Seeking Alpha</title>
+    <link href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOd2hsVGR0NEg2LVpackRRNDBaOVpUeTlaSU03eGx1eVB1T1h1aGtEUk1GbG9UbTN3MXYtSU16eTd1bGdOYzk4ekk5aWt5SlU5dVczTEg5S19sZGtVUnBHRVRNM2dzM2FaRWVoRnZRMHEzeE5Lbm9LV3ZBcEJjWTlodjYyY0dCWlNGSi1pU2dYNWptSDBGY2FnY29MZnc?oc=5" />
+    <link rel="related" href="/stories/sandisk-buy-into-10-29-earnings-this-is-not-a-dram-s-d9e94385.html" />
+    <updated>2026-10-23T11:49:28.000Z</updated>
+    <author><name>Seeking Alpha</name></author>
+    <summary type="html">Sandisk: Buy Into 10/29 Earnings - This Is Not A DRAM Stock (NASDAQ:SNDK) Seeking Alpha RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Sandisk: Buy Into 10/29 Earnings - This Is Not A DRAM Stock (NASDAQ:SNDK) Seeking Alpha&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE1nTkcxYXVMTC1vczlfSUtQcElBZko5NzBRdDFpVUFuOU5ZQ190eHItMXlvWUhUZ0lfYWNJRDJjWGUyckdUR05vLWFzV2wtMkhnaUswZTdDblpZN1ZSa3NNYmd4TWNlcUJxNE5ldmR0M3NuWjVRbGc?oc=5</id>
     <title type="html">Memory Price Surge Crushes Upgrade Intentions: Global PC Shipments Plunge 21% in Q3, May Fall Another 27% in Q4 - BigGo Finance</title>
@@ -21,7 +112,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Memory Price Surge Crushes Upgrade Intentions: Global PC Shipments Plunge 21% in Q3, May Fall Another 27% in Q4 BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Memory Price Surge Crushes Upgrade Intentions: Global PC Shipments Plunge 21% in Q3, May Fall Another 27% in Q4 BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiigFBVV95cUxPUXVZSnlMQ3lZc0RIT1NPbHQ0MGFVRVdNald1VjUzVl9jZjFTcl94eW1BQjZVNDF1MHlUOFRxTGllMU9CUjNKWGwzT0x2eHZkSnl1YjJLNnNON1FXNU9KaF9YdGU3X00xSm9pNXF4U0NXVjYyMEtZOXFDalFITFRITnZ3MmhkQkxDZGc?oc=5</id>
