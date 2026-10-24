@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-24T04:33:18.420Z",
-  "count": 1978,
+  "generatedAt": "2026-10-24T10:55:49.565Z",
+  "count": 1982,
   "stories": [
+    {
+      "slug": "micron-q4-cash-flow-hits-44b-as-vhbm-hype-builds-202-86559af0",
+      "url": "/stories/micron-q4-cash-flow-hits-44b-as-vhbm-hype-builds-202-86559af0.html",
+      "title": "Micron Q4 Cash Flow Hits $44B as vHBM Hype Builds [2026] - shattered.io",
+      "tag": "supply",
+      "date": "2026-10-24",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-tech-chief-says-being-a-few-percent-behind-tsm-8fb10286",
+      "url": "/stories/intel-tech-chief-says-being-a-few-percent-behind-tsm-8fb10286.html",
+      "title": "Intel Tech Chief Says Being A Few Percent Behind TSMC On Performance Doesn’t Matter, But Catching Up In Scale Will Be Slow – VP Asserts High NA EUV Is The Right Choice",
+      "tag": "fab",
+      "date": "2026-10-24",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "amd-lists-three-zen-6-medusa-gpu-ids-in-hiprt-3-2-c4094ea2",
       "url": "/stories/amd-lists-three-zen-6-medusa-gpu-ids-in-hiprt-3-2-c4094ea2.html",
@@ -12,6 +34,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-s-next-ai-memory-breakthrough-has-a-cooling-p-65349589",
+      "url": "/stories/micron-s-next-ai-memory-breakthrough-has-a-cooling-p-65349589.html",
+      "title": "Micron's Next AI Memory Breakthrough Has a Cooling Problem - Benzinga",
+      "tag": "demand",
+      "date": "2026-10-23",
+      "score": 7,
+      "pick": false,
+      "source": "Benzinga",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "micron-s-next-ai-memory-breakthrough-has-a-cooling-p-da4a294f",
@@ -111,6 +144,17 @@
       "pick": false,
       "source": "Seeking Alpha",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "jensen-huang-why-ai-memory-chip-oversupply-may-not-a-110f6b48",
+      "url": "/stories/jensen-huang-why-ai-memory-chip-oversupply-may-not-a-110f6b48.html",
+      "title": "Jensen Huang: Why AI Memory Chip Oversupply May Not Arrive Until 2029 - KuCoin",
+      "tag": "demand",
+      "date": "2026-10-23",
+      "score": 7,
+      "pick": false,
+      "source": "KuCoin",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "huang-downplays-2029-memory-glut-as-hbm-lpddr-demand-3ebd85a6",
