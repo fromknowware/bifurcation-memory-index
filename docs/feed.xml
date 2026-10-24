@@ -5,11 +5,50 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-23T21:22:51.951Z</updated>
+  <updated>2026-10-24T04:33:15.902Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.techpowerup.com/354085/amd-lists-three-zen-6-medusa-gpu-ids-in-hiprt-3-2</id>
+    <title type="html">AMD Lists Three Zen 6 &amp;quot;Medusa&amp;quot; GPU IDs in HIPRT 3.2</title>
+    <link href="https://www.techpowerup.com/354085/amd-lists-three-zen-6-medusa-gpu-ids-in-hiprt-3-2" />
+    <link rel="related" href="/stories/amd-lists-three-zen-6-quot-medusa-quot-gpu-ids-in-hi-c4094ea2.html" />
+    <updated>2026-10-23T22:07:54.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">AMD has published HIPRT 3.2 , the latest version of its ray tracing library for HIP, and the release notes name the integrated graphics of its upcoming Zen 6 &quot;Medusa&quot; processors outright. Under new features, AMD lists Medusa support for three GPU architecture IDs: gfx1170, gfx1171, and gfx115E. HIPRT is mostly used by rendering apps like Blender, so this says nothing about gaming performance. Stil RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;AMD has published HIPRT 3.2 , the latest version of its ray tracing library for HIP, and the release notes name the integrated graphics of its upcoming Zen 6 &quot;Medusa&quot; processors outright. Under new features, AMD lists Medusa support for three GPU architecture IDs: gfx1170, gfx1171, and gfx115E. HIPRT is mostly used by rendering apps like Blender, so this says nothing about gaming performance. Stil&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTXBMS3V5MURGa1FPSFpxSjVLQWRubE1GazNPQ3VhUWI0VWNlNUwyZmlpZFZjTWJpbWgxZ3Q4VkdGQ2VDM0tVNjVLSjk4QkRoampkM0dEOEhvQVpIVUtVdlBubVhINmQ0MEpaWnl5WVZQcFlfRDVXSG9jY3g3TTlFUmZIclpNS0E2Vk1vb014dTV3X1BEVjNzUVNmTG95YlIyMkVkVjRDMG9XVy1WNkZTUHYtclJQQ05U?oc=5</id>
+    <title type="html">Micron's Next AI Memory Breakthrough Has a Cooling Problem - TradingView</title>
+    <link href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTXBMS3V5MURGa1FPSFpxSjVLQWRubE1GazNPQ3VhUWI0VWNlNUwyZmlpZFZjTWJpbWgxZ3Q4VkdGQ2VDM0tVNjVLSjk4QkRoampkM0dEOEhvQVpIVUtVdlBubVhINmQ0MEpaWnl5WVZQcFlfRDVXSG9jY3g3TTlFUmZIclpNS0E2Vk1vb014dTV3X1BEVjNzUVNmTG95YlIyMkVkVjRDMG9XVy1WNkZTUHYtclJQQ05U?oc=5" />
+    <link rel="related" href="/stories/micron-s-next-ai-memory-breakthrough-has-a-cooling-p-da4a294f.html" />
+    <updated>2026-10-23T18:45:58.000Z</updated>
+    <author><name>TradingView</name></author>
+    <summary type="html">Micron's Next AI Memory Breakthrough Has a Cooling Problem TradingView RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:AI memory bandwidth" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Micron's Next AI Memory Breakthrough Has a Cooling Problem TradingView&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE5FY05ScDhlMnBYb1cxM29mbjNpUC1IQU5pc3VsMFNQT2dOS0hhblB6ZzdrY1FoMFlyeDVVVHpGbTAyRGRGQUhlcjV5ZnZlZUt4WjFEWEUyMG9KTHJtVlJtWnpUUF90MXlPTFpRN3FLdEw1a2hiaWc?oc=5</id>
+    <title type="html">SK Hynix vs. Micron: Wall Street Sees Roughly Equal Upside in the Memory Duopoly - BigGo Finance</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTE5FY05ScDhlMnBYb1cxM29mbjNpUC1IQU5pc3VsMFNQT2dOS0hhblB6ZzdrY1FoMFlyeDVVVHpGbTAyRGRGQUhlcjV5ZnZlZUt4WjFEWEUyMG9KTHJtVlJtWnpUUF90MXlPTFpRN3FLdEw1a2hiaWc?oc=5" />
+    <link rel="related" href="/stories/sk-hynix-vs-micron-wall-street-sees-roughly-equal-up-f6144a2a.html" />
+    <updated>2026-10-23T18:15:00.000Z</updated>
+    <author><name>BigGo Finance</name></author>
+    <summary type="html">SK Hynix vs. Micron: Wall Street Sees Roughly Equal Upside in the Memory Duopoly BigGo Finance RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:Samsung SK Hynix Micron earnings" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;SK Hynix vs. Micron: Wall Street Sees Roughly Equal Upside in the Memory Duopoly BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/ssds/microns-next-generation-3d-nand-to-double-bit-density-with-over-400-layers-offering-extreme-performance-g11-3d-nand-promises-42-gb-mm2-and-5-400-mt-s-interface-speed</id>
     <title type="html">Micron's next-generation 3D NAND to double bit density with over 400 layers, offering extreme performance</title>
@@ -100,6 +139,19 @@
     <category term="tag:earnings" />
     
     <content type="html">&lt;p&gt;Sandisk: Buy Into 10/29 Earnings - This Is Not A DRAM Stock (NASDAQ:SNDK) Seeking Alpha&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiekFVX3lxTE9MOEVhQXp3MGU2MXRQYTJwMXdReU9BNHJUVHBpelZmQWxfUEdCTU54N2pOTXRVd3AybzVzOThBLU05RzQwWkVETE1LWndpRHl4ZWZPTUFZTWUzOVE1eU9WOTA4M3Jmd3pPcnptUEVWUjFzSzU1SVR3a1dB0gGOAUFVX3lxTE1ZZ3BTdnRRQU53ZFJfdnd3R2NBcjMybWdBTGpNSU5jM2pUQllJSDBNb2VpZWhibTBBVmZmektiMkpSTmFIaVhyYUl0aElqUkdCRlljUDVfakRzTXVJWkxQajQ3U2MtcTVCS28zejZoWlVORzd4NnY5Nm9MOEhGb0hhb3dwZTBEbEtYQXFVQlE?oc=5</id>
+    <title type="html">Huang downplays 2029 memory glut as HBM, LPDDR demand surges with AI - CHOSUNBIZ - Chosunbiz</title>
+    <link href="https://news.google.com/rss/articles/CBMiekFVX3lxTE9MOEVhQXp3MGU2MXRQYTJwMXdReU9BNHJUVHBpelZmQWxfUEdCTU54N2pOTXRVd3AybzVzOThBLU05RzQwWkVETE1LWndpRHl4ZWZPTUFZTWUzOVE1eU9WOTA4M3Jmd3pPcnptUEVWUjFzSzU1SVR3a1dB0gGOAUFVX3lxTE1ZZ3BTdnRRQU53ZFJfdnd3R2NBcjMybWdBTGpNSU5jM2pUQllJSDBNb2VpZWhibTBBVmZmektiMkpSTmFIaVhyYUl0aElqUkdCRlljUDVfakRzTXVJWkxQajQ3U2MtcTVCS28zejZoWlVORzd4NnY5Nm9MOEhGb0hhb3dwZTBEbEtYQXFVQlE?oc=5" />
+    <link rel="related" href="/stories/huang-downplays-2029-memory-glut-as-hbm-lpddr-demand-3ebd85a6.html" />
+    <updated>2026-10-23T05:47:00.000Z</updated>
+    <author><name>Chosunbiz</name></author>
+    <summary type="html">Huang downplays 2029 memory glut as HBM, LPDDR demand surges with AI - CHOSUNBIZ Chosunbiz RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Huang downplays 2029 memory glut as HBM, LPDDR demand surges with AI - CHOSUNBIZ Chosunbiz&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE1nTkcxYXVMTC1vczlfSUtQcElBZko5NzBRdDFpVUFuOU5ZQ190eHItMXlvWUhUZ0lfYWNJRDJjWGUyckdUR05vLWFzV2wtMkhnaUswZTdDblpZN1ZSa3NNYmd4TWNlcUJxNE5ldmR0M3NuWjVRbGc?oc=5</id>

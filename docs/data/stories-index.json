@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-23T21:22:54.521Z",
-  "count": 1974,
+  "generatedAt": "2026-10-24T04:33:18.420Z",
+  "count": 1978,
   "stories": [
+    {
+      "slug": "amd-lists-three-zen-6-medusa-gpu-ids-in-hiprt-3-2-c4094ea2",
+      "url": "/stories/amd-lists-three-zen-6-medusa-gpu-ids-in-hiprt-3-2-c4094ea2.html",
+      "title": "AMD Lists Three Zen 6 \"Medusa\" GPU IDs in HIPRT 3.2",
+      "tag": "supply",
+      "date": "2026-10-23",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-s-next-ai-memory-breakthrough-has-a-cooling-p-da4a294f",
+      "url": "/stories/micron-s-next-ai-memory-breakthrough-has-a-cooling-p-da4a294f.html",
+      "title": "Micron's Next AI Memory Breakthrough Has a Cooling Problem - TradingView",
+      "tag": "demand",
+      "date": "2026-10-23",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-vs-micron-wall-street-sees-roughly-equal-up-f6144a2a",
+      "url": "/stories/sk-hynix-vs-micron-wall-street-sees-roughly-equal-up-f6144a2a.html",
+      "title": "SK Hynix vs. Micron: Wall Street Sees Roughly Equal Upside in the Memory Duopoly - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-23",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "micron-s-next-generation-3d-nand-to-double-bit-densi-d928cd0d",
       "url": "/stories/micron-s-next-generation-3d-nand-to-double-bit-densi-d928cd0d.html",
@@ -78,6 +111,17 @@
       "pick": false,
       "source": "Seeking Alpha",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "huang-downplays-2029-memory-glut-as-hbm-lpddr-demand-3ebd85a6",
+      "url": "/stories/huang-downplays-2029-memory-glut-as-hbm-lpddr-demand-3ebd85a6.html",
+      "title": "Huang downplays 2029 memory glut as HBM, LPDDR demand surges with AI - CHOSUNBIZ - Chosunbiz",
+      "tag": "demand",
+      "date": "2026-10-23",
+      "score": 7,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "memory-price-surge-crushes-upgrade-intentions-global-fe4ada04",
