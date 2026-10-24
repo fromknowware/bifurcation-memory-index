@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-24T10:55:49.565Z",
-  "count": 1982,
+  "generatedAt": "2026-10-24T15:55:17.326Z",
+  "count": 1985,
   "stories": [
+    {
+      "slug": "newegg-drops-900-bundle-to-680-while-giving-away-a-f-4d7e730b",
+      "url": "/stories/newegg-drops-900-bundle-to-680-while-giving-away-a-f-4d7e730b.html",
+      "title": "Newegg Drops $900 Bundle To $680, While Giving Away A Free 850W PSU With Ryzen 9600X, 32 GB DDR5, And B650E Motherboard",
+      "tag": "supply",
+      "date": "2026-10-24",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-geforce-rtx-30-gpus-get-up-to-2x-faster-ai-co-ee76193b",
+      "url": "/stories/nvidia-geforce-rtx-30-gpus-get-up-to-2x-faster-ai-co-ee76193b.html",
+      "title": "NVIDIA GeForce RTX 30 GPUs Get Up To 2X Faster AI Compute Performance With New GPU Unlock Mod, Real-World Gains Of Up To 60%",
+      "tag": "demand",
+      "date": "2026-10-24",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "texas-has-suspended-17-data-center-construction-perm-9af1a971",
+      "url": "/stories/texas-has-suspended-17-data-center-construction-perm-9af1a971.html",
+      "title": "Texas has suspended 17 data center construction permits and shut down automated portal that rubber-stamped projects",
+      "tag": "demand",
+      "date": "2026-10-24",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "micron-q4-cash-flow-hits-44b-as-vhbm-hype-builds-202-86559af0",
       "url": "/stories/micron-q4-cash-flow-hits-44b-as-vhbm-hype-builds-202-86559af0.html",
