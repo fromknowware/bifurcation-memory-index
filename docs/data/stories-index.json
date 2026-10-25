@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T16:13:57.867Z",
-  "count": 2003,
+  "generatedAt": "2026-10-25T20:48:40.899Z",
+  "count": 2004,
   "stories": [
     {
       "slug": "user-paid-800-extra-after-framework-downgrades-origi-e6f6fd25",
@@ -110,6 +110,17 @@
       "score": 8,
       "pick": false,
       "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "did-samsung-just-break-the-memory-trade-what-s-next-ab00d639",
+      "url": "/stories/did-samsung-just-break-the-memory-trade-what-s-next-ab00d639.html",
+      "title": "Did Samsung Just Break The Memory Trade? What's Next For MU, SNDK And SKHY Freiburg Fc (s9tb20FBUJ) - Unisba Media",
+      "tag": "supply",
+      "date": "2026-10-25",
+      "score": 8,
+      "pick": false,
+      "source": "Unisba Media",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {

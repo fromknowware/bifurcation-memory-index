@@ -5,7 +5,7 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-25T16:13:55.257Z</updated>
+  <updated>2026-10-25T20:48:37.588Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
@@ -21,7 +21,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Despite paying several hundred dollars more after the company downgraded the original RAM capacity, the user still had to face difficulties getting the machine to work. Framework Delays, Downgrades, and Ships Faulty Laptop 13 Pro to User Who Paid an Additional $800 to Upgrade to Original RAM Months After Pre-Order Framework has announced maybe a couple of times that they have no choice but to incr&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Despite paying several hundred dollars more after the company downgraded the original RAM capacity, the user still had to face difficulties getting the machine to work. Framework Delays, Downgrades, and Ships Faulty Laptop 13 Pro to User Who Paid an Additional $800 to Upgrade to Original RAM Months After Pre-Order Framework has announced maybe a couple of times that they have no choice but to incr&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/354113/nvidia-eyes-software-revenue-with-a-usd-2-000-per-gpu-yearly-figure-from-huang</id>
@@ -34,7 +34,7 @@
     <category term="opml" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;NVIDIA CEO Jensen Huang has put a rough price on the software side of the company's AI business. During a Q&amp;A session at GTC Berlin last week, Huang said software licensing will become a growing part of NVIDIA's business, and that it costs about $2,000 per GPU per year to run all the NVIDIA software that powers agents in AI factories. The Register was first to report it, and Huang seems to have of&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;NVIDIA CEO Jensen Huang has put a rough price on the software side of the company's AI business. During a Q&amp;A session at GTC Berlin last week, Huang said software licensing will become a growing part of NVIDIA's business, and that it costs about $2,000 per GPU per year to run all the NVIDIA software that powers agents in AI factories. The Register was first to report it, and Huang seems to have of&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/data-centers/ukrainian-drone-attacks-hammer-russias-finance-ministry-data-center-damaged-facility-reportedly-holds-tax-databases-facility-also-holds-other-important-state-registry-data</id>
@@ -47,7 +47,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/ssds/samsungs-new-2tb-990-ssd-is-38-percent-off-at-amazon-today-get-usd200-off-this-pcie-4-0-all-rounder-drive-for-a-limited-time</id>
@@ -60,7 +60,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/samsung-hbm-pricing-premium-data-center-supply-chain/</id>
@@ -73,7 +73,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;All memory manufacturers might be enjoying a profit surge, but none of them are equal when it comes to charging their lucrative customers, which, in this case, are data centers. In fact, the ability of companies like Samsung, Micron, SK hynix, and CXMT to charge more solely depends on how reliable they are in fulfilling shipments. According to an interview, the Korean giant is estimated to charge&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;All memory manufacturers might be enjoying a profit surge, but none of them are equal when it comes to charging their lucrative customers, which, in this case, are data centers. In fact, the ability of companies like Samsung, Micron, SK hynix, and CXMT to charge more solely depends on how reliable they are in fulfilling shipments. According to an interview, the Korean giant is estimated to charge&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform</id>
@@ -86,7 +86,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMid0FVX3lxTFBXbnE4U3pYcFh6aV8zV1FsMzUzY2U4LVo1QnhSWE1Dek5obHAyZm9EclpRTlBTN0FHODV1LVpHVGZCWDRhUDk0WUdhTDJTeXNRdGk2NUV2dy12SVgtY296dUZiVzBUNHJoeFB4UlMtQTZqOU1uZmVv0gF8QVVfeXFMTnVGMHlYQ05oa0RsdDliQUVEeFd5WmZSYm5pRVhlNzRMbnRUd3U1SXprdFlKaUREUWFGbFR2S09jYm51NnJjTEFYdzFuOFByMzdIVFRDckdQNFNvLWNHR21UR29KUV9QNUtwM1Jqd1BnZ2FZdDBqUjAxYUVfSg?oc=5</id>
@@ -99,7 +99,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;CXMT’s Rigid DRAM Pricing Means Rejecting Lucrative Global Giants Like Apple, But That’s Because The Company Has A Far Greater Goal; Achieving China’s Self-Sufficiency Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;CXMT’s Rigid DRAM Pricing Means Rejecting Lucrative Global Giants Like Apple, But That’s Because The Company Has A Far Greater Goal; Achieving China’s Self-Sufficiency Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/cxmt-dram-pricing-apple-china-self-sufficiency/</id>
@@ -112,7 +112,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Manufacturers from non-memory sectors are bending over backwards for Apple, offering the technology giant attractive discounts in exchange for long-term business contracts. When it comes to the DRAM category, CXMT isn’t offering any concessions, as a new report states that the Chinese firm not only aims to compete with Micron, Samsung, and SK hynix, but it is also rejecting deals with foreign cust&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Manufacturers from non-memory sectors are bending over backwards for Apple, offering the technology giant attractive discounts in exchange for long-term business contracts. When it comes to the DRAM category, CXMT isn’t offering any concessions, as a new report states that the Chinese firm not only aims to compete with Micron, Samsung, and SK hynix, but it is also rejecting deals with foreign cust&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/cpus/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5800x3d-set-plan-in-motion-before-ddr5-shortages-am4-cpu-considered-a-final-gift-to-loyal-fans-of-the-decade-old-socket</id>
@@ -139,6 +139,19 @@
     <category term="tag:supply" />
     
     <content type="html">&lt;p&gt;Minister insists responsibilities are clear as construction, telecoms, and energy fall under separate departments&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiggFBVV95cUxQNGk1aFpEZEVIdXBDdnNNWVBleTZtMXFsV1I4Wk12VDM1blZoeS1pcXZZV2ZIRFdXbk5pd0pJdEhFMDNzcUZnaDhMQ2o1aUtnekdDblI2MUVyVHk4QzNGSVNvUlE0V1VzMkt0M1J6dVU0YjA4X3U4YVhfbHNZY0xhdUJ3?oc=5</id>
+    <title type="html">Did Samsung Just Break The Memory Trade? What's Next For MU, SNDK And SKHY Freiburg Fc (s9tb20FBUJ) - Unisba Media</title>
+    <link href="https://news.google.com/rss/articles/CBMiggFBVV95cUxQNGk1aFpEZEVIdXBDdnNNWVBleTZtMXFsV1I4Wk12VDM1blZoeS1pcXZZV2ZIRFdXbk5pd0pJdEhFMDNzcUZnaDhMQ2o1aUtnekdDblI2MUVyVHk4QzNGSVNvUlE0V1VzMkt0M1J6dVU0YjA4X3U4YVhfbHNZY0xhdUJ3?oc=5" />
+    <link rel="related" href="/stories/did-samsung-just-break-the-memory-trade-what-s-next-ab00d639.html" />
+    <updated>2026-10-25T10:12:59.000Z</updated>
+    <author><name>Unisba Media</name></author>
+    <summary type="html">Did Samsung Just Break The Memory Trade? What's Next For MU, SNDK And SKHY Freiburg Fc (s9tb20FBUJ) Unisba Media RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:Samsung SK Hynix Micron earnings" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Did Samsung Just Break The Memory Trade? What's Next For MU, SNDK And SKHY Freiburg Fc (s9tb20FBUJ) Unisba Media&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/exynos-2700-outpaces-snapdragon-8-elite-extreme-gen-6-internal-tests/</id>
