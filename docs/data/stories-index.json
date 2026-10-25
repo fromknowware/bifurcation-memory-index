@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-10-24T20:46:12.400Z",
-  "count": 1987,
+  "generatedAt": "2026-10-25T04:37:35.483Z",
+  "count": 1992,
   "stories": [
+    {
+      "slug": "ddr4-prices-surge-24-as-big-tech-redesigns-hbm-conve-dc810fa8",
+      "url": "/stories/ddr4-prices-surge-24-as-big-tech-redesigns-hbm-conve-dc810fa8.html",
+      "title": "DDR4 Prices Surge 24% as Big Tech Redesigns HBM, Converging on Samsung's Taylor Fab 2 - BigGo Finance",
+      "tag": "fab",
+      "date": "2026-10-25",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-sk-hynix-expected-to-post-combined-operating-a6a07c88",
+      "url": "/stories/samsung-sk-hynix-expected-to-post-combined-operating-a6a07c88.html",
+      "title": "Samsung, SK Hynix Expected to Post Combined Operating Profit Exceeding KRW 180 Trillion in Q3 - Korea IT Times",
+      "tag": "earnings",
+      "date": "2026-10-25",
+      "score": 7,
+      "pick": false,
+      "source": "Korea IT Times",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-electronics-sk-hynix-set-to-report-q3-earnin-609ef792",
+      "url": "/stories/samsung-electronics-sk-hynix-set-to-report-q3-earnin-609ef792.html",
+      "title": "Samsung Electronics, SK hynix set to report Q3 earnings this week - Yonhap News Agency",
+      "tag": "earnings",
+      "date": "2026-10-25",
+      "score": 7,
+      "pick": false,
+      "source": "Yonhap News Agency",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "ssd-prices-explode-by-303-in-a-year-as-ai-fuels-nand-c38dfc8c",
+      "url": "/stories/ssd-prices-explode-by-303-in-a-year-as-ai-fuels-nand-c38dfc8c.html",
+      "title": "SSD prices explode by 303 % in a year as AI fuels NAND flash shortage - Notebookcheck",
+      "tag": "supply",
+      "date": "2026-10-24",
+      "score": 8,
+      "pick": false,
+      "source": "Notebookcheck",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-s-highly-compact-13-inch-m5-macbook-air-is-now-8dff8b44",
+      "url": "/stories/apple-s-highly-compact-13-inch-m5-macbook-air-is-now-8dff8b44.html",
+      "title": "Apple’s Highly Compact 13-Inch M5 MacBook Air Is Now $200 Cheaper On Amazon And Grants You A Solid Configuration Of 24GB Unified Memory And A 1TB SSD",
+      "tag": "supply",
+      "date": "2026-10-24",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "south-korea-s-sk-hynix-shelves-solidigm-s-us-ipo-fad-e7f181d0",
       "url": "/stories/south-korea-s-sk-hynix-shelves-solidigm-s-us-ipo-fad-e7f181d0.html",
