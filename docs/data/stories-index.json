@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-10-25T11:23:01.700Z",
-  "count": 1995,
+  "generatedAt": "2026-10-25T16:13:57.867Z",
+  "count": 2003,
   "stories": [
+    {
+      "slug": "user-paid-800-extra-after-framework-downgrades-origi-e6f6fd25",
+      "url": "/stories/user-paid-800-extra-after-framework-downgrades-origi-e6f6fd25.html",
+      "title": "User Paid $800 Extra After Framework Downgrades Original RAM Capacity, Only To Receive A Faulty Laptop With “No RAM Installed” Error",
+      "tag": "supply",
+      "date": "2026-10-25",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-eyes-software-revenue-with-a-2-000-per-gpu-ye-65e9a95e",
+      "url": "/stories/nvidia-eyes-software-revenue-with-a-2-000-per-gpu-ye-65e9a95e.html",
+      "title": "NVIDIA Eyes Software Revenue With a $2,000 per GPU Yearly Figure From Huang",
+      "tag": "earnings",
+      "date": "2026-10-25",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "ukrainian-drone-attacks-hammer-russia-s-finance-mini-d20f7134",
+      "url": "/stories/ukrainian-drone-attacks-hammer-russia-s-finance-mini-d20f7134.html",
+      "title": "Ukrainian drone attacks hammer Russia's finance ministry data center, damaged facility reportedly holds tax databases",
+      "tag": "demand",
+      "date": "2026-10-25",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-s-new-2tb-990-ssd-is-38-off-at-amazon-today-f8954655",
+      "url": "/stories/samsung-s-new-2tb-990-ssd-is-38-off-at-amazon-today-f8954655.html",
+      "title": "Samsung's new 2TB 990 SSD is 38% off at Amazon today",
+      "tag": "supply",
+      "date": "2026-10-25",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "data-center-customers-are-reportedly-footing-a-bigge-91d816bc",
+      "url": "/stories/data-center-customers-are-reportedly-footing-a-bigge-91d816bc.html",
+      "title": "Data Center Customers Are Reportedly Footing A Bigger Bill For A Superior HBM Supply Chain, Where Samsung Has An Edge, As It’s Estimated To Charge Up To 25% Extra",
+      "tag": "demand",
+      "date": "2026-10-25",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-discusses-2-000-per-gpu-annual-fee-for-softwa-183a2ad3",
+      "url": "/stories/nvidia-discusses-2-000-per-gpu-annual-fee-for-softwa-183a2ad3.html",
+      "title": "Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'",
+      "tag": "demand",
+      "date": "2026-10-25",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-s-rigid-dram-pricing-means-rejecting-lucrative-fe570346",
+      "url": "/stories/cxmt-s-rigid-dram-pricing-means-rejecting-lucrative-fe570346.html",
+      "title": "CXMT’s Rigid DRAM Pricing Means Rejecting Lucrative Global Giants Like Apple, But That’s Because The Company Has A Far Greater Goal; Achieving China’s Self-Sufficiency - Wccftech",
+      "tag": "supply",
+      "date": "2026-10-25",
+      "score": 8,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "cxmt-s-rigid-dram-pricing-means-rejecting-lucrative-8e39de31",
+      "url": "/stories/cxmt-s-rigid-dram-pricing-means-rejecting-lucrative-8e39de31.html",
+      "title": "CXMT’s Rigid DRAM Pricing Means Rejecting Lucrative Global Giants Like Apple, But That’s Because The Company Has A Far Greater Goal; Achieving China’s Self-Sufficiency",
+      "tag": "supply",
+      "date": "2026-10-25",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5-ba7e024a",
       "url": "/stories/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5-ba7e024a.html",
