@@ -5,11 +5,50 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-25T04:37:32.707Z</updated>
+  <updated>2026-10-25T11:22:59.077Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/cpus/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5800x3d-set-plan-in-motion-before-ddr5-shortages-am4-cpu-considered-a-final-gift-to-loyal-fans-of-the-decade-old-socket</id>
+    <title type="html">AMD CEO Lisa Su proposed bringing back the Ryzen 7 5800X3D, set plan in motion before DDR5 shortages</title>
+    <link href="https://www.tomshardware.com/pc-components/cpus/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5800x3d-set-plan-in-motion-before-ddr5-shortages-am4-cpu-considered-a-final-gift-to-loyal-fans-of-the-decade-old-socket" />
+    <link rel="related" href="/stories/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5-ba7e024a.html" />
+    <updated>2026-10-25T11:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.theregister.com/public-sector/2026/10/25/want-to-build-a-uk-datacenter-please-hold-while-whitehall-transfers-you/5304956</id>
+    <title type="html">Want to build a UK datacenter? Please hold while Whitehall transfers you</title>
+    <link href="https://www.theregister.com/public-sector/2026/10/25/want-to-build-a-uk-datacenter-please-hold-while-whitehall-transfers-you/5304956" />
+    <link rel="related" href="/stories/want-to-build-a-uk-datacenter-please-hold-while-whit-7ba34723.html" />
+    <updated>2026-10-25T10:39:00.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">Minister insists responsibilities are clear as construction, telecoms, and energy fall under separate departments RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Minister insists responsibilities are clear as construction, telecoms, and energy fall under separate departments&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/exynos-2700-outpaces-snapdragon-8-elite-extreme-gen-6-internal-tests/</id>
+    <title type="html">Exynos 2700 Internal Tests Show Qualcomm’s 2nm And New Snapdragon 8 Elite Extreme Gen 6 Packaging Bet Failed; Samsung’s Flagship SoC 20% Faster In CPU, GPU Workloads</title>
+    <link href="https://wccftech.com/exynos-2700-outpaces-snapdragon-8-elite-extreme-gen-6-internal-tests/" />
+    <link rel="related" href="/stories/exynos-2700-internal-tests-show-qualcomm-s-2nm-and-n-4d117a0d.html" />
+    <updated>2026-10-25T07:43:03.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">New details surrounding the Exynos 2700 talk about the chipset’s internal tests allegedly outperforming the Snapdragon 8 Elite Extreme Gen 6 in both CPU and GPU workloads. The latest claim paints Qualcomm’s top-end SoC in a negative light, indicating that its transition to TSMC’s 2nm node and Offset PoP packaging didn’t help matters. However, we’ve noticed a trend on foreign outlets where the Snap RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;New details surrounding the Exynos 2700 talk about the chipset’s internal tests allegedly outperforming the Snapdragon 8 Elite Extreme Gen 6 in both CPU and GPU workloads. The latest claim paints Qualcomm’s top-end SoC in a negative light, indicating that its transition to TSMC’s 2nm node and Offset PoP packaging didn’t help matters. However, we’ve noticed a trend on foreign outlets where the Snap&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE0tUGl3SUpaNTFrcDk1YnJkd2JhUmFoSVpNeU80bjg0ZE5XVjFNNF9QMHRpLW5XZVFPZHBDU25JTnlCNF9YTWhVQ0hQNFVPdTRoZVFXbWJLYTAxOHBHLTBubXczNEFmZlM4YmRDNUhRNWtqQTlpaEE?oc=5</id>
     <title type="html">DDR4 Prices Surge 24% as Big Tech Redesigns HBM, Converging on Samsung's Taylor Fab 2 - BigGo Finance</title>
@@ -21,7 +60,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;DDR4 Prices Surge 24% as Big Tech Redesigns HBM, Converging on Samsung's Taylor Fab 2 BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;DDR4 Prices Surge 24% as Big Tech Redesigns HBM, Converging on Samsung's Taylor Fab 2 BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMicEFVX3lxTE1hamVzUzBFTnZvX0JzSmk3ZWlWa3VicE04Qk1TclNGbTg0TXNlaHRkOWJJTnJyTUllTnBNQWNOdm9seFhVbDFKam9fQW9RRlhkR3Vhak5WenVoRVZrVGN5RUNlcnota256NzN2VXgwbm4?oc=5</id>
@@ -34,7 +73,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;Samsung, SK Hynix Expected to Post Combined Operating Profit Exceeding KRW 180 Trillion in Q3 Korea IT Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung, SK Hynix Expected to Post Combined Operating Profit Exceeding KRW 180 Trillion in Q3 Korea IT Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HZ0FnTkx3cGlrVzF4VzA4dk9CbktkdEVnaW5RaVNjTERPaFV0SzJtamp4bUFKQU8yRFJGaWItRFFLdl93NkE5WWsxTnlyQWQ5VDhoSnlnNEh0Zw?oc=5</id>
@@ -47,7 +86,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;Samsung Electronics, SK hynix set to report Q3 earnings this week Yonhap News Agency&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung Electronics, SK hynix set to report Q3 earnings this week Yonhap News Agency&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMisgFBVV95cUxNbmN6NUhaelJqOHVQY2tIZlFCQ1ctWkFXVmdpTGI2UlJpWDI5ZWVnSmpOcURvQl9pckdXd0FfN2VzWk9sRzVEdEF0ZDRzRmNGLVVNVEk4VDdOU0hvMXZ4d0M2cHhuWlppeHRHb2pjRVlJV0ZLYU1DLVBPbUJmd1JrM1FRcl9BNkpSQ2VHbU1oVjkxRlBhd0VLNnFoZnRpcWtoUlYyempsRTNSX0RfbkhqeFZn?oc=5</id>
@@ -60,7 +99,7 @@
     <category term="google-news:NAND flash supply" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;SSD prices explode by 303 % in a year as AI fuels NAND flash shortage Notebookcheck&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;SSD prices explode by 303 % in a year as AI fuels NAND flash shortage Notebookcheck&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/13-inch-m5-macbook-air-24gb-1tb-200-off-amazon/</id>
@@ -73,7 +112,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;The top-tier 13-inch M5 MacBook Air listed on Amazon has dropped to its lowest price on the online retailer thanks to a $200 discount. This means that for $1,599, you can become the proud owner of the portable Mac that ships with not just 24GB of unified memory, but you also get a 1TB SSD, as Apple has raised the bar and the storage count with the latest model. Amazon has also discounted other con&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The top-tier 13-inch M5 MacBook Air listed on Amazon has dropped to its lowest price on the online retailer thanks to a $200 discount. This means that for $1,599, you can become the proud owner of the portable Mac that ships with not just 24GB of unified memory, but you also get a 1TB SSD, as Apple has raised the bar and the storage count with the latest model. Amazon has also discounted other con&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE9fVG1pTVppcm10azRSSElHUXBmV1NMa2ZOVVhCN2Z5R0dCVFZWVUtpaHA5UERHVzByaEtleE9NSzlwdXQ4S0l2OTBFeG1Sc3NyS29JcU1jYW1YNHE5MzlHUk90NVBqOWRuUUhQLUVxQXkzMGhJeWc?oc=5</id>

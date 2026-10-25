@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-25T04:37:35.483Z",
-  "count": 1992,
+  "generatedAt": "2026-10-25T11:23:01.700Z",
+  "count": 1995,
   "stories": [
+    {
+      "slug": "amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5-ba7e024a",
+      "url": "/stories/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5-ba7e024a.html",
+      "title": "AMD CEO Lisa Su proposed bringing back the Ryzen 7 5800X3D, set plan in motion before DDR5 shortages",
+      "tag": "supply",
+      "date": "2026-10-25",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "want-to-build-a-uk-datacenter-please-hold-while-whit-7ba34723",
+      "url": "/stories/want-to-build-a-uk-datacenter-please-hold-while-whit-7ba34723.html",
+      "title": "Want to build a UK datacenter? Please hold while Whitehall transfers you",
+      "tag": "supply",
+      "date": "2026-10-25",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "exynos-2700-internal-tests-show-qualcomm-s-2nm-and-n-4d117a0d",
+      "url": "/stories/exynos-2700-internal-tests-show-qualcomm-s-2nm-and-n-4d117a0d.html",
+      "title": "Exynos 2700 Internal Tests Show Qualcomm’s 2nm And New Snapdragon 8 Elite Extreme Gen 6 Packaging Bet Failed; Samsung’s Flagship SoC 20% Faster In CPU, GPU Workloads",
+      "tag": "fab",
+      "date": "2026-10-25",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "ddr4-prices-surge-24-as-big-tech-redesigns-hbm-conve-dc810fa8",
       "url": "/stories/ddr4-prices-surge-24-as-big-tech-redesigns-hbm-conve-dc810fa8.html",
