@@ -5,11 +5,76 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-25T20:48:37.588Z</updated>
+  <updated>2026-10-26T04:43:12.817Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd1UtZHN3VVVtSkl1QVE1OWVGY08zOWgxcWRJU1BTS0NQVU9IWklXM2pFR1RDdng3MGF4ODc0TW5XaTFTWXJkSm5pTnhkaWttQTZQWkVRamVoQ21mM1doeXZqRjBNRDZNUGlZeGwtZTFQUjhnbU5CWHFoUHZOSVNsWkpZLUpFREYtUVpwVkxBS3VwSmd1WHlXMTRxYmp4Mnp1c1VQUjNhOUFaMDFEejRxVWpzUUhSMTk1ZHM5VTlETlFIWWhFbXZBVFlmTFMxTlJiUEk1dnExTVEzUQ?oc=5</id>
+    <title type="html">[News] SK hynix 3Q Earnings Preview: Record Profit at 78% Operating Margin; HBM4, LTAs, Solidigm in Focus - TrendForce</title>
+    <link href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd1UtZHN3VVVtSkl1QVE1OWVGY08zOWgxcWRJU1BTS0NQVU9IWklXM2pFR1RDdng3MGF4ODc0TW5XaTFTWXJkSm5pTnhkaWttQTZQWkVRamVoQ21mM1doeXZqRjBNRDZNUGlZeGwtZTFQUjhnbU5CWHFoUHZOSVNsWkpZLUpFREYtUVpwVkxBS3VwSmd1WHlXMTRxYmp4Mnp1c1VQUjNhOUFaMDFEejRxVWpzUUhSMTk1ZHM5VTlETlFIWWhFbXZBVFlmTFMxTlJiUEk1dnExTVEzUQ?oc=5" />
+    <link rel="related" href="/stories/news-sk-hynix-3q-earnings-preview-record-profit-at-7-1c4fba62.html" />
+    <updated>2026-10-26T01:57:46.000Z</updated>
+    <author><name>TrendForce</name></author>
+    <summary type="html">[News] SK hynix 3Q Earnings Preview: Record Profit at 78% Operating Margin; HBM4, LTAs, Solidigm in Focus TrendForce RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:Samsung SK Hynix Micron earnings" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;[News] SK hynix 3Q Earnings Preview: Record Profit at 78% Operating Margin; HBM4, LTAs, Solidigm in Focus TrendForce&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://semiengineering.com/pt-w-alloy-shows-potential-for-thinner-high-na-euv-mask-absorbers-chinese-academy-of-sciences-et-al/</id>
+    <title type="html">Pt-W Alloy Shows Potential For Thinner High-NA EUV Mask Absorbers (Chinese Academy of Sciences et al.)</title>
+    <link href="https://semiengineering.com/pt-w-alloy-shows-potential-for-thinner-high-na-euv-mask-absorbers-chinese-academy-of-sciences-et-al/" />
+    <link rel="related" href="/stories/pt-w-alloy-shows-potential-for-thinner-high-na-euv-m-1d490b8d.html" />
+    <updated>2026-10-25T21:17:41.000Z</updated>
+    <author><name>SemiEngineering</name></author>
+    <summary type="html">Researchers at Chinese Academy of Sciences, Jilin University, State Key Laboratory of Advanced Manufacturing for Optical Systems, and University of Chinese Academy of Sciences published a technical paper titled “Evaluating an alternative Pt-W alloy as a low-n EUV mask absorber: Film properties and imaging performance.” “In this study, we investigate an alternative Pt-W alloy as... » read more The RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Researchers at Chinese Academy of Sciences, Jilin University, State Key Laboratory of Advanced Manufacturing for Optical Systems, and University of Chinese Academy of Sciences published a technical paper titled “Evaluating an alternative Pt-W alloy as a low-n EUV mask absorber: Film properties and imaging performance.” “In this study, we investigate an alternative Pt-W alloy as... » read more The&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://semiengineering.com/dry-deposited-resist-shows-different-tone-behavior-under-euv-and-e-beam-exposure-ku-leuven-kunsan-vub-imec/</id>
+    <title type="html">Dry-Deposited Resist Shows Different Tone Behavior Under EUV And E-Beam Exposure (KU Leuven, Kunsan, VUB, Imec)</title>
+    <link href="https://semiengineering.com/dry-deposited-resist-shows-different-tone-behavior-under-euv-and-e-beam-exposure-ku-leuven-kunsan-vub-imec/" />
+    <link rel="related" href="/stories/dry-deposited-resist-shows-different-tone-behavior-u-6c846bc2.html" />
+    <updated>2026-10-25T21:08:26.000Z</updated>
+    <author><name>SemiEngineering</name></author>
+    <summary type="html">Researchers at KU Leuven, Kunsan National University, Vrije Universiteit Brussel, imec, et al. published “Irradiation-Source-Dependent Tone Conversion in Dry-Deposited Halogenated Amorphous Zeolitic Imidazolate Framework Resists for Electron-Beam and Extreme Ultraviolet Lithography.” Abstract Excerpt: “Dry-deposited metal–organic resists are key enablers for advanced patterning processes in next-g RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Researchers at KU Leuven, Kunsan National University, Vrije Universiteit Brussel, imec, et al. published “Irradiation-Source-Dependent Tone Conversion in Dry-Deposited Halogenated Amorphous Zeolitic Imidazolate Framework Resists for Electron-Beam and Extreme Ultraviolet Lithography.” Abstract Excerpt: “Dry-deposited metal–organic resists are key enablers for advanced patterning processes in next-g&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xazcwZUZhbS1TZjNGTmRRY0VmU290a3pEZGVrY29GYWpmTWdEc2U4UmZzelJjTks2bmZTcGZfNVRQYWtHd3lzR2J4TDNfQXB2YlFNMFo1bFo?oc=5</id>
+    <title type="html">“Beyond HBM to DRAM and NAND ... the memory market to enter the 2-quadrillion-won era next year” — Daishin Securities - 파이낸셜뉴스</title>
+    <link href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xazcwZUZhbS1TZjNGTmRRY0VmU290a3pEZGVrY29GYWpmTWdEc2U4UmZzelJjTks2bmZTcGZfNVRQYWtHd3lzR2J4TDNfQXB2YlFNMFo1bFo?oc=5" />
+    <link rel="related" href="/stories/beyond-hbm-to-dram-and-nand-the-memory-market-to-ent-d45a356f.html" />
+    <updated>2026-10-25T20:59:00.000Z</updated>
+    <author><name>파이낸셜뉴스</name></author>
+    <summary type="html">“Beyond HBM to DRAM and NAND ... the memory market to enter the 2-quadrillion-won era next year” — Daishin Securities 파이낸셜뉴스 RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;“Beyond HBM to DRAM and NAND ... the memory market to enter the 2-quadrillion-won era next year” — Daishin Securities 파이낸셜뉴스&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiogFBVV95cUxPS24zUzJJc0NOUngxS254VjdyeG54VFJwX2dEYXQxTVJNS0lrT0ZkY3JHajZYUnZoUk5DZEhCemdNd3dSUmZ5WTRpUGM3OEV6M3czZGRNRlczQzBOQjBGMVBwR0l4WF9mOEhmUkc4QlVrZU5YcDZEdVRrV0g3YnBCUGs4cTlpbmVQcWkzUXJvTlRScU9PS0NkUnZJeUdqX1luSGc?oc=5</id>
+    <title type="html">Global PC Shipments Fall 21% as Memory Prices Surge - Seoul Economic Daily</title>
+    <link href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPS24zUzJJc0NOUngxS254VjdyeG54VFJwX2dEYXQxTVJNS0lrT0ZkY3JHajZYUnZoUk5DZEhCemdNd3dSUmZ5WTRpUGM3OEV6M3czZGRNRlczQzBOQjBGMVBwR0l4WF9mOEhmUkc4QlVrZU5YcDZEdVRrV0g3YnBCUGs4cTlpbmVQcWkzUXJvTlRScU9PS0NkUnZJeUdqX1luSGc?oc=5" />
+    <link rel="related" href="/stories/global-pc-shipments-fall-21-as-memory-prices-surge-s-4ff3b7d1.html" />
+    <updated>2026-10-25T20:30:05.000Z</updated>
+    <author><name>Seoul Economic Daily</name></author>
+    <summary type="html">Global PC Shipments Fall 21% as Memory Prices Surge Seoul Economic Daily RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Global PC Shipments Fall 21% as Memory Prices Surge Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://wccftech.com/user-paid-800-extra-after-framework-downgrades-original-ram-capacity/</id>
     <title type="html">User Paid $800 Extra After Framework Downgrades Original RAM Capacity, Only To Receive A Faulty Laptop With “No RAM Installed” Error</title>
@@ -151,7 +216,7 @@
     <category term="google-news:Samsung SK Hynix Micron earnings" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Did Samsung Just Break The Memory Trade? What's Next For MU, SNDK And SKHY Freiburg Fc (s9tb20FBUJ) Unisba Media&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Did Samsung Just Break The Memory Trade? What's Next For MU, SNDK And SKHY Freiburg Fc (s9tb20FBUJ) Unisba Media&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/exynos-2700-outpaces-snapdragon-8-elite-extreme-gen-6-internal-tests/</id>
