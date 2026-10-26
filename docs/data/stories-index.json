@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-10-26T12:57:23.633Z",
-  "count": 2017,
+  "generatedAt": "2026-10-26T22:38:08.335Z",
+  "count": 2028,
   "stories": [
+    {
+      "slug": "alibaba-s-qwen-ai-caught-trying-to-contact-server-in-620f18d4",
+      "url": "/stories/alibaba-s-qwen-ai-caught-trying-to-contact-server-in-620f18d4.html",
+      "title": "Alibaba's Qwen AI caught trying to contact server in China",
+      "tag": "supply",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-board-partner-says-no-notification-about-rtx-03cca848",
+      "url": "/stories/nvidia-board-partner-says-no-notification-about-rtx-03cca848.html",
+      "title": "NVIDIA Board Partner Says No Notification About RTX 5090 Discontinuation, But Cannot Order GB202 With Memory Anymore",
+      "tag": "demand",
+      "date": "2026-10-26",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-says-its-ai-memory-chips-are-sold-out-through-a783f101",
+      "url": "/stories/micron-says-its-ai-memory-chips-are-sold-out-through-a783f101.html",
+      "title": "Micron says its AI memory chips are sold out through 2026 and into 2028 - Startup Fortune",
+      "tag": "demand",
+      "date": "2026-10-26",
+      "score": 7,
+      "pick": false,
+      "source": "Startup Fortune",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "highway-thieves-are-spoofing-gps-to-steal-millions-i-830ca9d0",
+      "url": "/stories/highway-thieves-are-spoofing-gps-to-steal-millions-i-830ca9d0.html",
+      "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+      "tag": "demand",
+      "date": "2026-10-26",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "tsmc-a14-node-to-break-eight-years-of-sram-scaling-s-3aadee88",
+      "url": "/stories/tsmc-a14-node-to-break-eight-years-of-sram-scaling-s-3aadee88.html",
+      "title": "TSMC A14 Node to Break Eight Years of SRAM Scaling Stagnation",
+      "tag": "fab",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "custom-hbm-era-emerges-with-ai-chipmaker-memory-coll-23819c93",
+      "url": "/stories/custom-hbm-era-emerges-with-ai-chipmaker-memory-coll-23819c93.html",
+      "title": "Custom HBM Era Emerges with AI Chipmaker-Memory Collaboration - 조선일보",
+      "tag": "demand",
+      "date": "2026-10-26",
+      "score": 7,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "rbc-sees-sk-hynix-riding-ai-s-memory-boom-finimize-3b66fbb7",
+      "url": "/stories/rbc-sees-sk-hynix-riding-ai-s-memory-boom-finimize-3b66fbb7.html",
+      "title": "RBC Sees SK Hynix Riding AI’s Memory Boom - Finimize",
+      "tag": "supply",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "Finimize",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-plans-to-use-wafer-bonding-and-high-na-euv-fo-76c54beb",
+      "url": "/stories/micron-plans-to-use-wafer-bonding-and-high-na-euv-fo-76c54beb.html",
+      "title": "Micron plans to use wafer bonding and High-NA EUV for next-gen DRAM",
+      "tag": "fab",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "cadence-reveals-maestro-fine-tuned-ai-models-built-t-f5bfbe68",
+      "url": "/stories/cadence-reveals-maestro-fine-tuned-ai-models-built-t-f5bfbe68.html",
+      "title": "Cadence reveals Maestro, fine-tuned AI models built to run specialized chip design agents, with early access coming for 'select customers' in Q4 2026",
+      "tag": "earnings",
+      "date": "2026-10-26",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "nagare-labs-emerges-from-stealth-to-break-ai-s-memor-f55b0636",
+      "url": "/stories/nagare-labs-emerges-from-stealth-to-break-ai-s-memor-f55b0636.html",
+      "title": "Nagare Labs Emerges from Stealth to Break AI’s Memory Bottleneck - Business Wire",
+      "tag": "supply",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "Business Wire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "save-over-1-000-on-this-alienware-gaming-pc-with-an-d1d6fe0e",
       "url": "/stories/save-over-1-000-on-this-alienware-gaming-pc-with-an-d1d6fe0e.html",
@@ -23,6 +133,17 @@
       "pick": false,
       "source": "The Register",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "apple-foldable-stuns-samsung-amid-memory-price-surge-282f8299",
+      "url": "/stories/apple-foldable-stuns-samsung-amid-memory-price-surge-282f8299.html",
+      "title": "Apple Foldable Stuns Samsung Amid Memory Price Surge - Businesskorea",
+      "tag": "supply",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "samsung-sk-hynix-reportedly-set-to-ramp-8-layer-hbm4-912fb9a4",
