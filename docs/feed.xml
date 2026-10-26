@@ -5,11 +5,115 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-26T04:43:12.817Z</updated>
+  <updated>2026-10-26T12:57:21.542Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/desktops/gaming-pcs/save-over-usd1-000-on-this-alienware-gaming-pc-with-an-rtx-5070-and-32gb-ddr5-unlock-1440p-and-4k-gameplay-with-this-aurora-act1250-rig-with-a-20-core-intel-cpu-and-a-1tb-ssd-for-usd2-199-99</id>
+    <title type="html">Save over $1,000 on this Alienware gaming PC with an RTX 5070 and 32GB DDR5</title>
+    <link href="https://www.tomshardware.com/desktops/gaming-pcs/save-over-usd1-000-on-this-alienware-gaming-pc-with-an-rtx-5070-and-32gb-ddr5-unlock-1440p-and-4k-gameplay-with-this-aurora-act1250-rig-with-a-20-core-intel-cpu-and-a-1tb-ssd-for-usd2-199-99" />
+    <link rel="related" href="/stories/save-over-1-000-on-this-alienware-gaming-pc-with-an-d1d6fe0e.html" />
+    <updated>2026-10-26T12:20:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.theregister.com/systems/2026/10/26/former-intel-ceo-pat-gelsinger-bets-on-nagare-labs-to-vault-the-memory-wall/5305181</id>
+    <title type="html">Former Intel CEO Pat Gelsinger bets on Nagare Labs to vault the memory wall</title>
+    <link href="https://www.theregister.com/systems/2026/10/26/former-intel-ceo-pat-gelsinger-bets-on-nagare-labs-to-vault-the-memory-wall/5305181" />
+    <link rel="related" href="/stories/former-intel-ceo-pat-gelsinger-bets-on-nagare-labs-t-3c39dd88.html" />
+    <updated>2026-10-26T12:00:00.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">SRAM-like bandwidth, DRAM-like density, and NAND-like manufacturing: Z2RAM makes big promises, but the road ahead is arduous and littered with the ruins of failed memory vendors RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;SRAM-like bandwidth, DRAM-like density, and NAND-like manufacturing: Z2RAM makes big promises, but the road ahead is arduous and littered with the ruins of failed memory vendors&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/samsung-sk-hynix-downgraded-hbm4-q2-2027-nvidia-rubin-ultra/</id>
+    <title type="html">Samsung &amp; SK hynix Reportedly Set To Ramp 8-Layer HBM4 Shipments For NVIDIA’s Rubin Ultra In Q2 2027, As Heat And Yield Issues Continue To Complicate 12-Layer Stack Manufacturing</title>
+    <link href="https://wccftech.com/samsung-sk-hynix-downgraded-hbm4-q2-2027-nvidia-rubin-ultra/" />
+    <link rel="related" href="/stories/samsung-sk-hynix-reportedly-set-to-ramp-8-layer-hbm4-912fb9a4.html" />
+    <updated>2026-10-26T09:46:09.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">NVIDIA reportedly entered into discussions with Samsung and SK hynix in the third quarter of 2026 to supply HBM4 memory with 8-layer stacks instead of 12-layer ones, despite a previous update mentioning that Rubin GPUs will stick with the more advanced memory. Fortunately, NVIDIA’s suppliers aren’t expected to completely phase out 12-layer HBM4 and HBM4E DRAM, but Samsung and SK hynix will boost t RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;NVIDIA reportedly entered into discussions with Samsung and SK hynix in the third quarter of 2026 to supply HBM4 memory with 8-layer stacks instead of 12-layer ones, despite a previous update mentioning that Rubin GPUs will stick with the more advanced memory. Fortunately, NVIDIA’s suppliers aren’t expected to completely phase out 12-layer HBM4 and HBM4E DRAM, but Samsung and SK hynix will boost t&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCWWlNT3N3TFowRFFadVNMejh1TnhZUkg2d1VWUDc5LTQ0OUhtYXEyazFDZk5YRUVid2lEZUJibHBXbGRqWC1hSDkxTQ?oc=5</id>
+    <title type="html">Data center customers are willing to pay higher fees for HBM supplies. - m.expreview.com</title>
+    <link href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCWWlNT3N3TFowRFFadVNMejh1TnhZUkg2d1VWUDc5LTQ0OUhtYXEyazFDZk5YRUVid2lEZUJibHBXbGRqWC1hSDkxTQ?oc=5" />
+    <link rel="related" href="/stories/data-center-customers-are-willing-to-pay-higher-fees-61ea8c81.html" />
+    <updated>2026-10-26T08:19:26.000Z</updated>
+    <author><name>m.expreview.com</name></author>
+    <summary type="html">Data center customers are willing to pay higher fees for HBM supplies. m.expreview.com RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Data center customers are willing to pay higher fees for HBM supplies. m.expreview.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://semiengineering.com/vertical-dram-stacking-expands-thermal-design-space-beyond-hbm-imec/</id>
+    <title type="html">Vertical DRAM Stacking Expands Thermal Design Space Beyond HBM-on-GPU (imec)</title>
+    <link href="https://semiengineering.com/vertical-dram-stacking-expands-thermal-design-space-beyond-hbm-imec/" />
+    <link rel="related" href="/stories/vertical-dram-stacking-expands-thermal-design-space-99ada7c7.html" />
+    <updated>2026-10-26T07:02:36.000Z</updated>
+    <author><name>SemiEngineering</name></author>
+    <summary type="html">Researchers at imec published “Beyond HBM-on-GPU: Thermal Design Envelope for 3D Volumetric DRAM-on-GPU Integration.” Summary: Researchers evaluated a 3D memory architecture that rotates DRAM dies vertically above a GPU and places cooling cavities between them as an alternative to conventional 2.5D HBM and direct-stacked HBM-on-GPU. Package-level thermal simulations examined stack height, memory c RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Researchers at imec published “Beyond HBM-on-GPU: Thermal Design Envelope for 3D Volumetric DRAM-on-GPU Integration.” Summary: Researchers evaluated a 3D memory architecture that rotates DRAM dies vertically above a GPU and places cooling cavities between them as an alternative to conventional 2.5D HBM and direct-stacked HBM-on-GPU. Package-level thermal simulations examined stack height, memory c&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiV0FVX3lxTE1faVd5eWpUd3R1Mk5jLWV5MDZCZDhvU2dVeFNZeEloYW1VUE41SDMwS1ZNcGFwVkFFbDRUeGN1VEFtQzY3d1UxWVZpYWVlT3RhOTYzdDZsVQ?oc=5</id>
+    <title type="html">Samsung may have overtaken SK hynix in HBM revenue, analysis suggests - The Korea Herald</title>
+    <link href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE1faVd5eWpUd3R1Mk5jLWV5MDZCZDhvU2dVeFNZeEloYW1VUE41SDMwS1ZNcGFwVkFFbDRUeGN1VEFtQzY3d1UxWVZpYWVlT3RhOTYzdDZsVQ?oc=5" />
+    <link rel="related" href="/stories/samsung-may-have-overtaken-sk-hynix-in-hbm-revenue-a-5a0fc9c6.html" />
+    <updated>2026-10-26T05:58:40.000Z</updated>
+    <author><name>The Korea Herald</name></author>
+    <summary type="html">Samsung may have overtaken SK hynix in HBM revenue, analysis suggests The Korea Herald RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Samsung may have overtaken SK hynix in HBM revenue, analysis suggests The Korea Herald&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMioAFBVV95cUxQcTUwM2h1SG55TjhhUHF5SFJsTlpJY3UtYmM2dld1U3RRWUdqYmkyWlpGWnNaNmZYMTRLSTBYOF9LSUI5cnp0SjA0bXl4MUE4OVhib2I2NndvdVFqdnhqcF8yNmxzQ3RWeU5UTm9GRlJSNU5vR2EtblRIY2hjaWpUc282ekdYdUdXcm5iMUROaWxKRERQQ1l5STgtamFoOVZR?oc=5</id>
+    <title type="html">Earnings Preview | With the stock down 30% already, SK Hynix faces a critical earnings report—can HBM4 volume ramp-up and DRAM price hikes reignite its upward momentum? - 富途牛牛</title>
+    <link href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQcTUwM2h1SG55TjhhUHF5SFJsTlpJY3UtYmM2dld1U3RRWUdqYmkyWlpGWnNaNmZYMTRLSTBYOF9LSUI5cnp0SjA0bXl4MUE4OVhib2I2NndvdVFqdnhqcF8yNmxzQ3RWeU5UTm9GRlJSNU5vR2EtblRIY2hjaWpUc282ekdYdUdXcm5iMUROaWxKRERQQ1l5STgtamFoOVZR?oc=5" />
+    <link rel="related" href="/stories/earnings-preview-with-the-stock-down-30-already-sk-h-ed12f98f.html" />
+    <updated>2026-10-26T05:12:35.000Z</updated>
+    <author><name>富途牛牛</name></author>
+    <summary type="html">Earnings Preview | With the stock down 30% already, SK Hynix faces a critical earnings report—can HBM4 volume ramp-up and DRAM price hikes reignite its upward momentum? 富途牛牛 RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Earnings Preview | With the stock down 30% already, SK Hynix faces a critical earnings report—can HBM4 volume ramp-up and DRAM price hikes reignite its upward momentum? 富途牛牛&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMizAFBVV95cUxONlhDUGRhN3lwX2NiZjFqcWVtazNVY0cxWjl3ODQyVlRrNl94SVhyOU9kelg5T2FfVURvcTNSUW9YOEFIa0NraVRmbkVuYmVHaDdCRzFPaU41d3A3bDlYRU1FWjFkWGtmWjIwUldGcWpwWnh4bEJoREQteE5jQi1nRnVJeVZzQ2VuNEdTU1VJbkw5ZzUyb3ZKXy1hRDJkanVZQVJlbU5hemh4XzVKYkVxT0pFYnZLaURkQm1qMGZPMW9qbDJPU254NDZPcjg?oc=5</id>
+    <title type="html">Samsung Electronics and SK hynix eye $139 billion combined Q3 profit on AI chips - Korea JoongAng Daily</title>
+    <link href="https://news.google.com/rss/articles/CBMizAFBVV95cUxONlhDUGRhN3lwX2NiZjFqcWVtazNVY0cxWjl3ODQyVlRrNl94SVhyOU9kelg5T2FfVURvcTNSUW9YOEFIa0NraVRmbkVuYmVHaDdCRzFPaU41d3A3bDlYRU1FWjFkWGtmWjIwUldGcWpwWnh4bEJoREQteE5jQi1nRnVJeVZzQ2VuNEdTU1VJbkw5ZzUyb3ZKXy1hRDJkanVZQVJlbU5hemh4XzVKYkVxT0pFYnZLaURkQm1qMGZPMW9qbDJPU254NDZPcjg?oc=5" />
+    <link rel="related" href="/stories/samsung-electronics-and-sk-hynix-eye-139-billion-com-3447b000.html" />
+    <updated>2026-10-26T04:36:33.000Z</updated>
+    <author><name>Korea JoongAng Daily</name></author>
+    <summary type="html">Samsung Electronics and SK hynix eye $139 billion combined Q3 profit on AI chips Korea JoongAng Daily RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Samsung Electronics and SK hynix eye $139 billion combined Q3 profit on AI chips Korea JoongAng Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd1UtZHN3VVVtSkl1QVE1OWVGY08zOWgxcWRJU1BTS0NQVU9IWklXM2pFR1RDdng3MGF4ODc0TW5XaTFTWXJkSm5pTnhkaWttQTZQWkVRamVoQ21mM1doeXZqRjBNRDZNUGlZeGwtZTFQUjhnbU5CWHFoUHZOSVNsWkpZLUpFREYtUVpwVkxBS3VwSmd1WHlXMTRxYmp4Mnp1c1VQUjNhOUFaMDFEejRxVWpzUUhSMTk1ZHM5VTlETlFIWWhFbXZBVFlmTFMxTlJiUEk1dnExTVEzUQ?oc=5</id>
     <title type="html">[News] SK hynix 3Q Earnings Preview: Record Profit at 78% Operating Margin; HBM4, LTAs, Solidigm in Focus - TrendForce</title>
@@ -21,7 +125,7 @@
     <category term="google-news:Samsung SK Hynix Micron earnings" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;[News] SK hynix 3Q Earnings Preview: Record Profit at 78% Operating Margin; HBM4, LTAs, Solidigm in Focus TrendForce&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;[News] SK hynix 3Q Earnings Preview: Record Profit at 78% Operating Margin; HBM4, LTAs, Solidigm in Focus TrendForce&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://semiengineering.com/pt-w-alloy-shows-potential-for-thinner-high-na-euv-mask-absorbers-chinese-academy-of-sciences-et-al/</id>
@@ -34,7 +138,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Researchers at Chinese Academy of Sciences, Jilin University, State Key Laboratory of Advanced Manufacturing for Optical Systems, and University of Chinese Academy of Sciences published a technical paper titled “Evaluating an alternative Pt-W alloy as a low-n EUV mask absorber: Film properties and imaging performance.” “In this study, we investigate an alternative Pt-W alloy as... » read more The&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Researchers at Chinese Academy of Sciences, Jilin University, State Key Laboratory of Advanced Manufacturing for Optical Systems, and University of Chinese Academy of Sciences published a technical paper titled “Evaluating an alternative Pt-W alloy as a low-n EUV mask absorber: Film properties and imaging performance.” “In this study, we investigate an alternative Pt-W alloy as... » read more The&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://semiengineering.com/dry-deposited-resist-shows-different-tone-behavior-under-euv-and-e-beam-exposure-ku-leuven-kunsan-vub-imec/</id>
@@ -47,7 +151,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Researchers at KU Leuven, Kunsan National University, Vrije Universiteit Brussel, imec, et al. published “Irradiation-Source-Dependent Tone Conversion in Dry-Deposited Halogenated Amorphous Zeolitic Imidazolate Framework Resists for Electron-Beam and Extreme Ultraviolet Lithography.” Abstract Excerpt: “Dry-deposited metal–organic resists are key enablers for advanced patterning processes in next-g&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Researchers at KU Leuven, Kunsan National University, Vrije Universiteit Brussel, imec, et al. published “Irradiation-Source-Dependent Tone Conversion in Dry-Deposited Halogenated Amorphous Zeolitic Imidazolate Framework Resists for Electron-Beam and Extreme Ultraviolet Lithography.” Abstract Excerpt: “Dry-deposited metal–organic resists are key enablers for advanced patterning processes in next-g&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xazcwZUZhbS1TZjNGTmRRY0VmU290a3pEZGVrY29GYWpmTWdEc2U4UmZzelJjTks2bmZTcGZfNVRQYWtHd3lzR2J4TDNfQXB2YlFNMFo1bFo?oc=5</id>
@@ -60,7 +164,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;“Beyond HBM to DRAM and NAND ... the memory market to enter the 2-quadrillion-won era next year” — Daishin Securities 파이낸셜뉴스&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;“Beyond HBM to DRAM and NAND ... the memory market to enter the 2-quadrillion-won era next year” — Daishin Securities 파이낸셜뉴스&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiogFBVV95cUxPS24zUzJJc0NOUngxS254VjdyeG54VFJwX2dEYXQxTVJNS0lrT0ZkY3JHajZYUnZoUk5DZEhCemdNd3dSUmZ5WTRpUGM3OEV6M3czZGRNRlczQzBOQjBGMVBwR0l4WF9mOEhmUkc4QlVrZU5YcDZEdVRrV0g3YnBCUGs4cTlpbmVQcWkzUXJvTlRScU9PS0NkUnZJeUdqX1luSGc?oc=5</id>
@@ -73,7 +177,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Global PC Shipments Fall 21% as Memory Prices Surge Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Global PC Shipments Fall 21% as Memory Prices Surge Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/user-paid-800-extra-after-framework-downgrades-original-ram-capacity/</id>

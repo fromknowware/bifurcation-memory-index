@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-10-26T04:43:15.258Z",
-  "count": 2009,
+  "generatedAt": "2026-10-26T12:57:23.633Z",
+  "count": 2017,
   "stories": [
+    {
+      "slug": "save-over-1-000-on-this-alienware-gaming-pc-with-an-d1d6fe0e",
+      "url": "/stories/save-over-1-000-on-this-alienware-gaming-pc-with-an-d1d6fe0e.html",
+      "title": "Save over $1,000 on this Alienware gaming PC with an RTX 5070 and 32GB DDR5",
+      "tag": "supply",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "former-intel-ceo-pat-gelsinger-bets-on-nagare-labs-t-3c39dd88",
+      "url": "/stories/former-intel-ceo-pat-gelsinger-bets-on-nagare-labs-t-3c39dd88.html",
+      "title": "Former Intel CEO Pat Gelsinger bets on Nagare Labs to vault the memory wall",
+      "tag": "demand",
+      "date": "2026-10-26",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-sk-hynix-reportedly-set-to-ramp-8-layer-hbm4-912fb9a4",
+      "url": "/stories/samsung-sk-hynix-reportedly-set-to-ramp-8-layer-hbm4-912fb9a4.html",
+      "title": "Samsung & SK hynix Reportedly Set To Ramp 8-Layer HBM4 Shipments For NVIDIA’s Rubin Ultra In Q2 2027, As Heat And Yield Issues Continue To Complicate 12-Layer Stack Manufacturing",
+      "tag": "fab",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "data-center-customers-are-willing-to-pay-higher-fees-61ea8c81",
+      "url": "/stories/data-center-customers-are-willing-to-pay-higher-fees-61ea8c81.html",
+      "title": "Data center customers are willing to pay higher fees for HBM supplies. - m.expreview.com",
+      "tag": "demand",
+      "date": "2026-10-26",
+      "score": 7,
+      "pick": false,
+      "source": "m.expreview.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "vertical-dram-stacking-expands-thermal-design-space-99ada7c7",
+      "url": "/stories/vertical-dram-stacking-expands-thermal-design-space-99ada7c7.html",
+      "title": "Vertical DRAM Stacking Expands Thermal Design Space Beyond HBM-on-GPU (imec)",
+      "tag": "fab",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-may-have-overtaken-sk-hynix-in-hbm-revenue-a-5a0fc9c6",
+      "url": "/stories/samsung-may-have-overtaken-sk-hynix-in-hbm-revenue-a-5a0fc9c6.html",
+      "title": "Samsung may have overtaken SK hynix in HBM revenue, analysis suggests - The Korea Herald",
+      "tag": "earnings",
+      "date": "2026-10-26",
+      "score": 7,
+      "pick": false,
+      "source": "The Korea Herald",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "earnings-preview-with-the-stock-down-30-already-sk-h-ed12f98f",
+      "url": "/stories/earnings-preview-with-the-stock-down-30-already-sk-h-ed12f98f.html",
+      "title": "Earnings Preview | With the stock down 30% already, SK Hynix faces a critical earnings report—can HBM4 volume ramp-up and DRAM price hikes reignite its upward momentum? - 富途牛牛",
+      "tag": "earnings",
+      "date": "2026-10-26",
+      "score": 7,
+      "pick": false,
+      "source": "富途牛牛",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-electronics-and-sk-hynix-eye-139-billion-com-3447b000",
+      "url": "/stories/samsung-electronics-and-sk-hynix-eye-139-billion-com-3447b000.html",
+      "title": "Samsung Electronics and SK hynix eye $139 billion combined Q3 profit on AI chips - Korea JoongAng Daily",
+      "tag": "supply",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "Korea JoongAng Daily",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "news-sk-hynix-3q-earnings-preview-record-profit-at-7-1c4fba62",
       "url": "/stories/news-sk-hynix-3q-earnings-preview-record-profit-at-7-1c4fba62.html",
