@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-26T22:38:08.335Z",
-  "count": 2028,
+  "generatedAt": "2026-10-27T05:00:15.634Z",
+  "count": 2033,
   "stories": [
+    {
+      "slug": "memory-chip-shortage-extends-into-2027-as-sk-hynix-p-ad07a452",
+      "url": "/stories/memory-chip-shortage-extends-into-2027-as-sk-hynix-p-ad07a452.html",
+      "title": "Memory Chip Shortage Extends Into 2027 as SK Hynix Price Target Raised 40% - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "anthropic-s-ipo-filing-puts-tsmc-and-hbm-suppliers-a-ae3b5822",
+      "url": "/stories/anthropic-s-ipo-filing-puts-tsmc-and-hbm-suppliers-a-ae3b5822.html",
+      "title": "Anthropic’s IPO filing puts TSMC and HBM suppliers at the center of its risk story - Crypto Briefing",
+      "tag": "fab",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "Crypto Briefing",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ram-shortage-2026-dram-supply-up-just-16-prices-soar-ff78461e",
+      "url": "/stories/ram-shortage-2026-dram-supply-up-just-16-prices-soar-ff78461e.html",
+      "title": "RAM Shortage [2026]: DRAM Supply Up Just 16%, Prices Soar - shattered.io",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "alibaba-s-qwen-ai-caught-trying-to-contact-server-in-620f18d4",
       "url": "/stories/alibaba-s-qwen-ai-caught-trying-to-contact-server-in-620f18d4.html",
@@ -11,6 +44,17 @@
       "score": 8,
       "pick": false,
       "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-chip-giants-worth-2-trillion-face-test-to-pro-b5b591e2",
+      "url": "/stories/memory-chip-giants-worth-2-trillion-face-test-to-pro-b5b591e2.html",
+      "title": "Memory Chip Giants Worth $2 Trillion Face Test to Prove AI Isn't a Bubble - Bloomberg.com",
+      "tag": "supply",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "Bloomberg.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -77,6 +121,17 @@
       "score": 8,
       "pick": false,
       "source": "Finimize",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pat-gelsinger-s-playground-backs-nagare-labs-with-5m-caa8c54e",
+      "url": "/stories/pat-gelsinger-s-playground-backs-nagare-labs-with-5m-caa8c54e.html",
+      "title": "Pat Gelsinger's Playground backs Nagare Labs with $5M to break AI's memory wall - Dealroom",
+      "tag": "supply",
+      "date": "2026-10-26",
+      "score": 8,
+      "pick": false,
+      "source": "Dealroom",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
