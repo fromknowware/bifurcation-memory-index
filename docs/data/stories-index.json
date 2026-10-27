@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-27T17:59:38.807Z",
-  "count": 2049,
+  "generatedAt": "2026-10-27T22:10:52.302Z",
+  "count": 2053,
   "stories": [
+    {
+      "slug": "pr-logitech-announces-q2-fiscal-year-2027-results-bd816fd9",
+      "url": "/stories/pr-logitech-announces-q2-fiscal-year-2027-results-bd816fd9.html",
+      "title": "(PR) Logitech Announces Q2 Fiscal Year 2027 Results",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-seagate-technology-reports-fiscal-fq1-2027-financ-f6913ee1",
+      "url": "/stories/pr-seagate-technology-reports-fiscal-fq1-2027-financ-f6913ee1.html",
+      "title": "(PR) Seagate Technology Reports Fiscal FQ1 2027 Financial Results",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "meta-is-the-lead-customer-for-amd-s-6th-gen-epyc-cpu-9cc4493c",
       "url": "/stories/meta-is-the-lead-customer-for-amd-s-6th-gen-epyc-cpu-9cc4493c.html",
@@ -102,6 +124,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "alibaba-tencent-bytedance-seek-10-year-dram-long-ter-ab481930",
+      "url": "/stories/alibaba-tencent-bytedance-seek-10-year-dram-long-ter-ab481930.html",
+      "title": "Alibaba, Tencent, ByteDance Seek 10-Year DRAM Long-Term Contracts with Samsung Electronics, SK Hynix - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "data-center-gear-is-being-hijacked-in-transit-to-the-c7351120",
       "url": "/stories/data-center-gear-is-being-hijacked-in-transit-to-the-c7351120.html",
       "title": "Data center gear is being hijacked in transit to the tune of hundreds of millions",
@@ -111,6 +144,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "exclusive-ai-chinese-chip-alone-makes-me-nervous-fin-061cabbf",
+      "url": "/stories/exclusive-ai-chinese-chip-alone-makes-me-nervous-fin-061cabbf.html",
+      "title": "[Exclusive] \"AI, Chinese chip alone makes me nervous\"... Finding High-Performance Korean DRAM 'Blindness' - 매일경제",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "매일경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "micron-plans-400-layer-3d-nand-with-wafer-to-wafer-b-813f349b",
