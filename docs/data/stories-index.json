@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-10-27T12:07:37.924Z",
-  "count": 2044,
+  "generatedAt": "2026-10-27T17:59:38.807Z",
+  "count": 2049,
   "stories": [
+    {
+      "slug": "meta-is-the-lead-customer-for-amd-s-6th-gen-epyc-cpu-9cc4493c",
+      "url": "/stories/meta-is-the-lead-customer-for-amd-s-6th-gen-epyc-cpu-9cc4493c.html",
+      "title": "Meta Is The Lead Customer For AMD’s 6th Gen EPYC CPUs, Deploys Millions of EPYC Chips & Will Leverage Next-Gen Instinct MI500 And Rack-Scale Solutions",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-has-likely-overtaken-its-top-rival-in-ai-mem-4815a102",
+      "url": "/stories/samsung-has-likely-overtaken-its-top-rival-in-ai-mem-4815a102.html",
+      "title": "Samsung has likely overtaken its top rival in AI memory chip revenue - SamMobile",
+      "tag": "earnings",
+      "date": "2026-10-27",
+      "score": 7,
+      "pick": false,
+      "source": "SamMobile",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "tsmc-reportedly-weighs-20-cowos-price-increase-as-nv-a344191f",
+      "url": "/stories/tsmc-reportedly-weighs-20-cowos-price-increase-as-nv-a344191f.html",
+      "title": "TSMC reportedly weighs 20% CoWoS price increase as Nvidia Blackwell and Rubin chips put pressure on packaging capacity",
+      "tag": "fab",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-portable-ssd-p9-review-speedy-usb4-in-a-slim-985e4ccf",
+      "url": "/stories/samsung-portable-ssd-p9-review-speedy-usb4-in-a-slim-985e4ccf.html",
+      "title": "Samsung Portable SSD P9 review: speedy USB4 in a slim, pricey package",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-crescent-island-gpu-die-shows-up-32-xe3p-cores-5f32d03c",
+      "url": "/stories/intel-crescent-island-gpu-die-shows-up-32-xe3p-cores-5f32d03c.html",
+      "title": "Intel \"Crescent Island\" GPU Die Shows Up: 32 Xe3P Cores and 256 XMX Engines",
+      "tag": "demand",
+      "date": "2026-10-27",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "china-s-dram-self-sufficiency-to-remain-a-distant-dr-0dba05e5",
       "url": "/stories/china-s-dram-self-sufficiency-to-remain-a-distant-dr-0dba05e5.html",
