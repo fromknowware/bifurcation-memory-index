@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-10-27T05:00:15.634Z",
-  "count": 2033,
+  "generatedAt": "2026-10-27T12:07:37.924Z",
+  "count": 2044,
   "stories": [
+    {
+      "slug": "china-s-dram-self-sufficiency-to-remain-a-distant-dr-0dba05e5",
+      "url": "/stories/china-s-dram-self-sufficiency-to-remain-a-distant-dr-0dba05e5.html",
+      "title": "China’s DRAM Self-Sufficiency To Remain A Distant Dream, As Local Giants Seek 10-Year LTAs From Samsung And SK hynix; CXMT & YMTC Lagging In Key Areas",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "grab-32gb-of-ddr5-ram-for-just-151-in-this-4-in-1-ne-cfcb9388",
+      "url": "/stories/grab-32gb-of-ddr5-ram-for-just-151-in-this-4-in-1-ne-cfcb9388.html",
+      "title": "Grab 32GB of DDR5 RAM for just $151 in this 4-in-1 Newegg bundle with the 9800X3D and a 2TB SSD",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "uk-ministers-had-plenty-of-time-for-ai-datacenter-bo-f491d49a",
+      "url": "/stories/uk-ministers-had-plenty-of-time-for-ai-datacenter-bo-f491d49a.html",
+      "title": "UK ministers had plenty of time for AI datacenter bosses, but none for environmental groups",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "georgia-tech-spinoff-nagare-labs-emerges-with-5m-to-9ca8fb07",
+      "url": "/stories/georgia-tech-spinoff-nagare-labs-emerges-with-5m-to-9ca8fb07.html",
+      "title": "Georgia Tech Spinoff Nagare Labs Emerges With $5M to Solve AI Memory Problem - citybiz",
+      "tag": "demand",
+      "date": "2026-10-27",
+      "score": 7,
+      "pick": false,
+      "source": "citybiz",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "data-center-gear-is-being-hijacked-in-transit-to-the-c7351120",
+      "url": "/stories/data-center-gear-is-being-hijacked-in-transit-to-the-c7351120.html",
+      "title": "Data center gear is being hijacked in transit to the tune of hundreds of millions",
+      "tag": "demand",
+      "date": "2026-10-27",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-plans-400-layer-3d-nand-with-wafer-to-wafer-b-813f349b",
+      "url": "/stories/micron-plans-400-layer-3d-nand-with-wafer-to-wafer-b-813f349b.html",
+      "title": "Micron Plans 400-Layer 3D NAND with Wafer-to-Wafer Bonding in 2027",
+      "tag": "fab",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "demand-complexities-of-ai-gpus-and-custom-asics-have-4a807aeb",
+      "url": "/stories/demand-complexities-of-ai-gpus-and-custom-asics-have-4a807aeb.html",
+      "title": "Demand & Complexities Of AI GPUs And Custom ASICs Have Stressed TSMC’s CoWoS Supply, Reportedly Sparking The Possibility Of A 20% Price Hike",
+      "tag": "fab",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "elon-musk-wanted-30-000-of-nvidia-s-bleeding-edge-ai-15d6fec3",
+      "url": "/stories/elon-musk-wanted-30-000-of-nvidia-s-bleeding-edge-ai-15d6fec3.html",
+      "title": "Elon Musk Wanted 30,000 Of NVIDIA’s  Bleeding Edge AI GPU Systems But Is Getting Just 20,000, Still Enough To Be 2027’s Biggest Buyer, Says Analyst Jeff Pu",
+      "tag": "demand",
+      "date": "2026-10-27",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-chipmakers-face-higher-costs-tsmc-reportedly-bccdf178",
+      "url": "/stories/nvidia-chipmakers-face-higher-costs-tsmc-reportedly-bccdf178.html",
+      "title": "Nvidia, Chipmakers Face Higher Costs? TSMC Reportedly Plans Up To 20% Price Hike For Advanced Chip Packaging - TradingView",
+      "tag": "fab",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "memory-chip-shortage-extends-into-2027-as-sk-hynix-p-ad07a452",
       "url": "/stories/memory-chip-shortage-extends-into-2027-as-sk-hynix-p-ad07a452.html",
@@ -12,6 +111,17 @@
       "pick": false,
       "source": "BigGo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-receives-further-bullish-sentiment-memory-s-538cffd1",
+      "url": "/stories/sk-hynix-receives-further-bullish-sentiment-memory-s-538cffd1.html",
+      "title": "SK Hynix Receives Further Bullish Sentiment: Memory Shortage Expected to Persist Until 2027, HBM Prices to Double Next Year - Moomoo",
+      "tag": "demand",
+      "date": "2026-10-27",
+      "score": 7,
+      "pick": false,
+      "source": "Moomoo",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "anthropic-s-ipo-filing-puts-tsmc-and-hbm-suppliers-a-ae3b5822",
@@ -34,6 +144,17 @@
       "pick": false,
       "source": "shattered.io",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "south-korea-s-sk-hynix-advances-u-s-ai-memory-plant-f8cec6ea",
+      "url": "/stories/south-korea-s-sk-hynix-advances-u-s-ai-memory-plant-f8cec6ea.html",
+      "title": "South Korea's SK Hynix advances U.S. AI memory plant construction - upi",
+      "tag": "demand",
+      "date": "2026-10-27",
+      "score": 7,
+      "pick": false,
+      "source": "upi",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "alibaba-s-qwen-ai-caught-trying-to-contact-server-in-620f18d4",
