@@ -1,7 +1,194 @@
 {
-  "generatedAt": "2026-10-28T12:50:09.194Z",
-  "count": 2105,
+  "generatedAt": "2026-10-28T22:32:54.035Z",
+  "count": 2131,
   "stories": [
+    {
+      "slug": "china-s-cxmt-pushes-ahead-with-ai-memory-despite-low-88e0fab8",
+      "url": "/stories/china-s-cxmt-pushes-ahead-with-ai-memory-despite-low-88e0fab8.html",
+      "title": "China’s CXMT Pushes Ahead With AI Memory Despite Low Yields - ColombiaOne.com",
+      "tag": "demand",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "ColombiaOne.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cowboy-space-unveils-big-iron-rocket-designed-to-bec-ae39428f",
+      "url": "/stories/cowboy-space-unveils-big-iron-rocket-designed-to-bec-ae39428f.html",
+      "title": "Cowboy Space Unveils Big Iron Rocket Designed to Become an Orbital Data Center",
+      "tag": "demand",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-stock-rises-5-5-as-sk-hynix-says-dram-and-hbm-f433b1d9",
+      "url": "/stories/micron-stock-rises-5-5-as-sk-hynix-says-dram-and-hbm-f433b1d9.html",
+      "title": "Micron Stock Rises 5.5% as SK Hynix Says DRAM and HBM Sold Out Through 2029 - FinanceFeeds",
+      "tag": "demand",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "FinanceFeeds",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-s-stock-rises-after-sk-hynix-earnings-here-s-31e51bd3",
+      "url": "/stories/micron-s-stock-rises-after-sk-hynix-earnings-here-s-31e51bd3.html",
+      "title": "Micron’s stock rises after SK Hynix earnings. Here’s its next major test. - MarketWatch",
+      "tag": "earnings",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "MarketWatch",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "chip-stocks-on-the-fly-amd-micron-among-shares-gain-81a209e2",
+      "url": "/stories/chip-stocks-on-the-fly-amd-micron-among-shares-gain-81a209e2.html",
+      "title": "Chip stocks on the fly! AMD, Micron among shares gain up to 5% as SK Hynix’s earnings boost AI trade - Livemint",
+      "tag": "earnings",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "Livemint",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "malaysia-seizes-12-million-worth-of-advanced-ai-chip-cbef4949",
+      "url": "/stories/malaysia-seizes-12-million-worth-of-advanced-ai-chip-cbef4949.html",
+      "title": "Malaysia seizes $12 million worth of advanced AI chips hidden inside 30 servers",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-reports-record-q3-results-driven-by-ai-memo-91b3f0ce",
+      "url": "/stories/sk-hynix-reports-record-q3-results-driven-by-ai-memo-91b3f0ce.html",
+      "title": "SK Hynix Reports Record Q3 Results Driven by AI Memory Surge",
+      "tag": "demand",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "u-s-vietnam-semiconductor-cooperation-progress-const-49393e1f",
+      "url": "/stories/u-s-vietnam-semiconductor-cooperation-progress-const-49393e1f.html",
+      "title": "U.S.-Vietnam Semiconductor Cooperation: Progress, Constraints, and Pathways Forward - The National Bureau of Asian Research (NBR)",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "The National Bureau of Asian Research (NBR)",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-is-so-desperate-for-ai-memory-that-it-s-produc-27aea80c",
+      "url": "/stories/china-is-so-desperate-for-ai-memory-that-it-s-produc-27aea80c.html",
+      "title": "China Is So Desperate for AI Memory That It’s Producing Chips With a 70% Failure Rate - Gizmodo",
+      "tag": "demand",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "Gizmodo",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "32gb-ddr5-ram-kit-bought-for-just-110-in-2024-now-li-5f26b0c5",
+      "url": "/stories/32gb-ddr5-ram-kit-bought-for-just-110-in-2024-now-li-5f26b0c5.html",
+      "title": "32GB DDR5 RAM Kit Bought For Just $110 In 2024 Now Listed For Over $1,500, But Cheaper Alternatives Still Exist",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-stock-jumps-nearly-5-toward-1-000-as-sk-hynix-e4cce12e",
+      "url": "/stories/micron-stock-jumps-nearly-5-toward-1-000-as-sk-hynix-e4cce12e.html",
+      "title": "Micron Stock Jumps Nearly 5% Toward $1,000 as SK Hynix Blowout Quarter and Memory Shortage Outlook Fuel Rally - International Business Times Australia",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "International Business Times Australia",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "why-is-ram-so-expensive-now-the-economics-behind-the-e717943b",
+      "url": "/stories/why-is-ram-so-expensive-now-the-economics-behind-the-e717943b.html",
+      "title": "Why Is RAM So Expensive Now? The Economics Behind the Price - HowStuffWorks",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "HowStuffWorks",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-039-s-lip-bu-tan-discusses-possible-amd-cooper-de2f5afd",
+      "url": "/stories/intel-039-s-lip-bu-tan-discusses-possible-amd-cooper-de2f5afd.html",
+      "title": "Intel&#039;s Lip-Bu Tan Discusses Possible AMD Cooperation, Lays Out CPU and Foundry Plans",
+      "tag": "fab",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "full-stack-semiconductor-solutions-for-embodied-ai-0-bec21b66",
+      "url": "/stories/full-stack-semiconductor-solutions-for-embodied-ai-0-bec21b66.html",
+      "title": "Full-Stack Semiconductor Solutions for Embodied AI &#038; Robotics",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-target-bumped-at-wedbush-after-blockbuster-40c6aa09",
+      "url": "/stories/sk-hynix-target-bumped-at-wedbush-after-blockbuster-40c6aa09.html",
+      "title": "SK Hynix target bumped at Wedbush after blockbuster earnings - TradingView",
+      "tag": "earnings",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "micron-shares-track-sk-hynix-as-record-korean-earnin-e1c1dfe0",
+      "url": "/stories/micron-shares-track-sk-hynix-as-record-korean-earnin-e1c1dfe0.html",
+      "title": "Micron Shares Track SK Hynix as Record Korean Earnings Test the 'Linkage' Cramer Hates - BigGo Finance",
+      "tag": "earnings",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "sk-hynix-owned-solidigm-is-plotting-a-new-45-billion-2fb33edf",
+      "url": "/stories/sk-hynix-owned-solidigm-is-plotting-a-new-45-billion-2fb33edf.html",
+      "title": "SK hynix-owned Solidigm is plotting a new $45 billion flash memory factory for the US, report claims",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "sk-hynix-profits-skyrocket-632-percent-what-is-happe-ab022146",
       "url": "/stories/sk-hynix-profits-skyrocket-632-percent-what-is-happe-ab022146.html",
@@ -22,6 +209,17 @@
       "score": 8,
       "pick": false,
       "source": "Fortune",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-s-profit-jumped-632-as-ai-eats-the-world-s-19d5ae06",
+      "url": "/stories/sk-hynix-s-profit-jumped-632-as-ai-eats-the-world-s-19d5ae06.html",
+      "title": "SK Hynix’s Profit Jumped 632% as AI Eats the World’s Memory - 24/7 Wall St.",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "24/7 Wall St.",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -80,6 +278,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "sk-hynix-expects-memory-demand-to-outpace-supply-thr-bb7ec080",
+      "url": "/stories/sk-hynix-expects-memory-demand-to-outpace-supply-thr-bb7ec080.html",
+      "title": "SK hynix Expects Memory Demand to Outpace Supply Through 2030 - TechPowerUp",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "sk-hynix-expects-memory-demand-to-outpace-supply-thr-9f0fb2c2",
       "url": "/stories/sk-hynix-expects-memory-demand-to-outpace-supply-thr-9f0fb2c2.html",
       "title": "SK hynix Expects Memory Demand to Outpace Supply Through 2030",
@@ -89,6 +298,28 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "sk-hynix-hits-record-revenue-as-ai-memory-boom-drive-9e37c0fa",
+      "url": "/stories/sk-hynix-hits-record-revenue-as-ai-memory-boom-drive-9e37c0fa.html",
+      "title": "SK Hynix hits record revenue as AI memory boom drives DRAM prices higher - Proactive financial news",
+      "tag": "earnings",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "Proactive financial news",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "china-s-cxmt-to-press-ahead-with-advanced-ai-memory-fa32d7b4",
+      "url": "/stories/china-s-cxmt-to-press-ahead-with-advanced-ai-memory-fa32d7b4.html",
+      "title": "China's CXMT to press ahead with advanced AI memory production despite low yields - The News International",
+      "tag": "demand",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "The News International",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "standalone-nvidia-vera-cpus-land-in-oracle-cloud-s-m-fde8e0fe",
@@ -122,6 +353,17 @@
       "pick": false,
       "source": "SuaraGarut.ID",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "memory-chip-price-surge-hits-devices-10-000-yuan-lap-907e699b",
+      "url": "/stories/memory-chip-price-surge-hits-devices-10-000-yuan-lap-907e699b.html",
+      "title": "Memory Chip Price Surge Hits Devices: 10,000-Yuan Laptops Become the Norm as the Era of Affordable PCs May End Early - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "sk-hynix-driving-memory-stock-prices-surge-tantrums-137f1ff9",
@@ -176,6 +418,17 @@
       "score": 8,
       "pick": false,
       "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-boasts-80-profit-margin-and-sold-out-orders-6da72439",
+      "url": "/stories/sk-hynix-boasts-80-profit-margin-and-sold-out-orders-6da72439.html",
+      "title": "SK hynix boasts 80% profit margin and sold-out orders for the next three years - 머니투데이",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "머니투데이",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -300,6 +553,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "apple-m6-imac-launches-at-1-499-with-dual-neural-eng-73564663",
+      "url": "/stories/apple-m6-imac-launches-at-1-499-with-dual-neural-eng-73564663.html",
+      "title": "Apple M6 iMac Launches at $1,499 with Dual Neural Engine: Memory Bus Caps AI Gains - Tech Times",
+      "tag": "demand",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "Tech Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "sk-hynix-says-memory-shortages-to-persist-until-2030-2ecd2a52",
       "url": "/stories/sk-hynix-says-memory-shortages-to-persist-until-2030-2ecd2a52.html",
       "title": "SK Hynix says memory shortages to persist until 2030",
@@ -319,6 +583,17 @@
       "score": 8,
       "pick": false,
       "source": "Businesskorea",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-prices-surge-8-fold-in-a-year-hp-asus-and-ace-c6f9a71a",
+      "url": "/stories/memory-prices-surge-8-fold-in-a-year-hp-asus-and-ace-c6f9a71a.html",
+      "title": "Memory Prices Surge 8-Fold in a Year; HP, Asus and Acer Shift Some PC Production Back to China - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -518,6 +793,17 @@
       "pick": false,
       "source": "investingLive",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "chipmaker-sk-hynix-to-return-75-billion-to-sharehold-80c1b310",
+      "url": "/stories/chipmaker-sk-hynix-to-return-75-billion-to-sharehold-80c1b310.html",
+      "title": "Chipmaker SK Hynix to return $75 billion to shareholders after record profit - Reuters",
+      "tag": "supply",
+      "date": "2026-10-27",
+      "score": 8,
+      "pick": false,
+      "source": "Reuters",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "sk-hynix-q3-operating-profit-beats-at-83tn-won-unvei-e85e9a7b",
