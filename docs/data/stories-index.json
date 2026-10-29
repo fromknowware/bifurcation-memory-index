@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-10-28T22:32:54.035Z",
-  "count": 2131,
+  "generatedAt": "2026-10-29T05:44:27.241Z",
+  "count": 2144,
   "stories": [
+    {
+      "slug": "samsung-s-hbm4-sales-triple-as-customers-scramble-to-564a3444",
+      "url": "/stories/samsung-s-hbm4-sales-triple-as-customers-scramble-to-564a3444.html",
+      "title": "Samsung’s HBM4 Sales Triple as Customers Scramble to Secure Memory Chips - Koreabizwire",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Koreabizwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-joins-sk-hynix-and-micron-declaring-ai-memor-2b24bd56",
+      "url": "/stories/samsung-joins-sk-hynix-and-micron-declaring-ai-memor-2b24bd56.html",
+      "title": "Samsung joins SK Hynix and Micron declaring AI memory sold out for years - Startup Fortune",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "Startup Fortune",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "strong-memory-business-powers-samsung-to-record-thir-ddf1debf",
+      "url": "/stories/strong-memory-business-powers-samsung-to-record-thir-ddf1debf.html",
+      "title": "Strong memory business powers Samsung to record third-quarter profit - Telangana Today",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Telangana Today",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-says-memory-shortages-will-get-worse-in-2027-c795eb52",
+      "url": "/stories/samsung-says-memory-shortages-will-get-worse-in-2027-c795eb52.html",
+      "title": "Samsung Says Memory Shortages Will Get Worse in 2027 & Supply Constraints Will Persist Into 2028, Up To 70% Capacity Secured By Long-Term Agreement Customers",
+      "tag": "earnings",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "3rd-ld-samsung-electronics-posts-record-profit-in-q3-6fa53552",
+      "url": "/stories/3rd-ld-samsung-electronics-posts-record-profit-in-q3-6fa53552.html",
+      "title": "(3rd LD) Samsung Electronics posts record profit in Q3, with memory biz on roll amid AI supercycle - Yonhap News Agency",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "Yonhap News Agency",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-says-hbm-demand-doubles-supply-capacity-mkb-fa894d68",
+      "url": "/stories/sk-hynix-says-hbm-demand-doubles-supply-capacity-mkb-fa894d68.html",
+      "title": "SK hynix says HBM demand doubles supply capacity - mkbn.mk.co.kr",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "mkbn.mk.co.kr",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-says-ai-boom-drives-q3-memory-price-surge-si-a3f1f3ae",
+      "url": "/stories/samsung-says-ai-boom-drives-q3-memory-price-surge-si-a3f1f3ae.html",
+      "title": "Samsung says AI boom drives Q3 memory price surge, signals ongoing shortage - Chosunbiz",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sees-ai-chip-shortage-worsening-keeps-invest-a899d6d3",
+      "url": "/stories/samsung-sees-ai-chip-shortage-worsening-keeps-invest-a899d6d3.html",
+      "title": "Samsung sees AI chip shortage worsening, keeps investors in suspense on returns - Reuters",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "Reuters",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-sells-out-memory-through-2029-but-surplus-c-9b921c3f",
+      "url": "/stories/sk-hynix-sells-out-memory-through-2029-but-surplus-c-9b921c3f.html",
+      "title": "SK Hynix Sells Out Memory Through 2029 But Surplus Could Follow - Android Headlines",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "Android Headlines",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "china-s-cxmt-pushes-ahead-with-ai-memory-despite-low-88e0fab8",
       "url": "/stories/china-s-cxmt-pushes-ahead-with-ai-memory-despite-low-88e0fab8.html",
@@ -47,6 +146,17 @@
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
+      "slug": "goldman-sachs-expert-call-warns-dram-shortage-could-9318ba30",
+      "url": "/stories/goldman-sachs-expert-call-warns-dram-shortage-could-9318ba30.html",
+      "title": "Goldman Sachs Expert Call Warns: DRAM Shortage Could Last Until 2028, HBM Average Prices Seen Rising 122% Next Year - BigGo Finance",
+      "tag": "demand",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "chip-stocks-on-the-fly-amd-micron-among-shares-gain-81a209e2",
       "url": "/stories/chip-stocks-on-the-fly-amd-micron-among-shares-gain-81a209e2.html",
       "title": "Chip stocks on the fly! AMD, Micron among shares gain up to 5% as SK Hynix’s earnings boost AI trade - Livemint",
@@ -67,6 +177,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-reports-record-q3-results-driven-by-ai-memo-ff2041c8",
+      "url": "/stories/sk-hynix-reports-record-q3-results-driven-by-ai-memo-ff2041c8.html",
+      "title": "SK Hynix Reports Record Q3 Results Driven by AI Memory Surge - EE Times",
+      "tag": "demand",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "sk-hynix-reports-record-q3-results-driven-by-ai-memo-91b3f0ce",
@@ -155,6 +276,17 @@
       "pick": false,
       "source": "EE Times",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-s-cxmt-pushes-into-ai-memory-chip-production-d-b515ee62",
+      "url": "/stories/china-s-cxmt-pushes-into-ai-memory-chip-production-d-b515ee62.html",
+      "title": "China’s CXMT pushes into AI memory chip production despite major manufacturing challenges - Business Upturn",
+      "tag": "demand",
+      "date": "2026-10-28",
+      "score": 7,
+      "pick": false,
+      "source": "Business Upturn",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "sk-hynix-target-bumped-at-wedbush-after-blockbuster-40c6aa09",
@@ -429,6 +561,17 @@
       "score": 8,
       "pick": false,
       "source": "머니투데이",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "insights-memory-spot-price-update-nand-price-cuts-ac-c23773d2",
+      "url": "/stories/insights-memory-spot-price-update-nand-price-cuts-ac-c23773d2.html",
+      "title": "[Insights] Memory Spot Price Update: NAND Price Cuts Accelerate Amid China Phone Discounts; 512Gb TLC Sink 9.19% - TrendForce",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "TrendForce",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
