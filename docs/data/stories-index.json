@@ -1,7 +1,172 @@
 {
-  "generatedAt": "2026-10-29T05:44:27.241Z",
-  "count": 2144,
+  "generatedAt": "2026-10-29T12:57:00.620Z",
+  "count": 2161,
   "stories": [
+    {
+      "slug": "pr-zhitai-joins-forces-with-phantom-blade-zero-on-co-9e99776d",
+      "url": "/stories/pr-zhitai-joins-forces-with-phantom-blade-zero-on-co-9e99776d.html",
+      "title": "(PR) ZHITAI Joins Forces with Phantom Blade Zero on Collaboration SSD Gift Box",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "score-a-huge-1-250-saving-on-this-alienware-gaming-p-57300a65",
+      "url": "/stories/score-a-huge-1-250-saving-on-this-alienware-gaming-p-57300a65.html",
+      "title": "Score a huge $1,250 saving on this Alienware gaming PC with an RTX 5070 Ti and 32GB DDR5 right now — big Newegg price drop means you can grab this 4K-ready rig with a 24-core Intel CPU and 1TB SSD for $2,599.99",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sees-memory-supply-tight-through-2028-as-202-d79cfade",
+      "url": "/stories/samsung-sees-memory-supply-tight-through-2028-as-202-d79cfade.html",
+      "title": "Samsung sees memory supply tight through 2028 as 2027 HBM sells out - KED Global",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "KED Global",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "former-intel-ceo-patrick-gelsinger-backs-breakthroug-40770c30",
+      "url": "/stories/former-intel-ceo-patrick-gelsinger-backs-breakthroug-40770c30.html",
+      "title": "Former Intel CEO Patrick Gelsinger Backs Breakthrough New Memory Technology That Could Resolve Big AI Chip Bottleneck",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "fujifilm-plans-5x-production-boost-of-100tb-magnetic-acc143ee",
+      "url": "/stories/fujifilm-plans-5x-production-boost-of-100tb-magnetic-acc143ee.html",
+      "title": "Fujifilm plans 5x production boost of 100TB magnetic storage tapes driven by skyrocketing AI storage demand — $63 million injection is the largest investment in tape for 20 years",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "save-234-on-32gb-of-ddr5-ram-with-this-3-item-am5-ne-db856241",
+      "url": "/stories/save-234-on-32gb-of-ddr5-ram-with-this-3-item-am5-ne-db856241.html",
+      "title": "Save $234 on 32GB of DDR5 RAM with this 3-item AM5 Newegg bundle",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-warns-global-memory-chip-shortage-won-t-end-6d63765c",
+      "url": "/stories/sk-hynix-warns-global-memory-chip-shortage-won-t-end-6d63765c.html",
+      "title": "SK Hynix Warns Global Memory Chip Shortage Won’t End Anytime Soon - ProPakistani",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "ProPakistani",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "github-says-massive-influx-of-ai-generated-code-requ-47a7b34b",
+      "url": "/stories/github-says-massive-influx-of-ai-generated-code-requ-47a7b34b.html",
+      "title": "GitHub says massive influx of AI-generated code required extra 4 million CPU cores and 160 petabytes of storage to manage",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "patriot-viper-xtreme-5-32-gb-ddr5-ram-price-surges-1-3f7bedd5",
+      "url": "/stories/patriot-viper-xtreme-5-32-gb-ddr5-ram-price-surges-1-3f7bedd5.html",
+      "title": "Patriot Viper Xtreme 5 32 GB DDR5 RAM Price Surges 1,285% to Over $1,500 - eTeknix",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "eTeknix",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hpe-puts-storage-to-work-on-ai-s-expensive-memory-pr-251a3ec4",
+      "url": "/stories/hpe-puts-storage-to-work-on-ai-s-expensive-memory-pr-251a3ec4.html",
+      "title": "HPE puts storage to work on AI’s expensive memory problem",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-stock-plunges-after-earnings-dragging-micron-51a22e75",
+      "url": "/stories/samsung-stock-plunges-after-earnings-dragging-micron-51a22e75.html",
+      "title": "Samsung Stock Plunges After Earnings, Dragging Micron, SanDisk, and Western Digital Down Over 3% Pre-Market as Market Focuses on SanDisk Earnings - TradingKey",
+      "tag": "earnings",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "how-ai-redefines-semiconductor-manufacturing-from-ma-2bbea388",
+      "url": "/stories/how-ai-redefines-semiconductor-manufacturing-from-ma-2bbea388.html",
+      "title": "How AI Redefines Semiconductor Manufacturing, From Materials Up",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "analysis-samsung-s-record-quarter-came-from-higher-p-f9b0ba4b",
+      "url": "/stories/analysis-samsung-s-record-quarter-came-from-higher-p-f9b0ba4b.html",
+      "title": "Analysis: Samsung's record quarter came from higher prices, not more chips; expects buyers to get no relief before 2028 - digitimes",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "digitimes",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "tsmc-to-commence-a14-process-node-mass-production-in-1a3ba91d",
+      "url": "/stories/tsmc-to-commence-a14-process-node-mass-production-in-1a3ba91d.html",
+      "title": "TSMC To Commence A14 Process Node Mass Production in the First Half of 2028, Eyeing a 7.5x Capacity Versus Intel’s 14A and Scaling SRAM After Almost A Decade",
+      "tag": "fab",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "samsung-raises-2026-chip-capex-to-76-8-trillion-as-a-ede2b329",
+      "url": "/stories/samsung-raises-2026-chip-capex-to-76-8-trillion-as-a-ede2b329.html",
+      "title": "Samsung raises 2026 chip capex to ₩76.8 trillion as AI memory demand surges - Crypto Briefing",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "Crypto Briefing",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "samsung-s-hbm4-sales-triple-as-customers-scramble-to-564a3444",
       "url": "/stories/samsung-s-hbm4-sales-triple-as-customers-scramble-to-564a3444.html",
@@ -78,6 +243,17 @@
       "pick": false,
       "source": "Chosunbiz",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sees-ai-chip-shortage-worsening-keeps-invest-67946800",
+      "url": "/stories/samsung-sees-ai-chip-shortage-worsening-keeps-invest-67946800.html",
+      "title": "Samsung sees AI chip shortage worsening, keeps investors in suspense on returns - The Business Times",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "The Business Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "samsung-sees-ai-chip-shortage-worsening-keeps-invest-a899d6d3",
@@ -221,6 +397,17 @@
       "pick": false,
       "source": "Gizmodo",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-rolls-out-75b-shareholder-return-plan-the-m-fd70045d",
+      "url": "/stories/sk-hynix-rolls-out-75b-shareholder-return-plan-the-m-fd70045d.html",
+      "title": "SK Hynix rolls out $75B shareholder return plan - The Manila Times",
+      "tag": "supply",
+      "date": "2026-10-28",
+      "score": 8,
+      "pick": false,
+      "source": "The Manila Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "32gb-ddr5-ram-kit-bought-for-just-110-in-2024-now-li-5f26b0c5",
