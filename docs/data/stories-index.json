@@ -1,7 +1,205 @@
 {
-  "generatedAt": "2026-10-29T12:57:00.620Z",
-  "count": 2161,
+  "generatedAt": "2026-10-29T22:43:17.027Z",
+  "count": 2181,
   "stories": [
+    {
+      "slug": "intel-s-data-center-business-is-now-almost-as-big-as-d007ae16",
+      "url": "/stories/intel-s-data-center-business-is-now-almost-as-big-as-d007ae16.html",
+      "title": "Intel’s Data Center Business Is Now Almost As Big As Its PC Division After A 78% Surge, While Q4 Guidance Hints At Softer Revenue And Thinner Margins",
+      "tag": "earnings",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "intel-confirms-nova-lake-will-use-advanced-18a-p-nod-6d9d275a",
+      "url": "/stories/intel-confirms-nova-lake-will-use-advanced-18a-p-nod-6d9d275a.html",
+      "title": "Intel confirms Nova Lake will use advanced 18A-P node, more details at CES — company says it's taking Panther Lake capacity offline to build more Granite Rapids data center CPUs",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "furiosaai-secures-620m-series-d-to-meet-ai-inference-ddf322cf",
+      "url": "/stories/furiosaai-secures-620m-series-d-to-meet-ai-inference-ddf322cf.html",
+      "title": "FuriosaAI Secures $620M Series D to Meet AI Inference Demand and Accelerate Next-Gen Silicon",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dell-pro-max-tower-t2-with-an-rtx-pro-6000-costs-13-0090f7d0",
+      "url": "/stories/dell-pro-max-tower-t2-with-an-rtx-pro-6000-costs-13-0090f7d0.html",
+      "title": "Dell Pro Max Tower T2 With An RTX PRO 6000 Costs $13,395 After Tax, Roughly $2,000 Less Than NVIDIA’s $16,000 Workstation GPU Alone",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pr-sandisk-reports-fiscal-first-quarter-2027-financi-d817dc0f",
+      "url": "/stories/pr-sandisk-reports-fiscal-first-quarter-2027-financi-d817dc0f.html",
+      "title": "(PR) Sandisk Reports Fiscal First Quarter 2027 Financial Results",
+      "tag": "earnings",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "sandisk-and-micron-slide-5-as-samsung-miss-cools-mem-8b5822aa",
+      "url": "/stories/sandisk-and-micron-slide-5-as-samsung-miss-cools-mem-8b5822aa.html",
+      "title": "Sandisk and Micron Slide 5% as Samsung Miss Cools Memory Rally Ahead of Sandisk Earnings; SK Hynix Falls 3%, Western Digital Dips - 24/7 Wall St.",
+      "tag": "earnings",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "ddr5-ram-prices-skyrocket-761-in-a-year-in-japan-as-060e8c57",
+      "url": "/stories/ddr5-ram-prices-skyrocket-761-in-a-year-in-japan-as-060e8c57.html",
+      "title": "DDR5 RAM Prices Skyrocket 761% In A Year In Japan, As 128 GB Corsair Kit Now Costs As Much As A High-End Gaming PC",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "solidigm-considers-45-billion-investment-in-u-s-nand-b0ae6627",
+      "url": "/stories/solidigm-considers-45-billion-investment-in-u-s-nand-b0ae6627.html",
+      "title": "Solidigm Considers $45 Billion Investment in U.S. NAND Flash Manufacturing",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sandisk-and-micron-slide-5-as-samsung-miss-cools-mem-758070db",
+      "url": "/stories/sandisk-and-micron-slide-5-as-samsung-miss-cools-mem-758070db.html",
+      "title": "Sandisk and Micron Slide 5% as Samsung Miss Cools Memory Rally Ahead of Sandisk Earnings; SK Hynix Falls 3%, Western Digital Dips - Yahoo Finance",
+      "tag": "earnings",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "Yahoo Finance",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "synopsys-joins-singapore-consortium-to-improve-tropi-defe522c",
+      "url": "/stories/synopsys-joins-singapore-consortium-to-improve-tropi-defe522c.html",
+      "title": "Synopsys Joins Singapore Consortium to Improve Tropical Data Center Cooling",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-develops-custom-hbm-to-boost-ai-memory-spee-627209ed",
+      "url": "/stories/sk-hynix-develops-custom-hbm-to-boost-ai-memory-spee-627209ed.html",
+      "title": "SK Hynix Develops Custom HBM to Boost AI Memory Speed, Capacity - 조선일보",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "rival-io-launches-graphx-running-deepseek-v4-flash-o-0256c574",
+      "url": "/stories/rival-io-launches-graphx-running-deepseek-v4-flash-o-0256c574.html",
+      "title": "Rival.io Launches GraphX, Running DeepSeek V4 Flash on Just 8 NVIDIA L4 GPUs",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "south-korea-s-sk-hynix-price-target-raised-to-3-7-mi-0c348917",
+      "url": "/stories/south-korea-s-sk-hynix-price-target-raised-to-3-7-mi-0c348917.html",
+      "title": "South Korea's SK Hynix Price Target Raised to 3.7 Million Won on \"DRAM, HBM Sold Out Through 2029\" - BigGo Finance",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-warns-memory-chip-shortage-could-persist-thr-408574bd",
+      "url": "/stories/samsung-warns-memory-chip-shortage-could-persist-thr-408574bd.html",
+      "title": "Samsung Warns Memory Chip Shortage Could Persist Through 2028 - Hungarian Conservative",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Hungarian Conservative",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-electronics-posts-80b-operating-profit-on-ai-da61ea19",
+      "url": "/stories/samsung-electronics-posts-80b-operating-profit-on-ai-da61ea19.html",
+      "title": "Samsung Electronics Posts $80B Operating Profit on AI Memory Demand",
+      "tag": "earnings",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "samsung-raises-spending-to-60-after-ai-chips-sell-ou-5ce8a435",
+      "url": "/stories/samsung-raises-spending-to-60-after-ai-chips-sell-ou-5ce8a435.html",
+      "title": "Samsung raises spending to 60% after AI chips sell out - Taipei Times",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Taipei Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "elon-musk-s-spacex-buying-out-418-homes-near-flagshi-c0b4a3aa",
+      "url": "/stories/elon-musk-s-spacex-buying-out-418-homes-near-flagshi-c0b4a3aa.html",
+      "title": "Elon Musk's SpaceX buying out 418 homes near flagship AI data center, but only if they drop participation in lawsuit",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "does-ultra-low-latency-ddr5-launch-change-the-bull-c-f896d748",
+      "url": "/stories/does-ultra-low-latency-ddr5-launch-change-the-bull-c-f896d748.html",
+      "title": "Does Ultra Low Latency DDR5 Launch Change The Bull Case For Netlist (NLST)? - Simply Wall St",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Simply Wall St",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "pr-zhitai-joins-forces-with-phantom-blade-zero-on-co-9e99776d",
       "url": "/stories/pr-zhitai-joins-forces-with-phantom-blade-zero-on-co-9e99776d.html",
@@ -168,6 +366,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "samsung-electronics-says-memory-demand-keeps-rising-acfaa622",
+      "url": "/stories/samsung-electronics-says-memory-demand-keeps-rising-acfaa622.html",
+      "title": "Samsung Electronics says memory demand keeps rising, HBM4 sales triple - 디지털투데이",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "디지털투데이",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "samsung-s-hbm4-sales-triple-as-customers-scramble-to-564a3444",
       "url": "/stories/samsung-s-hbm4-sales-triple-as-customers-scramble-to-564a3444.html",
       "title": "Samsung’s HBM4 Sales Triple as Customers Scramble to Secure Memory Chips - Koreabizwire",
@@ -220,6 +429,17 @@
       "score": 7,
       "pick": false,
       "source": "Yonhap News Agency",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sk-hynix-says-hbm-demand-doubles-supply-capacity-35cb5ac1",
+      "url": "/stories/sk-hynix-says-hbm-demand-doubles-supply-capacity-35cb5ac1.html",
+      "title": "SK hynix says HBM demand doubles supply capacity - 매일경제",
+      "tag": "demand",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "매일경제",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
