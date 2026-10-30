@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-10-30T05:44:18.599Z",
-  "count": 2188,
+  "generatedAt": "2026-10-30T12:51:03.038Z",
+  "count": 2204,
   "stories": [
+    {
+      "slug": "radeon-rx-9000-series-cards-will-likely-cost-more-wi-b15c83f8",
+      "url": "/stories/radeon-rx-9000-series-cards-will-likely-cost-more-wi-b15c83f8.html",
+      "title": "Radeon RX 9000 Series Cards Will Likely Cost More Within Weeks As AMD Hikes GPU-Memory Bundle Prices For Board Partners In November",
+      "tag": "supply",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-s-ai-chip-boom-why-record-profits-failed-to-d9e06fb8",
+      "url": "/stories/samsung-s-ai-chip-boom-why-record-profits-failed-to-d9e06fb8.html",
+      "title": "Samsung’s AI chip boom: Why record profits failed to impress investors - The Financial Express",
+      "tag": "demand",
+      "date": "2026-10-30",
+      "score": 7,
+      "pick": false,
+      "source": "The Financial Express",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "rtx-5080-is-the-next-gpu-to-disappear-from-nvidia-s-235787d3",
+      "url": "/stories/rtx-5080-is-the-next-gpu-to-disappear-from-nvidia-s-235787d3.html",
+      "title": "RTX 5080 Is The Next GPU To Disappear From NVIDIA’s Online Marketplace Following Reports That A 24GB VRAM Variant Is Arriving Soon",
+      "tag": "demand",
+      "date": "2026-10-30",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "5-years-worth-of-salary-in-bonuses-given-to-700-elig-fccea65a",
+      "url": "/stories/5-years-worth-of-salary-in-bonuses-given-to-700-elig-fccea65a.html",
+      "title": "5 years’ worth of salary in bonuses given to 700 eligible Micron workers as company continues to battle union",
+      "tag": "supply",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-leaker-reveals-moon-lake-chip-as-a-likely-repl-72e6d2dd",
+      "url": "/stories/intel-leaker-reveals-moon-lake-chip-as-a-likely-repl-72e6d2dd.html",
+      "title": "Intel leaker reveals Moon Lake chip as a likely replacement for N-series SoCs",
+      "tag": "supply",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "phones-laptops-and-consoles-get-costlier-over-memory-4e265b0b",
+      "url": "/stories/phones-laptops-and-consoles-get-costlier-over-memory-4e265b0b.html",
+      "title": "Phones, laptops and consoles get costlier over memory price hike; OpenAI CEO Sam Altman to gadget buyers: - The Times of India",
+      "tag": "demand",
+      "date": "2026-10-30",
+      "score": 7,
+      "pick": false,
+      "source": "The Times of India",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-turned-a-profit-as-ai-lifted-dram-prices-finimi-fd356057",
+      "url": "/stories/cxmt-turned-a-profit-as-ai-lifted-dram-prices-finimi-fd356057.html",
+      "title": "CXMT Turned A Profit As AI Lifted DRAM Prices - Finimize",
+      "tag": "supply",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "Finimize",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "benchmarking-nvidia-s-vera-cpu-for-the-data-center-s-70dcb935",
+      "url": "/stories/benchmarking-nvidia-s-vera-cpu-for-the-data-center-s-70dcb935.html",
+      "title": "Benchmarking Nvidia’s Vera CPU for the data center — standalone Vera tested against Granite Rapids-AP and EPYC Turin",
+      "tag": "demand",
+      "date": "2026-10-30",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dram-prices-reach-new-record-in-october-businesskore-cd848e9c",
+      "url": "/stories/dram-prices-reach-new-record-in-october-businesskore-cd848e9c.html",
+      "title": "DRAM Prices Reach New Record in October - Businesskorea",
+      "tag": "supply",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "google-hit-with-criminal-probe-over-unapproved-ai-da-bbebb8e1",
+      "url": "/stories/google-hit-with-criminal-probe-over-unapproved-ai-da-bbebb8e1.html",
+      "title": "Google hit with criminal probe over unapproved AI data center deforestation",
+      "tag": "demand",
+      "date": "2026-10-30",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "deadly-intel-fab-28-explosion-causes-two-week-shutdo-86f8f7a7",
+      "url": "/stories/deadly-intel-fab-28-explosion-causes-two-week-shutdo-86f8f7a7.html",
+      "title": "Deadly Intel Fab 28 explosion causes two-week shutdown, to cost $600 million and severely disrupt server chip manufacturing for six months",
+      "tag": "fab",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ai-server-shift-drives-dram-to-record-as-nand-rally-107bddcc",
+      "url": "/stories/ai-server-shift-drives-dram-to-record-as-nand-rally-107bddcc.html",
+      "title": "Ai server shift drives DRAM to record as NAND rally stalls after 21 months - Chosunbiz",
+      "tag": "demand",
+      "date": "2026-10-30",
+      "score": 7,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-gpu-d270-dumps-hbm-for-laptop-ram-air-cooled-i-e7937fbf",
+      "url": "/stories/intel-gpu-d270-dumps-hbm-for-laptop-ram-air-cooled-i-e7937fbf.html",
+      "title": "Intel GPU D270 Dumps HBM for Laptop RAM; Air-Cooled Inference Card Validated by $7.3B Quarter - Tech Times",
+      "tag": "demand",
+      "date": "2026-10-30",
+      "score": 7,
+      "pick": false,
+      "source": "Tech Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-warns-memory-chip-shortage-will-worsen-in-20-52af5a01",
+      "url": "/stories/samsung-warns-memory-chip-shortage-will-worsen-in-20-52af5a01.html",
+      "title": "Samsung warns memory chip shortage will worsen in 2027, expects tight supply till 2028 - India Today",
+      "tag": "supply",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "India Today",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "sk-hynix-expresses-concerns-over-its-stock-price-eu-149338be",
       "url": "/stories/sk-hynix-expresses-concerns-over-its-stock-price-eu-149338be.html",
@@ -11,6 +165,17 @@
       "score": 8,
       "pick": false,
       "source": "eu.36kr.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "japan-ddr5-memory-prices-surge-more-than-60-in-three-a60626b2",
+      "url": "/stories/japan-ddr5-memory-prices-surge-more-than-60-in-three-a60626b2.html",
+      "title": "Japan DDR5 Memory Prices Surge More Than 60% in Three Months; a Single 128GB Kit Now Costs as Much as a High-End Gaming PC - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -221,6 +386,17 @@
       "pick": false,
       "source": "EE Times",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "why-are-micron-sk-hynix-and-sandisk-stocks-falling-o-20fd285b",
+      "url": "/stories/why-are-micron-sk-hynix-and-sandisk-stocks-falling-o-20fd285b.html",
+      "title": "Why are Micron, SK Hynix and SanDisk stocks falling on Thursday? - Invezz",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Invezz",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "samsung-raises-spending-to-60-after-ai-chips-sell-ou-5ce8a435",
