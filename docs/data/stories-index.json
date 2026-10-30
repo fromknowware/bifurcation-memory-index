@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-29T22:43:17.027Z",
-  "count": 2181,
+  "generatedAt": "2026-10-30T05:44:18.599Z",
+  "count": 2188,
   "stories": [
+    {
+      "slug": "sk-hynix-expresses-concerns-over-its-stock-price-eu-149338be",
+      "url": "/stories/sk-hynix-expresses-concerns-over-its-stock-price-eu-149338be.html",
+      "title": "SK Hynix Expresses Concerns Over Its Stock Price - eu.36kr.com",
+      "tag": "supply",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "eu.36kr.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pc-chip-plunge-wipes-out-a-quarter-of-intel-s-value-e035d07a",
+      "url": "/stories/pc-chip-plunge-wipes-out-a-quarter-of-intel-s-value-e035d07a.html",
+      "title": "PC chip plunge wipes out a quarter of Intel’s value",
+      "tag": "supply",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "tsmc-co-coo-y-p-chyn-says-longer-hours-don-t-improve-4f78dc04",
+      "url": "/stories/tsmc-co-coo-y-p-chyn-says-longer-hours-don-t-improve-4f78dc04.html",
+      "title": "TSMC Co-COO Y.P. Chyn Says Longer Hours Don’t Improve R&D, Recalling The Company’s 24-Hour “Night Owl” Program That Failed In Just 6 Months",
+      "tag": "fab",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "sk-hynix-breaks-ground-on-4b-hbm-memory-facility-in-9d94084b",
+      "url": "/stories/sk-hynix-breaks-ground-on-4b-hbm-memory-facility-in-9d94084b.html",
+      "title": "SK Hynix breaks ground on $4B HBM memory facility in Indiana for AI - Crypto Briefing",
+      "tag": "demand",
+      "date": "2026-10-30",
+      "score": 7,
+      "pick": false,
+      "source": "Crypto Briefing",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "intel-s-data-center-business-is-now-almost-as-big-as-d007ae16",
       "url": "/stories/intel-s-data-center-business-is-now-almost-as-big-as-d007ae16.html",
@@ -23,6 +67,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-shares-plunge-as-memory-crunch-hits-pc-chip-de-74824e21",
+      "url": "/stories/intel-shares-plunge-as-memory-crunch-hits-pc-chip-de-74824e21.html",
+      "title": "Intel Shares Plunge as Memory Crunch Hits PC Chip Demand - Seoul Economic Daily",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "furiosaai-secures-620m-series-d-to-meet-ai-inference-ddf322cf",
@@ -190,6 +245,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "micron-shares-fall-2-6-as-samsung-earnings-miss-fore-979df250",
+      "url": "/stories/micron-shares-fall-2-6-as-samsung-earnings-miss-fore-979df250.html",
+      "title": "Micron Shares Fall 2.6% as Samsung Earnings Miss Forecasts Despite Record Chip Profits - Yahoo Finance",
+      "tag": "earnings",
+      "date": "2026-10-29",
+      "score": 7,
+      "pick": false,
+      "source": "Yahoo Finance",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
       "slug": "does-ultra-low-latency-ddr5-launch-change-the-bull-c-f896d748",
       "url": "/stories/does-ultra-low-latency-ddr5-launch-change-the-bull-c-f896d748.html",
       "title": "Does Ultra Low Latency DDR5 Launch Change The Bull Case For Netlist (NLST)? - Simply Wall St",
@@ -198,6 +264,17 @@
       "score": 8,
       "pick": false,
       "source": "Simply Wall St",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-s-hbm4-sales-triple-as-it-closes-gap-with-sk-7082bd3e",
+      "url": "/stories/samsung-s-hbm4-sales-triple-as-it-closes-gap-with-sk-7082bd3e.html",
+      "title": "Samsung’s HBM4 sales triple as it closes gap with SK Hynix - Sammy Fans",
+      "tag": "supply",
+      "date": "2026-10-29",
+      "score": 8,
+      "pick": false,
+      "source": "Sammy Fans",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
