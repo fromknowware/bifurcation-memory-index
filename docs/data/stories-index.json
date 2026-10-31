@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-10-30T22:16:05.598Z",
-  "count": 2217,
+  "generatedAt": "2026-10-31T05:36:46.286Z",
+  "count": 2225,
   "stories": [
+    {
+      "slug": "sam-altman-says-your-pc-s-ram-is-a-quite-terrible-us-44e7a0fe",
+      "url": "/stories/sam-altman-says-your-pc-s-ram-is-a-quite-terrible-us-44e7a0fe.html",
+      "title": "Sam Altman says your PC's RAM is a 'quite terrible' use of the world's limited DRAM supply - TweakTown",
+      "tag": "supply",
+      "date": "2026-10-31",
+      "score": 8,
+      "pick": false,
+      "source": "TweakTown",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "japan-s-ddr5-prices-have-jumped-as-much-as-761-in-a-d9ef85b1",
+      "url": "/stories/japan-s-ddr5-prices-have-jumped-as-much-as-761-in-a-d9ef85b1.html",
+      "title": "Japan's DDR5 prices have jumped as much as 761% in a year, with one 128GB kit now costing $3,300 - TweakTown",
+      "tag": "supply",
+      "date": "2026-10-31",
+      "score": 8,
+      "pick": false,
+      "source": "TweakTown",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-prices-rise-10-15-in-q4-ddr5-kit-hits-450-2026-fb28b6ea",
+      "url": "/stories/dram-prices-rise-10-15-in-q4-ddr5-kit-hits-450-2026-fb28b6ea.html",
+      "title": "DRAM Prices Rise 10-15% in Q4; DDR5 Kit Hits $450 [2026] - shattered.io",
+      "tag": "supply",
+      "date": "2026-10-31",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-hits-record-as-nand-ends-21-month-climb-2026-ht-c2fd6c9b",
+      "url": "/stories/dram-hits-record-as-nand-ends-21-month-climb-2026-ht-c2fd6c9b.html",
+      "title": "DRAM Hits Record as NAND Ends 21-Month Climb [2026] - https://tech-insider.org/",
+      "tag": "supply",
+      "date": "2026-10-31",
+      "score": 8,
+      "pick": false,
+      "source": "https://tech-insider.org/",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-data-center-revenue-jumps-78-but-weak-q4-guida-b660d6af",
+      "url": "/stories/intel-data-center-revenue-jumps-78-but-weak-q4-guida-b660d6af.html",
+      "title": "Intel Data Center Revenue Jumps 78%, but Weak Q4 Guidance Drags Stock Down 30%",
+      "tag": "earnings",
+      "date": "2026-10-31",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "intel-q3-2026-earnings-data-center-soars-while-pc-fa-72be49fa",
+      "url": "/stories/intel-q3-2026-earnings-data-center-soars-while-pc-fa-72be49fa.html",
+      "title": "Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure",
+      "tag": "earnings",
+      "date": "2026-10-30",
+      "score": 7,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "sam-altman-calls-low-use-pc-ram-a-terrible-allocatio-53862870",
+      "url": "/stories/sam-altman-calls-low-use-pc-ram-a-terrible-allocatio-53862870.html",
+      "title": "Sam Altman Calls Low-Use PC RAM a ‘Terrible’ Allocation - Insider Gaming",
+      "tag": "supply",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "Insider Gaming",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "pr-fujifilm-to-increase-production-capacity-by-5x-fo-80c956b9",
       "url": "/stories/pr-fujifilm-to-increase-production-capacity-by-5x-fo-80c956b9.html",
@@ -88,6 +165,17 @@
       "score": 8,
       "pick": false,
       "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-s-hard-negotiation-tactics-with-nand-memory-su-dd26a883",
+      "url": "/stories/apple-s-hard-negotiation-tactics-with-nand-memory-su-dd26a883.html",
+      "title": "Apple’s hard negotiation tactics with NAND memory suppliers may have come back to bite it in the butt - MacTech.com",
+      "tag": "supply",
+      "date": "2026-10-30",
+      "score": 8,
+      "pick": false,
+      "source": "MacTech.com",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
