@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-10-31T12:23:06.244Z",
-  "count": 2230,
+  "generatedAt": "2026-10-31T21:31:10.344Z",
+  "count": 2238,
   "stories": [
+    {
+      "slug": "why-is-micron-technology-nasdaq-mu-central-to-the-me-3e8db330",
+      "url": "/stories/why-is-micron-technology-nasdaq-mu-central-to-the-me-3e8db330.html",
+      "title": "Why Is Micron Technology (NASDAQ:MU) Central to the Memory Chip Conversation? - Kalkine Media",
+      "tag": "supply",
+      "date": "2026-10-31",
+      "score": 8,
+      "pick": false,
+      "source": "Kalkine Media",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-s-iluvatar-corex-claims-its-tiangai-300-gpu-be-e66546fc",
+      "url": "/stories/china-s-iluvatar-corex-claims-its-tiangai-300-gpu-be-e66546fc.html",
+      "title": "China’s Iluvatar CoreX Claims Its Tiangai 300 GPU Beats NVIDIA’s H200 In Its Own Live Demo, But The Only Outside Test Shows Just A 5% Lead",
+      "tag": "earnings",
+      "date": "2026-10-31",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "new-nvidia-uefi-gpu-unlocker-brings-up-to-75-higher-eacea13b",
+      "url": "/stories/new-nvidia-uefi-gpu-unlocker-brings-up-to-75-higher-eacea13b.html",
+      "title": "New NVIDIA UEFI GPU Unlocker Brings Up To 75% Higher AI Compute Performance To RTX 20, 30 & 40 Series GPUs On Windows",
+      "tag": "demand",
+      "date": "2026-10-31",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "openai-ceo-argues-home-pcs-waste-the-world-s-limited-c12693fd",
+      "url": "/stories/openai-ceo-argues-home-pcs-waste-the-world-s-limited-c12693fd.html",
+      "title": "OpenAI CEO Argues Home PCs Waste the World's Limited DRAM Supply - TechPowerUp",
+      "tag": "supply",
+      "date": "2026-10-31",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "openai-ceo-argues-home-pcs-waste-the-world-039-s-lim-c4bd038d",
+      "url": "/stories/openai-ceo-argues-home-pcs-waste-the-world-039-s-lim-c4bd038d.html",
+      "title": "OpenAI CEO Argues Home PCs Waste the World&#039;s Limited DRAM Supply",
+      "tag": "demand",
+      "date": "2026-10-31",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-shifts-production-capacity-from-consumer-to-se-6264dbe2",
+      "url": "/stories/intel-shifts-production-capacity-from-consumer-to-se-6264dbe2.html",
+      "title": "Intel shifts production capacity from consumer to server CPUs in face of 'unprecedented' AI demand",
+      "tag": "demand",
+      "date": "2026-10-31",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ai-is-driving-up-memory-prices-so-why-is-sam-altman-944c0acd",
+      "url": "/stories/ai-is-driving-up-memory-prices-so-why-is-sam-altman-944c0acd.html",
+      "title": "AI is driving up memory prices. So why is Sam Altman questioning your PC's RAM? - The Economic Times",
+      "tag": "supply",
+      "date": "2026-10-31",
+      "score": 8,
+      "pick": false,
+      "source": "The Economic Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "sam-altman-calls-pc-ram-a-quite-terrible-use-of-limi-2f72d316",
       "url": "/stories/sam-altman-calls-pc-ram-a-quite-terrible-use-of-limi-2f72d316.html",
@@ -33,6 +110,17 @@
       "score": 8,
       "pick": false,
       "source": "https://tech-insider.org/",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-reportedly-may-raise-gpu-and-gddr6-kit-prices-ag-a9acbc00",
+      "url": "/stories/amd-reportedly-may-raise-gpu-and-gddr6-kit-prices-ag-a9acbc00.html",
+      "title": "AMD Reportedly May Raise GPU and GDDR6 Kit Prices Again in November as Memory Costs Climb - XenoSpectrum",
+      "tag": "supply",
+      "date": "2026-10-31",
+      "score": 8,
+      "pick": false,
+      "source": "XenoSpectrum",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
