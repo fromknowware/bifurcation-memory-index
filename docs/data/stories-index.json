@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-01T13:18:12.412Z",
-  "count": 2241,
+  "generatedAt": "2026-11-01T21:59:39.190Z",
+  "count": 2246,
   "stories": [
+    {
+      "slug": "memory-semiconductor-lta-samsung-and-sk-hynix-sold-o-b5e02150",
+      "url": "/stories/memory-semiconductor-lta-samsung-and-sk-hynix-sold-o-b5e02150.html",
+      "title": "memory semiconductor LTA — Samsung and SK Hynix Sold Out Until 2029 Amid AI Boom - The Korea Daily",
+      "tag": "supply",
+      "date": "2026-11-01",
+      "score": 8,
+      "pick": false,
+      "source": "The Korea Daily",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "g-skill-32-gb-ddr5-now-costs-156-when-purchased-with-4e4cea92",
+      "url": "/stories/g-skill-32-gb-ddr5-now-costs-156-when-purchased-with-4e4cea92.html",
+      "title": "G.Skill 32 GB DDR5 Now Costs $156 When Purchased With Ryzen 9850X3D And B850 Motherboard Bundle",
+      "tag": "supply",
+      "date": "2026-11-01",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "biwin-m560-2tb-ssd-review-the-dram-less-drive-to-bea-69bff370",
+      "url": "/stories/biwin-m560-2tb-ssd-review-the-dram-less-drive-to-bea-69bff370.html",
+      "title": "Biwin M560 2TB SSD Review: The DRAM-less drive to beat",
+      "tag": "earnings",
+      "date": "2026-11-01",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "sam-altman-meets-with-samsung-leadership-to-secure-m-88460e4e",
+      "url": "/stories/sam-altman-meets-with-samsung-leadership-to-secure-m-88460e4e.html",
+      "title": "Sam Altman meets with Samsung leadership to secure more RAM for data centers amid crushing shortages",
+      "tag": "supply",
+      "date": "2026-11-01",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "open-source-usb-tool-unlocks-nvidia-s-half-speed-gpu-d6db229e",
+      "url": "/stories/open-source-usb-tool-unlocks-nvidia-s-half-speed-gpu-d6db229e.html",
+      "title": "Open-source USB tool unlocks Nvidia's half-speed GPU AI limiter on Windows",
+      "tag": "demand",
+      "date": "2026-11-01",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "nvidia-is-reportedly-eyeing-teflon-the-non-stick-coo-16594e98",
       "url": "/stories/nvidia-is-reportedly-eyeing-teflon-the-non-stick-coo-16594e98.html",
