@@ -5,11 +5,24 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-10-31T21:31:07.877Z</updated>
+  <updated>2026-11-01T05:58:38.680Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.servethehome.com/nvidia-updates-rubin-gpu-specs-as-first-production-hardware-arrives/</id>
+    <title type="html">NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives</title>
+    <link href="https://www.servethehome.com/nvidia-updates-rubin-gpu-specs-as-first-production-hardware-arrives/" />
+    <link rel="related" href="/stories/nvidia-updates-rubin-gpu-specs-as-first-production-h-df3b791e.html" />
+    <updated>2026-11-01T03:00:28.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <summary type="html">As production hardware starts shipping, NVIDIA has updated some of the specifications for its Rubin GPU platforms The post NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives appeared first on ServeTheHome . RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;As production hardware starts shipping, NVIDIA has updated some of the specifications for its Rubin GPU platforms The post NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUWluRjNrTGZVUXZqUGlJM3pweGt1VHJRUEdldEs1X1h1d2hyVktSQk9xYjlJS1FWYi1LYnNWMGRyeHFEekNfS2tRVmtuY0NrLXFvQlBkOF93WDVvQ3lnVUpuaW1aNGZEWHlQb1ZSSmx6WllocjczaXlFOVdaRFpVTEdfUzNtOUctMXBNaXVYSFdTeEI4Z1I1ZGdYaUV1NmRLRUNORkp2OXdmd08yalBxSnF1NlVlMFQtM1dN?oc=5</id>
     <title type="html">Why Is Micron Technology (NASDAQ:MU) Central to the Memory Chip Conversation? - Kalkine Media</title>
@@ -21,7 +34,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Why Is Micron Technology (NASDAQ:MU) Central to the Memory Chip Conversation? Kalkine Media&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Why Is Micron Technology (NASDAQ:MU) Central to the Memory Chip Conversation? Kalkine Media&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/iluvatar-corex-tiangai-300-beats-nvidia-h200-live-demo-5-percent-lead-outside-test/</id>
@@ -34,7 +47,7 @@
     <category term="opml" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;Chinese chipmaker Iluvatar CoreX says its new Tiangai 300 GPU can match, and in some cases beat, NVIDIA’s H200 in real-world AI workloads, in the latest sign that domestic players are trying to narrow the gap with the U.S. giant. The newest claims come from a live demonstration for mainland Chinese media that happened on a Wednesday. Tiangai 300 As A NVIDIA H200 Rival Using Its Own Benchmarks, Whi&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Chinese chipmaker Iluvatar CoreX says its new Tiangai 300 GPU can match, and in some cases beat, NVIDIA’s H200 in real-world AI workloads, in the latest sign that domestic players are trying to narrow the gap with the U.S. giant. The newest claims come from a live demonstration for mainland Chinese media that happened on a Wednesday. Tiangai 300 As A NVIDIA H200 Rival Using Its Own Benchmarks, Whi&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/new-nvidia-uefi-gpu-unlocker-brings-up-to-75-higher-ai-compute-performance-to-rtx-20-30-40-series-gpus-on-windows/</id>
@@ -47,7 +60,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;A new open-source tool called NV UEFI Unlocker promises to unleash previously restricted Tensor Core compute performance on NVIDIA GeForce RTX 20, 30, and 40 Series GPUs, bringing functionality previously associated primarily with Linux-based modifications to Windows users. Developed by GitHub user physicsdolphin, the NV UEFI Unlocker project uses a UEFI-based approach to modify GPU behavior befor&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;A new open-source tool called NV UEFI Unlocker promises to unleash previously restricted Tensor Core compute performance on NVIDIA GeForce RTX 20, 30, and 40 Series GPUs, bringing functionality previously associated primarily with Linux-based modifications to Windows users. Developed by GitHub user physicsdolphin, the NV UEFI Unlocker project uses a UEFI-based approach to modify GPU behavior befor&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0FFd3RmNDhuWnZhQkZOZGlFVlRMTXFHOFhHU1hwaWJOM3ROanJNa2Fhc3Z6Wlp5eW9HREM2czFKM0RYcWs1bEFEQlZxaEFfVWEyNkFTR1RJZWFZLWdSUUdBbzVlOGZFUndOWTZ0RVZMcFh3emRlWWZQTmNJMFhOdC0xcnVDZUdXT3hlMHQ0dGNlRGgzOVNBWmNJTHJubDTSAaQBQVVfeXFMTjVyVDdzdDRmRFpKUldvb2FKTGw3ZmxNQ0RaMDE2SzFOOG1DUzlrc2duQThrOXVmRzQ0aWcxTFZkZDFGcjVHRkRrcmNIV3hvY3lUb09xU2JSVFc4MEVFblZZd0tMdXlrWFRxemVzLTdyUmNXZHZyMlF3SzBYellocURfY1VjVndET3A2bzlRNTNETGhvaWh1T09ZNjFQa2xMbHJoLV8?oc=5</id>
@@ -60,7 +73,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;OpenAI CEO Argues Home PCs Waste the World's Limited DRAM Supply TechPowerUp&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;OpenAI CEO Argues Home PCs Waste the World's Limited DRAM Supply TechPowerUp&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/354346/openai-ceo-argues-home-pcs-waste-the-worlds-limited-dram-supply</id>
@@ -73,7 +86,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;OpenAI CEO Sam Altman thinks the DRAM sitting inside personal computers would be better used in data centers. He made the comments on the Cheeky Pint podcast, hosted by Stripe co-founder John Collison, in an episode released on October 29. The two were discussing the memory supply chain when the topic turned to local inference, meaning running AI models on your own hardware instead of the cloud. H&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;OpenAI CEO Sam Altman thinks the DRAM sitting inside personal computers would be better used in data centers. He made the comments on the Cheeky Pint podcast, hosted by Stripe co-founder John Collison, in an episode released on October 29. The two were discussing the memory supply chain when the topic turned to local inference, meaning running AI models on your own hardware instead of the cloud. H&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history</id>
@@ -86,7 +99,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi4gFBVV95cUxOLTA5Rm9pdlZfSFAxa0lnbW5hRlFRMDVFa0hwNHJPYXZYSW1NX2RVeTVuRXFjdVdJNHBpUW1YazczM1E0UnBUdGRhbVR6c044SEhYb016UUxZSkxoSmlxTlJWSmx4Y19PS0JIWjhaeHVDVHlHX2lGalQ1ZnRxWU1mTGtmajhmWjhjQnhVdmpkNlhibkNuQXBEUjdWVEZTQVZUd1RFNTVYOHVLYmhUY20zdzBIYWFLX3Z6LXJxR05YWHhUVDlDNk1scGI5bEhqS19rMkJGeXlOTWl6OUthT0d5Y1hR0gHnAUFVX3lxTE1SaVNlUTRZeEp1N182ZFo5Z2hDZkNPQnMzYW5iRmJBMzh2WjF6YnptYk9qc3BuWmx2dDZrWGJIM1V1WlFIVmZRRmQwY0VSMkRVeEtNbFZ6Q05zUVVQNUZaaF81R0NieTUwMmlySFQxTEkyeEFIYWI0ampPZnc4MDZibGFsd2ZJMnNIeFNkTjFsOGY0bHBVNlRkTm9LRFhleEUzYVNrTGJWTjkzdTd5S3EyRU1ULUt3aDJWLVZBSEVyUWxGdmVDNTBDa1czcjBXQWUyU2pDSWRsODh5UEZTRHFkVGFSLWZRdw?oc=5</id>
@@ -99,7 +112,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;AI is driving up memory prices. So why is Sam Altman questioning your PC's RAM? The Economic Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;AI is driving up memory prices. So why is Sam Altman questioning your PC's RAM? The Economic Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/sam-altman-calls-pc-ram-a-quite-terrible-use-of-limited-dram-supply-argues-cloud-data-centers-are-more-efficient/</id>
@@ -151,7 +164,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;AMD Reportedly May Raise GPU and GDDR6 Kit Prices Again in November as Memory Costs Climb XenoSpectrum&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;AMD Reportedly May Raise GPU and GDDR6 Kit Prices Again in November as Memory Costs Climb XenoSpectrum&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi0AFBVV95cUxQblJPN1V0Qk05SVFCbDNKM19ydDA4TDhrRi1YUkV5YndTWDQ3LXVKSVprUWhreEg4UGdtS0pBZXpZb0V6a2l2R0VoOHcwaWdMVEV2Q2EtWHJqYl95a0I4TGUzMXd6VjRQOEJTX3NKYnp2d29HS0pxWFlvTWFYcFJ4bXVMQTRMd1JjS3E4ZkUxQW9CUjVvTF9Tb3QyMVh4QXhRNlZsV1c0aGJWblN2Q0dJZHlzU2VEWGg3ZzJBMHhaY2FXV3c3NU5zVjQ2M080Tkww?oc=5</id>

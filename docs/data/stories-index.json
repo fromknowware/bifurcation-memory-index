@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-31T21:31:10.344Z",
-  "count": 2238,
+  "generatedAt": "2026-11-01T05:58:41.067Z",
+  "count": 2239,
   "stories": [
+    {
+      "slug": "nvidia-updates-rubin-gpu-specs-as-first-production-h-df3b791e",
+      "url": "/stories/nvidia-updates-rubin-gpu-specs-as-first-production-h-df3b791e.html",
+      "title": "NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives",
+      "tag": "demand",
+      "date": "2026-11-01",
+      "score": 7,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "why-is-micron-technology-nasdaq-mu-central-to-the-me-3e8db330",
       "url": "/stories/why-is-micron-technology-nasdaq-mu-central-to-the-me-3e8db330.html",
