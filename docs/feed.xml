@@ -5,11 +5,37 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-11-01T05:58:38.680Z</updated>
+  <updated>2026-11-01T13:18:10.079Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://wccftech.com/nvidia-eyeing-teflon-ptfe-ai-server-signal-loss-nvlink-switch-boards/</id>
+    <title type="html">NVIDIA Is Reportedly Eyeing Teflon, The Non-Stick Cookware Material, To Fix AI Server Signal Loss In Next-Gen NVLink Switch Boards</title>
+    <link href="https://wccftech.com/nvidia-eyeing-teflon-ptfe-ai-server-signal-loss-nvlink-switch-boards/" />
+    <link rel="related" href="/stories/nvidia-is-reportedly-eyeing-teflon-the-non-stick-coo-16594e98.html" />
+    <updated>2026-11-01T09:10:50.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Current AI chips face a transmission bottleneck where they’re pushing 200Gbps per lane, so even the slightest interference can affect performance. Possibly realizing that there needs to be a better way to maintain optimal server throughput, NVIDIA is reportedly looking at an unlikely material to tackle one of AI hardware’s biggest headaches; PTFE, better known by the brand name Teflon and as the c RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Current AI chips face a transmission bottleneck where they’re pushing 200Gbps per lane, so even the slightest interference can affect performance. Possibly realizing that there needs to be a better way to maintain optimal server throughput, NVIDIA is reportedly looking at an unlikely material to tackle one of AI hardware’s biggest headaches; PTFE, better known by the brand name Teflon and as the c&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMib0FVX3lxTE1UaUR1RkJwMVc0aVI2R0JSb29xTHhJdFdwb2FlU19ILXMtcGlmbXlmODNXa1RGZmxJTnk2NDN1Z2hWSU43QTZNZ1Q2YS1KSVlBY3JldmE2NjcxQVczSGdvOWJaUllCaW5wWGhKVFEyVQ?oc=5</id>
+    <title type="html">RAMageddon is getting worse: Samsung warns of tougher times in 2027 - Kursiv Media Узбекистан</title>
+    <link href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1UaUR1RkJwMVc0aVI2R0JSb29xTHhJdFdwb2FlU19ILXMtcGlmbXlmODNXa1RGZmxJTnk2NDN1Z2hWSU43QTZNZ1Q2YS1KSVlBY3JldmE2NjcxQVczSGdvOWJaUllCaW5wWGhKVFEyVQ?oc=5" />
+    <link rel="related" href="/stories/ramageddon-is-getting-worse-samsung-warns-of-tougher-1de76adb.html" />
+    <updated>2026-11-01T08:46:19.000Z</updated>
+    <author><name>Kursiv Media Узбекистан</name></author>
+    <summary type="html">RAMageddon is getting worse: Samsung warns of tougher times in 2027 Kursiv Media Узбекистан RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;RAMageddon is getting worse: Samsung warns of tougher times in 2027 Kursiv Media Узбекистан&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.servethehome.com/nvidia-updates-rubin-gpu-specs-as-first-production-hardware-arrives/</id>
     <title type="html">NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives</title>
@@ -21,7 +47,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;As production hardware starts shipping, NVIDIA has updated some of the specifications for its Rubin GPU platforms The post NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;As production hardware starts shipping, NVIDIA has updated some of the specifications for its Rubin GPU platforms The post NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUWluRjNrTGZVUXZqUGlJM3pweGt1VHJRUEdldEs1X1h1d2hyVktSQk9xYjlJS1FWYi1LYnNWMGRyeHFEekNfS2tRVmtuY0NrLXFvQlBkOF93WDVvQ3lnVUpuaW1aNGZEWHlQb1ZSSmx6WllocjczaXlFOVdaRFpVTEdfUzNtOUctMXBNaXVYSFdTeEI4Z1I1ZGdYaUV1NmRLRUNORkp2OXdmd08yalBxSnF1NlVlMFQtM1dN?oc=5</id>

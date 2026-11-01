@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-01T05:58:41.067Z",
-  "count": 2239,
+  "generatedAt": "2026-11-01T13:18:12.412Z",
+  "count": 2241,
   "stories": [
+    {
+      "slug": "nvidia-is-reportedly-eyeing-teflon-the-non-stick-coo-16594e98",
+      "url": "/stories/nvidia-is-reportedly-eyeing-teflon-the-non-stick-coo-16594e98.html",
+      "title": "NVIDIA Is Reportedly Eyeing Teflon, The Non-Stick Cookware Material, To Fix AI Server Signal Loss In Next-Gen NVLink Switch Boards",
+      "tag": "demand",
+      "date": "2026-11-01",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ramageddon-is-getting-worse-samsung-warns-of-tougher-1de76adb",
+      "url": "/stories/ramageddon-is-getting-worse-samsung-warns-of-tougher-1de76adb.html",
+      "title": "RAMageddon is getting worse: Samsung warns of tougher times in 2027 - Kursiv Media Узбекистан",
+      "tag": "supply",
+      "date": "2026-11-01",
+      "score": 8,
+      "pick": false,
+      "source": "Kursiv Media Узбекистан",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "nvidia-updates-rubin-gpu-specs-as-first-production-h-df3b791e",
       "url": "/stories/nvidia-updates-rubin-gpu-specs-as-first-production-h-df3b791e.html",
