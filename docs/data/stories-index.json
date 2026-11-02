@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-01T21:59:39.190Z",
-  "count": 2246,
+  "generatedAt": "2026-11-02T05:58:23.179Z",
+  "count": 2251,
   "stories": [
+    {
+      "slug": "ai-reshapes-memory-architecture-as-macronix-expands-a68e024f",
+      "url": "/stories/ai-reshapes-memory-architecture-as-macronix-expands-a68e024f.html",
+      "title": "AI Reshapes Memory Architecture as Macronix Expands Flash Portfolio",
+      "tag": "supply",
+      "date": "2026-11-02",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-build-long-term-order-pipelines-on-899bc46b",
+      "url": "/stories/samsung-sk-hynix-build-long-term-order-pipelines-on-899bc46b.html",
+      "title": "Samsung, SK hynix build long-term order pipelines on back of continued AI chip demand - Korea JoongAng Daily",
+      "tag": "demand",
+      "date": "2026-11-02",
+      "score": 7,
+      "pick": false,
+      "source": "Korea JoongAng Daily",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-validates-4f2-dram-platform-raising-stakes-in-r-d2cfc84f",
+      "url": "/stories/cxmt-validates-4f2-dram-platform-raising-stakes-in-r-d2cfc84f.html",
+      "title": "CXMT Validates 4F² DRAM Platform, Raising Stakes in Race With Samsung, SK hynix - Businesskorea",
+      "tag": "supply",
+      "date": "2026-11-02",
+      "score": 8,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kb-securities-samsung-electronics-sk-hynix-at-second-b7b2b22f",
+      "url": "/stories/kb-securities-samsung-electronics-sk-hynix-at-second-b7b2b22f.html",
+      "title": "KB Securities: Samsung Electronics, SK Hynix at Second Bottom of W-Shaped Recovery, Rally Seen From November - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-02",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-forecasts-memory-chip-shortage-will-last-th-860866e6",
+      "url": "/stories/sk-hynix-forecasts-memory-chip-shortage-will-last-th-860866e6.html",
+      "title": "SK Hynix forecasts memory chip shortage will last through 2030 - Crypto Briefing",
+      "tag": "supply",
+      "date": "2026-11-01",
+      "score": 8,
+      "pick": false,
+      "source": "Crypto Briefing",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "memory-semiconductor-lta-samsung-and-sk-hynix-sold-o-b5e02150",
       "url": "/stories/memory-semiconductor-lta-samsung-and-sk-hynix-sold-o-b5e02150.html",
