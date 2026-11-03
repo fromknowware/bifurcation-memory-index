@@ -1,7 +1,260 @@
 {
-  "generatedAt": "2026-11-03T00:56:27.346Z",
-  "count": 2290,
+  "generatedAt": "2026-11-03T14:08:43.486Z",
+  "count": 2316,
   "stories": [
+    {
+      "slug": "samsung-foundry-gets-a-massive-boost-as-amd-reported-7c19ac58",
+      "url": "/stories/samsung-foundry-gets-a-massive-boost-as-amd-reported-7c19ac58.html",
+      "title": "Samsung Foundry Gets A Massive Boost As AMD Reportedly Commits To Sourcing Next-Generation HBM Base Dies From Its Upcoming Taylor 2 Facility",
+      "tag": "fab",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "democratic-victory-raises-semiconductor-worries-repu-1e9ca7d2",
+      "url": "/stories/democratic-victory-raises-semiconductor-worries-repu-1e9ca7d2.html",
+      "title": "Democratic Victory Raises Semiconductor Worries; Republican Win Portends Tariff Pressure - SBS 뉴스",
+      "tag": "macro",
+      "date": "2026-11-03",
+      "score": 6,
+      "pick": false,
+      "source": "SBS 뉴스",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "apple-s-mac-business-is-booming-but-the-memory-marke-7fc1e2bd",
+      "url": "/stories/apple-s-mac-business-is-booming-but-the-memory-marke-7fc1e2bd.html",
+      "title": "Apple's Mac business is booming, but the memory market has other plans",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-nvidia-could-join-tesla-on-samsung-s-texas-chip-a54d3564",
+      "url": "/stories/amd-nvidia-could-join-tesla-on-samsung-s-texas-chip-a54d3564.html",
+      "title": "AMD, Nvidia Could Join Tesla On Samsung’s Texas Chip Plant Customer List: Report - TradingView",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "gigadevice-tight-supply-in-niche-memory-to-persist-d-68aeb444",
+      "url": "/stories/gigadevice-tight-supply-in-niche-memory-to-persist-d-68aeb444.html",
+      "title": "GigaDevice: Tight Supply in Niche Memory to Persist, DRAM Prices to Stay Elevated - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-chip-smugglers-exploit-trade-control-loophole-to-838b76e5",
+      "url": "/stories/ai-chip-smugglers-exploit-trade-control-loophole-to-838b76e5.html",
+      "title": "AI chip smugglers exploit trade control loophole to bring banned HBM from South Korea into China — expensive memory chips packaged with cheap, unsanctioned processors to become legal exports - Tom's Hardware",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "huawei-tells-customers-to-find-their-own-ai-chip-mem-38b4ae61",
+      "url": "/stories/huawei-tells-customers-to-find-their-own-ai-chip-mem-38b4ae61.html",
+      "title": "Huawei tells customers to find their own AI chip memory, effectively outsourcing procurement to the black market - The Decoder",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "The Decoder",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "amd-s-biggest-pcie-graphics-card-surfaces-online-wit-075c1931",
+      "url": "/stories/amd-s-biggest-pcie-graphics-card-surfaces-online-wit-075c1931.html",
+      "title": "AMD’s Biggest PCIe Graphics Card Surfaces Online With Four RX 470 GPUs And 32 GB GDDR5 Memory",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "penguin-solutions-targets-ai-memory-bottlenecks-with-46102b1c",
+      "url": "/stories/penguin-solutions-targets-ai-memory-bottlenecks-with-46102b1c.html",
+      "title": "Penguin Solutions targets AI memory bottlenecks with new hardware - Crypto Briefing",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Crypto Briefing",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "hbf-could-tighten-nand-supply-as-ai-memory-demand-ac-a3b88e93",
+      "url": "/stories/hbf-could-tighten-nand-supply-as-ai-memory-demand-ac-a3b88e93.html",
+      "title": "HBF Could Tighten NAND Supply as AI Memory Demand Accelerates - BigGo Finance",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "smugglers-bypass-u-s-controls-to-ship-hbm-to-china-b-fb6fb66f",
+      "url": "/stories/smugglers-bypass-u-s-controls-to-ship-hbm-to-china-b-fb6fb66f.html",
+      "title": "Smugglers Bypass U.S. Controls to Ship HBM to China - Businesskorea",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "no-korean-hbm-no-chinese-ai-chips-and-smugglers-are-fd3b1a15",
+      "url": "/stories/no-korean-hbm-no-chinese-ai-chips-and-smugglers-are-fd3b1a15.html",
+      "title": "'No Korean HBM, no Chinese AI chips' — and smugglers are getting creative - 헤럴드경제",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "헤럴드경제",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-s-fastest-4tb-nvme-ssd-the-990-pro-just-got-0b0e00ab",
+      "url": "/stories/samsung-s-fastest-4tb-nvme-ssd-the-990-pro-just-got-0b0e00ab.html",
+      "title": "Samsung’s Fastest 4TB NVMe SSD, The 990 PRO, Just Got A Massive $300 Price Cut On Amazon",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "don-t-expect-cheaper-ssds-anytime-soon-hbf-would-cos-33673b82",
+      "url": "/stories/don-t-expect-cheaper-ssds-anytime-soon-hbf-would-cos-33673b82.html",
+      "title": "Don’t Expect Cheaper SSDs Anytime Soon: HBF Would Cost Just $0.64 Per GB But Consume 6.5x More Wafers Than A Typical TLC NAND",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chip-traders-move-south-korean-ai-memory-into-china-1d89cd40",
+      "url": "/stories/chip-traders-move-south-korean-ai-memory-into-china-1d89cd40.html",
+      "title": "Chip Traders Move South Korean AI Memory Into China Through Server Packages - www.tokenpost.com",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "www.tokenpost.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "even-apple-calls-it-unprecedented-pricing-dram-short-128a5848",
+      "url": "/stories/even-apple-calls-it-unprecedented-pricing-dram-short-128a5848.html",
+      "title": "Even Apple Calls It \"Unprecedented Pricing\" — DRAM Shortage to Last Through 2028 - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "microsoft-s-ai-pc-roadmap-outlines-next-gen-amd-inte-47c30f1a",
+      "url": "/stories/microsoft-s-ai-pc-roadmap-outlines-next-gen-amd-inte-47c30f1a.html",
+      "title": "Microsoft’s AI PC Roadmap Outlines Next-Gen AMD & Intel Chips, With Entry-Tier 8 GB, Copilot+ Ready 16 GB+, Builder PCs & Supercomputers at 128 GB+",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "south-korea-s-samsung-sk-hynix-hbm-smuggled-into-hua-448771e4",
+      "url": "/stories/south-korea-s-samsung-sk-hynix-hbm-smuggled-into-hua-448771e4.html",
+      "title": "South Korea's Samsung, SK Hynix HBM Smuggled Into Huawei Disguised as Server Chips, Bypassing US Rules - BigGo Finance",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "smugglers-funnel-korea-s-hbm-to-china-for-huawei-via-568d8cdc",
+      "url": "/stories/smugglers-funnel-korea-s-hbm-to-china-for-huawei-via-568d8cdc.html",
+      "title": "Smugglers funnel Korea’s HBM to China for Huawei via server chip loophole - Chosunbiz",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "smugglers-reportedly-pair-top-tier-hbm-with-throwawa-915fee31",
+      "url": "/stories/smugglers-reportedly-pair-top-tier-hbm-with-throwawa-915fee31.html",
+      "title": "Smugglers Reportedly Pair Top-Tier HBM With Throwaway Server Chips To Dodge U.S. Export Controls, Then Melt Them Apart In China - Wccftech",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "smugglers-reportedly-pair-top-tier-hbm-with-throwawa-fe5f4be3",
+      "url": "/stories/smugglers-reportedly-pair-top-tier-hbm-with-throwawa-fe5f4be3.html",
+      "title": "Smugglers Reportedly Pair Top-Tier HBM With Throwaway Server Chips To Dodge U.S. Export Controls, Then Melt Them Apart In China",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "chinese-smugglers-smuggle-s-korean-hbm-claiming-it-s-b3e5e59f",
+      "url": "/stories/chinese-smugglers-smuggle-s-korean-hbm-claiming-it-s-b3e5e59f.html",
+      "title": "Chinese Smugglers Smuggle S. Korean HBM, Claiming It's 'Patriotism' — How Do They Do It? - news.sbs.co.kr",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "news.sbs.co.kr",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "south-korea-s-samsung-electronics-at-440-000-won-sk-76f551fe",
+      "url": "/stories/south-korea-s-samsung-electronics-at-440-000-won-sk-76f551fe.html",
+      "title": "South Korea's Samsung Electronics at 440,000 Won, SK Hynix at 3.2 Million Won: Brokerages Split on \"Buying the Semiconductor Dip\" - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "penguin-solutions-launches-smart-modular-mrdimms-tar-e5587194",
       "url": "/stories/penguin-solutions-launches-smart-modular-mrdimms-tar-e5587194.html",
@@ -58,6 +311,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "ai-image-enhancement-improves-detection-of-flip-chip-8cce8d9e",
+      "url": "/stories/ai-image-enhancement-improves-detection-of-flip-chip-8cce8d9e.html",
+      "title": "AI Image Enhancement Improves Detection Of Flip-Chip Interconnect Defects (MCL, PVA TePla, ASE)",
+      "tag": "supply",
+      "date": "2026-11-02",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "gpu-makers-focus-on-rtx-3060-3050-as-rtx-50-series-i-de75d47f",
       "url": "/stories/gpu-makers-focus-on-rtx-3060-3050-as-rtx-50-series-i-de75d47f.html",
       "title": "GPU Makers Focus on RTX 3060/3050 as RTX 50 Series Inventory Dries Up",
@@ -67,6 +331,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "sam-altman-says-personal-computers-holding-too-much-2df23c54",
+      "url": "/stories/sam-altman-says-personal-computers-holding-too-much-2df23c54.html",
+      "title": "Sam Altman Says Personal Computers Holding Too Much RAM Is ‘Terrible’ Amid Global Memory Shortage - https://ascendants.in/",
+      "tag": "supply",
+      "date": "2026-11-02",
+      "score": 8,
+      "pick": false,
+      "source": "https://ascendants.in/",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "openai-considers-rebranding-data-centers-to-ai-compu-3e83be49",
@@ -99,6 +374,17 @@
       "score": 8,
       "pick": false,
       "source": "Nikkei Asia",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-technology-inc-stock-mu-moved-down-by-3-07-on-c180235e",
+      "url": "/stories/micron-technology-inc-stock-mu-moved-down-by-3-07-on-c180235e.html",
+      "title": "Micron Technology Inc Stock (MU) Moved Down by 3.07% on Nov 2: Facts Behind the Movement - TradingKey",
+      "tag": "supply",
+      "date": "2026-11-02",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
