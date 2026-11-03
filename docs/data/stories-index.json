@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-11-02T15:44:59.557Z",
-  "count": 2276,
+  "generatedAt": "2026-11-03T00:56:27.346Z",
+  "count": 2290,
   "stories": [
+    {
+      "slug": "penguin-solutions-launches-smart-modular-mrdimms-tar-e5587194",
+      "url": "/stories/penguin-solutions-launches-smart-modular-mrdimms-tar-e5587194.html",
+      "title": "Penguin Solutions launches SMART Modular MRDIMMs targeting AI data center memory bottlenecks - Traders Union",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Traders Union",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "marvell-proposes-acquiring-lumentum-to-combine-optic-1b9d9ca1",
+      "url": "/stories/marvell-proposes-acquiring-lumentum-to-combine-optic-1b9d9ca1.html",
+      "title": "Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon",
+      "tag": "supply",
+      "date": "2026-11-02",
+      "score": 8,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-and-micron-expand-ai-memory-product-7dd2ab19",
+      "url": "/stories/samsung-sk-hynix-and-micron-expand-ai-memory-product-7dd2ab19.html",
+      "title": "Samsung, SK Hynix and Micron expand AI memory production - upi",
+      "tag": "demand",
+      "date": "2026-11-02",
+      "score": 7,
+      "pick": false,
+      "source": "upi",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "qualcomm-takes-on-the-ai-inference-memory-bottleneck-1a37b965",
+      "url": "/stories/qualcomm-takes-on-the-ai-inference-memory-bottleneck-1a37b965.html",
+      "title": "Qualcomm Takes On The AI Inference Memory Bottleneck With Working HBC Silicon, And Its First Data Center Product Is Already Taped Out - Wccftech",
+      "tag": "demand",
+      "date": "2026-11-02",
+      "score": 7,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "qualcomm-takes-on-the-ai-inference-memory-bottleneck-da0436d5",
+      "url": "/stories/qualcomm-takes-on-the-ai-inference-memory-bottleneck-da0436d5.html",
+      "title": "Qualcomm Takes On The AI Inference Memory Bottleneck With Working HBC Silicon, And Its First Data Center Product Is Already Taped Out",
+      "tag": "demand",
+      "date": "2026-11-02",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "gpu-makers-focus-on-rtx-3060-3050-as-rtx-50-series-i-de75d47f",
+      "url": "/stories/gpu-makers-focus-on-rtx-3060-3050-as-rtx-50-series-i-de75d47f.html",
+      "title": "GPU Makers Focus on RTX 3060/3050 as RTX 50 Series Inventory Dries Up",
+      "tag": "demand",
+      "date": "2026-11-02",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "openai-considers-rebranding-data-centers-to-ai-compu-3e83be49",
+      "url": "/stories/openai-considers-rebranding-data-centers-to-ai-compu-3e83be49.html",
+      "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
+      "tag": "demand",
+      "date": "2026-11-02",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "qualcomm-has-eyes-on-the-ai-inference-datacenter-wit-b7415df3",
+      "url": "/stories/qualcomm-has-eyes-on-the-ai-inference-datacenter-wit-b7415df3.html",
+      "title": "Qualcomm Has Eyes On The AI Inference Datacenter With HBC And AI250",
+      "tag": "demand",
+      "date": "2026-11-02",
+      "score": 7,
+      "pick": false,
+      "source": "The Next Platform",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dram-prices-double-in-2026-as-ai-focus-squeezes-pc-m-4a542eb9",
+      "url": "/stories/dram-prices-double-in-2026-as-ai-focus-squeezes-pc-m-4a542eb9.html",
+      "title": "DRAM prices double in 2026 as AI focus squeezes PC makers - Nikkei Asia",
+      "tag": "supply",
+      "date": "2026-11-02",
+      "score": 8,
+      "pick": false,
+      "source": "Nikkei Asia",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-rtx-5090-records-a-staggering-370-hike-in-pri-1267240a",
+      "url": "/stories/nvidia-rtx-5090-records-a-staggering-370-hike-in-pri-1267240a.html",
+      "title": "NVIDIA RTX 5090 Records A Staggering 370% Hike In Price Since Launch While Every RTX 50 GPU Saw A Price Hike In 40-120% Range",
+      "tag": "demand",
+      "date": "2026-11-02",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "dram-crisis-raspberry-pi-5-price-rises-by-another-80-209116be",
       "url": "/stories/dram-crisis-raspberry-pi-5-price-rises-by-another-80-209116be.html",
@@ -58,6 +168,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "qualcomm-hbc-demonstrates-ai-inference-leadership-wi-2358bf7e",
+      "url": "/stories/qualcomm-hbc-demonstrates-ai-inference-leadership-wi-2358bf7e.html",
+      "title": "Qualcomm HBC demonstrates AI inference leadership with validated silicon - Qualcomm",
+      "tag": "demand",
+      "date": "2026-11-02",
+      "score": 7,
+      "pick": false,
+      "source": "Qualcomm",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "intel-larrabee-gpu-system-surfaces-with-working-driv-273922df",
       "url": "/stories/intel-larrabee-gpu-system-surfaces-with-working-driv-273922df.html",
       "title": "Intel \"Larrabee\" GPU System Surfaces with Working Drivers",
@@ -78,6 +199,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-vs-sandisk-china-s-dram-scare-hit-both-stocks-e4662bda",
+      "url": "/stories/micron-vs-sandisk-china-s-dram-scare-hit-both-stocks-e4662bda.html",
+      "title": "Micron vs. SanDisk: China's DRAM Scare Hit Both Stocks, but 1 Is the Better Buy - inkl",
+      "tag": "supply",
+      "date": "2026-11-02",
+      "score": 8,
+      "pick": false,
+      "source": "inkl",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "october-2026-steam-hardware-survey-16-gb-ram-reclaim-5daafde5",
@@ -168,6 +300,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "high-bandwidth-memory-market-enters-the-hbm4-era-as-e7cf143f",
+      "url": "/stories/high-bandwidth-memory-market-enters-the-hbm4-era-as-e7cf143f.html",
+      "title": "High Bandwidth Memory Market Enters the HBM4 Era as SK hynix - openPR.com",
+      "tag": "demand",
+      "date": "2026-11-02",
+      "score": 7,
+      "pick": false,
+      "source": "openPR.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "board-partners-reportedly-still-await-nvidia-geforce-b68c834a",
       "url": "/stories/board-partners-reportedly-still-await-nvidia-geforce-b68c834a.html",
       "title": "Board Partners Reportedly Still Await NVIDIA GeForce RTX 5080 24 GB GPU Kits",
@@ -231,6 +374,17 @@
       "score": 8,
       "pick": false,
       "source": "ET CIO",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-shortage-spreads-to-graphics-cards-amd-to-rai-ca6ff9ea",
+      "url": "/stories/memory-shortage-spreads-to-graphics-cards-amd-to-rai-ca6ff9ea.html",
+      "title": "Memory Shortage Spreads to Graphics Cards: AMD to Raise GPU and GDDR6 Supply Prices Again After Just One Month - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-02",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
