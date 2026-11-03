@@ -1,7 +1,172 @@
 {
-  "generatedAt": "2026-11-03T14:08:43.486Z",
-  "count": 2316,
+  "generatedAt": "2026-11-03T23:20:19.901Z",
+  "count": 2340,
   "stories": [
+    {
+      "slug": "marvell-cuts-to-the-front-of-the-datacenter-optics-l-9b54308f",
+      "url": "/stories/marvell-cuts-to-the-front-of-the-datacenter-optics-l-9b54308f.html",
+      "title": "Marvell Cuts To The Front Of The Datacenter Optics Line With Lumentum Deal",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "The Next Platform",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "democratic-win-raises-semiconductor-concerns-republi-0a9804da",
+      "url": "/stories/democratic-win-raises-semiconductor-concerns-republi-0a9804da.html",
+      "title": "Democratic Win Raises Semiconductor Concerns, Republican Victory Brings Tariff Pressure - SBS 뉴스",
+      "tag": "macro",
+      "date": "2026-11-03",
+      "score": 6,
+      "pick": false,
+      "source": "SBS 뉴스",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "hyperion-research-nearly-20-growth-in-hpc-and-ai-for-4f10937f",
+      "url": "/stories/hyperion-research-nearly-20-growth-in-hpc-and-ai-for-4f10937f.html",
+      "title": "Hyperion Research: Nearly 20% Growth in HPC and AI-for-Science Server Market, Dell Takes Lead from HPE",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-s-chip-plans-hit-snag-over-u-s-restrictions-bdeab585",
+      "url": "/stories/sk-hynix-s-chip-plans-hit-snag-over-u-s-restrictions-bdeab585.html",
+      "title": "SK Hynix’s chip plans hit snag over U.S. restrictions on China - Colorado Springs Gazette",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "Colorado Springs Gazette",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-targets-second-texas-plant-to-produce-hbm-ba-b18b2f33",
+      "url": "/stories/samsung-targets-second-texas-plant-to-produce-hbm-ba-b18b2f33.html",
+      "title": "Samsung targets second Texas plant to produce HBM base dies for AMD and Nvidia: report - The News International",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "The News International",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "fast-sub-volt-hzo-ferroelectric-capacitors-for-dram-26eb4041",
+      "url": "/stories/fast-sub-volt-hzo-ferroelectric-capacitors-for-dram-26eb4041.html",
+      "title": "Fast, Sub-Volt HZO Ferroelectric Capacitors For DRAM-Like Memory (SNU)",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "the-price-of-a-64gb-ddr5-kit-could-exceed-500-throug-aef0f13f",
+      "url": "/stories/the-price-of-a-64gb-ddr5-kit-could-exceed-500-throug-aef0f13f.html",
+      "title": "The price of a 64GB DDR5 kit could exceed $500 throughout 2027. - GameGPU",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "GameGPU",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-could-become-samsung-s-biggest-customer-at-new-t-115077d9",
+      "url": "/stories/amd-could-become-samsung-s-biggest-customer-at-new-t-115077d9.html",
+      "title": "AMD Could Become Samsung’s Biggest Customer at New Texas Chip Plant - SammyGuru",
+      "tag": "fab",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "SammyGuru",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "chip-smuggler-details-how-a-single-loophole-is-letti-54a1c6eb",
+      "url": "/stories/chip-smuggler-details-how-a-single-loophole-is-letti-54a1c6eb.html",
+      "title": "Chip smuggler details how a single loophole is letting banned South Korean RAM slip into China’s AI labs - The Times of India",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "The Times of India",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-global-semiconductor-sales-increase-24-1-from-q2-afd738ca",
+      "url": "/stories/pr-global-semiconductor-sales-increase-24-1-from-q2-afd738ca.html",
+      "title": "(PR) Global Semiconductor Sales Increase 24.1% From Q2 2026 to Q3 2026",
+      "tag": "earnings",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "democrats-win-brings-semiconductor-worries-republica-d5927b53",
+      "url": "/stories/democrats-win-brings-semiconductor-worries-republica-d5927b53.html",
+      "title": "Democrats' Win Brings 'Semiconductor Worries,' Republicans Threaten 'Tariff Pressure' - SBS 뉴스",
+      "tag": "macro",
+      "date": "2026-11-03",
+      "score": 6,
+      "pick": false,
+      "source": "SBS 뉴스",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "openai-introduces-program-to-reduce-ai-data-center-e-09379aee",
+      "url": "/stories/openai-introduces-program-to-reduce-ai-data-center-e-09379aee.html",
+      "title": "OpenAI introduces program to reduce AI data center energy demand during peak hours",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "apple-faces-unprecedented-memory-cost-increases-as-r-81b202b1",
+      "url": "/stories/apple-faces-unprecedented-memory-cost-increases-as-r-81b202b1.html",
+      "title": "Apple faces unprecedented memory cost increases as RAM prices continue to surge, manufacturing bill climbs by $33 billion — rising component expenses threaten margins through the holiday quarter and into 2027 - Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-faces-unprecedented-memory-cost-increases-as-r-8f4282cd",
+      "url": "/stories/apple-faces-unprecedented-memory-cost-increases-as-r-8f4282cd.html",
+      "title": "Apple faces unprecedented memory cost increases as RAM prices continue to surge, manufacturing bill climbs by $33 billion",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "smugglers-reportedly-pair-4-000-ai-memory-with-cheap-b48cd663",
+      "url": "/stories/smugglers-reportedly-pair-4-000-ai-memory-with-cheap-b48cd663.html",
+      "title": "Smugglers Reportedly Pair $4,000 AI Memory With Cheap Server Chips Before Stripping Them Apart in China - International Business Times UK",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "International Business Times UK",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "samsung-foundry-gets-a-massive-boost-as-amd-reported-7c19ac58",
       "url": "/stories/samsung-foundry-gets-a-massive-boost-as-amd-reported-7c19ac58.html",
@@ -25,6 +190,50 @@
       "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
     },
     {
+      "slug": "nvidia-tells-data-center-operators-to-limit-business-ace9e482",
+      "url": "/stories/nvidia-tells-data-center-operators-to-limit-business-ace9e482.html",
+      "title": "Nvidia tells data center operators to limit business from Chinese customers with new global restrictions, report claims",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "drax-wants-to-feed-britain-s-ai-habit-with-20b-datac-5035258f",
+      "url": "/stories/drax-wants-to-feed-britain-s-ai-habit-with-20b-datac-5035258f.html",
+      "title": "Drax wants to feed Britain's AI habit with £20B datacenter at biomass power station",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "corsair-has-slashed-180-off-its-blistering-mp700-se-e22e94cf",
+      "url": "/stories/corsair-has-slashed-180-off-its-blistering-mp700-se-e22e94cf.html",
+      "title": "Corsair has slashed $180 off its blistering MP700 SE Gen 5 SSD",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-deploys-world-s-first-800-volt-dc-power-system-a92db60a",
+      "url": "/stories/china-deploys-world-s-first-800-volt-dc-power-system-a92db60a.html",
+      "title": "China deploys 'world's first' 800-volt DC power system for massive AI data center",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "apple-s-mac-business-is-booming-but-the-memory-marke-7fc1e2bd",
       "url": "/stories/apple-s-mac-business-is-booming-but-the-memory-marke-7fc1e2bd.html",
       "title": "Apple's Mac business is booming, but the memory market has other plans",
@@ -34,6 +243,28 @@
       "pick": false,
       "source": "The Register",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "smugglers-slip-banned-hbm-into-china-by-bundling-it-a41d414b",
+      "url": "/stories/smugglers-slip-banned-hbm-into-china-by-bundling-it-a41d414b.html",
+      "title": "Smugglers Slip Banned HBM Into China by Bundling It With Junk Server Chips - BigGo Finance",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ai-chip-smugglers-exploit-export-loopholes-to-move-b-57c213a9",
+      "url": "/stories/ai-chip-smugglers-exploit-export-loopholes-to-move-b-57c213a9.html",
+      "title": "AI chip smugglers exploit export loopholes to move banned HBM to China - Crypto Briefing",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Crypto Briefing",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "amd-nvidia-could-join-tesla-on-samsung-s-texas-chip-a54d3564",
@@ -56,6 +287,17 @@
       "pick": false,
       "source": "BigGo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-chip-smugglers-exploit-trade-control-loophole-to-9857744b",
+      "url": "/stories/ai-chip-smugglers-exploit-trade-control-loophole-to-9857744b.html",
+      "title": "AI chip smugglers exploit trade control loophole to bring banned HBM from South Korea into China",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "ai-chip-smugglers-exploit-trade-control-loophole-to-838b76e5",
@@ -102,6 +344,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "samsung-texas-plant-to-make-hbm-chip-parts-for-amd-n-22b8bf05",
+      "url": "/stories/samsung-texas-plant-to-make-hbm-chip-parts-for-amd-n-22b8bf05.html",
+      "title": "Samsung Texas plant to make HBM chip parts for AMD, Nvidia - Traders Union",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "Traders Union",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "hbf-could-tighten-nand-supply-as-ai-memory-demand-ac-a3b88e93",
       "url": "/stories/hbf-could-tighten-nand-supply-as-ai-memory-demand-ac-a3b88e93.html",
       "title": "HBF Could Tighten NAND Supply as AI Memory Demand Accelerates - BigGo Finance",
@@ -110,6 +363,17 @@
       "score": 7,
       "pick": false,
       "source": "BigGo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "news-china-reportedly-obtains-smuggled-hbm-via-serve-6100e379",
+      "url": "/stories/news-china-reportedly-obtains-smuggled-hbm-via-serve-6100e379.html",
+      "title": "[News] China Reportedly Obtains Smuggled HBM via Server Packages; Huawei 960DT Faces Domestic HBM Shortage - TrendForce",
+      "tag": "demand",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "TrendForce",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
