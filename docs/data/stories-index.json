@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-11-03T23:20:19.901Z",
-  "count": 2340,
+  "generatedAt": "2026-11-04T06:15:05.642Z",
+  "count": 2346,
   "stories": [
+    {
+      "slug": "amd-q3-2026-earnings-data-center-growth-drives-recor-70906cc0",
+      "url": "/stories/amd-q3-2026-earnings-data-center-growth-drives-recor-70906cc0.html",
+      "title": "AMD Q3 2026 Earnings Data Center Growth Drives Record Quarter",
+      "tag": "earnings",
+      "date": "2026-11-04",
+      "score": 7,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "qualcomm-s-hbc-technology-challenges-hbm-in-ai-serve-06711ed0",
+      "url": "/stories/qualcomm-s-hbc-technology-challenges-hbm-in-ai-serve-06711ed0.html",
+      "title": "Qualcomm's HBC Technology Challenges HBM in AI Server Market - 조선일보",
+      "tag": "demand",
+      "date": "2026-11-04",
+      "score": 7,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "setara-launches-daily-index-of-on-demand-gpu-list-pr-bbd046ce",
+      "url": "/stories/setara-launches-daily-index-of-on-demand-gpu-list-pr-bbd046ce.html",
+      "title": "Setara Launches Daily Index of On-Demand GPU List Prices",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "accelsius-supports-nsf-data-center-efficiency-resear-9bdeb647",
+      "url": "/stories/accelsius-supports-nsf-data-center-efficiency-resear-9bdeb647.html",
+      "title": "Accelsius Supports NSF Data Center Efficiency Research at Villanova",
+      "tag": "demand",
+      "date": "2026-11-04",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "marvell-cuts-to-the-front-of-the-datacenter-optics-l-9b54308f",
       "url": "/stories/marvell-cuts-to-the-front-of-the-datacenter-optics-l-9b54308f.html",
@@ -111,6 +155,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "democrats-win-brings-semiconductor-worries-republica-b48b0c80",
+      "url": "/stories/democrats-win-brings-semiconductor-worries-republica-b48b0c80.html",
+      "title": "Democrats' Win Brings 'Semiconductor Worries,' Republicans Threaten 'Tariff Pressure' - SBS 뉴스",
+      "tag": "macro",
+      "date": "2026-11-03",
+      "score": 6,
+      "pick": false,
+      "source": "SBS 뉴스",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
     },
     {
       "slug": "democrats-win-brings-semiconductor-worries-republica-d5927b53",
@@ -276,6 +331,17 @@
       "pick": false,
       "source": "TradingView",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "us-pre-market-memory-chip-stocks-rally-broadly-sandi-8e68b04a",
+      "url": "/stories/us-pre-market-memory-chip-stocks-rally-broadly-sandi-8e68b04a.html",
+      "title": "US Pre-Market: Memory Chip Stocks Rally Broadly, SanDisk and Micron Each Up More Than 3% - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-03",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "gigadevice-tight-supply-in-niche-memory-to-persist-d-68aeb444",
