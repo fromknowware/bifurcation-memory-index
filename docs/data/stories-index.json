@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-11-04T06:15:05.642Z",
-  "count": 2346,
+  "generatedAt": "2026-11-04T14:34:40.118Z",
+  "count": 2359,
   "stories": [
+    {
+      "slug": "micron-details-ambitious-dram-and-nand-roadmap-3d-na-c9d2dd61",
+      "url": "/stories/micron-details-ambitious-dram-and-nand-roadmap-3d-na-c9d2dd61.html",
+      "title": "Micron details ambitious DRAM and NAND roadmap — 3D NAND, High-NA EUV, new materials, and custom silicon makes a comeback",
+      "tag": "fab",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "nvidia-app-quietly-adds-gpu-prioritization-controls-294a7925",
+      "url": "/stories/nvidia-app-quietly-adds-gpu-prioritization-controls-294a7925.html",
+      "title": "NVIDIA App Quietly Adds GPU Prioritization Controls, But The New Feature Isn’t Available To Everyone",
+      "tag": "demand",
+      "date": "2026-11-04",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-can-only-fulfill-1-of-china-s-massive-70-bill-3b0a69d0",
+      "url": "/stories/nvidia-can-only-fulfill-1-of-china-s-massive-70-bill-3b0a69d0.html",
+      "title": "Nvidia can only fulfill 1% of China’s massive $70 billion GPU order for AI chips, report claims — supply constraints choke export-friendly RTX Pro 5500 deliveries despite huge demand",
+      "tag": "demand",
+      "date": "2026-11-04",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "amd-s-rx-9070-xt-sees-over-50x-fps-boost-and-nearly-46b824e3",
+      "url": "/stories/amd-s-rx-9070-xt-sees-over-50x-fps-boost-and-nearly-46b824e3.html",
+      "title": "AMD’s RX 9070 XT Sees Over 50X FPS Boost And Nearly 90% Lower Ray Tracing Memory Usage With New DirectX Technology",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "windows-pushed-ai-pcs-but-now-it-s-hit-a-wall-of-ram-6fa97dad",
+      "url": "/stories/windows-pushed-ai-pcs-but-now-it-s-hit-a-wall-of-ram-6fa97dad.html",
+      "title": "Windows pushed AI PCs, but now it's hit a wall of RAM prices",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-prices-hit-new-highs-in-october-institutions-pr-867eafdc",
+      "url": "/stories/dram-prices-hit-new-highs-in-october-institutions-pr-867eafdc.html",
+      "title": "DRAM prices hit new highs in October! Institutions: Price increases to continue in Q4 - Moomoo",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "Moomoo",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "datacenter-operators-must-win-hearts-and-minds-not-j-955c78c8",
+      "url": "/stories/datacenter-operators-must-win-hearts-and-minds-not-j-955c78c8.html",
+      "title": "Datacenter operators must win hearts and minds, not just permits",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "beyond-the-chip-how-ai-is-reshaping-semiconductor-de-b3bb5777",
+      "url": "/stories/beyond-the-chip-how-ai-is-reshaping-semiconductor-de-b3bb5777.html",
+      "title": "Beyond The Chip: How AI Is Reshaping Semiconductor Design And Manufacturing",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-spot-prices-diverge-ddr4-edges-down-0-09-nand-f-8925ac9f",
+      "url": "/stories/dram-spot-prices-diverge-ddr4-edges-down-0-09-nand-f-8925ac9f.html",
+      "title": "DRAM Spot Prices Diverge: DDR4 Edges Down 0.09%, NAND Falls 4.33% - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-flash-could-cost-90-less-per-gb-to-make-than-hbm4-3b7e29fe",
+      "url": "/stories/ai-flash-could-cost-90-less-per-gb-to-make-than-hbm4-3b7e29fe.html",
+      "title": "AI flash could cost 90% less per GB to make than HBM4 but squeeze NAND supply - digitimes",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "digitimes",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "amd-q3-2026-earnings-data-center-growth-drives-recor-70906cc0",
       "url": "/stories/amd-q3-2026-earnings-data-center-growth-drives-recor-70906cc0.html",
@@ -25,6 +135,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "amd-signs-long-term-hbm-agreements-to-fight-price-hi-4c21d032",
+      "url": "/stories/amd-signs-long-term-hbm-agreements-to-fight-price-hi-4c21d032.html",
+      "title": "AMD signs long-term HBM agreements to fight price hikes; Samsung likely biggest winner - Sammy Fans",
+      "tag": "demand",
+      "date": "2026-11-04",
+      "score": 7,
+      "pick": false,
+      "source": "Sammy Fans",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "setara-launches-daily-index-of-on-demand-gpu-list-pr-bbd046ce",
       "url": "/stories/setara-launches-daily-index-of-on-demand-gpu-list-pr-bbd046ce.html",
       "title": "Setara Launches Daily Index of On-Demand GPU List Prices",
@@ -44,6 +165,17 @@
       "score": 7,
       "pick": false,
       "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "qualcomm-validates-hbc-test-chip-as-hbm-alternative-eb67ff8e",
+      "url": "/stories/qualcomm-validates-hbc-test-chip-as-hbm-alternative-eb67ff8e.html",
+      "title": "Qualcomm Validates HBC Test Chip as HBM Alternative, Claiming 5x Bandwidth-per-Watt Over HBM4 - BigGo Finance",
+      "tag": "demand",
+      "date": "2026-11-04",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
@@ -144,6 +276,17 @@
       "pick": false,
       "source": "The Times of India",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "teamgroup-warns-worst-dram-shortage-could-hit-betwee-4e10a156",
+      "url": "/stories/teamgroup-warns-worst-dram-shortage-could-hit-betwee-4e10a156.html",
+      "title": "TeamGroup Warns Worst DRAM Shortage Could Hit Between Q4 2026 and Q2 2027 - XiaomiToday",
+      "tag": "earnings",
+      "date": "2026-11-03",
+      "score": 7,
+      "pick": false,
+      "source": "XiaomiToday",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "pr-global-semiconductor-sales-increase-24-1-from-q2-afd738ca",
