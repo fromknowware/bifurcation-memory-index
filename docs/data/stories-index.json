@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-11-04T14:34:40.118Z",
-  "count": 2359,
+  "generatedAt": "2026-11-04T23:38:57.879Z",
+  "count": 2370,
   "stories": [
+    {
+      "slug": "amd-s-record-quarter-data-center-business-doubles-wh-fbc48fb8",
+      "url": "/stories/amd-s-record-quarter-data-center-business-doubles-wh-fbc48fb8.html",
+      "title": "AMD's record quarter: Data center business doubles, while gaming craters",
+      "tag": "demand",
+      "date": "2026-11-04",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-039-s-2-nm-taylor-fab-2-reportedly-fully-boo-e7affe9a",
+      "url": "/stories/samsung-039-s-2-nm-taylor-fab-2-reportedly-fully-boo-e7affe9a.html",
+      "title": "Samsung&#039;s 2 nm Taylor Fab 2 Reportedly Fully Booked, Mostly by AMD",
+      "tag": "fab",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "pr-semi-reports-worldwide-silicon-wafer-shipments-in-573120c4",
+      "url": "/stories/pr-semi-reports-worldwide-silicon-wafer-shipments-in-573120c4.html",
+      "title": "(PR) SEMI Reports Worldwide Silicon Wafer Shipments Increase 13.4% Year-on-Year in Q3 2026",
+      "tag": "fab",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "bare-metal-boom-on-prem-server-sales-for-hpc-and-ai-82dc9be4",
+      "url": "/stories/bare-metal-boom-on-prem-server-sales-for-hpc-and-ai-82dc9be4.html",
+      "title": "Bare metal boom: On-prem server sales for HPC and AI up 20% this year",
+      "tag": "earnings",
+      "date": "2026-11-04",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "nintendo-rom-chip-supplier-macronix-quits-to-focus-o-00c52016",
+      "url": "/stories/nintendo-rom-chip-supplier-macronix-quits-to-focus-o-00c52016.html",
+      "title": "Nintendo ROM chip supplier Macronix quits to focus on chips for AI data centers, reports indicate",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "retailer-effectively-makes-32-gb-ddr5-memory-free-as-dca0f299",
+      "url": "/stories/retailer-effectively-makes-32-gb-ddr5-memory-free-as-dca0f299.html",
+      "title": "Retailer Effectively Makes 32 GB DDR5 Memory FREE As It Prices Intel Core Ultra 5 250KF Plus, B860 Motherboard, And RAM Bundle At Just $499",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "team-group-ceo-warns-memory-crisis-could-reach-point-67e9efd3",
+      "url": "/stories/team-group-ceo-warns-memory-crisis-could-reach-point-67e9efd3.html",
+      "title": "Team Group CEO warns memory crisis could reach point where 'even money can't buy goods' — will get worse next year, with 'no downward trend in price whatsoever' - Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "team-group-ceo-warns-memory-crisis-could-reach-point-2c855c33",
+      "url": "/stories/team-group-ceo-warns-memory-crisis-could-reach-point-2c855c33.html",
+      "title": "Team Group CEO warns memory crisis could reach point where 'even money can't buy goods' — will get worse next year, with 'no downward trend in price whatsoever'",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "everspin-sees-mram-opportunity-as-nor-flash-supply-t-06edf9cc",
+      "url": "/stories/everspin-sees-mram-opportunity-as-nor-flash-supply-t-06edf9cc.html",
+      "title": "Everspin Sees MRAM Opportunity as NOR Flash Supply Tightens - EE Times India",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times India",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "micron-details-ambitious-dram-and-nand-roadmap-3d-na-c9d2dd61",
       "url": "/stories/micron-details-ambitious-dram-and-nand-roadmap-3d-na-c9d2dd61.html",
@@ -25,6 +124,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "high-bandwidth-memory-market-will-reach-usd-29-65-bi-c2360801",
+      "url": "/stories/high-bandwidth-memory-market-will-reach-usd-29-65-bi-c2360801.html",
+      "title": "High Bandwidth Memory Market Will Reach USD 29.65 Billion by 2035 - openPR.com",
+      "tag": "demand",
+      "date": "2026-11-04",
+      "score": 7,
+      "pick": false,
+      "source": "openPR.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "nvidia-can-only-fulfill-1-of-china-s-massive-70-bill-3b0a69d0",
       "url": "/stories/nvidia-can-only-fulfill-1-of-china-s-massive-70-bill-3b0a69d0.html",
       "title": "Nvidia can only fulfill 1% of China’s massive $70 billion GPU order for AI chips, report claims — supply constraints choke export-friendly RTX Pro 5500 deliveries despite huge demand",
@@ -33,6 +143,17 @@
       "score": 7,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-drops-4f2-dram-pins-vertical-hbm-hopes-on-202-3da8ff49",
+      "url": "/stories/micron-drops-4f2-dram-pins-vertical-hbm-hopes-on-202-3da8ff49.html",
+      "title": "Micron Drops 4F² DRAM, Pins Vertical HBM Hopes on 2028 - ad-hoc-news.de",
+      "tag": "demand",
+      "date": "2026-11-04",
+      "score": 7,
+      "pick": false,
+      "source": "ad-hoc-news.de",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
