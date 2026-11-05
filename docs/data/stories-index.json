@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-04T23:38:57.879Z",
-  "count": 2370,
+  "generatedAt": "2026-11-05T06:41:59.379Z",
+  "count": 2377,
   "stories": [
+    {
+      "slug": "intel-releases-arc-gpu-graphics-drivers-101-9175-whq-cfbff7ca",
+      "url": "/stories/intel-releases-arc-gpu-graphics-drivers-101-9175-whq-cfbff7ca.html",
+      "title": "Intel Releases Arc GPU Graphics Drivers 101.9175 WHQL",
+      "tag": "supply",
+      "date": "2026-11-05",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-shortage-may-drag-on-until-2030-memory-chip-s-965ea51a",
+      "url": "/stories/memory-shortage-may-drag-on-until-2030-memory-chip-s-965ea51a.html",
+      "title": "Memory Shortage May Drag On Until 2030; Memory Chip Stocks Plunge, Apple Forced to Raise Prices - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-05",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-forecasts-memory-shortage-through-2030-suar-9b3128bf",
+      "url": "/stories/sk-hynix-forecasts-memory-shortage-through-2030-suar-9b3128bf.html",
+      "title": "SK Hynix Forecasts Memory Shortage Through 2030 - SuaraGarut.ID",
+      "tag": "supply",
+      "date": "2026-11-05",
+      "score": 8,
+      "pick": false,
+      "source": "SuaraGarut.ID",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "global-semiconductor-sales-surge-2-5x-in-third-quart-ae0600e2",
+      "url": "/stories/global-semiconductor-sales-surge-2-5x-in-third-quart-ae0600e2.html",
+      "title": "Global Semiconductor Sales Surge 2.5x in Third Quarter - 조선일보",
+      "tag": "supply",
+      "date": "2026-11-05",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ddr5-chip-prices-up-452-relief-slips-to-2028-2026-ht-8463c893",
+      "url": "/stories/ddr5-chip-prices-up-452-relief-slips-to-2028-2026-ht-8463c893.html",
+      "title": "DDR5 Chip Prices Up 452%, Relief Slips to 2028 [2026] - https://tech-insider.org/",
+      "tag": "supply",
+      "date": "2026-11-05",
+      "score": 8,
+      "pick": false,
+      "source": "https://tech-insider.org/",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "amd-s-record-quarter-data-center-business-doubles-wh-fbc48fb8",
       "url": "/stories/amd-s-record-quarter-data-center-business-doubles-wh-fbc48fb8.html",
@@ -88,6 +143,17 @@
       "score": 8,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-s-iphone-storage-upgrades-still-cost-buyers-3x-e3bd6538",
+      "url": "/stories/apple-s-iphone-storage-upgrades-still-cost-buyers-3x-e3bd6538.html",
+      "title": "Apple's iPhone Storage Upgrades Still Cost Buyers 3x What Apple Pays, Even as Memory Prices Bite - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -198,6 +264,17 @@
       "score": 8,
       "pick": false,
       "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ddr4-spot-prices-slip-0-09-as-buyers-hold-off-with-p-907a7b64",
+      "url": "/stories/ddr4-spot-prices-slip-0-09-as-buyers-hold-off-with-p-907a7b64.html",
+      "title": "DDR4 Spot Prices Slip 0.09% as Buyers Hold Off, With Premiums Still High - XenoSpectrum",
+      "tag": "supply",
+      "date": "2026-11-04",
+      "score": 8,
+      "pick": false,
+      "source": "XenoSpectrum",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
