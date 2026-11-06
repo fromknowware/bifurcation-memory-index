@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-05T19:54:55.775Z",
-  "count": 2404,
+  "generatedAt": "2026-11-06T06:38:47.280Z",
+  "count": 2411,
   "stories": [
+    {
+      "slug": "pr-team-group-secures-two-portable-ssd-taiwan-patent-3c187874",
+      "url": "/stories/pr-team-group-secures-two-portable-ssd-taiwan-patent-3c187874.html",
+      "title": "(PR) Team Group Secures Two Portable SSD Taiwan Patents: Magnetic Attachment and Device Tracking",
+      "tag": "supply",
+      "date": "2026-11-06",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "meta-exec-says-a-recently-elected-data-center-skepti-d201be07",
+      "url": "/stories/meta-exec-says-a-recently-elected-data-center-skepti-d201be07.html",
+      "title": "Meta Exec Says A Recently Elected, Data Center-Skeptic Democratic Governor Now Wants To Meet After Inauguration, As 22.5 GW Of Capacity Is Still Slated To Come Online Regardless Of Politics",
+      "tag": "demand",
+      "date": "2026-11-06",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "g-skill-and-micro-center-offer-intel-core-ultra-7-27-e49e465b",
+      "url": "/stories/g-skill-and-micro-center-offer-intel-core-ultra-7-27-e49e465b.html",
+      "title": "G.SKILL and Micro Center Offer Intel Core Ultra 7 270K Plus Combo Deal Featuring Ripjaws S5 DDR5 Memory",
+      "tag": "supply",
+      "date": "2026-11-06",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "supermicro-super-ai-station-review-the-ai-server-tha-fb37f93e",
+      "url": "/stories/supermicro-super-ai-station-review-the-ai-server-tha-fb37f93e.html",
+      "title": "Supermicro Super AI Station Review: The AI Server That Doubles as a Workstation",
+      "tag": "demand",
+      "date": "2026-11-05",
+      "score": 7,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "anti-data-center-sentiment-rides-blue-wave-threateni-06ba2841",
+      "url": "/stories/anti-data-center-sentiment-rides-blue-wave-threateni-06ba2841.html",
+      "title": "Anti-Data Center Sentiment Rides Blue Wave, Threatening AI Boom",
+      "tag": "demand",
+      "date": "2026-11-05",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "micron-s-bold-memory-expansion-faces-a-sudden-crisis-8f196bd0",
       "url": "/stories/micron-s-bold-memory-expansion-faces-a-sudden-crisis-8f196bd0.html",
@@ -201,6 +256,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "dram-wafer-revenue-tops-80-000-outshining-tsmc-s-2nm-41c7ebcb",
+      "url": "/stories/dram-wafer-revenue-tops-80-000-outshining-tsmc-s-2nm-41c7ebcb.html",
+      "title": "DRAM Wafer Revenue Tops $80,000, Outshining TSMC's 2nm Foundry Price - BigGo Finance",
+      "tag": "fab",
+      "date": "2026-11-05",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
       "slug": "nintendo-s-switch-2-sales-fell-41-in-the-september-q-9bbc5b4d",
       "url": "/stories/nintendo-s-switch-2-sales-fell-41-in-the-september-q-9bbc5b4d.html",
       "title": "Nintendo’s Switch 2 Sales Fell 41% In The September Quarter As Memory Costs Bit And Operating Profit Dropped 16%, Missing Analyst Estimates",
@@ -232,6 +298,17 @@
       "pick": false,
       "source": "TradingView",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-reclaims-its-dram-crown-with-a-38-share-in-q-dc23aac5",
+      "url": "/stories/samsung-reclaims-its-dram-crown-with-a-38-share-in-q-dc23aac5.html",
+      "title": "Samsung Reclaims Its DRAM Crown with a 38% Share in Q3 2026 - SammyGuru",
+      "tag": "earnings",
+      "date": "2026-11-05",
+      "score": 7,
+      "pick": false,
+      "source": "SammyGuru",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "samsung-wins-global-dram-crown-in-q3-but-surging-sk-56a78bfc",
