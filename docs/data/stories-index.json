@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-06T19:22:21.799Z",
-  "count": 2437,
+  "generatedAt": "2026-11-07T05:55:29.245Z",
+  "count": 2443,
   "stories": [
+    {
+      "slug": "tsmc-considers-entering-3d-dram-at-nvidia-s-request-ca7bb37d",
+      "url": "/stories/tsmc-considers-entering-3d-dram-at-nvidia-s-request-ca7bb37d.html",
+      "title": "TSMC considers entering 3D DRAM at NVIDIA's request - igor´sLAB",
+      "tag": "fab",
+      "date": "2026-11-07",
+      "score": 8,
+      "pick": false,
+      "source": "igor´sLAB",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ddr5-ram-price-8-70-chip-now-48-up-450-2026-shattere-8f00d5ec",
+      "url": "/stories/ddr5-ram-price-8-70-chip-now-48-up-450-2026-shattere-8f00d5ec.html",
+      "title": "DDR5 RAM Price: $8.70 Chip Now $48, Up 450% [2026] - shattered.io",
+      "tag": "supply",
+      "date": "2026-11-07",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "people-deserve-their-own-ram-elon-musk-challenges-sa-f6710f3c",
+      "url": "/stories/people-deserve-their-own-ram-elon-musk-challenges-sa-f6710f3c.html",
+      "title": "“People Deserve Their Own RAM”: Elon Musk Challenges Sam Altman Over Data Center Memory - ColombiaOne.com",
+      "tag": "demand",
+      "date": "2026-11-06",
+      "score": 7,
+      "pick": false,
+      "source": "ColombiaOne.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "2027-semiconductor-market-supply-pricing-sourceabili-3cc03d23",
+      "url": "/stories/2027-semiconductor-market-supply-pricing-sourceabili-3cc03d23.html",
+      "title": "2027 semiconductor market: supply + pricing - Sourceability",
+      "tag": "supply",
+      "date": "2026-11-06",
+      "score": 8,
+      "pick": false,
+      "source": "Sourceability",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "a-kitchen-slide-manufacturer-controls-up-to-90-perce-c683a9e2",
+      "url": "/stories/a-kitchen-slide-manufacturer-controls-up-to-90-perce-c683a9e2.html",
+      "title": "A Kitchen Slide Manufacturer Controls Up To 90 Percent Of The AI Server Market, Thanks To Precise Manufacturing Of Racks Housing Multi-Million GPU Clusters",
+      "tag": "demand",
+      "date": "2026-11-06",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "cosmic-at-semicon-europa-2026-advancing-high-complex-8dda31c5",
       "url": "/stories/cosmic-at-semicon-europa-2026-advancing-high-complex-8dda31c5.html",
@@ -232,6 +287,17 @@
       "pick": false,
       "source": "Communications Today",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-revenue-surges-369-as-ai-driven-memory-crunch-d-99e8e332",
+      "url": "/stories/dram-revenue-surges-369-as-ai-driven-memory-crunch-d-99e8e332.html",
+      "title": "DRAM Revenue Surges 369% As AI-driven Memory Crunch Deepens - Dataconomy",
+      "tag": "earnings",
+      "date": "2026-11-06",
+      "score": 7,
+      "pick": false,
+      "source": "Dataconomy",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
     },
     {
       "slug": "winbond-unveils-cube-lite-memory-platform-for-low-po-246a3d76",

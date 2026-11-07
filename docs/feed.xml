@@ -5,11 +5,76 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-11-06T19:22:19.291Z</updated>
+  <updated>2026-11-07T05:55:26.084Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMibEFVX3lxTE8zTlBpek9XNE8yUHA5SDZtMWFSRVBGeGxJVy1PQW1vcWpGb2tDaGw4V25xd0JZS2dCcGhDZVF0QmhLdVBRcndFel9CVmRLTzk2ZFBOWWltUEJIanpEUDluOFJFS0ptbnRpcnlCQQ?oc=5</id>
+    <title type="html">TSMC considers entering 3D DRAM at NVIDIA's request - igor´sLAB</title>
+    <link href="https://news.google.com/rss/articles/CBMibEFVX3lxTE8zTlBpek9XNE8yUHA5SDZtMWFSRVBGeGxJVy1PQW1vcWpGb2tDaGw4V25xd0JZS2dCcGhDZVF0QmhLdVBRcndFel9CVmRLTzk2ZFBOWWltUEJIanpEUDluOFJFS0ptbnRpcnlCQQ?oc=5" />
+    <link rel="related" href="/stories/tsmc-considers-entering-3d-dram-at-nvidia-s-request-ca7bb37d.html" />
+    <updated>2026-11-07T05:00:00.000Z</updated>
+    <author><name>igor´sLAB</name></author>
+    <summary type="html">TSMC considers entering 3D DRAM at NVIDIA's request igor´sLAB RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;TSMC considers entering 3D DRAM at NVIDIA's request igor´sLAB&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMijAFBVV95cUxNcUJPRTJqd05IZ0p5VFNXeVczVHg4WXhMeDhDVmVMTXRmYmprNzNCM1d5ajZDTjF1Uk9ReWd6UUJLMm94T2Fwc1FxVGVSUThsR0ZSd1FsczZjaHE2WnpkRkJfanFEa3hVODNYenRfQ0RsaUkzRVZ3Vlg1ZkU5d3hVUkxCR3psTWhzZnhOVA?oc=5</id>
+    <title type="html">DDR5 RAM Price: $8.70 Chip Now $48, Up 450% [2026] - shattered.io</title>
+    <link href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNcUJPRTJqd05IZ0p5VFNXeVczVHg4WXhMeDhDVmVMTXRmYmprNzNCM1d5ajZDTjF1Uk9ReWd6UUJLMm94T2Fwc1FxVGVSUThsR0ZSd1FsczZjaHE2WnpkRkJfanFEa3hVODNYenRfQ0RsaUkzRVZ3Vlg1ZkU5d3hVUkxCR3psTWhzZnhOVA?oc=5" />
+    <link rel="related" href="/stories/ddr5-ram-price-8-70-chip-now-48-up-450-2026-shattere-8f00d5ec.html" />
+    <updated>2026-11-07T02:08:33.000Z</updated>
+    <author><name>shattered.io</name></author>
+    <summary type="html">DDR5 RAM Price: $8.70 Chip Now $48, Up 450% [2026] shattered.io RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;DDR5 RAM Price: $8.70 Chip Now $48, Up 450% [2026] shattered.io&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiigFBVV95cUxPcHNpR2pWWDFDYXVSZnNQeEJacGZTLVhQYXFBdXpFaFhmZmpxc29PUnBOc0ZUam1zdmtGWTRCWEZhNDdKQmdzQUhpaG5kWFR6UTBPdWk1ZnlUMExlUVhoeV9nLUdESzdTMDducTl6am92UmtUR3RqcnkxaXYxYy1YdFc2OWdEODVtRGc?oc=5</id>
+    <title type="html">“People Deserve Their Own RAM”: Elon Musk Challenges Sam Altman Over Data Center Memory - ColombiaOne.com</title>
+    <link href="https://news.google.com/rss/articles/CBMiigFBVV95cUxPcHNpR2pWWDFDYXVSZnNQeEJacGZTLVhQYXFBdXpFaFhmZmpxc29PUnBOc0ZUam1zdmtGWTRCWEZhNDdKQmdzQUhpaG5kWFR6UTBPdWk1ZnlUMExlUVhoeV9nLUdESzdTMDducTl6am92UmtUR3RqcnkxaXYxYy1YdFc2OWdEODVtRGc?oc=5" />
+    <link rel="related" href="/stories/people-deserve-their-own-ram-elon-musk-challenges-sa-f6710f3c.html" />
+    <updated>2026-11-06T23:45:00.000Z</updated>
+    <author><name>ColombiaOne.com</name></author>
+    <summary type="html">“People Deserve Their Own RAM”: Elon Musk Challenges Sam Altman Over Data Center Memory ColombiaOne.com RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;“People Deserve Their Own RAM”: Elon Musk Challenges Sam Altman Over Data Center Memory ColombiaOne.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMimwFBVV95cUxQUE5LcXpwNmtQNkxTV1RnQk9rSDdSOWxyZXpwbXQ5WlYzWjhJTC1RNWtDNktxVnZxNDFYQlpfQ3pjVlh3X1lVak1yclQ0X2Z2enRKVDBMdUM4NWNZbVNTY21GMEJoQ2d1aGl6M1lYUmplOWZwSHkxbUFDdlZSV0lwbGVjWnZod01DTWFZbmVXWlFtSmVEUXdEcDFTMA?oc=5</id>
+    <title type="html">2027 semiconductor market: supply + pricing - Sourceability</title>
+    <link href="https://news.google.com/rss/articles/CBMimwFBVV95cUxQUE5LcXpwNmtQNkxTV1RnQk9rSDdSOWxyZXpwbXQ5WlYzWjhJTC1RNWtDNktxVnZxNDFYQlpfQ3pjVlh3X1lVak1yclQ0X2Z2enRKVDBMdUM4NWNZbVNTY21GMEJoQ2d1aGl6M1lYUmplOWZwSHkxbUFDdlZSV0lwbGVjWnZod01DTWFZbmVXWlFtSmVEUXdEcDFTMA?oc=5" />
+    <link rel="related" href="/stories/2027-semiconductor-market-supply-pricing-sourceabili-3cc03d23.html" />
+    <updated>2026-11-06T23:06:26.000Z</updated>
+    <author><name>Sourceability</name></author>
+    <summary type="html">2027 semiconductor market: supply + pricing Sourceability RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;2027 semiconductor market: supply + pricing Sourceability&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/taiwanese-kitchen-drawer-maker-king-slide-dominates-ai-server-rails-market/</id>
+    <title type="html">A Kitchen Slide Manufacturer Controls Up To 90 Percent Of The AI Server Market, Thanks To Precise Manufacturing Of Racks Housing Multi-Million GPU Clusters</title>
+    <link href="https://wccftech.com/taiwanese-kitchen-drawer-maker-king-slide-dominates-ai-server-rails-market/" />
+    <link rel="related" href="/stories/a-kitchen-slide-manufacturer-controls-up-to-90-perce-c683a9e2.html" />
+    <updated>2026-11-06T21:50:29.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">There’s unprecedented attention on cutting-edge AI chips, data centers, and DRAM, but one of the most overlooked components of this supply chain happens to be the mechanical side of stacking the entire hardware inside. Yes, we’re talking about the physical server racks, and when you think of this paraphernalia, the last company that comes to mind would be a manufacturer responsible for kitchen cab RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;There’s unprecedented attention on cutting-edge AI chips, data centers, and DRAM, but one of the most overlooked components of this supply chain happens to be the mechanical side of stacking the entire hardware inside. Yes, we’re talking about the physical server racks, and when you think of this paraphernalia, the last company that comes to mind would be a manufacturer responsible for kitchen cab&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.eetimes.com/cosmic-at-semicon-europa-2026-advancing-high-complexity-semiconductor-test-solutions/</id>
     <title type="html">Cosmic at SEMICON Europa 2026: Advancing High-Complexity Semiconductor Test Solutions</title>
@@ -21,7 +86,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/354547/tsmc-is-reportedly-considering-3d-dram-production</id>
@@ -34,20 +99,20 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;The world's largest chipmaker, TSMC, is reportedly considering entering the memory sector with the manufacturing of advanced DRAM technologies. According to a report from The Information, which cites sources close to the plans, TSMC is contemplating starting the production of 3D DRAM. As we know, there is a desperate need for more DRAM output from the three major memory makers: SK Hynix, Samsung,&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;The world's largest chipmaker, TSMC, is reportedly considering entering the memory sector with the manufacturing of advanced DRAM technologies. According to a report from The Information, which cites sources close to the plans, TSMC is contemplating starting the production of 3D DRAM. As we know, there is a desperate need for more DRAM output from the three major memory makers: SK Hynix, Samsung,&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/354543/amd-goes-data-center-first-while-gaming-revenue-drops-40</id>
-    <title type="html">AMD Goes &amp;quot;Data Center First&amp;quot; While Gaming Revenue Drops 40%</title>
+    <title type="html">AMD Goes &quot;Data Center First&quot; While Gaming Revenue Drops 40%</title>
     <link href="https://www.techpowerup.com/354543/amd-goes-data-center-first-while-gaming-revenue-drops-40" />
-    <link rel="related" href="/stories/amd-goes-quot-data-center-first-quot-while-gaming-re-e6f92a18.html" />
+    <link rel="related" href="/stories/amd-goes-data-center-first-while-gaming-revenue-drop-e6f92a18.html" />
     <updated>2026-11-06T17:09:31.000Z</updated>
     <author><name>TechPowerUp</name></author>
     <summary type="html">AMD CEO Lisa Su now calls AMD a &quot;data center first&quot; company, two days after AMD reported a 40% drop in gaming revenue. Speaking to Yahoo Finance's Brian Sozzi on November 5, Su said AMD's data center business should grow 50% sequentially from Q3 to Q4, and suggested it could more than double next year. Here's how she put it: Dr. Lisa Su, AMD CEO We are a data center first company, that is our prof RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
     <category term="opml" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;AMD CEO Lisa Su now calls AMD a &quot;data center first&quot; company, two days after AMD reported a 40% drop in gaming revenue. Speaking to Yahoo Finance's Brian Sozzi on November 5, Su said AMD's data center business should grow 50% sequentially from Q3 to Q4, and suggested it could more than double next year. Here's how she put it: Dr. Lisa Su, AMD CEO We are a data center first company, that is our prof&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;AMD CEO Lisa Su now calls AMD a &quot;data center first&quot; company, two days after AMD reported a 40% drop in gaming revenue. Speaking to Yahoo Finance's Brian Sozzi on November 5, Su said AMD's data center business should grow 50% sequentially from Q3 to Q4, and suggested it could more than double next year. Here's how she put it: Dr. Lisa Su, AMD CEO We are a data center first company, that is our prof&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMikgFBVV95cUxPdTI4UG15NG40R1doTENjSElEZDhESnQ0T3VjaGZaMXl0QW9aTlhWbGdRZUlFcHpaZ0xjaVk1ZFJyWTBraFlzdzlsMGtQQURiUGlUZDE3eVhNVnJiUHpVMzdZWkwtc0t0V2N3enVGTUtwVFdLZkJYWmNnYjdtZjNTSHFlNW56TkNrUktoc1Q1MUljZw?oc=5</id>
@@ -60,7 +125,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Nvidia Reportedly Wants TSMC to Make Advanced Memory Chips TipRanks&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Nvidia Reportedly Wants TSMC to Make Advanced Memory Chips TipRanks&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/354540/diamond-foundry-announces-first-ever-d200mm-single-crystal-diamond</id>
@@ -73,7 +138,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Diamond Foundry Inc. today announced a major milestone in the history of materials technology: the creation of the first-ever D200mm single-crystal diamond, measuring 200 millimeters in diameter. The achievement marks a fundamental step forward in humanity's ability to manufacture diamond as a technology material at semiconductor-relevant scale. Diamond has long been recognized as an extraordinary&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Diamond Foundry Inc. today announced a major milestone in the history of materials technology: the creation of the first-ever D200mm single-crystal diamond, measuring 200 millimeters in diameter. The achievement marks a fundamental step forward in humanity's ability to manufacture diamond as a technology material at semiconductor-relevant scale. Diamond has long been recognized as an extraordinary&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE4xejJhX25OVGxSQlJTRGJsUlJic1lxSEtkVy1GRWpnOWttVC1PUkNwN2dBc1pXRWJUWUxReE1jbFo2Q3dScWJZa1IzNjZLTjViNngxTXdXckE5T0xlTEtFRldIalBNendpdTVocXZlM2JlOFlNVUE?oc=5</id>
@@ -86,7 +151,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Nvidia Taps TSMC to Build 3D DRAM, Threatening to Reshuffle Memory Supply Chain BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Nvidia Taps TSMC to Build 3D DRAM, Threatening to Reshuffle Memory Supply Chain BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMitAFBVV95cUxPVDJlNXBhNGJLM2Q0dkVqNm0zUkc1UTB3VXAyUTM4Q1dQOGJQYzhrc1NKVlN5Q2pMOTFVT2NVTGdJV0dFQlRubWZyQ2JaRlJPc0hpWi1SMmxqUnBjS0pvSzVZWEpMSFNlblktc19JTUJyTnVNS0plY3M5QldrRk5Ha1YwbnpORGhaT0l2N1lrbm5iR2lLQlBYTTdSNkV1MUpPREpyRDNxU3NtUy1lQkYxRm9NTHc?oc=5</id>
@@ -99,7 +164,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Reports suggest NVIDIA (NVDA.US) is pushing Taiwan Semiconductor (TSM.US) to enter the advanced memory chip market, with plans to deploy 3D DRAM production to capture a larger share of the AI supply chain. Moomoo&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Reports suggest NVIDIA (NVDA.US) is pushing Taiwan Semiconductor (TSM.US) to enter the advanced memory chip market, with plans to deploy 3D DRAM production to capture a larger share of the AI supply chain. Moomoo&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMigAFBVV95cUxNRE5DT09hdFpPTUxqUXYxRUI4Y292d3NFc0Z3bkNHa01uS3B1TGdNSWh5S19EalllRFhPX1BrRDVJcFN3VjVmQ1prbl9iR3pOLWhUcVNiS3hkVGJpRi1vemE5NU9SbzdTemhKVWgtMXhWMjVUUHVCWm9fcTI3VVV0LQ?oc=5</id>
@@ -112,7 +177,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;Global DRAM Revenue Records 369% Growth in Q3 2026 TechJuice&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Global DRAM Revenue Records 369% Growth in Q3 2026 TechJuice&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMifEFVX3lxTE5kNXQ2M3hSWlBKNHlVX3F3RE55VEhzYjF4VXl6dUxNYjdONGVKaks2cHZVd0FQa3JkQmF0OGRGRzBkaVBoRWJBSWpmR3BFMk9QR2UxaEZfY3FBNjZnYW5WZjJuV01RRXZWQzNVS1BaQ2tLendEdnQ1OFFVbzI?oc=5</id>
@@ -125,7 +190,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;TSMC weighs a move into advanced memory chips, The Information reports Crypto Briefing&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;TSMC weighs a move into advanced memory chips, The Information reports Crypto Briefing&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDhRREo1cGVJbmxPMy1qbEl2cUM0aW1sbkpvc1l1YjVLUlgzWWV1cTh3Wi1wWHhZTkZ4em4wcVlkOXhxWVI4V1JYYWhnNFVlMFczS2xGQnFxQlJLYmVheEd5OC0tdEJfdHhobWt5NFBad1o1dWVSZHI1S0l4QkFMRDNKTkUtakd4b0F4cktCcWRxR2dEZnBDN0x0Z0tMRHNTWnc?oc=5</id>
@@ -138,7 +203,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;TSMC Weighs Making Advanced Memory Chips to Capture More AI Spending The Information&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;TSMC Weighs Making Advanced Memory Chips to Capture More AI Spending The Information&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow</id>
@@ -151,7 +216,7 @@
     <category term="opml" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe</id>
@@ -164,7 +229,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status</id>
@@ -177,7 +242,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbzJySmNWb2M3ZEdfOEhjZHB0M0FNVXFiTHJyRVZWalZ2WXRNa0pfOHZkUnNXeE5fNlU0OXFzaUQ4ZFhMRGg0OGJqVHZfSGNZZmcyd0xJdF9RenFxanhiZzhYTFpyeWZHTFRoeGstWUdwYWFRQ1lzWTdtZkRYak9Ka2dXZVVDMHBQdTBKVWVNNHpsYldGTmVBZjZWRmpYejUzaDhLOGR4ZnNxSU5oem1PNXdXdWRKODZTaHMydDg1RGVSUVhXbjd5UnYzWjRjV3hmblNvWXpIcUdKRkoyOHfSAeMBQVVfeXFMT0ZtQXB4QXVjM254Wmt2N0xpZEMtVWVZOGZUMS0yNXZCLXZ3eDNoeFNYRUtTRzJXdU9lbG1MUlNHRldYaldqMi1uYjRCWlU3SEVtNVBPUmszcmJNMWJ1amxfTVhlMTgxUmJRejgtbzM5TXpxRnF5X3h3UjhQNVozVXVIN0FhODZRVS1ZS1ZNbDFJZnF1d1BvVk5aaVFvdzl1dC1uWG1wNHhKbTQ3N0ZsMS1BYTNBLXZJUmdaV1lRYllTXzFsX292ZlhpbnF1c3FuRE1vVXR5NVR6WmlTRzdsaE9OUWM?oc=5</id>
@@ -190,7 +255,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Chinese Memory Chip Manufacturer CXMT Struggles In Q3 As Share Drops To 9% Amidst Aggressive Ramp From Samsung, Says Research Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Chinese Memory Chip Manufacturer CXMT Struggles In Q3 As Share Drops To 9% Amidst Aggressive Ramp From Samsung, Says Research Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/chinese-memory-chip-manufacturer-cxmt-struggles-in-q3-as-share-drops-to-9-amidst-aggressive-ramp-from-samsung-says-research/</id>
@@ -203,7 +268,7 @@
     <category term="opml" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;Chinese memory manufacturer CXMT's market share in the DRAM memory chip industry is coming under pressure as behemoth Samsung scales its production and the market starts to focus on high bandwidth memory (HBM) chips. The latest statistics come courtesy of Counterpoint Research, and they outline that CXMT's market share in the DRAM market grew to 9% in Q3 2026 for a four percentage point jump over&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Chinese memory manufacturer CXMT's market share in the DRAM memory chip industry is coming under pressure as behemoth Samsung scales its production and the market starts to focus on high bandwidth memory (HBM) chips. The latest statistics come courtesy of Counterpoint Research, and they outline that CXMT's market share in the DRAM market grew to 9% in Q3 2026 for a four percentage point jump over&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMipAFBVV95cUxPRlpOUWVFaHFnZFVMQnYxQ016MnBveExzRmdWUm15TXIwREFQZmNpVXFNUlVMOFZJZ0g4aUZjMklIS0NNbmQyR0FXVHNBSEo0REZhX0RrOC1pYm81dUhhejI4aDlfOTFQWDFmQWtWRkxXRU85WVZYNDBhOTdmZVFBMnJVNVVxU3Z2UHgyTlVKQ3VJN25XQXh2SGlTV19IOWJjUmVwWA?oc=5</id>
@@ -216,7 +281,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Building More with Less: How to Navigate the Memory Chip Shortage EE Times Asia&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Building More with Less: How to Navigate the Memory Chip Shortage EE Times Asia&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidEFVX3lxTE9UZGZhYzlZYUVCaVV5Q0xEMzRHTHB3eThzSzJGVURZazRDcmxOYkpoT0k1X1pDb25pcjFaMzFSWVV4ZktsZFJQSnVGTFZWMlVoYzJseE9KZmFYZk1IdjVlSnNnVW9aaHJUMHE1UzFtYlZlOWFH?oc=5</id>
@@ -229,7 +294,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;DRAM Price Surge Slows OLED Investment Businesskorea&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;DRAM Price Surge Slows OLED Investment Businesskorea&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yamJ6RG9iLUFQV2RibV9oYW5oX0RtMmdVSHY2QVdKSzlZaHBlNFFwX1hjZVlFbjNxZHlSLUVTaUV2RVp3TGNLRlAxMXFfR1ZvQ1BTQ2tGMm5nVVU?oc=5</id>
@@ -242,7 +307,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Intel Projects AI Chip Packages Could Reach 240 Millimeters Square www.tokenpost.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Intel Projects AI Chip Packages Could Reach 240 Millimeters Square www.tokenpost.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zMDBfY01lRVhtNm5fV1RJeTg4S01iUDM3WEVVWTF1UmtwRUwwY1UxVDFEZTQzS24xMGpIX0Z6OGx6cFFoRk5wcmtBbTEwMTdRdzBGR1NpLU9KcHM?oc=5</id>
@@ -255,7 +320,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Micron's Memory Revenue Catches Up to TSMC, but Gross Margin Dragged Down by HBM: Why the Shortage Could Last Until 2028 BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Micron's Memory Revenue Catches Up to TSMC, but Gross Margin Dragged Down by HBM: Why the Shortage Could Last Until 2028 BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected</id>
@@ -268,7 +333,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMipwFBVV95cUxPTmhvSzBsRFJ2cHp0Uy1MTlRJRDA1VVR4UkdQUkVaR2V4QV9kdTV6UDhyMlFFdVd0Z25XQ0kyVDZ3VGVQM3VteWpkOHVMeHM0SW52d0x5ZjVheTJLUDhUanJkZzVUa1I2M2Z3RkxVTndRSWZPN0lxbWVvcVBkejRXZk5TUTAwYjZ1akhDa1h2Nm5iYjNCeHdkR3FkMUl0YjE0Ykx0XzdsQQ?oc=5</id>
@@ -281,7 +346,20 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Rising DRAM prices push smartphone brands towards reballed memory Communications Today&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Rising DRAM prices push smartphone brands towards reballed memory Communications Today&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMimAFBVV95cUxOckgtZVlGY2loQWdVZzM1SmFtX2kyZDlWOHFMbE9uTlVPWDBaNEhMMFZMdjFIRk96QTEzaW9BVEk2WWh1c3RCTUh4VDBpaHdacWROc3MwWTYyZ3lCZ2Y3eFhzREYySUdSd1h3aHh2YUQyLU9vNkhWclpYZE51YU9OeTQ2TFFrVTN5MndQWHBQT29CYTZxX2drOQ?oc=5</id>
+    <title type="html">DRAM Revenue Surges 369% As AI-driven Memory Crunch Deepens - Dataconomy</title>
+    <link href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOckgtZVlGY2loQWdVZzM1SmFtX2kyZDlWOHFMbE9uTlVPWDBaNEhMMFZMdjFIRk96QTEzaW9BVEk2WWh1c3RCTUh4VDBpaHdacWROc3MwWTYyZ3lCZ2Y3eFhzREYySUdSd1h3aHh2YUQyLU9vNkhWclpYZE51YU9OeTQ2TFFrVTN5MndQWHBQT29CYTZxX2drOQ?oc=5" />
+    <link rel="related" href="/stories/dram-revenue-surges-369-as-ai-driven-memory-crunch-d-99e8e332.html" />
+    <updated>2026-11-06T09:43:35.000Z</updated>
+    <author><name>Dataconomy</name></author>
+    <summary type="html">DRAM Revenue Surges 369% As AI-driven Memory Crunch Deepens Dataconomy RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;DRAM Revenue Surges 369% As AI-driven Memory Crunch Deepens Dataconomy&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRmdTNGVidzgyNlRXcW9NMm9yZ2VROWF5Zm00MVZIQVNrMEZCZmYzZmtTOTRvelBLQmszYklXTkNvdzRPZmNUaDhhSUNtMUp1NzZxa3VtVXB2TEJpSmF3bmYtUGhHZ2NWUTVBNFZ4WXlnMDV5MUtOS18wa09TaGpKUlhXU1VNZFlLZXp5QjJJMEV0Y1dPYURDVFdHRHEzVVB2VlhrQnFVUTI1eUxiZnhORUdkQmV0RjYwYlEwb0w4ZnBOSnZDd2FhbQ?oc=5</id>
@@ -294,7 +372,7 @@
     <category term="google-news:AI memory bandwidth" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Winbond unveils CUBE-Lite memory platform for low-power edge AI devices New Electronics&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Winbond unveils CUBE-Lite memory platform for low-power edge AI devices New Electronics&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE84SFE3VmJ6dURnNWhQZnJaNWs2Q29ySXBRMVVCMndGd2RVZmNlTWFNOWVjcnVuRXVkNlowQmpIZC1nYUF5ZFpGVTBOTWplcmFSRDNoU2hucktkVzlFT2l1TU9yWlJrMUl5cHprckc5Y0VRMmg1M2c?oc=5</id>
@@ -307,7 +385,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;DRAM Rally Stalls! Transcend's Shu Chong-Wan: Prices Have Peaked, Shortages May Persist Into First Half of Next Year BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;DRAM Rally Stalls! Transcend's Shu Chong-Wan: Prices Have Peaked, Shortages May Persist Into First Half of Next Year BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMia0FVX3lxTE9XMWx1ZWJjNWNrZHJQTE54VWhUOERRYmc0czlQWENCeXM4SDhjRWFMblBBZmcwUU13OS03VHhadGZ0b2FVLXhZWDNpWUFXa3VONHlVODA5VGtuYkszb2RFNE4tcFZtYlBQeUdF?oc=5</id>
@@ -320,7 +398,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Global demand for memory chips is booming. Vietnam.vn&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Global demand for memory chips is booming. Vietnam.vn&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmdi1ObGVMM1h0YzJYaGd5ZXFKRVJYWHlyZXhxdkx4bXF6TlQ0UWFOSGRlR21QQ01WVWxobXk4c2ZGNEtIVUtLQzJSM1lsdDZGNmdiM2hB?oc=5</id>
@@ -333,7 +411,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;Q3 DRAM revenue up 369% YoY Electronics Weekly&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Q3 DRAM revenue up 369% YoY Electronics Weekly&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/354531/team-group-secures-two-portable-ssd-taiwan-patents-magnetic-attachment-and-device-tracking</id>
@@ -359,7 +437,7 @@
     <category term="google-news:HBM memory chip" />
     <category term="tag:fab" />
     
-    <content type="html">&lt;p&gt;Samsung’s plan to boost HBM production with new Asan plant Sammy Fans&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung’s plan to boost HBM production with new Asan plant Sammy Fans&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/meta-exec-says-a-recently-elected-data-center-skeptic-democratic-governor-now-wants-to-meet-after-inauguration-as-22-5-gw-of-capacity-is-still-slated-to-come-online-regardless-of-politics/</id>
