@@ -162,99 +162,96 @@ Watchlist
 
 25 startups attacking the memory wall
 
-Research
+## Research
+The intellectual foundation: the paper library, rendered from data/papers.json.
+### The Ramification Index: Original composite
 
-The intellectual foundation
+- **Version:** v1 · **Status:** SSRN submitted · **Date:** 2023
+- **Byline:** Khayyam Wakil · 2023 · 40 years of data
+- [Version 1 site](https://fromknowware.github.io/memory-index/)
 
-Working Paper · Knowware Institute
+The original Ramification Index: the original composite index, built on 40 years of data. Established the 6/6 NBER recession signal and Granger causality as confirmed in that version. Superseded by v2 (bifurcation) and v3 (self-audit of data provenance and statistical power). Submitted to SSRN.
 
-The Ramification Index v2: The Bifurcated Index
+**Headline figures:** 6/6 (NBER Recessions) · 40 yrs (Time Series) · v1 (Original Composite)
 
-Khayyam Wakil · 2025 · 44 years of data (1980–2026)
+### The Ramification Index v2: The Bifurcated Index
 
-A supply-side macroeconomic indicator built on DRAM prices. The v2 introduces bifurcated sub-indices separating commodity DRAM from AI/HBM markets, documents the 2025–2026 RAMageddon event, and demonstrates Granger causality from the RAM index to real GDP growth. 6 of 6 NBER recessions covered; correlation r = 0.41 with real GDP YoY.
+- **Version:** v2 · **Status:** Published · **Date:** 2025
+- **Byline:** Khayyam Wakil · 2025 · 44 years of data (1980–2026)
+- [Download PDF](https://ram-index.com/Wakil_RamificationIndex_v2.pdf)
+- [Read on web](https://ram-index.com/paper.html)
+- [Interactive dashboard](https://ram-index.com/dashboard.html)
 
-[⤢Click to view full paper](Wakil_RamificationIndex_v2.pdf)
+A supply-side macroeconomic indicator built on DRAM prices. v2 introduces bifurcated sub-indices separating commodity DRAM from AI/HBM markets, documents the 2025–2026 RAMageddon event, and demonstrates Granger causality from the RAM index to real GDP growth. 6 of 6 NBER recessions covered; correlation r = 0.41 with real GDP YoY.
 
-6/6
+**Headline figures:** 6/6 (NBER Recessions) · r = 0.41 (GDP Correlation) · F = 5.83 (Granger F-stat) · 44 yrs (Time Series) · p <.01 (Significance)
 
-NBER Recessions
+**Cite:** Wakil, K. (2025). The Ramification Index v2: The Bifurcated Index. Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com
 
-r = 0.41
+### v3: Provenance, Construction, and What the Series Can Support
 
-GDP Correlation
+- **Version:** v3·audit · **Status:** Self-audit · **Date:** Aug 2026
+- **Byline:** Khayyam Wakil · Aug 2026 · corrected dataset + 8-guard protocol
+- [Full audit PDF](https://ram-index.com/papers/Wakil_RamificationIndex_v3D.pdf)
+- [Executive summary](https://ram-index.com/v3/executive-summary.html)
+- [Methods](https://ram-index.com/v3/methods.html)
+- [Full audit PDF (site mirror)](https://ram-index.com/v3/full-audit.pdf)
+- [SSRN #6726483](https://ssrn.com/abstract=6726483)
 
-F = 5.83
+This third version is a correction and a method, not a new result. (1) The primary source for the 1980–2017 segment — the McCallum memory-price archive — has lapsed; the original workbook is recovered from the Internet Archive and republished. (2) The 1988 "RAM drought" is absent from the published price table; the recovered archive shows a +82.5% move where the published series shows −21.8%. (3) A point-in-time construction standard is specified, with a monthly index (RI-M) built from the recovered archive. (4) The v2 Granger result is carried by its last six observations; withholding 2020–2026 flips the forward p-value from 0.0243 to 0.2984. A corrected quality-adjusted series is published alongside the original — nothing is overwritten — with an eight-guard test protocol.
 
-Granger F-stat
+**Headline figures:** 8 (Guard Protocol) · +82.5% (1988 Recovered) · p: .024→.298 (Granger w/o 2020–) · n = 46 (Annual Panel)
 
-44 yrs
+**Cite:** Wakil, K. (2026). The Ramification Index v3: Provenance, Construction, and What the Series Can Support. Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com/v3
 
-Time Series
+### v3: The Bifurcated Index, Granger Causality, Supply-Side Divergence, and the Practitioner Gap
 
-p <.01
+- **Version:** v3·practitioner · **Status:** arXiv preprint · **Date:** Aug 2026
+- **Byline:** Khayyam Wakil · Aug 2026 · 46 years of data (1980–2026)
+- [Download PDF](https://ram-index.com/papers/Wakil_RamificationIndex_v3_arXiv.pdf)
+- [Interactive dashboard](https://ram-index.com/dashboard.html)
 
-Significance
+The Ramification Index names the DRAM commodity, the economic ramifications of oligopoly pricing decisions, and the algebraic ramification index of a prime ideal — all three describe how a DRAM price movement propagates outward into server capex, AI infrastructure, consumer electronics, and macro activity. This third version extends the original in eight ways: (1) bifurcates the index into Commodity and AI sub-indices; (2) presents Granger tests showing the index leads real GDP at 1–3 quarter lags (F = 5.83, p = 0.004); (3) documents the 2025–2026 RAMageddon — the sharpest positive reading in the index's 46-year history; (4) integrates DRAM price-fixing conviction history (1998–2006); and names the practitioner gap between folk indicators and formal signals.
 
-[↓ Download PDF](Wakil_RamificationIndex_v2.pdf)
-[Read on web →](paper.html)
-[Interactive dashboard →](dashboard.html)
+**Headline figures:** 8× (Extensions Over v2) · F = 5.83 (Granger F-stat) · p = .004 (Significance) · 46 yrs (Time Series) · 1–3Q (GDP Lead)
 
-Data Sources
+**Cite:** Wakil, K. (2026). The Ramification Index v3: The Bifurcated Index, Granger Causality, Supply-Side Divergence, and the Practitioner Gap. Knowware Institute (arXiv preprint). ram-index.com
 
-DRAM prices  DRAMeXchange / TrendForce quarterly $/GB averages; Amazon spot pricing as proxy; earnings guidance from Micron, Samsung, SK Hynix
+### v4: A Fourth Firm, and Why It Fails the Scope Condition
 
-GDP series  U.S. BEA real GDP YoY growth, annualized; FRED series GDPC1; quarterly data 1980–2026
+- **Version:** v4·scope · **Status:** Working paper · **Date:** Aug 2026
+- **Byline:** Khayyam Wakil · Aug 2026 · continuation of the audit line
+- [Download PDF](https://ram-index.com/papers/Wakil_RamificationIndex_v4.pdf)
 
-Recessions  NBER Business Cycle Dating Committee official start/end dates; 6 cycles covered (1980, 1981, 1990, 2001, 2007, 2020)
+This fourth version continues the audit line of v3 (Provenance). It asks a single question: does the July 2026 public listing of ChangXin Memory Technologies (CXMT) — the first credible fourth DRAM entrant — change what the series can support? It concludes it does not. (1) CXMT's price is policy-administered: state mandate, export-control isolation, blacklisted buyer set, and an equity that opened +466% pricing a geopolitical option. By v3's scope condition it lacks a fast, elastic, private-market price and belongs with potash — untestable — not with incumbent DRAM. (2) The nearest precedent, 1988, is also missing from the series; both episodes are trade-policy-driven. (3) A fourth firm optimising for self-sufficiency is a mid-sample break; it makes the n = 46 panel less poolable, not more. (4) The China/RoW split is populated for zero realised observations and logged as a watch-item. The earlier draft's "fifth regime" claim is withdrawn as premature.
 
-HBM data  SK Hynix, Samsung, Micron quarterly earnings; IDC server DRAM shipment data; Omdia HBM revenue estimates
+**Headline figures:** 7.7–9% (CXMT Global Share) · +466% (IPO Debut) · 0 (CN/RoW Obs.) · Untested (Fifth Regime)
 
-Equities  Yahoo Finance via yfinance; 11-stock panel: MU, 005930.KS, 000660.KS, 688825.SS, NVDA, TSM, AMD, INTC, QCOM, WDC, STX
+**Cite:** Wakil, K. (2026). The Ramification Index v4: A Fourth Firm, and Why It Fails the Scope Condition. Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com
 
-v3 corrections  2026 self-audit: source recovered, 1988 endpoint corrected, 18 years of page series re-synced to the corrected dataset. See [executive summary](v3/executive-summary.pdf) · [full audit](v3/full-audit.pdf) · [methods](v3/methods.html)
+### Six Ways to Find a Leading Indicator That Isn’t There
 
-How to Cite
+- **Version:** Next·1 · **Status:** Planned · **Date:** By 8 Dec
+- **Byline:** Khayyam Wakil · 2026 · cited as a working paper in v4
 
-Wakil, K. (2025). *The Ramification Index v2: The Bifurcated Index.* Knowware Institute. ram-index.com
+Cited as a working paper (2026) in Version 4 of the Ramification Index. Abstract and release date will be added here when the draft is public.
 
-Audio Companion
+### Forthcoming paper (2)
 
-Why DRAM Prices Predict the Global Economy — ~18 min conversational walkthrough
+- **Version:** Next·2 · **Status:** Planned · **Date:** By 8 Dec
+- **Byline:** Khayyam Wakil · planned before 8 December 2026
 
-Key Findings
+One of two further papers planned before 8 December 2026. Title and abstract will be added here when the draft is public.
 
-Recession signal  6/6 NBER (1980–)
+### Data sources
 
-GDP correlation  r = 0.41
-
-Granger F-stat  5.83 (p<.01)
-
-2026 RI reading  0.863
-
-Bifurcation gap  R_C − R_AI = 1.20
-
-Version History
-
-v3 audit · 2026
-
-Self-audit of the data: source recovered, 1988 endpoint corrected, page series re-generated from the corrected CSV. Charts above now derive from  data/indices-wide-v3.csv .
-
-v2 · 2025
-
-Bifurcated index: R~C~ + R~AI~ sub-indices. HBM weight ω introduced. RAMageddon 2026 documented.
-
-v1 · 2023
-
-Original composite index. 40 years of data. 6/6 recession signal established. Granger causality confirmed.
-
-Related
-
-[Full paper →](paper.html)
-
-[Interactive dashboard →](dashboard.html)
-
-[Learn: read the primer →](#)
+- **DRAM prices:** DRAMeXchange / TrendForce quarterly $/GB averages; Amazon spot pricing as proxy; earnings guidance from Micron, Samsung, SK Hynix; McCallum memory-price archive (1980–2017, restored via Internet Archive, v3).
+- **GDP series:** U.S. BEA real GDP YoY growth, annualized; FRED series GDPC1; quarterly data 1980–2026.
+- **Recessions:** NBER Business Cycle Dating Committee official start/end dates; 6 cycles covered (1980, 1981, 1990, 2001, 2007, 2020).
+- **HBM data:** SK Hynix, Samsung, Micron quarterly earnings; IDC server DRAM shipment data; Omdia HBM revenue estimates.
+- **Equities:** Yahoo Finance via yfinance; 11-stock panel: MU, 005930.KS, 000660.KS, 688825.SS, NVDA, TSM, AMD, INTC, QCOM, WDC, STX.
+- **CXMT (v4):** ChangXin Memory Technologies S-1, STAR Market listing (July 2026); IDC/Omdia DRAM share estimates; U.S. BIS export-control action list.
+- **v3 corrections:** 2026 self-audit: source recovered, 1988 endpoint corrected, 18 years of page series re-synced to the corrected dataset. See executive summary · full audit · methods.
 
 Signal Feed
 

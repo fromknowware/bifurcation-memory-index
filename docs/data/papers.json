@@ -1,0 +1,455 @@
+{
+  "featured": "v3-self-audit",
+  "papers": [
+    {
+      "id": "v1",
+      "slot": "v1",
+      "version": "v1",
+      "status": "archived",
+      "statusLabel": "SSRN submitted",
+      "type": "Working Paper · Knowware Institute",
+      "title": "The Ramification Index: Original composite",
+      "thesis": "Original composite DRAM-price index establishing a 6/6 recession signal across 40 years and Granger causality to GDP.",
+      "byline": "Khayyam Wakil · 2023 · 40 years of data",
+      "date": "2023",
+      "dateLabel": "2023",
+      "abstract": "The original Ramification Index: the original composite index, built on 40 years of data. Established the 6/6 NBER recession signal and Granger causality as confirmed in that version. Superseded by v2 (bifurcation) and v3 (self-audit of data provenance and statistical power). Submitted to SSRN.",
+      "pdf": null,
+      "webUrl": "https://fromknowware.github.io/memory-index/",
+      "links": [
+        {
+          "label": "Version 1 site →",
+          "href": "https://fromknowware.github.io/memory-index/",
+          "newTab": true
+        }
+      ],
+      "stats": [
+        {
+          "num": "6/6",
+          "label": "NBER Recessions"
+        },
+        {
+          "num": "40 yrs",
+          "label": "Time Series"
+        },
+        {
+          "num": "v1",
+          "label": "Original Composite"
+        }
+      ],
+      "findings": [
+        {
+          "lbl": "Recession signal",
+          "val": "6/6 NBER"
+        },
+        {
+          "lbl": "Scope",
+          "val": "Single composite"
+        },
+        {
+          "lbl": "Status",
+          "val": "Superseded by v2"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "slot": "v2",
+      "version": "v2",
+      "status": "published",
+      "statusLabel": "Published",
+      "type": "Working Paper · Knowware Institute",
+      "title": "The Ramification Index v2: The Bifurcated Index",
+      "thesis": "Splits the index into commodity DRAM (R_C) and AI/HBM (R_AI) sub-indices; documents RAMageddon 2026 and Granger causality to GDP.",
+      "byline": "Khayyam Wakil · 2025 · 44 years of data (1980–2026)",
+      "date": "2025",
+      "dateLabel": "2025",
+      "abstract": "A supply-side macroeconomic indicator built on DRAM prices. v2 introduces bifurcated sub-indices separating commodity DRAM from AI/HBM markets, documents the 2025–2026 RAMageddon event, and demonstrates Granger causality from the RAM index to real GDP growth. 6 of 6 NBER recessions covered; correlation r = 0.41 with real GDP YoY.",
+      "pdf": "Wakil_RamificationIndex_v2.pdf",
+      "webUrl": "paper.html",
+      "cite": "Wakil, K. (2025). <em>The Ramification Index v2: The Bifurcated Index.</em> Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com",
+      "links": [
+        {
+          "label": "↓ Download PDF",
+          "href": "Wakil_RamificationIndex_v2.pdf",
+          "primary": true,
+          "newTab": true
+        },
+        {
+          "label": "Read on web →",
+          "href": "paper.html"
+        },
+        {
+          "label": "Interactive dashboard →",
+          "href": "dashboard.html"
+        }
+      ],
+      "stats": [
+        {
+          "num": "6/6",
+          "label": "NBER Recessions"
+        },
+        {
+          "num": "r = 0.41",
+          "label": "GDP Correlation"
+        },
+        {
+          "num": "F = 5.83",
+          "label": "Granger F-stat",
+          "color": "hbm"
+        },
+        {
+          "num": "44 yrs",
+          "label": "Time Series"
+        },
+        {
+          "num": "p <.01",
+          "label": "Significance",
+          "color": "red"
+        }
+      ],
+      "findings": [
+        {
+          "lbl": "Recession signal",
+          "val": "6/6 NBER (1980–)"
+        },
+        {
+          "lbl": "GDP correlation",
+          "val": "r = 0.41"
+        },
+        {
+          "lbl": "Granger F-stat",
+          "val": "5.83 (p<.01)",
+          "color": "hbm"
+        },
+        {
+          "lbl": "2026 RI reading",
+          "val": "0.863",
+          "color": "ram",
+          "id": "rs-ri"
+        },
+        {
+          "lbl": "Bifurcation gap",
+          "val": "R_C − R_AI = 1.20",
+          "id": "rs-gap"
+        }
+      ],
+      "audio": {
+        "title": "Why DRAM Prices Predict the Global Economy — ~18 min conversational walkthrough",
+        "src": "https://pub-9376ea7b2aaa443b990fa4db2169c954.r2.dev/Why_DRAM_prices_predict_the_global_economy.mp3"
+      },
+      "note": {
+        "text": "Restated in the v3 self-audit: the headline Granger result is now reported as untested (withholding 2020–2026 moves the forward p-value from .024 to .298), the “without historical precedent” claim and any inferential reading of the bifurcated sub-indices are withdrawn, and the 1988 endpoint is corrected.",
+        "to": "v3-self-audit",
+        "toLabel": "Read the v3 self-audit →",
+        "chip": "Restated in v3 audit"
+      }
+    },
+    {
+      "id": "v3-self-audit",
+      "slot": "v3·audit",
+      "version": "v3",
+      "status": "published",
+      "statusLabel": "Self-audit",
+      "type": "Self-audit · Knowware Institute",
+      "title": "v3: Provenance, Construction, and What the Series Can Support",
+      "thesis": "Correction, not a new result: source recovered, 1988 endpoint restored, Granger result restated as untested pending higher-frequency data.",
+      "byline": "Khayyam Wakil · Aug 2026 · corrected dataset + 8-guard protocol",
+      "date": "2026-08",
+      "dateLabel": "Aug 2026",
+      "abstract": "This third version is a correction and a method, not a new result. (1) The primary source for the 1980–2017 segment — the McCallum memory-price archive — has lapsed; the original workbook is recovered from the Internet Archive and republished. (2) The 1988 \"RAM drought\" is absent from the published price table; the recovered archive shows a +82.5% move where the published series shows −21.8%. (3) A point-in-time construction standard is specified, with a monthly index (RI-M) built from the recovered archive. (4) The v2 Granger result is carried by its last six observations; withholding 2020–2026 flips the forward p-value from 0.0243 to 0.2984. A corrected quality-adjusted series is published alongside the original — nothing is overwritten — with an eight-guard test protocol.",
+      "pdf": "papers/Wakil_RamificationIndex_v3D.pdf",
+      "webUrl": "v3/executive-summary.html",
+      "cite": "Wakil, K. (2026). <em>The Ramification Index v3: Provenance, Construction, and What the Series Can Support.</em> Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com/v3",
+      "links": [
+        {
+          "label": "↓ Full audit PDF",
+          "href": "papers/Wakil_RamificationIndex_v3D.pdf",
+          "primary": true,
+          "newTab": true
+        },
+        {
+          "label": "Executive summary →",
+          "href": "v3/executive-summary.html"
+        },
+        {
+          "label": "Methods →",
+          "href": "v3/methods.html"
+        },
+        {
+          "label": "Full audit PDF (site mirror) →",
+          "href": "v3/full-audit.pdf",
+          "newTab": true
+        },
+        {
+          "label": "SSRN #6726483 →",
+          "href": "https://ssrn.com/abstract=6726483",
+          "newTab": true
+        }
+      ],
+      "stats": [
+        {
+          "num": "8",
+          "label": "Guard Protocol"
+        },
+        {
+          "num": "+82.5%",
+          "label": "1988 Recovered",
+          "color": "ram"
+        },
+        {
+          "num": "p: .024→.298",
+          "label": "Granger w/o 2020–",
+          "color": "red"
+        },
+        {
+          "num": "n = 46",
+          "label": "Annual Panel"
+        }
+      ],
+      "findings": [
+        {
+          "lbl": "Source",
+          "val": "McCallum, restored"
+        },
+        {
+          "lbl": "1988 endpoint",
+          "val": "+82.5% (was −21.8%)",
+          "color": "ram"
+        },
+        {
+          "lbl": "Granger (w/o 2020–)",
+          "val": "p = 0.2984",
+          "color": "red"
+        },
+        {
+          "lbl": "Min detectable ρ",
+          "val": "0.508 at n = 46"
+        },
+        {
+          "lbl": "Panel",
+          "val": "Untested, not rejected"
+        }
+      ]
+    },
+    {
+      "id": "v3-practitioner-gap",
+      "slot": "v3·practitioner",
+      "version": "v3",
+      "status": "published",
+      "statusLabel": "arXiv preprint",
+      "type": "arXiv preprint · Knowware Institute",
+      "title": "v3: The Bifurcated Index, Granger Causality, Supply-Side Divergence, and the Practitioner Gap",
+      "thesis": "Extends v2 in eight ways — bifurcation, Granger causality, RAMageddon 2025–2026, oligopoly cartel history, and the practitioner gap.",
+      "byline": "Khayyam Wakil · Aug 2026 · 46 years of data (1980–2026)",
+      "date": "2026-08",
+      "dateLabel": "Aug 2026",
+      "abstract": "The Ramification Index names the DRAM commodity, the economic ramifications of oligopoly pricing decisions, and the algebraic ramification index of a prime ideal — all three describe how a DRAM price movement propagates outward into server capex, AI infrastructure, consumer electronics, and macro activity. This third version extends the original in eight ways: (1) bifurcates the index into Commodity and AI sub-indices; (2) presents Granger tests showing the index leads real GDP at 1–3 quarter lags (F = 5.83, p = 0.004); (3) documents the 2025–2026 RAMageddon — the sharpest positive reading in the index's 46-year history; (4) integrates DRAM price-fixing conviction history (1998–2006); and names the practitioner gap between folk indicators and formal signals.",
+      "pdf": "papers/Wakil_RamificationIndex_v3_arXiv.pdf",
+      "webUrl": null,
+      "cite": "Wakil, K. (2026). <em>The Ramification Index v3: The Bifurcated Index, Granger Causality, Supply-Side Divergence, and the Practitioner Gap.</em> Knowware Institute (arXiv preprint). ram-index.com",
+      "links": [
+        {
+          "label": "↓ Download PDF",
+          "href": "papers/Wakil_RamificationIndex_v3_arXiv.pdf",
+          "primary": true,
+          "newTab": true
+        },
+        {
+          "label": "Interactive dashboard →",
+          "href": "dashboard.html"
+        }
+      ],
+      "stats": [
+        {
+          "num": "8×",
+          "label": "Extensions Over v2"
+        },
+        {
+          "num": "F = 5.83",
+          "label": "Granger F-stat",
+          "color": "hbm"
+        },
+        {
+          "num": "p = .004",
+          "label": "Significance"
+        },
+        {
+          "num": "46 yrs",
+          "label": "Time Series"
+        },
+        {
+          "num": "1–3Q",
+          "label": "GDP Lead"
+        }
+      ],
+      "findings": [
+        {
+          "lbl": "Granger F",
+          "val": "5.83 (p=.004)",
+          "color": "hbm"
+        },
+        {
+          "lbl": "GDP lead",
+          "val": "1–3 quarters"
+        },
+        {
+          "lbl": "RAMageddon",
+          "val": "+90–95% QoQ"
+        },
+        {
+          "lbl": "Series",
+          "val": "46 years"
+        },
+        {
+          "lbl": "Cartel history",
+          "val": "1998–2006 integrated"
+        }
+      ],
+      "note": {
+        "text": "Restated in the v3 self-audit: the headline Granger result is now reported as untested (withholding 2020–2026 moves the forward p-value from .024 to .298), the “without historical precedent” claim and any inferential reading of the bifurcated sub-indices are withdrawn, and the 1988 endpoint is corrected.",
+        "to": "v3-self-audit",
+        "toLabel": "Read the v3 self-audit →",
+        "chip": "Restated in v3 audit"
+      }
+    },
+    {
+      "id": "v4-scope-condition",
+      "slot": "v4·scope",
+      "version": "v4",
+      "status": "published",
+      "statusLabel": "Working paper",
+      "type": "Working Paper · Knowware Institute",
+      "title": "v4: A Fourth Firm, and Why It Fails the Scope Condition",
+      "thesis": "CXMT's state-administered price does not extend the index — it tightens the scope condition. The fourth firm is untestable, not a fifth regime.",
+      "byline": "Khayyam Wakil · Aug 2026 · continuation of the audit line",
+      "date": "2026-08",
+      "dateLabel": "Aug 2026",
+      "abstract": "This fourth version continues the audit line of v3 (Provenance). It asks a single question: does the July 2026 public listing of ChangXin Memory Technologies (CXMT) — the first credible fourth DRAM entrant — change what the series can support? It concludes it does not. (1) CXMT's price is policy-administered: state mandate, export-control isolation, blacklisted buyer set, and an equity that opened +466% pricing a geopolitical option. By v3's scope condition it lacks a fast, elastic, private-market price and belongs with potash — untestable — not with incumbent DRAM. (2) The nearest precedent, 1988, is also missing from the series; both episodes are trade-policy-driven. (3) A fourth firm optimising for self-sufficiency is a mid-sample break; it makes the n = 46 panel less poolable, not more. (4) The China/RoW split is populated for zero realised observations and logged as a watch-item. The earlier draft's \"fifth regime\" claim is withdrawn as premature.",
+      "pdf": "papers/Wakil_RamificationIndex_v4.pdf",
+      "webUrl": null,
+      "cite": "Wakil, K. (2026). <em>The Ramification Index v4: A Fourth Firm, and Why It Fails the Scope Condition.</em> Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com",
+      "links": [
+        {
+          "label": "↓ Download PDF",
+          "href": "papers/Wakil_RamificationIndex_v4.pdf",
+          "primary": true,
+          "newTab": true
+        }
+      ],
+      "stats": [
+        {
+          "num": "7.7–9%",
+          "label": "CXMT Global Share"
+        },
+        {
+          "num": "+466%",
+          "label": "IPO Debut",
+          "color": "ram"
+        },
+        {
+          "num": "0",
+          "label": "CN/RoW Obs.",
+          "color": "red"
+        },
+        {
+          "num": "Untested",
+          "label": "Fifth Regime",
+          "color": "muted"
+        }
+      ],
+      "findings": [
+        {
+          "lbl": "CXMT scope",
+          "val": "Fails elasticity test",
+          "color": "red"
+        },
+        {
+          "lbl": "1988 parallel",
+          "val": "Trade-policy-driven"
+        },
+        {
+          "lbl": "Pooling",
+          "val": "Mid-sample break"
+        },
+        {
+          "lbl": "Geography split",
+          "val": "Logged, not tested"
+        },
+        {
+          "lbl": "\"Fifth regime\"",
+          "val": "Withdrawn",
+          "color": "muted"
+        }
+      ]
+    },
+    {
+      "id": "planned-1",
+      "slot": "Next·1",
+      "version": "TBA",
+      "status": "planned",
+      "statusLabel": "Planned",
+      "type": "Forthcoming · Knowware Institute",
+      "title": "Six Ways to Find a Leading Indicator That Isn’t There",
+      "thesis": "Cited as a working paper in v4; abstract and release date to be announced.",
+      "byline": "Khayyam Wakil · 2026 · cited as a working paper in v4",
+      "date": "2026-12",
+      "dateLabel": "By 8 Dec",
+      "abstract": "Cited as a working paper (2026) in Version 4 of the Ramification Index. Abstract and release date will be added here when the draft is public.",
+      "pdf": null,
+      "webUrl": null,
+      "links": [],
+      "stats": [],
+      "findings": []
+    },
+    {
+      "id": "planned-2",
+      "slot": "Next·2",
+      "version": "TBA",
+      "status": "planned",
+      "statusLabel": "Planned",
+      "type": "Forthcoming · Knowware Institute",
+      "title": "Forthcoming paper (2)",
+      "thesis": "Title and abstract to be announced.",
+      "byline": "Khayyam Wakil · planned before 8 December 2026",
+      "date": "2026-12",
+      "dateLabel": "By 8 Dec",
+      "abstract": "One of two further papers planned before 8 December 2026. Title and abstract will be added here when the draft is public.",
+      "pdf": null,
+      "webUrl": null,
+      "links": [],
+      "stats": [],
+      "findings": []
+    }
+  ],
+  "sources": [
+    {
+      "tag": "DRAM prices",
+      "desc": "DRAMeXchange / TrendForce quarterly $/GB averages; Amazon spot pricing as proxy; earnings guidance from Micron, Samsung, SK Hynix; McCallum memory-price archive (1980–2017, restored via Internet Archive, v3)."
+    },
+    {
+      "tag": "GDP series",
+      "desc": "U.S. BEA real GDP YoY growth, annualized; FRED series GDPC1; quarterly data 1980–2026."
+    },
+    {
+      "tag": "Recessions",
+      "desc": "NBER Business Cycle Dating Committee official start/end dates; 6 cycles covered (1980, 1981, 1990, 2001, 2007, 2020)."
+    },
+    {
+      "tag": "HBM data",
+      "desc": "SK Hynix, Samsung, Micron quarterly earnings; IDC server DRAM shipment data; Omdia HBM revenue estimates."
+    },
+    {
+      "tag": "Equities",
+      "desc": "Yahoo Finance via yfinance; 11-stock panel: MU, 005930.KS, 000660.KS, 688825.SS, NVDA, TSM, AMD, INTC, QCOM, WDC, STX."
+    },
+    {
+      "tag": "CXMT (v4)",
+      "desc": "ChangXin Memory Technologies S-1, STAR Market listing (July 2026); IDC/Omdia DRAM share estimates; U.S. BIS export-control action list."
+    },
+    {
+      "tag": "v3 corrections",
+      "desc": "2026 self-audit: source recovered, 1988 endpoint corrected, 18 years of page series re-synced to the corrected dataset. See <a class=\"rc-link\" href=\"v3/executive-summary.pdf\" target=\"_blank\" rel=\"noopener\">executive summary</a> · <a class=\"rc-link\" href=\"v3/full-audit.pdf\" target=\"_blank\" rel=\"noopener\">full audit</a> · <a class=\"rc-link\" href=\"v3/methods.html\" target=\"_blank\" rel=\"noopener\">methods</a>."
+    }
+  ]
+}
