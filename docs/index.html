@@ -880,9 +880,9 @@ audio{
   .learn-layout{grid-template-columns:150px 1fr;}
 
   /* research: single column */
-  .research-layout{grid-template-columns:1fr;}
-  .research-main{border-right:none;border-bottom:1px solid var(--line);}
-  .research-sidebar{padding:20px 24px;}
+  .research-layout{display:block;overflow-y:auto;-webkit-overflow-scrolling:touch;}
+  .research-main{border-right:none;border-bottom:1px solid var(--line);overflow:visible;}
+  .research-sidebar{padding:20px 24px;overflow:visible;}
   .rc-stats-row{flex-wrap:wrap;}
 
   /* feed: single column, aside as 3-col strip */

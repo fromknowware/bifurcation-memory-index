@@ -10,13 +10,15 @@
       "type": "Working Paper · Knowware Institute",
       "title": "The Ramification Index: Original composite",
       "thesis": "Original composite DRAM-price index establishing a 6/6 recession signal across 40 years and Granger causality to GDP.",
-      "byline": "Khayyam Wakil · 2023 · 40 years of data (1980–2023)",
+      "byline": "Khayyam Wakil · 2023 · 40 years of data",
       "date": "2023",
       "dateLabel": "2023",
-      "abstract": "The original Ramification Index: a single composite DRAM-price indicator covering 1980–2023. Established the 6/6 NBER recession signal and the first Granger-causality test from DRAM prices to real GDP growth. Superseded by v2 (bifurcation) and v3 (self-audit of data provenance and statistical power).",
+      "abstract": "The original Ramification Index: the original composite index, built on 40 years of data. Established the 6/6 NBER recession signal and Granger causality as confirmed in that version. Superseded by v2 (bifurcation) and v3 (self-audit of data provenance and statistical power).",
       "pdf": null,
-      "webUrl": null,
-      "links": [],
+      "webUrl": "https://fromknowware.github.io/memory-index/",
+      "links": [
+        {"label":"Version 1 site →","href":"https://fromknowware.github.io/memory-index/","newTab":true}
+      ],
       "stats": [
         {"num":"6/6","label":"NBER Recessions"},
         {"num":"40 yrs","label":"Time Series"},
