@@ -5,11 +5,128 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-11-07T12:56:52.482Z</updated>
+  <updated>2026-11-07T21:47:15.972Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.techpowerup.com/354572/googlebook-update-frees-up-ram-from-on-device-ai</id>
+    <title type="html">Googlebook Update Frees Up RAM From On-Device AI</title>
+    <link href="https://www.techpowerup.com/354572/googlebook-update-frees-up-ram-from-on-device-ai" />
+    <link rel="related" href="/stories/googlebook-update-frees-up-ram-from-on-device-ai-1f9e95b4.html" />
+    <updated>2026-11-07T21:15:00.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">Google has started rolling out the November update for Googlebook, and the biggest change is how much memory the platform's on-device AI takes up. On the Acer Googlebook 14, ASUS Googlebook 14, and Lenovo Googlebook 15, Google's release notes say it has improved memory usage for on-device AI to make multitasking more stable on 16 GB devices. Apparently, this comes down to updated memory management RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Google has started rolling out the November update for Googlebook, and the biggest change is how much memory the platform's on-device AI takes up. On the Acer Googlebook 14, ASUS Googlebook 14, and Lenovo Googlebook 15, Google's release notes say it has improved memory usage for on-device AI to make multitasking more stable on 16 GB devices. Apparently, this comes down to updated memory management&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMigwFBVV95cUxNbDM0Zm10Vjdpc3NhSk5Hd1Q3d21sRVh5RThKdV9iX1pvOVNFVHFvRGhST3VjbXptMzB3ckV6dXNQOVBCUFdBU1d6MDRpNjM1Vnlxa21zbTJtOWdNekxXMUtJbWgxRVJsX0h4QnRDb000a2JRY0xoQzZGRjFUUDJZYzRSTQ?oc=5</id>
+    <title type="html">Global DRAM Revenue Jumps 369% on AI Memory Price Surge - Technetbook</title>
+    <link href="https://news.google.com/rss/articles/CBMigwFBVV95cUxNbDM0Zm10Vjdpc3NhSk5Hd1Q3d21sRVh5RThKdV9iX1pvOVNFVHFvRGhST3VjbXptMzB3ckV6dXNQOVBCUFdBU1d6MDRpNjM1Vnlxa21zbTJtOWdNekxXMUtJbWgxRVJsX0h4QnRDb000a2JRY0xoQzZGRjFUUDJZYzRSTQ?oc=5" />
+    <link rel="related" href="/stories/global-dram-revenue-jumps-369-on-ai-memory-price-sur-de2138e4.html" />
+    <updated>2026-11-07T17:06:00.000Z</updated>
+    <author><name>Technetbook</name></author>
+    <summary type="html">Global DRAM Revenue Jumps 369% on AI Memory Price Surge Technetbook RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;Global DRAM Revenue Jumps 369% on AI Memory Price Surge Technetbook&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWZPbTdockl1SzI1WnZwazh0ZklGV1RfWnZUNnludWhmUTUzMmtQNGIzWmFRLUVxd0c2QkM3LWZ2MXhGamRVVUxaSWo0cDRJQTlzY2ZWYjhVdzh4aUpjTUt2TjZTVDlxRmxiYlpsR0ZPc0J2dXRMS0NZY3RLVktvOUJaR2V3M3F1bjFkOEc3d05aOFlNRXhV?oc=5</id>
+    <title type="html">Rising DRAM prices are reshaping the market - Root-Nation.com</title>
+    <link href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWZPbTdockl1SzI1WnZwazh0ZklGV1RfWnZUNnludWhmUTUzMmtQNGIzWmFRLUVxd0c2QkM3LWZ2MXhGamRVVUxaSWo0cDRJQTlzY2ZWYjhVdzh4aUpjTUt2TjZTVDlxRmxiYlpsR0ZPc0J2dXRMS0NZY3RLVktvOUJaR2V3M3F1bjFkOEc3d05aOFlNRXhV?oc=5" />
+    <link rel="related" href="/stories/rising-dram-prices-are-reshaping-the-market-root-nat-3a7aa8a8.html" />
+    <updated>2026-11-07T16:55:44.000Z</updated>
+    <author><name>Root-Nation.com</name></author>
+    <summary type="html">Rising DRAM prices are reshaping the market Root-Nation.com RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Rising DRAM prices are reshaping the market Root-Nation.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.servethehome.com/asrock-rack-dmrd16-2l-plus-diamond-rapids-ocp-summit-2026/</id>
+    <title type="html">ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids</title>
+    <link href="https://www.servethehome.com/asrock-rack-dmrd16-2l-plus-diamond-rapids-ocp-summit-2026/" />
+    <link rel="related" href="/stories/asrock-rack-dmrd16-2l-spotted-with-16-ddr5-slots-for-1ce5001e.html" />
+    <updated>2026-11-07T16:00:55.000Z</updated>
+    <author><name>ServeTheHome</name></author>
+    <summary type="html">We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome . RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLThISkFpaFQ2b3BIQVVMTXFDcWdTX3d4ZnFzQVFEc2U3WGRNZUp1dlkwZmc5V29vQUVGcXZCZ3Y5X2RTRGltWC0wdkNia1VnM2pCZFlLdXFRV1UyM3lWZ2tDWUZ2Y21Bc1hrcktOUGNmRFlNSFlWNmRNVGdXekxNNkJueHdkOWtkU29yeHBERkV4RGc0azJONTJzTERxT0JOaXJValBKb1RQSzg?oc=5</id>
+    <title type="html">TSMC Jumped 6% on a Report It Could Make Memory Chips for Nvidia - 24/7 Wall St.</title>
+    <link href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLThISkFpaFQ2b3BIQVVMTXFDcWdTX3d4ZnFzQVFEc2U3WGRNZUp1dlkwZmc5V29vQUVGcXZCZ3Y5X2RTRGltWC0wdkNia1VnM2pCZFlLdXFRV1UyM3lWZ2tDWUZ2Y21Bc1hrcktOUGNmRFlNSFlWNmRNVGdXekxNNkJueHdkOWtkU29yeHBERkV4RGc0azJONTJzTERxT0JOaXJValBKb1RQSzg?oc=5" />
+    <link rel="related" href="/stories/tsmc-jumped-6-on-a-report-it-could-make-memory-chips-86c21b2e.html" />
+    <updated>2026-11-07T15:13:00.000Z</updated>
+    <author><name>24/7 Wall St.</name></author>
+    <summary type="html">TSMC Jumped 6% on a Report It Could Make Memory Chips for Nvidia 24/7 Wall St. RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;TSMC Jumped 6% on a Report It Could Make Memory Chips for Nvidia 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzEtQ01YeEdxdUh1dVZlMDhDZWJPaEYzUUt0MTdWOUd2LUdLZ2dEX3N5VFJVdUoyNHY1ZFo5UVE0ekpQMVIwNkFTSmlSd0YxYXgtUUh5WGU2UW93VV9GNWRGVzNfVnhOUW9JSk5HMHN0QkU5N0drLU1IdXlVRnVHVF8tYzRmU2FPZDhUb1dQcTJma0VsZmhaZmFvQi1HWlFPVTZDWGVocWcxdzBkVDFn?oc=5</id>
+    <title type="html">Memory makers earn 80% margins as the AI crunch reaches Apple, PCs and Nvidia's supply chain - MLQ.ai</title>
+    <link href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzEtQ01YeEdxdUh1dVZlMDhDZWJPaEYzUUt0MTdWOUd2LUdLZ2dEX3N5VFJVdUoyNHY1ZFo5UVE0ekpQMVIwNkFTSmlSd0YxYXgtUUh5WGU2UW93VV9GNWRGVzNfVnhOUW9JSk5HMHN0QkU5N0drLU1IdXlVRnVHVF8tYzRmU2FPZDhUb1dQcTJma0VsZmhaZmFvQi1HWlFPVTZDWGVocWcxdzBkVDFn?oc=5" />
+    <link rel="related" href="/stories/memory-makers-earn-80-margins-as-the-ai-crunch-reach-da4b9715.html" />
+    <updated>2026-11-07T14:25:23.000Z</updated>
+    <author><name>MLQ.ai</name></author>
+    <summary type="html">Memory makers earn 80% margins as the AI crunch reaches Apple, PCs and Nvidia's supply chain MLQ.ai RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Memory makers earn 80% margins as the AI crunch reaches Apple, PCs and Nvidia's supply chain MLQ.ai&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/ssds/teamgroup-ga-pro-2tb-ssd-review</id>
+    <title type="html">TeamGroup GA Pro 2TB SSD Review: A faltering attempt at a mid-range PCIe 5.0 SSD</title>
+    <link href="https://www.tomshardware.com/pc-components/ssds/teamgroup-ga-pro-2tb-ssd-review" />
+    <link rel="related" href="/stories/teamgroup-ga-pro-2tb-ssd-review-a-faltering-attempt-ac9b590b.html" />
+    <updated>2026-11-07T14:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMijgFBVV95cUxNSVAyY21UZm04NUozOTRkNFhuSEVmT1F5MTRoWm01MVlZRmpIZGJXaTNjOF9OLUFwUGpaOTN5UjN6eXFvVEgtR2FUUlo2VUVuUFUxcTdjMXlZaGo0ZjZvcEVXNkRSZHFucGFGaGlmUkF5VHVQTy1jaWdGMFVXcmxwMm1fSDh2cjQtNHhEejV3?oc=5</id>
+    <title type="html">Memory Stocks Fell Up to 26% While DRAM Prices Kept Rising - FourWeekMBA</title>
+    <link href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNSVAyY21UZm04NUozOTRkNFhuSEVmT1F5MTRoWm01MVlZRmpIZGJXaTNjOF9OLUFwUGpaOTN5UjN6eXFvVEgtR2FUUlo2VUVuUFUxcTdjMXlZaGo0ZjZvcEVXNkRSZHFucGFGaGlmUkF5VHVQTy1jaWdGMFVXcmxwMm1fSDh2cjQtNHhEejV3?oc=5" />
+    <link rel="related" href="/stories/memory-stocks-fell-up-to-26-while-dram-prices-kept-r-c4b2e4d4.html" />
+    <updated>2026-11-07T13:47:49.000Z</updated>
+    <author><name>FourWeekMBA</name></author>
+    <summary type="html">Memory Stocks Fell Up to 26% While DRAM Prices Kept Rising FourWeekMBA RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Memory Stocks Fell Up to 26% While DRAM Prices Kept Rising FourWeekMBA&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability</id>
+    <title type="html">TSMC denies exploring 3D DRAM at Nvidia's request</title>
+    <link href="https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability" />
+    <link rel="related" href="/stories/tsmc-denies-exploring-3d-dram-at-nvidia-s-request-22a64b46.html" />
+    <updated>2026-11-07T13:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiZkFVX3lxTE83VGlzN292T3R4anVFNGhLRTJVR3NYNlNMbW52WFc4NTdtb1hLZXB1LVh2OXYxNU94aTlvYThjLUdJb2ZsRkZyQWRTT21PZDdGY3c2OWQ1WldIeXl0WjRBYUtFVFFQQQ?oc=5</id>
     <title type="html">Why PC RAM prices won’t crash any time soon, even if the AI market collapses - Club386</title>
@@ -21,7 +138,7 @@
     <category term="google-news:DDR5 market" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Why PC RAM prices won’t crash any time soon, even if the AI market collapses Club386&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Why PC RAM prices won’t crash any time soon, even if the AI market collapses Club386&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiuAFBVV95cUxQLUx6NDBuR19zNnBJamNHZGZuVE82UTR5ZHlTWnBWYlBiT3ZXVnAwLUt3d0psbFRPZzRjZWFnMXlpcHhUUl9xUDhYalEtNXZZME5FQ09qeVBBNFZ5ZUJya1FETm92ei1FcjZJaG9tNjNnWUwteHkwb1gzN0N1NVJ1eWhGeVJDdHh2endfMU5KdkVqS2VlaFFMZzFpSDBTMlFwVXdPRzNrNFdRQ2hLUERnNUotOUljdi1j?oc=5</id>
@@ -34,7 +151,20 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Your next budget phone may come with recycled RAM as memory prices climb Notebookcheck&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Your next budget phone may come with recycled RAM as memory prices climb Notebookcheck&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE11NGkwVVkwR1hGb3RQWHhOYno2djVuUkdXUDlsb3ZqS1JyZVQ5UWpNeU5mdDRtRzFYLXNTRjVJTk5NNEttM0E5Z0s1NE1qREpTbl91RDhqem83cDlwclJjZ3pzSFoxVU9haFd2V2s4OUp3QXVINlE?oc=5</id>
+    <title type="html">Maxsun's Two MoDT Motherboards Bring Full Specs to the NAS Market, Supporting Up to 128GB DDR5-7200 - BigGo Finance</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTE11NGkwVVkwR1hGb3RQWHhOYno2djVuUkdXUDlsb3ZqS1JyZVQ5UWpNeU5mdDRtRzFYLXNTRjVJTk5NNEttM0E5Z0s1NE1qREpTbl91RDhqem83cDlwclJjZ3pzSFoxVU9haFd2V2s4OUp3QXVINlE?oc=5" />
+    <link rel="related" href="/stories/maxsun-s-two-modt-motherboards-bring-full-specs-to-t-b88b7942.html" />
+    <updated>2026-11-07T09:05:00.000Z</updated>
+    <author><name>BigGo Finance</name></author>
+    <summary type="html">Maxsun's Two MoDT Motherboards Bring Full Specs to the NAS Market, Supporting Up to 128GB DDR5-7200 BigGo Finance RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DDR5 market" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Maxsun's Two MoDT Motherboards Bring Full Specs to the NAS Market, Supporting Up to 128GB DDR5-7200 BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMihwFBVV95cUxQNE5JeTYyeHpFYm5GYjRpWFBESHd4TTlZRmFBZGhsNUZhbWNJRGZRdkhHMzJQamtYcXRyaDNldVllTnYxZlFYOVpPMDgwMWlmREpGOTRwb012NFZJVzBhY3llX3pvX3QtcU01QWNuUnYwYzVlWjQya2pJR3hKTmd5LW1XenlpS3M?oc=5</id>
@@ -47,7 +177,7 @@
     <category term="google-news:Samsung SK Hynix Micron earnings" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Samsung vs SK Hynix: Which Korean Chip Stock Is Riskier After Record Profits Failed to Stop a Brutal Selloff International Business Times Australia&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung vs SK Hynix: Which Korean Chip Stock Is Riskier After Record Profits Failed to Stop a Brutal Selloff International Business Times Australia&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/intel-panther-lake-wildcat-lake-modt-motherboards-built-by-maxsun-are-ready-for-nas/</id>
@@ -60,7 +190,20 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Intel Panther Lake &amp; Wildcat Lake MoDT motherboards are arriving soon, targeting the NAS market with a wide array of features. Maxsun Deploys NAS-Focused Intel Panther Lake &amp; Wildcat Lake MoDT Motherboards Back at Computex 2026, we spotted the first Intel Panther Lake and Wildcat Lake MoDT designs. These were made by Maxsun and were aimed at the NAS market. Now, Maxsun has shared more information&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Intel Panther Lake &amp; Wildcat Lake MoDT motherboards are arriving soon, targeting the NAS market with a wide array of features. Maxsun Deploys NAS-Focused Intel Panther Lake &amp; Wildcat Lake MoDT Motherboards Back at Computex 2026, we spotted the first Intel Panther Lake and Wildcat Lake MoDT designs. These were made by Maxsun and were aimed at the NAS market. Now, Maxsun has shared more information&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE9DMFU0RUZ5QWg0SzlpOVQ4VHFuWDRxSEpHWm1lcWxIMWFwTUs1UFRkN1dTcEUzaG93WnFndFFqMTJ4MWhaWlNLcTFJcVdzSEg0SEhINzRxd2VHYkw2TWV4YW1uN2FfaHdFZ3RaUFotaG1KWk8zYWc?oc=5</id>
+    <title type="html">Is It Time for the Memory Price Rally to Stop? Winbond's Arthur Chiao Issues Rare Warning: Further Increases Would Hurt Ordinary People - BigGo Finance</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9DMFU0RUZ5QWg0SzlpOVQ4VHFuWDRxSEpHWm1lcWxIMWFwTUs1UFRkN1dTcEUzaG93WnFndFFqMTJ4MWhaWlNLcTFJcVdzSEg0SEhINzRxd2VHYkw2TWV4YW1uN2FfaHdFZ3RaUFotaG1KWk8zYWc?oc=5" />
+    <link rel="related" href="/stories/is-it-time-for-the-memory-price-rally-to-stop-winbon-19a610d6.html" />
+    <updated>2026-11-07T06:55:00.000Z</updated>
+    <author><name>BigGo Finance</name></author>
+    <summary type="html">Is It Time for the Memory Price Rally to Stop? Winbond's Arthur Chiao Issues Rare Warning: Further Increases Would Hurt Ordinary People BigGo Finance RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Is It Time for the Memory Price Rally to Stop? Winbond's Arthur Chiao Issues Rare Warning: Further Increases Would Hurt Ordinary People BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMibEFVX3lxTE8zTlBpek9XNE8yUHA5SDZtMWFSRVBGeGxJVy1PQW1vcWpGb2tDaGw4V25xd0JZS2dCcGhDZVF0QmhLdVBRcndFel9CVmRLTzk2ZFBOWWltUEJIanpEUDluOFJFS0ptbnRpcnlCQQ?oc=5</id>
