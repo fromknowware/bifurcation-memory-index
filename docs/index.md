@@ -150,6 +150,18 @@ Advanced
 
 The semiconductor supply chain: who makes what
 
+07
+
+Story
+
+Who gets the memory?
+
+08
+
+Watchlist
+
+25 startups attacking the memory wall
+
 ## Research
 The intellectual foundation: the paper library, rendered from data/papers.json.
 ### The Ramification Index: Original composite

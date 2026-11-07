@@ -375,6 +375,8 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 .ln-tag.mechanism{color:var(--hbm);}
 .ln-tag.advanced{color:var(--hemline);}
 .ln-tag.methodology{color:var(--mui);}
+.ln-tag.story{color:var(--hbm);}
+.ln-tag.directory{color:var(--mui);}
 .ln-title{font-size:11px;color:var(--text);line-height:1.4;margin-top:2px;}
 .learn-body{padding:32px 40px;max-width:700px;overflow-y:auto;display:flex;flex-direction:column;}
 
@@ -406,6 +408,19 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
   margin-bottom:24px;
 }
 .lb-cta:hover{text-decoration:underline;}
+.lb-links{display:flex;flex-direction:column;gap:6px;margin-bottom:20px;}
+.lb-links a{font-family:var(--mono);font-size:11px;color:var(--ram);line-height:1.5;}
+.lb-links a:hover{text-decoration:underline;}
+.lb-links-h,.lb-grp{font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin:4px 0 8px;}
+.lb-grp{margin-top:14px;color:var(--ram);}
+.lb-co{display:grid;grid-template-columns:minmax(120px,170px) 1fr auto;gap:4px 14px;padding:7px 0;border-bottom:1px solid var(--line);font-size:12px;line-height:1.5;}
+.lb-co a{color:var(--bright);font-weight:700;}
+.lb-co a:hover{color:var(--ram);}
+.lb-co-d{color:var(--sub);}
+.lb-co-m{font-family:var(--mono);font-size:10px;color:var(--muted);white-space:nowrap;}
+.lb-note{font-size:11px;color:var(--muted);line-height:1.6;border-left:2px solid var(--line);padding-left:12px;margin-bottom:20px;}
+.lb-note a{color:var(--sub);text-decoration:underline;}
+@media (max-width:640px){.lb-co{grid-template-columns:1fr auto;}.lb-co-d{grid-column:1 / -1;}}
 .lb-nav{
   display:flex;align-items:center;gap:10px;
   padding-top:24px;border-top:1px solid var(--line);
@@ -1146,7 +1161,7 @@ audio{
         <div class="exp-tab-row"><span class="exp-tab-name">Index</span><span class="exp-tab-desc">Live RI reading, 10-year mini chart, 46-year historical series</span></div>
         <div class="exp-tab-row"><span class="exp-tab-name">Signals</span><span class="exp-tab-desc">6 DRAM market proxies with price, YoY change, and trend sparklines</span></div>
         <div class="exp-tab-row"><span class="exp-tab-name">Equities</span><span class="exp-tab-desc">11-stock semiconductor ecosystem, refreshed every 15 min</span></div>
-        <div class="exp-tab-row"><span class="exp-tab-name">Learn</span><span class="exp-tab-desc">6 lessons from DRAM basics to bifurcation methodology</span></div>
+        <div class="exp-tab-row"><span class="exp-tab-name">Learn</span><span class="exp-tab-desc">8 entries: DRAM basics, bifurcation methodology, a story on who gets the memory, and a memory-startup watchlist</span></div>
         <div class="exp-tab-row"><span class="exp-tab-name">Research</span><span class="exp-tab-desc">The working paper, audio companion, and full data sources</span></div>
         <div class="exp-tab-row"><span class="exp-tab-name">Feed</span><span class="exp-tab-desc">Curated supply/demand events annotated with RI implications</span></div>
       </div>
@@ -1418,6 +1433,14 @@ audio{
       <div class="ln-item" data-learn="5" tabindex="0" role="button">
         <div class="ln-num">06</div>
         <div><div class="ln-tag advanced">Advanced</div><div class="ln-title">The semiconductor supply chain: who makes what</div></div>
+      </div>
+      <div class="ln-item" data-learn="6" tabindex="0" role="button">
+        <div class="ln-num">07</div>
+        <div><div class="ln-tag story">Story</div><div class="ln-title">Who gets the memory?</div></div>
+      </div>
+      <div class="ln-item" data-learn="7" tabindex="0" role="button">
+        <div class="ln-num">08</div>
+        <div><div class="ln-tag directory">Watchlist</div><div class="ln-title">25 startups attacking the memory wall</div></div>
       </div>
     </div>
     <div class="learn-body" id="learn-body"></div>
@@ -1986,9 +2009,67 @@ const LEARN = [
      'Micron: only US-listed pure-play; benefits from CHIPS Act subsidies',
      'TSMC: does not make DRAM, but packages HBM with GPU dies (CoWoS)',
    ]},
+  {tag:'story',tagLabel:'Story',
+   h:'Who gets the memory?',
+   p:'In late October 2026, OpenAI chief executive Sam Altman told Stripe\'s <em>Cheeky Pint</em> podcast that the world\'s limited DRAM supply sitting in personal computers is "quite terrible", on the argument that a PC\'s memory idles most of the day while a data centre can keep it busy (as quoted in press coverage; we have not checked the transcript). Whatever you make of the claim, it is a statement about who should get a scarce input, and the price of that input is what this index tracks. Commodity DRAM went from $3.21/GB in 2024 to $4.72 in 2025 and {comm}/GB in 2026 so far. When memory is cheap, nobody argues about whether a laptop\'s RAM is wasted. When it gets expensive, the argument arrives. A recent essay, <a href="https://commons.precognitionfactory.com/#allocate" target="_blank" rel="noopener">The Compute Commons</a> by Jim Cook of Precognition Factory, opens with the same quote and proposes a different test: ask what the computing is for before asking how busy it is. It is an advocacy piece, and by its own account its interactive multipliers are illustrative assumptions, not findings. We cite it as one view, not an endorsement.',
+   facts:[
+     'RI composite: {ri}, highest since {highestSince}',
+     'Commodity DDR: $3.21/GB (2024) → $4.72 (2025) → {comm} (2026 YTD); HBM now {hbm}/GB',
+     'The index measures price. It takes no side on how memory should be shared.',
+   ],
+   links:{h:'On this site',items:[
+     {label:'PC DRAM spot prices hit 7-year high; module prices up 180% from October 2024 low (Apr 2026)',href:'/stories/pc-dram-spot-prices-hit-7-year-high-module-prices-up-d984d0dd.html'},
+     {label:'32GB of DDR5 6000 RAM now costs $400 (Aug 2026)',href:'/stories/32gb-of-ddr5-6000-ram-now-costs-400-the-latest-price-ed9c5b06.html'},
+     {label:'Amazon\'s Gadget Price Hikes Reveal the Consumer Cost of the AI Memory Crunch (Aug 2026)',href:'/stories/amazon-s-gadget-price-hikes-reveal-the-consumer-cost-0f2139a6.html'},
+     {label:'Apple price hikes continue as Mac mini with 16GB RAM and 256GB is now $899 (Aug 2026)',href:'/stories/apple-price-hikes-continue-as-mac-mini-with-16gb-ram-2d5b2185.html'},
+   ]},
+   links2:{h:'Elsewhere',items:[
+     {label:'TweakTown: Altman on PC RAM as a "quite terrible" use of DRAM supply',href:'https://www.tweaktown.com/news/114419/sam-altman-says-your-pcs-ram-is-a-quite-terrible-use-of-the-worlds-limited-dram-supply/index.html'},
+     {label:'Shacknews: Altman says your PC\'s RAM would be better off in a data center',href:'https://www.shacknews.com/article/151218/open-ai-sam-altman-pc-ram-dram-data-center'},
+     {label:'The Compute Commons, Jim Cook, Precognition Factory (Nov 2026)',href:'https://commons.precognitionfactory.com/#allocate'},
+   ]}},
+  {tag:'directory',tagLabel:'Watchlist',
+   h:'25 startups attacking the memory wall',
+   p:'DRAM prices are set by three giants, but a long tail of startups is trying to route around the bottleneck: new memory architectures, CXL pooling, compute that happens inside the memory, and the packaging and optical links that move data between chips. This is a curated 25 from a community-maintained database of 415 active semiconductor startups. Only six of the 415 are filed under "Memory" upstream; the rest here are chosen by description. Most will not matter to DRAM pricing. It is a reading list, not a forecast.',
+   facts:[
+     'None of these makes commodity DRAM or HBM; they change what memory is used for and how it is connected',
+     'Startups do not move DRAM prices. Treat this as context for the R_AI story, not as a signal.',
+   ],
+   list:[
+     {g:'Memory architecture and CXL',c:[
+       ['Blueshift Memory','blueshiftmemory.com','GB',2016,'High performance memory centric architecture'],
+       ['Netpreme','netpreme.com','US',2024,'AI-Native Memory Systems'],
+       ['Panmnesia','panmnesia.com','KR',2022,'CXL IP'],
+       ['Raaam','raaam-tech.com','IL',2021,'High capacity memory technology'],
+       ['XCENA','xcena.com','KR',2022,'CXL memory solutions'],
+       ['ZeroPoint','zeropoint-tech.com','US',2015,'Memory compression technology'],
+       ['FMC','ferroelectric-memory.com','DE',2015,'Ferroelectric non-volatile RAM'],
+       ['Unifabrix','unifabrix.com','IL',2020,'CXL based secure connectivity solution'],
+       ['Xconntech','xconn-tech.com','US',2020,'CXL and PCIe switch chips']]},
+     {g:'Compute in memory',c:[
+       ['Ambient Scientific','ambientscientific.ai','US',2018,'Analog in-memory AI processor'],
+       ['Aspinity','aspinity.com','US',2015,'Analog in-memory AI inference accelerators'],
+       ['Sagence AI','sagence-ai.com','US',2018,'Analog in-memory AI inference accelerators'],
+       ['Synthara','synthara.ai','CH',2020,'In memory computation chips for AI'],
+       ['HyperCIM','hypercim.com','GB',2023,'Optimized compute in memory architecture'],
+       ['TriMagnetix','trimagnetix.com','US',2023,'Nanomagnetic processors combining logic and memory'],
+       ['Mueon','mueon.com','US',2025,'Modular 3D compute and memory blocks for AI']]},
+     {g:'Packaging and chiplets',c:[
+       ['3D Glass Solutions','3dgsinc.com','US',2005,'Glass substrates and interposers for advanced packaging'],
+       ['Plaid Semiconductor','plaidsemi.com','US',2023,'Interposers for chiplet integration'],
+       ['Chipletz','chipletz.com','US',2021,'Smart substrate for chiplet integration'],
+       ['Lux Semiconductors','luxsemiconductors.com','US',2017,'Metal package substrates and interposers for chiplets'],
+       ['Eliyan','eliyan.com','US',2021,'Interconnect technology'],
+       ['Baya Systems','bayasystems.com','US',2023,'Chiplet Based Semiconductor Design']]},
+     {g:'Optical links',c:[
+       ['Avicena','avicena.tech','US',2019,'Optical uLed interconnect technology'],
+       ['NcodiN','ncodin.com','FR',2023,'Optical interposers'],
+       ['Quintessent','quintessent.com','US',2019,'Optical interconnect']]},
+   ],
+   note:'Data: Andreas Olofsson, <a href="https://github.com/aolofsson/awesome-semiconductor-startups" target="_blank" rel="noopener">Database of Awesome Semiconductor Startups</a>, MIT License, Copyright (c) 2022-2026 Andreas Olofsson. Snapshot taken 6 November 2026: a hand-picked subset of 25 of 415 active startups, with descriptions reproduced from the database. This is a static copy and is not updated live. Inclusion is not an endorsement or investment advice; check the upstream database for current status.'},
 ];
 
-const COLOR_MAP = {primer:'var(--ram)',mechanism:'var(--hbm)',advanced:'var(--hemline)',methodology:'var(--mui)'};
+const COLOR_MAP = {primer:'var(--ram)',mechanism:'var(--hbm)',advanced:'var(--hemline)',methodology:'var(--mui)',story:'var(--hbm)',directory:'var(--mui)'};
 
 function selectLesson(idx){
   document.querySelectorAll('.ln-item').forEach((x,i)=>x.classList.toggle('active',i===idx));
@@ -2009,6 +2090,9 @@ function renderLearn(idx){
     <div class="lb-facts">
       ${d.facts.map(f=>`<div class="lb-fact"><span class="lb-fact-marker">→</span><span>${f}</span></div>`).join('')}
     </div>
+    ${[d.links,d.links2].filter(Boolean).map(l=>`<div class="lb-links-h">${l.h}</div><div class="lb-links">${l.items.map(i=>`<a href="${i.href}"${i.href.startsWith('http')?' target="_blank" rel="noopener"':''}>${i.label}</a>`).join('')}</div>`).join('')}
+    ${d.list?d.list.map(g=>`<div class="lb-grp">${g.g}</div>${g.c.map(([n,w,cc,y,desc])=>`<div class="lb-co"><a href="https://${w}" target="_blank" rel="noopener">${n}</a><span class="lb-co-d">${desc}</span><span class="lb-co-m">${cc} · ${y}</span></div>`).join('')}`).join(''):''}
+    ${d.note?`<div class="lb-note">${d.note}</div>`:''}
     ${d.cta?`<a class="lb-cta" href="${d.cta.href}">${d.cta.label}</a>`:''}
     <div class="lb-nav">
       <button class="lb-nav-btn" data-dir="-1" ${hasPrev?'':'disabled'}>← Prev</button>
@@ -2422,8 +2506,9 @@ function applyHeadline(h){
   set('fa-omega', f(h.hbmWeight));
   // Learn-tab facts: fill {tokens} with loaded values
   const T = { ri:f(h.ri), highestSince:String(h.highestSince??'—'), rc:f(h.rc),
-              rai:f(h.rai), spread:f(spread), omega:f(h.hbmWeight) };
-  LEARN.forEach(item=>{ item.facts = item.facts.map(s=>s.replace(/\{(\w+)\}/g,(_,k)=>T[k]??'—')); });
+              rai:f(h.rai), spread:f(spread), omega:f(h.hbmWeight), comm:money(h.commodityUsdPerGb), hbm:money(h.hbmUsdPerGb) };
+  const fill = s=>s.replace(/\{(\w+)\}/g,(_,k)=>T[k]??'—');
+  LEARN.forEach(item=>{ item.facts = item.facts.map(fill); item.p = fill(item.p); });
 }
 
 // ── RESEARCH: data-driven paper showcase (docs/data/papers.json) ─
