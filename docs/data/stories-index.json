@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-11-07T05:55:29.245Z",
-  "count": 2443,
+  "generatedAt": "2026-11-07T12:56:55.750Z",
+  "count": 2447,
   "stories": [
+    {
+      "slug": "why-pc-ram-prices-won-t-crash-any-time-soon-even-if-98ed9af9",
+      "url": "/stories/why-pc-ram-prices-won-t-crash-any-time-soon-even-if-98ed9af9.html",
+      "title": "Why PC RAM prices won’t crash any time soon, even if the AI market collapses - Club386",
+      "tag": "supply",
+      "date": "2026-11-07",
+      "score": 8,
+      "pick": false,
+      "source": "Club386",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "your-next-budget-phone-may-come-with-recycled-ram-as-0d536ad5",
+      "url": "/stories/your-next-budget-phone-may-come-with-recycled-ram-as-0d536ad5.html",
+      "title": "Your next budget phone may come with recycled RAM as memory prices climb - Notebookcheck",
+      "tag": "supply",
+      "date": "2026-11-07",
+      "score": 8,
+      "pick": false,
+      "source": "Notebookcheck",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-vs-sk-hynix-which-korean-chip-stock-is-riski-e7797a63",
+      "url": "/stories/samsung-vs-sk-hynix-which-korean-chip-stock-is-riski-e7797a63.html",
+      "title": "Samsung vs SK Hynix: Which Korean Chip Stock Is Riskier After Record Profits Failed to Stop a Brutal Selloff - International Business Times Australia",
+      "tag": "supply",
+      "date": "2026-11-07",
+      "score": 8,
+      "pick": false,
+      "source": "International Business Times Australia",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-panther-lake-and-wildcat-lake-chips-land-on-ma-adaaf3c8",
+      "url": "/stories/intel-panther-lake-and-wildcat-lake-chips-land-on-ma-adaaf3c8.html",
+      "title": "Intel Panther Lake And Wildcat Lake Chips Land On Maxsun MoDT Motherboards Built For NAS Builds, With Up To 128 GB Of DDR5-7200 Memory",
+      "tag": "supply",
+      "date": "2026-11-07",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "tsmc-considers-entering-3d-dram-at-nvidia-s-request-ca7bb37d",
       "url": "/stories/tsmc-considers-entering-3d-dram-at-nvidia-s-request-ca7bb37d.html",
