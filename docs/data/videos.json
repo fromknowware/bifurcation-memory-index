@@ -1,0 +1,68 @@
+{
+  "updated": "2026-11-06",
+  "note": "Curated by the RAM Index. Each id was checked against YouTube's oEmbed endpoint (title and channel match). Videos play from youtube-nocookie.com only after a click. The 'why' lines say why a video is here, not what it contains. Add a video by appending one entry.",
+  "themes": [
+    { "key": "history",    "label": "History" },
+    { "key": "technology", "label": "Technology" },
+    { "key": "economics",  "label": "Economics" },
+    { "key": "current",    "label": "Current" }
+  ],
+  "videos": [
+    {
+      "id": "ehT3U935Pww",
+      "title": "Taiwan's DRAM Failure",
+      "channel": "Asianometry",
+      "theme": "history",
+      "why": "Industry history: context for why DRAM supply sits with so few firms."
+    },
+    {
+      "id": "sxqcaViwnvM",
+      "title": "China’s Next Semiconductor Giant: Yangtze Memory",
+      "channel": "Asianometry",
+      "theme": "economics",
+      "why": "A Chinese challenger in NAND flash. The DRAM counterpart, CXMT, shows up in the feed."
+    },
+    {
+      "id": "yAw63F1W_Us",
+      "title": "The Special Memory Powering the AI Revolution",
+      "channel": "Asianometry",
+      "theme": "technology",
+      "why": "HBM, the memory behind the AI/HBM sub-index (R_AI)."
+    },
+    {
+      "id": "B2d_VT_jke8",
+      "title": "Memory Chip Supercycle: Why DRAM Prices Are Surging in 2026",
+      "channel": "Chip Wars",
+      "theme": "current",
+      "why": "A 2026 take on the price surge the index is tracking."
+    },
+    {
+      "id": "byWZoKCdePo",
+      "title": "True 3D DRAM",
+      "channel": "Asianometry",
+      "theme": "technology",
+      "why": "DRAM architecture: a look at where the cell design could go next."
+    },
+    {
+      "id": "UpxYrmV4OCk",
+      "title": "The Evolution of Flash Memory",
+      "channel": "Asianometry",
+      "theme": "history",
+      "why": "The NAND flash side of the memory story, which tends to move alongside DRAM."
+    },
+    {
+      "id": "nNpuiJitKwk",
+      "title": "A Brief History of Semiconductor Packaging",
+      "channel": "Asianometry",
+      "theme": "history",
+      "why": "Packaging background for HBM and other stacked memory."
+    },
+    {
+      "id": "iFoma1jUToU",
+      "title": "Embedded Memories: The Next Generation",
+      "channel": "Asianometry",
+      "theme": "technology",
+      "why": "Architecture background on memory built into the chip itself."
+    }
+  ]
+}
