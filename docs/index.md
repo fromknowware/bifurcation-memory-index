@@ -174,7 +174,7 @@ A supply-side macroeconomic indicator built on DRAM prices. v2 introduces bifurc
 
 **Headline figures:** 6/6 (NBER Recessions) · r = 0.41 (GDP Correlation) · F = 5.83 (Granger F-stat) · 44 yrs (Time Series) · p <.01 (Significance)
 
-**Cite:** Wakil, K. (2025). The Ramification Index v2: The Bifurcated Index. Knowware Institute. ram-index.com
+**Cite:** Wakil, K. (2025). The Ramification Index v2: The Bifurcated Index. Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com
 
 ### v3: Provenance, Construction, and What the Series Can Support
 
@@ -190,7 +190,7 @@ This third version is a correction and a method, not a new result. (1) The prima
 
 **Headline figures:** 8 (Guard Protocol) · +82.5% (1988 Recovered) · p: .024→.298 (Granger w/o 2020–) · n = 46 (Annual Panel)
 
-**Cite:** Wakil, K. (2026). The Ramification Index v3: Provenance, Construction, and What the Series Can Support. Knowware Institute. ram-index.com/v3
+**Cite:** Wakil, K. (2026). The Ramification Index v3: Provenance, Construction, and What the Series Can Support. Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com/v3
 
 ### v3: The Bifurcated Index, Granger Causality, Supply-Side Divergence, and the Practitioner Gap
 
@@ -215,14 +215,14 @@ This fourth version continues the audit line of v3 (Provenance). It asks a singl
 
 **Headline figures:** 7.7–9% (CXMT Global Share) · +466% (IPO Debut) · 0 (CN/RoW Obs.) · Untested (Fifth Regime)
 
-**Cite:** Wakil, K. (2026). The Ramification Index v4: A Fourth Firm, and Why It Fails the Scope Condition. Knowware Institute. ram-index.com
+**Cite:** Wakil, K. (2026). The Ramification Index v4: A Fourth Firm, and Why It Fails the Scope Condition. Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com
 
-### Forthcoming paper
+### Six Ways to Find a Leading Indicator That Isn’t There
 
 - **Version:** Next·1 · **Status:** Planned · **Date:** By 8 Dec
-- **Byline:** Khayyam Wakil · planned before 8 December 2026
+- **Byline:** Khayyam Wakil · 2026 · cited as a working paper in v4
 
-One of two further papers planned before 8 December 2026. Title and abstract will be added here when the draft is public.
+Cited as a working paper (2026) in Version 4 of the Ramification Index. Abstract and release date will be added here when the draft is public.
 
 ### Forthcoming paper (2)
 

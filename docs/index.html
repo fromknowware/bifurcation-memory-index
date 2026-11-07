@@ -436,6 +436,13 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 }
 .rc-h{font-size:20px;font-weight:700;color:var(--bright);line-height:1.3;margin-bottom:6px;}
 .rc-byline{font-family:var(--mono);font-size:11px;color:var(--muted);margin-bottom:20px;}
+.rc-note{
+  font-size:12px;line-height:1.65;color:var(--sub);margin:0 0 18px;
+  padding:10px 12px;border:1px solid var(--line);border-left:3px solid var(--hbm);background:var(--bg1);
+}
+.rc-note a{color:var(--hbm);font-family:var(--mono);font-size:11px;white-space:nowrap;text-decoration:none;cursor:pointer;}
+.rc-note a:hover,.rc-note a:focus-visible{text-decoration:underline;}
+.rp-card-chip{font-family:var(--mono);font-size:9px;letter-spacing:.04em;color:var(--hbm);}
 .rc-abstract{font-size:13px;color:var(--sub);line-height:1.75;margin-bottom:24px;}
 .rc-stats-row{
   display:flex;gap:0;
@@ -1447,6 +1454,7 @@ audio{
         <div class="rc-type" id="rp-type">Working Paper · Knowware Institute</div>
         <div class="rc-h" id="rp-title">The Ramification Index</div>
         <div class="rc-byline" id="rp-byline">Khayyam Wakil · Knowware Institute</div>
+        <div class="rc-note" id="rp-note" hidden></div>
         <div class="rc-abstract" id="rp-abstract">Loading paper…</div>
 
         <div class="rc-pdf-preview" id="rp-pdf-preview">
@@ -2467,6 +2475,7 @@ function renderPaperLibrary(){
       + '</div>'
       + '<div class="rp-card-title">' + escapeHtml(p.title || '') + '</div>'
       + '<div class="rp-card-thesis">' + escapeHtml(p.thesis || '') + '</div>'
+      + (p.note && p.note.chip ? '<div class="rp-card-chip">↳ ' + escapeHtml(p.note.chip) + '</div>' : '')
       + '<div class="rp-card-bot">'
       +   '<span class="rp-badge">' + escapeHtml(p.statusLabel || p.status || '') + '</span>'
       +   '<span class="rp-card-pdf">' + (p.pdf ? 'PDF' : '—') + '</span>'
@@ -2541,6 +2550,20 @@ function selectPaper(id, opts){
   set('rp-title',    p.title || '');
   set('rp-byline',   p.byline || '');
   set('rp-abstract', p.abstract || '');
+  // restatement / status note (optional per paper)
+  const noteEl = document.getElementById('rp-note');
+  if(noteEl){
+    if(p.note && p.note.text){
+      const target = p.note.to && RP_STATE.papers.find(x=>x.id===p.note.to);
+      noteEl.innerHTML = escapeHtml(p.note.text)
+        + (target ? ' <a href="#research?p='+escapeAttr(target.id)+'" data-rp-jump="'+escapeAttr(target.id)+'">'+escapeHtml(p.note.toLabel || 'See more →')+'</a>' : '');
+      noteEl.hidden = false;
+      const jump = noteEl.querySelector('[data-rp-jump]');
+      if(jump) jump.addEventListener('click', e=>{ e.preventDefault(); selectPaper(jump.dataset.rpJump, { pushHistory:true }); });
+    }else{
+      noteEl.hidden = true; noteEl.textContent = '';
+    }
+  }
   // PDF vs placeholder
   const preview = document.getElementById('rp-pdf-preview');
   const placeholder = document.getElementById('rp-pdf-placeholder');

@@ -1,5 +1,5 @@
 {
-  "featured": "v3-practitioner-gap",
+  "featured": "v3-self-audit",
   "papers": [
     {
       "id": "v1",
@@ -67,7 +67,7 @@
       "abstract": "A supply-side macroeconomic indicator built on DRAM prices. v2 introduces bifurcated sub-indices separating commodity DRAM from AI/HBM markets, documents the 2025–2026 RAMageddon event, and demonstrates Granger causality from the RAM index to real GDP growth. 6 of 6 NBER recessions covered; correlation r = 0.41 with real GDP YoY.",
       "pdf": "Wakil_RamificationIndex_v2.pdf",
       "webUrl": "paper.html",
-      "cite": "Wakil, K. (2025). <em>The Ramification Index v2: The Bifurcated Index.</em> Knowware Institute. ram-index.com",
+      "cite": "Wakil, K. (2025). <em>The Ramification Index v2: The Bifurcated Index.</em> Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com",
       "links": [
         {
           "label": "↓ Download PDF",
@@ -137,6 +137,12 @@
       "audio": {
         "title": "Why DRAM Prices Predict the Global Economy — ~18 min conversational walkthrough",
         "src": "https://pub-9376ea7b2aaa443b990fa4db2169c954.r2.dev/Why_DRAM_prices_predict_the_global_economy.mp3"
+      },
+      "note": {
+        "text": "Restated in the v3 self-audit: the headline Granger result is now reported as untested (withholding 2020–2026 moves the forward p-value from .024 to .298), the “without historical precedent” claim and any inferential reading of the bifurcated sub-indices are withdrawn, and the 1988 endpoint is corrected.",
+        "to": "v3-self-audit",
+        "toLabel": "Read the v3 self-audit →",
+        "chip": "Restated in v3 audit"
       }
     },
     {
@@ -154,7 +160,7 @@
       "abstract": "This third version is a correction and a method, not a new result. (1) The primary source for the 1980–2017 segment — the McCallum memory-price archive — has lapsed; the original workbook is recovered from the Internet Archive and republished. (2) The 1988 \"RAM drought\" is absent from the published price table; the recovered archive shows a +82.5% move where the published series shows −21.8%. (3) A point-in-time construction standard is specified, with a monthly index (RI-M) built from the recovered archive. (4) The v2 Granger result is carried by its last six observations; withholding 2020–2026 flips the forward p-value from 0.0243 to 0.2984. A corrected quality-adjusted series is published alongside the original — nothing is overwritten — with an eight-guard test protocol.",
       "pdf": "papers/Wakil_RamificationIndex_v3D.pdf",
       "webUrl": "v3/executive-summary.html",
-      "cite": "Wakil, K. (2026). <em>The Ramification Index v3: Provenance, Construction, and What the Series Can Support.</em> Knowware Institute. ram-index.com/v3",
+      "cite": "Wakil, K. (2026). <em>The Ramification Index v3: Provenance, Construction, and What the Series Can Support.</em> Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com/v3",
       "links": [
         {
           "label": "↓ Full audit PDF",
@@ -299,7 +305,13 @@
           "lbl": "Cartel history",
           "val": "1998–2006 integrated"
         }
-      ]
+      ],
+      "note": {
+        "text": "Restated in the v3 self-audit: the headline Granger result is now reported as untested (withholding 2020–2026 moves the forward p-value from .024 to .298), the “without historical precedent” claim and any inferential reading of the bifurcated sub-indices are withdrawn, and the 1988 endpoint is corrected.",
+        "to": "v3-self-audit",
+        "toLabel": "Read the v3 self-audit →",
+        "chip": "Restated in v3 audit"
+      }
     },
     {
       "id": "v4-scope-condition",
@@ -316,7 +328,7 @@
       "abstract": "This fourth version continues the audit line of v3 (Provenance). It asks a single question: does the July 2026 public listing of ChangXin Memory Technologies (CXMT) — the first credible fourth DRAM entrant — change what the series can support? It concludes it does not. (1) CXMT's price is policy-administered: state mandate, export-control isolation, blacklisted buyer set, and an equity that opened +466% pricing a geopolitical option. By v3's scope condition it lacks a fast, elastic, private-market price and belongs with potash — untestable — not with incumbent DRAM. (2) The nearest precedent, 1988, is also missing from the series; both episodes are trade-policy-driven. (3) A fourth firm optimising for self-sufficiency is a mid-sample break; it makes the n = 46 panel less poolable, not more. (4) The China/RoW split is populated for zero realised observations and logged as a watch-item. The earlier draft's \"fifth regime\" claim is withdrawn as premature.",
       "pdf": "papers/Wakil_RamificationIndex_v4.pdf",
       "webUrl": null,
-      "cite": "Wakil, K. (2026). <em>The Ramification Index v4: A Fourth Firm, and Why It Fails the Scope Condition.</em> Knowware Institute. ram-index.com",
+      "cite": "Wakil, K. (2026). <em>The Ramification Index v4: A Fourth Firm, and Why It Fails the Scope Condition.</em> Knowware Institute: Applied Research in Cybernetics (Calgary, AB). ram-index.com",
       "links": [
         {
           "label": "↓ Download PDF",
@@ -378,12 +390,12 @@
       "status": "planned",
       "statusLabel": "Planned",
       "type": "Forthcoming · Knowware Institute",
-      "title": "Forthcoming paper",
-      "thesis": "Title and abstract to be announced.",
-      "byline": "Khayyam Wakil · planned before 8 December 2026",
+      "title": "Six Ways to Find a Leading Indicator That Isn’t There",
+      "thesis": "Cited as a working paper in v4; abstract and release date to be announced.",
+      "byline": "Khayyam Wakil · 2026 · cited as a working paper in v4",
       "date": "2026-12",
       "dateLabel": "By 8 Dec",
-      "abstract": "One of two further papers planned before 8 December 2026. Title and abstract will be added here when the draft is public.",
+      "abstract": "Cited as a working paper (2026) in Version 4 of the Ramification Index. Abstract and release date will be added here when the draft is public.",
       "pdf": null,
       "webUrl": null,
       "links": [],
