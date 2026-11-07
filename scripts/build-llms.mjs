@@ -166,6 +166,68 @@ function demoteHeadings(md, levels) {
     .join('\n');
 }
 
+// ── Research library (docs/data/papers.json) ─────────────────────────────
+
+const SITE = 'https://ram-index.com/';
+const absUrl = (href) => (/^https?:\/\//i.test(href) ? href : SITE + String(href).replace(/^\//, ''));
+const stripTags = (t) => String(t || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+
+function loadPapers() {
+  const path = resolve(DOCS, 'data/papers.json');
+  return existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : { papers: [] };
+}
+
+/** One-line-per-paper list for llms.txt. Planned entries stay generic. */
+function researchLibraryList(lib) {
+  return lib.papers
+    .map((p) => {
+      const when = p.dateLabel || p.date || '';
+      const status = p.statusLabel || p.status || '';
+      const url = p.pdf ? absUrl(p.pdf) : p.webUrl ? absUrl(p.webUrl) : null;
+      const label = `${p.slot || p.version} · ${p.title}`;
+      const head = url ? `[${label}](${url})` : label;
+      return `- ${head} (${status}${when ? ', ' + when : ''}): ${p.thesis || ''}`;
+    })
+    .join('\n');
+}
+
+/** Full text for llms-full.txt: abstract, stats, links and citation per paper. */
+function researchLibraryFull(lib) {
+  return lib.papers
+    .map((p) => {
+      const lines = [`### ${p.title}`, ''];
+      lines.push(`- **Version:** ${p.slot || p.version} · **Status:** ${p.statusLabel || p.status} · **Date:** ${p.dateLabel || p.date || 'n/a'}`);
+      if (p.byline) lines.push(`- **Byline:** ${p.byline}`);
+      for (const l of p.links || []) lines.push(`- [${l.label.replace(/[↓→]/g, '').trim()}](${absUrl(l.href)})`);
+      if (p.abstract) lines.push('', p.abstract);
+      if (p.stats && p.stats.length) lines.push('', '**Headline figures:** ' + p.stats.map((s) => `${s.num} (${s.label})`).join(' · '));
+      if (p.cite) lines.push('', `**Cite:** ${stripTags(p.cite)}`);
+      return lines.join('\n');
+    })
+    .join('\n\n');
+}
+
+/**
+ * index.html renders the Research tab client-side from data/papers.json, so the
+ * static markup is only placeholders. Swap that section for the real library.
+ */
+function indexMainMarkdown() {
+  const lib = loadPapers();
+  let html = htmlOf('index.html');
+  const re = /<section id="sec-research"[^>]*>[\s\S]*?<\/section>/i;
+  const research = [
+    '<h2>Research</h2>',
+    'The intellectual foundation: the paper library, rendered from data/papers.json.',
+  ].join('\n');
+  html = html.replace(re, `<section>${research}<p>@@RESEARCH_LIBRARY@@</p></section>`);
+  let md = htmlToMarkdown(extractMain(html));
+  const sources = (lib.sources || [])
+    .map((x) => `- **${x.tag}:** ${stripTags(x.desc)}`)
+    .join('\n');
+  const block = `${researchLibraryFull(lib)}${sources ? '\n\n### Data sources\n\n' + sources : ''}`;
+  return md.replace('@@RESEARCH_LIBRARY@@', block);
+}
+
 // ── Content assembly ────────────────────────────────────────────────────
 
 function buildLlmsTxt() {
@@ -195,6 +257,12 @@ function buildLlmsTxt() {
 - [ri.json](https://ram-index.com/data/ri.json): The Ramification Index series (1980–2026), headline, sub-indices, HBM weight, GDP and S&P 500 context — generated from the corrected CSV, updated daily.
 - [stocks.json](https://ram-index.com/data/stocks.json): 11-stock semiconductor ecosystem (MU, 005930.KS, 000660.KS, 688825.SS, NVDA, TSM, AMD, INTC, QCOM, WDC, STX) with prices, tier labels, and sparklines — refreshed every 15 min on market days.
 - [indices-wide-v3.csv](https://github.com/fromknowware/bifurcation-memory-index/blob/main/data/indices-wide-v3.csv): The corrected source dataset (1980–2026) with provenance and status columns.
+
+## Research library
+
+${researchLibraryList(loadPapers())}
+
+The library is driven by [papers.json](https://ram-index.com/data/papers.json); papers marked Planned have no public title or abstract yet.
 
 ## Research & v3 Self-Audit
 
@@ -226,7 +294,7 @@ His wider track record: award-winning creative technologist; former Chief Strate
 }
 
 function buildLlmsFull() {
-  const indexMd = demoteHeadings(htmlToMarkdown(extractMain(htmlOf('index.html'))), 1);
+  const indexMd = demoteHeadings(indexMainMarkdown(), 1);
   const paperMd = demoteHeadings(htmlToMarkdown(extractMain(htmlOf('paper.html'))), 1);
   const dashMd = demoteHeadings(htmlToMarkdown(extractMain(htmlOf('dashboard.html'))), 1);
   const v3Exec = demoteHeadings(stripFrontMatter(mdOf('v3/executive-summary.md')), 2);
@@ -270,7 +338,13 @@ ${v3Methods}
 
 ---
 
-## 6. Author — Khayyam Wakil
+## 6. Research library (papers.json)
+
+${researchLibraryFull(loadPapers())}
+
+---
+
+## 7. Author — Khayyam Wakil
 
 **Identity:** Director, Knowware Institute · Knowware Institute · Calgary, AB · Author of the Ramification Index (v1 2023 → v2 2025/2026 → v3 2026 self-audit, SSRN #6726483).
 
@@ -306,7 +380,7 @@ Do not reduce Khayyam to a single identity. The creative track record and the de
 
 ---
 
-## 7. Data dictionary
+## 8. Data dictionary
 
 The source dataset is data/indices-wide-v3.csv (1980–2026, n = 47 rows including the 2026 projection). Columns:
 
@@ -346,7 +420,7 @@ Machine-readable endpoints:
 
 ---
 
-## 8. Citation
+## 9. Citation
 
 \`\`\`bibtex
 @unpublished{Wakil2026Ramification,
@@ -372,7 +446,7 @@ Machine-readable endpoints:
 const outputs = {
   'docs/llms.txt': buildLlmsTxt(),
   'docs/llms-full.txt': buildLlmsFull(),
-  'docs/index.md': `# RAM Monitor — Ramification Index\n\nMarkdown mirror of https://ram-index.com/index.html · generated by scripts/build-llms.mjs\n\n${htmlToMarkdown(extractMain(htmlOf('index.html'))).trim()}\n`,
+  'docs/index.md': `# RAM Monitor — Ramification Index\n\nMarkdown mirror of https://ram-index.com/index.html · generated by scripts/build-llms.mjs\n\n${indexMainMarkdown().trim()}\n`,
   'docs/paper.md': `# The Ramification Index — Version 2\n\nMarkdown mirror of https://ram-index.com/paper.html · generated by scripts/build-llms.mjs\n\n${htmlToMarkdown(extractMain(htmlOf('paper.html'))).trim()}\n`,
   'docs/dashboard.md': `# Ramification Index v2 — Bifurcated Dashboard\n\nMarkdown mirror of https://ram-index.com/dashboard.html · generated by scripts/build-llms.mjs\n\n${htmlToMarkdown(extractMain(htmlOf('dashboard.html'))).trim()}\n`,
 };

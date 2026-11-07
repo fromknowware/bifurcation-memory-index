@@ -25,6 +25,18 @@
 - [stocks.json](https://ram-index.com/data/stocks.json): 11-stock semiconductor ecosystem (MU, 005930.KS, 000660.KS, 688825.SS, NVDA, TSM, AMD, INTC, QCOM, WDC, STX) with prices, tier labels, and sparklines — refreshed every 15 min on market days.
 - [indices-wide-v3.csv](https://github.com/fromknowware/bifurcation-memory-index/blob/main/data/indices-wide-v3.csv): The corrected source dataset (1980–2026) with provenance and status columns.
 
+## Research library
+
+- [v1 · The Ramification Index: Original composite](https://fromknowware.github.io/memory-index/) (SSRN submitted, 2023): Original composite DRAM-price index establishing a 6/6 recession signal across 40 years and Granger causality to GDP.
+- [v2 · The Ramification Index v2: The Bifurcated Index](https://ram-index.com/Wakil_RamificationIndex_v2.pdf) (Published, 2025): Splits the index into commodity DRAM (R_C) and AI/HBM (R_AI) sub-indices; documents RAMageddon 2026 and Granger causality to GDP.
+- [v3·audit · v3: Provenance, Construction, and What the Series Can Support](https://ram-index.com/papers/Wakil_RamificationIndex_v3D.pdf) (Self-audit, Aug 2026): Correction, not a new result: source recovered, 1988 endpoint restored, Granger result restated as untested pending higher-frequency data.
+- [v3·practitioner · v3: The Bifurcated Index, Granger Causality, Supply-Side Divergence, and the Practitioner Gap](https://ram-index.com/papers/Wakil_RamificationIndex_v3_arXiv.pdf) (arXiv preprint, Aug 2026): Extends v2 in eight ways — bifurcation, Granger causality, RAMageddon 2025–2026, oligopoly cartel history, and the practitioner gap.
+- [v4·scope · v4: A Fourth Firm, and Why It Fails the Scope Condition](https://ram-index.com/papers/Wakil_RamificationIndex_v4.pdf) (Working paper, Aug 2026): CXMT's state-administered price does not extend the index — it tightens the scope condition. The fourth firm is untestable, not a fifth regime.
+- Next·1 · Forthcoming paper (Planned, By 8 Dec): Title and abstract to be announced.
+- Next·2 · Forthcoming paper (2) (Planned, By 8 Dec): Title and abstract to be announced.
+
+The library is driven by [papers.json](https://ram-index.com/data/papers.json); papers marked Planned have no public title or abstract yet.
+
 ## Research & v3 Self-Audit
 
 - [v3 Executive Summary](https://ram-index.com/v3/executive-summary.md): 2026 self-audit — the annual panel is underpowered (not refuted), the public monthly proxy is not measuring DRAM, and what v3 needs, in order.

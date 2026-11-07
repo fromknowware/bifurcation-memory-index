@@ -174,6 +174,11 @@
           "label": "Full audit PDF (site mirror) →",
           "href": "v3/full-audit.pdf",
           "newTab": true
+        },
+        {
+          "label": "SSRN #6726483 →",
+          "href": "https://ssrn.com/abstract=6726483",
+          "newTab": true
         }
       ],
       "stats": [
@@ -363,78 +368,6 @@
           "lbl": "\"Fifth regime\"",
           "val": "Withdrawn",
           "color": "muted"
-        }
-      ]
-    },
-    {
-      "id": "v4-cxmt-contested",
-      "slot": "v4·CXMT",
-      "version": "v4",
-      "status": "published",
-      "statusLabel": "Extension module",
-      "type": "Extension Module · Knowware Institute",
-      "title": "v4: The Contested Oligopoly — CXMT, the Fourth Firm, and the Geopolitical Ramification of Memory",
-      "thesis": "A fourth, state-backed entrant breaks the oligopoly coordination assumption and introduces a geographic bifurcation and a false-positive subsidy regime.",
-      "byline": "Khayyam Wakil · Aug 2026 · extension to v3 (Practitioner Gap line)",
-      "date": "2026-08",
-      "dateLabel": "Aug 2026",
-      "abstract": "This fourth version extends v3 in four ways, all organised around the July 2026 CXMT listing. (1) Documents the entry of a fourth manufacturer holding ~7.7–9% of global DRAM and its record STAR Market debut; shows why a state-backed firm optimising for self-sufficiency rather than oligopoly pricing discipline breaks the coordination assumption. (2) Introduces a second bifurcation — geographic — because U.S. export controls firewall China-domestic DRAM from the rest of the world. (3) Adds a fifth interpretive regime (subsidised-supply divergence), observationally the mirror of a recession signal, creating a false-positive risk the index must guard against. (4) Specifies how to admit CXMT without importing the 466% policy premium embedded in its equity. The fourth firm does not dissolve the oligopoly; it makes the oligopoly contested, and a contested oligopoly ramifies differently.",
-      "pdf": "papers/Wakil_RamificationIndex_v4_CXMT_module.pdf",
-      "webUrl": null,
-      "cite": "Wakil, K. (2026). <em>The Ramification Index v4: The Contested Oligopoly — CXMT, the Fourth Firm, and the Geopolitical Ramification of Memory.</em> Knowware Institute. ram-index.com",
-      "links": [
-        {
-          "label": "↓ Download PDF",
-          "href": "papers/Wakil_RamificationIndex_v4_CXMT_module.pdf",
-          "primary": true,
-          "newTab": true
-        }
-      ],
-      "stats": [
-        {
-          "num": "4",
-          "label": "Firms (was 3)"
-        },
-        {
-          "num": "2×",
-          "label": "Bifurcations (prod+geo)"
-        },
-        {
-          "num": "5th",
-          "label": "Regime: Subsidy"
-        },
-        {
-          "num": "+466%",
-          "label": "CXMT IPO",
-          "color": "ram"
-        },
-        {
-          "num": "⚠",
-          "label": "False-positive risk",
-          "color": "red"
-        }
-      ],
-      "findings": [
-        {
-          "lbl": "Fourth firm",
-          "val": "CXMT (state-backed)"
-        },
-        {
-          "lbl": "Share",
-          "val": "~7.7–9% global DRAM"
-        },
-        {
-          "lbl": "Bifurcation",
-          "val": "Product + Geography"
-        },
-        {
-          "lbl": "New regime",
-          "val": "Subsidised-supply"
-        },
-        {
-          "lbl": "Risk",
-          "val": "False-positive mirror",
-          "color": "red"
         }
       ]
     },
