@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-08T05:57:25.126Z",
-  "count": 2461,
+  "generatedAt": "2026-11-08T13:20:27.443Z",
+  "count": 2466,
   "stories": [
+    {
+      "slug": "two-chinese-companies-cleared-to-buy-banned-nvidia-a-664e8df1",
+      "url": "/stories/two-chinese-companies-cleared-to-buy-banned-nvidia-a-664e8df1.html",
+      "title": "Two Chinese companies cleared to buy banned Nvidia AI chips have empty offices and unknown addresses",
+      "tag": "demand",
+      "date": "2026-11-08",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pc-s-with-64gb-of-ram-plummet-18-as-memory-prices-so-818f4b88",
+      "url": "/stories/pc-s-with-64gb-of-ram-plummet-18-as-memory-prices-so-818f4b88.html",
+      "title": "PC's with 64GB of RAM plummet 18% as memory prices soar",
+      "tag": "supply",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-s-jensen-huang-rejects-anthropic-s-total-chin-174343eb",
+      "url": "/stories/nvidia-s-jensen-huang-rejects-anthropic-s-total-chin-174343eb.html",
+      "title": "NVIDIA’s Jensen Huang Rejects Anthropic’s Total China Chip Ban Push, Says “I Completely Disagree” And Believes “America Is About Competition”",
+      "tag": "demand",
+      "date": "2026-11-08",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "homelabber-uses-second-gen-optane-memory-sticks-to-r-cd01a0db",
+      "url": "/stories/homelabber-uses-second-gen-optane-memory-sticks-to-r-cd01a0db.html",
+      "title": "Homelabber uses second-gen Optane memory sticks to run a 2.8-trillion-parameter AI model on CPU alone",
+      "tag": "supply",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-tsmc-the-fed-of-ai-eyes-memory-ai-rtz-1264-ai-res-758e0dec",
+      "url": "/stories/ai-tsmc-the-fed-of-ai-eyes-memory-ai-rtz-1264-ai-res-758e0dec.html",
+      "title": "AI: TSMC, the ‘Fed of AI’, Eyes Memory. AI-RTZ #1264 - AI: Reset to Zero",
+      "tag": "fab",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "AI: Reset to Zero",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "rising-ram-ssd-prices-drive-21-slump-in-global-pc-or-4c293acb",
       "url": "/stories/rising-ram-ssd-prices-drive-21-slump-in-global-pc-or-4c293acb.html",
