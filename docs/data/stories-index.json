@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-11-08T13:20:27.443Z",
-  "count": 2466,
+  "generatedAt": "2026-11-08T22:00:48.443Z",
+  "count": 2478,
   "stories": [
+    {
+      "slug": "dram-revenue-up-369-apple-s-implied-margin-step-is-2-74f42f00",
+      "url": "/stories/dram-revenue-up-369-apple-s-implied-margin-step-is-2-74f42f00.html",
+      "title": "DRAM Revenue Up 369%; Apple’s Implied Margin Step Is $2.2B - FourWeekMBA",
+      "tag": "earnings",
+      "date": "2026-11-08",
+      "score": 7,
+      "pick": false,
+      "source": "FourWeekMBA",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "for-just-249-micro-center-bundles-ryzen-5-5600x3d-16-274ee8fa",
+      "url": "/stories/for-just-249-micro-center-bundles-ryzen-5-5600x3d-16-274ee8fa.html",
+      "title": "For Just $249, Micro Center Bundles Ryzen 5 5600X3D, 16 GB DDR4 RAM, And B550 Motherboard For A Limited Time",
+      "tag": "supply",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-stocks-undervalued-despite-strong-e-d8cdfae5",
+      "url": "/stories/samsung-sk-hynix-stocks-undervalued-despite-strong-e-d8cdfae5.html",
+      "title": "Samsung, SK Hynix Stocks Undervalued Despite Strong Earnings - 조선일보",
+      "tag": "earnings",
+      "date": "2026-11-08",
+      "score": 7,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "u-s-voters-favor-data-center-restrictions-in-40-of-4-e9396365",
+      "url": "/stories/u-s-voters-favor-data-center-restrictions-in-40-of-4-e9396365.html",
+      "title": "U.S. Voters Favor Data Center Restrictions In 40 Of 41 Local Ballot Measures, Putting The AI Boom Under Pressure",
+      "tag": "demand",
+      "date": "2026-11-08",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "investigation-finds-chinese-military-linked-firms-so-58327410",
+      "url": "/stories/investigation-finds-chinese-military-linked-firms-so-58327410.html",
+      "title": "Investigation Finds Chinese Military-Linked Firms Somehow Gained Approval To Assemble NVIDIA H200 AI GPUs, Highlighting A Half-Baked U.S. Approval System",
+      "tag": "macro",
+      "date": "2026-11-08",
+      "score": 6,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "amd-acknowledges-radeon-driver-bug-causing-constant-925775b3",
+      "url": "/stories/amd-acknowledges-radeon-driver-bug-causing-constant-925775b3.html",
+      "title": "AMD Acknowledges Radeon Driver Bug Causing Constant SSD Writes, Fix In The Works",
+      "tag": "supply",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "tsmc-is-working-on-a-beol-memory-that-can-leverage-t-0a56ad2e",
+      "url": "/stories/tsmc-is-working-on-a-beol-memory-that-can-leverage-t-0a56ad2e.html",
+      "title": "TSMC Is Working On A BEOL Memory That Can Leverage The Larger Footprint Of The Processor Die To Its Advantage, Even As It Issues A Circuitous Denial On 3D DRAM Development",
+      "tag": "fab",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "diamond-foundry-creates-world-s-first-200mm-single-c-d9031195",
+      "url": "/stories/diamond-foundry-creates-world-s-first-200mm-single-c-d9031195.html",
+      "title": "Diamond Foundry creates world's first 200mm single-crystal diamond wafer",
+      "tag": "fab",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "nvidia-released-its-8800-gtx-gpu-20-years-ago-today-9c62cd76",
+      "url": "/stories/nvidia-released-its-8800-gtx-gpu-20-years-ago-today-9c62cd76.html",
+      "title": "Nvidia released its 8800 GTX GPU 20 years ago today, celebrates with Steam game homage",
+      "tag": "demand",
+      "date": "2026-11-08",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "the-cheapest-am5-x3d-build-starts-at-649-with-ryzen-b18c8fb5",
+      "url": "/stories/the-cheapest-am5-x3d-build-starts-at-649-with-ryzen-b18c8fb5.html",
+      "title": "The Cheapest AM5 X3D Build Starts At $649 With Ryzen 7 7700X3D, B650 Motherboard And 32 GB DDR5 RAM Kit Dropping From $954 To Just $649",
+      "tag": "supply",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hundreds-arrested-after-microsoft-data-center-protes-70a35576",
+      "url": "/stories/hundreds-arrested-after-microsoft-data-center-protes-70a35576.html",
+      "title": "Hundreds arrested after Microsoft data center protest turns violent",
+      "tag": "demand",
+      "date": "2026-11-08",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "two-chinese-companies-cleared-to-buy-banned-nvidia-a-664e8df1",
       "url": "/stories/two-chinese-companies-cleared-to-buy-banned-nvidia-a-664e8df1.html",
@@ -12,6 +133,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pc-s-with-64gb-of-ram-plummet-18-as-memory-prices-so-ec839bf8",
+      "url": "/stories/pc-s-with-64gb-of-ram-plummet-18-as-memory-prices-so-ec839bf8.html",
+      "title": "PC's with 64GB of RAM plummet 18% as memory prices soar — CPU-Z install base data shows DDR4 making a surprise comeback - Yahoo Tech",
+      "tag": "supply",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "Yahoo Tech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "pc-s-with-64gb-of-ram-plummet-18-as-memory-prices-so-818f4b88",
