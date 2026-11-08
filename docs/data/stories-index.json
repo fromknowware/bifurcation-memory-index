@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-07T21:47:18.638Z",
-  "count": 2458,
+  "generatedAt": "2026-11-08T05:57:25.126Z",
+  "count": 2461,
   "stories": [
+    {
+      "slug": "rising-ram-ssd-prices-drive-21-slump-in-global-pc-or-4c293acb",
+      "url": "/stories/rising-ram-ssd-prices-drive-21-slump-in-global-pc-or-4c293acb.html",
+      "title": "Rising RAM, SSD prices drive 21% slump in global PC orders - Bangkok Post",
+      "tag": "supply",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "Bangkok Post",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-suppliers-may-set-q4-revenue-records-as-hbm-p-231746e7",
+      "url": "/stories/memory-suppliers-may-set-q4-revenue-records-as-hbm-p-231746e7.html",
+      "title": "Memory Suppliers May Set Q4 Revenue Records as HBM Prices Rise - www.tokenpost.com",
+      "tag": "earnings",
+      "date": "2026-11-08",
+      "score": 7,
+      "pick": false,
+      "source": "www.tokenpost.com",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "raspberry-pi-5-price-hike-means-the-16gb-model-now-c-1808c557",
+      "url": "/stories/raspberry-pi-5-price-hike-means-the-16gb-model-now-c-1808c557.html",
+      "title": "Raspberry Pi 5 price hike means the 16GB model now costs three times what it did at launch — and of course, the global RAM shortage is to blame - TechRadar",
+      "tag": "supply",
+      "date": "2026-11-07",
+      "score": 8,
+      "pick": false,
+      "source": "TechRadar",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "googlebook-update-frees-up-ram-from-on-device-ai-1f9e95b4",
       "url": "/stories/googlebook-update-frees-up-ram-from-on-device-ai-1f9e95b4.html",
