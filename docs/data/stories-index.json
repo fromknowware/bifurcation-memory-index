@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-08T22:00:48.443Z",
-  "count": 2478,
+  "generatedAt": "2026-11-09T06:21:07.812Z",
+  "count": 2483,
   "stories": [
+    {
+      "slug": "transcend-sees-dram-supply-potentially-halving-in-20-f14345f7",
+      "url": "/stories/transcend-sees-dram-supply-potentially-halving-in-20-f14345f7.html",
+      "title": "Transcend sees DRAM supply potentially halving in 2027 as memory prices plateau - digitimes",
+      "tag": "supply",
+      "date": "2026-11-09",
+      "score": 8,
+      "pick": false,
+      "source": "digitimes",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "asrock-rack-shows-early-xeon-7-diamond-rapids-mother-cac1e57b",
+      "url": "/stories/asrock-rack-shows-early-xeon-7-diamond-rapids-mother-cac1e57b.html",
+      "title": "ASRock Rack Shows Early Xeon 7 \"Diamond Rapids\" Motherboard for Up to 4 TB of DDR5",
+      "tag": "supply",
+      "date": "2026-11-09",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pc-ram-prices-climb-again-in-q4-as-32gb-ddr5-bottoms-03fa3d23",
+      "url": "/stories/pc-ram-prices-climb-again-in-q4-as-32gb-ddr5-bottoms-03fa3d23.html",
+      "title": "PC RAM Prices Climb Again in Q4 as 32GB DDR5 Bottoms Out at A$539 in Australia - Shane the Gamer",
+      "tag": "supply",
+      "date": "2026-11-09",
+      "score": 8,
+      "pick": false,
+      "source": "Shane the Gamer",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "terafab-is-now-aiming-for-a-memory-production-capaci-ea73ae25",
+      "url": "/stories/terafab-is-now-aiming-for-a-memory-production-capaci-ea73ae25.html",
+      "title": "Terafab Is Now Aiming For A Memory Production Capacity Of Around 700,000 Wafers Per Month, Which Is Roughly Equal To Samsung’s Entire DRAM Capacity",
+      "tag": "supply",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dell-poweredge-r770ap-review-one-fast-intel-xeon-6-s-97571375",
+      "url": "/stories/dell-poweredge-r770ap-review-one-fast-intel-xeon-6-s-97571375.html",
+      "title": "Dell PowerEdge R770AP Review One Fast Intel Xeon 6 Server",
+      "tag": "supply",
+      "date": "2026-11-08",
+      "score": 8,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "dram-revenue-up-369-apple-s-implied-margin-step-is-2-74f42f00",
       "url": "/stories/dram-revenue-up-369-apple-s-implied-margin-step-is-2-74f42f00.html",
