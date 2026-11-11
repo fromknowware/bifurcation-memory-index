@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-11-10T19:41:45.819Z",
-  "count": 2536,
+  "generatedAt": "2026-11-11T06:11:04.817Z",
+  "count": 2546,
   "stories": [
+    {
+      "slug": "samsung-sk-hynix-price-targets-diverge-nearly-threef-cbaccb44",
+      "url": "/stories/samsung-sk-hynix-price-targets-diverge-nearly-threef-cbaccb44.html",
+      "title": "Samsung, SK hynix price targets diverge nearly threefold over AI outlook - The Korea Herald",
+      "tag": "supply",
+      "date": "2026-11-11",
+      "score": 8,
+      "pick": false,
+      "source": "The Korea Herald",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-details-verano-its-ai-rack-cpu-with-up-to-192-co-18d1c5c8",
+      "url": "/stories/amd-details-verano-its-ai-rack-cpu-with-up-to-192-co-18d1c5c8.html",
+      "title": "AMD Details Verano, Its AI-Rack CPU With Up to 192 Cores and Faster GPU Links to Rival NVIDIA's Vera - XenoSpectrum",
+      "tag": "demand",
+      "date": "2026-11-11",
+      "score": 7,
+      "pick": false,
+      "source": "XenoSpectrum",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "citi-sees-3-8-dram-gap-teamgroup-sees-worse-2026-sha-1dbbc834",
+      "url": "/stories/citi-sees-3-8-dram-gap-teamgroup-sees-worse-2026-sha-1dbbc834.html",
+      "title": "Citi Sees 3.8% DRAM Gap, TeamGroup Sees Worse [2026] - shattered.io",
+      "tag": "supply",
+      "date": "2026-11-11",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-server-dram-usage-can-be-cut-by-up-to-75-what-do-44a3dbb6",
+      "url": "/stories/amd-server-dram-usage-can-be-cut-by-up-to-75-what-do-44a3dbb6.html",
+      "title": "AMD: \"Server DRAM usage can be cut by up to 75%\"… What does it mean for Samsung Electronics and SK hynix? [IT Insight] - 머니투데이",
+      "tag": "supply",
+      "date": "2026-11-10",
+      "score": 8,
+      "pick": false,
+      "source": "머니투데이",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "llnl-partners-with-diamond-quanta-to-break-barriers-7e477acd",
+      "url": "/stories/llnl-partners-with-diamond-quanta-to-break-barriers-7e477acd.html",
+      "title": "LLNL Partners with Diamond Quanta to Break Barriers in Semiconductor Manufacturing",
+      "tag": "supply",
+      "date": "2026-11-10",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-may-cut-tsmc-chip-orders-amid-mounting-pressu-61a7fb4e",
+      "url": "/stories/nvidia-may-cut-tsmc-chip-orders-amid-mounting-pressu-61a7fb4e.html",
+      "title": "NVIDIA May Cut TSMC Chip Orders Amid Mounting Pressure, Report Claims",
+      "tag": "fab",
+      "date": "2026-11-10",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "pr-msi-advances-next-gen-data-center-infrastructure-c28391ba",
+      "url": "/stories/pr-msi-advances-next-gen-data-center-infrastructure-c28391ba.html",
+      "title": "(PR) MSI Advances Next-Gen Data Center Infrastructure with AMD EPYC 9006 Series Server CPUs",
+      "tag": "earnings",
+      "date": "2026-11-10",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "how-the-venice-epycs-measure-up-against-prior-amd-se-4f299ed1",
+      "url": "/stories/how-the-venice-epycs-measure-up-against-prior-amd-se-4f299ed1.html",
+      "title": "How The “Venice” Epycs Measure Up Against Prior AMD Server CPUs",
+      "tag": "supply",
+      "date": "2026-11-10",
+      "score": 8,
+      "pick": false,
+      "source": "The Next Platform",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "saskatchewan-s-semiconductor-strength-is-connecting-9860ee26",
+      "url": "/stories/saskatchewan-s-semiconductor-strength-is-connecting-9860ee26.html",
+      "title": "Saskatchewan’s Semiconductor Strength Is Connecting the Pieces",
+      "tag": "supply",
+      "date": "2026-11-10",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "pr-amd-showcases-6th-gen-epyc-server-sp7-processors-dda280de",
       "url": "/stories/pr-amd-showcases-6th-gen-epyc-server-sp7-processors-dda280de.html",
@@ -100,6 +199,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "memory-chip-ceo-warns-2027-shortage-will-be-so-bad-t-0dd3cf60",
+      "url": "/stories/memory-chip-ceo-warns-2027-shortage-will-be-so-bad-t-0dd3cf60.html",
+      "title": "Memory chip CEO warns 2027 shortage will be so bad that ‘even money can’t buy goods’ - Fortune",
+      "tag": "supply",
+      "date": "2026-11-10",
+      "score": 8,
+      "pick": false,
+      "source": "Fortune",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "nvidia-ceo-huang-s-troubles-send-shockwaves-across-a-7421c6c0",
