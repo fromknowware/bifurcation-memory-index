@@ -1,7 +1,150 @@
 {
-  "generatedAt": "2026-11-12T00:39:27.760Z",
-  "count": 2578,
+  "generatedAt": "2026-11-12T15:09:36.162Z",
+  "count": 2591,
   "stories": [
+    {
+      "slug": "jensen-huang-steps-down-as-nvidia-ceo-as-company-tha-e94f679a",
+      "url": "/stories/jensen-huang-steps-down-as-nvidia-ceo-as-company-tha-e94f679a.html",
+      "title": "Jensen Huang Steps Down As NVIDIA CEO, As Company Thanks Him “For His Immeasurable Contributions To The Company And The Industry,” Current CFO To Spearhead GPU Maker",
+      "tag": "demand",
+      "date": "2026-11-12",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "taiwan-chip-giant-tsmc-acknowledges-hack-of-reported-1423bae9",
+      "url": "/stories/taiwan-chip-giant-tsmc-acknowledges-hack-of-reported-1423bae9.html",
+      "title": "Taiwan Chip Giant TSMC Acknowledges Hack Of Reportedly 49,000 Employee Files Occurred But Says Leaked Data Matches That Stored With External Cloud Provider",
+      "tag": "fab",
+      "date": "2026-11-12",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "price-inflation-measured-by-the-cleveland-fed-s-medi-e1990971",
+      "url": "/stories/price-inflation-measured-by-the-cleveland-fed-s-medi-e1990971.html",
+      "title": "Price inflation measured by the Cleveland Fed's median PCE index",
+      "tag": "macro",
+      "date": "2026-11-12",
+      "score": 6,
+      "pick": false,
+      "source": "FRED Blog",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "amd-s-siren-halo-will-reportedly-support-gddr7-memor-3db14ad7",
+      "url": "/stories/amd-s-siren-halo-will-reportedly-support-gddr7-memor-3db14ad7.html",
+      "title": "AMD’s “Siren Halo” Will Reportedly Support GDDR7 Memory, Potentially Moving Beyond Unified-Memory Approach",
+      "tag": "supply",
+      "date": "2026-11-12",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apex-neural-rendering-challenges-nvidia-dlss-with-up-84b7bc73",
+      "url": "/stories/apex-neural-rendering-challenges-nvidia-dlss-with-up-84b7bc73.html",
+      "title": "Apex Neural Rendering Challenges NVIDIA DLSS With Up To 2.4X Faster Frame Generation, 62% Lower VRAM Usage, And Broad GPU Support",
+      "tag": "demand",
+      "date": "2026-11-12",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "techie-uses-voltage-glitching-hack-to-turn-2-500-nvi-a3fbe757",
+      "url": "/stories/techie-uses-voltage-glitching-hack-to-turn-2-500-nvi-a3fbe757.html",
+      "title": "Techie uses voltage glitching hack to turn $2,500 Nvidia 8GB cryptomining GPU into a full-fat $20,000 A100 with 80GB of VRAM",
+      "tag": "demand",
+      "date": "2026-11-12",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "struggling-marijuana-farms-pivot-to-becoming-ai-data-b6a382c9",
+      "url": "/stories/struggling-marijuana-farms-pivot-to-becoming-ai-data-b6a382c9.html",
+      "title": "Struggling marijuana farms pivot to becoming AI data center sites to escape falling weed revenue",
+      "tag": "earnings",
+      "date": "2026-11-12",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "rethinking-memory-for-ai-inference-021cb92a",
+      "url": "/stories/rethinking-memory-for-ai-inference-021cb92a.html",
+      "title": "Rethinking Memory For AI Inference",
+      "tag": "demand",
+      "date": "2026-11-12",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "beyond-bandwidth-ai-inference-is-reshaping-the-memor-f7bc149e",
+      "url": "/stories/beyond-bandwidth-ai-inference-is-reshaping-the-memor-f7bc149e.html",
+      "title": "Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall",
+      "tag": "demand",
+      "date": "2026-11-12",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "the-semiconductor-singularity-when-ai-starts-acceler-1a05db5c",
+      "url": "/stories/the-semiconductor-singularity-when-ai-starts-acceler-1a05db5c.html",
+      "title": "The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI",
+      "tag": "supply",
+      "date": "2026-11-12",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "the-memory-challenge-of-physical-ai-7979441a",
+      "url": "/stories/the-memory-challenge-of-physical-ai-7979441a.html",
+      "title": "The Memory Challenge Of Physical AI",
+      "tag": "supply",
+      "date": "2026-11-12",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hardware-based-location-checks-target-ai-chip-smuggl-e69698a5",
+      "url": "/stories/hardware-based-location-checks-target-ai-chip-smuggl-e69698a5.html",
+      "title": "Hardware-Based Location Checks Target AI Chip Smuggling (Texas A&#038;M)",
+      "tag": "demand",
+      "date": "2026-11-12",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "radeon-users-get-a-stopgap-open-source-fix-for-amd-0-7fe167e2",
+      "url": "/stories/radeon-users-get-a-stopgap-open-source-fix-for-amd-0-7fe167e2.html",
+      "title": "Radeon Users Get a Stopgap Open-Source Fix for AMD&#039;s SSD Write Bug",
+      "tag": "supply",
+      "date": "2026-11-12",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "the-great-data-center-divide-it-8217-s-time-to-retur-cfc280e1",
       "url": "/stories/the-great-data-center-divide-it-8217-s-time-to-retur-cfc280e1.html",
