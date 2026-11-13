@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-11-13T06:40:54.005Z",
-  "count": 2612,
+  "generatedAt": "2026-11-13T19:38:47.446Z",
+  "count": 2624,
   "stories": [
+    {
+      "slug": "instead-of-lowering-gpu-prices-former-nvidia-ceo-jen-c1c0b130",
+      "url": "/stories/instead-of-lowering-gpu-prices-former-nvidia-ceo-jen-c1c0b130.html",
+      "title": "Instead Of Lowering GPU Prices, Former NVIDIA CEO Jensen Huang Reportedly Financed AI Startups To Absorb Excess Silicon, Shattering The Shortage Perception",
+      "tag": "demand",
+      "date": "2026-11-13",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pr-globalfoundries-breaks-ground-on-first-new-semico-77e79398",
+      "url": "/stories/pr-globalfoundries-breaks-ground-on-first-new-semico-77e79398.html",
+      "title": "(PR) GlobalFoundries Breaks Ground on First New Semiconductor Fab Under Landmark U.S.-Japan Initiative",
+      "tag": "fab",
+      "date": "2026-11-13",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "nvidia-founder-jensen-huang-s-alleged-spy-associate-7e526527",
+      "url": "/stories/nvidia-founder-jensen-huang-s-alleged-spy-associate-7e526527.html",
+      "title": "NVIDIA Founder Jensen Huang’s Alleged Spy Associate Alice Huang Was Deeply Tied To Another Chinese Firm With Access To Banned NVIDIA Chips, Says Report",
+      "tag": "demand",
+      "date": "2026-11-13",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-ceo-s-exit-could-give-south-korean-chipmakers-4853313f",
+      "url": "/stories/nvidia-ceo-s-exit-could-give-south-korean-chipmakers-4853313f.html",
+      "title": "Nvidia CEO's exit could give South Korean chipmakers greater leverage in HBM supply deals: Report - Big News Network.com",
+      "tag": "demand",
+      "date": "2026-11-13",
+      "score": 7,
+      "pick": false,
+      "source": "Big News Network.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "malaysia-and-singapore-step-up-nvidia-ai-chip-probes-75724023",
+      "url": "/stories/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-75724023.html",
+      "title": "Malaysia and Singapore step up Nvidia AI chip probes amidst Jensen Huang controversy",
+      "tag": "demand",
+      "date": "2026-11-13",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "hpe-debuts-hybrid-storage-configs-rising-ssd-costs-h-9ce2f1ef",
+      "url": "/stories/hpe-debuts-hybrid-storage-configs-rising-ssd-costs-h-9ce2f1ef.html",
+      "title": "HPE debuts hybrid storage configs: Rising SSD costs hit supercomputing",
+      "tag": "supply",
+      "date": "2026-11-13",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "deepseek-and-moonshot-ai-models-appear-to-carry-hidd-f0666e9b",
+      "url": "/stories/deepseek-and-moonshot-ai-models-appear-to-carry-hidd-f0666e9b.html",
+      "title": "DeepSeek And Moonshot AI Models Appear To Carry Hidden NVIDIA Blackwell Fingerprints In Their Starting Weights, Pointing To Training Clusters Of 3,000 To 4,500 GPUs",
+      "tag": "demand",
+      "date": "2026-11-13",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dji-announces-price-hike-on-handheld-imaging-product-36f68290",
+      "url": "/stories/dji-announces-price-hike-on-handheld-imaging-product-36f68290.html",
+      "title": "DJI Announces Price Hike on Handheld Imaging Products as Memory Chip Costs Bite, Putting Pressure on Insta360 to Follow - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-13",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-memory-crunch-sends-black-friday-prices-soaring-t-9ed38f6b",
+      "url": "/stories/ai-memory-crunch-sends-black-friday-prices-soaring-t-9ed38f6b.html",
+      "title": "AI Memory Crunch Sends Black Friday Prices Soaring - The Tech Buzz",
+      "tag": "demand",
+      "date": "2026-11-13",
+      "score": 7,
+      "pick": false,
+      "source": "The Tech Buzz",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "how-shanghai-fund-manager-kang-wei-introduced-his-wi-cbba7077",
+      "url": "/stories/how-shanghai-fund-manager-kang-wei-introduced-his-wi-cbba7077.html",
+      "title": "How Shanghai fund manager Kang Wei introduced his wife Alice Huang to Jensen and built $7.5 billion Nvidia AI GPU smuggling operation",
+      "tag": "demand",
+      "date": "2026-11-13",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "torus-launches-foundry-ai-infrastructure-and-announc-ae464957",
+      "url": "/stories/torus-launches-foundry-ai-infrastructure-and-announc-ae464957.html",
+      "title": "Torus Launches Foundry AI Infrastructure and Announces $500M in Growth Capital",
+      "tag": "fab",
+      "date": "2026-11-13",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "former-president-sees-dram-price-risk-from-10-fab-bu-f6cb1127",
+      "url": "/stories/former-president-sees-dram-price-risk-from-10-fab-bu-f6cb1127.html",
+      "title": "Former 南亚科技 President 高启全 Sees DRAM Price Risk From 10-Fab Buildout - tokenpost.com",
+      "tag": "fab",
+      "date": "2026-11-13",
+      "score": 8,
+      "pick": false,
+      "source": "tokenpost.com",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
     {
       "slug": "pr-applied-materials-announces-fourth-quarter-and-fi-27366df7",
       "url": "/stories/pr-applied-materials-announces-fourth-quarter-and-fi-27366df7.html",
