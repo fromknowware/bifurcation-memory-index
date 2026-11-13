@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-12T23:36:11.486Z",
-  "count": 2610,
+  "generatedAt": "2026-11-13T06:40:54.005Z",
+  "count": 2612,
   "stories": [
+    {
+      "slug": "pr-applied-materials-announces-fourth-quarter-and-fi-27366df7",
+      "url": "/stories/pr-applied-materials-announces-fourth-quarter-and-fi-27366df7.html",
+      "title": "(PR) Applied Materials Announces Fourth Quarter and Fiscal Year 2026 Results",
+      "tag": "earnings",
+      "date": "2026-11-13",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "amd-siren-halo-apu-rumored-to-pair-dedicated-gddr7-w-834eca8f",
+      "url": "/stories/amd-siren-halo-apu-rumored-to-pair-dedicated-gddr7-w-834eca8f.html",
+      "title": "AMD \"Siren Halo\" APU Rumored to Pair Dedicated GDDR7 With LPDDR Memory",
+      "tag": "supply",
+      "date": "2026-11-13",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "amd-reportedly-cuts-gaming-gpu-supply-in-china-by-up-e1d60d79",
       "url": "/stories/amd-reportedly-cuts-gaming-gpu-supply-in-china-by-up-e1d60d79.html",
