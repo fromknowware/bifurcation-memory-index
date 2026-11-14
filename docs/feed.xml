@@ -5,11 +5,141 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-11-14T06:17:49.216Z</updated>
+  <updated>2026-11-14T17:58:22.852Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/samsungs-1tb-990-ssd-drops-to-19-cents-per-gb-amid-the-memory-crisis-grab-it-for-usd40-off</id>
+    <title type="html">Samsung's 1TB 990 SSD drops to 19 cents per GB amid the memory crisis — grab it for $40 off</title>
+    <link href="https://www.tomshardware.com/pc-components/samsungs-1tb-990-ssd-drops-to-19-cents-per-gb-amid-the-memory-crisis-grab-it-for-usd40-off" />
+    <link rel="related" href="/stories/samsung-s-1tb-990-ssd-drops-to-19-cents-per-gb-amid-7b21a2ac.html" />
+    <updated>2026-11-14T16:32:48.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass</id>
+    <title type="html">This week in Tom's Hardware Premium: November 14, 2026 — Mac Studio versus DGX Spark, AMD's MEXT cuts DRAM requirements in half, and the Huang saga reaches critical mass</title>
+    <link href="https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass" />
+    <link rel="related" href="/stories/this-week-in-tom-s-hardware-premium-november-14-2026-59e1a0af.html" />
+    <updated>2026-11-14T16:00:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity</id>
+    <title type="html">Malaysia plans new law using data center power consumption to catch AI GPU smugglers</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity" />
+    <link rel="related" href="/stories/malaysia-plans-new-law-using-data-center-power-consu-b1a0cb05.html" />
+    <updated>2026-11-14T15:10:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware</id>
+    <title type="html">Researchers allege DeepSeek, Kimi, and other Chinese AI models were trained using banned Nvidia Blackwell GPUs</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware" />
+    <link rel="related" href="/stories/researchers-allege-deepseek-kimi-and-other-chinese-a-24dd42e9.html" />
+    <updated>2026-11-14T14:50:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/intel-begins-early-linux-enablement-razor-lake-and-coral-rapids/</id>
+    <title type="html">Intel Razor Lake Gets Its First Linux Kernel Patch Ahead Of A 2028 Launch, With Desktop Chips Expected To Reuse Nova Lake-S’s LGA 1954 Socket</title>
+    <link href="https://wccftech.com/intel-begins-early-linux-enablement-razor-lake-and-coral-rapids/" />
+    <link rel="related" href="/stories/intel-razor-lake-gets-its-first-linux-kernel-patch-a-e4528a95.html" />
+    <updated>2026-11-14T13:05:38.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">The company has begun preparing the groundwork for the next generation of consumer and server-grade CPUs. Intel Lays Groundwork for Next-Gen Processors in Linux With Early Kernel and Compiler support Intel is making some decent progress in delivering better support for its next-generation processors in Linux. Recently, the initial GCC patches for Coral Rapids were made, indicating support for AVX1 RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;The company has begun preparing the groundwork for the next generation of consumer and server-grade CPUs. Intel Lays Groundwork for Next-Gen Processors in Linux With Early Kernel and Compiler support Intel is making some decent progress in delivering better support for its next-generation processors in Linux. Recently, the initial GCC patches for Coral Rapids were made, indicating support for AVX1&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu</id>
+    <title type="html">Lawyer’s eight-V100 AI server moves DeepSeek from 2-bit to near-NVFP4 precision</title>
+    <link href="https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu" />
+    <link rel="related" href="/stories/lawyer-s-eight-v100-ai-server-moves-deepseek-from-2-a1154a30.html" />
+    <updated>2026-11-14T12:50:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMivAFBVV95cUxNOGJ1eWthRFpOcnhZNEI0MWVrTXg1SDdKdUxDeWFKTzNMdzA5TWZObGV2akIyaWhqYzJXSGNjY3BkVG91Vm5PbU1aQlVLc3JXV014QnpYUURrWHFQZHpWWXBGNHpRUkZXbVNxNGJvRVRTZnQwZ0g2NWFyVm5ZOF9hdjBjM3NIVmh5aW5SeDNESHd1TUw1RHJJWXctQzlNd2ltM1JIV192aWltV1NfUHdrUkFxS0RHd1UyV2p1ctIBwgFBVV95cUxQNHZNZ1RrZGlkOFlGXzhZdkpra3MzbzY3X3UtMU9CNzVyVTJJcDlnbmprbzJ1dUV3NlVuS3RCYUtmSExyVjRzZndiV2ZOa3czZHh2UEthWnRVUDdnYXRUYXlSYmF4bmNOU3FyS2lTT085eE1ucEtlcXRKUEZCdW1KRUFnSEFpU3BSaHpvNFBkZXlGaDRLRFBld3E1aG1ySWRRLUJPb0FROU1menA3Qnd4TkxuS0FtRmNQM1BsM2VjRmhIZw?oc=5</id>
+    <title type="html">TeamGroup CEO Warns 2027 DRAM Shortage Could Become So Severe That Even Money Won’t Guarantee Supply - Wccftech</title>
+    <link href="https://news.google.com/rss/articles/CBMivAFBVV95cUxNOGJ1eWthRFpOcnhZNEI0MWVrTXg1SDdKdUxDeWFKTzNMdzA5TWZObGV2akIyaWhqYzJXSGNjY3BkVG91Vm5PbU1aQlVLc3JXV014QnpYUURrWHFQZHpWWXBGNHpRUkZXbVNxNGJvRVRTZnQwZ0g2NWFyVm5ZOF9hdjBjM3NIVmh5aW5SeDNESHd1TUw1RHJJWXctQzlNd2ltM1JIV192aWltV1NfUHdrUkFxS0RHd1UyV2p1ctIBwgFBVV95cUxQNHZNZ1RrZGlkOFlGXzhZdkpra3MzbzY3X3UtMU9CNzVyVTJJcDlnbmprbzJ1dUV3NlVuS3RCYUtmSExyVjRzZndiV2ZOa3czZHh2UEthWnRVUDdnYXRUYXlSYmF4bmNOU3FyS2lTT085eE1ucEtlcXRKUEZCdW1KRUFnSEFpU3BSaHpvNFBkZXlGaDRLRFBld3E1aG1ySWRRLUJPb0FROU1menA3Qnd4TkxuS0FtRmNQM1BsM2VjRmhIZw?oc=5" />
+    <link rel="related" href="/stories/teamgroup-ceo-warns-2027-dram-shortage-could-become-7e5d72ea.html" />
+    <updated>2026-11-14T12:11:17.000Z</updated>
+    <author><name>Wccftech</name></author>
+    <summary type="html">TeamGroup CEO Warns 2027 DRAM Shortage Could Become So Severe That Even Money Won’t Guarantee Supply Wccftech RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:NAND flash supply" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;TeamGroup CEO Warns 2027 DRAM Shortage Could Become So Severe That Even Money Won’t Guarantee Supply Wccftech&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/teamgroup-ceo-warns-2027-ram-shortage-could-become-so-severe-that-even-money-wont-guarantee-supply/</id>
+    <title type="html">TeamGroup CEO Warns 2027 DRAM Shortage Could Become So Severe That Even Money Won’t Guarantee Supply</title>
+    <link href="https://wccftech.com/teamgroup-ceo-warns-2027-ram-shortage-could-become-so-severe-that-even-money-wont-guarantee-supply/" />
+    <link rel="related" href="/stories/teamgroup-ceo-warns-2027-dram-shortage-could-become-c7a43d89.html" />
+    <updated>2026-11-14T12:11:17.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">The ongoing global memory shortage could become significantly worse in 2027, with TeamGroup warning that DRAM supplies may become so constrained that even customers willing to pay inflated prices will struggle to secure inventory. Speaking during the Taiwanese memory manufacturer's November 2 earnings conference, TeamGroup CEO Chen Ching-wen (Gerry Chen) warned that the industry has yet to experie RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="opml" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;The ongoing global memory shortage could become significantly worse in 2027, with TeamGroup warning that DRAM supplies may become so constrained that even customers willing to pay inflated prices will struggle to secure inventory. Speaking during the Taiwanese memory manufacturer's November 2 earnings conference, TeamGroup CEO Chen Ching-wen (Gerry Chen) warned that the industry has yet to experie&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMi_AFBVV95cUxOOHFDdjlXa1M2TmVNMlJyM1liX1VzaG1XcGpaS0FQMkEwaGdBZWdlRkZxZDRvYjFhR0xUMHRZRFVxNmdRSHhubVZtbThrRk1uVGdCWFdjUEZIeGl6RHRvMVZEbkRaZ0NiTHdCYUdLRUpNTHR2NEdLS2R2RjljNHVoLWkyX0NmcVdXSUVYZ3FxR1ZnMlZ2VEdOQ2tMcEo2c2w4S2ZzM0pfNzJNR0xYcndRbFdGVU01T3Bha3kwVGNvQ3NfaFBXaTdRTEswTkUtcUt6X3hmbzdfUkhXNFFxbnREZnowVWY1SnZGTHNxRC0wRVhMaFJsVHRMc2hSYVE?oc=5</id>
+    <title type="html">EXCLUSIVE INTERVIEW: How Singapore's Semiconductor Trade Hub Became the Centre of a US–China Export-Control Dispute - Business Upturn</title>
+    <link href="https://news.google.com/rss/articles/CBMi_AFBVV95cUxOOHFDdjlXa1M2TmVNMlJyM1liX1VzaG1XcGpaS0FQMkEwaGdBZWdlRkZxZDRvYjFhR0xUMHRZRFVxNmdRSHhubVZtbThrRk1uVGdCWFdjUEZIeGl6RHRvMVZEbkRaZ0NiTHdCYUdLRUpNTHR2NEdLS2R2RjljNHVoLWkyX0NmcVdXSUVYZ3FxR1ZnMlZ2VEdOQ2tMcEo2c2w4S2ZzM0pfNzJNR0xYcndRbFdGVU01T3Bha3kwVGNvQ3NfaFBXaTdRTEswTkUtcUt6X3hmbzdfUkhXNFFxbnREZnowVWY1SnZGTHNxRC0wRVhMaFJsVHRMc2hSYVE?oc=5" />
+    <link rel="related" href="/stories/exclusive-interview-how-singapore-s-semiconductor-tr-35134578.html" />
+    <updated>2026-11-14T11:32:51.000Z</updated>
+    <author><name>Business Upturn</name></author>
+    <summary type="html">EXCLUSIVE INTERVIEW: How Singapore's Semiconductor Trade Hub Became the Centre of a US–China Export-Control Dispute Business Upturn RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:semiconductor trade policy" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;EXCLUSIVE INTERVIEW: How Singapore's Semiconductor Trade Hub Became the Centre of a US–China Export-Control Dispute Business Upturn&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiggJBVV95cUxPSGtjVlhHb19kQjh3LVNvM3NqbFVsTTJpemJfSEIxVGZPbmFrd1B1WXdXQjY0ODFxYTVndWRMcVJ2a3htWEhkZ1d3TEZUN1lkM0Vfb2xIbWNpLTRnWTlmVGd3QTl0UTcxbHk4aXlzZmVna1R1RXM2dGNHNDZDM2dUN1FkdDJfcFFrWXd1a3NpdHNhUWw0MW9DV3VablphU1ZyTUQ2SnR1V1docjF1OWI3d2Z3bzRyd2U1UGMtZTJxNHNtR3RXRUJHeEhfb3lzRzBnQy11TXVUTGVOUldjOGwxcVZJd3kyUHRhZXRBX05hRm5WUGotV2xaTEIxaGpaZWJ1alE?oc=5</id>
+    <title type="html">Jensen Huang’s Nvidia Exit Exposes US-China Semiconductor Trade Fault Lines as Singapore Faces Export-Control Scrutiny - Business Upturn</title>
+    <link href="https://news.google.com/rss/articles/CBMiggJBVV95cUxPSGtjVlhHb19kQjh3LVNvM3NqbFVsTTJpemJfSEIxVGZPbmFrd1B1WXdXQjY0ODFxYTVndWRMcVJ2a3htWEhkZ1d3TEZUN1lkM0Vfb2xIbWNpLTRnWTlmVGd3QTl0UTcxbHk4aXlzZmVna1R1RXM2dGNHNDZDM2dUN1FkdDJfcFFrWXd1a3NpdHNhUWw0MW9DV3VablphU1ZyTUQ2SnR1V1docjF1OWI3d2Z3bzRyd2U1UGMtZTJxNHNtR3RXRUJHeEhfb3lzRzBnQy11TXVUTGVOUldjOGwxcVZJd3kyUHRhZXRBX05hRm5WUGotV2xaTEIxaGpaZWJ1alE?oc=5" />
+    <link rel="related" href="/stories/jensen-huang-s-nvidia-exit-exposes-us-china-semicond-85ddaa0b.html" />
+    <updated>2026-11-14T11:22:51.000Z</updated>
+    <author><name>Business Upturn</name></author>
+    <summary type="html">Jensen Huang’s Nvidia Exit Exposes US-China Semiconductor Trade Fault Lines as Singapore Faces Export-Control Scrutiny Business Upturn RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:semiconductor trade policy" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Jensen Huang’s Nvidia Exit Exposes US-China Semiconductor Trade Fault Lines as Singapore Faces Export-Control Scrutiny Business Upturn&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://www.nextplatform.com/compute/2026/11/14/cerebras-readies-cs-5-systems-for-2027-launch-as-it-bags-another-hyperscaler/5309932</id>
     <title type="html">Cerebras Readies CS-5 Systems For 2027 Launch As It Bags Another Hyperscaler</title>
@@ -21,7 +151,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.hpcwire.com/off-the-wire/penguin-solutions-introduces-cxl-enabled-ddr4-module-for-ai-data-centers/</id>
@@ -34,7 +164,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Validated reuse of prior-generation DDR4 provides performance, cost savings, and an alternative path to procuring memory for AI infrastructure buildouts FREMONT, Calif., Nov. 13, 2026 — Penguin Solutions, Inc. has introduced the SMART CXL-8F2W-D4, an eight-DIMM DDR4 Compute Express Link (CXL) memory add-in card that enables organizations to adapt DDR4 memory for use in AI systems. […] The post Pen&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Validated reuse of prior-generation DDR4 provides performance, cost savings, and an alternative path to procuring memory for AI infrastructure buildouts FREMONT, Calif., Nov. 13, 2026 — Penguin Solutions, Inc. has introduced the SMART CXL-8F2W-D4, an eight-DIMM DDR4 Compute Express Link (CXL) memory add-in card that enables organizations to adapt DDR4 memory for use in AI systems. […] The post Pen&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891</id>
@@ -47,7 +177,7 @@
     <category term="opml" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;Forensic report finds Blackwell's fingerprint in DeepSeek, Moonshot AI, MiniMax and Ant Group models&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Forensic report finds Blackwell's fingerprint in DeepSeek, Moonshot AI, MiniMax and Ant Group models&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/</id>
@@ -86,7 +216,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Formerly New Silicon Corporation (NSC), Staera builds LED optical links inside silicon chips, so AI systems can move data faster and scale further without adding power or heat SAN FRANCISCO, Nov. 13, 2026 — Staera Semiconductor (Staera) has emerged from stealth with a technology that builds optical data links directly into silicon chips. It targets […] The post Staera Semiconductor Emerges from St&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Formerly New Silicon Corporation (NSC), Staera builds LED optical links inside silicon chips, so AI systems can move data faster and scale further without adding power or heat SAN FRANCISCO, Nov. 13, 2026 — Staera Semiconductor (Staera) has emerged from stealth with a technology that builds optical data links directly into silicon chips. It targets […] The post Staera Semiconductor Emerges from St&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://wccftech.com/nvidia-founder-jensen-huangs-alleged-spy-associate-alice-huang-was-deeply-tied-to-another-chinese-firm-with-access-to-banned-nvidia-chips-says-report/</id>
