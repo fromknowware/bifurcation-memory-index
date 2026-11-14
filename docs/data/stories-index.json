@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-13T19:38:47.446Z",
-  "count": 2624,
+  "generatedAt": "2026-11-14T06:17:51.997Z",
+  "count": 2628,
   "stories": [
+    {
+      "slug": "cerebras-readies-cs-5-systems-for-2027-launch-as-it-487a6efa",
+      "url": "/stories/cerebras-readies-cs-5-systems-for-2027-launch-as-it-487a6efa.html",
+      "title": "Cerebras Readies CS-5 Systems For 2027 Launch As It Bags Another Hyperscaler",
+      "tag": "supply",
+      "date": "2026-11-14",
+      "score": 8,
+      "pick": false,
+      "source": "The Next Platform",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "penguin-solutions-introduces-cxl-enabled-ddr4-module-f9c0ad2d",
+      "url": "/stories/penguin-solutions-introduces-cxl-enabled-ddr4-module-f9c0ad2d.html",
+      "title": "Penguin Solutions Introduces CXL-Enabled DDR4 Module for AI Data Centers",
+      "tag": "demand",
+      "date": "2026-11-13",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "chinese-ai-labs-are-training-models-on-nvidia-s-blac-b61fa20b",
+      "url": "/stories/chinese-ai-labs-are-training-models-on-nvidia-s-blac-b61fa20b.html",
+      "title": "Chinese AI labs are training models on Nvidia's Blackwell despite export controls, says ex-OpenAI engineer",
+      "tag": "demand",
+      "date": "2026-11-13",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "instead-of-lowering-gpu-prices-former-nvidia-ceo-jen-c1c0b130",
       "url": "/stories/instead-of-lowering-gpu-prices-former-nvidia-ceo-jen-c1c0b130.html",
@@ -23,6 +56,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "staera-semiconductor-emerges-from-stealth-with-4-6m-dac8b7af",
+      "url": "/stories/staera-semiconductor-emerges-from-stealth-with-4-6m-dac8b7af.html",
+      "title": "Staera Semiconductor Emerges from Stealth with $4.6M to Break AI&#8217;s Data Bottleneck",
+      "tag": "supply",
+      "date": "2026-11-13",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "nvidia-founder-jensen-huang-s-alleged-spy-associate-7e526527",
