@@ -437,6 +437,74 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 .lb-nav-btn:disabled{opacity:0.25;cursor:not-allowed;}
 .lb-nav-spacer{flex:1;}
 
+/* ── LEARN: VIDEO LIBRARY (data: docs/data/videos.json) ─────────── */
+#sec-learn [hidden]{display:none !important;}
+.lv-switch{display:flex;border:1px solid var(--line2);}
+.lv-btn{
+  font-family:var(--mono);font-size:10px;font-weight:700;
+  letter-spacing:0.08em;text-transform:uppercase;
+  padding:5px 12px;background:transparent;border:0;
+  color:var(--sub);cursor:pointer;
+}
+.lv-btn + .lv-btn{border-left:1px solid var(--line2);}
+.lv-btn:hover{color:var(--bright);}
+.lv-btn[aria-pressed="true"]{color:var(--ram);background:rgba(232,164,40,0.08);}
+.lv-btn:focus-visible,.vl-chip:focus-visible,.vc-play:focus-visible,.vc-yt:focus-visible{
+  outline:2px solid var(--ram);outline-offset:2px;
+}
+.vl{padding:24px 28px 40px;overflow-y:auto;flex:1;min-height:0;}
+.vl-msg{font-family:var(--mono);font-size:11px;color:var(--muted);padding:20px 0;}
+.vl-bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:20px;}
+.vl-chip{
+  font-family:var(--mono);font-size:10px;font-weight:700;
+  letter-spacing:0.08em;text-transform:uppercase;
+  padding:6px 12px;border:1px solid var(--line2);
+  background:transparent;color:var(--sub);cursor:pointer;
+}
+.vl-chip:hover{border-color:var(--ram);color:var(--bright);}
+.vl-chip[aria-pressed="true"]{border-color:var(--ram);color:var(--ram);background:rgba(232,164,40,0.06);}
+.vl-count{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--dim);}
+.vl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;}
+.vc{border:1px solid var(--line);background:var(--bg1);display:flex;flex-direction:column;min-width:0;}
+.vc-media{position:relative;aspect-ratio:16/9;background:#000;overflow:hidden;}
+.vc-play{position:absolute;inset:0;width:100%;height:100%;padding:0;border:0;background:#000;cursor:pointer;display:block;}
+.vc-play img{width:100%;height:100%;object-fit:cover;display:block;opacity:0.88;transition:opacity 0.15s,transform 0.25s;}
+.vc-play:hover img{opacity:1;transform:scale(1.03);}
+.vc-glyph{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:46px;height:46px;border-radius:50%;
+  background:rgba(17,20,22,0.8);border:1px solid var(--ram);color:var(--ram);
+  display:flex;align-items:center;justify-content:center;
+  font-size:15px;padding-left:3px;
+  transition:background 0.15s;
+}
+.vc-play:hover .vc-glyph{background:rgba(232,164,40,0.9);color:#111416;}
+.vc-media iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+.vc-body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1;}
+.vc-theme{font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;}
+.vc-theme.history{color:var(--ram);}
+.vc-theme.technology{color:var(--hbm);}
+.vc-theme.economics{color:var(--mui);}
+.vc-theme.current{color:var(--hemline);}
+.vc-title{font-size:13px;font-weight:600;color:var(--bright);line-height:1.35;}
+.vc-chan{font-family:var(--mono);font-size:10px;color:var(--muted);}
+.vc-why{font-size:11px;color:var(--sub);line-height:1.6;}
+.vc-yt{
+  margin-top:auto;padding-top:8px;
+  font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:0.06em;
+  color:var(--hbm);
+}
+.vc-yt:hover{text-decoration:underline;}
+.vl-foot{
+  margin-top:28px;padding-top:14px;border-top:1px solid var(--line);
+  font-family:var(--mono);font-size:10px;line-height:1.7;color:var(--dim);max-width:760px;
+}
+@media(max-width:599px){
+  .vl{padding:16px 12px 32px;}
+  .vl-grid{grid-template-columns:1fr;}
+  .vl-count{margin-left:0;width:100%;}
+}
+
 /* ── RESEARCH ────────────────────────────────────── */
 .research-layout{
   display:grid;grid-template-columns:1fr 360px;
@@ -1315,8 +1383,13 @@ audio{
   <div class="sh">
     <span class="sh-title">Learn</span>
     <div class="sh-rule"></div>
+    <div class="lv-switch" role="group" aria-label="Learn view">
+      <button class="lv-btn" id="lv-lessons" type="button" aria-pressed="true">Lessons</button>
+      <button class="lv-btn" id="lv-videos" type="button" aria-pressed="false">Videos</button>
+    </div>
     <span class="sh-meta">The RAM ecosystem from first principles</span>
   </div>
+  <div class="vl" id="learn-videos" hidden></div>
   <div class="learn-layout">
     <div class="learn-nav" id="learn-nav">
       <div class="ln-item active" data-learn="0" tabindex="0" role="button">
@@ -2018,6 +2091,111 @@ function renderLearn(idx){
   });
 }
 
+// ── LEARN: VIDEO LIBRARY (docs/data/videos.json) ───────────────────
+// Add a video by appending one entry to videos.json. Thumbnails come from
+// YouTube's image host; the player (youtube-nocookie.com) only loads after a
+// click, so opening the Videos view makes no player requests.
+const VL = {data:null, theme:'all', loading:false, view:'lessons', playing:null};
+
+function vlEsc(s){
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+const VL_ID = /^[A-Za-z0-9_-]{11}$/;
+
+function vlThumb(v){
+  return `<button class="vc-play" type="button" data-id="${v.id}" aria-label="Play video: ${vlEsc(v.title)}">
+      <img src="https://i.ytimg.com/vi/${v.id}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+      <span class="vc-glyph" aria-hidden="true">▶</span>
+    </button>`;
+}
+
+function renderVideos(){
+  const host = document.getElementById('learn-videos');
+  const d = VL.data;
+  const vids = (d.videos || []).filter(v => VL_ID.test(v.id));
+  const themes = d.themes || [];
+  const label = k => (themes.find(t => t.key === k) || {label:k}).label;
+  const shown = vids.filter(v => VL.theme === 'all' || v.theme === VL.theme);
+  VL.playing = null;
+  host.innerHTML = `
+    <div class="vl-bar" role="group" aria-label="Filter videos by theme">
+      <button class="vl-chip" type="button" data-theme="all" aria-pressed="${VL.theme==='all'}">All</button>
+      ${themes.map(t => `<button class="vl-chip" type="button" data-theme="${vlEsc(t.key)}" aria-pressed="${VL.theme===t.key}">${vlEsc(t.label)}</button>`).join('')}
+      <span class="vl-count" aria-live="polite">${shown.length} of ${vids.length} videos</span>
+    </div>
+    <div class="vl-grid">
+      ${shown.map(v => `
+        <article class="vc" data-id="${v.id}">
+          <div class="vc-media">${vlThumb(v)}</div>
+          <div class="vc-body">
+            <div class="vc-theme ${vlEsc(v.theme)}">${vlEsc(label(v.theme))}</div>
+            <div class="vc-title">${vlEsc(v.title)}</div>
+            <div class="vc-chan">${vlEsc(v.channel)}</div>
+            ${v.why ? `<div class="vc-why">${vlEsc(v.why)}</div>` : ''}
+            <a class="vc-yt" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+          </div>
+        </article>`).join('')}
+    </div>
+    <p class="vl-foot">Videos are made and hosted by their creators on YouTube; the RAM Index only curates them. Nothing loads from YouTube's player until you press play, and playback uses youtube-nocookie.com. Inclusion is not an endorsement of any claim in a video.</p>`;
+}
+
+function vlPlay(card){
+  // one player at a time: put the previous card's thumbnail back
+  if(VL.playing && VL.playing !== card){
+    const prev = VL.playing;
+    const pv = (VL.data.videos || []).find(x => x.id === prev.dataset.id);
+    if(pv) prev.querySelector('.vc-media').innerHTML = vlThumb(pv);
+  }
+  const v = (VL.data.videos || []).find(x => x.id === card.dataset.id);
+  if(!v) return;
+  card.querySelector('.vc-media').innerHTML =
+    `<iframe src="https://www.youtube-nocookie.com/embed/${v.id}?autoplay=1&rel=0" title="${vlEsc(v.title)}"
+      allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+  VL.playing = card;
+}
+
+async function loadVideos(){
+  const host = document.getElementById('learn-videos');
+  if(VL.data || VL.loading) return;
+  VL.loading = true;
+  host.innerHTML = '<div class="vl-msg">Loading the video library…</div>';
+  try{
+    const r = await fetch('data/videos.json?_='+Date.now());
+    if(!r.ok) throw new Error(r.status);
+    VL.data = await r.json();
+    renderVideos();
+  }catch{
+    host.innerHTML = '<div class="vl-msg">The video library could not be loaded right now. Try again shortly.</div>';
+  }finally{
+    VL.loading = false;
+  }
+}
+
+function setLearnView(view, updateHash=true){
+  const vids = view === 'videos';
+  VL.view = vids ? 'videos' : 'lessons';
+  document.getElementById('lv-lessons').setAttribute('aria-pressed', String(!vids));
+  document.getElementById('lv-videos').setAttribute('aria-pressed', String(vids));
+  document.querySelector('#sec-learn .learn-layout').hidden = vids;
+  document.getElementById('learn-videos').hidden = !vids;
+  if(vids) loadVideos();
+  if(updateHash) history.replaceState(null, '', vids ? '#learn/videos' : '#learn');
+}
+
+document.getElementById('lv-lessons').addEventListener('click', () => setLearnView('lessons'));
+document.getElementById('lv-videos').addEventListener('click', () => setLearnView('videos'));
+document.getElementById('learn-videos').addEventListener('click', e => {
+  const chip = e.target.closest('.vl-chip');
+  if(chip){
+    VL.theme = chip.dataset.theme; renderVideos();
+    const again = document.querySelector(`#learn-videos .vl-chip[data-theme="${VL.theme}"]`);
+    if(again) again.focus();
+    return;
+  }
+  const play = e.target.closest('.vc-play');
+  if(play) vlPlay(play.closest('.vc'));
+});
+
 // ── LIVE FEED ─────────────────────────────────────────────
 const TAG_META = {
   fab:      {cls:'fab',      label:'FAB'},
@@ -2302,7 +2480,7 @@ function navigateTo(sec, pushHistory=true){
   document.getElementById('sec-'+sec).classList.add('active');
   if(sec==='index') requestAnimationFrame(()=>{drawChart('chart-ri-mini',120,false);drawChart('chart-ri-full',240,true);});
   if(sec==='feed') loadFeed();
-  if(pushHistory) history.replaceState(null,'', sec==='index' ? location.pathname : '#'+sec);
+  if(pushHistory) history.replaceState(null,'', sec==='index' ? location.pathname : '#'+sec+(sec==='learn'&&VL.view==='videos'?'/videos':''));
 }
 
 document.querySelectorAll('.np').forEach(btn=>{
@@ -2312,12 +2490,14 @@ document.querySelectorAll('.np').forEach(btn=>{
 // deep-link on load + back/forward support
 (function(){
   const valid = ['index','signals','equities','learn','research','feed'];
-  const hash = location.hash.replace('#','');
-  if(hash && valid.includes(hash)) navigateTo(hash, false);
-  window.addEventListener('hashchange',()=>{
-    const h = location.hash.replace('#','');
-    if(valid.includes(h)) navigateTo(h, false);
-  });
+  const route = h => {
+    const [top, sub] = h.replace('#','').split('/');
+    if(!top || !valid.includes(top)) return;
+    navigateTo(top, false);
+    if(top==='learn') setLearnView(sub==='videos' ? 'videos' : 'lessons', false);
+  };
+  if(location.hash) route(location.hash);
+  window.addEventListener('hashchange',()=>route(location.hash));
 })();
 
 document.querySelectorAll('.ln-item').forEach((item,i)=>{
