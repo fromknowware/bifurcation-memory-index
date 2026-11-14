@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-14T17:58:27.573Z",
-  "count": 2638,
+  "generatedAt": "2026-11-14T22:20:44.274Z",
+  "count": 2640,
   "stories": [
+    {
+      "slug": "tsmc-confirms-employee-data-leak-points-to-cloud-pro-08ebad6d",
+      "url": "/stories/tsmc-confirms-employee-data-leak-points-to-cloud-pro-08ebad6d.html",
+      "title": "TSMC Confirms Employee Data Leak, Points to Cloud Provider",
+      "tag": "fab",
+      "date": "2026-11-14",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "fractile-ceo-walter-goodwin-the-ai-chip-bottleneck-i-45e3ead1",
+      "url": "/stories/fractile-ceo-walter-goodwin-the-ai-chip-bottleneck-i-45e3ead1.html",
+      "title": "Fractile CEO Walter Goodwin: The AI Chip Bottleneck Is Memory Bandwidth, Not Compute - BigGo Finance",
+      "tag": "demand",
+      "date": "2026-11-14",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "samsung-s-1tb-990-ssd-drops-to-19-cents-per-gb-amid-7b21a2ac",
       "url": "/stories/samsung-s-1tb-990-ssd-drops-to-19-cents-per-gb-amid-7b21a2ac.html",
