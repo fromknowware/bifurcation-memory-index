@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-14T22:20:44.274Z",
-  "count": 2640,
+  "generatedAt": "2026-11-15T06:24:52.077Z",
+  "count": 2643,
   "stories": [
+    {
+      "slug": "samsung-s-34-billion-hbm-bet-raises-memory-glut-risk-36b3a7b1",
+      "url": "/stories/samsung-s-34-billion-hbm-bet-raises-memory-glut-risk-36b3a7b1.html",
+      "title": "Samsung’s $34 Billion HBM Bet Raises Memory Glut Risks - 24/7 Wall St.",
+      "tag": "demand",
+      "date": "2026-11-15",
+      "score": 7,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "axelera-ai-unveils-titania-aiming-to-run-1-6-trillio-13f392fc",
+      "url": "/stories/axelera-ai-unveils-titania-aiming-to-run-1-6-trillio-13f392fc.html",
+      "title": "Axelera AI Unveils Titania, Aiming to Run 1.6-Trillion-Parameter AI Models on a Single Air-Cooled Server - XenoSpectrum",
+      "tag": "supply",
+      "date": "2026-11-14",
+      "score": 8,
+      "pick": false,
+      "source": "XenoSpectrum",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "tsmc-confirms-employee-data-leak-points-to-cloud-pro-08ebad6d",
       "url": "/stories/tsmc-confirms-employee-data-leak-points-to-cloud-pro-08ebad6d.html",
@@ -66,6 +88,17 @@
       "score": 7,
       "pick": false,
       "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "google-s-new-tpu-systems-tackle-ai-memory-and-data-p-880c403d",
+      "url": "/stories/google-s-new-tpu-systems-tackle-ai-memory-and-data-p-880c403d.html",
+      "title": "Google's new TPU systems tackle AI memory and data protection with existing chips - MarketScale",
+      "tag": "demand",
+      "date": "2026-11-14",
+      "score": 7,
+      "pick": false,
+      "source": "MarketScale",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
