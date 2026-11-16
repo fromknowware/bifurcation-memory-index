@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-11-15T18:49:15.274Z",
-  "count": 2663,
+  "generatedAt": "2026-11-16T06:23:25.262Z",
+  "count": 2676,
   "stories": [
+    {
+      "slug": "altman-calls-pc-ram-quite-terrible-dram-prices-near-92394ece",
+      "url": "/stories/altman-calls-pc-ram-quite-terrible-dram-prices-near-92394ece.html",
+      "title": "Altman Calls PC RAM ‘Quite Terrible’; DRAM Prices Near 3.8x - FourWeekMBA",
+      "tag": "supply",
+      "date": "2026-11-16",
+      "score": 8,
+      "pick": false,
+      "source": "FourWeekMBA",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "business-strategy-or-price-fixing-dram-class-action-84efe6a9",
+      "url": "/stories/business-strategy-or-price-fixing-dram-class-action-84efe6a9.html",
+      "title": "“Business Strategy or Price-Fixing?” DRAM Class Action Against Three Memory Makers Drags On, With Broader Antitrust Debate Over Key Industrial Inputs Expected - https://economy.ac/",
+      "tag": "supply",
+      "date": "2026-11-16",
+      "score": 8,
+      "pick": false,
+      "source": "https://economy.ac/",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-revenue-nears-200b-as-ai-demand-drives-pricing-dce39861",
+      "url": "/stories/dram-revenue-nears-200b-as-ai-demand-drives-pricing-dce39861.html",
+      "title": "DRAM Revenue Nears $200B as AI Demand Drives Pricing Surge - EE Times Asia",
+      "tag": "earnings",
+      "date": "2026-11-16",
+      "score": 7,
+      "pick": false,
+      "source": "EE Times Asia",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "judge-lets-dram-cartel-lawsuit-against-samsung-sk-hy-56de73b7",
+      "url": "/stories/judge-lets-dram-cartel-lawsuit-against-samsung-sk-hy-56de73b7.html",
+      "title": "Judge lets DRAM cartel lawsuit against Samsung, SK Hynix and Micron move forward - Crypto Briefing",
+      "tag": "supply",
+      "date": "2026-11-16",
+      "score": 8,
+      "pick": false,
+      "source": "Crypto Briefing",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "court-lets-dram-price-fixing-suit-against-samsung-sk-588fce4a",
+      "url": "/stories/court-lets-dram-price-fixing-suit-against-samsung-sk-588fce4a.html",
+      "title": "Court Lets DRAM Price-Fixing Suit Against Samsung, SK hynix and Micron Proceed - XenoSpectrum",
+      "tag": "supply",
+      "date": "2026-11-16",
+      "score": 8,
+      "pick": false,
+      "source": "XenoSpectrum",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "south-korea-s-samsung-electronics-sk-hynix-plunge-to-ef1f2af1",
+      "url": "/stories/south-korea-s-samsung-electronics-sk-hynix-plunge-to-ef1f2af1.html",
+      "title": "South Korea's Samsung Electronics, SK Hynix Plunge Together After BofA Report Flags ~20% NAND Price Drop; KOSPI Down ~3% - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-16",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-falls-3-sk-hynix-5-on-nand-price-slide-seoul-e71eb539",
+      "url": "/stories/samsung-falls-3-sk-hynix-5-on-nand-price-slide-seoul-e71eb539.html",
+      "title": "Samsung Falls 3%, SK hynix 5% on NAND Price Slide - Seoul Economic Daily",
+      "tag": "supply",
+      "date": "2026-11-16",
+      "score": 8,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-razor-lake-gets-a-12-p-core-bllc-chip-with-no-244980c6",
+      "url": "/stories/intel-razor-lake-gets-a-12-p-core-bllc-chip-with-no-244980c6.html",
+      "title": "Intel Razor Lake Gets a 12 P-Core bLLC Chip With No E-Cores, Per Leak",
+      "tag": "supply",
+      "date": "2026-11-16",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-sk-hynix-and-micron-must-face-dram-price-fix-8944bc9a",
+      "url": "/stories/samsung-sk-hynix-and-micron-must-face-dram-price-fix-8944bc9a.html",
+      "title": "Samsung, SK hynix and Micron Must Face DRAM Price-Fixing Suit - AndroidPure",
+      "tag": "supply",
+      "date": "2026-11-16",
+      "score": 8,
+      "pick": false,
+      "source": "AndroidPure",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-market-divergence-is-underway-bank-of-america-daae790b",
+      "url": "/stories/memory-market-divergence-is-underway-bank-of-america-daae790b.html",
+      "title": "Memory market divergence is underway; Bank of America notes DRAM remains resilient, while NAND has quietly weakened. - 富途牛牛",
+      "tag": "supply",
+      "date": "2026-11-16",
+      "score": 8,
+      "pick": false,
+      "source": "富途牛牛",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "judge-lets-dram-price-fixing-suit-against-samsung-mi-6e38d81a",
+      "url": "/stories/judge-lets-dram-price-fixing-suit-against-samsung-mi-6e38d81a.html",
+      "title": "Judge Lets DRAM Price-Fixing Suit Against Samsung, Micron, SK Hynix Move Forward - Hoodline",
+      "tag": "supply",
+      "date": "2026-11-15",
+      "score": 8,
+      "pick": false,
+      "source": "Hoodline",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "samsung-sk-hynix-and-micron-fail-to-dismiss-dram-sup-e2b70219",
       "url": "/stories/samsung-sk-hynix-and-micron-fail-to-dismiss-dram-sup-e2b70219.html",
@@ -22,6 +143,17 @@
       "score": 8,
       "pick": false,
       "source": "Business Upturn",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dram-lawsuit-judge-lets-case-against-samsung-micron-a831f124",
+      "url": "/stories/dram-lawsuit-judge-lets-case-against-samsung-micron-a831f124.html",
+      "title": "DRAM Lawsuit: Judge Lets Case Against Samsung, Micron and SK hynix Proceed - Around Prague",
+      "tag": "supply",
+      "date": "2026-11-15",
+      "score": 8,
+      "pick": false,
+      "source": "Around Prague",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -66,6 +198,17 @@
       "score": 7,
       "pick": false,
       "source": "Yahoo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dram-just-got-more-expensive-than-ai-memory-here-s-w-c7ccd504",
+      "url": "/stories/dram-just-got-more-expensive-than-ai-memory-here-s-w-c7ccd504.html",
+      "title": "DRAM Just Got More Expensive Than AI Memory. Here’s Why Micron Could Soar in 2027 - 24/7 Wall St.",
+      "tag": "demand",
+      "date": "2026-11-15",
+      "score": 7,
+      "pick": false,
+      "source": "24/7 Wall St.",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
