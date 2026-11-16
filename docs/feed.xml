@@ -5,11 +5,570 @@
   <subtitle>DRAM prices, semiconductor trade, and macroeconomic signals curated by The Ramification Index.</subtitle>
   <link href="https://ram-index.com/feed.xml" rel="self" />
   <link href="https://ram-index.com" />
-  <updated>2026-11-16T06:23:22.558Z</updated>
+  <updated>2026-11-16T21:58:47.179Z</updated>
   <generator>ram-index-feed/2.0 (github-actions)</generator>
   <author><name>Khayyam Wakil / Knowware Institute</name></author>
   <rights>CC BY 4.0 — Knowware Institute</rights>
 
+  <entry>
+    <id>https://www.hpcwire.com/2026/11/16/nvidia-recommits-to-fp64-with-a-new-gpu-the-rubin-hpc/</id>
+    <title type="html">Nvidia Recommits to FP64 with a New GPU, the Rubin HPC</title>
+    <link href="https://www.hpcwire.com/2026/11/16/nvidia-recommits-to-fp64-with-a-new-gpu-the-rubin-hpc/" />
+    <link rel="related" href="/stories/nvidia-recommits-to-fp64-with-a-new-gpu-the-rubin-hp-be54f606.html" />
+    <updated>2026-11-16T21:54:08.000Z</updated>
+    <author><name>HPCwire</name></author>
+    <summary type="html">Nvidia today unveiled the Rubin HPC, a new GPU that features 3X the vector cores of Blackwell. The chip shows a recommitment to FP64 on Nvidia’s part after abandoning increases in double-precision 64-bit floating point math in its last two generation of data center GPUs. The Rubin HPC will feature more than 50,000 CUDA cores, […] The post Nvidia Recommits to FP64 with a New GPU, the Rubin HPC appe RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Nvidia today unveiled the Rubin HPC, a new GPU that features 3X the vector cores of Blackwell. The chip shows a recommitment to FP64 on Nvidia’s part after abandoning increases in double-precision 64-bit floating point math in its last two generation of data center GPUs. The Rubin HPC will feature more than 50,000 CUDA cores, […] The post Nvidia Recommits to FP64 with a New GPU, the Rubin HPC appe&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMipwFBVV95cUxQM3daenA2SGhsS09yeDlBRV9qaklMZTBoM1g2Z1p0RE1IOFpsejhZUmpPNmZvQzUtVVVhTmFROEVjZTJVXzlmVTc3OWtBYnRNTk9kcjBTSGxNOEpxS1RSa21ITnVmWDVMOFhuZXBKRXBQZkxRbzgzWWVqS0U2LXlIWERnZENhQktfYVVOdklNZ2dMSXFYcTY3Z3JBSXF1S0VzVWZJa3VnOA?oc=5</id>
+    <title type="html">CPI | Samsung, SK Hynix and Micron Lose Bid to Dismiss US DRAM Antitrust Suit - PYMNTS.com</title>
+    <link href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQM3daenA2SGhsS09yeDlBRV9qaklMZTBoM1g2Z1p0RE1IOFpsejhZUmpPNmZvQzUtVVVhTmFROEVjZTJVXzlmVTc3OWtBYnRNTk9kcjBTSGxNOEpxS1RSa21ITnVmWDVMOFhuZXBKRXBQZkxRbzgzWWVqS0U2LXlIWERnZENhQktfYVVOdklNZ2dMSXFYcTY3Z3JBSXF1S0VzVWZJa3VnOA?oc=5" />
+    <link rel="related" href="/stories/cpi-samsung-sk-hynix-and-micron-lose-bid-to-dismiss-f1e205cd.html" />
+    <updated>2026-11-16T20:47:07.000Z</updated>
+    <author><name>PYMNTS.com</name></author>
+    <summary type="html">CPI | Samsung, SK Hynix and Micron Lose Bid to Dismiss US DRAM Antitrust Suit PYMNTS.com RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:macro" />
+    
+    <content type="html">&lt;p&gt;CPI | Samsung, SK Hynix and Micron Lose Bid to Dismiss US DRAM Antitrust Suit PYMNTS.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Deterministic MACRO signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.hpcwire.com/off-the-wire/nvidia-announces-rubin-hpc-a-new-gpu-to-accelerate-agents-for-science-engineering-and-analytics/</id>
+    <title type="html">NVIDIA Announces Rubin HPC, a New GPU to Accelerate Agents for Science, Engineering and Analytics</title>
+    <link href="https://www.hpcwire.com/off-the-wire/nvidia-announces-rubin-hpc-a-new-gpu-to-accelerate-agents-for-science-engineering-and-analytics/" />
+    <link rel="related" href="/stories/nvidia-announces-rubin-hpc-a-new-gpu-to-accelerate-a-bb9be438.html" />
+    <updated>2026-11-16T20:37:43.000Z</updated>
+    <author><name>HPCwire</name></author>
+    <summary type="html">A record leap in CUDA cores with accelerated data movement shorten time to results for science and engineering workloads. Nov. 16, 2026 — Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help […] The post NVIDIA Announces Rubin HPC, a New GPU to RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;A record leap in CUDA cores with accelerated data movement shorten time to results for science and engineering workloads. Nov. 16, 2026 — Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help […] The post NVIDIA Announces Rubin HPC, a New GPU to&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/memphis-is-collecting-so-much-revenue-from-spacexs-colossus-1-data-center-that-it-is-now-dishing-out-25000-to-eligible-residents-in-the-vicinity/</id>
+    <title type="html">Memphis Is Collecting So Much Revenue From SpaceX’s Colossus 1 Data Center That It Is Now Dishing Out $25,000 To Eligible Residents In The Vicinity</title>
+    <link href="https://wccftech.com/memphis-is-collecting-so-much-revenue-from-spacexs-colossus-1-data-center-that-it-is-now-dishing-out-25000-to-eligible-residents-in-the-vicinity/" />
+    <link rel="related" href="/stories/memphis-is-collecting-so-much-revenue-from-spacex-s-0e74d5cf.html" />
+    <updated>2026-11-16T20:20:11.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">While data centers have become a political flashpoint across the United States, Memphis and SpaceX are now showing that the ongoing AI buildout can benefit both local communities and facility operators in what can best be described as a win-win scenario. Property taxes from SpaceX's Colossus 1 data center are all set to fund the $2 million Memphis HOPE initiative Starting today, Memphis is accepti RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.</summary>
+    <category term="opml" />
+    <category term="tag:earnings" />
+    
+    <content type="html">&lt;p&gt;While data centers have become a political flashpoint across the United States, Memphis and SpaceX are now showing that the ongoing AI buildout can benefit both local communities and facility operators in what can best be described as a win-win scenario. Property taxes from SpaceX's Colossus 1 data center are all set to fund the $2 million Memphis HOPE initiative Starting today, Memphis is accepti&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMipgFBVV95cUxPQXZBVk5BTWJYUkhsRlRmZU42ZWNxeUJ3YUR5alVjYjRZNElvZVJNYUxIS1l3UU02bFQ3d2xOX092Y0RwblNfbWh6ZE1vT0R0bWhGYy1sellQQlNzV3U5cFZFaUJVOGdkcEw4b0M2N1lHTjZjb1gyRDdaRlZrZmRxbnFINGQtS1IyWlBFQVl6WUUxcmhDUmhvcXlyTXhjRFVlNG9zblBn?oc=5</id>
+    <title type="html">Samsung, Micron, SK Hynix Can't Shake DRAM Antitrust Suit Over 500% Price Hike - HotHardware</title>
+    <link href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPQXZBVk5BTWJYUkhsRlRmZU42ZWNxeUJ3YUR5alVjYjRZNElvZVJNYUxIS1l3UU02bFQ3d2xOX092Y0RwblNfbWh6ZE1vT0R0bWhGYy1sellQQlNzV3U5cFZFaUJVOGdkcEw4b0M2N1lHTjZjb1gyRDdaRlZrZmRxbnFINGQtS1IyWlBFQVl6WUUxcmhDUmhvcXlyTXhjRFVlNG9zblBn?oc=5" />
+    <link rel="related" href="/stories/samsung-micron-sk-hynix-can-t-shake-dram-antitrust-s-fcc231e9.html" />
+    <updated>2026-11-16T19:30:00.000Z</updated>
+    <author><name>HotHardware</name></author>
+    <summary type="html">Samsung, Micron, SK Hynix Can't Shake DRAM Antitrust Suit Over 500% Price Hike HotHardware RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Samsung, Micron, SK Hynix Can't Shake DRAM Antitrust Suit Over 500% Price Hike HotHardware&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/</id>
+    <title type="html">US moves to cut China’s remote access to AI chips</title>
+    <link href="https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/" />
+    <link rel="related" href="/stories/us-moves-to-cut-china-s-remote-access-to-ai-chips-db47fde4.html" />
+    <updated>2026-11-16T19:10:09.000Z</updated>
+    <author><name>Ars Technica</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028</id>
+    <title type="html">Nvidia announces Rubin HPC GPU with 'record number of CUDA cores' at Supercomputing 2026</title>
+    <link href="https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028" />
+    <link rel="related" href="/stories/nvidia-announces-rubin-hpc-gpu-with-record-number-of-4543e51c.html" />
+    <updated>2026-11-16T19:05:24.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ0VuNUFwSG1sWDdzMzVpNFM4dkstcEpVM2FkaDEycTF1c3pEdjYxblBfeTVxZ3pwU0dIUEJYd3lSdVZFLVZpUTRWc2FNQUgyWmlyY1plUHJ1dVIybGF4VG81TmxaaC1NQzJROWZLREFLc253Tk80elBLRXdMUE1rUC1OV3ZHdDc0ck11UXhNY1pzc0NBQjFFdkU2bVNKYWRuUjQxeWw4bEVlb0haOTEtNm5OSUx6MHRWYl85ZFlZSWVMTHNQM21GSm1iTC0?oc=5</id>
+    <title type="html">Micron Stocks Sink Nearly 7% After Judge Lets DRAM Supply Lawsuit Proceed - TradingView</title>
+    <link href="https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ0VuNUFwSG1sWDdzMzVpNFM4dkstcEpVM2FkaDEycTF1c3pEdjYxblBfeTVxZ3pwU0dIUEJYd3lSdVZFLVZpUTRWc2FNQUgyWmlyY1plUHJ1dVIybGF4VG81TmxaaC1NQzJROWZLREFLc253Tk80elBLRXdMUE1rUC1OV3ZHdDc0ck11UXhNY1pzc0NBQjFFdkU2bVNKYWRuUjQxeWw4bEVlb0haOTEtNm5OSUx6MHRWYl85ZFlZSWVMTHNQM21GSm1iTC0?oc=5" />
+    <link rel="related" href="/stories/micron-stocks-sink-nearly-7-after-judge-lets-dram-su-04afdde8.html" />
+    <updated>2026-11-16T18:20:12.000Z</updated>
+    <author><name>TradingView</name></author>
+    <summary type="html">Micron Stocks Sink Nearly 7% After Judge Lets DRAM Supply Lawsuit Proceed TradingView RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Micron Stocks Sink Nearly 7% After Judge Lets DRAM Supply Lawsuit Proceed TradingView&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/intel-first-benchmarks-crescent-island-d270-xe3p-gpu-a-5-9x-faster-rtx-pro-6000-fp64/</id>
+    <title type="html">Intel Shares First Benchmarks of Its Next-Gen Crescent Island “D270” GPU, Claiming a 5.9x Throughput Over RTX PRO 6000 As Xe3P Goes Big On FP64</title>
+    <link href="https://wccftech.com/intel-first-benchmarks-crescent-island-d270-xe3p-gpu-a-5-9x-faster-rtx-pro-6000-fp64/" />
+    <link rel="related" href="/stories/intel-shares-first-benchmarks-of-its-next-gen-cresce-47a7b875.html" />
+    <updated>2026-11-16T17:25:05.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Intel's D270 &quot;Crescent Island&quot; GPUs gets its first performance benchmarks, claiming big HPC &amp; AI uplifts with its native FP64 compute. Intel Crescent Island &quot;D270&quot; GPU With Xe3P Architecture Offers Up To Full-Rate FP64 &quot;Double Precision&quot; Compute, Primed for HPC Workloads As we approach the launch of Intel's D270 GPU, codenamed Crescent Island, the Xe3P-powered solution is gearing up as an impressi RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Intel's D270 &quot;Crescent Island&quot; GPUs gets its first performance benchmarks, claiming big HPC &amp; AI uplifts with its native FP64 compute. Intel Crescent Island &quot;D270&quot; GPU With Xe3P Architecture Offers Up To Full-Rate FP64 &quot;Double Precision&quot; Compute, Primed for HPC Workloads As we approach the launch of Intel's D270 GPU, codenamed Crescent Island, the Xe3P-powered solution is gearing up as an impressi&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/china-gray-market-prices-nvidia-8-gpu-h200-server-900000-600k-stranded-warehouses/</id>
+    <title type="html">China’s Gray Market Prices For AI Chips Have Tripled Thanks To Import Freeze; NVIDIA’s 8-GPU H200 Server Prices Reaching $900,000 With 600K Units Stranded In Warehouses</title>
+    <link href="https://wccftech.com/china-gray-market-prices-nvidia-8-gpu-h200-server-900000-600k-stranded-warehouses/" />
+    <link rel="related" href="/stories/china-s-gray-market-prices-for-ai-chips-have-tripled-5bc5f01d.html" />
+    <updated>2026-11-16T17:04:44.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">The trade tensions between the U.S. and China have likely escalated following Jensen’s admission of having an affair with alleged Chinese spy Alice Huang. Unfortunately, the unraveling of their romance has sent shockwaves through the AI GPU industry, and as China’s firms race to secure GPU orders, fresh data reveals that approximately 600,000 NVIDIA H200 chips remain stranded in warehouses in Hong RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;The trade tensions between the U.S. and China have likely escalated following Jensen’s admission of having an affair with alleged Chinese spy Alice Huang. Unfortunately, the unraveling of their romance has sent shockwaves through the AI GPU industry, and as China’s firms race to secure GPU orders, fresh data reveals that approximately 600,000 NVIDIA H200 chips remain stranded in warehouses in Hong&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/nvidia-rubin-hpc-gpu-50000-cuda-cores-2028/</id>
+    <title type="html">NVIDIA Rubin HPC GPU Packs Over 50,000 CUDA Cores, All Connected Using 7th Gen NVLink To Accelerate Simulations &amp; Data Processing As Launch Slated For 2028</title>
+    <link href="https://wccftech.com/nvidia-rubin-hpc-gpu-50000-cuda-cores-2028/" />
+    <link rel="related" href="/stories/nvidia-rubin-hpc-gpu-packs-over-50-000-cuda-cores-al-0460654f.html" />
+    <updated>2026-11-16T17:00:04.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">NVIDIA Rubin HPC is designed as the company's most powerful solution for science &amp; engineering workloads, offering over 50K cores. NVIDIA Brings Record-Breaking CUDA Core Count With Rubin HPC, Coming in 2028 Today at SC26, NVIDIA is announcing its Rubin HPC GPU. The GPU is based on the Rubin graphics architecture and features lots of cores that will be dedicated to accelerating simulation and data RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;NVIDIA Rubin HPC is designed as the company's most powerful solution for science &amp; engineering workloads, offering over 50K cores. NVIDIA Brings Record-Breaking CUDA Core Count With Rubin HPC, Coming in 2028 Today at SC26, NVIDIA is announcing its Rubin HPC GPU. The GPU is based on the Rubin graphics architecture and features lots of cores that will be dedicated to accelerating simulation and data&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/354900/nvidia-announces-rubin-hpc-gpu-to-accelerate-agents-for-science-engineering-and-analytics</id>
+    <title type="html">(PR) NVIDIA Announces Rubin HPC GPU to Accelerate Agents for Science, Engineering and Analytics</title>
+    <link href="https://www.techpowerup.com/354900/nvidia-announces-rubin-hpc-gpu-to-accelerate-agents-for-science-engineering-and-analytics" />
+    <link rel="related" href="/stories/pr-nvidia-announces-rubin-hpc-gpu-to-accelerate-agen-8d50e9a0.html" />
+    <updated>2026-11-16T16:44:25.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next steps. Rubin HPC will accelerate those simul RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next steps. Rubin HPC will accelerate those simul&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/tech-industry/quantum-computing/intel-bets-on-classiq-acquisition-to-turn-quantum-efforts-into-commercially-viable-business-deal-positions-company-as-leading-vendor-of-qubit-chips-acquisition-to-close-by-the-first-half-of-2027</id>
+    <title type="html">Intel bets on Classiq acquisition to turn Quantum efforts into commercially viable business — deal positions company as leading vendor of qubit chips, acquisition to close by the first half of 2027</title>
+    <link href="https://www.tomshardware.com/tech-industry/quantum-computing/intel-bets-on-classiq-acquisition-to-turn-quantum-efforts-into-commercially-viable-business-deal-positions-company-as-leading-vendor-of-qubit-chips-acquisition-to-close-by-the-first-half-of-2027" />
+    <link rel="related" href="/stories/intel-bets-on-classiq-acquisition-to-turn-quantum-ef-79750458.html" />
+    <updated>2026-11-16T16:30:00.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/elon-musks-ties-with-samsung-deepen-as-the-korean-chip-giant-will-reportedly-make-chips-for-spacex-at-texas-says-report/</id>
+    <title type="html">Elon Musk’s Ties With Samsung Deepen As The Korean Chip Giant Will Reportedly Make Chips For SpaceX At Texas, Says Report</title>
+    <link href="https://wccftech.com/elon-musks-ties-with-samsung-deepen-as-the-korean-chip-giant-will-reportedly-make-chips-for-spacex-at-texas-says-report/" />
+    <link rel="related" href="/stories/elon-musk-s-ties-with-samsung-deepen-as-the-korean-c-d424efe5.html" />
+    <updated>2026-11-16T16:24:15.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Korean chip giant Samsung will manufacture chips for STMicroelectronics at its Texas fab to be eventually used in SpaceX's Starlink satellites, says a report from the Korean press. The report comes amidst deepening ties between Elon Musk and Samsung as the former continues to engage in efforts to make one of the world's largest foundries in the form of his Terafab venture. Samsung's Older Sites In RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.</summary>
+    <category term="opml" />
+    <category term="tag:fab" />
+    
+    <content type="html">&lt;p&gt;Korean chip giant Samsung will manufacture chips for STMicroelectronics at its Texas fab to be eventually used in SpaceX's Starlink satellites, says a report from the Korean press. The report comes amidst deepening ties between Elon Musk and Samsung as the former continues to engage in efforts to make one of the world's largest foundries in the form of his Terafab venture. Samsung's Older Sites In&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic FAB signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiekFVX3lxTE13dVVtbkMxNy1CWUxHLWNkVVp5d2pfUGtaN3JMdnM5cVZMcVVxTWRCdXg4TWRoeTJXTjA1VzVrang3VFYtWDhzR0NTY3FWeF95RkdSNHRuZ1hMSWxuckhZTmM4TzI0TWEzOEFGN1pqLVJDcUNBNEJOTk1B?oc=5</id>
+    <title type="html">SK Hynix ADR Tumbles 5.5% as Nvidia Turmoil and DRAM Price-Fixing Lawsuit Hit Korean Memory Chip Giant - International Business Times Australia</title>
+    <link href="https://news.google.com/rss/articles/CBMiekFVX3lxTE13dVVtbkMxNy1CWUxHLWNkVVp5d2pfUGtaN3JMdnM5cVZMcVVxTWRCdXg4TWRoeTJXTjA1VzVrang3VFYtWDhzR0NTY3FWeF95RkdSNHRuZ1hMSWxuckhZTmM4TzI0TWEzOEFGN1pqLVJDcUNBNEJOTk1B?oc=5" />
+    <link rel="related" href="/stories/sk-hynix-adr-tumbles-5-5-as-nvidia-turmoil-and-dram-f892391c.html" />
+    <updated>2026-11-16T16:17:33.000Z</updated>
+    <author><name>International Business Times Australia</name></author>
+    <summary type="html">SK Hynix ADR Tumbles 5.5% as Nvidia Turmoil and DRAM Price-Fixing Lawsuit Hit Korean Memory Chip Giant International Business Times Australia RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;SK Hynix ADR Tumbles 5.5% as Nvidia Turmoil and DRAM Price-Fixing Lawsuit Hit Korean Memory Chip Giant International Business Times Australia&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMikAFBVV95cUxQWktlYks1Nnk2bS1jVmFoQXR1OGp2MloxQ3FZWFdwWF9FMkgyS1FvSjBtRkNrQ0dIdlRWQ0Q5NUE0dXJLSkc0RmxlSkpsRmloVHpuV09RTy1feVZjRk12RVQyUVNPSVBDckZpSUtidnFLS1h5cUtRYS1DdTJnRlowVjVCZ0hiTHl3SmwxR21xTnM?oc=5</id>
+    <title type="html">Micron Stock Sinks Below $740 as AI Chip Selloff, DRAM Price-Fixing Lawsuit Hammer Memory Giant on Monday - International Business Times Australia</title>
+    <link href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQWktlYks1Nnk2bS1jVmFoQXR1OGp2MloxQ3FZWFdwWF9FMkgyS1FvSjBtRkNrQ0dIdlRWQ0Q5NUE0dXJLSkc0RmxlSkpsRmloVHpuV09RTy1feVZjRk12RVQyUVNPSVBDckZpSUtidnFLS1h5cUtRYS1DdTJnRlowVjVCZ0hiTHl3SmwxR21xTnM?oc=5" />
+    <link rel="related" href="/stories/micron-stock-sinks-below-740-as-ai-chip-selloff-dram-a674b72e.html" />
+    <updated>2026-11-16T16:15:39.000Z</updated>
+    <author><name>International Business Times Australia</name></author>
+    <summary type="html">Micron Stock Sinks Below $740 as AI Chip Selloff, DRAM Price-Fixing Lawsuit Hammer Memory Giant on Monday International Business Times Australia RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Micron Stock Sinks Below $740 as AI Chip Selloff, DRAM Price-Fixing Lawsuit Hammer Memory Giant on Monday International Business Times Australia&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.kitguru.net/channel/generaltech/matthew-wilson/steamos-patch-notes-hint-at-nvidia-gpu-support-progress/</id>
+    <title type="html">SteamOS patch notes hint at Nvidia GPU support progress</title>
+    <link href="https://www.kitguru.net/channel/generaltech/matthew-wilson/steamos-patch-notes-hint-at-nvidia-gpu-support-progress/" />
+    <link rel="related" href="/stories/steamos-patch-notes-hint-at-nvidia-gpu-support-progr-b623ffd2.html" />
+    <updated>2026-11-16T15:30:19.000Z</updated>
+    <author><name>KitGuru</name></author>
+    <summary type="html">SteamOS 3.10 contains another sign that Valve's plans for Nvidia GPU support are beginning to take shape. Alongside the usual Steam Deck fixes and improvements, the latest SteamOS preview update also includes a dedicated Nvidia Graphics section, a noteworthy addition for an operating system historically associated almost exclusively with AMD graphics hardware. The post SteamOS patch notes hint at RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;SteamOS 3.10 contains another sign that Valve's plans for Nvidia GPU support are beginning to take shape. Alongside the usual Steam Deck fixes and improvements, the latest SteamOS preview update also includes a dedicated Nvidia Graphics section, a noteworthy addition for an operating system historically associated almost exclusively with AMD graphics hardware. The post SteamOS patch notes hint at&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/the-u-s-shuts-chinas-access-to-advanced-chips-via-singapore-brazil-indonesia-malaysia-and-thailand-as-scott-bessent-gives-nvidia-10-days-to-show-it-did-not-goose-its-revenues/</id>
+    <title type="html">The U.S. Shuts China’s Access To Advanced Chips Via Singapore, Brazil, Indonesia, Malaysia, And Thailand, As Scott Bessent Gives NVIDIA 10 Days To Show It Did Not “Goose” Its Revenues</title>
+    <link href="https://wccftech.com/the-u-s-shuts-chinas-access-to-advanced-chips-via-singapore-brazil-indonesia-malaysia-and-thailand-as-scott-bessent-gives-nvidia-10-days-to-show-it-did-not-goose-its-revenues/" />
+    <link rel="related" href="/stories/the-u-s-shuts-china-s-access-to-advanced-chips-via-s-8fa9c91a.html" />
+    <updated>2026-11-16T15:14:55.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">Alice Huang's purported affair with Jensen Huang, and the NVIDIA hardware-geared smuggling bonanza that this relationship supposedly facilitated via Megaspeed, were perhaps the straw that broke the proverbial camel's back. As a case in point, the U.S. Commerce Department has finally deigned to close significant loopholes within its export control mechanisms, shutting off a critical pathway for Chi RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.</summary>
+    <category term="opml" />
+    <category term="tag:macro" />
+    
+    <content type="html">&lt;p&gt;Alice Huang's purported affair with Jensen Huang, and the NVIDIA hardware-geared smuggling bonanza that this relationship supposedly facilitated via Megaspeed, were perhaps the straw that broke the proverbial camel's back. As a case in point, the U.S. Commerce Department has finally deigned to close significant loopholes within its export control mechanisms, shutting off a critical pathway for Chi&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Deterministic MACRO signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/ddr5-memory-price-breaks-6x-barrier-in-germany-with-some-kits-now-selling-for-as-high-as-9x/</id>
+    <title type="html">DDR5 Memory Price Breaks 6X Barrier In Germany With Some Kits Now Selling For As High As 9X</title>
+    <link href="https://wccftech.com/ddr5-memory-price-breaks-6x-barrier-in-germany-with-some-kits-now-selling-for-as-high-as-9x/" />
+    <link rel="related" href="/stories/ddr5-memory-price-breaks-6x-barrier-in-germany-with-b4908090.html" />
+    <updated>2026-11-16T15:02:52.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">There is no sign of slowing down, as most DDR5 memory kits continue to soar in price in almost every region. Here's what is going on in Germany at the moment. 96 GB DDR5-6400 Memory Kit Witnesses a Staggering 814% Increase in Price vs Last Year While Average DDR5 Memory Price is Now at 607% vs July 2025 August and September recorded one of the sharpest price hikes for DDR5 memory kits in Germany, RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;There is no sign of slowing down, as most DDR5 memory kits continue to soar in price in almost every region. Here's what is going on in Germany at the moment. 96 GB DDR5-6400 Memory Kit Witnesses a Staggering 814% Increase in Price vs Last Year While Average DDR5 Memory Price is Now at 607% vs July 2025 August and September recorded one of the sharpest price hikes for DDR5 memory kits in Germany,&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.kitguru.net/channel/generaltech/matthew-wilson/intel-details-diamond-rapids-xeon-and-gpu-d-series-accelerators/</id>
+    <title type="html">Intel details Diamond Rapids Xeon and GPU D-series accelerators</title>
+    <link href="https://www.kitguru.net/channel/generaltech/matthew-wilson/intel-details-diamond-rapids-xeon-and-gpu-d-series-accelerators/" />
+    <link rel="related" href="/stories/intel-details-diamond-rapids-xeon-and-gpu-d-series-a-d5f2b0e4.html" />
+    <updated>2026-11-16T15:00:07.000Z</updated>
+    <author><name>KitGuru</name></author>
+    <summary type="html">Intel has shared new details on its upcoming Diamond Rapids Xeon processors and GPU D-series accelerators at SC26. The updates provide a closer look at Intel's next-generation server CPU and GPU hardware, including significantly higher core counts, increased memory bandwidth and large-memory accelerator configurations aimed at AI and HPC workloads. The post Intel details Diamond Rapids Xeon and GP RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Intel has shared new details on its upcoming Diamond Rapids Xeon processors and GPU D-series accelerators at SC26. The updates provide a closer look at Intel's next-generation server CPU and GPU hardware, including significantly higher core counts, increased memory bandwidth and large-memory accelerator configurations aimed at AI and HPC workloads. The post Intel details Diamond Rapids Xeon and GP&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiigFBVV95cUxNdEZzUElfR215MHBZSjl5QTNTdVgtOFYyY0ZCVG1UazZRdDJqNENXTUJuWVBxRWJfRnczVVhkT0g1dVd4SFpLbGg5TDU3MWVrVDZhVXpzNUN5RDFqekJPMWhoazVzRy00MkRsc3Bmbk1FT2FQNzdLQWw1N3BrTmpMRXh1Vks2VWhPc0E?oc=5</id>
+    <title type="html">Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Opened Down by 4.21% on Nov 16: What Signal Does It Send? - TradingKey</title>
+    <link href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNdEZzUElfR215MHBZSjl5QTNTdVgtOFYyY0ZCVG1UazZRdDJqNENXTUJuWVBxRWJfRnczVVhkT0g1dVd4SFpLbGg5TDU3MWVrVDZhVXpzNUN5RDFqekJPMWhoazVzRy00MkRsc3Bmbk1FT2FQNzdLQWw1N3BrTmpMRXh1Vks2VWhPc0E?oc=5" />
+    <link rel="related" href="/stories/taiwan-semiconductor-manufacturing-co-ltd-stock-tsm-24906e40.html" />
+    <updated>2026-11-16T14:47:24.000Z</updated>
+    <author><name>TradingKey</name></author>
+    <summary type="html">Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Opened Down by 4.21% on Nov 16: What Signal Does It Send? TradingKey RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:semiconductor trade policy" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Opened Down by 4.21% on Nov 16: What Signal Does It Send? TradingKey&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTFBKOW5QN1Y4RVhNaFFOMnBaeUg2dGlaNk5FZjNyRTZZYlFWQkVyekROLWxxcFNBX0lrdUVDVXZpUXc3OGdHUloyMV9TY184RFZ0UmM1MlVmTzNHNTh6S3dGSjNyTXc3M200eGZnV3lURHFzSWp2LVE?oc=5</id>
+    <title type="html">BofA Warns: NAND Flash Spot Prices Plunge 20% in a Month, Cracks Appear in Memory Chip Rally - BigGo Finance</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBKOW5QN1Y4RVhNaFFOMnBaeUg2dGlaNk5FZjNyRTZZYlFWQkVyekROLWxxcFNBX0lrdUVDVXZpUXc3OGdHUloyMV9TY184RFZ0UmM1MlVmTzNHNTh6S3dGSjNyTXc3M200eGZnV3lURHFzSWp2LVE?oc=5" />
+    <link rel="related" href="/stories/bofa-warns-nand-flash-spot-prices-plunge-20-in-a-mon-9169eeba.html" />
+    <updated>2026-11-16T14:25:00.000Z</updated>
+    <author><name>BigGo Finance</name></author>
+    <summary type="html">BofA Warns: NAND Flash Spot Prices Plunge 20% in a Month, Cracks Appear in Memory Chip Rally BigGo Finance RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;BofA Warns: NAND Flash Spot Prices Plunge 20% in a Month, Cracks Appear in Memory Chip Rally BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.techpowerup.com/354895/penguin-solutions-unveils-industrys-first-photonics-based-hbm-class-memory-appliance</id>
+    <title type="html">(PR) Penguin Solutions Unveils Industry&amp;#039;s First Photonics-Based HBM-Class Memory Appliance</title>
+    <link href="https://www.techpowerup.com/354895/penguin-solutions-unveils-industrys-first-photonics-based-hbm-class-memory-appliance" />
+    <link rel="related" href="/stories/pr-penguin-solutions-unveils-industry-039-s-first-ph-3bfe6f8a.html" />
+    <updated>2026-11-16T14:21:39.000Z</updated>
+    <author><name>TechPowerUp</name></author>
+    <summary type="html">Penguin Solutions, Inc. (Nasdaq: PENG), the AI Factory Platform Company, today unveiled the MemoryAI Photonic Appliance, the industry's first photonics-based HBM-class memory appliance designed to overcome GPU memory capacity constraints for agentic AI workloads. Using silicon photonics, the appliance is built to enable CPUs and GPUs to transparently share memory at high bandwidth memory (HBM)-cla RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Penguin Solutions, Inc. (Nasdaq: PENG), the AI Factory Platform Company, today unveiled the MemoryAI Photonic Appliance, the industry's first photonics-based HBM-class memory appliance designed to overcome GPU memory capacity constraints for agentic AI workloads. Using silicon photonics, the appliance is built to enable CPUs and GPUs to transparently share memory at high bandwidth memory (HBM)-cla&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://fred.stlouisfed.org/blog/2026/11/geographic-differences-in-unemployment-definitions</id>
+    <title type="html">Geographic differences in unemployment definitions</title>
+    <link href="https://fred.stlouisfed.org/blog/2026/11/geographic-differences-in-unemployment-definitions" />
+    <link rel="related" href="/stories/geographic-differences-in-unemployment-definitions-e5d67d48.html" />
+    <updated>2026-11-16T14:00:00.000Z</updated>
+    <author><name>FRED Blog</name></author>
+    <summary type="html">There are six definitions of unemployment, with some constants and some variations, including regional differences. RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.</summary>
+    <category term="opml" />
+    <category term="tag:macro" />
+    
+    <content type="html">&lt;p&gt;There are six definitions of unemployment, with some constants and some variations, including regional differences.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Provides macro context for judging whether the current RI surge is expansionary or contractionary.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 6/10 — Deterministic MACRO signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMizAFBVV95cUxPWkl2ZkthU1luaUs3eS15em1vYVJUMHctWkEyMVN6eS1FLUFKckxGVV81ODNkT3FLdTVIWFYwbGN2c0gydkQ3SFFFMFJyNDRNT3hVcjNJaENkaFFKZUQxU1Z5SVlSc2J5NjFlVlEzc2lSRTVnUjh4N3BWY0thSk9ZazZHbkpGVXBZckxwOUNwdGVHOUh5VV82aGFOamlwOU82MTY4eDJRbzRrcTd0OEdSWGJIQmhuYVVlaTRkVHlsZjUybkhOekFHZHE3aHQ?oc=5</id>
+    <title type="html">Judge denies motion to dismiss DRAM price-fixing lawsuit against Samsung and two other memory makers - SamMobile</title>
+    <link href="https://news.google.com/rss/articles/CBMizAFBVV95cUxPWkl2ZkthU1luaUs3eS15em1vYVJUMHctWkEyMVN6eS1FLUFKckxGVV81ODNkT3FLdTVIWFYwbGN2c0gydkQ3SFFFMFJyNDRNT3hVcjNJaENkaFFKZUQxU1Z5SVlSc2J5NjFlVlEzc2lSRTVnUjh4N3BWY0thSk9ZazZHbkpGVXBZckxwOUNwdGVHOUh5VV82aGFOamlwOU82MTY4eDJRbzRrcTd0OEdSWGJIQmhuYVVlaTRkVHlsZjUybkhOekFHZHE3aHQ?oc=5" />
+    <link rel="related" href="/stories/judge-denies-motion-to-dismiss-dram-price-fixing-law-8d05ce40.html" />
+    <updated>2026-11-16T13:32:00.000Z</updated>
+    <author><name>SamMobile</name></author>
+    <summary type="html">Judge denies motion to dismiss DRAM price-fixing lawsuit against Samsung and two other memory makers SamMobile RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Judge denies motion to dismiss DRAM price-fixing lawsuit against Samsung and two other memory makers SamMobile&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMigwJBVV95cUxPdDNvMHRENFhPWkJIcVNvREhjRkVadmF0b3paeG1XX0VZeGdYekw4M1F1U1JqWENVOU1EZHdCRGVtWlQzeGdUc0htbnl0MFFRNFZneVk1RHdwd05wNXhZYVhhN2o0QzktVDNZNUZuWEN0WkV6OUZIQ3VHaE5taGhrSF9zRWlidldyUVpDQktqa0s4UUdmLVdOQ3pDX095SlJEeVViVWs0MUw0MTYwcjR5WGF5ZVFJRmp5bmFmY093dmhEQlpNNHpsZkpfdjQ2Yjl4QWR3V0NBbkRiaEJXNzdpQjNFTUhGM2w0NmFZY1Y0UTBPMFc3Z0dicVFDcks5WlFHSjRn?oc=5</id>
+    <title type="html">Samsung, SK Hynix, and Micron Face the Gavel as Judge Refuses to Dismiss Case Alleging Trio of Memory Price-Fixing and Cartel Behavior - The FPS Review</title>
+    <link href="https://news.google.com/rss/articles/CBMigwJBVV95cUxPdDNvMHRENFhPWkJIcVNvREhjRkVadmF0b3paeG1XX0VZeGdYekw4M1F1U1JqWENVOU1EZHdCRGVtWlQzeGdUc0htbnl0MFFRNFZneVk1RHdwd05wNXhZYVhhN2o0QzktVDNZNUZuWEN0WkV6OUZIQ3VHaE5taGhrSF9zRWlidldyUVpDQktqa0s4UUdmLVdOQ3pDX095SlJEeVViVWs0MUw0MTYwcjR5WGF5ZVFJRmp5bmFmY093dmhEQlpNNHpsZkpfdjQ2Yjl4QWR3V0NBbkRiaEJXNzdpQjNFTUhGM2w0NmFZY1Y0UTBPMFc3Z0dicVFDcks5WlFHSjRn?oc=5" />
+    <link rel="related" href="/stories/samsung-sk-hynix-and-micron-face-the-gavel-as-judge-bf70d015.html" />
+    <updated>2026-11-16T13:30:30.000Z</updated>
+    <author><name>The FPS Review</name></author>
+    <summary type="html">Samsung, SK Hynix, and Micron Face the Gavel as Judge Refuses to Dismiss Case Alleging Trio of Memory Price-Fixing and Cartel Behavior The FPS Review RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Samsung, SK Hynix, and Micron Face the Gavel as Judge Refuses to Dismiss Case Alleging Trio of Memory Price-Fixing and Cartel Behavior The FPS Review&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/review/t-create-master-oc-ddr5-rdimm-96-gb-4-x-24-gb-6400-mt-s-cl32-memory-kit-review/</id>
+    <title type="html">T-Create Master OC DDR5 RDIMM 96 GB (4 x 24 GB) 6400 MT/s CL32 Memory Kit Review – Tested on ASRock’s WRX90 WS EVO &amp; Threadripper PRO 9000</title>
+    <link href="https://wccftech.com/review/t-create-master-oc-ddr5-rdimm-96-gb-4-x-24-gb-6400-mt-s-cl32-memory-kit-review/" />
+    <link rel="related" href="/stories/t-create-master-oc-ddr5-rdimm-96-gb-4-x-24-gb-6400-m-7f7f5713.html" />
+    <updated>2026-11-16T13:05:03.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">In 2026, we live in the worst kind of memory crisis that the consumer market has ever faced. Some people call it the RAMmageddon, and others call it the RAMpocalypse. Whichever way you want to call it, one thing is clear: shortages created by massive demand in the AI and data center segment have led to a severe hike in prices across all memory segments. While we have tested many consumer-oriented RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;In 2026, we live in the worst kind of memory crisis that the consumer market has ever faced. Some people call it the RAMmageddon, and others call it the RAMpocalypse. Whichever way you want to call it, one thing is clear: shortages created by massive demand in the AI and data center segment have led to a severe hike in prices across all memory segments. While we have tested many consumer-oriented&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/amd-introduces-new-ddr5-memory-training-method-with-agesa-1-3-0-1f-patch-a/</id>
+    <title type="html">AM5 Debug Displays Now Count From 00 To 09 During DDR5 Memory Training With AMD’s AGESA 1.3.0.1f Patch A, Ending The Apparent Boot Hang</title>
+    <link href="https://wccftech.com/amd-introduces-new-ddr5-memory-training-method-with-agesa-1-3-0-1f-patch-a/" />
+    <link rel="related" href="/stories/am5-debug-displays-now-count-from-00-to-09-during-dd-8fd3ffd8.html" />
+    <updated>2026-11-16T13:00:09.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">This one was a much-needed feature that arrived a bit too late, but thankfully, users can now see the memory training status in real time. New ASUS Beta BIOS Reveals AMD's Revised DDR5 Memory Training Process; Debug Display Will Now Show Counting From &quot;00&quot; to &quot;09&quot; During the Training AMD has introduced a new DDR5 memory-training method for its AM5 motherboards through the latest AGESA ComboAM5 PI RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;This one was a much-needed feature that arrived a bit too late, but thankfully, users can now see the memory training status in real time. New ASUS Beta BIOS Reveals AMD's Revised DDR5 Memory Training Process; Debug Display Will Now Show Counting From &quot;00&quot; to &quot;09&quot; During the Training AMD has introduced a new DDR5 memory-training method for its AM5 motherboards through the latest AGESA ComboAM5 PI&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://wccftech.com/lawyers-nvidia-v100-ai-server-runs-deepseek-locally-upgraded-with-1-tb-ram-and-near-nvfp4-precision/</id>
+    <title type="html">Lawyer’s NVIDIA V100 AI Server Runs DeepSeek Locally, Upgraded With 1 TB RAM And Near-NVFP4 Precision</title>
+    <link href="https://wccftech.com/lawyers-nvidia-v100-ai-server-runs-deepseek-locally-upgraded-with-1-tb-ram-and-near-nvfp4-precision/" />
+    <link rel="related" href="/stories/lawyer-s-nvidia-v100-ai-server-runs-deepseek-locally-163b0716.html" />
+    <updated>2026-11-16T12:48:09.000Z</updated>
+    <author><name>WCCFTech</name></author>
+    <summary type="html">A lawyer has assembled an unusually powerful private AI server using eight NVIDIA Tesla V100 GPUs from 2018, providing 256 GB of combined HBM2 memory to run DeepSeek V4.1-Flash locally. The setup originally achieved an impressive 215 tokens per second in code generation, but its creator has since upgraded the system with considerably more RAM, improved quantization, and additional hardware. The pr RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;A lawyer has assembled an unusually powerful private AI server using eight NVIDIA Tesla V100 GPUs from 2018, providing 256 GB of combined HBM2 memory to run DeepSeek V4.1-Flash locally. The setup originally achieved an impressive 215 tokens per second in code generation, but its creator has since upgraded the system with considerably more RAM, improved quantization, and additional hardware. The pr&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQWFVek1ZbXR2cG9PSXUzXzM3dk5hSHVLY2llYlI1MWFBc1Mwb2ZraUk0bVVTREE3aHFlWHg3Tm5lQThrZGlfaE5SajhmdThkWHVudFV0MnZPX2FTOUpWd2RsdkpkdFUwZ1BFMDhkeFJycTFQR0sydXFhb2Zvbjl0SnhOVk9yYlZpa3pNd244YXUzVHZRSGJOZDh6Qm1PSWRoOFBNQXBzTnJRekR6OU9xQkh3X09sQXotYjc4Y2xPUUQ?oc=5</id>
+    <title type="html">Memory chips now make up 54% of a budget phone's parts cost, up from 20% a year ago, Counterpoint data show - MLQ.ai</title>
+    <link href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQWFVek1ZbXR2cG9PSXUzXzM3dk5hSHVLY2llYlI1MWFBc1Mwb2ZraUk0bVVTREE3aHFlWHg3Tm5lQThrZGlfaE5SajhmdThkWHVudFV0MnZPX2FTOUpWd2RsdkpkdFUwZ1BFMDhkeFJycTFQR0sydXFhb2Zvbjl0SnhOVk9yYlZpa3pNd244YXUzVHZRSGJOZDh6Qm1PSWRoOFBNQXBzTnJRekR6OU9xQkh3X09sQXotYjc4Y2xPUUQ?oc=5" />
+    <link rel="related" href="/stories/memory-chips-now-make-up-54-of-a-budget-phone-s-part-a61a0939.html" />
+    <updated>2026-11-16T12:41:57.000Z</updated>
+    <author><name>MLQ.ai</name></author>
+    <summary type="html">Memory chips now make up 54% of a budget phone's parts cost, up from 20% a year ago, Counterpoint data show MLQ.ai RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Memory chips now make up 54% of a budget phone's parts cost, up from 20% a year ago, Counterpoint data show MLQ.ai&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMikwFBVV95cUxNSXRvaFpMSkY3V0QyZldxZUdqX0RWTEdUVUZJWEZnY0VoLTZtUUdCam5VNW1qc0JJVnB3dVNmVkktODFhQUZEcF9hWTVSY285U1Z1TS1Dd0RSZDhIWjdWTkJlcTliR2d3TURHdDRWdWhka2FHRjZwdzFfRUt4SW51N3pvQ2N2OHh4M1RpNy1oSW9NSEE?oc=5</id>
+    <title type="html">Judge Allows DRAM Price-fixing Lawsuit Against Samsung, Micron And SK Hynix - Dataconomy</title>
+    <link href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNSXRvaFpMSkY3V0QyZldxZUdqX0RWTEdUVUZJWEZnY0VoLTZtUUdCam5VNW1qc0JJVnB3dVNmVkktODFhQUZEcF9hWTVSY285U1Z1TS1Dd0RSZDhIWjdWTkJlcTliR2d3TURHdDRWdWhka2FHRjZwdzFfRUt4SW51N3pvQ2N2OHh4M1RpNy1oSW9NSEE?oc=5" />
+    <link rel="related" href="/stories/judge-allows-dram-price-fixing-lawsuit-against-samsu-a0672ab0.html" />
+    <updated>2026-11-16T12:27:54.000Z</updated>
+    <author><name>Dataconomy</name></author>
+    <summary type="html">Judge Allows DRAM Price-fixing Lawsuit Against Samsung, Micron And SK Hynix Dataconomy RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Judge Allows DRAM Price-fixing Lawsuit Against Samsung, Micron And SK Hynix Dataconomy&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.theregister.com/systems/2026/11/16/elon-musk-leads-silicon-valleys-campaign-to-put-jensen-huang-back-in-charge-at-nvidia/5310050</id>
+    <title type="html">Elon Musk leads Silicon Valley's campaign to put Jensen Huang back in charge at Nvidia</title>
+    <link href="https://www.theregister.com/systems/2026/11/16/elon-musk-leads-silicon-valleys-campaign-to-put-jensen-huang-back-in-charge-at-nvidia/5310050" />
+    <link rel="related" href="/stories/elon-musk-leads-silicon-valley-s-campaign-to-put-jen-9774cd05.html" />
+    <updated>2026-11-16T11:31:00.000Z</updated>
+    <author><name>The Register</name></author>
+    <summary type="html">More than 173,000 signatures, a few famous billionaires, and absolutely no guarantee they're genuine RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="opml" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;More than 173,000 signatures, a few famous billionaires, and absolutely no guarantee they're genuine&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMihgFBVV95cUxPTFV6em13cGpITmZ2VFh0ZkVhdFR6Z2lmS1ZSR1ZOUlBGaE8xc1ljVm5KU2dqV0VieUhwOUtPZ3BsTE91dkJ1WmVTTEhjS1JacnZnRFBRcEk1Rm9FNEs1c2gzV05DVWR3ZDhkOGdkb0Rwa2szMXh0MS1FazlrNjRsOW5nUWtiQQ?oc=5</id>
+    <title type="html">Micron Pauses $4.5B Taiwan HBM Plant, Report Says - shattered.io</title>
+    <link href="https://news.google.com/rss/articles/CBMihgFBVV95cUxPTFV6em13cGpITmZ2VFh0ZkVhdFR6Z2lmS1ZSR1ZOUlBGaE8xc1ljVm5KU2dqV0VieUhwOUtPZ3BsTE91dkJ1WmVTTEhjS1JacnZnRFBRcEk1Rm9FNEs1c2gzV05DVWR3ZDhkOGdkb0Rwa2szMXh0MS1FazlrNjRsOW5nUWtiQQ?oc=5" />
+    <link rel="related" href="/stories/micron-pauses-4-5b-taiwan-hbm-plant-report-says-shat-858c5ced.html" />
+    <updated>2026-11-16T11:28:17.000Z</updated>
+    <author><name>shattered.io</name></author>
+    <summary type="html">Micron Pauses $4.5B Taiwan HBM Plant, Report Says shattered.io RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Micron Pauses $4.5B Taiwan HBM Plant, Report Says shattered.io&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.tomshardware.com/desktops/gaming-pcs/grab-a-ddr5-gaming-pc-with-a-10gb-gpu-for-only-usd949-ibuypowers-slate-gaming-rig-features-an-intel-b570-graphics-card-and-16gb-of-ram</id>
+    <title type="html">Grab a DDR5 gaming PC with a 10GB GPU for only $949</title>
+    <link href="https://www.tomshardware.com/desktops/gaming-pcs/grab-a-ddr5-gaming-pc-with-a-10gb-gpu-for-only-usd949-ibuypowers-slate-gaming-rig-features-an-intel-b570-graphics-card-and-16gb-of-ram" />
+    <link rel="related" href="/stories/grab-a-ddr5-gaming-pc-with-a-10gb-gpu-for-only-949-b7e76672.html" />
+    <updated>2026-11-16T11:15:25.000Z</updated>
+    <author><name>Tom's Hardware</name></author>
+    <summary type="html"> RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiYkFVX3lxTE9JdjZnMXk3Q2EtdlBkN1J0RTNxblJqQjhQMFRmcVJxSnJ6eWRJTURSVk5SWVVRQ0NPLVJQcHZQR3YwblRCM1YwQ2hFNlNscTRkeF9PN0Y4Sk84TUJJNFd0WHN3?oc=5</id>
+    <title type="html">Samsung, SK Hynix, and Micron face full-scale DRAM price-fixing litigation in the U.S. : Business/Industry : JKN - 재경일보</title>
+    <link href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9JdjZnMXk3Q2EtdlBkN1J0RTNxblJqQjhQMFRmcVJxSnJ6eWRJTURSVk5SWVVRQ0NPLVJQcHZQR3YwblRCM1YwQ2hFNlNscTRkeF9PN0Y4Sk84TUJJNFd0WHN3?oc=5" />
+    <link rel="related" href="/stories/samsung-sk-hynix-and-micron-face-full-scale-dram-pri-36cf7a68.html" />
+    <updated>2026-11-16T10:30:04.000Z</updated>
+    <author><name>재경일보</name></author>
+    <summary type="html">Samsung, SK Hynix, and Micron face full-scale DRAM price-fixing litigation in the U.S. : Business/Industry : JKN 재경일보 RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Samsung, SK Hynix, and Micron face full-scale DRAM price-fixing litigation in the U.S. : Business/Industry : JKN 재경일보&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiwgFBVV95cUxOamwwTzhhSW9vM3pfR0FlWWdIcV9EUTFoQi1sdF8ydHpVaVFUQjhlWDVQaTFkTUZ4WllTNGRYZ0x3b0UzUUhqblAtc05rU2dGYnE1RGM1T2E0NkxKNUtYVEp5YVFkc1F6a19DVDlwaDFSTWFhSWlpSGlMVDByNlRsZFREdl80RnNfbWFqNFc1YlJuZzBwRXd0UUVyVXNyaHZsbnJ2ODhvcGZMbFlHRU5FZlBaSk4zeWJZTHNNUUxnclZodw?oc=5</id>
+    <title type="html">Micron, Samsung, SK Hynix Fail to Get DRAM Price-Fixing Lawsuit Dismissed - marketscreener.com</title>
+    <link href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxOamwwTzhhSW9vM3pfR0FlWWdIcV9EUTFoQi1sdF8ydHpVaVFUQjhlWDVQaTFkTUZ4WllTNGRYZ0x3b0UzUUhqblAtc05rU2dGYnE1RGM1T2E0NkxKNUtYVEp5YVFkc1F6a19DVDlwaDFSTWFhSWlpSGlMVDByNlRsZFREdl80RnNfbWFqNFc1YlJuZzBwRXd0UUVyVXNyaHZsbnJ2ODhvcGZMbFlHRU5FZlBaSk4zeWJZTHNNUUxnclZodw?oc=5" />
+    <link rel="related" href="/stories/micron-samsung-sk-hynix-fail-to-get-dram-price-fixin-37dde310.html" />
+    <updated>2026-11-16T09:18:51.000Z</updated>
+    <author><name>marketscreener.com</name></author>
+    <summary type="html">Micron, Samsung, SK Hynix Fail to Get DRAM Price-Fixing Lawsuit Dismissed marketscreener.com RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Micron, Samsung, SK Hynix Fail to Get DRAM Price-Fixing Lawsuit Dismissed marketscreener.com&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiekFVX3lxTE5nTVY3bXo4MjJWaDRTaXhOSkdMdWhjTFhya0xCSmZQSWJ6Z0hqMHJSSm1WUC05US1JYklyZGxub3lEZHMwN0tqb0o0RkNSRWUtRUlUaFFkZDBMS0Fzb1pDZERHR0JEVENKazdpd2g5THJDb014LTExSC1B0gGOAUFVX3lxTE8wYmdubWtKbFpOXzhCM0lqNVFLZVpTeS12aWJWQzlCTmkxZHFKQmEyUXVEYzRQNGYybXVTOEpQTHBsY3g2Qy1pUG1XeWM1S2NSUHlWZHh3V01jYVhoZTgzMGJSYWNaQXhWQVZ4SS1NMGtzcVVDMDFxdzQ1WFNBZ2JXZzNmN3JCRGFjZ3NUYlE?oc=5</id>
+    <title type="html">US judge lets DRAM price-fixing suit against Samsung, SK hynix, Micron proceed - Chosunbiz</title>
+    <link href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5nTVY3bXo4MjJWaDRTaXhOSkdMdWhjTFhya0xCSmZQSWJ6Z0hqMHJSSm1WUC05US1JYklyZGxub3lEZHMwN0tqb0o0RkNSRWUtRUlUaFFkZDBMS0Fzb1pDZERHR0JEVENKazdpd2g5THJDb014LTExSC1B0gGOAUFVX3lxTE8wYmdubWtKbFpOXzhCM0lqNVFLZVpTeS12aWJWQzlCTmkxZHFKQmEyUXVEYzRQNGYybXVTOEpQTHBsY3g2Qy1pUG1XeWM1S2NSUHlWZHh3V01jYVhoZTgzMGJSYWNaQXhWQVZ4SS1NMGtzcVVDMDFxdzQ1WFNBZ2JXZzNmN3JCRGFjZ3NUYlE?oc=5" />
+    <link rel="related" href="/stories/us-judge-lets-dram-price-fixing-suit-against-samsung-650807e7.html" />
+    <updated>2026-11-16T09:13:00.000Z</updated>
+    <author><name>Chosunbiz</name></author>
+    <summary type="html">US judge lets DRAM price-fixing suit against Samsung, SK hynix, Micron proceed Chosunbiz RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;US judge lets DRAM price-fixing suit against Samsung, SK hynix, Micron proceed Chosunbiz&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiowFBVV95cUxNTC1NUm9RWlhRTTdoYUxfa01xa1YxYTdsUk1tUnJadGpCOVdkYVRyOTNQWmdjaFA5MVJIU3VZQ256QmpLaU9ETE5uOFFLQ0VxMFJxbGliOVROSzBQclBrT044cDhrenFkOHBaQU1tMl9KUkwwZ1lXYUNCYmxPZlU4ZTB5cUFYdUo0WG9xVDlJUHU0WHVBdjRfZmhfbDZGN1N2aEYw?oc=5</id>
+    <title type="html">NAND Spot Prices Slide 20% as AI Data Center Demand Holds Firm - Seoul Economic Daily</title>
+    <link href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNTC1NUm9RWlhRTTdoYUxfa01xa1YxYTdsUk1tUnJadGpCOVdkYVRyOTNQWmdjaFA5MVJIU3VZQ256QmpLaU9ETE5uOFFLQ0VxMFJxbGliOVROSzBQclBrT044cDhrenFkOHBaQU1tMl9KUkwwZ1lXYUNCYmxPZlU4ZTB5cUFYdUo0WG9xVDlJUHU0WHVBdjRfZmhfbDZGN1N2aEYw?oc=5" />
+    <link rel="related" href="/stories/nand-spot-prices-slide-20-as-ai-data-center-demand-h-6520df87.html" />
+    <updated>2026-11-16T08:54:23.000Z</updated>
+    <author><name>Seoul Economic Daily</name></author>
+    <summary type="html">NAND Spot Prices Slide 20% as AI Data Center Demand Holds Firm Seoul Economic Daily RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;NAND Spot Prices Slide 20% as AI Data Center Demand Holds Firm Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMimwFBVV95cUxQNEJVV0dCMHloZkVQX3NiQkYyd2VXZ25nNDQwRWJETkJWcU1GdEdQSWV3d2s2NURxWlJ0UU5EblM0ZzcwSEp6SFVpdVpzRUpVNU9iRUV3VEdDZ0ZQNm1jb01tUmpEQnlQRVUxQWY3cWQyNGpBZDZ1TWNBakJCVXpDNy02dEd2djNJczdQUmxVZGtreGM3cXA5ZXFhdw?oc=5</id>
+    <title type="html">U.S. Court Denies Samsung, SK hynix Bid to Halt DRAM Price-Fixing Suit - Seoul Economic Daily</title>
+    <link href="https://news.google.com/rss/articles/CBMimwFBVV95cUxQNEJVV0dCMHloZkVQX3NiQkYyd2VXZ25nNDQwRWJETkJWcU1GdEdQSWV3d2s2NURxWlJ0UU5EblM0ZzcwSEp6SFVpdVpzRUpVNU9iRUV3VEdDZ0ZQNm1jb01tUmpEQnlQRVUxQWY3cWQyNGpBZDZ1TWNBakJCVXpDNy02dEd2djNJczdQUmxVZGtreGM3cXA5ZXFhdw?oc=5" />
+    <link rel="related" href="/stories/u-s-court-denies-samsung-sk-hynix-bid-to-halt-dram-p-8cfbac11.html" />
+    <updated>2026-11-16T08:43:22.000Z</updated>
+    <author><name>Seoul Economic Daily</name></author>
+    <summary type="html">U.S. Court Denies Samsung, SK hynix Bid to Halt DRAM Price-Fixing Suit Seoul Economic Daily RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;U.S. Court Denies Samsung, SK hynix Bid to Halt DRAM Price-Fixing Suit Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiowFBVV95cUxPZmhzYk1aYjdpUzQ4bUg5b1pFelNXMWNLdzU5SENMQk12QjZUZHVKa3pGUnlCRlE3VXh0a1AxM0NZZkZIZDVsal94MFNVWTZhWW9sMG9oY3hjZk4wM2FlbFhMbVRxQ2ZPMU5Lbnh2dlEzWlVsUXY1azhpRlZLYTlsV0pKZTRlUkFINXFpWHpiS2VrVVdCcTFwLUkxc0hzRWhzeTFV?oc=5</id>
+    <title type="html">NAND Spot Prices Slide 20% as Memory Rally Shows Cracks - Seoul Economic Daily</title>
+    <link href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPZmhzYk1aYjdpUzQ4bUg5b1pFelNXMWNLdzU5SENMQk12QjZUZHVKa3pGUnlCRlE3VXh0a1AxM0NZZkZIZDVsal94MFNVWTZhWW9sMG9oY3hjZk4wM2FlbFhMbVRxQ2ZPMU5Lbnh2dlEzWlVsUXY1azhpRlZLYTlsV0pKZTRlUkFINXFpWHpiS2VrVVdCcTFwLUkxc0hzRWhzeTFV?oc=5" />
+    <link rel="related" href="/stories/nand-spot-prices-slide-20-as-memory-rally-shows-crac-4933202b.html" />
+    <updated>2026-11-16T08:42:19.000Z</updated>
+    <author><name>Seoul Economic Daily</name></author>
+    <summary type="html">NAND Spot Prices Slide 20% as Memory Rally Shows Cracks Seoul Economic Daily RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;NAND Spot Prices Slide 20% as Memory Rally Shows Cracks Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://semiengineering.com/are-ai-agents-the-new-semiconductor-ip/</id>
+    <title type="html">Are AI Agents The New Semiconductor IP?</title>
+    <link href="https://semiengineering.com/are-ai-agents-the-new-semiconductor-ip/" />
+    <link rel="related" href="/stories/are-ai-agents-the-new-semiconductor-ip-5f1964cf.html" />
+    <updated>2026-11-16T08:01:17.000Z</updated>
+    <author><name>SemiEngineering</name></author>
+    <summary type="html">Agents are emerging as reusable design tools, but trust and use models remain challenging. The post Are AI Agents The New Semiconductor IP? appeared first on Semiconductor Engineering . RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="opml" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Agents are emerging as reusable design tools, but trust and use models remain challenging. The post Are AI Agents The New Semiconductor IP? appeared first on Semiconductor Engineering .&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWG00MG5ZY0F1RU45TlppOXB3NHpnLXdWZ2s4d3dHZjdfOEVyZnZ0WmNvX2VEOXNzclFQc1RQNTJiM3lkNUQ3UjBwbUc5WkFGUWVLVVl3M0pYcThDbTVKWUZRaDFRcjA3cmdiN2tjdTN4U2Q1bFVUU1ZvRkM1MjJoRmJXMEdTdm43UmgtZzRWMktGVmp2ZVoyUVUtR2ZBcW1jcDRBNy1WNFVZRVlXWEF5N0RGandYTlFIOVA1SmF6Ry3SAcYBQVVfeXFMTzBUcWs5X09nUkVIRGNBdE82ZXJ0VERtSENXUTROY1JhcXBSamVTZy1qRmdZcGwwNmJXRExhMXEzTXRPdXdzSENSa1FHSFp3czJIM0hKUXRmMzdMX2h3QWZaZVBqbTJiUkc2cDFRcGdyZENDaEl4NExNZzdLTmQyY0Z3WHdPRFZ1MnFSOXJUay0yS2NRRU5nWTBCLVY3RUh4VGtWaVRrTmdPU2pSV2JZOTI2V0dvMUNpR1ROdzg2U21tT1VsNzdB?oc=5</id>
+    <title type="html">Nvidia's weakening AI chip dominance to benefit Samsung: analysts - The Korea Times</title>
+    <link href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWG00MG5ZY0F1RU45TlppOXB3NHpnLXdWZ2s4d3dHZjdfOEVyZnZ0WmNvX2VEOXNzclFQc1RQNTJiM3lkNUQ3UjBwbUc5WkFGUWVLVVl3M0pYcThDbTVKWUZRaDFRcjA3cmdiN2tjdTN4U2Q1bFVUU1ZvRkM1MjJoRmJXMEdTdm43UmgtZzRWMktGVmp2ZVoyUVUtR2ZBcW1jcDRBNy1WNFVZRVlXWEF5N0RGandYTlFIOVA1SmF6Ry3SAcYBQVVfeXFMTzBUcWs5X09nUkVIRGNBdE82ZXJ0VERtSENXUTROY1JhcXBSamVTZy1qRmdZcGwwNmJXRExhMXEzTXRPdXdzSENSa1FHSFp3czJIM0hKUXRmMzdMX2h3QWZaZVBqbTJiUkc2cDFRcGdyZENDaEl4NExNZzdLTmQyY0Z3WHdPRFZ1MnFSOXJUay0yS2NRRU5nWTBCLVY3RUh4VGtWaVRrTmdPU2pSV2JZOTI2V0dvMUNpR1ROdzg2U21tT1VsNzdB?oc=5" />
+    <link rel="related" href="/stories/nvidia-s-weakening-ai-chip-dominance-to-benefit-sams-29df7271.html" />
+    <updated>2026-11-16T06:46:03.000Z</updated>
+    <author><name>The Korea Times</name></author>
+    <summary type="html">Nvidia's weakening AI chip dominance to benefit Samsung: analysts The Korea Times RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:HBM memory chip" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Nvidia's weakening AI chip dominance to benefit Samsung: analysts The Korea Times&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMimAFBVV95cUxPYkppelA2OEt3Qm1CZk1JZE9ZMVhrcFZESS01MmQ3M0RJVU9kc3AyaWd5di1sM3hLQ3FoeGQ1Z1YzTUZ6emRTY2pDRXhnQzJ1OWUwTWU5UjZIclFmeXFWb1lEYXhTd3dENDJXcFJ4aVlobG40U0RaeHNpZ3hJc1F6d2d3WTBHeXpVVktUT21iOFU4V3BIQUVVdQ?oc=5</id>
+    <title type="html">DRAM companies fail to get price-fixing case dismissed - Electronics Weekly</title>
+    <link href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPYkppelA2OEt3Qm1CZk1JZE9ZMVhrcFZESS01MmQ3M0RJVU9kc3AyaWd5di1sM3hLQ3FoeGQ1Z1YzTUZ6emRTY2pDRXhnQzJ1OWUwTWU5UjZIclFmeXFWb1lEYXhTd3dENDJXcFJ4aVlobG40U0RaeHNpZ3hJc1F6d2d3WTBHeXpVVktUT21iOFU4V3BIQUVVdQ?oc=5" />
+    <link rel="related" href="/stories/dram-companies-fail-to-get-price-fixing-case-dismiss-9bf76463.html" />
+    <updated>2026-11-16T06:45:45.000Z</updated>
+    <author><name>Electronics Weekly</name></author>
+    <summary type="html">DRAM companies fail to get price-fixing case dismissed Electronics Weekly RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;DRAM companies fail to get price-fixing case dismissed Electronics Weekly&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMijAFBVV95cUxOeFRyMUYwT3lfd1BqeTdBTTFkTkg3dHRfNEpfd0NaX3cxT3RDempSUWhHQTI0VG1YN1JZdVk0T1puQmdCNlJnUUxCbTJMYk9iNDFlVnl5QzJoeGcyMlRwUEMzTmxBNENBQWxoSXdRY3dJWVBFbzktTFhkODZpYzZycGNyUnFrVDgxQV9qRQ?oc=5</id>
     <title type="html">Altman Calls PC RAM ‘Quite Terrible’; DRAM Prices Near 3.8x - FourWeekMBA</title>
@@ -21,7 +580,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Altman Calls PC RAM ‘Quite Terrible’; DRAM Prices Near 3.8x FourWeekMBA&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Altman Calls PC RAM ‘Quite Terrible’; DRAM Prices Near 3.8x FourWeekMBA&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiV0FVX3lxTFBJR0xqeW41NGdnNXFzMExwV2lkcWoxQnk3OWdRQ1F1aGUyUDhJVW9kNWtOLWpHQW95Zzh3Vk1pX1AtcWp3eGx6WllvcEVqNHB6RkpkWF84dw?oc=5</id>
@@ -34,7 +593,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;“Business Strategy or Price-Fixing?” DRAM Class Action Against Three Memory Makers Drags On, With Broader Antitrust Debate Over Key Industrial Inputs Expected https://economy.ac/&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;“Business Strategy or Price-Fixing?” DRAM Class Action Against Three Memory Makers Drags On, With Broader Antitrust Debate Over Key Industrial Inputs Expected https://economy.ac/&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiigFBVV95cUxOMGJKLXJ3dEp5d0RQQUY3UTlCZWxiZFFxLWlKaWtFczhPXzVoLW5WQk5zOE0xRGdiTWNiWlBma2lwSHJlTWUxbEozOG9JVlpVWWh4TTVCelBaekJHMHhNdWdkSjN3TGtLTVRyRWdVZlFBMnNpakx1empfLWRvQ05QajVMMy00a1NPUGc?oc=5</id>
@@ -47,7 +606,20 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:earnings" />
     
-    <content type="html">&lt;p&gt;DRAM Revenue Nears $200B as AI Demand Drives Pricing Surge EE Times Asia&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic EARNINGS signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;DRAM Revenue Nears $200B as AI Demand Drives Pricing Surge EE Times Asia&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMixgFBVV95cUxOSGtySkdlWXFYQWktZXE1a0lkTFpZdWFtMnRxU1IxVHh5VW40SG5MS3ZrSmVxa2kwSnB4eGFNZFQtSV9JZERJNkstUUZPZUdZdzlPQ3VSMWJFVWU2NmZFc0lDd2FucldzNm84WUFGQ3REUEZqUk9OYzc1d0xjd3drVjQ0TUNMNW5PR0lNdThra1luSXJrdExMNDdUbXZCdHVndHZ1VmlQeVVZRlJWT1dvRTFpby1pYU5HX01jLTdZenpWc21PelE?oc=5</id>
+    <title type="html">Samsung, SK hynix, and Micron accused of working together to drive up RAM prices - TweakTown</title>
+    <link href="https://news.google.com/rss/articles/CBMixgFBVV95cUxOSGtySkdlWXFYQWktZXE1a0lkTFpZdWFtMnRxU1IxVHh5VW40SG5MS3ZrSmVxa2kwSnB4eGFNZFQtSV9JZERJNkstUUZPZUdZdzlPQ3VSMWJFVWU2NmZFc0lDd2FucldzNm84WUFGQ3REUEZqUk9OYzc1d0xjd3drVjQ0TUNMNW5PR0lNdThra1luSXJrdExMNDdUbXZCdHVndHZ1VmlQeVVZRlJWT1dvRTFpby1pYU5HX01jLTdZenpWc21PelE?oc=5" />
+    <link rel="related" href="/stories/samsung-sk-hynix-and-micron-accused-of-working-toget-864d6709.html" />
+    <updated>2026-11-16T03:52:14.000Z</updated>
+    <author><name>TweakTown</name></author>
+    <summary type="html">Samsung, SK hynix, and Micron accused of working together to drive up RAM prices TweakTown RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Samsung, SK hynix, and Micron accused of working together to drive up RAM prices TweakTown&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMie0FVX3lxTE1UWHFGTHdWc0txcnJ5SGhmQm9OZkNldkpsSWZycDhhQ2FqUFF3SUZKR1UzNzJtUllqVlB6cHZPQnk1QXFCUE9zY1ZEZHFpa3drWUJTa0hfS2FzWHdKY3JyVm5NcFRUZERvcWp3ZFZ3b3FRQnc3SG12TXAzSQ?oc=5</id>
@@ -60,7 +632,20 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Judge lets DRAM cartel lawsuit against Samsung, SK Hynix and Micron move forward Crypto Briefing&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Judge lets DRAM cartel lawsuit against Samsung, SK Hynix and Micron move forward Crypto Briefing&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE9tSUJfVXYyeFc2VHU0R1FjSjZudXZOMmh6dFBLX2xCZ0tlcEI0cVZYYlRMQlJReWpVT3cyOTF4bmk0UW85REE5TmdyLXZIY01DM0RwM2tfb2lvMmhWZ1E5eUxURnk4ek9HR1dPNFBEUDVkcWV1NlE?oc=5</id>
+    <title type="html">Nvidia Risk and DRAM Price-Fixing Suit Collide, Sending KOSPI Down 3.6%; Foreigners Net Sell 1.7 Trillion Won - BigGo Finance</title>
+    <link href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9tSUJfVXYyeFc2VHU0R1FjSjZudXZOMmh6dFBLX2xCZ0tlcEI0cVZYYlRMQlJReWpVT3cyOTF4bmk0UW85REE5TmdyLXZIY01DM0RwM2tfb2lvMmhWZ1E5eUxURnk4ek9HR1dPNFBEUDVkcWV1NlE?oc=5" />
+    <link rel="related" href="/stories/nvidia-risk-and-dram-price-fixing-suit-collide-sendi-435a5bfa.html" />
+    <updated>2026-11-16T02:36:00.000Z</updated>
+    <author><name>BigGo Finance</name></author>
+    <summary type="html">Nvidia Risk and DRAM Price-Fixing Suit Collide, Sending KOSPI Down 3.6%; Foreigners Net Sell 1.7 Trillion Won BigGo Finance RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:demand" />
+    
+    <content type="html">&lt;p&gt;Nvidia Risk and DRAM Price-Fixing Suit Collide, Sending KOSPI Down 3.6%; Foreigners Net Sell 1.7 Trillion Won BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMickFVX3lxTE85RlRGeFdIS1A4UWI1M0ZKZERubkNoYUpTZDlrYkVhRWlYYmFZVllrLVV4aWVpWGdDSmpSNHBSUmFzTWk5ZGFFWWJrcUt4d1hMSWJ5enFrYk5mZ0pndm9ZVlZoZDI5UUs0ekJ1QVdYTjluUQ?oc=5</id>
@@ -73,7 +658,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Court Lets DRAM Price-Fixing Suit Against Samsung, SK hynix and Micron Proceed XenoSpectrum&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Court Lets DRAM Price-Fixing Suit Against Samsung, SK hynix and Micron Proceed XenoSpectrum&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE5zQ2FXd0hCR3RJWGs4dk04LWRKMkxURTl0TEVfMElMVnFPSFZmN0hqUzNMbl8xOXlra2syaVBJVXhFZHNIX1ZUeDhuVXBsREY3RTdnZ19Jc201TnZnRlBseUlqVU1rc3NMXzNSSHZ0YnYyQmVtTVE?oc=5</id>
@@ -86,7 +671,20 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;South Korea's Samsung Electronics, SK Hynix Plunge Together After BofA Report Flags ~20% NAND Price Drop; KOSPI Down ~3% BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;South Korea's Samsung Electronics, SK Hynix Plunge Together After BofA Report Flags ~20% NAND Price Drop; KOSPI Down ~3% BigGo Finance&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://news.google.com/rss/articles/CBMingFBVV95cUxONWFQZFZ0MW04WVlCLUg5R20xV3pQVGJLb21JcXRadEdzcmZwVUZFWU5Ja1o4NlBMVXBqRE9KcWlNc2lUSmQxNTFCZ3FZWjh1eWNPZ25HVGR2QVBNUkdEdzhCU2k3dUNFSXlNV1I3MGxaVEU1X0xwM2M5SWx2dEpkclJrVjJzNmp1NkdmUXlCaklmMWxxRnZHMFpFTUI5UQ?oc=5</id>
+    <title type="html">Samsung Falls 3%, SK hynix 5% on NAND Price Slide - Seoul Economic Daily</title>
+    <link href="https://news.google.com/rss/articles/CBMingFBVV95cUxONWFQZFZ0MW04WVlCLUg5R20xV3pQVGJLb21JcXRadEdzcmZwVUZFWU5Ja1o4NlBMVXBqRE9KcWlNc2lUSmQxNTFCZ3FZWjh1eWNPZ25HVGR2QVBNUkdEdzhCU2k3dUNFSXlNV1I3MGxaVEU1X0xwM2M5SWx2dEpkclJrVjJzNmp1NkdmUXlCaklmMWxxRnZHMFpFTUI5UQ?oc=5" />
+    <link rel="related" href="/stories/samsung-falls-3-sk-hynix-5-on-nand-price-slide-seoul-161e1274.html" />
+    <updated>2026-11-16T01:57:50.000Z</updated>
+    <author><name>Seoul Economic Daily</name></author>
+    <summary type="html">Samsung Falls 3%, SK hynix 5% on NAND Price Slide Seoul Economic Daily RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.</summary>
+    <category term="google-news:DRAM prices" />
+    <category term="tag:supply" />
+    
+    <content type="html">&lt;p&gt;Samsung Falls 3%, SK hynix 5% on NAND Price Slide Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMimwFBVV95cUxOYVVJV2hsbjlIaUFxZE1RbVZVWC1XOGs2TlZVdmt2UUp1dFJWVkNob3ZfVHdtNzBUSWlvWFYxUEgyTE9ZOGhISmxMYVJGZVRpOWEtQUVUdXdkSFlJY2t1UzZWYVRUbGhGbDZfam5xR3JZNV9lcFphZnRONWRXSVBOUUhtZTlfdUN5R0lMVDd3d1J4VXBiUWxsT1c2QQ?oc=5</id>
@@ -99,7 +697,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Samsung Falls 3%, SK hynix 5% on NAND Price Slide Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung Falls 3%, SK hynix 5% on NAND Price Slide Seoul Economic Daily&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/354867/intel-razor-lake-gets-a-12-p-core-bllc-chip-with-no-e-cores-per-leak</id>
@@ -112,7 +710,7 @@
     <category term="opml" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Intel's Razor Lake desktop lineup could include an unlocked gaming chip with 12 P-cores and no regular E-cores at all. Well-known Intel leaker Jaykihn shared the &quot;12+0+4&quot; configuration on X, which pairs those 12 P-cores with four low-power E-cores and Intel's big Last Level Cache (bLLC), the company's answer to AMD's X3D chips. In a follow-up post , he said this SKU replaces a locked 8+0+4 bLLC pa&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Intel's Razor Lake desktop lineup could include an unlocked gaming chip with 12 P-cores and no regular E-cores at all. Well-known Intel leaker Jaykihn shared the &quot;12+0+4&quot; configuration on X, which pairs those 12 P-cores with four low-power E-cores and Intel's big Last Level Cache (bLLC), the company's answer to AMD's X3D chips. In a follow-up post , he said this SKU replaces a locked 8+0+4 bLLC pa&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMihAFBVV95cUxPdG5qcGhYNTNoWnNTNGhLSUlzTXpzUG5CNXR4aGxlQXNDMU9zVEpncVRiZEVyamRGRk04WXZuNGtTV0s4RDloWjNPWHhISXJwRk5NaVpnZXFfaWg2RE9YbURXVXp4ZUluTTJSeHFoZGxyNTZkeE44YWRCay1JN2xlRlFuNlc?oc=5</id>
@@ -125,7 +723,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Samsung, SK hynix and Micron Must Face DRAM Price-Fixing Suit AndroidPure&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Samsung, SK hynix and Micron Must Face DRAM Price-Fixing Suit AndroidPure&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY1NsR05ManU4aXp5U1BlejBKZ1ZLVDQ1U3hYZ0F6ZGdORFFLcUttcThyLVlZV3JlVWFwdzJkMlNLWndDdWNKUm10dnRMRTRBbVlENk5aeE5wUWExNmpKdkNUbDVsM21INVUwMkItZ21pbmFaSlZwU2FCa1A0aTZWcWUwWllNTUFyM01kMUpsWHF6dmhES1J6ZG9hMkJWZ09rUVJnN1pmT29YZw?oc=5</id>
@@ -138,7 +736,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Memory market divergence is underway; Bank of America notes DRAM remains resilient, while NAND has quietly weakened. 富途牛牛&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Memory market divergence is underway; Bank of America notes DRAM remains resilient, while NAND has quietly weakened. 富途牛牛&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMirAFBVV95cUxQV0hua3BrZGZ2a1ZDUVNlZUgzdFMtZkEySVZacVJRSHAtSGhDc3hrcm1zNkVpT2U3NmNMVXZ6REFQMmZxZlZzc0JJSzJwLVBQR0I1dkVvR3FTQXg2OGlRQ3BEVHNhV0ZWcHl6Wmo1cGl6Q0VuSy1LZEJLXzU5YkU5LVFwT3dFYi04eHBuRDljd1N6dWJkODdxZndaRDN3WHJBME1aRmxEcldRUWw5?oc=5</id>
@@ -151,7 +749,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;Judge Lets DRAM Price-Fixing Suit Against Samsung, Micron, SK Hynix Move Forward Hoodline&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Judge Lets DRAM Price-Fixing Suit Against Samsung, Micron, SK Hynix Move Forward Hoodline&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNEx0b2VXVVpkOFRTVTV1M0sxRVVVYUJaZktTODBiSnV1ZVFLbDJLNTJ3ZE1FT2lxU0F1QzM0NDBjeEZGOVJaVHZsbjZFY2RaYVE4X1FJOGZGZC1WSlBuNnNySEdXYXlfdFVyTDBINHY0Vm1QZkw2ek93QzQ4a2Q2aFlJUjJNU1RtTklfRlZTenY0TzVqTnE2SEJGbVNNVVhJTVJyYTBYWnZqUQ?oc=5</id>
@@ -190,7 +788,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:supply" />
     
-    <content type="html">&lt;p&gt;DRAM Lawsuit: Judge Lets Case Against Samsung, Micron and SK hynix Proceed Around Prague&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Deterministic SUPPLY signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;DRAM Lawsuit: Judge Lets Case Against Samsung, Micron and SK hynix Proceed Around Prague&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 8/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMipwFBVV95cUxOZnl3Qi1Gc1I0ZTRBN0Z4TkVOWjBMb2U4Z0FLNy1pcnU1d3hETFdndXlLbTdWQmJIZl83SDhGb3c1WXc4eDdKUG1saUQwVkxNcEtyeTdoUXAtaFVzemhyUVpoSHRuWXZ3R2ZiMzI0aENBLWZZaHU5bm9mZk42eHZVaHhtVE5KdDBXWkQtdXI5RjNsTUFBcGp4TTU5a2IzZ1dQS3d4YmNzWdIBrAFBVV95cUxPS1hmbDljMlQ4Q2JaZlJhOGtnbXZZb2tvZk9SdEgwdkZKVnBHSUtfODJKV1VXaUcxNzNDYUlfdm84LTlZcXh3QzNscEFRbjVJeWZ1RDJpOEMxZzE1RXpySHBaV054REtxNWZVQjdDNXFVRUlhanVZTnEtWHZ0TVZEcmNfc3FGZUlld2VBTHJGMy1SUzZvQTZyQXQ4dE1ZaTFpeUNYTEgxSUtuTU5r?oc=5</id>
@@ -255,7 +853,7 @@
     <category term="google-news:DRAM prices" />
     <category term="tag:demand" />
     
-    <content type="html">&lt;p&gt;DRAM Just Got More Expensive Than AI Memory. Here’s Why Micron Could Soar in 2027 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Deterministic DEMAND signal from curated sources&lt;/em&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;DRAM Just Got More Expensive Than AI Memory. Here’s Why Micron Could Soar in 2027 24/7 Wall St.&lt;/p&gt;&lt;p&gt;&lt;em&gt;RI implication: Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Signal score: 7/10 — Existing feed item&lt;/em&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://www.techpowerup.com/354861/sk-hynix-bets-on-hbm4-demand-beyond-nvidia-with-new-equipment-orders</id>
