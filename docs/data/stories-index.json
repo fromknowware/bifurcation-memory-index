@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-11-16T21:58:50.173Z",
-  "count": 2722,
+  "generatedAt": "2026-11-17T07:51:34.969Z",
+  "count": 2732,
   "stories": [
+    {
+      "slug": "roundhill-t-rex-2x-long-dram-daily-target-tokenized-4e883d9b",
+      "url": "/stories/roundhill-t-rex-2x-long-dram-daily-target-tokenized-4e883d9b.html",
+      "title": "Roundhill T-REX 2X Long DRAM Daily Target tokenized ETF (xStock) Markets - CoinMarketCap",
+      "tag": "supply",
+      "date": "2026-11-17",
+      "score": 8,
+      "pick": false,
+      "source": "CoinMarketCap",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chipmakers-can-t-dodge-antitrust-suit-over-simultane-6a694c4a",
+      "url": "/stories/chipmakers-can-t-dodge-antitrust-suit-over-simultane-6a694c4a.html",
+      "title": "Chipmakers can't dodge antitrust suit over simultaneous cuts in DRAM supply - Courthouse News Service",
+      "tag": "supply",
+      "date": "2026-11-17",
+      "score": 8,
+      "pick": false,
+      "source": "Courthouse News Service",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "smartphone-brands-turn-to-reballed-memory-as-dram-pr-44a8174c",
+      "url": "/stories/smartphone-brands-turn-to-reballed-memory-as-dram-pr-44a8174c.html",
+      "title": "Smartphone brands turn to reballed memory as DRAM prices surge - Communications Today",
+      "tag": "supply",
+      "date": "2026-11-17",
+      "score": 8,
+      "pick": false,
+      "source": "Communications Today",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-develops-custom-hbm-for-meta-s-in-house-ai-c-7e9b16c0",
+      "url": "/stories/samsung-develops-custom-hbm-for-meta-s-in-house-ai-c-7e9b16c0.html",
+      "title": "Samsung Develops Custom HBM for Meta’s In-House AI Chip - www.tokenpost.com",
+      "tag": "demand",
+      "date": "2026-11-17",
+      "score": 7,
+      "pick": false,
+      "source": "www.tokenpost.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-sk-hynix-and-micron-unable-to-avoid-dram-pri-69752b55",
+      "url": "/stories/samsung-sk-hynix-and-micron-unable-to-avoid-dram-pri-69752b55.html",
+      "title": "Samsung, SK Hynix, and Micron Unable to Avoid DRAM Price-Fixing Trial as U.S. Court Advances Lawsuit - 재경일보",
+      "tag": "supply",
+      "date": "2026-11-17",
+      "score": 8,
+      "pick": false,
+      "source": "재경일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "reducing-high-bandwidth-flash-latency-in-gpu-systems-203345a2",
+      "url": "/stories/reducing-high-bandwidth-flash-latency-in-gpu-systems-203345a2.html",
+      "title": "Reducing High-Bandwidth Flash Latency In GPU Systems (Georgia Tech, Nvidia, Stanford)",
+      "tag": "demand",
+      "date": "2026-11-16",
+      "score": 7,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-electronics-sk-hynix-cash-holdings-surge-ami-d01662c6",
+      "url": "/stories/samsung-electronics-sk-hynix-cash-holdings-surge-ami-d01662c6.html",
+      "title": "Samsung Electronics, SK hynix cash holdings surge amid AI-driven chip boom - Yonhap News Agency",
+      "tag": "supply",
+      "date": "2026-11-16",
+      "score": 8,
+      "pick": false,
+      "source": "Yonhap News Agency",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pfn-and-semifive-collaborate-to-develop-the-mn-core-c6e79ddd",
+      "url": "/stories/pfn-and-semifive-collaborate-to-develop-the-mn-core-c6e79ddd.html",
+      "title": "PFN and SEMIFIVE Collaborate to Develop the MN-Core L2000 Series of Next-Generation AI Inference Chips - TradingView",
+      "tag": "demand",
+      "date": "2026-11-16",
+      "score": 7,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "nvidia-recommits-to-fp64-with-a-new-gpu-the-rubin-hp-be54f606",
       "url": "/stories/nvidia-recommits-to-fp64-with-a-new-gpu-the-rubin-hp-be54f606.html",
@@ -12,6 +100,17 @@
       "pick": false,
       "source": "HPCwire",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "u-s-court-opens-hearing-in-dram-price-fixing-suit-sa-bac28481",
+      "url": "/stories/u-s-court-opens-hearing-in-dram-price-fixing-suit-sa-bac28481.html",
+      "title": "U.S. Court Opens Hearing in DRAM Price-Fixing Suit; Samsung Electronics Falls 4.5%, SK Hynix 7.9% - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-16",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "cpi-samsung-sk-hynix-and-micron-lose-bid-to-dismiss-f1e205cd",
@@ -132,6 +231,17 @@
       "score": 7,
       "pick": false,
       "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-s-ai-memory-is-nearly-sold-out-through-2027-t-f46462c9",
+      "url": "/stories/micron-s-ai-memory-is-nearly-sold-out-through-2027-t-f46462c9.html",
+      "title": "Micron’s AI Memory Is Nearly Sold Out Through 2027 — That Could Be Its Biggest Risk - 24/7 Wall St.",
+      "tag": "demand",
+      "date": "2026-11-16",
+      "score": 7,
+      "pick": false,
+      "source": "24/7 Wall St.",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
