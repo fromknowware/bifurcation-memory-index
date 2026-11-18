@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-11-17T20:52:28.018Z",
-  "count": 2767,
+  "generatedAt": "2026-11-18T07:23:59.507Z",
+  "count": 2777,
   "stories": [
+    {
+      "slug": "micron-samsung-sk-hynix-fail-to-get-memory-price-fix-ea446cc0",
+      "url": "/stories/micron-samsung-sk-hynix-fail-to-get-memory-price-fix-ea446cc0.html",
+      "title": "Micron, Samsung, SK Hynix Fail to Get Memory Price-Fixing Lawsuit Dismissed - PCMag Middle East",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "PCMag Middle East",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-breaks-with-convention-bows-to-samsung-with-fo-ee8ac643",
+      "url": "/stories/apple-breaks-with-convention-bows-to-samsung-with-fo-ee8ac643.html",
+      "title": "Apple Breaks With Convention, Bows to Samsung With Four- to Five-Year DRAM Deal to Lock In Supply - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-gpu-rental-prices-have-doubled-asserts-interi-b565824d",
+      "url": "/stories/nvidia-gpu-rental-prices-have-doubled-asserts-interi-b565824d.html",
+      "title": "NVIDIA GPU Rental Prices Have Doubled, Asserts Interim CEO Kress As She Reports A Whopping $309 Billion In Supply Commitments Fueled By Pricey Memory Chips",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pegatron-showcases-high-density-servers-and-nvme-sto-530873c1",
+      "url": "/stories/pegatron-showcases-high-density-servers-and-nvme-sto-530873c1.html",
+      "title": "Pegatron Showcases High-Density Servers and NVMe Storage for AI and HPC at SC26",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "lambda-touts-first-cpo-deployment-of-blackwell-gpus-77e62518",
+      "url": "/stories/lambda-touts-first-cpo-deployment-of-blackwell-gpus-77e62518.html",
+      "title": "Lambda Touts First CPO Deployment of Blackwell GPUs",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-board-of-directors-establishes-national-secur-e15408d9",
+      "url": "/stories/nvidia-board-of-directors-establishes-national-secur-e15408d9.html",
+      "title": "NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee",
+      "tag": "macro",
+      "date": "2026-11-17",
+      "score": 6,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "is-sk-hynix-the-better-artificial-intelligence-ai-me-9944dd13",
+      "url": "/stories/is-sk-hynix-the-better-artificial-intelligence-ai-me-9944dd13.html",
+      "title": "Is SK Hynix the Better Artificial Intelligence (AI) Memory Stock Compared With Micron? - The Motley Fool",
+      "tag": "supply",
+      "date": "2026-11-17",
+      "score": 8,
+      "pick": false,
+      "source": "The Motley Fool",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "vertiv-advances-800-vdc-power-architectures-to-suppo-d44917d5",
       "url": "/stories/vertiv-advances-800-vdc-power-architectures-to-suppo-d44917d5.html",
@@ -17,6 +94,17 @@
       "slug": "micron-stocks-decrease-nearly-3-1-as-judge-lets-dram-f25e1e16",
       "url": "/stories/micron-stocks-decrease-nearly-3-1-as-judge-lets-dram-f25e1e16.html",
       "title": "Micron Stocks Decrease Nearly 3.1% as Judge Lets DRAM Price-Fixing Suit Proceed - TradingView",
+      "tag": "supply",
+      "date": "2026-11-17",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-stocks-fall-1-96-as-dram-price-fixing-suit-f1049587",
+      "url": "/stories/sk-hynix-stocks-fall-1-96-as-dram-price-fixing-suit-f1049587.html",
+      "title": "SK hynix Stocks Fall 1.96% as DRAM Price-Fixing Suit Advances and Kospi Drops - TradingView",
       "tag": "supply",
       "date": "2026-11-17",
       "score": 8,
@@ -100,6 +188,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "apple-memory-prices-stay-high-to-2030-and-samsung-de-d3998b9b",
+      "url": "/stories/apple-memory-prices-stay-high-to-2030-and-samsung-de-d3998b9b.html",
+      "title": "Apple Memory Prices Stay High to 2030 and Samsung Deal - Meteora Web",
+      "tag": "supply",
+      "date": "2026-11-17",
+      "score": 8,
+      "pick": false,
+      "source": "Meteora Web",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "samsung-and-apple-are-close-to-a-four-to-five-year-d-b35cf562",
@@ -319,6 +418,17 @@
       "score": 8,
       "pick": false,
       "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-and-sk-hynix-stocks-sink-as-a-20-chip-price-7799d05f",
+      "url": "/stories/samsung-and-sk-hynix-stocks-sink-as-a-20-chip-price-7799d05f.html",
+      "title": "Samsung and SK Hynix stocks sink as a 20% chip price shock hits home - Invezz",
+      "tag": "supply",
+      "date": "2026-11-17",
+      "score": 8,
+      "pick": false,
+      "source": "Invezz",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
