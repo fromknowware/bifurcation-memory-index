@@ -1,7 +1,271 @@
 {
-  "generatedAt": "2026-11-18T07:23:59.507Z",
-  "count": 2777,
+  "generatedAt": "2026-11-18T20:28:45.864Z",
+  "count": 2804,
   "stories": [
+    {
+      "slug": "supermicro-ships-petascale-all-flash-server-with-amd-910ce801",
+      "url": "/stories/supermicro-ships-petascale-all-flash-server-with-amd-910ce801.html",
+      "title": "Supermicro Ships Petascale All-Flash Server with AMD EPYC 9006 and PCIe Gen 6",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "HPCwire",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-s-annual-gpu-upgrades-are-changing-the-hbm-in-38257fc9",
+      "url": "/stories/nvidia-s-annual-gpu-upgrades-are-changing-the-hbm-in-38257fc9.html",
+      "title": "Nvidia’s Annual GPU Upgrades Are Changing the HBM Investment Outlook - 24/7 Wall St.",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "24/7 Wall St.",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "consumer-nand-prices-decline-by-20-as-ssd-market-fin-a150225b",
+      "url": "/stories/consumer-nand-prices-decline-by-20-as-ssd-market-fin-a150225b.html",
+      "title": "Consumer NAND Prices Decline By 20% As SSD Market Finally Shows Signs Of Relief And Is Expected To Experience Another 5-10% Decline In Early 2027",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "jedec-unveils-next-gen-ddr6-memory-starts-at-12-8-gt-cd4a11de",
+      "url": "/stories/jedec-unveils-next-gen-ddr6-memory-starts-at-12-8-gt-cd4a11de.html",
+      "title": "JEDEC Unveils Next-Gen DDR6 Memory: Starts at 12.8 GT/s & Goes Up To 14.4 GT/s, Wider Bus, 50% Bandwidth Uplift, Up To 128 Gb Dies & Narrow Design Versus DDR5",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "microsoft-becomes-the-first-announced-intel-emib-cus-f54f7c82",
+      "url": "/stories/microsoft-becomes-the-first-announced-intel-emib-cus-f54f7c82.html",
+      "title": "Microsoft Becomes The First Announced Intel EMIB Customer For Its Azure Custom Silicon, Also Locks In Multi-Year Xeon Capacity That Includes Next-Gen Diamond Rapids",
+      "tag": "fab",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "custom-hbm-for-ai-accelerators-design-tradeoffs-neot-4aaaf721",
+      "url": "/stories/custom-hbm-for-ai-accelerators-design-tradeoffs-neot-4aaaf721.html",
+      "title": "Custom HBM for AI accelerators: design tradeoffs - NeoTeo",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "NeoTeo",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "pr-jedec-previews-next-generation-ddr6-dram-642d506b",
+      "url": "/stories/pr-jedec-previews-next-generation-ddr6-dram-642d506b.html",
+      "title": "(PR) JEDEC Previews Next-Generation DDR6 DRAM",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "apple-samsung-dram-deal-supply-without-a-price-lock-a1600e04",
+      "url": "/stories/apple-samsung-dram-deal-supply-without-a-price-lock-a1600e04.html",
+      "title": "Apple Samsung DRAM deal: supply without a price lock - NeoTeo",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "NeoTeo",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kraft-s-16-billion-massachusetts-data-center-dangles-9ae111c6",
+      "url": "/stories/kraft-s-16-billion-massachusetts-data-center-dangles-9ae111c6.html",
+      "title": "Kraft’s $16-Billion Massachusetts Data Center Dangles A Tax Benefit Of $5,800/Year To Each Household, As The Community Rails It’s ‘In The Middle Of People’s Neighborhoods’",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "leaked-ohio-bill-could-allow-ai-data-center-companie-2f15733e",
+      "url": "/stories/leaked-ohio-bill-could-allow-ai-data-center-companie-2f15733e.html",
+      "title": "Leaked Ohio bill could allow AI data center companies to seize private land for their buildouts using eminent domain law",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-says-it-s-absurd-to-assume-it-predicted-the-a-6dc24ea7",
+      "url": "/stories/nvidia-says-it-s-absurd-to-assume-it-predicted-the-a-6dc24ea7.html",
+      "title": "Nvidia says it’s ‘absurd’ to assume it predicted the agentic moment during Vera’s development – ‘product intuition’ helped drive CPU design, superior memory bandwidth will play critical role in future AI agents, CPU boss claims - Tom's Hardware",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "shackles-depressing-samsung-sk-hynix-stocks-104032d4",
+      "url": "/stories/shackles-depressing-samsung-sk-hynix-stocks-104032d4.html",
+      "title": "Shackles Depressing Samsung, SK Hynix Stocks - 조선일보",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "elon-musk-s-spacexai-suffers-chemical-spill-at-missi-7e0dca04",
+      "url": "/stories/elon-musk-s-spacexai-suffers-chemical-spill-at-missi-7e0dca04.html",
+      "title": "Elon Musk’s SpaceXAI suffers chemical spill at Mississippi AI data center",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "spacex-s-tax-break-bid-for-its-24-billion-starbase-d-7815ba8d",
+      "url": "/stories/spacex-s-tax-break-bid-for-its-24-billion-starbase-d-7815ba8d.html",
+      "title": "SpaceX’s Tax Break Bid For Its $24 Billion Starbase Data Center Quashed As Commissioners Vote Against Public Hearing For 100% 10-Year Abatement",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-gpu-drivers-reportedly-writing-up-to-30gb-per-85ab699e",
+      "url": "/stories/nvidia-gpu-drivers-reportedly-writing-up-to-30gb-per-85ab699e.html",
+      "title": "NVIDIA GPU Drivers Reportedly Writing Up To 30GB Per Hour To SSDs, Echoing AMD’s Recent Driver Bug",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "koduri-s-oxmiq-offers-ip-tools-for-indian-teams-to-d-0af50f5a",
+      "url": "/stories/koduri-s-oxmiq-offers-ip-tools-for-indian-teams-to-d-0af50f5a.html",
+      "title": "Koduri’s Oxmiq Offers IP, Tools for Indian Teams to Design AI Chips",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "EE Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sandisk-rises-3-4-as-traders-weigh-today-s-ai-reboun-c5a3d9e1",
+      "url": "/stories/sandisk-rises-3-4-as-traders-weigh-today-s-ai-reboun-c5a3d9e1.html",
+      "title": "SanDisk Rises 3.4% as Traders Weigh Today's AI Rebound Against 2027's NAND Glut - ad-hoc-news.de",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "ad-hoc-news.de",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ssds-laptops-and-phones-may-get-cheaper-as-consumer-0aa18775",
+      "url": "/stories/ssds-laptops-and-phones-may-get-cheaper-as-consumer-0aa18775.html",
+      "title": "SSDs, laptops, and phones may get cheaper as consumer NAND spot pricing drops 20%",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-threatens-countermeasures-in-the-face-of-new-a-9573b2e0",
+      "url": "/stories/china-threatens-countermeasures-in-the-face-of-new-a-9573b2e0.html",
+      "title": "China threatens 'countermeasures' in the face of new AI GPU rental and export restrictions",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-spot-prices-turn-lower-weighing-on-samsung-an-d40acdc0",
+      "url": "/stories/memory-spot-prices-turn-lower-weighing-on-samsung-an-d40acdc0.html",
+      "title": "Memory Spot Prices Turn Lower, Weighing on Samsung and SK Hynix — AI Curbs, Rates and Nvidia Uncertainty Pile On - BigGo Finance",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "3-26-million-in-spacex-ai-data-center-revenue-will-b-caeddd6f",
+      "url": "/stories/3-26-million-in-spacex-ai-data-center-revenue-will-b-caeddd6f.html",
+      "title": "$3.26 million in SpaceX AI data center revenue will be pumped back into the City of Memphis",
+      "tag": "earnings",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "ai-demand-to-drive-hbm-prices-and-advanced-packaging-0633624a",
+      "url": "/stories/ai-demand-to-drive-hbm-prices-and-advanced-packaging-0633624a.html",
+      "title": "AI demand to drive HBM prices and advanced packaging revenue sharply higher - Chosunbiz",
+      "tag": "earnings",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "can-ai-agents-really-shift-chip-design-left-fa78f5c5",
+      "url": "/stories/can-ai-agents-really-shift-chip-design-left-fa78f5c5.html",
+      "title": "Can AI Agents Really Shift Chip Design Left?",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "memory-market-diverges-nand-prices-may-turn-lower-in-c50257ba",
+      "url": "/stories/memory-market-diverges-nand-prices-may-turn-lower-in-c50257ba.html",
+      "title": "Memory Market Diverges: NAND Prices May Turn Lower in Q2 2027, General DRAM Rally to Last Through Year-End - BigGo Finance",
+      "tag": "earnings",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
     {
       "slug": "micron-samsung-sk-hynix-fail-to-get-memory-price-fix-ea446cc0",
       "url": "/stories/micron-samsung-sk-hynix-fail-to-get-memory-price-fix-ea446cc0.html",
@@ -25,6 +289,17 @@
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
+      "slug": "apple-changes-dram-procurement-strategy-ae0facfc",
+      "url": "/stories/apple-changes-dram-procurement-strategy-ae0facfc.html",
+      "title": "Apple changes DRAM procurement strategy - 超能网",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "超能网",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
       "slug": "nvidia-gpu-rental-prices-have-doubled-asserts-interi-b565824d",
       "url": "/stories/nvidia-gpu-rental-prices-have-doubled-asserts-interi-b565824d.html",
       "title": "NVIDIA GPU Rental Prices Have Doubled, Asserts Interim CEO Kress As She Reports A Whopping $309 Billion In Supply Commitments Fueled By Pricey Memory Chips",
@@ -34,6 +309,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "apple-nears-four-year-dram-supply-deal-with-samsung-102105da",
+      "url": "/stories/apple-nears-four-year-dram-supply-deal-with-samsung-102105da.html",
+      "title": "Apple nears four-year DRAM supply deal with Samsung - 매일경제",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "매일경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "pegatron-showcases-high-density-servers-and-nvme-sto-530873c1",
@@ -67,6 +353,17 @@
       "pick": false,
       "source": "HPCwire",
       "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "is-sk-hynix-the-better-artificial-intelligence-ai-me-b95f8d5a",
+      "url": "/stories/is-sk-hynix-the-better-artificial-intelligence-ai-me-b95f8d5a.html",
+      "title": "Is SK Hynix the Better Artificial Intelligence (AI) Memory Stock Compared With Micron? - The Globe and Mail",
+      "tag": "supply",
+      "date": "2026-11-17",
+      "score": 8,
+      "pick": false,
+      "source": "The Globe and Mail",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "is-sk-hynix-the-better-artificial-intelligence-ai-me-9944dd13",
