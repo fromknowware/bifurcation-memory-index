@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-11-18T20:28:45.864Z",
-  "count": 2804,
+  "generatedAt": "2026-11-19T07:20:32.603Z",
+  "count": 2815,
   "stories": [
+    {
+      "slug": "google-moves-to-buy-hbm-directly-for-its-mediatek-bu-d6ed0098",
+      "url": "/stories/google-moves-to-buy-hbm-directly-for-its-mediatek-bu-d6ed0098.html",
+      "title": "Google moves to buy HBM directly for its MediaTek-built AI chips, bypassing Broadcom, industry reports say - MLQ.ai",
+      "tag": "demand",
+      "date": "2026-11-19",
+      "score": 7,
+      "pick": false,
+      "source": "MLQ.ai",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ram-prices-still-climb-as-nand-falls-20-memory-split-1f67b873",
+      "url": "/stories/ram-prices-still-climb-as-nand-falls-20-memory-split-1f67b873.html",
+      "title": "RAM Prices Still Climb as NAND Falls 20%: Memory Splits - shattered.io",
+      "tag": "supply",
+      "date": "2026-11-19",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hbm4-prices-seen-rising-up-to-2-7-fold-next-year-as-c64d5317",
+      "url": "/stories/hbm4-prices-seen-rising-up-to-2-7-fold-next-year-as-c64d5317.html",
+      "title": "HBM4 Prices Seen Rising Up to 2.7-Fold Next Year as DRAM Supply Tightens - Businesskorea",
+      "tag": "supply",
+      "date": "2026-11-19",
+      "score": 8,
+      "pick": false,
+      "source": "Businesskorea",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hbm4-memory-price-forecast-trendforce-sees-3-to-5-50-3c4568ff",
+      "url": "/stories/hbm4-memory-price-forecast-trendforce-sees-3-to-5-50-3c4568ff.html",
+      "title": "HBM4 Memory Price Forecast: TrendForce Sees $3 to $5.50 Per Gigabit Next Year, Up From $2.05 Now - Tech Times",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "Tech Times",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "us-judge-rejects-dismissal-bid-in-dram-price-fixing-4fef754c",
+      "url": "/stories/us-judge-rejects-dismissal-bid-in-dram-price-fixing-4fef754c.html",
+      "title": "US judge rejects dismissal bid in DRAM price‑fixing case against Samsung, SK hynix and Micron - Digital Watch Observatory",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "Digital Watch Observatory",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-president-on-the-ai-gap-china-is-far-behind-i-5d94998a",
+      "url": "/stories/micron-president-on-the-ai-gap-china-is-far-behind-i-5d94998a.html",
+      "title": "Micron President on the AI gap: \"China is far behind in high-bandwidth memory\" - Yahoo Finance",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "Yahoo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "latest-hbm-prices-to-jump-up-to-2-7-fold-next-year-s-c1e48a1f",
+      "url": "/stories/latest-hbm-prices-to-jump-up-to-2-7-fold-next-year-s-c1e48a1f.html",
+      "title": "Latest HBM Prices to Jump Up to 2.7-Fold Next Year - Seoul Economic Daily",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "latest-nvidia-drivers-might-cause-excessive-ssd-writ-47a45be5",
+      "url": "/stories/latest-nvidia-drivers-might-cause-excessive-ssd-writ-47a45be5.html",
+      "title": "Latest NVIDIA Drivers Might Cause Excessive SSD Writing",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "supermicro-ships-petascale-all-flash-server-with-amd-910ce801",
       "url": "/stories/supermicro-ships-petascale-all-flash-server-with-amd-910ce801.html",
@@ -157,6 +245,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "samsung-reportedly-making-custom-memory-for-meta-s-a-32dd513c",
+      "url": "/stories/samsung-reportedly-making-custom-memory-for-meta-s-a-32dd513c.html",
+      "title": "Samsung reportedly making custom memory for Meta's AI chips - SamMobile",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "SamMobile",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "nvidia-gpu-drivers-reportedly-writing-up-to-30gb-per-85ab699e",
       "url": "/stories/nvidia-gpu-drivers-reportedly-writing-up-to-30gb-per-85ab699e.html",
       "title": "NVIDIA GPU Drivers Reportedly Writing Up To 30GB Per Hour To SSDs, Echoing AMD’s Recent Driver Bug",
@@ -187,6 +286,17 @@
       "score": 8,
       "pick": false,
       "source": "ad-hoc-news.de",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ssds-laptops-and-phones-may-get-cheaper-as-consumer-8f8441c8",
+      "url": "/stories/ssds-laptops-and-phones-may-get-cheaper-as-consumer-8f8441c8.html",
+      "title": "SSDs, laptops, and phones may get cheaper as consumer NAND spot pricing drops 20% — Bank of America expects contract price drops, report cites oversupply in consumer market amid declining demand and growing Chinese competition - Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-11-18",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
@@ -232,6 +342,17 @@
       "pick": false,
       "source": "Tom's Hardware",
       "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "sk-hynix-or-micron-three-reasons-the-korean-chipmake-36649d49",
+      "url": "/stories/sk-hynix-or-micron-three-reasons-the-korean-chipmake-36649d49.html",
+      "title": "SK Hynix or Micron? Three Reasons the Korean Chipmaker Wins the AI Memory Debate - NAI500",
+      "tag": "demand",
+      "date": "2026-11-18",
+      "score": 7,
+      "pick": false,
+      "source": "NAI500",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "ai-demand-to-drive-hbm-prices-and-advanced-packaging-0633624a",
