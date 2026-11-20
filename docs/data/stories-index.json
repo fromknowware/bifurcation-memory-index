@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-11-19T20:32:16.074Z",
-  "count": 2852,
+  "generatedAt": "2026-11-20T07:10:19.360Z",
+  "count": 2863,
   "stories": [
+    {
+      "slug": "nvidia-just-raised-its-supply-commitments-to-390-bil-7c60f032",
+      "url": "/stories/nvidia-just-raised-its-supply-commitments-to-390-bil-7c60f032.html",
+      "title": "Nvidia Just Raised Its Supply Commitments to $390 Billion, Mostly for Memory. Micron Is the Memory Stock I'd Buy. - The Globe and Mail",
+      "tag": "demand",
+      "date": "2026-11-20",
+      "score": 7,
+      "pick": false,
+      "source": "The Globe and Mail",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-m-5a4c7675",
+      "url": "/stories/us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-m-5a4c7675.html",
+      "title": "US let Nvidia and AMD sell bucketloads of chips to military-linked Chinese companies",
+      "tag": "demand",
+      "date": "2026-11-20",
+      "score": 7,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-appoints-new-memory-chip-mobile-business-hea-fa5185b0",
+      "url": "/stories/samsung-appoints-new-memory-chip-mobile-business-hea-fa5185b0.html",
+      "title": "Samsung appoints new memory chip, mobile business heads - electronics.economictimes.indiatimes.com",
+      "tag": "supply",
+      "date": "2026-11-20",
+      "score": 8,
+      "pick": false,
+      "source": "electronics.economictimes.indiatimes.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kb-securities-samsung-electronics-and-sk-hynix-dram-6308d87e",
+      "url": "/stories/kb-securities-samsung-electronics-and-sk-hynix-dram-6308d87e.html",
+      "title": "KB Securities: \"Samsung Electronics and SK Hynix DRAM Prices to Jump 40% Next Year\" : Finance : JKN - 재경일보",
+      "tag": "supply",
+      "date": "2026-11-20",
+      "score": 8,
+      "pick": false,
+      "source": "재경일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-electronics-appoints-new-head-for-its-memory-9492b07d",
+      "url": "/stories/samsung-electronics-appoints-new-head-for-its-memory-9492b07d.html",
+      "title": "Samsung Electronics appoints new head for its memory chip business - Reuters",
+      "tag": "supply",
+      "date": "2026-11-20",
+      "score": 8,
+      "pick": false,
+      "source": "Reuters",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kb-securities-sees-dram-contract-prices-jumping-40-n-0fff903a",
+      "url": "/stories/kb-securities-sees-dram-contract-prices-jumping-40-n-0fff903a.html",
+      "title": "KB Securities Sees DRAM Contract Prices Jumping 40% Next Year - Seoul Economic Daily",
+      "tag": "supply",
+      "date": "2026-11-19",
+      "score": 8,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kb-securities-samsung-electronics-sk-hynix-2027-dram-853e28cb",
+      "url": "/stories/kb-securities-samsung-electronics-sk-hynix-2027-dram-853e28cb.html",
+      "title": "KB Securities: Samsung Electronics, SK Hynix 2027 DRAM Contract Prices to Rise 40%, Memory Boom in Full Swing - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-19",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kb-securities-forecasts-40-surge-in-samsung-sk-hynix-2d04e071",
+      "url": "/stories/kb-securities-forecasts-40-surge-in-samsung-sk-hynix-2d04e071.html",
+      "title": "KB Securities Forecasts 40% Surge in Samsung, SK Hynix DRAM Prices Next Year - news.sbs.co.kr",
+      "tag": "supply",
+      "date": "2026-11-19",
+      "score": 8,
+      "pick": false,
+      "source": "news.sbs.co.kr",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "need-faster-storage-samsung-s-pcie-nvme-gen-5-9100-p-9c4ec30f",
+      "url": "/stories/need-faster-storage-samsung-s-pcie-nvme-gen-5-9100-p-9c4ec30f.html",
+      "title": "Need Faster Storage? Samsung’s PCIe NVMe Gen 5 9100 PRO, Portable P7 SSD, Switch 2 microSD Express Cards And More Are Heavily Discounted By 49% On Amazon Right Now",
+      "tag": "supply",
+      "date": "2026-11-19",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-data-center-power-demand-will-double-by-2030-than-3d3d1e89",
+      "url": "/stories/ai-data-center-power-demand-will-double-by-2030-than-3d3d1e89.html",
+      "title": "AI data center power demand will double by 2030 thanks to $4 trillion in spending, adding an entire Great Britain to energy strain",
+      "tag": "demand",
+      "date": "2026-11-19",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "penguin-solutions-turns-to-silicon-photonics-to-over-a0822fd8",
       "url": "/stories/penguin-solutions-turns-to-silicon-photonics-to-over-a0822fd8.html",
@@ -77,6 +187,17 @@
       "score": 8,
       "pick": false,
       "source": "Sourceability",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-nears-rare-long-term-dram-supply-agreement-wit-853d394e",
+      "url": "/stories/apple-nears-rare-long-term-dram-supply-agreement-wit-853d394e.html",
+      "title": "Apple nears rare long-term DRAM supply agreement with Samsung - MacDailyNews",
+      "tag": "supply",
+      "date": "2026-11-19",
+      "score": 8,
+      "pick": false,
+      "source": "MacDailyNews",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
