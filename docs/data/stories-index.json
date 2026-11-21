@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-11-20T20:12:05.341Z",
-  "count": 2886,
+  "generatedAt": "2026-11-21T07:01:50.519Z",
+  "count": 2894,
   "stories": [
+    {
+      "slug": "south-korea-s-sk-hynix-price-target-slashed-to-1-05-0e7d2c57",
+      "url": "/stories/south-korea-s-sk-hynix-price-target-slashed-to-1-05-0e7d2c57.html",
+      "title": "South Korea's SK Hynix Price Target Slashed to 1.05 Million Won as BNK Warns of Imminent Memory Price Plunge - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-21",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hbm-memory-shortage-23-of-dram-wafers-30-by-2027-sha-597472bf",
+      "url": "/stories/hbm-memory-shortage-23-of-dram-wafers-30-by-2027-sha-597472bf.html",
+      "title": "HBM Memory Shortage: 23% of DRAM Wafers, 30% by 2027 - shattered.io",
+      "tag": "demand",
+      "date": "2026-11-21",
+      "score": 7,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-039-s-ssd-write-bug-gets-patched-in-geforce-h-80779981",
+      "url": "/stories/nvidia-039-s-ssd-write-bug-gets-patched-in-geforce-h-80779981.html",
+      "title": "NVIDIA&#039;s SSD Write Bug Gets Patched in GeForce Hotfix 621.35 Driver",
+      "tag": "demand",
+      "date": "2026-11-20",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dram-price-fixing-suit-survives-dismissal-as-memory-23fcc86f",
+      "url": "/stories/dram-price-fixing-suit-survives-dismissal-as-memory-23fcc86f.html",
+      "title": "DRAM Price-Fixing Suit Survives Dismissal as Memory Prices Climb 697% - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-20",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-server-boards-are-now-draining-the-pcb-supply-cha-a0f59b55",
+      "url": "/stories/ai-server-boards-are-now-draining-the-pcb-supply-cha-a0f59b55.html",
+      "title": "AI Server Boards Are Now Draining the PCB Supply Chain",
+      "tag": "demand",
+      "date": "2026-11-20",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "intel-reveals-why-early-ddr5-memory-prototypes-often-391b06b7",
+      "url": "/stories/intel-reveals-why-early-ddr5-memory-prototypes-often-391b06b7.html",
+      "title": "Intel Reveals Why Early DDR5 Memory Prototypes Often Fail, Details Extensive Validation Process And 256GB CQDIMM Push",
+      "tag": "supply",
+      "date": "2026-11-20",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "sk-hynix-highlights-mars-and-hbm4e-memory-at-sc26-a9ca5f0d",
       "url": "/stories/sk-hynix-highlights-mars-and-hbm4e-memory-at-sc26-a9ca5f0d.html",
@@ -220,6 +286,28 @@
       "score": 8,
       "pick": false,
       "source": "cwibc.co.id",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "samsung-appoints-new-memory-chip-chief-in-ai-busines-6ebf810d",
+      "url": "/stories/samsung-appoints-new-memory-chip-chief-in-ai-busines-6ebf810d.html",
+      "title": "Samsung Appoints New Memory Chip Chief in AI Business Reshuffle - Techeconomy",
+      "tag": "demand",
+      "date": "2026-11-20",
+      "score": 7,
+      "pick": false,
+      "source": "Techeconomy",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "samsung-electronics-appoints-new-head-for-its-memory-61191fbb",
+      "url": "/stories/samsung-electronics-appoints-new-head-for-its-memory-61191fbb.html",
+      "title": "Samsung Electronics Appoints New Head for Its Memory Chip Business - ASHARQ AL-AWSAT English",
+      "tag": "supply",
+      "date": "2026-11-20",
+      "score": 8,
+      "pick": false,
+      "source": "ASHARQ AL-AWSAT English",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
