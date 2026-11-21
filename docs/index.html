@@ -451,6 +451,13 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 }
 .rc-h{font-size:20px;font-weight:700;color:var(--bright);line-height:1.3;margin-bottom:6px;}
 .rc-byline{font-family:var(--mono);font-size:11px;color:var(--muted);margin-bottom:20px;}
+.rc-note{
+  font-size:12px;line-height:1.65;color:var(--sub);margin:0 0 18px;
+  padding:10px 12px;border:1px solid var(--line);border-left:3px solid var(--hbm);background:var(--bg1);
+}
+.rc-note a{color:var(--hbm);font-family:var(--mono);font-size:11px;white-space:nowrap;text-decoration:none;cursor:pointer;}
+.rc-note a:hover,.rc-note a:focus-visible{text-decoration:underline;}
+.rp-card-chip{font-family:var(--mono);font-size:9px;letter-spacing:.04em;color:var(--hbm);}
 .rc-abstract{font-size:13px;color:var(--sub);line-height:1.75;margin-bottom:24px;}
 .rc-stats-row{
   display:flex;gap:0;
@@ -500,6 +507,90 @@ section.active{display:flex;flex-direction:column;flex:1;min-height:0;overflow-y
 .rc-pdf-cta:hover{background:rgba(232,164,40,0.1);box-shadow:0 0 0 3px rgba(232,164,40,0.08);}
 .rc-pdf-cta-icon{font-size:13px;line-height:1;}
 @media (max-width:700px){ .rc-pdf-preview{height:320px;} }
+
+/* ── Paper library (research showcase) ───────────── */
+.rp-library-wrap{margin-bottom:18px;}
+.rp-library-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:10px;}
+.rp-library-hint{
+  font-family:var(--mono);font-size:9px;letter-spacing:0.08em;
+  text-transform:uppercase;color:var(--dim);
+}
+.rp-library{
+  display:grid;gap:10px;
+  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+}
+.rp-card{
+  display:flex;flex-direction:column;gap:6px;
+  padding:12px 13px;border:1px solid var(--line);
+  background:var(--bg1);cursor:pointer;
+  transition:border-color 0.12s, background 0.12s, transform 0.06s;
+  text-align:left;color:inherit;font:inherit;
+  position:relative;min-height:110px;
+}
+.rp-card:hover{border-color:var(--line2);background:var(--bg2);}
+.rp-card:focus-visible{outline:2px solid var(--ram);outline-offset:1px;}
+.rp-card.active{border-color:var(--ram);background:rgba(232,164,40,0.05);}
+.rp-card.active::before{
+  content:"";position:absolute;left:-1px;top:-1px;bottom:-1px;width:2px;background:var(--ram);
+}
+.rp-card-top{
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  font-family:var(--mono);font-size:9px;letter-spacing:0.08em;text-transform:uppercase;
+}
+.rp-card-ver{color:var(--ram);font-weight:700;}
+.rp-card.status-archived .rp-card-ver{color:var(--muted);}
+.rp-card.status-planned .rp-card-ver{color:var(--hbm);}
+.rp-card-date{color:var(--dim);}
+.rp-card-title{
+  font-size:13px;font-weight:600;color:var(--bright);line-height:1.35;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.rp-card-thesis{
+  font-family:var(--mono);font-size:10px;color:var(--muted);line-height:1.5;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+}
+.rp-card-bot{
+  display:flex;align-items:center;justify-content:space-between;gap:6px;
+  margin-top:auto;padding-top:4px;
+}
+.rp-badge{
+  font-family:var(--mono);font-size:8px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;
+  padding:2px 6px;border:1px solid var(--line2);color:var(--sub);background:transparent;
+}
+.rp-card.status-published .rp-badge{border-color:var(--green,#4ea84e);color:var(--green,#4ea84e);}
+.rp-card.status-archived .rp-badge{border-color:var(--line2);color:var(--muted);}
+.rp-card.status-planned  .rp-badge{border-color:var(--hbm);color:var(--hbm);}
+.rp-card.status-in-progress .rp-badge{border-color:var(--yellow,#e8c940);color:var(--yellow,#e8c940);}
+.rp-card-pdf{font-family:var(--mono);font-size:9px;color:var(--dim);}
+.rp-card.active .rp-card-pdf{color:var(--ram);}
+.rp-card-skel{
+  background:linear-gradient(90deg,var(--bg1),var(--bg2),var(--bg1));
+  background-size:200% 100%;animation:rp-shimmer 1.4s linear infinite;
+  border-color:var(--line);min-height:110px;
+}
+@keyframes rp-shimmer{0%{background-position:200% 0;}100%{background-position:-200% 0;}}
+
+/* Placeholder (archived / planned) */
+.rc-pdf-placeholder{
+  position:relative;height:280px;border:1px dashed var(--line2);
+  margin-bottom:24px;background:var(--bg1);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:10px;padding:24px;text-align:center;
+}
+.rc-pdf-ph-icon{font-family:var(--mono);font-size:32px;color:var(--muted);line-height:1;}
+.rc-pdf-ph-title{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--sub);}
+.rc-pdf-ph-desc{font-size:12px;color:var(--muted);line-height:1.6;max-width:420px;}
+
+.rs-h-sub{
+  display:inline-block;margin-left:6px;color:var(--ram);font-weight:700;
+  font-family:var(--mono);font-size:9px;letter-spacing:0.08em;
+}
+
+@media (max-width:600px){
+  .rp-library{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;}
+  .rp-card{min-height:96px;padding:10px 11px;}
+  .rp-card-title{font-size:12px;}
+}
 .research-sidebar{padding:24px;}
 .rs-block{margin-bottom:28px;}
 .rs-h{
@@ -811,9 +902,9 @@ audio{
   .learn-layout{grid-template-columns:150px 1fr;}
 
   /* research: single column */
-  .research-layout{grid-template-columns:1fr;}
-  .research-main{border-right:none;border-bottom:1px solid var(--line);}
-  .research-sidebar{padding:20px 24px;}
+  .research-layout{display:block;overflow-y:auto;-webkit-overflow-scrolling:touch;}
+  .research-main{border-right:none;border-bottom:1px solid var(--line);overflow:visible;}
+  .research-sidebar{padding:20px 24px;overflow:visible;}
   .rc-stats-row{flex-wrap:wrap;}
 
   /* feed: single column, aside as 3-col strip */
@@ -1361,79 +1452,78 @@ audio{
   <div class="sh">
     <span class="sh-title">Research</span>
     <div class="sh-rule"></div>
-    <span class="sh-meta">The intellectual foundation</span>
+    <span class="sh-meta">The intellectual foundation · <span id="rp-count">loading</span></span>
   </div>
   <div class="research-layout">
     <div class="research-main">
-      <div class="rc-type">Working Paper · Knowware Institute</div>
-      <div class="rc-h">The Ramification Index v2: The Bifurcated Index</div>
-      <div class="rc-byline">Khayyam Wakil · 2025 · 44 years of data (1980–2026)</div>
-      <div class="rc-abstract">A supply-side macroeconomic indicator built on DRAM prices. The v2 introduces bifurcated sub-indices separating commodity DRAM from AI/HBM markets, documents the 2025–2026 RAMageddon event, and demonstrates Granger causality from the RAM index to real GDP growth. 6 of 6 NBER recessions covered; correlation r = 0.41 with real GDP YoY.</div>
-      <div class="rc-pdf-preview">
-        <iframe class="rc-pdf-frame" src="Wakil_RamificationIndex_v2.pdf#page=1&view=FitH&toolbar=0&navpanes=0&scrollbar=0" title="The Ramification Index v2 — paper preview" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
-        <div class="rc-pdf-fade"></div>
-        <a class="rc-pdf-cta" href="Wakil_RamificationIndex_v2.pdf" target="_blank" rel="noopener">
-          <span class="rc-pdf-cta-icon">⤢</span><span>Click to view full paper</span>
-        </a>
+
+      <!-- ── Paper library (data-driven) ───────────────── -->
+      <div class="rp-library-wrap">
+        <div class="rp-library-h">
+          <div class="rc-section-h" style="margin-bottom:0;">Paper library</div>
+          <div class="rp-library-hint" id="rp-library-hint">Select a paper to feature</div>
+        </div>
+        <div class="rp-library" id="rp-library" role="tablist" aria-label="Research papers">
+          <div class="rp-card rp-card-skel" aria-hidden="true"></div>
+          <div class="rp-card rp-card-skel" aria-hidden="true"></div>
+          <div class="rp-card rp-card-skel" aria-hidden="true"></div>
+        </div>
       </div>
-      <div class="rc-stats-row">
-        <div class="rc-stat"><div class="rc-stat-num">6/6</div><div class="rc-stat-lbl">NBER Recessions</div></div>
-        <div class="rc-stat"><div class="rc-stat-num">r = 0.41</div><div class="rc-stat-lbl">GDP Correlation</div></div>
-        <div class="rc-stat"><div class="rc-stat-num" style="color:var(--hbm)">F = 5.83</div><div class="rc-stat-lbl">Granger F-stat</div></div>
-        <div class="rc-stat"><div class="rc-stat-num">44 yrs</div><div class="rc-stat-lbl">Time Series</div></div>
-        <div class="rc-stat"><div class="rc-stat-num" style="color:var(--red)">p &lt;.01</div><div class="rc-stat-lbl">Significance</div></div>
+
+      <div class="rc-divider"></div>
+
+      <!-- ── Featured paper (swapped from library) ─────── -->
+      <div id="rp-featured" class="rp-featured">
+        <div class="rc-type" id="rp-type">Working Paper · Knowware Institute</div>
+        <div class="rc-h" id="rp-title">The Ramification Index</div>
+        <div class="rc-byline" id="rp-byline">Khayyam Wakil · Knowware Institute</div>
+        <div class="rc-note" id="rp-note" hidden></div>
+        <div class="rc-abstract" id="rp-abstract">Loading paper…</div>
+
+        <div class="rc-pdf-preview" id="rp-pdf-preview">
+          <iframe id="rp-pdf-frame" class="rc-pdf-frame" src="" title="Paper preview" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+          <div class="rc-pdf-fade"></div>
+          <a id="rp-pdf-cta" class="rc-pdf-cta" href="#" target="_blank" rel="noopener">
+            <span class="rc-pdf-cta-icon">⤢</span><span>Click to view full paper</span>
+          </a>
+        </div>
+
+        <!-- Placeholder shown when a paper has no PDF (archived / in-prep) -->
+        <div class="rc-pdf-placeholder" id="rp-pdf-placeholder" hidden>
+          <div class="rc-pdf-ph-icon">▣</div>
+          <div class="rc-pdf-ph-title" id="rp-pdf-ph-title">No preview available</div>
+          <div class="rc-pdf-ph-desc" id="rp-pdf-ph-desc">This paper is archived — see version history for the superseding work.</div>
+        </div>
+
+        <div class="rc-stats-row" id="rp-stats"></div>
+        <div class="rc-btns" id="rp-btns"></div>
       </div>
-      <div class="rc-btns">
-        <a class="rc-btn primary" href="Wakil_RamificationIndex_v2.pdf" target="_blank">↓ Download PDF</a>
-        <a class="rc-btn" href="paper.html">Read on web →</a>
-        <a class="rc-btn" href="dashboard.html">Interactive dashboard →</a>
-      </div>
+
       <div class="rc-divider"></div>
       <div class="rc-section-h">Data Sources</div>
-      <div class="rc-sources">
-        <div class="rc-source-row"><span class="rc-source-tag">DRAM prices</span><span class="rc-source-desc">DRAMeXchange / TrendForce quarterly $/GB averages; Amazon spot pricing as proxy; earnings guidance from Micron, Samsung, SK Hynix</span></div>
-        <div class="rc-source-row"><span class="rc-source-tag">GDP series</span><span class="rc-source-desc">U.S. BEA real GDP YoY growth, annualized; FRED series GDPC1; quarterly data 1980–2026</span></div>
-        <div class="rc-source-row"><span class="rc-source-tag">Recessions</span><span class="rc-source-desc">NBER Business Cycle Dating Committee official start/end dates; 6 cycles covered (1980, 1981, 1990, 2001, 2007, 2020)</span></div>
-        <div class="rc-source-row"><span class="rc-source-tag">HBM data</span><span class="rc-source-desc">SK Hynix, Samsung, Micron quarterly earnings; IDC server DRAM shipment data; Omdia HBM revenue estimates</span></div>
-        <div class="rc-source-row"><span class="rc-source-tag">Equities</span><span class="rc-source-desc">Yahoo Finance via yfinance; 11-stock panel: MU, 005930.KS, 000660.KS, 688825.SS, NVDA, TSM, AMD, INTC, QCOM, WDC, STX</span></div>
-        <div class="rc-source-row"><span class="rc-source-tag">v3 corrections</span><span class="rc-source-desc">2026 self-audit: source recovered, 1988 endpoint corrected, 18 years of page series re-synced to the corrected dataset. See <a class="rc-link" href="v3/executive-summary.pdf" target="_blank" rel="noopener">executive summary</a> · <a class="rc-link" href="v3/full-audit.pdf" target="_blank" rel="noopener">full audit</a> · <a class="rc-link" href="v3/methods.html" target="_blank" rel="noopener">methods</a></span></div>
-      </div>
+      <div class="rc-sources" id="rp-sources"></div>
       <div class="rc-divider"></div>
       <div class="rc-section-h">How to Cite</div>
-      <div class="rc-cite">Wakil, K. (2025). <em>The Ramification Index v2: The Bifurcated Index.</em> Knowware Institute. ram-index.com</div>
+      <div class="rc-cite" id="rp-cite">Wakil, K. <em>The Ramification Index.</em> Knowware Institute. ram-index.com</div>
+
     </div>
     <div class="research-sidebar">
-      <div class="rs-block">
+      <div class="rs-block" id="rp-audio-block" hidden>
         <div class="rs-h">Audio Companion</div>
-        <div style="font-size:12px;color:var(--sub);line-height:1.65;margin-bottom:10px;">Why DRAM Prices Predict the Global Economy — ~18 min conversational walkthrough</div>
-        <audio controls src="https://pub-9376ea7b2aaa443b990fa4db2169c954.r2.dev/Why_DRAM_prices_predict_the_global_economy.mp3"></audio>
+        <div id="rp-audio-title" style="font-size:12px;color:var(--sub);line-height:1.65;margin-bottom:10px;"></div>
+        <audio id="rp-audio" controls preload="none"></audio>
       </div>
       <div class="rs-block">
-        <div class="rs-h">Key Findings</div>
-        <div class="rs-item"><span class="rs-item-lbl">Recession signal</span><span class="rs-item-val">6/6 NBER (1980–)</span></div>
-        <div class="rs-item"><span class="rs-item-lbl">GDP correlation</span><span class="rs-item-val">r = 0.41</span></div>
-        <div class="rs-item"><span class="rs-item-lbl">Granger F-stat</span><span class="rs-item-val" style="color:var(--hbm)">5.83 (p&lt;.01)</span></div>
-        <div class="rs-item"><span class="rs-item-lbl">2026 RI reading</span><span class="rs-item-val" id="rs-ri" style="color:var(--ram)">0.863</span></div>
-        <div class="rs-item"><span class="rs-item-lbl">Bifurcation gap</span><span class="rs-item-val" id="rs-gap">R_C − R_AI = 1.20</span></div>
+        <div class="rs-h">Key Findings <span class="rs-h-sub" id="rp-findings-sub"></span></div>
+        <div id="rp-findings"></div>
       </div>
       <div class="rs-block">
         <div class="rs-h">Version History</div>
-        <div class="rs-version">
-          <div class="rs-ver-num" style="color:var(--green)">v3 audit · 2026</div>
-          <div class="rs-ver-desc">Self-audit of the data: source recovered, 1988 endpoint corrected, page series re-generated from the corrected CSV. Charts above now derive from <span style="font-family:var(--mono);font-size:10px;">data/indices-wide-v3.csv</span>.</div>
-        </div>
-        <div class="rs-version">
-          <div class="rs-ver-num" style="color:var(--ram)">v2 · 2025</div>
-          <div class="rs-ver-desc">Bifurcated index: R<sub>C</sub> + R<sub>AI</sub> sub-indices. HBM weight ω introduced. RAMageddon 2026 documented.</div>
-        </div>
-        <div class="rs-version">
-          <div class="rs-ver-num">v1 · 2023</div>
-          <div class="rs-ver-desc">Original composite index. 40 years of data. 6/6 recession signal established. Granger causality confirmed.</div>
-        </div>
+        <div id="rp-history"></div>
       </div>
       <div class="rs-block">
         <div class="rs-h">Related</div>
-        <div class="rs-link-row"><a class="rs-link" href="paper.html">Full paper →</a></div>
+        <div id="rp-related"></div>
         <div class="rs-link-row"><a class="rs-link" href="dashboard.html">Interactive dashboard →</a></div>
         <div class="rs-link-row"><a class="rs-link" href="#" onclick="document.querySelector('.np[data-sec=learn]').click();return false;">Learn: read the primer →</a></div>
       </div>
@@ -2302,7 +2392,7 @@ function navigateTo(sec, pushHistory=true){
   document.getElementById('sec-'+sec).classList.add('active');
   if(sec==='index') requestAnimationFrame(()=>{drawChart('chart-ri-mini',120,false);drawChart('chart-ri-full',240,true);});
   if(sec==='feed') loadFeed();
-  if(pushHistory) history.replaceState(null,'', sec==='index' ? location.pathname : '#'+sec);
+  if(pushHistory && !(sec==='research' && location.hash.startsWith('#research'))) history.replaceState(null,'', sec==='index' ? location.pathname : '#'+sec);
 }
 
 document.querySelectorAll('.np').forEach(btn=>{
@@ -2312,10 +2402,10 @@ document.querySelectorAll('.np').forEach(btn=>{
 // deep-link on load + back/forward support
 (function(){
   const valid = ['index','signals','equities','learn','research','feed'];
-  const hash = location.hash.replace('#','');
+  const hash = location.hash.replace('#','').split('?')[0];
   if(hash && valid.includes(hash)) navigateTo(hash, false);
   window.addEventListener('hashchange',()=>{
-    const h = location.hash.replace('#','');
+    const h = location.hash.replace('#','').split('?')[0];
     if(valid.includes(h)) navigateTo(h, false);
   });
 })();
@@ -2375,6 +2465,7 @@ function applySettings(set){
 }
 
 function applyHeadline(h){
+  if(typeof RP_STATE !== 'undefined') RP_STATE.headline = h;
   const f = (v,dp=2)=> (v==null||isNaN(v)) ? '—' : Number(v).toFixed(dp);
   const fmtPct = (v)=> (v==null||isNaN(v)) ? '—' : ((v>0?'+':'−')+Math.abs(Number(v)).toFixed(1)+'%');
   const money  = (v)=> (v==null||isNaN(v)) ? '—' : '$'+Number(v).toFixed(2);
@@ -2420,6 +2511,239 @@ function applyHeadline(h){
   LEARN.forEach(item=>{ item.facts = item.facts.map(fill); item.p = fill(item.p); });
 }
 
+// ── RESEARCH: data-driven paper showcase (docs/data/papers.json) ─
+const RP_STATE = { papers:[], sources:[], featuredId:null, headline:null };
+
+async function loadPapers(){
+  try{
+    const r = await fetch('data/papers.json?_='+Date.now());
+    if(!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    RP_STATE.papers  = Array.isArray(d.papers) ? d.papers : [];
+    RP_STATE.sources = Array.isArray(d.sources) ? d.sources : [];
+    renderPaperLibrary();
+    renderPaperSources();
+    renderPaperHistory();
+    // pick featured: URL hash override wins, else data default, else first
+    const fromHash = (new URLSearchParams(location.hash.split('?')[1]||'')).get('p');
+    const defaultId = d.featured || (RP_STATE.papers[0] && RP_STATE.papers[0].id);
+    const pick = (fromHash && RP_STATE.papers.find(p=>p.id===fromHash)) ? fromHash : defaultId;
+    selectPaper(pick, { pushHistory:false });
+    const cnt = RP_STATE.papers.length;
+    const el = document.getElementById('rp-count');
+    const pend = RP_STATE.papers.filter(p=>p.status==='planned'||p.status==='in-progress').length;
+    if(el) el.textContent = pend ? (cnt-pend) + ' published · ' + pend + ' upcoming' : cnt + (cnt===1?' paper':' papers');
+  }catch(err){
+    const el = document.getElementById('rp-count');
+    if(el) el.textContent = 'paper library unavailable';
+    const lib = document.getElementById('rp-library');
+    if(lib) lib.innerHTML = '<div style="font-family:var(--mono);font-size:10px;color:var(--muted);padding:8px 0;">Could not load paper library — see <a class="rc-link" href="Wakil_RamificationIndex_v2.pdf" target="_blank" rel="noopener">v2 PDF</a> as a fallback.</div>';
+  }
+}
+
+function renderPaperLibrary(){
+  const lib = document.getElementById('rp-library');
+  if(!lib) return;
+  lib.innerHTML = '';
+  RP_STATE.papers.forEach(p=>{
+    const card = document.createElement('button');
+    card.type = 'button';
+    card.className = 'rp-card status-' + (p.status||'published');
+    card.setAttribute('role','tab');
+    card.dataset.id = p.id;
+    card.setAttribute('aria-selected', 'false');
+    card.setAttribute('aria-label', (p.version||'') + ' — ' + (p.title||''));
+    card.innerHTML = ''
+      + '<div class="rp-card-top">'
+      +   '<span class="rp-card-ver">' + escapeHtml(p.slot || p.version || '') + '</span>'
+      +   '<span class="rp-card-date">' + escapeHtml(p.dateLabel || p.date || '') + '</span>'
+      + '</div>'
+      + '<div class="rp-card-title">' + escapeHtml(p.title || '') + '</div>'
+      + '<div class="rp-card-thesis">' + escapeHtml(p.thesis || '') + '</div>'
+      + (p.note && p.note.chip ? '<div class="rp-card-chip">↳ ' + escapeHtml(p.note.chip) + '</div>' : '')
+      + '<div class="rp-card-bot">'
+      +   '<span class="rp-badge">' + escapeHtml(p.statusLabel || p.status || '') + '</span>'
+      +   '<span class="rp-card-pdf">' + (p.pdf ? 'PDF' : '—') + '</span>'
+      + '</div>';
+    card.addEventListener('click', ()=> selectPaper(p.id, { pushHistory:true }));
+    card.addEventListener('keydown', e=>{
+      if(e.key==='Enter'||e.key===' '){ e.preventDefault(); selectPaper(p.id,{pushHistory:true}); }
+    });
+    lib.appendChild(card);
+  });
+}
+
+function renderPaperSources(){
+  const el = document.getElementById('rp-sources');
+  if(!el) return;
+  el.innerHTML = RP_STATE.sources.map(s=>
+    '<div class="rc-source-row"><span class="rc-source-tag">'
+    + escapeHtml(s.tag||'') + '</span><span class="rc-source-desc">'
+    + (s.desc||'') + '</span></div>'
+  ).join('');
+}
+
+function renderPaperHistory(){
+  const el = document.getElementById('rp-history');
+  if(!el) return;
+  // Group entries by major version for the sidebar history
+  const majors = {};
+  RP_STATE.papers.forEach(p=>{
+    const v = p.version || 'v?';
+    if(!majors[v]) majors[v] = [];
+    majors[v].push(p);
+  });
+  const order = ['v4','v3','v2','v1'];
+  const seen = new Set();
+  const out = [];
+  order.concat(Object.keys(majors)).forEach(v=>{
+    if(seen.has(v) || !majors[v]) return;
+    seen.add(v);
+    majors[v].forEach(p=>{
+      const color = p.status==='archived' ? 'var(--muted)'
+                   : p.version==='v4' ? 'var(--hbm)'
+                   : p.version==='v3' ? 'var(--green,#4ea84e)'
+                   : p.version==='v2' ? 'var(--ram)'
+                   : 'var(--sub)';
+      out.push(''
+        + '<div class="rs-version">'
+        +   '<div class="rs-ver-num" style="color:'+color+'">'
+        +     escapeHtml(p.slot || p.version) + ' · ' + escapeHtml(p.dateLabel||p.date||'')
+        +   '</div>'
+        +   '<div class="rs-ver-desc">' + escapeHtml(p.thesis||'') + '</div>'
+        + '</div>'
+      );
+    });
+  });
+  el.innerHTML = out.join('');
+}
+
+function selectPaper(id, opts){
+  const o = opts || {};
+  const p = RP_STATE.papers.find(x=>x.id===id) || RP_STATE.papers[0];
+  if(!p) return;
+  RP_STATE.featuredId = p.id;
+  // library highlight
+  document.querySelectorAll('.rp-card').forEach(c=>{
+    const on = c.dataset.id === p.id;
+    c.classList.toggle('active', on);
+    c.setAttribute('aria-selected', on ? 'true' : 'false');
+  });
+  // text
+  const set = (id,txt)=>{ const el=document.getElementById(id); if(el) el.textContent = txt; };
+  set('rp-type',     p.type || '');
+  set('rp-title',    p.title || '');
+  set('rp-byline',   p.byline || '');
+  set('rp-abstract', p.abstract || '');
+  // restatement / status note (optional per paper)
+  const noteEl = document.getElementById('rp-note');
+  if(noteEl){
+    if(p.note && p.note.text){
+      const target = p.note.to && RP_STATE.papers.find(x=>x.id===p.note.to);
+      noteEl.innerHTML = escapeHtml(p.note.text)
+        + (target ? ' <a href="#research?p='+escapeAttr(target.id)+'" data-rp-jump="'+escapeAttr(target.id)+'">'+escapeHtml(p.note.toLabel || 'See more →')+'</a>' : '');
+      noteEl.hidden = false;
+      const jump = noteEl.querySelector('[data-rp-jump]');
+      if(jump) jump.addEventListener('click', e=>{ e.preventDefault(); selectPaper(jump.dataset.rpJump, { pushHistory:true }); });
+    }else{
+      noteEl.hidden = true; noteEl.textContent = '';
+    }
+  }
+  // PDF vs placeholder
+  const preview = document.getElementById('rp-pdf-preview');
+  const placeholder = document.getElementById('rp-pdf-placeholder');
+  if(p.pdf){
+    const frame = document.getElementById('rp-pdf-frame');
+    const cta   = document.getElementById('rp-pdf-cta');
+    if(frame) frame.src = p.pdf + '#page=1&view=FitH&toolbar=0&navpanes=0&scrollbar=0';
+    if(cta)   cta.href  = p.pdf;
+    preview.hidden = false;
+    placeholder.hidden = true;
+  }else{
+    preview.hidden = true;
+    placeholder.hidden = false;
+    set('rp-pdf-ph-title', p.statusLabel || 'No preview available');
+    set('rp-pdf-ph-desc',
+      p.status==='archived' ? 'This paper is archived. See version history for the superseding work.'
+      : p.status==='planned' ? 'This paper is planned. Updates will appear here as the draft is published.'
+      : p.status==='in-progress' ? 'This paper is in preparation. Interim notes appear in the version history.'
+      : 'No PDF is available for this entry yet.');
+  }
+  // audio companion (per paper; hidden when the entry has none)
+  const aBlock = document.getElementById('rp-audio-block');
+  const aEl = document.getElementById('rp-audio');
+  if(aBlock && aEl){
+    if(p.audio && p.audio.src){
+      if(aEl.getAttribute('src') !== p.audio.src){ aEl.pause(); aEl.src = p.audio.src; }
+      set('rp-audio-title', p.audio.title || '');
+      aBlock.hidden = false;
+    }else{
+      aEl.pause(); aEl.removeAttribute('src'); aEl.load();
+      aBlock.hidden = true;
+    }
+  }
+  // stats
+  const stats = document.getElementById('rp-stats');
+  stats.innerHTML = (p.stats||[]).map(s=>{
+    const color = s.color ? ' style="color:var(--'+s.color+')"' : '';
+    return '<div class="rc-stat"><div class="rc-stat-num"'+color+'>'+escapeHtml(s.num)+'</div><div class="rc-stat-lbl">'+escapeHtml(s.label)+'</div></div>';
+  }).join('');
+  stats.style.display = (p.stats && p.stats.length) ? '' : 'none';
+  // buttons
+  const btns = document.getElementById('rp-btns');
+  btns.innerHTML = (p.links||[]).map(l=>{
+    const cls = 'rc-btn' + (l.primary ? ' primary' : '');
+    const tgt = l.newTab ? ' target="_blank" rel="noopener"' : '';
+    return '<a class="'+cls+'" href="'+escapeAttr(l.href)+'"'+tgt+'>'+escapeHtml(l.label)+'</a>';
+  }).join('');
+  btns.style.display = (p.links && p.links.length) ? '' : 'none';
+  // sidebar findings
+  const findings = document.getElementById('rp-findings');
+  findings.innerHTML = (p.findings||[]).map(f=>{
+    const color = f.color ? ' style="color:var(--'+f.color+')"' : '';
+    const id    = f.id    ? ' id="'+escapeAttr(f.id)+'"' : '';
+    return '<div class="rs-item"><span class="rs-item-lbl">'+escapeHtml(f.lbl)+'</span><span class="rs-item-val"'+color+id+'>'+escapeHtml(f.val)+'</span></div>';
+  }).join('');
+  const sub = document.getElementById('rp-findings-sub');
+  if(sub) sub.textContent = p.slot || p.version || '';
+  // related: web/PDF/cite links for this paper
+  const related = document.getElementById('rp-related');
+  const rel = [];
+  if(p.pdf)    rel.push({label:'Download PDF →', href:p.pdf, newTab:true});
+  if(p.webUrl) rel.push({label:'Read on web →', href:p.webUrl});
+  related.innerHTML = rel.map(l=>{
+    const tgt = l.newTab ? ' target="_blank" rel="noopener"' : '';
+    return '<div class="rs-link-row"><a class="rs-link" href="'+escapeAttr(l.href)+'"'+tgt+'>'+escapeHtml(l.label)+'</a></div>';
+  }).join('');
+  // cite
+  const cite = document.getElementById('rp-cite');
+  if(cite) cite.innerHTML = p.cite || '';
+  // re-apply any cached headline so rs-ri / rs-gap etc stay live
+  if(RP_STATE.headline) applyHeadline(RP_STATE.headline);
+  // URL hash
+  if(o.pushHistory){
+    const cur = location.hash.startsWith('#research') ? '#research' : (location.hash||'');
+    const target = '#research?p=' + encodeURIComponent(p.id);
+    history.replaceState(null,'', target);
+  }
+}
+
+function escapeHtml(s){
+  return String(s==null?'':s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function escapeAttr(s){ return escapeHtml(s); }
+
+// If a #research?p=… hash lands later (hashchange), switch paper
+window.addEventListener('hashchange', ()=>{
+  if(location.hash.startsWith('#research')){
+    const q = location.hash.split('?')[1]||'';
+    const id = new URLSearchParams(q).get('p');
+    if(id && RP_STATE.papers.find(x=>x.id===id)) selectPaper(id, { pushHistory:false });
+  }
+});
+
 // ── BOOT ─────────────────────────────────────────────────
 window.addEventListener('load', async ()=>{
   await loadRiData();
@@ -2431,6 +2755,7 @@ window.addEventListener('load', async ()=>{
   loadStocks();
   renderLearn(0);
   loadFeed();
+  loadPapers();
   setInterval(loadStocks, 15*60*1000);
 });
 window.addEventListener('resize',()=>{
