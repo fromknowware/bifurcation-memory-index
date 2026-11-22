@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-21T19:12:07.888Z",
-  "count": 2904,
+  "generatedAt": "2026-11-22T06:43:01.780Z",
+  "count": 2909,
   "stories": [
+    {
+      "slug": "samsung-sk-hynix-face-ai-memory-doubts-despite-recor-e1c33e38",
+      "url": "/stories/samsung-sk-hynix-face-ai-memory-doubts-despite-recor-e1c33e38.html",
+      "title": "Samsung, SK hynix face AI memory doubts despite record profits as shares slide - Korea JoongAng Daily",
+      "tag": "demand",
+      "date": "2026-11-22",
+      "score": 7,
+      "pick": false,
+      "source": "Korea JoongAng Daily",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "son-s-reported-sk-hynix-acquisition-plan-faces-finan-827bf15c",
+      "url": "/stories/son-s-reported-sk-hynix-acquisition-plan-faces-finan-827bf15c.html",
+      "title": "Son's reported SK hynix acquisition plan faces financing, approval hurdles - Chosunbiz",
+      "tag": "supply",
+      "date": "2026-11-22",
+      "score": 8,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "phison-previews-an-ssd-that-runs-ai-frameworks-on-it-baed3912",
+      "url": "/stories/phison-previews-an-ssd-that-runs-ai-frameworks-on-it-baed3912.html",
+      "title": "Phison Previews an SSD That Runs AI Frameworks on Its Own NPU",
+      "tag": "supply",
+      "date": "2026-11-22",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "thinking-machines-unveils-inkling-2-mini-a-powerful-2fcba1b5",
+      "url": "/stories/thinking-machines-unveils-inkling-2-mini-a-powerful-2fcba1b5.html",
+      "title": "Thinking Machines Unveils Inkling 2 Mini, A Powerful 26B Parameter AI Model That Runs Locally On MacBooks With Just 32GB RAM",
+      "tag": "supply",
+      "date": "2026-11-21",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "coatue-management-bets-on-sk-hynix-stock-as-demand-f-1e58e058",
+      "url": "/stories/coatue-management-bets-on-sk-hynix-stock-as-demand-f-1e58e058.html",
+      "title": "Coatue Management Bets on SK hynix Stock as Demand for HBM Chips Accelerates - Yahoo Finance",
+      "tag": "demand",
+      "date": "2026-11-21",
+      "score": 7,
+      "pick": false,
+      "source": "Yahoo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "intel-s-16-core-nova-lake-h-leaked-spec-sheet-lists-3772e661",
       "url": "/stories/intel-s-16-core-nova-lake-h-leaked-spec-sheet-lists-3772e661.html",
