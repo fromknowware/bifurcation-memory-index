@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-11-22T06:43:01.780Z",
-  "count": 2909,
+  "generatedAt": "2026-11-22T19:34:42.161Z",
+  "count": 2916,
   "stories": [
+    {
+      "slug": "intel-039-s-cheapest-arc-g3-handheld-chip-reportedly-b452be83",
+      "url": "/stories/intel-039-s-cheapest-arc-g3-handheld-chip-reportedly-b452be83.html",
+      "title": "Intel&#039;s Cheapest Arc G3 Handheld Chip Reportedly Called \"Arc G3 Play\"",
+      "tag": "supply",
+      "date": "2026-11-22",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "exclusive-could-an-ai-nose-have-stopped-intel-s-600-d00f3753",
+      "url": "/stories/exclusive-could-an-ai-nose-have-stopped-intel-s-600-d00f3753.html",
+      "title": "Exclusive: Could An “AI Nose” Have Stopped Intel’s $600 Million Israel Fab Disaster? Inside The $9 Million Bet By Ainos To Give Chip Factories a Sense of Smell",
+      "tag": "fab",
+      "date": "2026-11-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "elon-musk-blames-memory-and-storage-price-hikes-for-8de9d5fc",
+      "url": "/stories/elon-musk-blames-memory-and-storage-price-hikes-for-8de9d5fc.html",
+      "title": "Elon Musk Blames Memory And Storage Price Hikes For Doubling Tesla’s AI4 Computer Costs, Says It “Costs Twice As Much”",
+      "tag": "supply",
+      "date": "2026-11-22",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "tsmc-reportedly-pauses-shipments-to-chinese-designer-d0b2f90c",
+      "url": "/stories/tsmc-reportedly-pauses-shipments-to-chinese-designer-d0b2f90c.html",
+      "title": "TSMC reportedly pauses shipments to Chinese designers after U.S. export rules flag decade-old 16nm and 14nm nodes",
+      "tag": "fab",
+      "date": "2026-11-22",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "lenders-back-spacex-s-43-billion-nvidia-gpu-deal-but-3b08be26",
+      "url": "/stories/lenders-back-spacex-s-43-billion-nvidia-gpu-deal-but-3b08be26.html",
+      "title": "Lenders back SpaceX's $43 billion Nvidia GPU deal but worry the collateral could end up in orbit, making them impossible to reclaim if Musk defaults",
+      "tag": "demand",
+      "date": "2026-11-22",
+      "score": 7,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "cxmt-lpddr6-mass-production-solving-edge-ai-memory-b-9f3e2052",
+      "url": "/stories/cxmt-lpddr6-mass-production-solving-edge-ai-memory-b-9f3e2052.html",
+      "title": "CXMT LPDDR6 Mass Production: Solving Edge AI Memory Bottlenecks - Intelligent Living",
+      "tag": "demand",
+      "date": "2026-11-22",
+      "score": 7,
+      "pick": false,
+      "source": "Intelligent Living",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-s-621-35-hotfix-driver-still-writes-excessive-2ecac53c",
+      "url": "/stories/nvidia-s-621-35-hotfix-driver-still-writes-excessive-2ecac53c.html",
+      "title": "NVIDIA’s 621.35 Hotfix Driver Still Writes Excessively To The SSD; One User Claims 36GB Was Already Recorded When His PC Was Running Idle Overnight",
+      "tag": "demand",
+      "date": "2026-11-22",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "samsung-sk-hynix-face-ai-memory-doubts-despite-recor-e1c33e38",
       "url": "/stories/samsung-sk-hynix-face-ai-memory-doubts-despite-recor-e1c33e38.html",
