@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-11-22T19:34:42.161Z",
-  "count": 2916,
+  "generatedAt": "2026-11-23T07:32:32.558Z",
+  "count": 2921,
   "stories": [
+    {
+      "slug": "tesla-s-ai4-computer-bill-of-materials-doubles-as-me-e1a8c6e7",
+      "url": "/stories/tesla-s-ai4-computer-bill-of-materials-doubles-as-me-e1a8c6e7.html",
+      "title": "Tesla's AI4 Computer Bill of Materials Doubles as Memory Prices Surge; Musk Says AI5 Chip Goes to Optimus, Not Cars - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-23",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nand-contract-prices-seen-falling-up-to-5-in-q1-2027-26315c1c",
+      "url": "/stories/nand-contract-prices-seen-falling-up-to-5-in-q1-2027-26315c1c.html",
+      "title": "NAND Contract Prices Seen Falling Up to 5% in Q1 2027; Samsung, SK Hynix Bet on eSSD - BigGo Finance",
+      "tag": "earnings",
+      "date": "2026-11-23",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "goldman-sachs-says-dram-prices-would-need-to-crater-17f585dc",
+      "url": "/stories/goldman-sachs-says-dram-prices-would-need-to-crater-17f585dc.html",
+      "title": "Goldman Sachs says DRAM prices would need to crater before memory buyers walk away from long-term deals - Crypto Briefing",
+      "tag": "supply",
+      "date": "2026-11-23",
+      "score": 8,
+      "pick": false,
+      "source": "Crypto Briefing",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "rtx-5090-vs-ryzen-ai-max-395-for-local-ai-speed-and-142a0d4d",
+      "url": "/stories/rtx-5090-vs-ryzen-ai-max-395-for-local-ai-speed-and-142a0d4d.html",
+      "title": "RTX 5090 vs Ryzen AI Max+ 395 for local AI: speed and memory - Kingy AI",
+      "tag": "demand",
+      "date": "2026-11-22",
+      "score": 7,
+      "pick": false,
+      "source": "Kingy AI",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "intel-039-s-cheapest-arc-g3-handheld-chip-reportedly-b452be83",
       "url": "/stories/intel-039-s-cheapest-arc-g3-handheld-chip-reportedly-b452be83.html",
@@ -23,6 +67,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "elon-musk-blames-memory-and-storage-price-hikes-for-30da5e56",
+      "url": "/stories/elon-musk-blames-memory-and-storage-price-hikes-for-30da5e56.html",
+      "title": "Elon Musk Blames Memory And Storage Price Hikes For Doubling Tesla’s AI4 Computer Costs, Says It “Costs Twice As Much” - Wccftech",
+      "tag": "supply",
+      "date": "2026-11-22",
+      "score": 8,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "elon-musk-blames-memory-and-storage-price-hikes-for-8de9d5fc",
