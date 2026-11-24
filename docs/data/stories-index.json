@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-11-23T23:50:36.690Z",
-  "count": 2947,
+  "generatedAt": "2026-11-24T09:51:09.208Z",
+  "count": 2959,
   "stories": [
+    {
+      "slug": "data-center-curbs-could-flip-dram-to-oversupply-by-2-b987154b",
+      "url": "/stories/data-center-curbs-could-flip-dram-to-oversupply-by-2-b987154b.html",
+      "title": "Data Center Curbs Could Flip DRAM to Oversupply by 2028 - Seoul Economic Daily",
+      "tag": "demand",
+      "date": "2026-11-24",
+      "score": 7,
+      "pick": false,
+      "source": "Seoul Economic Daily",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "why-ai-struggles-to-reuse-chip-designs-f7cf700e",
+      "url": "/stories/why-ai-struggles-to-reuse-chip-designs-f7cf700e.html",
+      "title": "Why AI Struggles To Reuse Chip Designs",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ai-can-read-the-code-but-can-it-understand-the-chip-88711fc3",
+      "url": "/stories/ai-can-read-the-code-but-can-it-understand-the-chip-88711fc3.html",
+      "title": "AI Can Read The Code, But Can It Understand The Chip?",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "how-can-ai-build-faster-and-better-silicon-for-physi-e16743c5",
+      "url": "/stories/how-can-ai-build-faster-and-better-silicon-for-physi-e16743c5.html",
+      "title": "How Can AI Build Faster And Better Silicon For Physical AI?",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "SemiEngineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "apple-nears-4-5-year-dram-deal-with-samsung-a-break-3f1065ca",
+      "url": "/stories/apple-nears-4-5-year-dram-deal-with-samsung-a-break-3f1065ca.html",
+      "title": "Apple nears 4-5 year DRAM deal with Samsung, a break from short contracts - Pasquale Pillitteri",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "Pasquale Pillitteri",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-recruits-korean-chip-engineers-for-asian-oper-a2fdca0a",
+      "url": "/stories/micron-recruits-korean-chip-engineers-for-asian-oper-a2fdca0a.html",
+      "title": "Micron recruits Korean chip engineers for Asian operations - The Korea Herald",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "The Korea Herald",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "hewlett-packard-memory-supply-shortage-to-continue-u-3c9375b2",
+      "url": "/stories/hewlett-packard-memory-supply-shortage-to-continue-u-3c9375b2.html",
+      "title": "Hewlett Packard: Memory Supply Shortage to Continue Until Second Half of 2028 - news.sbs.co.kr",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "news.sbs.co.kr",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "jensen-huang-s-return-eases-hbm-uncertainty-for-sams-74a6bd40",
+      "url": "/stories/jensen-huang-s-return-eases-hbm-uncertainty-for-sams-74a6bd40.html",
+      "title": "Jensen Huang’s return eases HBM uncertainty for Samsung, SK hynix - The Korea Herald",
+      "tag": "demand",
+      "date": "2026-11-24",
+      "score": 7,
+      "pick": false,
+      "source": "The Korea Herald",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "reported-45-ai-server-price-hike-on-signed-deals-sha-0c2760fe",
+      "url": "/stories/reported-45-ai-server-price-hike-on-signed-deals-sha-0c2760fe.html",
+      "title": "Reported 45% AI Server Price Hike on Signed Deals - shattered.io",
+      "tag": "demand",
+      "date": "2026-11-24",
+      "score": 7,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "goldman-sachs-forecast-20-memory-chip-price-drop-exp-2b25ea22",
+      "url": "/stories/goldman-sachs-forecast-20-memory-chip-price-drop-exp-2b25ea22.html",
+      "title": "Goldman Sachs Forecast: 20% Memory Chip Price Drop Expected in 2028 - 36Kr",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "36Kr",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "report-samsung-039-s-2027-dram-supply-is-effectively-68f679d1",
+      "url": "/stories/report-samsung-039-s-2027-dram-supply-is-effectively-68f679d1.html",
+      "title": "Report: Samsung&#039;s 2027 DRAM Supply Is Effectively Sold Out",
+      "tag": "supply",
+      "date": "2026-11-23",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "put-your-gpu-to-work-offline-ai-video-enhancement-wi-177013ab",
       "url": "/stories/put-your-gpu-to-work-offline-ai-video-enhancement-wi-177013ab.html",
@@ -12,6 +133,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "smoke-and-mirrors-micron-s-president-slammed-rival-d-81842c3b",
+      "url": "/stories/smoke-and-mirrors-micron-s-president-slammed-rival-d-81842c3b.html",
+      "title": "“Smoke and Mirrors”: Micron’s President Slammed Rival DRAM Designs. We’ll Know Soon if He’s Right - TIKR.com",
+      "tag": "supply",
+      "date": "2026-11-23",
+      "score": 8,
+      "pick": false,
+      "source": "TIKR.com",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "ai-server-buyers-face-surprise-price-hikes-after-sig-87aaabdc",
