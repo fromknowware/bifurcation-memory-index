@@ -1,7 +1,194 @@
 {
-  "generatedAt": "2026-11-24T09:51:09.208Z",
-  "count": 2959,
+  "generatedAt": "2026-11-24T22:23:36.300Z",
+  "count": 2977,
   "stories": [
+    {
+      "slug": "forget-cheaper-ram-samsung-has-already-sold-out-its-9fec7431",
+      "url": "/stories/forget-cheaper-ram-samsung-has-already-sold-out-its-9fec7431.html",
+      "title": "Forget cheaper RAM: Samsung has already sold out its 2027 DRAM production capacity - TweakTown",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "TweakTown",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-hp-inc-reports-fiscal-2026-full-year-and-fourth-q-33166fbd",
+      "url": "/stories/pr-hp-inc-reports-fiscal-2026-full-year-and-fourth-q-33166fbd.html",
+      "title": "(PR) HP Inc. Reports Fiscal 2026 Full Year and Fourth Quarter Results",
+      "tag": "earnings",
+      "date": "2026-11-24",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "pr-dell-technologies-delivers-third-quarter-fiscal-2-7bfae358",
+      "url": "/stories/pr-dell-technologies-delivers-third-quarter-fiscal-2-7bfae358.html",
+      "title": "(PR) Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results",
+      "tag": "earnings",
+      "date": "2026-11-24",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "hbm-prices-to-double-big-tech-shakes-market-0f4cd164",
+      "url": "/stories/hbm-prices-to-double-big-tech-shakes-market-0f4cd164.html",
+      "title": "HBM Prices to Double, Big Tech Shakes Market - 조선일보",
+      "tag": "demand",
+      "date": "2026-11-24",
+      "score": 7,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "wall-street-sees-big-tech-ai-capex-hitting-1-4-trill-e26ffcf9",
+      "url": "/stories/wall-street-sees-big-tech-ai-capex-hitting-1-4-trill-e26ffcf9.html",
+      "title": "Wall Street Sees Big Tech AI Capex Hitting $1.4 Trillion Next Year; Samsung, SK Hynix Memory Boom Expected to Extend - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "these-are-the-four-cheapest-32gb-ddr5-memory-kits-we-275df8c3",
+      "url": "/stories/these-are-the-four-cheapest-32gb-ddr5-memory-kits-we-275df8c3.html",
+      "title": "These are the four cheapest 32GB DDR5 memory kits we’ve found",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "chinese-firm-with-first-domestic-euv-light-source-pr-bf9be2c4",
+      "url": "/stories/chinese-firm-with-first-domestic-euv-light-source-pr-bf9be2c4.html",
+      "title": "Chinese Firm With First Domestic EUV Light Source Prototype Raises 50 Million Yuan In Funding & Says It Relies On Cheaper EUV Mirrors And Wider Tin Nozzles",
+      "tag": "fab",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ram-price-tracking-2026-9f7254db",
+      "url": "/stories/ram-price-tracking-2026-9f7254db.html",
+      "title": "RAM price tracking 2026",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "the-ssd-crisis-is-being-defeated-with-black-friday-1-9626441c",
+      "url": "/stories/the-ssd-crisis-is-being-defeated-with-black-friday-1-9626441c.html",
+      "title": "The SSD crisis is being defeated with Black Friday 1TB and 2TB deals at less than $0.15 per GB",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "jedec-updates-lpddr6-to-address-mobile-and-ai-memory-8fb6d82d",
+      "url": "/stories/jedec-updates-lpddr6-to-address-mobile-and-ai-memory-8fb6d82d.html",
+      "title": "Jedec updates LPDDR6 to address mobile and AI memory performance - Electronics Weekly",
+      "tag": "demand",
+      "date": "2026-11-24",
+      "score": 7,
+      "pick": false,
+      "source": "Electronics Weekly",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "amd-s-jack-huynh-breaks-gpu-frequency-world-record-b-43b75476",
+      "url": "/stories/amd-s-jack-huynh-breaks-gpu-frequency-world-record-b-43b75476.html",
+      "title": "AMD’s Jack Huynh Breaks GPU Frequency World Record By Pushing Radeon RX 9060 XT To A Whopping 4.837 GHz",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "how-trump-and-silicon-valley-forced-nvidia-to-take-j-b2d610c3",
+      "url": "/stories/how-trump-and-silicon-valley-forced-nvidia-to-take-j-b2d610c3.html",
+      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+      "tag": "demand",
+      "date": "2026-11-24",
+      "score": 7,
+      "pick": false,
+      "source": "Ars Technica",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "the-cheapest-32gb-ddr5-6000-ram-kit-on-the-market-is-9b3a3909",
+      "url": "/stories/the-cheapest-32gb-ddr5-6000-ram-kit-on-the-market-is-9b3a3909.html",
+      "title": "The cheapest 32GB DDR5-6000 RAM kit on the market is on sale for only $439 – Team’s 32GB DDR5-6000 CL38 T-Force Delta RGB RAM kit is $110 off with promo code, no bundle deals needed - Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "the-cheapest-32gb-ddr5-6000-ram-kit-on-the-market-is-fd560008",
+      "url": "/stories/the-cheapest-32gb-ddr5-6000-ram-kit-on-the-market-is-fd560008.html",
+      "title": "The cheapest 32GB DDR5-6000 RAM kit on the market is on sale for only $439",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-under-returning-ceo-jensen-huang-faces-tighte-92b11195",
+      "url": "/stories/nvidia-under-returning-ceo-jensen-huang-faces-tighte-92b11195.html",
+      "title": "NVIDIA Under Returning CEO Jensen Huang Faces Tighter GPU Sales Restrictions, Curtailed Leasing, Shipment Investigations And Lawsuits, Says Analyst Ming-Chi Kuo",
+      "tag": "demand",
+      "date": "2026-11-24",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "asus-may-cut-ram-to-8gb-on-budget-laptops-as-memory-0e61cc3c",
+      "url": "/stories/asus-may-cut-ram-to-8gb-on-budget-laptops-as-memory-0e61cc3c.html",
+      "title": "ASUS may cut RAM to 8GB on budget laptops as memory costs surge - Pasquale Pillitteri",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "Pasquale Pillitteri",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "micron-pounding-the-buy-table-double-upgrade-seeking-c75cf9ec",
+      "url": "/stories/micron-pounding-the-buy-table-double-upgrade-seeking-c75cf9ec.html",
+      "title": "Micron: Pounding The Buy Table (Double Upgrade) - Seeking Alpha",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "Seeking Alpha",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "data-center-curbs-could-flip-dram-to-oversupply-by-2-b987154b",
       "url": "/stories/data-center-curbs-could-flip-dram-to-oversupply-by-2-b987154b.html",
@@ -110,6 +297,17 @@
       "score": 8,
       "pick": false,
       "source": "36Kr",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "report-samsung-s-2027-dram-supply-is-effectively-sol-9b3d7def",
+      "url": "/stories/report-samsung-s-2027-dram-supply-is-effectively-sol-9b3d7def.html",
+      "title": "Report: Samsung's 2027 DRAM Supply Is Effectively Sold Out - TechPowerUp",
+      "tag": "supply",
+      "date": "2026-11-23",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
