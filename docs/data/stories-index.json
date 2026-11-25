@@ -1,7 +1,150 @@
 {
-  "generatedAt": "2026-11-24T22:23:36.300Z",
-  "count": 2977,
+  "generatedAt": "2026-11-25T08:28:22.462Z",
+  "count": 2991,
   "stories": [
+    {
+      "slug": "nvidia-s-gpu-display-driver-bug-writing-excessive-to-6acc332b",
+      "url": "/stories/nvidia-s-gpu-display-driver-bug-writing-excessive-to-6acc332b.html",
+      "title": "NVIDIA’s GPU Display Driver Bug Writing Excessive To The SSD Can Also Impact Gaming Performance; Tests Show A 20FPS Difference In MW4, So Update Or Roll Back Now",
+      "tag": "demand",
+      "date": "2026-11-25",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "dram-market-bulletin-nov-25-2026-trendforce-a0482523",
+      "url": "/stories/dram-market-bulletin-nov-25-2026-trendforce-a0482523.html",
+      "title": "DRAM Market Bulletin - Nov. 25, 2026 - TrendForce",
+      "tag": "supply",
+      "date": "2026-11-25",
+      "score": 8,
+      "pick": false,
+      "source": "TrendForce",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "dell-technologies-dell-predicts-continued-rise-in-se-5e5eb7d5",
+      "url": "/stories/dell-technologies-dell-predicts-continued-rise-in-se-5e5eb7d5.html",
+      "title": "Dell Technologies (DELL) Predicts Continued Rise in Server DRAM and NAND Prices - GuruFocus",
+      "tag": "supply",
+      "date": "2026-11-25",
+      "score": 8,
+      "pick": false,
+      "source": "GuruFocus",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nand-spot-prices-plunge-20-percent-while-dram-holds-ff609df5",
+      "url": "/stories/nand-spot-prices-plunge-20-percent-while-dram-holds-ff609df5.html",
+      "title": "NAND spot prices plunge 20 percent while DRAM holds up; memory market polarisation seen in 2027 - 디지털투데이",
+      "tag": "supply",
+      "date": "2026-11-25",
+      "score": 8,
+      "pick": false,
+      "source": "디지털투데이",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sk-hynix-highs-continue-to-decline-toward-recent-low-3029bfe7",
+      "url": "/stories/sk-hynix-highs-continue-to-decline-toward-recent-low-3029bfe7.html",
+      "title": "SK Hynix Highs Continue to Decline Toward Recent Lows as Key $100 Support Faces Test - TradingKey",
+      "tag": "supply",
+      "date": "2026-11-25",
+      "score": 8,
+      "pick": false,
+      "source": "TradingKey",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sandisk-reaffirms-1-2zb-ai-storage-forecast-with-no-d3090d8b",
+      "url": "/stories/sandisk-reaffirms-1-2zb-ai-storage-forecast-with-no-d3090d8b.html",
+      "title": "SanDisk Reaffirms 1.2ZB AI Storage Forecast With No Downside Risk; SLC Shift Could Shrink NAND Supply by 4% - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-25",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "debate-over-ai-memory-boom-s-peak-intensifies-as-mic-0953979f",
+      "url": "/stories/debate-over-ai-memory-boom-s-peak-intensifies-as-mic-0953979f.html",
+      "title": "Debate Over AI Memory Boom's Peak Intensifies as Micron Price Target Halved, Chip Stocks Waver - BigGo Finance",
+      "tag": "demand",
+      "date": "2026-11-25",
+      "score": 7,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "tariff-and-memory-glut-concerns-cut-jensen-huang-ral-ac232a16",
+      "url": "/stories/tariff-and-memory-glut-concerns-cut-jensen-huang-ral-ac232a16.html",
+      "title": "Tariff and memory glut concerns cut Jensen Huang rally short; KOSPI slips to the 4,700 level : Finance : JKN - 재경일보",
+      "tag": "macro",
+      "date": "2026-11-25",
+      "score": 6,
+      "pick": false,
+      "source": "재경일보",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "samsung-doubles-down-on-v9-nand-in-china-4d7d9611",
+      "url": "/stories/samsung-doubles-down-on-v9-nand-in-china-4d7d9611.html",
+      "title": "Samsung Doubles Down on V9 NAND in China",
+      "tag": "fab",
+      "date": "2026-11-25",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ai-dram-shortage-apple-and-samsung-cut-2027-phone-sh-f1fe1de1",
+      "url": "/stories/ai-dram-shortage-apple-and-samsung-cut-2027-phone-sh-f1fe1de1.html",
+      "title": "AI DRAM Shortage: Apple and Samsung Cut 2027 Phone Shipments - explainx.ai",
+      "tag": "supply",
+      "date": "2026-11-25",
+      "score": 8,
+      "pick": false,
+      "source": "explainx.ai",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amd-039-s-jack-huynh-sets-a-new-gpu-clock-speed-reco-5828397a",
+      "url": "/stories/amd-039-s-jack-huynh-sets-a-new-gpu-clock-speed-reco-5828397a.html",
+      "title": "AMD&#039;s Jack Huynh Sets a New GPU Clock Speed Record With the Radeon RX 9060 XT",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nand-spot-prices-slide-as-forecasts-point-to-2027-cu-196a7a58",
+      "url": "/stories/nand-spot-prices-slide-as-forecasts-point-to-2027-cu-196a7a58.html",
+      "title": "NAND spot prices slide as forecasts point to 2027 cuts, while DRAM stays firm - Mezha.net",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "Mezha.net",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nand-prices-could-finally-be-set-to-fall-in-the-firs-48bc18a8",
+      "url": "/stories/nand-prices-could-finally-be-set-to-fall-in-the-firs-48bc18a8.html",
+      "title": "NAND prices could finally be set to fall, in the first bit of good news for component fans for some time — but DRAM is refusing to budge so far - TechRadar",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "TechRadar",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "forget-cheaper-ram-samsung-has-already-sold-out-its-9fec7431",
       "url": "/stories/forget-cheaper-ram-samsung-has-already-sold-out-its-9fec7431.html",
@@ -78,6 +221,17 @@
       "pick": false,
       "source": "WCCFTech",
       "verdict": "Capacity reallocation toward HBM supports the supply-side bifurcation thesis behind the index."
+    },
+    {
+      "slug": "ram-price-tracking-2026-price-tracking-on-ddr5-and-d-1aae2595",
+      "url": "/stories/ram-price-tracking-2026-price-tracking-on-ddr5-and-d-1aae2595.html",
+      "title": "RAM price tracking 2026 — price tracking on DDR5 and DDR4 memory of all capacities - Tom's Hardware",
+      "tag": "supply",
+      "date": "2026-11-24",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
       "slug": "ram-price-tracking-2026-9f7254db",
