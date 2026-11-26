@@ -1,7 +1,183 @@
 {
-  "generatedAt": "2026-11-25T21:39:29.292Z",
-  "count": 3034,
+  "generatedAt": "2026-11-26T08:12:14.735Z",
+  "count": 3051,
   "stories": [
+    {
+      "slug": "nand-flash-declines-as-dram-supercycle-persists-0d0d2bb4",
+      "url": "/stories/nand-flash-declines-as-dram-supercycle-persists-0d0d2bb4.html",
+      "title": "NAND Flash Declines as DRAM Supercycle Persists - 조선일보",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "amazon-s-on-page-coupon-brings-massive-220-discount-e072f9ba",
+      "url": "/stories/amazon-s-on-page-coupon-brings-massive-220-discount-e072f9ba.html",
+      "title": "Amazon’s On-Page Coupon Brings Massive $220 Discount On Apple’s M6 MacBook Pro, 16GB Unified RAM & 1TB SSD Option Now Available For $1,779",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "intel-razor-lake-ax-mop-chip-pictured-with-four-lp5x-0ee26094",
+      "url": "/stories/intel-razor-lake-ax-mop-chip-pictured-with-four-lp5x-0ee26094.html",
+      "title": "Intel \"Razor Lake-AX\" MoP Chip Pictured with Four LP5X Memory Pads, Memory Not Included",
+      "tag": "demand",
+      "date": "2026-11-26",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "micron-shares-plunge-15-in-2-days-on-ai-and-memory-p-82580f63",
+      "url": "/stories/micron-shares-plunge-15-in-2-days-on-ai-and-memory-p-82580f63.html",
+      "title": "Micron shares plunge 15% in 2 days on AI and memory price concerns - Chosunbiz",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "Chosunbiz",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "why-samsung-and-sk-hynix-stock-rebound-could-be-a-cl-d3960791",
+      "url": "/stories/why-samsung-and-sk-hynix-stock-rebound-could-be-a-cl-d3960791.html",
+      "title": "Why Samsung and SK Hynix stock rebound could be a classic bull trap - TradingView",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "huawei-to-unveil-next-generation-ai-memory-chip-in-c-74baf1da",
+      "url": "/stories/huawei-to-unveil-next-generation-ai-memory-chip-in-c-74baf1da.html",
+      "title": "Huawei to unveil next-generation AI memory chip in challenge to Samsung and SK Hynix - 联合早报",
+      "tag": "demand",
+      "date": "2026-11-26",
+      "score": 7,
+      "pick": false,
+      "source": "联合早报",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "jpmorgan-large-model-usage-surges-79-but-prices-plun-2d0ead91",
+      "url": "/stories/jpmorgan-large-model-usage-surges-79-but-prices-plun-2d0ead91.html",
+      "title": "JPMorgan: Large model usage surges 79%, but prices plunge; only DRAM storage costs are rising - 富途牛牛",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "富途牛牛",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "huawei-teases-next-gen-ai-memory-chip-to-take-on-sam-af7f02e4",
+      "url": "/stories/huawei-teases-next-gen-ai-memory-chip-to-take-on-sam-af7f02e4.html",
+      "title": "Huawei Teases Next-Gen AI Memory Chip to Take On Samsung, Hynix - Bloomberg.com",
+      "tag": "demand",
+      "date": "2026-11-26",
+      "score": 7,
+      "pick": false,
+      "source": "Bloomberg.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "memory-chip-market-to-diverge-dram-remains-in-short-a17fd121",
+      "url": "/stories/memory-chip-market-to-diverge-dram-remains-in-short-a17fd121.html",
+      "title": "Memory Chip Market to Diverge? DRAM Remains in Short Supply, NAND Prices to Drop as Early as Q1 Next Year - Moomoo",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "Moomoo",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kioxia-and-nvidia-collaborate-to-expand-effective-hi-2daa9532",
+      "url": "/stories/kioxia-and-nvidia-collaborate-to-expand-effective-hi-2daa9532.html",
+      "title": "Kioxia and NVIDIA Collaborate to Expand Effective High-Bandwidth Memory Capacity with SSDs - Yahoo Finance Singapore",
+      "tag": "demand",
+      "date": "2026-11-26",
+      "score": 7,
+      "pick": false,
+      "source": "Yahoo Finance Singapore",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "us-ustr-takes-aim-at-south-korea-s-semiconductor-sup-d97453cd",
+      "url": "/stories/us-ustr-takes-aim-at-south-korea-s-semiconductor-sup-d97453cd.html",
+      "title": "US USTR Takes Aim at South Korea's Semiconductor Support Policies, Floats Tariffs of Up to 25% - BigGo Finance",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "BigGo Finance",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ntu-develops-ultra-efficient-ai-chip-to-ease-memory-f72db084",
+      "url": "/stories/ntu-develops-ultra-efficient-ai-chip-to-ease-memory-f72db084.html",
+      "title": "NTU develops ultra-efficient AI chip to ease memory bottleneck - 디지털투데이",
+      "tag": "demand",
+      "date": "2026-11-26",
+      "score": 7,
+      "pick": false,
+      "source": "디지털투데이",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "u-s-targets-south-korea-s-honam-semiconductor-cluste-905688ab",
+      "url": "/stories/u-s-targets-south-korea-s-honam-semiconductor-cluste-905688ab.html",
+      "title": "U.S. Targets South Korea's Honam Semiconductor Cluster - 조선일보",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "조선일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "is-dram-pricing-peaking-micron-stock-drops-32-in-a-m-3d68885a",
+      "url": "/stories/is-dram-pricing-peaking-micron-stock-drops-32-in-a-m-3d68885a.html",
+      "title": "Is DRAM pricing peaking? Micron stock drops 32% in a month : Business/Industry : JKN - 재경일보",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "재경일보",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "the-sky-was-once-full-of-stars-kids-then-the-fcc-let-6efcc702",
+      "url": "/stories/the-sky-was-once-full-of-stars-kids-then-the-fcc-let-6efcc702.html",
+      "title": "The sky was once full of stars, kids; then the FCC let Elon Musk launch a million datacenter satellites",
+      "tag": "supply",
+      "date": "2026-11-25",
+      "score": 8,
+      "pick": false,
+      "source": "The Register",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "up-to-70-percent-of-signatures-on-a-petition-against-09cad154",
+      "url": "/stories/up-to-70-percent-of-signatures-on-a-petition-against-09cad154.html",
+      "title": "Up To 70 Percent Of Signatures On A Petition Against SpaceX’s Data Center In Cochise County Came From Non-Residents, Claims Supervisor",
+      "tag": "demand",
+      "date": "2026-11-25",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
     {
       "slug": "ram-price-tracking-2026-6db96c55",
       "url": "/stories/ram-price-tracking-2026-6db96c55.html",
@@ -407,6 +583,17 @@
       "score": 8,
       "pick": false,
       "source": "매일경제",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "mu-skhy-sndk-stocks-in-focus-after-trendforce-lowers-4abbef61",
+      "url": "/stories/mu-skhy-sndk-stocks-in-focus-after-trendforce-lowers-4abbef61.html",
+      "title": "MU, SKHY, SNDK Stocks In Focus After TrendForce Lowers DRAM Pricing Forecast - TradingView",
+      "tag": "supply",
+      "date": "2026-11-25",
+      "score": 8,
+      "pick": false,
+      "source": "TradingView",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
