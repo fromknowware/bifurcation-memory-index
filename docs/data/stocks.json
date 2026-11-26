@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T22:40:11Z",
+  "updated": "2026-11-26T22:01:08Z",
   "source": "yfinance via GitHub Actions",
   "tickers": [
     {
@@ -12,7 +12,7 @@
       "prev_close": 628.15,
       "change": -26.9,
       "change_pct": -4.28,
-      "mkt_cap_b": 680.3,
+      "mkt_cap_b": 682.4,
       "sparkline": [
         798.44,
         778.31,
@@ -33,13 +33,12 @@
       "tier_label": "DRAM Manufacturer",
       "exchange": "KRX",
       "currency": "KRW",
-      "price": 170700.0,
-      "prev_close": 191400.0,
-      "change": -20700.0,
-      "change_pct": -10.82,
-      "mkt_cap_b": 1111586.0,
+      "price": 171300.0,
+      "prev_close": 171200.0,
+      "change": 100.0,
+      "change_pct": 0.06,
+      "mkt_cap_b": 1115493.2,
       "sparkline": [
-        208000.0,
         206000.0,
         196800.0,
         190300.0,
@@ -48,7 +47,8 @@
         183100.0,
         177500.0,
         189400.0,
-        170700.0
+        170700.0,
+        171300.0
       ]
     },
     {
@@ -58,22 +58,22 @@
       "tier_label": "DRAM Manufacturer",
       "exchange": "KRX",
       "currency": "KRW",
-      "price": 1030000.0,
-      "prev_close": 1172000.0,
-      "change": -142000.0,
-      "change_pct": -12.12,
-      "mkt_cap_b": 726328.5,
+      "price": 1053000.0,
+      "prev_close": 1035000.0,
+      "change": 18000.0,
+      "change_pct": 1.74,
+      "mkt_cap_b": 742547.5,
       "sparkline": [
-        1254000.0,
-        1216000.0,
-        1120000.0,
-        1098000.0,
-        1144000.0,
-        1183000.0,
-        1113000.0,
-        1085000.0,
-        1158000.0,
-        1030000.0
+        1192904.0,
+        1098727.38,
+        1077145.25,
+        1122271.62,
+        1160530.88,
+        1091860.38,
+        1064392.12,
+        1136005.62,
+        1010436.81,
+        1033000.0
       ]
     },
     {
@@ -251,13 +251,12 @@
       "tier_label": "DRAM Manufacturer",
       "exchange": "STAR Market",
       "currency": "CNY",
-      "price": 33.6,
-      "prev_close": 35.98,
-      "change": -2.38,
-      "change_pct": -6.61,
-      "mkt_cap_b": 2280.9,
+      "price": 32.69,
+      "prev_close": 33.54,
+      "change": -0.85,
+      "change_pct": -2.53,
+      "mkt_cap_b": 2219.1,
       "sparkline": [
-        40.97,
         39.98,
         38.34,
         36.19,
@@ -266,7 +265,8 @@
         35.16,
         35.9,
         36.26,
-        33.6
+        33.6,
+        32.69
       ]
     }
   ]
