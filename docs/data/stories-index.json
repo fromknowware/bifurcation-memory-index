@@ -1,7 +1,183 @@
 {
-  "generatedAt": "2026-11-26T21:28:43.974Z",
-  "count": 3087,
+  "generatedAt": "2026-11-27T08:24:07.629Z",
+  "count": 3105,
   "stories": [
+    {
+      "slug": "intel-razor-lake-ax-targets-early-2028-launch-mop-ch-bda0189a",
+      "url": "/stories/intel-razor-lake-ax-targets-early-2028-launch-mop-ch-bda0189a.html",
+      "title": "Intel Razor Lake-AX Targets Early 2028 Launch: MoP Chips With Up To 28 CPU, 32 GPU Cores & 96 GB Memory While MoB Expected To Scale Up To 52 Cores & 192 GB Memory",
+      "tag": "supply",
+      "date": "2026-11-27",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "huawei-plans-to-unveil-ai-memory-with-a-4-096-bit-in-26217ac2",
+      "url": "/stories/huawei-plans-to-unveil-ai-memory-with-a-4-096-bit-in-26217ac2.html",
+      "title": "Huawei plans to unveil AI memory with a 4,096-bit interface — Korea Herald - UA.NEWS",
+      "tag": "demand",
+      "date": "2026-11-27",
+      "score": 7,
+      "pick": false,
+      "source": "UA.NEWS",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "huawei-develops-ai-memory-chip-to-challenge-samsung-15464ee4",
+      "url": "/stories/huawei-develops-ai-memory-chip-to-challenge-samsung-15464ee4.html",
+      "title": "Huawei Develops AI Memory Chip to Challenge Samsung and Hynix - cwibc.co.id",
+      "tag": "demand",
+      "date": "2026-11-27",
+      "score": 7,
+      "pick": false,
+      "source": "cwibc.co.id",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "amd-rdna-5-gfx13-gpus-get-initial-linux-7-5-support-7c22fee2",
+      "url": "/stories/amd-rdna-5-gfx13-gpus-get-initial-linux-7-5-support-7c22fee2.html",
+      "title": "AMD RDNA 5 “GFX13” GPUs Get Initial Linux 7.5 Support, With GC 13, GMC 13 Memory Controller, SDMA 8 And DCN 6 Display Code Added",
+      "tag": "supply",
+      "date": "2026-11-27",
+      "score": 8,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "huawei-lists-4-096-pin-hbm-memory-for-chip-conferenc-9ca7319b",
+      "url": "/stories/huawei-lists-4-096-pin-hbm-memory-for-chip-conferenc-9ca7319b.html",
+      "title": "Huawei Lists 4,096-Pin HBM Memory for Chip Conference: Twice HBM4 Width, No Speed Disclosed - Tech Times",
+      "tag": "demand",
+      "date": "2026-11-27",
+      "score": 7,
+      "pick": false,
+      "source": "Tech Times",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "us-holds-tariffs-on-korea-at-15-but-takes-issue-with-0e082d42",
+      "url": "/stories/us-holds-tariffs-on-korea-at-15-but-takes-issue-with-0e082d42.html",
+      "title": "US holds tariffs on Korea at 15% but takes issue with Seoul’s semiconductor strategy - Hankyoreh : English Edition",
+      "tag": "supply",
+      "date": "2026-11-27",
+      "score": 8,
+      "pick": false,
+      "source": "Hankyoreh : English Edition",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "kioxia-announces-gp2-series-ssd-with-over-18-million-299afb61",
+      "url": "/stories/kioxia-announces-gp2-series-ssd-with-over-18-million-299afb61.html",
+      "title": "Kioxia Announces GP2 Series SSD with Over 18 Million Random Read IOPS",
+      "tag": "supply",
+      "date": "2026-11-27",
+      "score": 8,
+      "pick": false,
+      "source": "ServeTheHome",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "china-semiconductor-materials-and-equipment-stocks-r-d4d2f8b9",
+      "url": "/stories/china-semiconductor-materials-and-equipment-stocks-r-d4d2f8b9.html",
+      "title": "China semiconductor materials and equipment stocks rally over 4% on Huawei memory news - Crypto Briefing",
+      "tag": "supply",
+      "date": "2026-11-27",
+      "score": 8,
+      "pick": false,
+      "source": "Crypto Briefing",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "pr-kioxia-and-nvidia-collaborate-to-expand-effective-9c682624",
+      "url": "/stories/pr-kioxia-and-nvidia-collaborate-to-expand-effective-9c682624.html",
+      "title": "(PR) Kioxia and NVIDIA Collaborate to Expand Effective High-Bandwidth Memory Capacity with SSDs",
+      "tag": "demand",
+      "date": "2026-11-26",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "nvidia-s-top-end-b300-servers-are-allegedly-so-easy-8dc8b22d",
+      "url": "/stories/nvidia-s-top-end-b300-servers-are-allegedly-so-easy-8dc8b22d.html",
+      "title": "NVIDIA’s Top-End B300 Servers Are Allegedly So Easy To Buy In China, It’s Only A “Matter Of Asking The Right Person” And Having $3 Million Available",
+      "tag": "macro",
+      "date": "2026-11-26",
+      "score": 6,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Provides macro context for judging whether the current RI surge is expansionary or contractionary."
+    },
+    {
+      "slug": "analyst-jeff-pu-says-dram-prices-could-halve-in-2028-9a42352d",
+      "url": "/stories/analyst-jeff-pu-says-dram-prices-could-halve-in-2028-9a42352d.html",
+      "title": "Analyst Jeff Pu Says DRAM Prices Could Halve in 2028 as the AI Memory Boom Cools, but Cheaper RAM Isn’t Coming Next Year - Wccftech",
+      "tag": "demand",
+      "date": "2026-11-26",
+      "score": 7,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "analyst-jeff-pu-says-dram-prices-could-halve-in-2028-8fe98f77",
+      "url": "/stories/analyst-jeff-pu-says-dram-prices-could-halve-in-2028-8fe98f77.html",
+      "title": "Analyst Jeff Pu Says DRAM Prices Could Halve in 2028 as the AI Memory Boom Cools, but Cheaper RAM Isn’t Coming Next Year",
+      "tag": "demand",
+      "date": "2026-11-26",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "huawei-targets-samsung-sk-hynix-with-memory-design-b-3ef6d96e",
+      "url": "/stories/huawei-targets-samsung-sk-hynix-with-memory-design-b-3ef6d96e.html",
+      "title": "Huawei targets Samsung, SK Hynix with memory design boasting 2X data-pin density - Interesting Engineering",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "Interesting Engineering",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "nvidia-geforce-621-40-stops-the-ssd-writes-but-now-u-81aa646f",
+      "url": "/stories/nvidia-geforce-621-40-stops-the-ssd-writes-but-now-u-81aa646f.html",
+      "title": "NVIDIA GeForce 621.40 Stops the SSD Writes, but Now Users Report Black Screens",
+      "tag": "demand",
+      "date": "2026-11-26",
+      "score": 7,
+      "pick": false,
+      "source": "TechPowerUp",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "ddr4-spot-prices-fall-as-forecast-for-2027-dram-incr-70c84f8e",
+      "url": "/stories/ddr4-spot-prices-fall-as-forecast-for-2027-dram-incr-70c84f8e.html",
+      "title": "DDR4 spot prices fall as forecast for 2027 DRAM increases is lowered - Mezha.net",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "Mezha.net",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ram-price-surge-may-be-losing-steam-as-ddr4-prices-f-a6320589",
+      "url": "/stories/ram-price-surge-may-be-losing-steam-as-ddr4-prices-f-a6320589.html",
+      "title": "RAM price surge may be losing steam as DDR4 prices fall and 2027 outlook improves - Notebookcheck",
+      "tag": "supply",
+      "date": "2026-11-26",
+      "score": 8,
+      "pick": false,
+      "source": "Notebookcheck",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "ai-memory-demand-surge-contrasts-with-nand-price-dec-9aff2955",
       "url": "/stories/ai-memory-demand-surge-contrasts-with-nand-price-dec-9aff2955.html",
@@ -23,6 +199,17 @@
       "pick": false,
       "source": "Foreign Policy Journal",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "huawei-is-about-to-unveil-an-ai-memory-chip-with-twi-af2c4698",
+      "url": "/stories/huawei-is-about-to-unveil-an-ai-memory-chip-with-twi-af2c4698.html",
+      "title": "Huawei is about to unveil an AI memory chip with twice the… - Longbridge",
+      "tag": "demand",
+      "date": "2026-11-26",
+      "score": 7,
+      "pick": false,
+      "source": "Longbridge",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "huawei-teases-an-ai-memory-chip-to-take-on-samsung-a-091b0e94",
@@ -199,6 +386,17 @@
       "pick": false,
       "source": "Crypto Briefing",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "huawei-poised-to-grow-china-s-ai-chip-market-with-a-91bc165e",
+      "url": "/stories/huawei-poised-to-grow-china-s-ai-chip-market-with-a-91bc165e.html",
+      "title": "Huawei Poised To Grow China’s AI Chip Market With A Next-Generation HBM Design With Double The Data Pin Density To Surpass Bandwidth Limitations - Wccftech",
+      "tag": "demand",
+      "date": "2026-11-26",
+      "score": 7,
+      "pick": false,
+      "source": "Wccftech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "huawei-poised-to-grow-china-s-ai-chip-market-with-a-2cdfbdc0",
