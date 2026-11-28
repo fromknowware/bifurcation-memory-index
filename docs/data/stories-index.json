@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-11-27T21:14:24.493Z",
-  "count": 3153,
+  "generatedAt": "2026-11-28T07:43:52.931Z",
+  "count": 3163,
   "stories": [
+    {
+      "slug": "the-flash-inside-ssds-could-get-cheaper-in-2027-but-d890451d",
+      "url": "/stories/the-flash-inside-ssds-could-get-cheaper-in-2027-but-d890451d.html",
+      "title": "The flash inside SSDs could get cheaper in 2027, but RAM supply may stay tight, TrendForce says - MIXED News",
+      "tag": "supply",
+      "date": "2026-11-28",
+      "score": 8,
+      "pick": false,
+      "source": "MIXED News",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "spacex-s-one-million-data-center-satellites-got-fcc-226e2ff1",
+      "url": "/stories/spacex-s-one-million-data-center-satellites-got-fcc-226e2ff1.html",
+      "title": "SpaceX’s One Million Data Center Satellites Got FCC Approval, But Plans To Park Unneeded Satellites Around The Sun Are On Hold",
+      "tag": "demand",
+      "date": "2026-11-28",
+      "score": 7,
+      "pick": false,
+      "source": "WCCFTech",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
+      "slug": "trendforce-nand-flash-contract-prices-may-fall-in-q1-f0225635",
+      "url": "/stories/trendforce-nand-flash-contract-prices-may-fall-in-q1-f0225635.html",
+      "title": "TrendForce: NAND Flash Contract Prices May Fall in Q1 2027 Amid Oversupply - KuCoin",
+      "tag": "earnings",
+      "date": "2026-11-28",
+      "score": 7,
+      "pick": false,
+      "source": "KuCoin",
+      "verdict": "Earnings guidance from memory producers supplies the ASP inputs the Ramification Index is built on."
+    },
+    {
+      "slug": "ddr5-ram-price-surge-32gb-kits-from-439-shattered-io-4e7beeba",
+      "url": "/stories/ddr5-ram-price-surge-32gb-kits-from-439-shattered-io-4e7beeba.html",
+      "title": "DDR5 RAM Price Surge: 32GB Kits From $439 - shattered.io",
+      "tag": "supply",
+      "date": "2026-11-28",
+      "score": 8,
+      "pick": false,
+      "source": "shattered.io",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "ddr5-16gb-2gx8-ett-price-on-jan-08-week-1-coinbase-0128430a",
+      "url": "/stories/ddr5-16gb-2gx8-ett-price-on-jan-08-week-1-coinbase-0128430a.html",
+      "title": "DDR5 16Gb (2Gx8) eTT · price on Jan 08 (Week 1) - Coinbase",
+      "tag": "supply",
+      "date": "2026-11-28",
+      "score": 8,
+      "pick": false,
+      "source": "Coinbase",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "sandisk-s-lightning-fast-optimus-gx-pro-8100-2tb-nvm-09501aad",
+      "url": "/stories/sandisk-s-lightning-fast-optimus-gx-pro-8100-2tb-nvm-09501aad.html",
+      "title": "SanDisk’s lightning-fast Optimus GX Pro 8100 2TB NVMe SSD is 21% off and $0.18 cents per GB",
+      "tag": "supply",
+      "date": "2026-11-27",
+      "score": 8,
+      "pick": false,
+      "source": "Tom's Hardware",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "acer-predator-vesta-ii-rgb-ddr5-6000-cl36-review-goo-d0bf0132",
+      "url": "/stories/acer-predator-vesta-ii-rgb-ddr5-6000-cl36-review-goo-d0bf0132.html",
+      "title": "Acer Predator Vesta II RGB DDR5-6000 CL36 Review: Good RAM, Tough Market - ThePCEnthusiast",
+      "tag": "supply",
+      "date": "2026-11-27",
+      "score": 8,
+      "pick": false,
+      "source": "ThePCEnthusiast",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
     {
       "slug": "didn-t-upgrade-to-apple-s-m6-macbook-pro-yet-your-pa-bb4d0b2a",
       "url": "/stories/didn-t-upgrade-to-apple-s-m6-macbook-pro-yet-your-pa-bb4d0b2a.html",
@@ -179,6 +256,17 @@
       "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
+      "slug": "huawei-takes-aim-at-samsung-with-new-4-096-bit-ai-me-f1dcba6d",
+      "url": "/stories/huawei-takes-aim-at-samsung-with-new-4-096-bit-ai-me-f1dcba6d.html",
+      "title": "Huawei Takes Aim at Samsung With New 4,096-Bit AI Memory - ProPakistani",
+      "tag": "demand",
+      "date": "2026-11-27",
+      "score": 7,
+      "pick": false,
+      "source": "ProPakistani",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
+    },
+    {
       "slug": "beyond-lithography-the-battle-for-semiconductor-manu-43eb85f5",
       "url": "/stories/beyond-lithography-the-battle-for-semiconductor-manu-43eb85f5.html",
       "title": "Beyond Lithography: The Battle for Semiconductor Manufacturing Yield",
@@ -298,6 +386,17 @@
       "pick": false,
       "source": "TechPowerUp",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "high-bandwidth-memory-hbm-market-to-reach-usd-29-65-488770cf",
+      "url": "/stories/high-bandwidth-memory-hbm-market-to-reach-usd-29-65-488770cf.html",
+      "title": "High Bandwidth Memory (HBM) Market to Reach USD 29.65 Billion - openPR.com",
+      "tag": "demand",
+      "date": "2026-11-27",
+      "score": 7,
+      "pick": false,
+      "source": "openPR.com",
+      "verdict": "Adds to AI/HBM demand evidence diverting capacity from commodity DRAM, widening the bifurcation."
     },
     {
       "slug": "nvidia-agrees-to-290-million-settlement-over-2018-cr-183ba476",
@@ -506,6 +605,17 @@
       "score": 8,
       "pick": false,
       "source": "WCCFTech",
+      "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
+    },
+    {
+      "slug": "limited-demand-visibility-and-growing-supply-chain-c-65b18b3a",
+      "url": "/stories/limited-demand-visibility-and-growing-supply-chain-c-65b18b3a.html",
+      "title": "Limited Demand Visibility and Growing Supply Chain Caution Heighten Risk of DRAM Contract Price Declines in 2028, Says TrendForce - TrendForce",
+      "tag": "supply",
+      "date": "2026-11-27",
+      "score": 8,
+      "pick": false,
+      "source": "TrendForce",
       "verdict": "Signals tightening commodity DRAM supply, supportive of R_C and the composite Ramification Index."
     },
     {
